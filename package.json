@@ -1,0 +1,45 @@
+{
+  "name": "delivery-tracker",
+  "version": "0.1.0",
+  "author": {
+    "name": "egg",
+    "email": "i@egg.pe.kr"
+  },
+  "description": "delivery-tracker is delivery tracking library for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egg-/delivery-tracker.git"
+  },
+  "keywords": [
+    "package",
+    "delivery",
+    "parcel",
+    "tracker",
+    "tracking",
+    "shipping",
+    "ems",
+    "koreapost"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egg-/delivery-tracker/issues"
+  },
+  "homepage": "https://github.com/egg-/delivery-tracker#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mocha-test": "^0.13.2",
+    "matchdep": "^1.0.1",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.2"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "moment": "^2.17.1",
+    "request": "^2.79.0"
+  }
+}
