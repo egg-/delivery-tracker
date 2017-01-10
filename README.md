@@ -12,6 +12,7 @@ delivery-tracker is delivery tracking library for Node.js
 Name | Contributor | Link
 ---- | ---- | ----
 Korea Post | @egg- | https://trace.epost.go.kr//xtts/tt/epost/ems/ems_eng.jsp
+Ecargo | @egg- | http://web.ecargo.asia/script/users/tracking.php
 
 ## Installation
 
@@ -65,6 +66,7 @@ time | String | The date and time of the checkpoint provided by the courier. The
 NAMESPACE | CODE | NAME
 ---- | ---- | ----
 KOREAPOST | koreapost | Korea Post
+ECARGO | ecargo | Ecargo
 
 ### STATUS
 
@@ -72,6 +74,7 @@ KOREAPOST | koreapost | Korea Post
 
 Code | Value | Description
 ---- | ---- | ----
+INFO_RECEIVED | InfoReceived | The carrier received a request from the shipper and wants to start shipping.
 PENDING | Pending | New pending shipment to track or a new shipment without tracking information added.
 IN_TRANSIT | InTransit | The carrier has received or received the carrier. Shipment is in progress.
 DELIVERED | Delivered | The shipment was successfully delivered.

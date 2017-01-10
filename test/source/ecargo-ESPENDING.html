@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Ecargo Tracking System</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/img/ico/ecargo_ico.png" />
+        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="/js/mockjax.js"></script>
+        <script>
+$(function() {
+    var moveLeft = 0;
+    var moveDown = 0;
+    $('a.popper').hover(function(e) {
+        var target = '#' + ($(this).attr('data-popbox'));
+        $(target).show();
+        moveLeft = $(this).outerWidth();
+        moveDown = ($(target).outerHeight() / 2);
+    }, function() {
+        var target = '#' + ($(this).attr('data-popbox'));
+        $(target).hide();
+    });
+
+    $('a.popper').mousemove(function(e) {
+        var target = '#' + ($(this).attr('data-popbox'));
+
+        leftD = e.pageX + parseInt(moveLeft);
+        maxRight = leftD + $(target).outerWidth();
+        windowLeft = $(window).width() - 40;
+        windowRight = 0;
+        maxLeft = e.pageX - (parseInt(moveLeft) + $(target).outerWidth() + 20);
+
+        if(maxRight > windowLeft && maxLeft > windowRight) {
+            leftD = maxLeft;
+        }
+
+        topD = e.pageY - parseInt(moveDown);
+        maxBottom = parseInt(e.pageY + parseInt(moveDown) + 20);
+        windowBottom = parseInt(parseInt($(document).scrollTop()) + parseInt($(window).height()));
+        maxTop = topD;
+        windowTop = parseInt($(document).scrollTop());
+        if(maxBottom > windowBottom) {
+            topD = windowBottom - $(target).outerHeight() - 20;
+        } else if(maxTop < windowTop){
+            topD = windowTop + 20;
+        }
+
+        $(target).css('top', topD).css('left', leftD);
+    });
+});
+
+function showHandedOverInfo(url, line_name, phone, trno){
+	if (url && line_name && trno) {
+		switch (line_name){
+			case 'DHL':
+				url += '?ref=' + trno;
+				break;
+		}
+// 		var str = "Your item can be also tracked at
+            <a href='http://" + url + "' target='_blank'>" + line_name + "</a> with
+            <font color='red'>" + trno + "</font>";
+		var str = "Your item can be also tracked at
+            <a href='//" + url + "' target='_blank'>" + line_name + "</a> with
+            <font color='red'>" + trno + "</font>";
+		$('#tracking_info').html(str);
+	}
+	if (phone) {
+		var str = "You can also make an inquiry by telephone at
+            <font color='#3388cc'>
+                <b>" + phone + "</b>
+            </font>";
+		$('#contact_info').html(str);
+	}
+}
+
+$(document).ready(function(){
+	//Pressing enter in search_no input box will be triger the button click event.
+	$('#search_no').keypress(function (e) {
+		var key = e.which;
+		if (key == 13) {  // the enter key code == Enter
+			$('#btnSubmit').click();
+			return false;
+		}
+	});
+
+	//Submit the form - check the seatch number input and submit
+	$('#form2').submit(function() {
+		if($("#search_no").val().trim().length == 0) {
+			$("#show_msg_01").css("color", "red");
+			$("#show_msg_01").text('Please input the Tracking no.').show().fadeOut(5000);
+		//	$('#btnSubmit').html('Query');
+		//	$('#btnSubmit').prop('disabled', false);
+			$('#search_no').focus();
+			return false;
+		}
+		$('#btnSubmit').html('Wait ...');
+		$('#btnSubmit').prop('disabled', true);
+		$('#form2').attr("action", "").submit();
+	});
+});
+        </script>
+        <style>
+body {
+	font-size: .91em;
+}
+
+.popbox {
+	display: none;
+	position: absolute;
+	z-index: 99999;
+	width: 300px;
+	padding: 10px;
+	background: #EEEFEB;
+	color: #000000;
+	border: 1px solid #4D4F53;
+	margin: 0px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+	box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+}
+
+.popbox h2 {
+	background-color: #4D4F53;
+	color: #E3E5DD;
+	font-size: 1em;
+	font-weight: normal;
+	display: block;
+	width: 100%;
+	margin: -10px 0px 8px -10px;
+	padding: 5px 10px;
+}
+
+/*! Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window with position:fixed.
+   Width, height, top and left speak for themselves.
+   Background we set to 80% white with our animation centered, and no-repeating
+ */
+.modal_loading {
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(255, 255, 255, .8) url('/img/loader.gif') 50% 50% no-repeat;
+}
+
+/* When the body has the loading class, we turn the scrollbar off with overflow:hidden */
+body.loading {
+	overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our modal element will be visible */
+body.loading .modal_loading {
+	display: block;
+}
+</style>
+    </head>
+    <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="$('#search_no').focus();">
+        <!-- Show loading image - place at the bottom of the page -->
+        <div class="modal_loading"></div>
+        <script type="text/javascript">
+
+		// Show loading image
+		$body = $("body");
+		$(document).on({
+			ajaxStart: function () { $body.addClass("loading"); },
+			ajaxStop: function () {	$body.removeClass("loading");	}
+		});
+
+		// Initiates an AJAX request when submit
+		$(document).on("submit", function () {
+			$.get("/mockjax");
+		});
+
+		$.mockjax({ url: "/mockjax", responseTime: 20000 });
+
+	</script>
+        <div style="margin: 0px auto; width: 600px;">
+            <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td align="left" width="100%">
+                        <table border="0" width="100%" height="100">
+                            <tr>
+                                <td align="left" valign="middle" width="150">&nbsp;&nbsp;
+                                    <img width="120" src="/img/ecargo_logo.png" border="0">
+                                </td>
+                                <td>
+                                    <form name="form2" id="form2" method="post" data-ajax="false">
+                                        <input type="hidden" name="mode" value="search" />
+                                        <table border="0" width="100%">
+                                            <tr>
+                                                <td height="40" colspan="3"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" width="120">Tracking No.</td>
+                                                <td align="right" width="220">
+                                                    <input type="text" id="search_no" name="search_no" value="ESPENDING" placeholder="Enter HAWB no. or Ref no." maxlength="20" style="height: 44px" onclick="this.select();" />
+                                                </td>
+                                                <td align="right">
+                                                    <button type="submit" id="btnSubmit" style="width: 100px;">Query</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align='right' width='180' colspan='3'>
+                                                    <span id="show_msg_01"></span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" height="20" colspan="3">
+							</td>
+                                            </tr>
+                                        </table>
+                                    </form>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100%" colspan="2">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td height="12" width="100%" style="color: #c09853;"></td>
+                            </tr>
+                            <tr>
+                                <td width="100%">
+                                    <div align="center">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td colspan="4" height="20" width="100%">
+                                                    <table width="100%" cellspacing="1" cellpadding="3">
+                                                        <tr height="25">
+                                                            <th width="150" align="left">Shipper name:</th>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr height="25">
+                                                            <th width="150" align="left">Consignee name:</th>
+                                                            <td></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" colspan="4"></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="4">
+                                                    <table width="100%" cellspacing="1" cellpadding="3" border="0" bgcolor="#929699">
+                                                        <tr height="30" align="center" bgcolor="#e0e0e0">
+                                                            <th class="text-center" width="5%">No.</th>
+                                                            <th class="text-center" width="12%">Date</th>
+                                                            <th class="text-center" width="8%">Time</th>
+                                                            <th class="text-center" width="8%">Area</th>
+                                                            <th class="text-center" width="22%">Status</th>
+                                                            <th class="text-center" width="19%">Status(KOR)</th>
+                                                            <th class="text-center" width="30%">Remarks</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="30" colspan="7" align="center" width="100%" bgcolor="#FFFFFF">Unregistered or Incorrect Tracking Number</td>
+                                                        </tr>
