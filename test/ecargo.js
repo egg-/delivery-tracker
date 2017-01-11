@@ -13,7 +13,7 @@ var prepareNock = function (number) {
   var trackingInfo = courier.trackingInfo(number)
   var info = url.parse(trackingInfo.url)
   nock([info.protocol, info.host].join('//'))[trackingInfo.method.toLowerCase()](info.path, trackingInfo.data)
-    .replyWithFile(200, __dirname + '/source/ecargo-' + number + '.html')
+    .replyWithFile(200, __dirname + '/fixtures/ecargo-' + number + '.html')
 }
 
 describe(tracker.COURIER.ECARGO.NAME, function () {

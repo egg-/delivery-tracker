@@ -13,7 +13,7 @@ var prepareNock = function (number) {
   var trackingInfo = courier.trackingInfo(number)
   var info = url.parse(trackingInfo.url)
   nock([info.protocol, info.host].join('//'))[trackingInfo.method.toLowerCase()](info.path, trackingInfo.data)
-    .replyWithFile(200, __dirname + '/source/auspost-' + number + '.json')
+    .replyWithFile(200, __dirname + '/fixtures/auspost-' + number + '.json')
 }
 
 describe(tracker.COURIER.AUSPOST.NAME, function () {
