@@ -1,6 +1,10 @@
+# 0.5.0
+* add australia post.
+* add pantos.
+
 # 0.4.1
 * add a status value to the fedex checkpoint message information.
-* change the delimiter of checkpoint message. 
+* change the delimiter of checkpoint message.
 
 # 0.4.0
 * add command line.

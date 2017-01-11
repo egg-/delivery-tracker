@@ -11,9 +11,11 @@ delivery-tracker is delivery tracking library for Node.js
 
 Name | Contributor | Link
 ---- | ---- | ----
-Korea Post | @egg- | https://trace.epost.go.kr//xtts/tt/epost/ems/ems_eng.jsp
-Ecargo | @egg- | http://web.ecargo.asia/script/users/tracking.php
-FedEx | @egg- | https://www.fedex.com/apps/fedextrack/?action=track
+Korea Post | @egg- | http://www.koreapost.go.kr/
+Ecargo | @egg- | http://ecargo.asia/script/users/main.php
+FedEx | @egg- | https://www.fedex.com/
+Australia Post | @egg- | https://auspost.com.au/
+Pantos | @egg- | http://www.epantos.com/
 
 ## Installation
 
@@ -86,6 +88,8 @@ NAMESPACE | CODE | NAME
 KOREAPOST | koreapost | Korea Post
 ECARGO | ecargo | Ecargo
 FEDEX | fedex | FedEx
+AUSPOST | auspost | Australia Post
+PANTOS | pantos | Pantos
 
 ### STATUS
 
@@ -179,7 +183,7 @@ $ grunt watch
 
 Bug reports and pull requests are welcome on Github at [https://github.com/egg-/delivery-tracker](https://github.com/egg-/delivery-tracker)
 
-1. Fort it
+1. Fork it
 1. Create your feature branch.
 1. Commit your changes.
 1. Push to the branch.

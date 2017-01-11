@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding="utf-8"?>
+<xsync><LMultiData onAfterAction="mstAfter" onBeforeAction="mstBefore" myid="myvalue" id="lsyncMultiDataId"><pckpplcNm><![CDATA[INCHEON INTL APT/SEOUL, KOREA]]></pckpplcNm>
+<soNo><![CDATA[SHQE161200102399]]></soNo>
+<hblNo><![CDATA[DELIVEREDNUM-AUSPOST]]></hblNo>
+<mblNo><![CDATA[98895648265]]></mblNo>
+<blId><![CDATA[0065399064]]></blId>
+<invcNo><![CDATA[]]></invcNo>
+<routNm><![CDATA[INCHEON INTL APT/SEOUL, KOREA -> SYDNEY, AUSTRALIA]]></routNm>
+<currPortCd><![CDATA[AUSYD]]></currPortCd>
+<blDlvEtaYmdHm><![CDATA[]]></blDlvEtaYmdHm>
+<currEvntCd><![CDATA[ARR]]></currEvntCd>
+<currEvntNm><![CDATA[On the road]]></currEvntNm>
+<expsBizTypeCd><![CDATA[Pantos Express]]></expsBizTypeCd>
+<routSprNm><![CDATA[NON_USA]]></routSprNm>
+<carrNm><![CDATA[ASIANA AIRLINES]]></carrNm>
+<carrCd><![CDATA[1004091]]></carrCd>
+<cneeNm><![CDATA[ANN-GEE LEE ]]></cneeNm>
+<blDlvRecvNm><![CDATA[]]></blDlvRecvNm>
+<cneeNmL><![CDATA[ANN-GEE LEE ]]></cneeNmL>
+<cneeNmE><![CDATA[ANN-GEE LEE ]]></cneeNmE>
+<signYn><![CDATA[N]]></signYn>
+<expsBizTypeCode><![CDATA[PX]]></expsBizTypeCode>
+<fltVslNm><![CDATA[OZ601]]></fltVslNm>
+<podEtaYmdHm><![CDATA[2016-12-29 08:20]]></podEtaYmdHm>
+<podNatnCd><![CDATA[AU]]></podNatnCd>
+<dtlCont><![CDATA[3KT0032202]]></dtlCont>
+<carrTypeCd><![CDATA[]]></carrTypeCd>
+<wexTrckgNo><![CDATA[]]></wexTrckgNo>
+<refBlNo><![CDATA[3KT0032202]]></refBlNo>
+<dtdLinkYn><![CDATA[N]]></dtdLinkYn>
+<trkrSvcCd><![CDATA[]]></trkrSvcCd>
+<linkedAddr><![CDATA[]]></linkedAddr>
+<carrSprCd><![CDATA[]]></carrSprCd>
+<cneeNmEs><![CDATA[ANN*********]]></cneeNmEs>
+<cneeNmLs><![CDATA[AN**-*** *** ]]></cneeNmLs>
+<currEvntNmKr><![CDATA[목적지 도착]]></currEvntNmKr>
+<wmDomCarr><![CDATA[]]></wmDomCarr>
+<wmDomCarrTrckNo><![CDATA[]]></wmDomCarrTrckNo>
+</LMultiData></xsync>

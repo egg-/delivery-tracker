@@ -1,0 +1,50 @@
+{
+  "status": "Success",
+  "QueryTrackEventsResponse": {
+    "TrackingResults": [
+      {
+        "ReturnMessage": {
+          "Code": "ESB-BUS-DATA-100",
+          "Description": "Success"
+        },
+        "TrackingID": "DELIVEREDNUM",
+        "Consignment": {
+          "Articles": [
+            {
+              "ArticleID": "121950044095",
+              "EventNotification": "00",
+              "ProductName": "Express Post",
+              "Status": "Delivered",
+              "Events": [
+                {
+                  "EventDescription": "Delivered",
+                  "EventDateTime": "2017-01-03T15:24:00+08:00",
+                  "Location": "Canning Vale, WA",
+                  "WorkCentreID": "632198",
+                  "EventCode": "DD-ER13",
+                  "Status": "Delivered"
+                },
+                {
+                  "EventDescription": "With Australia Post for delivery today",
+                  "EventDateTime": "2017-01-03T07:52:38+08:00",
+                  "Location": "Canning Vale, WA",
+                  "WorkCentreID": "632198",
+                  "EventCode": "AFP-ER15",
+                  "Status": "In transit"
+                },
+                {
+                  "EventDescription": "Received by Australia Post",
+                  "EventDateTime": "2016-12-29T16:53:05+08:00",
+                  "Location": "Carlisle, WA",
+                  "WorkCentreID": "613640",
+                  "EventCode": "AFC-ER31",
+                  "Status": "In transit"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

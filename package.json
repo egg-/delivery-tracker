@@ -1,6 +1,6 @@
 {
   "name": "delivery-tracker",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -27,7 +27,10 @@
     "ems",
     "koreapost",
     "ecargo",
-    "fedex"
+    "fedex",
+    "pantos",
+    "auspost",
+    "australia post"
   ],
   "license": "MIT",
   "bugs": {
@@ -43,9 +46,11 @@
     "nock": "^9.0.2"
   },
   "dependencies": {
+    "async": "^2.1.4",
     "cheerio": "^0.22.0",
     "commander": "^2.9.0",
     "moment": "^2.17.1",
-    "request": "^2.79.0"
+    "request": "^2.79.0",
+    "xml2js": "^0.4.17"
   }
 }
