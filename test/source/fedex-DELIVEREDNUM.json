@@ -1,0 +1,612 @@
+{
+	"TrackPackagesResponse": {
+		"successful": true,
+		"passedLoggedInCheck": false,
+		"errorList": [
+			{
+				"code": "0",
+				"message": "Request was successfully processed.",
+				"source": null,
+				"rootCause": null
+			}
+		],
+		"packageList": [
+			{
+				"trackingNbr": "DELIVEREDNUM",
+				"trackingQualifier": "20161208084400~DELIVEREDNUM~FXSP",
+				"trackingCarrierCd": "FXSP",
+				"trackingCarrierDesc": "FedEx SmartPost",
+				"displayTrackingNbr": "DELIVEREDNUM",
+				"shipperCmpnyName": "",
+				"shipperName": "",
+				"shipperAddr1": "",
+				"shipperAddr2": "",
+				"shipperCity": "Dayton",
+				"shipperStateCD": "NJ",
+				"shipperZip": "",
+				"shipperCntryCD": "US",
+				"shipperPhoneNbr": "",
+				"shippedBy": "",
+				"recipientCmpnyName": "",
+				"recipientName": "",
+				"recipientAddr1": "",
+				"recipientAddr2": "",
+				"recipientCity": "SUNNYSIDE",
+				"recipientStateCD": "NY",
+				"recipientZip": "",
+				"recipientCntryCD": "US",
+				"recipientPhoneNbr": "",
+				"shippedTo": "",
+				"keyStatus": "Delivered",
+				"keyStatusCD": "DL",
+				"lastScanStatus": "",
+				"lastScanDateTime": "",
+				"receivedByNm": "",
+				"subStatus": "",
+				"mainStatus": "",
+				"statusBarCD": "DL",
+				"shortStatus": "",
+				"shortStatusCD": "",
+				"statusLocationAddr1": "",
+				"statusLocationAddr2": "",
+				"statusLocationCity": "SUNNYSIDE",
+				"statusLocationStateCD": "NY",
+				"statusLocationZip": "",
+				"statusLocationCntryCD": "US",
+				"statusWithDetails": "Delivered: 12/23/2016 3:19 pm; SUNNYSIDE, NY; Package delivered by U.S. Postal Service to addressee",
+				"shipDt": "2016-12-20T00:00:00-06:00",
+				"displayShipDt": "12/20/2016",
+				"displayShipTm": "",
+				"displayShipDateTime": "12/20/2016",
+				"pickupDt": "2016-12-20T00:00:00-06:00",
+				"displayPickupDt": "12/20/2016",
+				"displayPickupTm": "",
+				"displayPickupDateTime": "12/20/2016",
+				"estDeliveryDt": "",
+				"estDeliveryTm": "",
+				"displayEstDeliveryDt": "",
+				"displayEstDeliveryTm": "",
+				"displayEstDeliveryDateTime": "",
+				"actDeliveryDt": "2016-12-23T15:19:00-05:00",
+				"displayActDeliveryDt": "12/23/2016",
+				"displayActDeliveryTm": "3:19 pm",
+				"displayActDeliveryDateTime": "12/23/2016 3:19 pm",
+				"tenderedDt": "2016-12-20T00:00:00-06:00",
+				"displayTenderedDt": "12/20/2016",
+				"displayTenderedTm": "",
+				"displayTenderedDateTime": "12/20/2016",
+				"apptDeliveryDt": "",
+				"displayApptDeliveryDt": "",
+				"displayApptDeliveryTm": "",
+				"displayApptDeliveryDateTime": "",
+				"nickName": "",
+				"note": "",
+				"matchedAccountList": [
+					""
+				],
+				"fxfAdvanceETA": "",
+				"fxfAdvanceReason": "",
+				"fxfAdvanceStatusCode": "",
+				"fxfAdvanceStatusDesc": "",
+				"destLink": "",
+				"originLink": "",
+				"hasBillOfLadingImage": false,
+				"hasBillPresentment": false,
+				"signatureRequired": 0,
+				"totalKgsWgt": "",
+				"displayTotalKgsWgt": "",
+				"totalLbsWgt": "",
+				"displayTotalLbsWgt": "",
+				"displayTotalWgt": "",
+				"pkgKgsWgt": "0.18",
+				"displayPkgKgsWgt": "0.18 kgs",
+				"pkgLbsWgt": "0.4",
+				"displayPkgLbsWgt": "0.4 lbs",
+				"displayPkgWgt": "0.4 lbs / 0.18 kgs",
+				"totalDIMLbsWgt": "",
+				"displayTotalDIMLbsWgt": "",
+				"totalDIMKgsWgt": "",
+				"displayTotalDIMKgsWgt": "",
+				"displayTotalDIMWgt": "",
+				"dimensions": "6x6x6 in.",
+				"masterTrackingNbr": "",
+				"masterQualifier": "",
+				"masterCarrierCD": "",
+				"originalOutboundTrackingNbr": null,
+				"originalOutboundQualifier": "",
+				"originalOutboundCarrierCD": "",
+				"invoiceNbrList": [
+					""
+				],
+				"referenceList": [
+					"SHQE161200036266_1"
+				],
+				"doorTagNbrList": [
+					""
+				],
+				"referenceDescList": [
+					""
+				],
+				"purchaseOrderNbrList": [
+					""
+				],
+				"billofLadingNbrList": [
+					""
+				],
+				"shipperRefList": [
+					""
+				],
+				"rmaList": [
+					""
+				],
+				"deptNbrList": [
+					""
+				],
+				"shipmentIdList": [
+					""
+				],
+				"tcnList": [
+					""
+				],
+				"partnerCarrierNbrList": [
+					""
+				],
+				"hasAssociatedShipments": false,
+				"hasAssociatedReturnShipments": false,
+				"assocShpGrp": 0,
+				"drTgGrp": [
+					"0"
+				],
+				"associationInfoList": [
+					{
+						"trackingNumberInfo": {
+							"trackingNumber": "",
+							"trackingQualifier": "",
+							"trackingCarrier": "",
+							"processingParameters": null
+						},
+						"associatedType": ""
+					}
+				],
+				"returnReason": "",
+				"returnRelationship": null,
+				"skuItemUpcCdList": [
+					""
+				],
+				"receiveQtyList": [
+					""
+				],
+				"itemDescList": [
+					""
+				],
+				"partNbrList": [
+					""
+				],
+				"serviceCD": "SMART_POST",
+				"serviceDesc": "FedEx SmartPost",
+				"serviceShortDesc": "SP",
+				"packageType": "PACKAGE",
+				"packaging": "Package",
+				"clearanceDetailLink": "",
+				"showClearanceDetailLink": false,
+				"manufactureCountryCDList": [
+					""
+				],
+				"commodityCDList": [
+					""
+				],
+				"commodityDescList": [
+					""
+				],
+				"cerNbrList": [
+					""
+				],
+				"cerComplaintCDList": [
+					""
+				],
+				"cerComplaintDescList": [
+					""
+				],
+				"cerEventDateList": [
+					""
+				],
+				"displayCerEventDateList": [
+					""
+				],
+				"totalPieces": "1",
+				"specialHandlingServicesList": [
+					""
+				],
+				"shipmentType": "",
+				"pkgContentDesc1": "",
+				"pkgContentDesc2": "",
+				"docAWBNbr": "",
+				"originalCharges": "",
+				"transportationCD": "",
+				"transportationDesc": "",
+				"dutiesAndTaxesCD": "",
+				"dutiesAndTaxesDesc": "",
+				"origPieceCount": "",
+				"destPieceCount": "",
+				"billNoteMsg": "",
+				"goodsClassificationCD": "",
+				"receipientAddrQty": "0",
+				"deliveryAttempt": "0",
+				"codReturnTrackNbr": "",
+				"returnMovementStatus": null,
+				"scanEventList": [
+					{
+						"date": "2016-12-23",
+						"time": "15:19:00",
+						"gmtOffset": "-05:00",
+						"status": "Delivered",
+						"statusCD": "DL",
+						"scanLocation": "SUNNYSIDE, NY",
+						"scanDetails": "Package delivered by U.S. Postal Service to addressee",
+						"scanDetailsHtml": "",
+						"rtrnShprTrkNbr": "",
+						"isException": false,
+						"isClearanceDelay": false,
+						"isDelivered": true,
+						"isDelException": false
+					},
+					{
+						"date": "2016-12-23",
+						"time": "10:26:00",
+						"gmtOffset": "-05:00",
+						"status": "Out for delivery",
+						"statusCD": "OD",
+						"scanLocation": "SUNNYSIDE, NY",
+						"scanDetails": "Out for delivery with the U.S. Postal Service",
+						"scanDetailsHtml": "",
+						"rtrnShprTrkNbr": "",
+						"isException": false,
+						"isClearanceDelay": false,
+						"isDelivered": false,
+						"isDelException": false
+					},
+					{
+						"date": "2016-12-23",
+						"time": "06:17:00",
+						"gmtOffset": "-05:00",
+						"status": "At U.S. Postal Service facility",
+						"statusCD": "AR",
+						"scanLocation": "LONG ISLAND CITY, NY",
+						"scanDetails": "Accepted by U.S. Postal Service",
+						"scanDetailsHtml": "",
+						"rtrnShprTrkNbr": "",
+						"isException": false,
+						"isClearanceDelay": false,
+						"isDelivered": false,
+						"isDelException": false
+					},
+					{
+						"date": "2016-12-23",
+						"time": "05:20:00",
+						"gmtOffset": "-05:00",
+						"status": "In transit",
+						"statusCD": "IT",
+						"scanLocation": "LONG ISLAND CITY, NY",
+						"scanDetails": "In transit to U.S. Postal Service",
+						"scanDetailsHtml": "",
+						"rtrnShprTrkNbr": "",
+						"isException": false,
+						"isClearanceDelay": false,
+						"isDelivered": false,
+						"isDelException": false
+					},
+					{
+						"date": "2016-12-23",
+						"time": "04:03:00",
+						"gmtOffset": "-05:00",
+						"status": "Shipment information sent to U.S. Postal Service",
+						"statusCD": "OX",
+						"scanLocation": "",
+						"scanDetails": "",
+						"scanDetailsHtml": "",
+						"rtrnShprTrkNbr": "",
+						"isException": false,
+						"isClearanceDelay": false,
+						"isDelivered": false,
+						"isDelException": false
+					},
+					{
+						"date": "2016-12-23",
+						"time": "04:00:17",
+						"gmtOffset": "-05:00",
+						"status": "Departed FedEx location",
+						"statusCD": "DP",
+						"scanLocation": "FEDEX SMARTPOST EDISON, NJ",
+						"scanDetails": "",
+						"scanDetailsHtml": "",
+						"rtrnShprTrkNbr": "",
+						"isException": false,
+						"isClearanceDelay": false,
+						"isDelivered": false,
+						"isDelException": false
+					},
+					{
+						"date": "2016-12-22",
+						"time": "01:52:28",
+						"gmtOffset": "-05:00",
+						"status": "Arrived at FedEx location",
+						"statusCD": "AR",
+						"scanLocation": "FEDEX SMARTPOST EDISON, NJ",
+						"scanDetails": "",
+						"scanDetailsHtml": "",
+						"rtrnShprTrkNbr": "",
+						"isException": false,
+						"isClearanceDelay": false,
+						"isDelivered": false,
+						"isDelException": false
+					},
+					{
+						"date": "2016-12-21",
+						"time": "00:25:00",
+						"gmtOffset": "-05:00",
+						"status": "Arrived at FedEx location",
+						"statusCD": "AR",
+						"scanLocation": "KEASBEY, NJ",
+						"scanDetails": "",
+						"scanDetailsHtml": "",
+						"rtrnShprTrkNbr": "",
+						"isException": false,
+						"isClearanceDelay": false,
+						"isDelivered": false,
+						"isDelException": false
+					},
+					{
+						"date": "2016-12-08",
+						"time": "03:44:17",
+						"gmtOffset": "-05:00",
+						"status": "Shipment information sent to FedEx",
+						"statusCD": "OC",
+						"scanLocation": "",
+						"scanDetails": "",
+						"scanDetailsHtml": "",
+						"rtrnShprTrkNbr": "",
+						"isException": false,
+						"isClearanceDelay": false,
+						"isDelivered": false,
+						"isDelException": false
+					}
+				],
+				"originAddr1": "",
+				"originAddr2": "",
+				"originCity": "",
+				"originStateCD": "",
+				"originZip": "",
+				"originCntryCD": "",
+				"originLocationID": "",
+				"originTermCity": "",
+				"originTermStateCD": "",
+				"destLocationAddr1": "",
+				"destLocationAddr2": "",
+				"destLocationCity": "",
+				"destLocationStateCD": "",
+				"destLocationZip": "",
+				"destLocationCntryCD": "",
+				"destLocationID": "",
+				"destLocationTermCity": "",
+				"destLocationTermStateCD": "",
+				"destAddr1": "",
+				"destAddr2": "",
+				"destCity": "SUNNYSIDE",
+				"destStateCD": "NY",
+				"destZip": "",
+				"destCntryCD": "US",
+				"halAddr1": "",
+				"halAddr2": "",
+				"halCity": "",
+				"halStateCD": "",
+				"halZipCD": "",
+				"halCntryCD": "",
+				"actualDelAddrCity": "SUNNYSIDE",
+				"actualDelAddrStateCD": "NY",
+				"actualDelAddrZipCD": "",
+				"actualDelAddrCntryCD": "US",
+				"totalTransitMiles": "",
+				"excepReasonList": [
+					""
+				],
+				"excepActionList": [
+					""
+				],
+				"exceptionReason": "",
+				"exceptionAction": "",
+				"statusDetailsList": [
+					"Package delivered by U.S. Postal Service to addressee"
+				],
+				"trackErrCD": "",
+				"destTZ": "-05:00",
+				"originTZ": "+00:00",
+				"isMultiStat": "0",
+				"multiStatList": [
+					{
+						"multiPiec": "",
+						"multiTm": "",
+						"multiDispTm": "",
+						"multiSta": ""
+					}
+				],
+				"maskMessage": "",
+				"deliveryService": "",
+				"milestoDestination": "",
+				"terms": "Shipper",
+				"payorAcctNbr": "",
+				"meterNumber": "",
+				"originUbanizationCode": "",
+				"originCountryName": "",
+				"isOriginResidential": false,
+				"halUrbanizationCD": "",
+				"halCountryName": "",
+				"actualDelAddrUrbanizationCD": "",
+				"actualDelAddrCountryName": "",
+				"destUrbanizationCD": "",
+				"destCountryName": "",
+				"delToDesc": "",
+				"recpShareID": "4ireue602qpzhmjuy7f1oh89q",
+				"shprShareID": "",
+				"requestedAppointmentInfoList": [
+					{
+						"spclInstructDesc": "",
+						"delivOptn": "",
+						"delivOptnStatus": "",
+						"reqApptWdw": "",
+						"reqApptDesc": "",
+						"rerouteTRKNbr": "",
+						"beginTm": "",
+						"endTm": ""
+					}
+				],
+				"defaultCDOType": "CDO",
+				"returnAuthorizationName": "",
+				"totalCustomsValueAmount": "",
+				"totalCustomsValueCurrency": "",
+				"packageInsuredValueAmount": "",
+				"packageInsuredValueCurrency": "",
+				"estDelTimeWindow": {
+					"estDelTmWindowStart": "",
+					"estDelTmWindowEnd": "",
+					"displayEstDelTmWindowTmStart": "",
+					"displayEstDelTmWindowTmEnd": ""
+				},
+				"standardTransitTimeWindow": {
+					"stdTransitTimeStart": "",
+					"displayStdTransitTimeStart": "",
+					"stdTransitTimeEnd": "",
+					"displayStdTransitTimeEnd": ""
+				},
+				"standardTransitDate": {
+					"stdTransitDate": "",
+					"displayStdTransitDate": ""
+				},
+				"pkgDimIn": "6x6x6 in.",
+				"pkgDimCm": "15.24x15.24x15.24 cms",
+				"returnedToShipperTrackNbr": "",
+				"commodityInfoList": [
+					{
+						"countryOfManufacture": "",
+						"harmonizedCode": "",
+						"description": ""
+					}
+				],
+				"statusActionDesc": "",
+				"destinationGeoCoordinate": null,
+				"serviceCommitMessage": "U.S. Postal Service delivered this shipment.",
+				"mpstype": "",
+				"rthavailableCD": "",
+				"excepReasonListNoInit": [
+					""
+				],
+				"excepActionListNoInit": [
+					""
+				],
+				"statusDetailsListNoInit": [
+					"Package delivered by U.S. Postal Service to addressee"
+				],
+				"matched": false,
+				"fxfAdvanceNotice": true,
+				"codrequired": false,
+				"isSuccessful": true,
+				"isException": false,
+				"isResidential": true,
+				"isShipDtLabel": false,
+				"isChildPackage": false,
+				"isParentPackage": false,
+				"isReclassifiedAsSingleShipment": false,
+				"isMaskShipper": false,
+				"isHALResidential": false,
+				"isActualDelAddrResidential": false,
+				"CDOInfoList": [
+					{
+						"spclInstructDesc": "",
+						"delivOptn": "",
+						"delivOptnStatus": "",
+						"reqApptWdw": "",
+						"reqApptDesc": "",
+						"rerouteTRKNbr": "",
+						"beginTm": "",
+						"endTm": ""
+					}
+				],
+				"isAnticipatedShipDtLabel": false,
+				"isShipPickupDtLabel": true,
+				"isActualPickupLabel": false,
+				"isOrderReceivedLabel": false,
+				"isEstimatedDeliveryDtLabel": false,
+				"isDeliveryDtLabel": false,
+				"isActualDeliveryDtLabel": true,
+				"isOrderCompleteLabel": false,
+				"isTenderedDtLabel": false,
+				"isEstDelTmWindowLabel": false,
+				"isUnknownDirection": false,
+				"isSpod": false,
+				"isSignatureAvailable": false,
+				"isSignatureThumbnailAvailable": false,
+				"isOriginalOutBound": false,
+				"isHalEligible": false,
+				"isFedexOfficeOnlineOrders": false,
+				"isFedexOfficeInStoreOrders": false,
+				"isMultipleStop": false,
+				"isReqEstDelDt": false,
+				"isMtchdByRecShrID": false,
+				"isMtchdByShiprShrID": false,
+				"isHistoricalEDTW": false,
+				"isNonHistoricalEDTW": false,
+				"isTargetedMsg": false,
+				"isCommodityInfoAvail": false,
+				"isDeliveryToday": false,
+				"isDocumentAvailable": false,
+				"isSave": false,
+				"isHistorical": false,
+				"isTenderedNotification": false,
+				"isDeliveredNotification": true,
+				"isExceptionNotification": true,
+				"isEstimatedDeliveryDateChangeNotification": false,
+				"isCurrentStatusNotification": false,
+				"isCanceled": false,
+				"isInvalid": false,
+				"errorList": [
+					{
+						"code": "",
+						"message": "",
+						"source": null,
+						"rootCause": null
+					}
+				],
+				"isExpired": false,
+				"isDuplicate": false,
+				"isExpiring": false,
+				"isPrePickup": false,
+				"isPickup": false,
+				"isShipmentException": false,
+				"isClearanceDelay": false,
+				"isDelivered": true,
+				"isPending": false,
+				"isInFedExPossession": false,
+				"isWatch": false,
+				"isOutboundDirection": false,
+				"isInboundDirection": false,
+				"isThirdpartyDirection": false,
+				"CDOExists": false,
+				"isCDOEligible": false,
+				"isDestResidential": true,
+				"isNotFound": false,
+				"isCustomCritical": false,
+				"isInTransit": false,
+				"isOnSchedule": false,
+				"isDelException": false,
+				"isHAL": false,
+				"isInProgress": true,
+				"isBeforePossessionStatus": false,
+				"isFSM": false,
+				"isFreight": false,
+				"isMPS": false,
+				"isGMPS": false,
+				"isReturn": false
+			}
+		],
+		"alerts": null
+	}
+}

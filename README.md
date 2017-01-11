@@ -13,6 +13,7 @@ Name | Contributor | Link
 ---- | ---- | ----
 Korea Post | @egg- | https://trace.epost.go.kr//xtts/tt/epost/ems/ems_eng.jsp
 Ecargo | @egg- | http://web.ecargo.asia/script/users/tracking.php
+FedEx | @egg- | https://www.fedex.com/apps/fedextrack/?action=track
 
 ## Installation
 

@@ -1,0 +1,492 @@
+{
+  "TrackPackagesResponse": {
+    "successful": true,
+    "passedLoggedInCheck": false,
+    "errorList": [
+      {
+        "code": "0",
+        "message": "Request was successfully processed.",
+        "source": null,
+        "rootCause": null
+      }
+    ],
+    "packageList": [
+      {
+        "trackingNbr": "PENDINGNUM",
+        "trackingQualifier": "",
+        "trackingCarrierCd": "",
+        "trackingCarrierDesc": "",
+        "displayTrackingNbr": "PENDINGNUM",
+        "shipperCmpnyName": "",
+        "shipperName": "",
+        "shipperAddr1": "",
+        "shipperAddr2": "",
+        "shipperCity": "",
+        "shipperStateCD": "",
+        "shipperZip": "",
+        "shipperCntryCD": "",
+        "shipperPhoneNbr": "",
+        "shippedBy": "",
+        "recipientCmpnyName": "",
+        "recipientName": "",
+        "recipientAddr1": "",
+        "recipientAddr2": "",
+        "recipientCity": "",
+        "recipientStateCD": "",
+        "recipientZip": "",
+        "recipientCntryCD": "",
+        "recipientPhoneNbr": "",
+        "shippedTo": "",
+        "keyStatus": "In transit",
+        "keyStatusCD": "",
+        "lastScanStatus": "",
+        "lastScanDateTime": "",
+        "receivedByNm": "",
+        "subStatus": "",
+        "mainStatus": "",
+        "statusBarCD": "IT",
+        "shortStatus": "",
+        "shortStatusCD": "",
+        "statusLocationAddr1": "",
+        "statusLocationAddr2": "",
+        "statusLocationCity": "",
+        "statusLocationStateCD": "",
+        "statusLocationZip": "",
+        "statusLocationCntryCD": "",
+        "statusWithDetails": "In transit",
+        "shipDt": "",
+        "displayShipDt": "Pending",
+        "displayShipTm": "Pending",
+        "displayShipDateTime": "Pending",
+        "pickupDt": "",
+        "displayPickupDt": "",
+        "displayPickupTm": "",
+        "displayPickupDateTime": "",
+        "estDeliveryDt": "",
+        "estDeliveryTm": "",
+        "displayEstDeliveryDt": "Pending",
+        "displayEstDeliveryTm": "Pending",
+        "displayEstDeliveryDateTime": "Pending",
+        "actDeliveryDt": "",
+        "displayActDeliveryDt": "",
+        "displayActDeliveryTm": "",
+        "displayActDeliveryDateTime": "",
+        "tenderedDt": "",
+        "displayTenderedDt": "",
+        "displayTenderedTm": "",
+        "displayTenderedDateTime": "",
+        "apptDeliveryDt": "",
+        "displayApptDeliveryDt": "",
+        "displayApptDeliveryTm": "",
+        "displayApptDeliveryDateTime": "",
+        "nickName": "",
+        "note": "",
+        "matchedAccountList": [
+          ""
+        ],
+        "fxfAdvanceETA": "",
+        "fxfAdvanceReason": "",
+        "fxfAdvanceStatusCode": "",
+        "fxfAdvanceStatusDesc": "",
+        "destLink": "",
+        "originLink": "",
+        "hasBillOfLadingImage": false,
+        "hasBillPresentment": false,
+        "signatureRequired": 0,
+        "totalKgsWgt": "",
+        "displayTotalKgsWgt": "",
+        "totalLbsWgt": "",
+        "displayTotalLbsWgt": "",
+        "displayTotalWgt": "",
+        "pkgKgsWgt": "",
+        "displayPkgKgsWgt": "",
+        "pkgLbsWgt": "",
+        "displayPkgLbsWgt": "",
+        "displayPkgWgt": "",
+        "totalDIMLbsWgt": "",
+        "displayTotalDIMLbsWgt": "",
+        "totalDIMKgsWgt": "",
+        "displayTotalDIMKgsWgt": "",
+        "displayTotalDIMWgt": "",
+        "dimensions": "",
+        "masterTrackingNbr": "",
+        "masterQualifier": "",
+        "masterCarrierCD": "",
+        "originalOutboundTrackingNbr": null,
+        "originalOutboundQualifier": "",
+        "originalOutboundCarrierCD": "",
+        "invoiceNbrList": [
+          ""
+        ],
+        "referenceList": [
+          ""
+        ],
+        "doorTagNbrList": [
+          ""
+        ],
+        "referenceDescList": [
+          ""
+        ],
+        "purchaseOrderNbrList": [
+          ""
+        ],
+        "billofLadingNbrList": [
+          ""
+        ],
+        "shipperRefList": [
+          ""
+        ],
+        "rmaList": [
+          ""
+        ],
+        "deptNbrList": [
+          ""
+        ],
+        "shipmentIdList": [
+          ""
+        ],
+        "tcnList": [
+          ""
+        ],
+        "partnerCarrierNbrList": [
+          ""
+        ],
+        "hasAssociatedShipments": false,
+        "hasAssociatedReturnShipments": false,
+        "assocShpGrp": 0,
+        "drTgGrp": [
+          "0"
+        ],
+        "associationInfoList": [
+          {
+            "trackingNumberInfo": {
+              "trackingNumber": "",
+              "trackingQualifier": "",
+              "trackingCarrier": "",
+              "processingParameters": null
+            },
+            "associatedType": ""
+          }
+        ],
+        "returnReason": "",
+        "returnRelationship": null,
+        "skuItemUpcCdList": [
+          ""
+        ],
+        "receiveQtyList": [
+          ""
+        ],
+        "itemDescList": [
+          ""
+        ],
+        "partNbrList": [
+          ""
+        ],
+        "serviceCD": "",
+        "serviceDesc": "",
+        "serviceShortDesc": "",
+        "packageType": "",
+        "packaging": "",
+        "clearanceDetailLink": "",
+        "showClearanceDetailLink": false,
+        "manufactureCountryCDList": [
+          ""
+        ],
+        "commodityCDList": [
+          ""
+        ],
+        "commodityDescList": [
+          ""
+        ],
+        "cerNbrList": [
+          ""
+        ],
+        "cerComplaintCDList": [
+          ""
+        ],
+        "cerComplaintDescList": [
+          ""
+        ],
+        "cerEventDateList": [
+          ""
+        ],
+        "displayCerEventDateList": [
+          ""
+        ],
+        "totalPieces": "0",
+        "specialHandlingServicesList": [
+          ""
+        ],
+        "shipmentType": "",
+        "pkgContentDesc1": "",
+        "pkgContentDesc2": "",
+        "docAWBNbr": "",
+        "originalCharges": "",
+        "transportationCD": "",
+        "transportationDesc": "",
+        "dutiesAndTaxesCD": "",
+        "dutiesAndTaxesDesc": "",
+        "origPieceCount": "",
+        "destPieceCount": "",
+        "billNoteMsg": "",
+        "goodsClassificationCD": "",
+        "receipientAddrQty": "0",
+        "deliveryAttempt": "0",
+        "codReturnTrackNbr": "",
+        "returnMovementStatus": null,
+        "scanEventList": [
+          {
+            "date": "",
+            "time": "",
+            "gmtOffset": "",
+            "status": "",
+            "statusCD": "",
+            "scanLocation": "",
+            "scanDetails": "",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isDelException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false
+          }
+        ],
+        "originAddr1": "",
+        "originAddr2": "",
+        "originCity": "",
+        "originStateCD": "",
+        "originZip": "",
+        "originCntryCD": "",
+        "originLocationID": "",
+        "originTermCity": "",
+        "originTermStateCD": "",
+        "destLocationAddr1": "",
+        "destLocationAddr2": "",
+        "destLocationCity": "",
+        "destLocationStateCD": "",
+        "destLocationZip": "",
+        "destLocationCntryCD": "",
+        "destLocationID": "",
+        "destLocationTermCity": "",
+        "destLocationTermStateCD": "",
+        "destAddr1": "",
+        "destAddr2": "",
+        "destCity": "",
+        "destStateCD": "",
+        "destZip": "",
+        "destCntryCD": "",
+        "halAddr1": "",
+        "halAddr2": "",
+        "halCity": "",
+        "halStateCD": "",
+        "halZipCD": "",
+        "halCntryCD": "",
+        "actualDelAddrCity": "",
+        "actualDelAddrStateCD": "",
+        "actualDelAddrZipCD": "",
+        "actualDelAddrCntryCD": "",
+        "totalTransitMiles": "",
+        "excepReasonList": [
+          ""
+        ],
+        "excepActionList": [
+          ""
+        ],
+        "exceptionReason": "",
+        "exceptionAction": "",
+        "statusDetailsList": [
+          ""
+        ],
+        "trackErrCD": "",
+        "destTZ": "",
+        "originTZ": "",
+        "isMultiStat": "0",
+        "multiStatList": [
+          {
+            "multiPiec": "",
+            "multiTm": "",
+            "multiDispTm": "",
+            "multiSta": ""
+          }
+        ],
+        "maskMessage": "",
+        "deliveryService": "",
+        "milestoDestination": "",
+        "terms": "",
+        "payorAcctNbr": "",
+        "meterNumber": "",
+        "originUbanizationCode": "",
+        "originCountryName": "",
+        "isOriginResidential": false,
+        "halUrbanizationCD": "",
+        "halCountryName": "",
+        "actualDelAddrUrbanizationCD": "",
+        "actualDelAddrCountryName": "",
+        "destUrbanizationCD": "",
+        "destCountryName": "",
+        "delToDesc": "",
+        "recpShareID": "",
+        "shprShareID": "",
+        "requestedAppointmentInfoList": [
+          {
+            "spclInstructDesc": "",
+            "delivOptn": "",
+            "delivOptnStatus": "",
+            "reqApptWdw": "",
+            "reqApptDesc": "",
+            "rerouteTRKNbr": "",
+            "beginTm": "",
+            "endTm": ""
+          }
+        ],
+        "defaultCDOType": "RTH",
+        "returnAuthorizationName": "",
+        "totalCustomsValueAmount": "",
+        "totalCustomsValueCurrency": "",
+        "packageInsuredValueAmount": "",
+        "packageInsuredValueCurrency": "",
+        "estDelTimeWindow": {
+          "estDelTmWindowStart": "",
+          "estDelTmWindowEnd": "",
+          "displayEstDelTmWindowTmStart": "",
+          "displayEstDelTmWindowTmEnd": ""
+        },
+        "standardTransitTimeWindow": {
+          "stdTransitTimeStart": "",
+          "displayStdTransitTimeStart": "",
+          "stdTransitTimeEnd": "",
+          "displayStdTransitTimeEnd": ""
+        },
+        "standardTransitDate": {
+          "stdTransitDate": "",
+          "displayStdTransitDate": ""
+        },
+        "pkgDimIn": "",
+        "pkgDimCm": "",
+        "returnedToShipperTrackNbr": "",
+        "commodityInfoList": [
+          {
+            "countryOfManufacture": "",
+            "harmonizedCode": "",
+            "description": ""
+          }
+        ],
+        "statusActionDesc": "",
+        "destinationGeoCoordinate": null,
+        "serviceCommitMessage": "",
+        "matched": true,
+        "excepReasonListNoInit": [
+          ""
+        ],
+        "excepActionListNoInit": [
+          ""
+        ],
+        "statusDetailsListNoInit": [
+          ""
+        ],
+        "fxfAdvanceNotice": true,
+        "codrequired": false,
+        "mpstype": "",
+        "rthavailableCD": "",
+        "isSuccessful": false,
+        "isException": false,
+        "isDuplicate": false,
+        "isCanceled": false,
+        "isInProgress": true,
+        "isInvalid": false,
+        "errorList": [
+          {
+            "code": "1041",
+            "message": "This tracking number cannot be found. Please check the number or contact the sender.",
+            "source": null,
+            "rootCause": null
+          }
+        ],
+        "isMPS": false,
+        "isGMPS": false,
+        "isReturn": false,
+        "isExpired": false,
+        "isExpiring": false,
+        "isResidential": false,
+        "isDestResidential": false,
+        "isHALResidential": false,
+        "isActualDelAddrResidential": false,
+        "isReqEstDelDt": false,
+        "isCDOEligible": false,
+        "CDOInfoList": [
+          {
+            "spclInstructDesc": "",
+            "delivOptn": "",
+            "delivOptnStatus": "",
+            "reqApptWdw": "",
+            "reqApptDesc": "",
+            "rerouteTRKNbr": "",
+            "beginTm": "",
+            "endTm": ""
+          }
+        ],
+        "CDOExists": false,
+        "isMtchdByRecShrID": false,
+        "isMtchdByShiprShrID": false,
+        "isEstimatedDeliveryDateChangeNotification": false,
+        "isDocumentAvailable": false,
+        "isHistoricalEDTW": false,
+        "isNonHistoricalEDTW": false,
+        "isTargetedMsg": false,
+        "isCommodityInfoAvail": false,
+        "isPending": false,
+        "isPrePickup": false,
+        "isPickup": false,
+        "isInTransit": true,
+        "isDelException": false,
+        "isClearanceDelay": false,
+        "isDelivered": false,
+        "isHAL": false,
+        "isOnSchedule": false,
+        "isDeliveryToday": false,
+        "isShipmentException": false,
+        "isInFedExPossession": false,
+        "isSave": false,
+        "isWatch": false,
+        "isHistorical": false,
+        "isTenderedNotification": false,
+        "isDeliveredNotification": false,
+        "isExceptionNotification": false,
+        "isCurrentStatusNotification": false,
+        "isAnticipatedShipDtLabel": false,
+        "isShipPickupDtLabel": true,
+        "isActualPickupLabel": false,
+        "isOrderReceivedLabel": false,
+        "isEstimatedDeliveryDtLabel": true,
+        "isDeliveryDtLabel": false,
+        "isActualDeliveryDtLabel": false,
+        "isOrderCompleteLabel": false,
+        "isTenderedDtLabel": false,
+        "isShipDtLabel": false,
+        "isEstDelTmWindowLabel": false,
+        "isOutboundDirection": false,
+        "isInboundDirection": false,
+        "isThirdpartyDirection": false,
+        "isUnknownDirection": false,
+        "isFSM": false,
+        "isSpod": false,
+        "isSignatureAvailable": false,
+        "isSignatureThumbnailAvailable": false,
+        "isOriginalOutBound": false,
+        "isChildPackage": false,
+        "isParentPackage": false,
+        "isReclassifiedAsSingleShipment": false,
+        "isMaskShipper": false,
+        "isHalEligible": false,
+        "isBeforePossessionStatus": false,
+        "isFedexOfficeOnlineOrders": false,
+        "isFedexOfficeInStoreOrders": false,
+        "isMultipleStop": false,
+        "isCustomCritical": false,
+        "isNotFound": true,
+        "isFreight": false
+      }
+    ],
+    "alerts": null
+  }
+}

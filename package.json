@@ -1,6 +1,6 @@
 {
   "name": "delivery-tracker",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -23,7 +23,8 @@
     "shipping",
     "ems",
     "koreapost",
-    "ecargo"
+    "ecargo",
+    "fedex"
   ],
   "license": "MIT",
   "bugs": {

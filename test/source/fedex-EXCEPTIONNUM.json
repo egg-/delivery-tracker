@@ -1,0 +1,747 @@
+{
+  "TrackPackagesResponse": {
+    "successful": true,
+    "passedLoggedInCheck": false,
+    "errorList": [
+      {
+        "code": "0",
+        "message": "Request was successfully processed.",
+        "source": null,
+        "rootCause": null
+      }
+    ],
+    "packageList": [
+      {
+        "trackingNbr": "EXCEPTIONNUM",
+        "trackingQualifier": "20161129074200~EXCEPTIONNUM~FXSP",
+        "trackingCarrierCd": "FXSP",
+        "trackingCarrierDesc": "FedEx SmartPost",
+        "displayTrackingNbr": "EXCEPTIONNUM",
+        "shipperCmpnyName": "",
+        "shipperName": "",
+        "shipperAddr1": "",
+        "shipperAddr2": "",
+        "shipperCity": "Dayton",
+        "shipperStateCD": "NJ",
+        "shipperZip": "",
+        "shipperCntryCD": "US",
+        "shipperPhoneNbr": "",
+        "shippedBy": "",
+        "recipientCmpnyName": "",
+        "recipientName": "",
+        "recipientAddr1": "",
+        "recipientAddr2": "",
+        "recipientCity": "SOUTH JORDAN",
+        "recipientStateCD": "UT",
+        "recipientZip": "",
+        "recipientCntryCD": "US",
+        "recipientPhoneNbr": "",
+        "shippedTo": "",
+        "keyStatus": "Delivered",
+        "keyStatusCD": "DL",
+        "lastScanStatus": "",
+        "lastScanDateTime": "",
+        "receivedByNm": "",
+        "subStatus": "",
+        "mainStatus": "",
+        "statusBarCD": "DL",
+        "shortStatus": "",
+        "shortStatusCD": "",
+        "statusLocationAddr1": "",
+        "statusLocationAddr2": "",
+        "statusLocationCity": "SOUTH JORDAN",
+        "statusLocationStateCD": "UT",
+        "statusLocationZip": "",
+        "statusLocationCntryCD": "US",
+        "statusWithDetails": "Delivered: 12/14/2016 1:17 pm; SOUTH JORDAN, UT; Package delivered by U.S. Postal Service to addressee",
+        "shipDt": "2016-12-05T00:00:00-06:00",
+        "displayShipDt": "12/05/2016",
+        "displayShipTm": "",
+        "displayShipDateTime": "12/05/2016",
+        "pickupDt": "2016-12-05T00:00:00-06:00",
+        "displayPickupDt": "12/05/2016",
+        "displayPickupTm": "",
+        "displayPickupDateTime": "12/05/2016",
+        "estDeliveryDt": "",
+        "estDeliveryTm": "",
+        "displayEstDeliveryDt": "",
+        "displayEstDeliveryTm": "",
+        "displayEstDeliveryDateTime": "",
+        "actDeliveryDt": "2016-12-14T13:17:00-07:00",
+        "displayActDeliveryDt": "12/14/2016",
+        "displayActDeliveryTm": "1:17 pm",
+        "displayActDeliveryDateTime": "12/14/2016 1:17 pm",
+        "tenderedDt": "2016-12-05T00:00:00-06:00",
+        "displayTenderedDt": "12/05/2016",
+        "displayTenderedTm": "",
+        "displayTenderedDateTime": "12/05/2016",
+        "apptDeliveryDt": "",
+        "displayApptDeliveryDt": "",
+        "displayApptDeliveryTm": "",
+        "displayApptDeliveryDateTime": "",
+        "nickName": "",
+        "note": "",
+        "matchedAccountList": [
+          ""
+        ],
+        "fxfAdvanceETA": "",
+        "fxfAdvanceReason": "",
+        "fxfAdvanceStatusCode": "",
+        "fxfAdvanceStatusDesc": "",
+        "destLink": "",
+        "originLink": "",
+        "hasBillOfLadingImage": false,
+        "hasBillPresentment": false,
+        "signatureRequired": 0,
+        "totalKgsWgt": "",
+        "displayTotalKgsWgt": "",
+        "totalLbsWgt": "",
+        "displayTotalLbsWgt": "",
+        "displayTotalWgt": "",
+        "pkgKgsWgt": "0.36",
+        "displayPkgKgsWgt": "0.36 kgs",
+        "pkgLbsWgt": "0.8",
+        "displayPkgLbsWgt": "0.8 lbs",
+        "displayPkgWgt": "0.8 lbs / 0.36 kgs",
+        "totalDIMLbsWgt": "",
+        "displayTotalDIMLbsWgt": "",
+        "totalDIMKgsWgt": "",
+        "displayTotalDIMKgsWgt": "",
+        "displayTotalDIMWgt": "",
+        "dimensions": "6x6x6 in.",
+        "masterTrackingNbr": "",
+        "masterQualifier": "",
+        "masterCarrierCD": "",
+        "originalOutboundTrackingNbr": null,
+        "originalOutboundQualifier": "",
+        "originalOutboundCarrierCD": "",
+        "invoiceNbrList": [
+          ""
+        ],
+        "referenceList": [
+          "553311_073942056590"
+        ],
+        "doorTagNbrList": [
+          ""
+        ],
+        "referenceDescList": [
+          ""
+        ],
+        "purchaseOrderNbrList": [
+          ""
+        ],
+        "billofLadingNbrList": [
+          ""
+        ],
+        "shipperRefList": [
+          ""
+        ],
+        "rmaList": [
+          ""
+        ],
+        "deptNbrList": [
+          ""
+        ],
+        "shipmentIdList": [
+          ""
+        ],
+        "tcnList": [
+          ""
+        ],
+        "partnerCarrierNbrList": [
+          ""
+        ],
+        "hasAssociatedShipments": false,
+        "hasAssociatedReturnShipments": false,
+        "assocShpGrp": 0,
+        "drTgGrp": [
+          "0"
+        ],
+        "associationInfoList": [
+          {
+            "trackingNumberInfo": {
+              "trackingNumber": "",
+              "trackingQualifier": "",
+              "trackingCarrier": "",
+              "processingParameters": null
+            },
+            "associatedType": ""
+          }
+        ],
+        "returnReason": "",
+        "returnRelationship": null,
+        "skuItemUpcCdList": [
+          ""
+        ],
+        "receiveQtyList": [
+          ""
+        ],
+        "itemDescList": [
+          ""
+        ],
+        "partNbrList": [
+          ""
+        ],
+        "serviceCD": "SMART_POST",
+        "serviceDesc": "FedEx SmartPost",
+        "serviceShortDesc": "SP",
+        "packageType": "PACKAGE",
+        "packaging": "Package",
+        "clearanceDetailLink": "",
+        "showClearanceDetailLink": false,
+        "manufactureCountryCDList": [
+          ""
+        ],
+        "commodityCDList": [
+          ""
+        ],
+        "commodityDescList": [
+          ""
+        ],
+        "cerNbrList": [
+          ""
+        ],
+        "cerComplaintCDList": [
+          ""
+        ],
+        "cerComplaintDescList": [
+          ""
+        ],
+        "cerEventDateList": [
+          ""
+        ],
+        "displayCerEventDateList": [
+          ""
+        ],
+        "totalPieces": "1",
+        "specialHandlingServicesList": [
+          ""
+        ],
+        "shipmentType": "",
+        "pkgContentDesc1": "",
+        "pkgContentDesc2": "",
+        "docAWBNbr": "",
+        "originalCharges": "",
+        "transportationCD": "",
+        "transportationDesc": "",
+        "dutiesAndTaxesCD": "",
+        "dutiesAndTaxesDesc": "",
+        "origPieceCount": "",
+        "destPieceCount": "",
+        "billNoteMsg": "",
+        "goodsClassificationCD": "",
+        "receipientAddrQty": "0",
+        "deliveryAttempt": "0",
+        "codReturnTrackNbr": "",
+        "returnMovementStatus": null,
+        "scanEventList": [
+          {
+            "date": "2016-12-14",
+            "time": "13:17:00",
+            "gmtOffset": "-07:00",
+            "status": "Delivered",
+            "statusCD": "DL",
+            "scanLocation": "SOUTH JORDAN, UT",
+            "scanDetails": "Package delivered by U.S. Postal Service to addressee",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": true,
+            "isDelException": false
+          },
+          {
+            "date": "2016-12-13",
+            "time": "17:31:00",
+            "gmtOffset": "-07:00",
+            "status": "Delivery exception",
+            "statusCD": "DE",
+            "scanLocation": "SOUTH JORDAN, UT",
+            "scanDetails": "Unable to deliver - Please contact local Post Office to pick up or reschedule delivery",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": true,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": true
+          },
+          {
+            "date": "2016-12-13",
+            "time": "08:39:00",
+            "gmtOffset": "-07:00",
+            "status": "Out for delivery",
+            "statusCD": "OD",
+            "scanLocation": "SOUTH JORDAN, UT",
+            "scanDetails": "Out for delivery with the U.S. Postal Service",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          },
+          {
+            "date": "2016-12-13",
+            "time": "04:40:00",
+            "gmtOffset": "-07:00",
+            "status": "At U.S. Postal Service facility",
+            "statusCD": "AR",
+            "scanLocation": "SOUTH JORDAN, UT",
+            "scanDetails": "Accepted by U.S. Postal Service",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          },
+          {
+            "date": "2016-12-12",
+            "time": "08:24:00",
+            "gmtOffset": "-07:00",
+            "status": "In transit",
+            "statusCD": "IT",
+            "scanLocation": "SALT LAKE CITY, UT",
+            "scanDetails": "In transit to local Post Office - Allow two to three additional days for delivery",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          },
+          {
+            "date": "2016-12-12",
+            "time": "06:23:00",
+            "gmtOffset": "-07:00",
+            "status": "In transit",
+            "statusCD": "IT",
+            "scanLocation": "SALT LAKE CITY, UT",
+            "scanDetails": "In transit to U.S. Postal Service",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          },
+          {
+            "date": "2016-12-12",
+            "time": "04:30:00",
+            "gmtOffset": "-07:00",
+            "status": "Shipment information sent to U.S. Postal Service",
+            "statusCD": "OX",
+            "scanLocation": "",
+            "scanDetails": "",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          },
+          {
+            "date": "2016-12-12",
+            "time": "02:53:12",
+            "gmtOffset": "-07:00",
+            "status": "Departed FedEx location",
+            "statusCD": "DP",
+            "scanLocation": "FEDEX SMARTPOST SALT LAKE CITY, UT",
+            "scanDetails": "",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          },
+          {
+            "date": "2016-12-11",
+            "time": "21:26:30",
+            "gmtOffset": "-07:00",
+            "status": "Arrived at FedEx location",
+            "statusCD": "AR",
+            "scanLocation": "FEDEX SMARTPOST SALT LAKE CITY, UT",
+            "scanDetails": "",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          },
+          {
+            "date": "2016-12-09",
+            "time": "12:19:00",
+            "gmtOffset": "-07:00",
+            "status": "Arrived at FedEx location",
+            "statusCD": "AR",
+            "scanLocation": "NORTH SALT LAKE, UT",
+            "scanDetails": "",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          },
+          {
+            "date": "2016-12-08",
+            "time": "13:38:05",
+            "gmtOffset": "-07:00",
+            "status": "In transit",
+            "statusCD": "IT",
+            "scanLocation": "NORTH SALT LAKE, UT",
+            "scanDetails": "",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          },
+          {
+            "date": "2016-12-08",
+            "time": "00:02:23",
+            "gmtOffset": "-07:00",
+            "status": "In transit",
+            "statusCD": "IT",
+            "scanLocation": "GREENVILLE, UT",
+            "scanDetails": "",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          },
+          {
+            "date": "2016-12-07",
+            "time": "11:59:00",
+            "gmtOffset": "-07:00",
+            "status": "In transit",
+            "statusCD": "IT",
+            "scanLocation": "CONTINENTAL DIVIDE, NM",
+            "scanDetails": "",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          },
+          {
+            "date": "2016-12-07",
+            "time": "00:55:04",
+            "gmtOffset": "-06:00",
+            "status": "In transit",
+            "statusCD": "IT",
+            "scanLocation": "SAPULPA, OK",
+            "scanDetails": "",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          },
+          {
+            "date": "2016-12-06",
+            "time": "13:51:17",
+            "gmtOffset": "-05:00",
+            "status": "In transit",
+            "statusCD": "IT",
+            "scanLocation": "SPICELAND, IN",
+            "scanDetails": "",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          },
+          {
+            "date": "2016-12-06",
+            "time": "01:47:23",
+            "gmtOffset": "-05:00",
+            "status": "Departed FedEx location",
+            "statusCD": "DP",
+            "scanLocation": "KEASBEY, NJ",
+            "scanDetails": "",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          },
+          {
+            "date": "2016-12-04",
+            "time": "16:39:00",
+            "gmtOffset": "-05:00",
+            "status": "Arrived at FedEx location",
+            "statusCD": "AR",
+            "scanLocation": "KEASBEY, NJ",
+            "scanDetails": "",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          },
+          {
+            "date": "2016-11-29",
+            "time": "02:42:48",
+            "gmtOffset": "-05:00",
+            "status": "Shipment information sent to FedEx",
+            "statusCD": "OC",
+            "scanLocation": "",
+            "scanDetails": "",
+            "scanDetailsHtml": "",
+            "rtrnShprTrkNbr": "",
+            "isException": false,
+            "isClearanceDelay": false,
+            "isDelivered": false,
+            "isDelException": false
+          }
+        ],
+        "originAddr1": "",
+        "originAddr2": "",
+        "originCity": "",
+        "originStateCD": "",
+        "originZip": "",
+        "originCntryCD": "",
+        "originLocationID": "",
+        "originTermCity": "",
+        "originTermStateCD": "",
+        "destLocationAddr1": "",
+        "destLocationAddr2": "",
+        "destLocationCity": "",
+        "destLocationStateCD": "",
+        "destLocationZip": "",
+        "destLocationCntryCD": "",
+        "destLocationID": "",
+        "destLocationTermCity": "",
+        "destLocationTermStateCD": "",
+        "destAddr1": "",
+        "destAddr2": "",
+        "destCity": "SOUTH JORDAN",
+        "destStateCD": "UT",
+        "destZip": "",
+        "destCntryCD": "US",
+        "halAddr1": "",
+        "halAddr2": "",
+        "halCity": "",
+        "halStateCD": "",
+        "halZipCD": "",
+        "halCntryCD": "",
+        "actualDelAddrCity": "SOUTH JORDAN",
+        "actualDelAddrStateCD": "UT",
+        "actualDelAddrZipCD": "",
+        "actualDelAddrCntryCD": "US",
+        "totalTransitMiles": "",
+        "excepReasonList": [
+          ""
+        ],
+        "excepActionList": [
+          ""
+        ],
+        "exceptionReason": "",
+        "exceptionAction": "",
+        "statusDetailsList": [
+          "Package delivered by U.S. Postal Service to addressee"
+        ],
+        "trackErrCD": "",
+        "destTZ": "-07:00",
+        "originTZ": "+00:00",
+        "isMultiStat": "0",
+        "multiStatList": [
+          {
+            "multiPiec": "",
+            "multiTm": "",
+            "multiDispTm": "",
+            "multiSta": ""
+          }
+        ],
+        "maskMessage": "",
+        "deliveryService": "",
+        "milestoDestination": "",
+        "terms": "Shipper",
+        "payorAcctNbr": "",
+        "meterNumber": "",
+        "originUbanizationCode": "",
+        "originCountryName": "",
+        "isOriginResidential": false,
+        "halUrbanizationCD": "",
+        "halCountryName": "",
+        "actualDelAddrUrbanizationCD": "",
+        "actualDelAddrCountryName": "",
+        "destUrbanizationCD": "",
+        "destCountryName": "",
+        "delToDesc": "",
+        "recpShareID": "1xmu8yg8phkacb1aofku91s9d",
+        "shprShareID": "",
+        "requestedAppointmentInfoList": [
+          {
+            "spclInstructDesc": "",
+            "delivOptn": "",
+            "delivOptnStatus": "",
+            "reqApptWdw": "",
+            "reqApptDesc": "",
+            "rerouteTRKNbr": "",
+            "beginTm": "",
+            "endTm": ""
+          }
+        ],
+        "defaultCDOType": "CDO",
+        "returnAuthorizationName": "",
+        "totalCustomsValueAmount": "",
+        "totalCustomsValueCurrency": "",
+        "packageInsuredValueAmount": "",
+        "packageInsuredValueCurrency": "",
+        "estDelTimeWindow": {
+          "estDelTmWindowStart": "",
+          "estDelTmWindowEnd": "",
+          "displayEstDelTmWindowTmStart": "",
+          "displayEstDelTmWindowTmEnd": ""
+        },
+        "standardTransitTimeWindow": {
+          "stdTransitTimeStart": "",
+          "displayStdTransitTimeStart": "",
+          "stdTransitTimeEnd": "",
+          "displayStdTransitTimeEnd": ""
+        },
+        "standardTransitDate": {
+          "stdTransitDate": "",
+          "displayStdTransitDate": ""
+        },
+        "pkgDimIn": "6x6x6 in.",
+        "pkgDimCm": "15.24x15.24x15.24 cms",
+        "returnedToShipperTrackNbr": "",
+        "commodityInfoList": [
+          {
+            "countryOfManufacture": "",
+            "harmonizedCode": "",
+            "description": ""
+          }
+        ],
+        "statusActionDesc": "",
+        "destinationGeoCoordinate": null,
+        "serviceCommitMessage": "U.S. Postal Service delivered this shipment.",
+        "matched": false,
+        "codrequired": false,
+        "fxfAdvanceNotice": true,
+        "mpstype": "",
+        "rthavailableCD": "",
+        "excepReasonListNoInit": [
+          ""
+        ],
+        "excepActionListNoInit": [
+          ""
+        ],
+        "statusDetailsListNoInit": [
+          "Package delivered by U.S. Postal Service to addressee"
+        ],
+        "isSuccessful": true,
+        "isException": false,
+        "isExpired": false,
+        "isDuplicate": false,
+        "isCanceled": false,
+        "errorList": [
+          {
+            "code": "",
+            "message": "",
+            "source": null,
+            "rootCause": null
+          }
+        ],
+        "isInvalid": false,
+        "isExpiring": false,
+        "isInProgress": true,
+        "isResidential": true,
+        "isPrePickup": false,
+        "isPickup": false,
+        "isShipmentException": false,
+        "isClearanceDelay": false,
+        "isDelivered": true,
+        "isPending": false,
+        "isInFedExPossession": false,
+        "isHALResidential": false,
+        "isActualDelAddrResidential": false,
+        "isReqEstDelDt": false,
+        "isMtchdByRecShrID": false,
+        "isMtchdByShiprShrID": false,
+        "isHistoricalEDTW": false,
+        "isNonHistoricalEDTW": false,
+        "isTargetedMsg": false,
+        "isCommodityInfoAvail": false,
+        "isShipDtLabel": false,
+        "isChildPackage": false,
+        "isParentPackage": false,
+        "isReclassifiedAsSingleShipment": false,
+        "isMaskShipper": false,
+        "isSave": false,
+        "isHistorical": false,
+        "isTenderedNotification": false,
+        "isDeliveredNotification": true,
+        "isExceptionNotification": true,
+        "isEstimatedDeliveryDateChangeNotification": false,
+        "isCurrentStatusNotification": false,
+        "isAnticipatedShipDtLabel": false,
+        "isShipPickupDtLabel": true,
+        "isActualPickupLabel": false,
+        "isOrderReceivedLabel": false,
+        "isEstimatedDeliveryDtLabel": false,
+        "isDeliveryDtLabel": false,
+        "isActualDeliveryDtLabel": true,
+        "isOrderCompleteLabel": false,
+        "isTenderedDtLabel": false,
+        "isEstDelTmWindowLabel": false,
+        "isUnknownDirection": false,
+        "isSpod": false,
+        "isSignatureAvailable": false,
+        "isSignatureThumbnailAvailable": false,
+        "isOriginalOutBound": false,
+        "isHalEligible": false,
+        "isFedexOfficeOnlineOrders": false,
+        "isFedexOfficeInStoreOrders": false,
+        "isMultipleStop": false,
+        "isMPS": false,
+        "isGMPS": false,
+        "isReturn": false,
+        "isFSM": false,
+        "isFreight": false,
+        "isCustomCritical": false,
+        "isCDOEligible": false,
+        "CDOExists": false,
+        "isWatch": false,
+        "isOutboundDirection": false,
+        "isInboundDirection": false,
+        "isThirdpartyDirection": false,
+        "isDocumentAvailable": false,
+        "isDestResidential": true,
+        "CDOInfoList": [
+          {
+            "spclInstructDesc": "",
+            "delivOptn": "",
+            "delivOptnStatus": "",
+            "reqApptWdw": "",
+            "reqApptDesc": "",
+            "rerouteTRKNbr": "",
+            "beginTm": "",
+            "endTm": ""
+          }
+        ],
+        "isNotFound": false,
+        "isDeliveryToday": false,
+        "isInTransit": false,
+        "isOnSchedule": false,
+        "isDelException": false,
+        "isHAL": false,
+        "isBeforePossessionStatus": false
+      }
+    ],
+    "alerts": null
+  }
+}
