@@ -17,7 +17,7 @@ FedEx | @egg- | https://www.fedex.com/apps/fedextrack/?action=track
 
 ## Installation
 
-```
+```sh
 $ npm install delivery-tracker
 ```
 
@@ -31,6 +31,23 @@ courier.trace({trace_number}, function (err, result) {
   console.log(result)
 })
 ```
+
+### Command Line
+
+```sh
+$ npm install -g delivery-tracker
+$ delivery-tracker -h
+
+Usage: index [options] <tracecode>
+
+  Options:
+
+    -h, --help               output usage information
+    -c, --courier <courier>  Courier Namespace
+
+$ delivery-tracker -c EMS EBXXXXXXXXXKR
+```
+
 
 ## Response
 
@@ -68,6 +85,7 @@ NAMESPACE | CODE | NAME
 ---- | ---- | ----
 KOREAPOST | koreapost | Korea Post
 ECARGO | ecargo | Ecargo
+FEDEX | fedex | FedEx
 
 ### STATUS
 
@@ -97,6 +115,7 @@ INVALID_NUMBER_COUNTRY | 13 | invalid trace number.
 ### Sample
 
 ```javascript
+// KOREAPOST
 {
   "courier": {
     "code": "koreapost",
@@ -114,114 +133,30 @@ INVALID_NUMBER_COUNTRY | 13 | invalid trace number.
       "message": "Delivery complete\nRecipient : K*NG()\nResult : Delivery complete",
       "time": "2016-07-04T11:40:00"
     },
+    // ...
+  ]
+}
+
+// FEDEX
+{
+  "courier": {
+    "code": "fedex",
+    "name": "FedEx"
+  },
+  "number": "DELIVEREDNUM",
+  "status": "Delivered",
+  "checkpoints": [
     {
       "courier": {
-        "code": "koreapost",
-        "name": "Korea Post"
+        "code": "fedex",
+        "name": "FedEx"
       },
-      "location": "MYKULA",
-      "message": "Departure from inward office of exchange",
-      "time": "2016-07-03T00:49:00"
+      "location": "SOUTH JORDAN, UT",
+      "message": "Package delivered by U.S. Postal Service to addressee",
+      "status": "Delivered",
+      "time": "2016-12-14T13:17:00-07:00"
     },
-    {
-      "courier": {
-        "code": "koreapost",
-        "name": "Korea Post"
-      },
-      "location": "MYKULA",
-      "message": "",
-      "time": "2016-07-02T22:46:00"
-    },
-    {
-      "courier": {
-        "code": "koreapost",
-        "name": "Korea Post"
-      },
-      "location": "MYKULA",
-      "message": "Arrival at inward office of exchange",
-      "time": "2016-07-02T22:45:00"
-    },
-    {
-      "courier": {
-        "code": "koreapost",
-        "name": "Korea Post"
-      },
-      "location": "KUALALUMPUR",
-      "message": "Delivered to Destination Airport",
-      "time": "2016-07-01T23:02:00"
-    },
-    {
-      "courier": {
-        "code": "koreapost",
-        "name": "Korea Post"
-      },
-      "location": "KUALALUMPUR",
-      "message": "Airrival at Destination Airport",
-      "time": "2016-07-01T21:52:00"
-    },
-    {
-      "courier": {
-        "code": "koreapost",
-        "name": "Korea Post"
-      },
-      "location": "INCHEON",
-      "message": "Departure from Airport",
-      "time": "2016-07-01T16:44:00"
-    },
-    {
-      "courier": {
-        "code": "koreapost",
-        "name": "Korea Post"
-      },
-      "location": "INCHEON",
-      "message": "Received by Air carrier",
-      "time": "2016-07-01T14:05:00"
-    },
-    {
-      "courier": {
-        "code": "koreapost",
-        "name": "Korea Post"
-      },
-      "location": "INCHEON",
-      "message": "\nFlight number : KE671",
-      "time": "2016-06-30T16:48:00"
-    },
-    {
-      "courier": {
-        "code": "koreapost",
-        "name": "Korea Post"
-      },
-      "location": "INTERNATIONAL POST OFFICE",
-      "message": "Departure from outward office of exchange\nDispatch number : 401",
-      "time": "2016-06-30T15:01:00"
-    },
-    {
-      "courier": {
-        "code": "koreapost",
-        "name": "Korea Post"
-      },
-      "location": "INTERNATIONAL POST OFFICE",
-      "message": "",
-      "time": "2016-06-30T14:32:00"
-    },
-    {
-      "courier": {
-        "code": "koreapost",
-        "name": "Korea Post"
-      },
-      "location": "SL. KANGNAM",
-      "message": "",
-      "time": "2016-06-30T13:30:00"
-    },
-    {
-      "courier": {
-        "code": "koreapost",
-        "name": "Korea Post"
-      },
-      "location": "SL. KANGNAM",
-      "message": "Posting/Collection\nPosting office zip code : 06336\nTransit or Destination country : MALAYSIA",
-      "time": "2016-06-30T11:36:00"
-    }
+    // ...
   ]
 }
 ```
