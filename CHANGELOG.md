@@ -1,3 +1,6 @@
+# 0.7.0
+* add rincos.
+
 # 0.6.1
 * add courier to commander
 

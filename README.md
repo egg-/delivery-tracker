@@ -16,6 +16,7 @@ Ecargo | @egg- | http://ecargo.asia/script/users/main.php
 FedEx | @egg- | https://www.fedex.com/
 Australia Post | @egg- | https://auspost.com.au/
 Pantos | @egg- | http://www.epantos.com/
+Rincos | @egg- | http://www.rincos.co.kr/
 
 ## Installation
 

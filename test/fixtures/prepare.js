@@ -40,5 +40,8 @@ module.exports = {
   },
   pantos: function (number) {
     prepare('PANTOS', number, 'xml', true)
+  },
+  rincos: function (number) {
+    prepare('RINCOS', number, 'html')
   }
 }
