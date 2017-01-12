@@ -163,6 +163,39 @@ INVALID_NUMBER_COUNTRY | 13 | invalid trace number.
     // ...
   ]
 }
+
+// PANTOS
+{
+  "courier": {
+    "code": "pantos",
+    "name": "Pantos"
+  },
+  "number": "DELIVEREDNUM-AUSPOST",
+  "status": "Delivered",
+  "checkpoints": [
+    {
+      "courier": {
+        "code": "auspost",
+        "name": "Australia Post"
+      },
+      "location": "Canning Vale, WA",
+      "message": "Delivered",
+      "status": "Delivered",
+      "time": "2017-01-03T15:24:00+08:00"
+    },
+    // ...
+    {
+      "courier": {
+        "code": "pantos",
+        "name": "Pantos"
+      },
+      "location": "KRICN",
+      "message": "Pick-Up (Pick-Up)",
+      "status": "InfoReceived",
+      "time": "2016-12-20T11:25"
+    }
+  ]
+}
 ```
 
 ## Test

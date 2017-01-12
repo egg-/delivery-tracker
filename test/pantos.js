@@ -3,20 +3,11 @@
 'use strict'
 
 var assert = require('assert')
-var nock = require('nock')
-var url = require('url')
 
+var prepare = require('./fixtures/prepare')
 var tracker = require('../')
-var courier = tracker.courier(tracker.COURIER.PANTOS.CODE)
 
-var prepareNock = function (number) {
-  var trackingInfo = courier.trackingInfo(number)
-  for (var key in trackingInfo) {
-    var info = url.parse(trackingInfo[key].url)
-    nock([info.protocol, info.host].join('//'))[trackingInfo[key].method.toLowerCase()](info.path, trackingInfo[key].data)
-      .replyWithFile(200, __dirname + '/fixtures/pantos-' + number + '-' + key + '.xml')
-  }
-}
+var courier = tracker.courier(tracker.COURIER.PANTOS.CODE)
 
 describe(tracker.COURIER.PANTOS.NAME, function () {
   var deliveredFedexNumber = 'DELIVEREDNUM-FEDEX'
@@ -24,8 +15,10 @@ describe(tracker.COURIER.PANTOS.NAME, function () {
 
   before(function () {
     // @TODO add nock
-    prepareNock(deliveredFedexNumber)
-    prepareNock(deliveredAuspostNumber)
+    prepare.pantos(deliveredFedexNumber)
+    prepare.pantos(deliveredAuspostNumber)
+    prepare.fedex('DELIVEREDNUM')
+    prepare.auspost('DELIVEREDNUM')
   })
 
   it('delivered fedex number', function (done) {
@@ -36,19 +29,35 @@ describe(tracker.COURIER.PANTOS.NAME, function () {
       assert.equal(tracker.COURIER.PANTOS.CODE, result.courier.code)
       assert.equal(tracker.STATUS.DELIVERED, result.status)
 
+      var fedexCount = 0
+      for (var i = 0; i < result.checkpoints.length; i++) {
+        if (tracker.COURIER.FEDEX.CODE === result.checkpoints[i].courier.code) {
+          fedexCount++
+        }
+      }
+      assert.notEqual(fedexCount, 0)
+
       done()
     })
   })
 
-// it('delivered australia post number', function (done) {
-//   courier.trace(deliveredAuspostNumber, function (err, result) {
-//     assert.equal(err, null)
-//
-//     assert.equal(deliveredAuspostNumber, result.number)
-//     assert.equal(tracker.COURIER.PANTOS.CODE, result.courier.code)
-//     assert.equal(tracker.STATUS.DELIVERED, result.status)
-//
-//     done()
-//   })
-// })
+  it('delivered australia post number', function (done) {
+    courier.trace(deliveredAuspostNumber, function (err, result) {
+      assert.equal(err, null)
+
+      assert.equal(deliveredAuspostNumber, result.number)
+      assert.equal(tracker.COURIER.PANTOS.CODE, result.courier.code)
+      assert.equal(tracker.STATUS.DELIVERED, result.status)
+
+      var auspostCount = 0
+      for (var i = 0; i < result.checkpoints.length; i++) {
+        if (tracker.COURIER.AUSPOST.CODE === result.checkpoints[i].courier.code) {
+          auspostCount++
+        }
+      }
+      assert.notEqual(auspostCount, 0)
+
+      done()
+    })
+  })
 })

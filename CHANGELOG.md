@@ -1,3 +1,7 @@
+# 0.6.0
+* add exception logic when one package is shipped via multiple carriers. (Pantos)
+* update test logic.
+
 # 0.5.0
 * add australia post.
 * add pantos.

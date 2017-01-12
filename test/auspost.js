@@ -3,25 +3,18 @@
 'use strict'
 
 var assert = require('assert')
-var nock = require('nock')
-var url = require('url')
 
+var prepare = require('./fixtures/prepare')
 var tracker = require('../')
-var courier = tracker.courier(tracker.COURIER.AUSPOST.CODE)
 
-var prepareNock = function (number) {
-  var trackingInfo = courier.trackingInfo(number)
-  var info = url.parse(trackingInfo.url)
-  nock([info.protocol, info.host].join('//'))[trackingInfo.method.toLowerCase()](info.path, trackingInfo.data)
-    .replyWithFile(200, __dirname + '/fixtures/auspost-' + number + '.json')
-}
+var courier = tracker.courier(tracker.COURIER.AUSPOST.CODE)
 
 describe(tracker.COURIER.AUSPOST.NAME, function () {
   var deliveredNumber = 'DELIVEREDNUM'
 
   before(function () {
     // @TODO add nock
-    prepareNock(deliveredNumber)
+    prepare.auspost(deliveredNumber)
   })
 
   it('delivered number', function (done) {

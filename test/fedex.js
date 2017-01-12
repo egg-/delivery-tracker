@@ -3,18 +3,11 @@
 'use strict'
 
 var assert = require('assert')
-var nock = require('nock')
-var url = require('url')
 
+var prepare = require('./fixtures/prepare')
 var tracker = require('../')
-var courier = tracker.courier(tracker.COURIER.FEDEX.CODE)
 
-var prepareNock = function (number) {
-  var trackingInfo = courier.trackingInfo(number)
-  var info = url.parse(trackingInfo.url)
-  nock([info.protocol, info.host].join('//'))[trackingInfo.method.toLowerCase()](info.path, trackingInfo.data)
-    .replyWithFile(200, __dirname + '/fixtures/fedex-' + number + '.json')
-}
+var courier = tracker.courier(tracker.COURIER.FEDEX.CODE)
 
 describe(tracker.COURIER.FEDEX.NAME, function () {
   var pendingNumber = 'PENDINGNUM'
@@ -24,10 +17,10 @@ describe(tracker.COURIER.FEDEX.NAME, function () {
 
   before(function () {
     // @TODO add nock
-    prepareNock(pendingNumber)
-    prepareNock(intransitNumber)
-    prepareNock(deliveredNumber)
-    prepareNock(exceptionNumber)
+    prepare.fedex(pendingNumber)
+    prepare.fedex(intransitNumber)
+    prepare.fedex(deliveredNumber)
+    prepare.fedex(exceptionNumber)
   })
 
   it('pending number', function (done) {

@@ -3,18 +3,11 @@
 'use strict'
 
 var assert = require('assert')
-var nock = require('nock')
-var url = require('url')
 
+var prepare = require('./fixtures/prepare')
 var tracker = require('../')
-var courier = tracker.courier(tracker.COURIER.ECARGO.CODE)
 
-var prepareNock = function (number) {
-  var trackingInfo = courier.trackingInfo(number)
-  var info = url.parse(trackingInfo.url)
-  nock([info.protocol, info.host].join('//'))[trackingInfo.method.toLowerCase()](info.path, trackingInfo.data)
-    .replyWithFile(200, __dirname + '/fixtures/ecargo-' + number + '.html')
-}
+var courier = tracker.courier(tracker.COURIER.ECARGO.CODE)
 
 describe(tracker.COURIER.ECARGO.NAME, function () {
   var pendingNumber = 'ESPENDING'
@@ -24,10 +17,10 @@ describe(tracker.COURIER.ECARGO.NAME, function () {
 
   before(function () {
     // @TODO add nock
-    prepareNock(pendingNumber)
-    prepareNock(deliveredNumber)
-    prepareNock(exceptionNumber)
-    prepareNock(failattemptNumber)
+    prepare.ecargo(pendingNumber)
+    prepare.ecargo(deliveredNumber)
+    prepare.ecargo(exceptionNumber)
+    prepare.ecargo(failattemptNumber)
   })
 
   it('pending number', function (done) {

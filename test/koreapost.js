@@ -3,18 +3,11 @@
 'use strict'
 
 var assert = require('assert')
-var nock = require('nock')
-var url = require('url')
 
+var prepare = require('./fixtures/prepare')
 var tracker = require('../')
-var courier = tracker.courier(tracker.COURIER.KOREAPOST.CODE)
 
-var prepareNock = function (number) {
-  var trackingInfo = courier.trackingInfo(number)
-  var info = url.parse(trackingInfo.url)
-  nock([info.protocol, info.host].join('//'))[trackingInfo.method.toLowerCase()](info.path, trackingInfo.data)
-    .replyWithFile(200, __dirname + '/fixtures/koreapost-' + number + '.html')
-}
+var courier = tracker.courier(tracker.COURIER.KOREAPOST.CODE)
 
 describe(tracker.COURIER.KOREAPOST.NAME, function () {
   var invalidNumber = 'INVALIDNUM0KR'
@@ -26,12 +19,12 @@ describe(tracker.COURIER.KOREAPOST.NAME, function () {
 
   before(function () {
     // @TODO add nock
-    prepareNock(invalidNumber)
-    prepareNock(pendingNumber)
-    prepareNock(intransitNumber)
-    prepareNock(deliveredNumber)
-    prepareNock(exceptionNumber)
-    prepareNock(failattemptNumber)
+    prepare.koreapost(invalidNumber)
+    prepare.koreapost(pendingNumber)
+    prepare.koreapost(intransitNumber)
+    prepare.koreapost(deliveredNumber)
+    prepare.koreapost(exceptionNumber)
+    prepare.koreapost(failattemptNumber)
   })
 
   it('invalid number', function (done) {
