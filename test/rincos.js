@@ -11,10 +11,12 @@ var courier = tracker.courier(tracker.COURIER.RINCOS.CODE)
 
 describe(tracker.COURIER.RINCOS.NAME, function () {
   var deliveredNumber = 'DELIVERED'
+  var invalidNumber = 'INVALIDNUM'
 
   before(function () {
     // @TODO add nock
     prepare.rincos(deliveredNumber)
+    prepare.rincos(invalidNumber)
   })
 
   it('delivered number', function (done) {
@@ -24,6 +26,14 @@ describe(tracker.COURIER.RINCOS.NAME, function () {
       assert.equal(deliveredNumber, result.number)
       assert.equal(tracker.COURIER.RINCOS.CODE, result.courier.code)
       assert.equal(tracker.STATUS.DELIVERED, result.status)
+
+      done()
+    })
+  })
+
+  it('invalid number', function (done) {
+    courier.trace(invalidNumber, function (err, result) {
+      assert.equal(err.code, tracker.ERROR.INVALID_NUMBER)
 
       done()
     })

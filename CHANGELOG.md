@@ -1,3 +1,6 @@
+# 0.7.1
+* added exception logic when wrong number is entered. (rincos)
+
 # 0.7.0
 * add rincos.
 
