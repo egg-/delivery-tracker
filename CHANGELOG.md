@@ -1,3 +1,6 @@
+# 0.6.1
+* add courier to commander
+
 # 0.6.0
 * add exception logic when one package is shipped via multiple carriers. (Pantos)
 * update test logic.
