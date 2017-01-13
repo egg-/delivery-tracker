@@ -1,3 +1,6 @@
+# 0.7.2
+* checking the style of all javascript files.
+
 # 0.7.1
 * added exception logic when wrong number is entered. (rincos)
 

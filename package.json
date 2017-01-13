@@ -1,6 +1,6 @@
 {
   "name": "delivery-tracker",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -11,7 +11,7 @@
     "delivery-tracker": "./bin/index.js"
   },
   "scripts": {
-    "test": "grunt"
+    "test": "standard && grunt"
   },
   "repository": {
     "type": "git",
@@ -43,7 +43,8 @@
     "grunt-mocha-test": "^0.13.2",
     "matchdep": "^1.0.1",
     "mocha": "^3.2.0",
-    "nock": "^9.0.2"
+    "nock": "^9.0.2",
+    "standard": "^8.6.0"
   },
   "dependencies": {
     "async": "^2.1.4",
