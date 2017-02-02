@@ -1,3 +1,6 @@
+# 0.7.3
+* add koreapost shipping completion condition.
+
 # 0.7.2
 * checking the style of all javascript files.
 

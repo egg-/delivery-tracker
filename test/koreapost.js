@@ -14,6 +14,7 @@ describe(tracker.COURIER.KOREAPOST.NAME, function () {
   var pendingNumber = 'EBPENDING00KR'
   var intransitNumber = 'EBINTRANSITKR'
   var deliveredNumber = 'EBCOMPLETE0KR'
+  var finalDeliveryNumber = 'EBCOMPLETE1KR'
   var exceptionNumber = 'EYEXCEPTIONKR'
   var failattemptNumber = 'EYEXCEPTIONKR'
 
@@ -23,6 +24,7 @@ describe(tracker.COURIER.KOREAPOST.NAME, function () {
     prepare.koreapost(pendingNumber)
     prepare.koreapost(intransitNumber)
     prepare.koreapost(deliveredNumber)
+    prepare.koreapost(finalDeliveryNumber)
     prepare.koreapost(exceptionNumber)
     prepare.koreapost(failattemptNumber)
   })
@@ -63,6 +65,18 @@ describe(tracker.COURIER.KOREAPOST.NAME, function () {
       assert.equal(err, null)
 
       assert.equal(deliveredNumber, result.number)
+      assert.equal(tracker.COURIER.KOREAPOST.CODE, result.courier.code)
+      assert.equal(tracker.STATUS.DELIVERED, result.status)
+
+      done()
+    })
+  })
+
+  it('finally delivered number', function (done) {
+    courier.trace(finalDeliveryNumber, function (err, result) {
+      assert.equal(err, null)
+
+      assert.equal(finalDeliveryNumber, result.number)
       assert.equal(tracker.COURIER.KOREAPOST.CODE, result.courier.code)
       assert.equal(tracker.STATUS.DELIVERED, result.status)
 

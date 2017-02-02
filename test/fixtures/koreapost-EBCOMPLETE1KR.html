@@ -1,0 +1,459 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<title>EMS Track/confirm</title>
+<!--<link href="https://service.epost.go.kr/postal/css/ems/ems_commlayout.css" rel="stylesheet" type="text/css" />
+[if IE 6]><link rel="stylesheet" type="text/css" href="https://service.epost.go.kr/postal/css/ems/ems_commlayout_ie6.css" media="all" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="https://service.epost.go.kr/postal/css/ems/ems_commlayout_ie7.css" media="all" /><![endif]-->
+
+<style type="text/css">
+<!--
+body{
+	background:#f3f3f3;
+}
+-->
+</style>
+<link type="text/css" rel="stylesheet" href="https://service.epost.go.kr//np2assets/css/pop_sub.css" />
+<script type="text/javascript" src="https://service.epost.go.kr//iwww/jscripts/comm/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="https://service.epost.go.kr//postal/jscripts/n_common.js"></script>
+<script type="text/javascript" src="https://service.epost.go.kr//postal/jscripts/epost_trace.js"></script>
+<script type="text/javascript" >
+//<![CDATA[
+$(document).ready(
+					function() {$("#imgBtnPrint").on("click",function() {
+											var theWork = window.open('','PrintWindow');
+											var content1 = $('#print1').html();
+											var content2 = $('#print2').html();
+											var content3 = $('#print3').html();
+
+											var html = "<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns='http://www.w3.org/1999/xhtml' lang='ko' xml:lang='ko'><head>";
+											html += "<link type='text/css' rel='stylesheet' href='https://service.epost.go.kr//np2assets/css/pop_sub.css' />";
+											html += "<style type='text/css'>";
+											html += "body p{margin-bottom:3px !importnat;line-height:18px !important;}";
+											html += "table{border-collapse:collapse;border:1px solid #666 !important;}";
+											html += "table td{border:1px solid #666 !important;}";
+											html += "table th{border:1px solid #666 !important;}";
+											html += "a.search{display:none;}";
+											html += "</style>";
+											html += "</head>";
+											html += "<body><div id='print' style='width:700px;'>"
+													+  content1
+													+  content2
+													+  content3;
+											html += "</div>";
+											html += "</body></html>";
+											theWork.document.open();
+											theWork.document.write(html);
+											theWork.document.close();
+											theWork.print();
+											theWork.close();
+										});
+					});
+
+function init(){
+    if('CN' == 'CN'){
+    	alert("Please note that delivery to China could be delayed by increasing mail volumes.");
+    }
+}
+
+// 한글판 전송할 값을 구성한다.
+function transValue() {
+    var form = document.getElementById('kform');
+    if(delBlank(form)){
+
+        if(!checkPostCode(form)) {
+        	/*
+            if(form.ems_gubun[0].selected)
+                alert('The First letter must be commenced a letter C or V');
+            else if(form.ems_gubun[1].selected)
+                alert('The First letter must be commenced a letter R or V or LK');
+            else if(form.ems_gubun[2].selected)
+                alert('The First letter must be commenced a letter E or V or U');
+            return false;
+            */
+            alert('Check EMS Number, please.');
+            return false;
+        }
+        if(!checkPostCodeCountry(form))
+        {
+            alert('Check EMS Number, please.');
+			return false;
+        }
+        if(postcodeLen(form) != 13){
+            alert('Please enter a thirteen-digit number for the item number');
+            return false;
+        }
+    }
+    else
+    {
+        alert('Enter the EMS Number into the field , please.');
+    	return false;
+    }
+    form.action="/xtts/servlet/kpl.tts.common.svl.SttSVL";
+    form.submit();
+
+    return true;
+}
+
+function go_emsenghome() {
+
+        location.href='/xtts/tt/epost/ems/ems_eng.jsp';
+
+}
+
+function emailEMS() {
+
+	    if(confirm('송달소요기간(약1주일)이 경과한 경우 청구가 가능합니다.'))
+	    {
+	        //location.href='https://ems.epost.go.kr/trace.RegisterEmsClaim.postal?POST_CODE=EBCOMPLETE1KR&flag=2';
+	        window.open('https://ems.epost.go.kr/trace.RegisterEmsClaim.postal?POST_CODE=EBCOMPLETE1KR&flag=2','ems','resizable=yes, scrollbars=yes, menubar=yes');
+	    }
+
+}
+//]]>
+</script>
+</head>
+<body onload="init();">
+<div id="title_layout">
+		<h3>EMS Track/Confirm</h3>
+		<p><a class="btn_close" href="javascript:window.close();" title="창닫기">닫기</a></p>
+	</div>
+	<div id="body_layout">
+		<div class="h4_wrap">
+			<div class="title_wrap">
+				<h4>Delivery Status for your EMS</h4>
+			</div>
+			<div class="box_wrap2">
+				<form name='kform' id="kform" method='post' action="/xtts/servlet/kpl.tts.common.svl.SttSVL" onsubmit="return transValue()">
+				<input type="hidden" name="target_command" value="kpl.tts.tt.epost.cmd.RetrieveEmsTraceEngCmd"/>
+				<input type="hidden" name="JspURI" value="/xtts/tt/epost/ems/EmsSearchResultEng.jsp"/>
+				<div id="print1">
+					<dl class="dl_row2">
+						<dt class="w_100">Item Number</dt>
+						<dd class="w_260">
+							<input class="w_140 f_l m_r_5" type="text" value="EBCOMPLETE1KR" maxlength="13" size="20" id="POST_CODE" title="Item Number" name="POST_CODE" >
+							<a class="btn_s f_l search" href="javascript:void(0);" onclick="return transValue();" title="Search">Search</a>
+						 </dd>
+
+
+
+					</dl>
+				</div>
+				</form>
+			</div>
+		<div id="print2">
+		<table class="table_col" width="100%" border="0" cellspacing="0" cellpadding="0" summary="Delivery Status for your EMS 표의 Date, Status, Post office/Airport, Details 등 정보 리스트">
+					<caption>Delivery Status for your EMS</caption>
+					<colgroup>
+						<col style="width:18%;" />
+						<col style="width:20%;" />
+						<col style="width:24%;" />
+						<col style="width:38%;" />
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col">Date</th>
+							<th scope="col">Status</th>
+							<th scope="col">Post office/Airport</th>
+							<th scope="col" class="bg_image_no">Details</th>
+						</tr>
+					</thead>
+					<tbody>
+
+
+
+				<tr>
+					<td>
+                        18:39
+                        12-Jan-2017
+
+                    </td>
+					<td>
+						Posting/Collection
+
+					</td>
+					<td>
+                        SL.GANGSEO
+
+                    </td>
+
+					<td class="leftAlg">
+						<p>Posting office zip code :
+                                07582
+
+                        </p>
+						<p>Transit or Destination country :
+                                CHINA(PEOPLES REP)
+                        </p>
+
+
+					</td>
+
+    				</tr>
+
+				<tr>
+					<td>
+                        20:17
+                        12-Jan-2017
+
+                    </td>
+					<td>
+						Delivered to Transport companies
+
+					</td>
+					<td>
+                        SL.GANGSEO
+
+                    </td>
+
+                    <td class="leftAlg">
+
+                    </td>
+
+    				</tr>
+
+				<tr>
+					<td>
+                        21:31
+                        12-Jan-2017
+
+                    </td>
+					<td>
+
+
+					</td>
+					<td>
+                        INTERNATIONAL POST OFFICE
+
+                    </td>
+
+                    <td class="leftAlg">
+                    </td>
+
+    				</tr>
+
+				<tr>
+					<td>
+                        10:47
+                        14-Jan-2017
+
+                    </td>
+					<td>
+						Ready for dispatch
+
+					</td>
+					<td>
+                        INTERNATIONAL POST OFFICE
+
+                    </td>
+
+                    <td class="leftAlg">
+                        <p>Dispatch number : 22</p>
+                    </td>
+
+    				</tr>
+
+				<tr>
+					<td>
+                        11:04
+                        14-Jan-2017
+
+                    </td>
+					<td>
+						Delivered to Transport companies
+
+					</td>
+					<td>
+                        INCHEON
+
+                    </td>
+
+                    <td class="leftAlg">
+
+                        <p>Flight number : NEW GOLDEN</p>
+
+                    </td>
+
+    				</tr>
+
+				<tr>
+					<td>
+                        11:37
+                        17-Jan-2017
+
+                    </td>
+					<td>
+						Customs Clearance
+
+					</td>
+					<td>
+
+
+                    </td>
+
+                    <td class="leftAlg">
+                    </td>
+
+    				</tr>
+
+				<tr>
+					<td>
+                        11:43
+                        17-Jan-2017
+
+                    </td>
+					<td>
+						Departure from inward office of exchang
+
+					</td>
+					<td>
+
+
+                    </td>
+
+                    <td class="leftAlg">
+                    </td>
+
+    				</tr>
+
+				<tr>
+					<td>
+                        16:42
+                        17-Jan-2017
+
+                    </td>
+					<td>
+						Arrival at inward office of exchange
+
+					</td>
+					<td>
+                        CNWEHD
+
+                    </td>
+
+                    <td class="leftAlg">
+                    </td>
+
+    				</tr>
+
+				<tr>
+					<td>
+                        09:57
+                        18-Jan-2017
+
+                    </td>
+					<td>
+						Arrival at Office of Exchange
+
+					</td>
+					<td>
+
+
+                    </td>
+
+                    <td class="leftAlg">
+                    </td>
+
+    				</tr>
+
+				<tr>
+					<td>
+                        18:45
+                        22-Jan-2017
+
+                    </td>
+					<td>
+						Unsuccessful delivery
+
+					</td>
+					<td>
+                        200020
+
+                    </td>
+
+                    <td class="leftAlg">
+                        <p>Reason : Unknown addressee</p>
+                        <p>Result : </p>
+                    </td>
+
+    				</tr>
+
+				<tr>
+					<td>
+                        10:24
+                        23-Jan-2017
+
+                    </td>
+					<td>
+						Final Delivery
+
+					</td>
+					<td>
+                        200020
+
+                    </td>
+
+                    <td class="leftAlg">
+                    </td>
+
+    				</tr>
+
+
+
+		</tbody>
+			</table>
+			</div>
+			<p class="t_a_c" >
+				<a href="javascript:void(0);" id="imgBtnPrint" title="Print this" class="btn_m gre5" style="width:120px;height:50px;font-size:20px;font-weight:bold;line-height:50px;">Print this</a>
+			</p>
+			<div id="print3">
+			<ul class="description" style="margin-bottom:10px;font-size:13px;">
+					<li style="margin-bottom:15px;">＊ When an item number starts with ‘L’, it refers to the standard letter mail category which does not require a delivery confirmation signature from the addressee. Thus, post office shall not be reliable for loss of the item.</li>
+					<li style="margin-bottom:15px;">＊ Mail item with its address referred to on a P.O. box is not be directly delivered to the addressee, and its item tracking results may indicate as ‘Unsuccessful delivery.’</li>
+					<li style="margin-bottom:15px;">＊ Guarantee Service delivery days
+						<ul>
+							<li>- Customs clearance period will be excluded from delivery days. </li>
+							<li>- When a delivery attempt fails due to reasons such as absence of the addressee, the delivery shall be deemed to complete. </li>
+						</ul>
+					</li>
+					<li style="margin-bottom:15px;">＊ If your item is not reported to be delivered after an expected period (e.g. one week), please send us an e-mail and we will investigate the case to notify you the item status. </li>
+					<li style="margin-bottom:15px;">＊ Please note that item status and date is based on the destination country’s local time after the item is handed over to the destination country.  </li>
+					<li style="margin-bottom:15px;">＊ If you have any inquiry on your item, please contact Korea Post Customer Call Center (+82 1588-1300) or <a href="https://ems.epost.go.kr/front.EmsInfoInfo01.postal" target="_blank" style="font-weight:bold;color:black;text-decoration:underline;">a post office call center of the destination country.</a></li>
+					<li>＊ You should follow time requirements when filing an inquiry on item status. Any inquiry filed after the stipulated period will not be accepted for compensation. Time requirements by mail category are as follows: </li>
+					<li>&nbsp International Parcel - Within six (6) months of the posted date</li>
+					<li>&nbsp EMS item – Within four (4) months of the posted date</li>
+					<li>&nbsp Item applied with Guarantee Service - Within 30 days of the posted date</li>
+					<li>&nbsp EMS Premium item - Within three (3) months of the posted date </li>
+				</ul>
+			</div>
+		 <p class="t_a_c" style="margin-bottom:10px;">
+				<a href="javascript:void(0);" onclick="return emailEMS();"  title="apply the e-mail inquiry" class="btn_m gre5 ">apply the e-mail inquiry</a>
+				<a href="javascript:void(0);" onclick="return go_emsenghome();"  title="track from other Posts" class="btn_m gre5 m_l_5">track from other Posts</a>
+			</p>
+
+		</div>
+
+	</div>
+</body>
+</html>
