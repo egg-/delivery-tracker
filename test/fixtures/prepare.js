@@ -15,7 +15,6 @@ var prepareNock = function (trackingInfo, filename) {
 var prepare = function (namespace, number, extention, isMultiple) {
   var courier = tracker.courier(tracker.COURIER[namespace].CODE)
   var trackingInfo = courier.trackingInfo(number)
-
   if (isMultiple) {
     for (var key in trackingInfo) {
       var filename = [namespace.toLowerCase(), number, key]
@@ -44,5 +43,8 @@ module.exports = {
   },
   rincos: function (number) {
     prepare('RINCOS', number, 'html')
+  },
+  royalmail: function (number) {
+    prepare('ROYALMAIL', number, 'html')
   }
 }

@@ -1,3 +1,6 @@
+# 0.8.0
+* add royalmail.
+
 # 0.7.3
 * add koreapost shipping completion condition.
 

@@ -17,6 +17,7 @@ FedEx | @egg- | https://www.fedex.com/
 Australia Post | @egg- | https://auspost.com.au/
 Pantos | @egg- | http://www.epantos.com/
 Rincos | @egg- | http://www.rincos.co.kr/
+Royal Mail | @egg- | http://www.royalmail.com/
 
 ## Installation
 
@@ -91,6 +92,8 @@ ECARGO | ecargo | Ecargo
 FEDEX | fedex | FedEx
 AUSPOST | auspost | Australia Post
 PANTOS | pantos | Pantos
+RINCOS | rincos | Rincos
+ROYALMAIL | royalmail | Royal Mail
 
 ### STATUS
 
