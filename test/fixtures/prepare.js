@@ -46,5 +46,8 @@ module.exports = {
   },
   royalmail: function (number) {
     prepare('ROYALMAIL', number, 'html')
+  },
+  usps: function (number) {
+    prepare('USPS', number, 'html')
   }
 }

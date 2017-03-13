@@ -1,3 +1,6 @@
+# 0.9.0
+* added USPS.
+
 # 0.8.5
 * fixed timeout pantos.
 
