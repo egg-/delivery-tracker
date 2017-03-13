@@ -1,3 +1,6 @@
+# 0.8.5
+* fixed timeout pantos.
+
 # 0.8.4
 * update pantos shiment error handle.
 
