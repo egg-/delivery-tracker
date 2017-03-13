@@ -1,3 +1,6 @@
+# 0.8.4
+* update pantos shiment error handle.
+
 # 0.8.0
 * add royalmail.
 

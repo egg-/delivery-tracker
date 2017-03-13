@@ -115,6 +115,7 @@ FAIL_ATTEMPT | FailAttempt | The courier tried to send but failed, but usually r
 Code | Value | Description
 ---- | ---- | ----
 UNKNOWN | -1 | Unknow error
+NOT_SUPPORT_SHIPMENT | 20 | shipment does not support.
 INVALID_NUMBER | 10 | invalid trace number.
 INVALID_NUMBER_LENGTH | 11 | invalid trace number.
 INVALID_NUMBER_HEADER | 12 | invalid trace number.
