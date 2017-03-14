@@ -1,3 +1,6 @@
+# 0.9.1
+* Added rincos delivery complete message type.
+
 # 0.9.0
 * added USPS.
 
