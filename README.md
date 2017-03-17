@@ -18,6 +18,7 @@ Australia Post | @egg- | https://auspost.com.au/
 Pantos | @egg- | http://www.epantos.com/
 Rincos | @egg- | http://www.rincos.co.kr/
 Royal Mail | @egg- | http://www.royalmail.com/
+USPS | @egg- | https://www.usps.com/
 
 ## Installation
 
@@ -94,6 +95,7 @@ AUSPOST | auspost | Australia Post
 PANTOS | pantos | Pantos
 RINCOS | rincos | Rincos
 ROYALMAIL | royalmail | Royal Mail
+USPS | usps | USPS
 
 ### STATUS
 
