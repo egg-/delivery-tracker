@@ -1,3 +1,6 @@
+# 0.9.3
+* add a status value to the rincos checkpoint message information.
+
 # 0.9.2
 * Added USPS description text to README.md.
 
