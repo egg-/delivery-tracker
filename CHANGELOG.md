@@ -1,3 +1,6 @@
+# 0.9.4
+* Added exception logic for unaligned shipping information.
+
 # 0.9.3
 * add a status value to the rincos checkpoint message information.
 

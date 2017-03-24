@@ -13,12 +13,14 @@ describe(tracker.COURIER.RINCOS.NAME, function () {
   var deliveredNumber = 'DELIVERED'
   var releasedNumber = 'RELEASED'
   var invalidNumber = 'INVALIDNUM'
+  var deliveredMixedNumber = 'DELIVEREDMIXED'
 
   before(function () {
     // @TODO add nock
     prepare.rincos(deliveredNumber)
     prepare.rincos(releasedNumber)
     prepare.rincos(invalidNumber)
+    prepare.rincos(deliveredMixedNumber)
   })
 
   it('delivered number', function (done) {
@@ -38,6 +40,18 @@ describe(tracker.COURIER.RINCOS.NAME, function () {
       assert.equal(err, null)
 
       assert.equal(releasedNumber, result.number)
+      assert.equal(tracker.COURIER.RINCOS.CODE, result.courier.code)
+      assert.equal(tracker.STATUS.DELIVERED, result.status)
+
+      done()
+    })
+  })
+
+  it('delivered number', function (done) {
+    courier.trace(deliveredMixedNumber, function (err, result) {
+      assert.equal(err, null)
+
+      assert.equal(deliveredMixedNumber, result.number)
       assert.equal(tracker.COURIER.RINCOS.CODE, result.courier.code)
       assert.equal(tracker.STATUS.DELIVERED, result.status)
 
