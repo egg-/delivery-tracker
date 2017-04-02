@@ -19,6 +19,7 @@ Pantos | @egg- | http://www.epantos.com/
 Rincos | @egg- | http://www.rincos.co.kr/
 Royal Mail | @egg- | http://www.royalmail.com/
 USPS | @egg- | https://www.usps.com/
+CJ Korea Express (Korea) | @egg- | http://cjkoreaexpress.co.kr/ (https://www.doortodoor.co.kr)
 
 ## Installation
 
@@ -96,6 +97,7 @@ PANTOS | pantos | Pantos
 RINCOS | rincos | Rincos
 ROYALMAIL | royalmail | Royal Mail
 USPS | usps | USPS
+CJKOREAEXPRESS | cjkoreaexpress | CJ Korea Express
 
 ### STATUS
 

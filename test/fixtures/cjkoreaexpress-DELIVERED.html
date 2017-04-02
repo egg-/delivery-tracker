@@ -1,0 +1,309 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="ko" xml:lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>배송조회_결과 | CJ대한통운 택배 모바일 홈페이지</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="/m/css/base.css" type="text/css">
+	<script src="/m/js/jquery-1.7.2.min.js"></script>
+	<script src="/m/js/ui.js"></script>
+	<script type="text/javascript" src="/m/js/script.js"></script>
+	<script type="text/javascript" src="/js/cj.js"></script>
+	<script type="text/javascript" src="/js/function-1.2.js"></script>
+	<script type="text/javascript" src="/js/ajax-helper-2.0.js" ></script>
+	<script type="text/javascript" src="/js/policy.js"></script>
+	<!--[if IE]><script type="text/javascript" src="/m/js/html5.js"></script><![endif]-->
+	<script type="text/javascript">
+
+function changeMenu(){
+	if(hasClass(document.getElementById("allMenu"),"default")){
+		removeClass(document.getElementById("allMenu"), "default")
+		addClass(document.getElementById("allMenu"), "focus");
+	}
+	else{
+		removeClass(document.getElementById("allMenu"), "focus")
+		addClass(document.getElementById("allMenu"), "default");
+	}
+}
+
+function hasClass(ele,cls) {
+	return ele.className.match(new RegExp('(\\s|^)'+cls+'(\\s|$)'));
+}
+
+function addClass(ele,cls) {
+	if (!this.hasClass(ele,cls)) ele.className += " "+cls;
+}
+
+function removeClass(ele,cls) {
+	if (hasClass(ele,cls)) {
+		var reg = new RegExp('(\\s|^)'+cls+'(\\s|$)');
+		ele.className=ele.className.replace(reg,' ');
+	}
+}
+
+function go_logout(){
+	/*
+	var frm = document.forms[0];
+	frm.fsp_cmd.value = "logoutACTM";
+	frm.action = "/LOGIN_ACT_001";
+	frm.submit();
+	*/
+	document.location.href = '/doortodoor.do?fsp_action=LOGIN_ACT_001&fsp_cmd=logoutACTM';
+}
+
+function viewLegal(arg){
+	window.open("/m/sub/sub_001_legal" + arg +".jsp");
+}
+
+function checkMobile(){
+	 var agent = navigator.userAgent;
+	 var obj = document.getElementById("_body");
+	 if (agent.match(/iPhone/) != null || agent.match(/iPod/) != null) {
+		 obj.style.height = "100%";
+	 }else {
+		 //obj.style.height = "200%";
+	 }
+}
+
+function gotoMemberRev(){
+
+	var params = {};
+	params.fsp_action = 'PARC_ACT_001';
+	params.fsp_cmd = 'retrieveMobilePsnCustACT';
+	params.nextpage = '/m/sub/sub_002.jsp';
+	params.cust_id = '';
+	params.user_id = '';
+
+	CallBizLogic(params);
+}
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+
+	  ga('create', 'UA-47919938-8', 'doortodoor.co.kr');
+
+	  ga('send', 'pageview');
+
+
+</script>
+</head>
+<body>
+<div class="wrapper">
+	<span class="topLine"><span class="org"></span></span>
+	<header>
+	<h1><a href="/m"><img src="/m/images/common/logo.png" width="85" height="36" title="íë°°ëííµì´ ëª¨ë°ì¼ ìë¹ì¤" alt="íë°°ëííµì´ ëª¨ë°ì¼ ìë¹ì¤"></a></h1>
+
+    <!-- 메뉴이동 -->
+	<div class="navigation">
+	 <span class="menu all"><a href="#">메뉴</a></span>
+	 <ul style="display:none;">
+	     <li><a href="/m/sub/sub_006.jsp">배송조회</a></li>
+	     <li><a href="/m/sub/dlv_main.jsp">일반예약</a></li>
+	     <li><a href="/m/sub/sub_014.jsp">반품예약</a></li>
+	     <li><a href="/m/post/post_main.jsp">우편예약</a></li>
+	     <li><a href="/m/sub/sub_011.jsp">운임검색</a></li>
+	     <li><a href="/m/service/service_001.jsp">고객의소리</a></li>
+	     <li><a href="#" class="close">닫기</a></li>
+     </ul>
+    </div>
+    </header>
+    <!-- ì ì²´ë©ë´ë²í¼ -->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<style type="text/css">
+.btn_red02 {display:block; float:left; height:32px; padding-left:17px; background:url("../../dtd_images/common/btn_red02.png") no-repeat left top; cursor:pointer;}
+.btn_red02 span {display:block; float:left; padding-right:19px; background:url("../../dtd_images/common/btn_red02.png") no-repeat right top; color:#ffffff; font-size:13px; height:32px; line-height:29px; letter-spacing:-1px;}
+</style>
+<script type="text/javascript">
+//로지아이로 이동한다.
+function go_logii(){
+	var frm = document.getElementById("logiiForm");
+
+	//frm.action = "http://m.re.logii.com/interface/delvprom/delv_click.asp";
+	//frm.action = "http://m.logii.com/interface/delvprom/delv_click.asp";
+	frm.action = "https://m.logii.com:888/interface/delvprom/delv_click.asp";
+
+	/*
+	개발 : http://m.re.logii.com/interface/delvprom/delv_click.asp
+	운영 : http://m.logii.com/interface/delvprom/delv_click.asp
+	*/
+
+
+
+	frm.submit();
+}
+</script>
+</head>
+<body>
+<form action="" method="post" id="logiiForm" name="logiiForm">
+	<input type="hidden" id="comp_code" name="comp_code" value="korex"/>
+	<input type="hidden" id="inv_no" name="inv_no" value="DELIVERED" />
+	<input type="hidden" id="login_yn" name="login_yn" value="N"/>
+	<input type="hidden" id="login_name" name="login_name" value=""/>
+</form>
+
+
+	<div class="contents">
+
+		<div class="iconTitle">
+			<img src="/m/images/common/ico_view.png" width="18" height="17" alt="배송조회 결과"> 배송조회 결과
+		</div>
+
+         <h2 class="dtit">1. 기본정보</h2>
+         <div class="list">
+			<table class="listSty1" summary="이 표는 기본정보 검색 표입니다. 운송장번호, 보내는 분, 받는 분, 물품정보로 구성되어 있습니다.">
+				<caption class="hidden">기본정보 검색 표</caption>
+				<colgroup>
+					<col width="30%" />
+					<col width="70%" />
+				</colgroup>
+				<tbody>
+				<tr class="first">
+					<th scope="row">운송장번호</th>
+					<td>DELIVERED</td>
+				</tr>
+				<tr>
+					<th scope="row">보내는 분</th>
+					<td>VI*</td>
+				</tr>
+				<tr>
+					<th scope="row">받는 분</th>
+					<td>홍윤*</td>
+				</tr>
+				<tr>
+					<th scope="row">물품정보</th>
+					<td>VICXXO 3D 풀커버강화유리필름 아이폰7 블랙</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+
+        <br />
+
+		<h2 class="dtit">2. 상태정보</h2>
+		<div class="list">
+		 <table class="listSty2" summary="이 표는 상태정보 결과 표입니다. 3열로 되어있으며 1열 처리일시, 2열 담당점소, 3열 상품상태로 구성되어 있습니다.">
+			<caption class="hidden">상태정보 결과 표</caption>
+			<colgroup>
+				<col width="35%" />
+				<col width="*" />
+				<col width="33%" />
+			</colgroup>
+			<thead>
+			<tr class="first">
+				<th scope="col">처리일시</th>
+				<th scope="col">담당점소</th>
+				<th scope="col">상품상태</th>
+			</tr>
+			</thead>
+			<tbody>
+
+													<tr >
+														<td>2017-02-28<br />
+															14:42</td>
+														<td>서울은평역촌<br /><span class="wbN">&nbsp;</span></td>
+														<td class="last">
+																집화처리<br />
+
+														</td>
+													</tr>
+
+													<tr >
+														<td>2017-03-01<br />
+															04:47</td>
+														<td>용인HUB<br /><span class="wbN">&nbsp;</span></td>
+														<td class="last">
+																간선상차<br />
+
+														</td>
+													</tr>
+
+													<tr >
+														<td>2017-03-02<br />
+															08:10</td>
+														<td>송파B<br /><span class="wbN">&nbsp;</span></td>
+														<td class="last">
+																간선하차<br />
+
+														</td>
+													</tr>
+
+													<tr >
+														<td>2017-03-02<br />
+															09:00</td>
+														<td>서울송파거마<br /><span class="wbN">&nbsp;</span></td>
+														<td class="last">
+																배달출발<br />
+																&nbsp;(배달예정시간:14∼16시)
+
+														</td>
+													</tr>
+
+													<tr class="last_b">   
+														<td>2017-03-02<br />
+															14:20</td>
+														<td>서울송파거마<br /><span class="wbN">&nbsp;</span></td>
+														<td class="last">
+																배달완료<br />
+
+														</td>
+													</tr>
+
+			</tbody>
+		</table>
+		</div>
+
+		<div style="overflow:hidden;">
+        <a href="javascript:go_logii(); " title="새창" class="btn_red02"><span>캐쉬백 포인트 적립</span></a>
+        <span class="text6" style="display:block; float:left; margin-top:6px;">※ 운송장번호로 캐쉬백 포인트 적립하세요!</span>
+    </div>
+
+		<div class="midBtb">
+			<!--<a href="/m/" class="blueBtn" title="메인으로 가기">메인으로 가기 <img src="/m/images/common/bg_btn_pointer.png" width="6" height="8" alt="메인으로 가기"></a>-->
+
+			<a href="https://www.doortodoor.co.kr/m/" class="blueBtn" title="메인으로 가기">메인으로 가기 <img src="/m/images/common/bg_btn_pointer.png" width="6" height="8" alt="메인으로 가기"></a>
+		</div>
+    </div>
+
+    <div class="footer">
+    	<ul>
+			<li><a href="javascript:viewLegal('5');" style="font-size: 12px">개인정보취급/처리방침</a></li>
+			<li class="line"><a href="javascript:viewLegal('4');" style="font-size: 12px">택배이용약관</a></li>
+
+			<li class="lineRight"><a href="/m/sub/login.jsp" style="font-size: 12px">로그인</a>
+
+			<li><a href="/main/index.jsp" style="font-size: 12px">PC버전</a></li>
+		</ul>
+		<p class="copyright">COPYRIGHT 2013 BY CJ korea express Corporation<br />ALL RIGHT RESERVED.</p>
+    </div>
+</div>
+</body>
+</html>
+</body>
+</html>

@@ -1,3 +1,6 @@
+# 1.0.0
+* add CJ Korea Express.
+
 # 0.9.4
 * Added exception logic for unaligned shipping information.
 

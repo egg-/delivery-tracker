@@ -49,5 +49,8 @@ module.exports = {
   },
   usps: function (number) {
     prepare('USPS', number, 'html')
+  },
+  cjkoreaexpress: function (number) {
+    prepare('CJKOREAEXPRESS', number, 'html')
   }
 }
