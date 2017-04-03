@@ -17,10 +17,10 @@ describe(tracker.COURIER.RINCOS.NAME, function () {
 
   before(function () {
     // @TODO add nock
-    prepare.rincos(deliveredNumber)
-    prepare.rincos(releasedNumber)
-    prepare.rincos(invalidNumber)
-    prepare.rincos(deliveredMixedNumber)
+    prepare(courier, deliveredNumber)
+    prepare(courier, releasedNumber)
+    prepare(courier, invalidNumber)
+    prepare(courier, deliveredMixedNumber)
   })
 
   it('delivered number', function (done) {

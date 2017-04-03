@@ -15,8 +15,8 @@ describe(tracker.COURIER.USPS.NAME, function () {
 
   before(function () {
     // @TODO add nock
-    prepare.usps(inforeceivedNumber)
-    prepare.usps(intransitNumber)
+    prepare(courier, inforeceivedNumber)
+    prepare(courier, intransitNumber)
   })
 
   it('info received number', function (done) {

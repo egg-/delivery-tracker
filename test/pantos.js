@@ -15,10 +15,10 @@ describe(tracker.COURIER.PANTOS.NAME, function () {
 
   before(function () {
     // @TODO add nock
-    prepare.pantos(deliveredFedexNumber)
-    prepare.pantos(deliveredAuspostNumber)
-    prepare.fedex('DELIVEREDNUM')
-    prepare.auspost('DELIVEREDNUM')
+    prepare(courier, deliveredFedexNumber)
+    prepare(courier, deliveredAuspostNumber)
+    prepare(tracker.courier(tracker.COURIER.FEDEX.CODE), 'DELIVEREDNUM')
+    prepare(tracker.courier(tracker.COURIER.AUSPOST.CODE), 'DELIVEREDNUM')
   })
 
   it('delivered fedex number', function (done) {

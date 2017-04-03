@@ -14,7 +14,7 @@ describe(tracker.COURIER.ROYALMAIL.NAME, function () {
 
   before(function () {
     // @TODO add nock
-    prepare.royalmail(intransitNumber)
+    prepare(courier, intransitNumber)
   })
 
   it('in transit number', function (done) {

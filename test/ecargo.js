@@ -17,10 +17,10 @@ describe(tracker.COURIER.ECARGO.NAME, function () {
 
   before(function () {
     // @TODO add nock
-    prepare.ecargo(pendingNumber)
-    prepare.ecargo(deliveredNumber)
-    prepare.ecargo(exceptionNumber)
-    prepare.ecargo(failattemptNumber)
+    prepare(courier, pendingNumber)
+    prepare(courier, deliveredNumber)
+    prepare(courier, exceptionNumber)
+    prepare(courier, failattemptNumber)
   })
 
   it('pending number', function (done) {

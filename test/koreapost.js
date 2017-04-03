@@ -20,13 +20,13 @@ describe(tracker.COURIER.KOREAPOST.NAME, function () {
 
   before(function () {
     // @TODO add nock
-    prepare.koreapost(invalidNumber)
-    prepare.koreapost(pendingNumber)
-    prepare.koreapost(intransitNumber)
-    prepare.koreapost(deliveredNumber)
-    prepare.koreapost(finalDeliveryNumber)
-    prepare.koreapost(exceptionNumber)
-    prepare.koreapost(failattemptNumber)
+    prepare(courier, invalidNumber)
+    prepare(courier, pendingNumber)
+    prepare(courier, intransitNumber)
+    prepare(courier, deliveredNumber)
+    prepare(courier, finalDeliveryNumber)
+    prepare(courier, exceptionNumber)
+    prepare(courier, failattemptNumber)
   })
 
   it('invalid number', function (done) {

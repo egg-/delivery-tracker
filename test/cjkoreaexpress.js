@@ -14,7 +14,7 @@ describe(tracker.COURIER.CJKOREAEXPRESS.NAME, function () {
 
   before(function () {
     // @TODO add nock
-    prepare.cjkoreaexpress(deliveredNumber)
+    prepare(courier, deliveredNumber)
   })
 
   it('delivered number', function (done) {

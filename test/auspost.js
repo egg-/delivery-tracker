@@ -14,7 +14,7 @@ describe(tracker.COURIER.AUSPOST.NAME, function () {
 
   before(function () {
     // @TODO add nock
-    prepare.auspost(deliveredNumber)
+    prepare(courier, deliveredNumber)
   })
 
   it('delivered number', function (done) {

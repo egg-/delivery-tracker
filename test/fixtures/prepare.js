@@ -4,53 +4,20 @@ var nock = require('nock')
 var url = require('url')
 var path = require('path')
 
-var tracker = require('../../')
-
 var prepareNock = function (trackingInfo, filename) {
   var info = url.parse(trackingInfo.url)
   nock([info.protocol, info.host].join('//'))[trackingInfo.method.toLowerCase()](info.path, trackingInfo.data)
     .replyWithFile(200, path.join(__dirname, '/' + filename))
 }
 
-var prepare = function (namespace, number, extention, isMultiple) {
-  var courier = tracker.courier(tracker.COURIER[namespace].CODE)
+module.exports = function (courier, number) {
   var trackingInfo = courier.trackingInfo(number)
-  if (isMultiple) {
-    for (var key in trackingInfo) {
-      var filename = [namespace.toLowerCase(), number, key]
-      prepareNock(trackingInfo[key], filename.join('-') + '.' + extention)
-    }
+  if (trackingInfo.url) {
+    prepareNock(trackingInfo, [courier.CODE, number].join('-'))
   } else {
-    prepareNock(trackingInfo, [namespace.toLowerCase(), number].join('-') + '.' + extention)
-  }
-}
-
-module.exports = {
-  koreapost: function (number) {
-    prepare('KOREAPOST', number, 'html')
-  },
-  ecargo: function (number) {
-    prepare('ECARGO', number, 'html')
-  },
-  fedex: function (number) {
-    prepare('FEDEX', number, 'json')
-  },
-  auspost: function (number) {
-    prepare('AUSPOST', number, 'json')
-  },
-  pantos: function (number) {
-    prepare('PANTOS', number, 'xml', true)
-  },
-  rincos: function (number) {
-    prepare('RINCOS', number, 'html')
-  },
-  royalmail: function (number) {
-    prepare('ROYALMAIL', number, 'html')
-  },
-  usps: function (number) {
-    prepare('USPS', number, 'html')
-  },
-  cjkoreaexpress: function (number) {
-    prepare('CJKOREAEXPRESS', number, 'html')
+    for (var key in trackingInfo) {
+      var filename = [courier.CODE, number, key].join('-')
+      prepareNock(trackingInfo[key], filename)
+    }
   }
 }

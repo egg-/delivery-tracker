@@ -17,10 +17,10 @@ describe(tracker.COURIER.FEDEX.NAME, function () {
 
   before(function () {
     // @TODO add nock
-    prepare.fedex(pendingNumber)
-    prepare.fedex(intransitNumber)
-    prepare.fedex(deliveredNumber)
-    prepare.fedex(exceptionNumber)
+    prepare(courier, pendingNumber)
+    prepare(courier, intransitNumber)
+    prepare(courier, deliveredNumber)
+    prepare(courier, exceptionNumber)
   })
 
   it('pending number', function (done) {
