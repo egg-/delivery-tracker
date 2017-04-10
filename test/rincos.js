@@ -14,6 +14,7 @@ describe(tracker.COURIER.RINCOS.NAME, function () {
   var releasedNumber = 'RELEASED'
   var invalidNumber = 'INVALIDNUM'
   var deliveredMixedNumber = 'DELIVEREDMIXED'
+  var prepareNumber = 'PREPARE'
 
   before(function () {
     // @TODO add nock
@@ -21,6 +22,7 @@ describe(tracker.COURIER.RINCOS.NAME, function () {
     prepare(courier, releasedNumber)
     prepare(courier, invalidNumber)
     prepare(courier, deliveredMixedNumber)
+    prepare(courier, prepareNumber)
   })
 
   it('delivered number', function (done) {
@@ -62,6 +64,17 @@ describe(tracker.COURIER.RINCOS.NAME, function () {
   it('invalid number', function (done) {
     courier.trace(invalidNumber, function (err, result) {
       assert.equal(err.code, tracker.ERROR.INVALID_NUMBER)
+
+      done()
+    })
+  })
+
+  it('prepare number', function (done) {
+    courier.trace(prepareNumber, function (err, result) {
+      assert.equal(err, null)
+
+      assert.equal(prepareNumber, result.number)
+      assert.equal(tracker.COURIER.RINCOS.CODE, result.courier.code)
 
       done()
     })
