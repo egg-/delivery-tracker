@@ -1,6 +1,6 @@
 {
   "name": "delivery-tracker",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -32,7 +32,10 @@
     "pantos",
     "auspost",
     "australia post",
-    "usps"
+    "usps",
+    "cj",
+    "cjkoreaexpress",
+    "pos laju",
   ],
   "license": "MIT",
   "bugs": {

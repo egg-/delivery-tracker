@@ -1,3 +1,9 @@
+# 1.2.0
+* add POS Laju.
+
+# 1.1.0
+* update rincos pending status.
+
 # 1.0.0
 * add CJ Korea Express.
 

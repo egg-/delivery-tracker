@@ -1,0 +1,593 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=''>
+	<link rel="shortcut icon" type="image/ico" href="../../media/favicon.ico"/>
+    <title>track-trace-v2</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/style.css" rel="stylesheet">
+	<link href="/css/print.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+
+
+
+<a name="top-page"></a>
+<div class="form-holder hide-when-small no-print">
+    <div class="container">
+        <form action="/search/" method="get" class="search">
+            <input text="" type="search" placeholder="Search Pos Laju." name="s" />
+            <button type="submit"><img src="/media/icons/search.png" alt="search"></button>
+        </form>
+    </div>
+</div>
+<div class="navbar no-print" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+
+            <a class="navbar-brand" href="/"><img src="/media/logo.png" alt="POSLaju"></a>
+
+
+
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav hide-when-small">
+
+                <li>
+
+                    <a href="#"><span>Our Business</span></a>
+                    <ul class="sub-menu">
+                        <li><a href="http://www.pos.com.my/" target="blank"><img src="/media/1129/logos-09.png" style="height:auto;width:130px"></a></li>
+                        <li><a href="http://www.pos.com.my/postal-courier-services/international-mail?international-mail" target="blank"><img src="/media/1130/logos-01.png" style="height:auto;width:130px"></a></li>
+                        <li><a href="http://www.pos.com.my/our-business/pos-arrahnu/?about-us" target="blank"><img src="/media/1123/logos-03.png" style="height:auto;width:130px"></a></li>
+                        <li><a href="http://www.poslogistics.com.my/" target="blank"><img src="/media/1126/logos-06.png" style="height:auto;width:130px"></a></li>
+                        <li><a href="https://www.klas.com.my/" target="blank"><img src="/media/1127/logos-07.png" style="height:auto;width:130px"></a></li>
+                        <li><a href="https://www.klas.com.my/Air-Freight-Services" target="blank"><img src="/media/1128/logos-08.png" style="height:auto;width:130px"></a></li>
+                        <li><a href="https://www.posdigicert.com.my/" target="blank"><img src="/media/1124/logos-04.png" style="height:auto;width:130px"></a></li>
+                        <li><a href="http://www.datapos.com.my/" target="blank"><img src="/media/1125/logos-05.png" style="height:auto;width:130px"></a></li>
+                    </ul>
+                </li>
+                <li>
+
+                    <a href="/about-us/"><span>About Us</span></a>
+                    <ul class="sub-menu">
+
+                        <li><a href="/about-us/?id=1">Who we are</a></li>
+                        <li><a href="/about-us/?id=2">Achievements</a></li>
+                        <li><a href="http://www.jobstreet.com.my/career/pos.htm" target="_blank">Careers</a></li>
+                        <li><a href="http://www.pos.com.my/pos/about_us/update/PemenangPertandinganMenulisSurat.aspx" target="_blank">Latest News</a></li>
+                    </ul>
+                </li>
+                <li>
+
+                    <a href="/ship-with-us/"><span>Ship With Us</span></a>
+                    <ul class="sub-menu">
+
+                        <li><a href="/ship-with-us/?id=1">Check Volumetric Weight</a></li>
+                        <li><a href="/ship-with-us/?id=2">Prohibited Items &amp; Dangerous Goods</a></li>
+                        <li><a href="/ship-with-us/?id=3">Terms and Conditions</a></li>
+                        <li><a href="http://odp.poslaju.com.my/" target="_blank">ODP Login</a></li>
+                        <li><a href="http://est.poslaju.com.my/Login.aspx?ReturnUrl=/Default.aspx" target="blank">EST Login</a></li>
+                        <li><a href="http://www.pos.com.my/postal-services/quick-access/?V2Validate-Pos-Laju-Prepaid" target="blank">Validate Pos Laju Prepaid</a></li>
+                    </ul>
+                </li>
+                <li>
+
+                        <a class=" active" href="/track-trace-v2/"><span>Track &amp; Trace</span></a>
+                </li>
+                <li>
+
+                        <a href="/services/"><span>Services</span></a>
+                </li>
+                <li>
+
+                    <a href="/contact-us/"><span>Contact Us</span></a>
+                    <ul class="sub-menu">
+
+                        <li><a href="/contact-us/?id=1">Finding Nearest Pos Laju Location</a></li>
+                        <li><a href="/contact-us/?id=2">Finding Nearest Kiosk Location</a></li>
+                        <li><a href="/contact-us/?id=3">Finding Nearest Agent Location</a></li>
+                        <li><a href="/contact-us/?id=4">Finding Nearest Pos Laju EziDrive Thru Location</a></li>
+                        <li><a href="/contact-us/?id=5">Finding Nearest Pos Laju EziBox Location</a></li>
+                        <li><a href="/contact-us/?id=6">Finding Nearest Pos Laju EziDrop Location</a></li>
+                        <li><a href="/contact-us/?id=7">Enquiries</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav visible-xs-block hidden-sm hidden-md hidden-lg">
+                <li>
+                    <a href="#" class="no-click"><span>Our Business</span></a>
+                </li>
+                <li>
+                    <a href="#" class="no-click"><span>About Us</span></a>
+                    <i class="fa fa-plus"></i>
+                    <ul class="sub-menu">
+                        <li><a href="/about-us/?id=1">Who we are</a></li>
+                        <li><a href="/about-us/?id=2">Achievements</a></li>
+                        <li><a href="/about-us/?id=3">Careers</a></li>
+                        <li><a href="http://www.jobstreet.com.my/career/pos.htm" target="_blank">Latest News</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="no-click"><span>Ship With Us</span></a>
+                    <i class="fa fa-plus"></i>
+                    <ul class="sub-menu">
+                        <li><a href="/ship-with-us/?id=1">Check Volumetric Weight</a></li>
+                        <li><a href="/ship-with-us/?id=2">Prohibited Items &amp; Dangerous Goods</a></li>
+                        <li><a href="/ship-with-us/?id=3">Terms and Conditions</a></li>
+                        <li><a href="http://odp.poslaju.com.my/" target="_blank">ODP Login</a></li>
+                        <li><a href="http://est.poslaju.com.my/Login.aspx?ReturnUrl=/Default.aspx" target="blank">EST Login</a></li>
+                        <li><a href="http://www.pos.com.my/postal-services/quick-access/?V2Validate-Pos-Laju-Prepaid" target="blank">Validate Pos Laju Prepaid</a></li>
+                    </ul>
+                </li>
+                <li><a href="/track-trace-v2/"><span>Track &amp; Trace</span></a></li>
+                <li>
+                    <a class="no-click" href="#">Business Solutions</a>
+                    <i class="fa fa-plus"></i>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="/services/?id=1">Next Day Delivery</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=2">Same Day Delivery</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=3">Time Certain Service Domestic</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=4">Borneo Economy Express</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=5">Putrajaya Express</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=6">Pos Laju Prepaid Box and Envelope</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=7">Pos Parcel</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=8">Pos Ekspres</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=9">International Delivery</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a class="no-click" href="#">Personal Solutions</a>
+                    <i class="fa fa-plus"></i>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="/services/?id=10">Next Day Delivery</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=11">Same Day Delivery</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=12">Time Certain Service Domestic</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=13">Putrajaya Express</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=14">Pos Laju Prepaid Box and Envelope</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=15">Pos Parcel</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=16">Pos Ekspres</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=17">International Delivery</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a class="no-click" href="#">Value Added Services</a>
+                    <i class="fa fa-plus"></i>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="/services/?id=18">Pick-up Services</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=19">Packaging Services</a>
+                        </li>
+                        <li>
+                            <a href="/services/?id=20">Pos Laju Insurance</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li><a href="/services/important-notice/"><span>Important Notice</span></a></li>
+                <li>
+                    <a href="#" class="no-click"><span>Contact Us</span></a>
+                    <i class="fa fa-plus"></i>
+                    <ul class="sub-menu">
+                        <li><a href="/contact-us/?id=1">Pos Laju Branches</a></li>
+                        <li><a href="/contact-us/?id=2">Pos Laju Kiosk</a></li>
+                        <li><a href="/contact-us/?id=3">Pos Laju Agents</a></li>
+                        <li><a href="/contact-us/?id=4">Pos Laju EziDrive Thru</a></li>
+                        <li><a href="/contact-us/?id=5">Pos Laju EziBox</a></li>
+                        <li><a href="/contact-us/?id=6">Pos Laju EziDrop</a></li>
+                        <li><a href="/contact-us/?id=7">Enquiries</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--/.navbar-collapse -->
+        <a href="http://www.facebook.com/PosMalaysiaBerhad"><img src="/media/icons/facebook.png" alt="Find Us on Facebook" id="facebook" class="fr hide-when-small"></a>
+        <!--<div class="lang-switcher">
+
+            </div>-->
+        <div class="search-icon-small display-when-small">
+            <img src="../../media/icons/search-small.png" alt"Search">
+        </div>
+    </div>
+</div>
+<div class="small-search-bar dont-display  no-print">
+    <form action="/search.aspx" method="get" class="search">
+        <input text="" type="search" placeholder="Search DataPos..." name="s" />
+        <input type="submit" value="search">
+    </form>
+</div>
+<br />
+
+
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+		<div id="wrapper">
+
+
+  <div class="jumbo-holder1">
+        <div id="quick-access-widget">
+	<div class="hold-it">
+		<div id="callout">
+			<div class="cover">
+				<div class="arrow-left"><p>Quick<br>access</p></div>
+			</div>
+		</div>
+		<div id="widgetContent">
+			<ul>
+				<li data-div="shipment1" id="widget-1"><img src="../media/icons/openbox.png" alt="openbox"></li>
+				<li data-div="shipment2" id="widget-2"><a href="/track-trace-v2/"><img src="../media/icons/geotag.png" alt="geo"></a></li>
+				<li data-div="shipment3" id="widget-3"><img src="../media/icons/box.png" alt="box"></li>
+				<!--<li data-div="shipment4" id="widget-4"><img src="../media/icons/dollar.png" alt="dollar"></li>-->
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="container pos-rel">
+    <div id="quick-access" class="dont-display">
+        <h4>Quick Access <span id="close">x</span></h4>
+	    <div id="shipment">
+		    <p><img src="../media/icons/openbox.png" alt="openbox">Create a Shipment</p>
+		    <div class="login active shipment1 slide-ship">
+			    <ul>
+				    <li><p class="orange">On Demand Pickup</p><a class="login-a" href="http://odp.poslaju.com.my/" target="_blank">ODP Login</a></li>
+				    <li><p class="orange">Electronic Shipping Tool</p><a class="login-a" href="http://est.poslaju.com.my/Login.aspx?ReturnUrl=/Default.aspx" target="_blank">EST Login</a></li>
+			    </ul>
+			    <!--<form>
+				    <input type="text" name="username" placeholder="username...">
+				    <input type="password" name="password" placeholder="password">
+                    <button><i class="fa fa-lock"></i></button>
+			    </form>
+			    <a href="#">forgot your password or username?<br></a>
+				<a href="/login-or-register/?id=2">Register here!</a>-->
+		    </div>
+		    <a href="/track-trace-v2/" style="color:white; text-decoration: none; font-size: 100%;"><p><img src="../media/icons/geotag.png" alt="geo">Track &amp; Trace</p></a>
+		    <p><img src="../media/icons/box.png" alt="box">Calculate Volumetric</p>
+			<div id="quick-volume" class="shipment3 dont-display slide-ship">
+				<form>
+				    <input id="panjang1" class="length" type="text" placeholder="Length(cm)" onkeypress="return isValidNumericInput(event);">
+				    <input id="lebar1" class="width" type="text" placeholder="Width(cm)" onkeypress="return isValidNumericInput(event);">
+				    <input id="tinggi1" class="height" type="text" placeholder="Height(cm)" onkeypress="return isValidNumericInput(event);">
+				    <input type="button" name="button2" id="Button3" value="calculate" onclick="calculateVolumetric1();">
+					<div class="final-volumetric"><a href="#" class="big-a"><span id="volumetricVal1"></span>kg</a></div>
+			    </form>
+			</div>
+		    <!--<p><img src="../media/icons/dollar.png" alt="dollar">Price Calculator</p>
+			<div class="shipment4 dont-display slide-ship">
+
+			</div>-->
+	    </div>
+    </div>
+</div>
+  </div>
+<div class="container">
+    <div class="breadcrumbs clearfix">
+        <ul><li><a href="/">Home</a></li><li>Track &amp; Trace V2</li></ul>
+    </div>
+</div>
+<div class="container">
+  <div id="track-trace" class="ship-content padding-ship-content padfix clearfix">
+        <h2 class="orange">Track & Trace</h2>
+    <h4>Pos Malaysia online tracking is the fastest way to find out where your shipment is</h4>
+        <div class="pad-top">
+        <div class="col-md-4 pad-kill-left display-table-footer-group">
+          <h3 class="orange display-inline allign-top">Note:</h3>
+<p class="orange padding-top-zero display-inline note">Track up to 15 numbers at a time.<br />Separate with a semicolon (;) or return (enter).</p>
+<p class="orange padding-top-zero display-inline note"> </p>
+<p class="orange padding-top-zero display-inline note">Click <strong><a href="/media/1010/product-code-and-descriptions-for-pos-malaysia-track-trace-system.pdf" target="_parent" title="Pos Laju Product Code and Descriptions">here</a></strong> for Product Code and Descriptions.</p>
+        </div>
+          <div class="col-md-6 border-left display-table-header-group text-center no-bord">
+
+			  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+	function cleanTrackingIds(str) {
+        //remove new lines, spaces, and plus'
+        str = str.replace(/\n/g, ";").replace(/ /g, ";").replace(/\+/g, ';');
+
+        //if multiple replacements where done, then there will be multiple semi-colons. remove them
+        while (str.indexOf(';;') > -1) {
+            str = str.replace(';;', ';');
+        }
+
+        //remove trailing semi-colons
+        if (str.charAt(str.length - 1) == ";") {
+            str = str.slice(0, -1);
+        }
+
+        //remove prefixed semi-colons
+        if (str.charAt(0) == ";") {
+            str = str.substring(1);
+        }
+
+        //cant think of anything else for the time being
+        return str;
+    }
+
+
+  $(document).ready(function ()
+  {
+	 $("#bttest").click(function(){
+		 if($("#trackingNo03").val()=="") {
+
+			 $("#trackinfo03").html("");
+			 $("#trackinfo03").append("<div class='alert alert-danger'>Please enter tracking number</div>");
+		 }
+		 else{
+
+			$('#hvtrackNoHeader03').val('');
+			 $("#trackingNo03").val(cleanTrackingIds($("#trackingNo03").val()));
+			 $('form#tracking03-form').submit();
+		 }
+    });
+	//Console Info Code for Developer
+	//console.log('sItemNo:DELIVERED');;
+	//console.log('URL:https://apis.pos.com.my/apigateway/as2corporate/api/v2trackntracewebapijson/v1?id=DELIVERED&Culture=Ms');;
+	//console.log('isHeader:False');;
+
+	  	var strTD =  "<table id='tbDetails' class='table table-striped table-hover table-bordered'><thead><tr><th>Date / Time</th><th>Process</th><th>Event</th></tr></thead><tbody><tr><td>02 May 2017, 04:58:00 PM</td><td>Consignment successfully delivered  TAN SHIRLEY</td><td>Pos Laju Balakong </td></tr><tr><td>29 Apr 2017, 10:31:11 AM</td><td>Arrive at delivery facility at </td><td>Pos Laju Balakong </td></tr><tr><td>29 Apr 2017, 09:53:28 AM</td><td>Item can be collected at  </td><td>Pos Laju Balakong </td></tr><tr><td>28 Apr 2017, 08:04:41 PM</td><td>Unsuccessful delivery. Please contact  1 300 300 300 Delivery on the next working day</td><td>Pos Laju Balakong </td></tr><tr><td>28 Apr 2017, 09:04:46 AM</td><td>Item out for delivery </td><td>Pos Laju Balakong </td></tr><tr><td>28 Apr 2017, 05:56:13 AM</td><td>Arrive at delivery facility at </td><td>Pos Laju Balakong </td></tr><tr><td>28 Apr 2017, 02:54:35 AM</td><td>Consignment dispatch out from Transit Office </td><td>Parcel Hub Shah Alam</td></tr><tr><td>28 Apr 2017, 02:02:34 AM</td><td>Item processed </td><td>Parcel Hub Shah Alam</td></tr><tr><td>27 Apr 2017, 08:03:34 PM</td><td>Item dispatched out </td><td>Pos Laju Puchong</td></tr><tr><td>27 Apr 2017, 11:57:54 AM</td><td>Item posted over the counter </td><td>Pos Laju Puchong</td></tr><tbody></table>";
+		$("#trackinfo03").append(strTD);;
+  });
+
+
+  function LoadDetails(sItemNo)
+  {
+	$("#trackingNo03").val(sItemNo);
+	  $("#hvfromheader03").val("1");
+    $('form#tracking03-form').submit();
+  }
+
+
+
+</script>
+<script type="text/html" id="tracking_message">
+    <div class="alert alert-danger">
+        <p><%= item %></p>
+    </div>
+</script>
+<div id="tracking03-form">
+    <form id="tracking03-form" name="tracking03-form" method="POST">
+        <p>
+            <textarea id="trackingNo03" name="trackingNo03" placeholder='Please enter tracking no' rows="5">DELIVERED</textarea>
+        </p>
+        <input type="hidden" id="hvtrackNoHeader03" name="hvtrackNoHeader03" value='' />
+        <input type="hidden" id="hvfromheader03" name="hvfromheader03" value='0' />
+        <button style="margin: 10px 0; width: 100%; height: 38px;" class="dark-gray" type="button" id="bttest"><strong>TRACK</strong></button>
+    </form>
+</div>
+<div id="trackinfo03"></div>
+
+			  <!--	<form action="http://www.pos.com.my/emstrack/viewquery.asp" method="post" target="_blank" id="form1" name="form1">
+            	<textarea name="ParcelNo" placeholder="Track your shipment here..."></textarea>
+        		<input type="submit" value="Track" name="submit" class="track">
+      			</input>	-->
+
+          </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+		</div>
+      <footer>
+        <!--div class="bottom-navigation">
+  <div class="container">
+    <ul>
+      <li><a href="/about-us/">About Us</a></li>
+      <li><a href="/ship-with-us/">Create Consignment</a></li>
+      <li><a href="/services/">Services</a></li>
+    <li><a href="/contact-us/">Contact Us</a></li>
+    </ul>
+    <ul class="hidden-xs">
+      <li><a href="http://www.pos.com.my/"><img src="/media/posmalaysia-footer.png" alt="Pos Malaysia"></a></li>
+      <li><a href="http://site.tos.pos.com.my/"><img src="/media/pos-solutions-footer.png" alt="Tos Pos"></a></li>
+      <li><a href="http://www.datapos.com.my/"><img src="/media/datapos-footer.png" alt="Data Pos"></a></li>
+      <li><a href="https://www.digicert.com.my/"><img src="/media/posdigicert-footer.png" alt="Digicert"></a></li>
+      <li><a href="https://www.posonline.com.my/"><img src="/media/posonline-footer.png" alt="Pos Online"></a></li>
+    </ul>
+  </div>
+</div-->
+<div class="container footer2 hidden-xs clearfix">
+  <div class="col-md-4 footer-kolona">
+  <p>How do I...</li>
+    <ul class="footer-col"><li><a href="/our-business/">Our Business</a></li><li><a href="/ship-with-us/">Ship With Us</a></li><li><a href="/track-trace-v2/">Track &amp; Trace V2</a></li><li><a href="/track-trace/">Track &amp; Trace</a></li><li><a href="/services/">Services</a></li><li><a href="/contact-us/">Contact Us</a></li></ul>
+  </div>
+  <div class="col-md-4 footer-kolona">
+  <p>I want to know more...</p>
+    <ul class="footer-col">
+      <li><a href="/">Pos Laju</a></li>
+      <li><a href="/ship-with-us/">Create Consignment</a></li>
+      <li><a href="/services/">Business Solutions</a></li>
+    <li><a href="/services/">Personal Solutions</a></li>
+    <li><a href="/contact-us/">Pos Laju Locations</a></li>
+    </ul>
+  </div>
+  <div class="col-md-4 footer-kolona">
+  <p>Our Services</p>
+    <ul class="footer-col cont-foot-1">
+      <li><a href="/services/?poslaju-domestic">Pos Laju Domestic</a></li>
+      <li><a href="/services/?id=1">Next Day Delivery</a></li>
+      <li><a href="/services/?id=2">Same Day Delivery</a></li>
+      <li><a href="/services/?id=3">Time Certain Service</a></li>
+    <li><a href="/services/?id=4">Borneo Economy Express</a></li>
+      <li><a href="/services/?id=5">Putrajaya Express</a></li>
+      <li><a href="/services/?id=6">Pos Laju Prepaid Box &amp; Envelope</a></li>
+    </ul>
+  <ul class="footer-col cont-foot-1">
+    <li><a href="/services/?id=9">International Delivery</a></li>
+  </ul>
+  <ul class="footer-col">
+    <li><a href="/services/?id=19">Pos Laju Pack</a></li>
+    <li><a href="/services/?id=20">Pos Laju Insurance</a></li>
+  </ul>
+  </div>
+  <!-- <div class="col-md-3">
+  <p>How can we help you?</p>
+    <ul class="footer-col cont-foot-1 contact-footer">
+      <li>Contact our Customer Service</li>
+      <li>1-300-300-300 (Local)</li>
+      <li>603-27279100 (Overseas)</li>
+      <li>603-2273 3927 (Fax)</li>
+      <li><a href="mailto:care@pos.com.my">care@Pos.com.my</a></li>
+    </ul>
+  <ul class="footer-col contact-footer cont-foot-1">
+    <li>Operating Hours:</li>
+    <li>Mon-Fri: 8.30am to 8.00pm</li>
+      <li>Saturdays: 8:30am to 5.00pm</li>
+      <li>(except 1st saturday of the month<br>and Public Holiday)</li>
+  </ul>
+  <ul class="footer-col contact-footer">
+    <li>Customer Care Department:</li>
+    <li>Pos Malaysia Headquarters</li>
+      <li>Level 6, Dayabumi Complex</li>
+      <li>50670 Kuala Lumpur</li>
+  </ul>
+  </div> -->
+</div>
+<div class="container">
+<div class="copyright clearfix">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about-us/">About Us</a></li>
+      <li><a href="/contact-us/">Support</a></li>
+      <li><a href="http://www.jobstreet.com.my/career/pos.htm">Careers</a></li>
+      <li><a href="/sitemap/">Sitemap</a></li>
+	  <li><a href="/media/documents/pdpa-notice-eng-as-at-7-jan-2015-v2.pdf" target="_blank">Privacy Statement</a></li>
+      <li>&copy; 2017 Pos Malaysia Berhad (229990-M). All Rights Reserved</li>
+    </ul>
+
+  <img src="/media/drb-hi-com.png" alt="A Member Of DRB-HICOM">
+</div>
+	<p class="smallest">This site is best viewed with version 38.0+ of Google Chrome, 26.0+ of Opera, 11.0+ of IE, 7.1+ of Safari and 32.0+ of Firefox</p>
+</div>
+      </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="/scripts/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="/scripts/bootstrap.min.js"></script>
+	<script src="/scripts/scrolltotop.js"></script>
+    <script src="/scripts/main.js"></script>
+	<script>
+	 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	 ga('create', 'UA-58592702-1', 'auto');
+	 ga('send', 'pageview');
+
+	</script>
+	  <div class="modal fade" id="tnt-error" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <div class="modal-body clearfix">
+                <div class="description">
+                    <img src="/media/track_and_trace_system_disruption_on_pos_malaysia.png" alt="Track and Trace Disruption" class="popup-image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--div id="browser-support">
+	<div class="browser-wrap">
+		<a href="#" class="browser-close"><img src="/media/1006/iks_360.png"></img></a>
+		<h1 class="red-letter">Your browser is not fully supported</h1>
+		<p>To enjoy the full Pos Malaysia experience please download</p>
+		<div class="browsers">
+			<a href="http://www.google.com/chrome/" target="_blank"><img src="/media/1023/chrome.png" alt="Chrome"></a>
+			<a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank"><img src="/media/1025/firefox.png" alt="Firefox"></a>
+			<a href="https://support.apple.com/downloads/safari" target="_blank"><img src="/media/1024/safari.png" alt="Safari"></a>
+		</div>
+	</div>
+</div-->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.tnt-modal-trigger').click(function(e) {
+            e.preventDefault();
+            $('#tnt-error').modal();
+        });
+    });
+</script>
+	<script>
+
+	        //$('ul.nav > li:nth-child(1)').append('<ul class="sub-menu"><li><a href="/about-us/?id=1">Who We Are</a></li><li><a href="/about-us/?id=3">Achievements</a></li><li><a href="http://www.jobstreet.com.my/career/pos.htm" target="_blank">Careers</a></li><li><a href="http://www.pos.com.my/pos/about_us/update/PemenangPertandinganMenulisSurat.aspx" target="_blank">Latest News</a></li>');
+			//$('ul.nav > li:nth-child(2)').append('<ul class="sub-menu"><li><a href="/ship-with-us/#id1">Create Consignment Note</a></li><li><a href="/ship-with-us/#id2">Check Volumetric Weight</a></li><li><a href="/ship-with-us/#id3">Prohibited Items &amp; Dangerous Goods</a></li><li><a href="/ship-with-us/#id4">Terms and Conditions</a></li><li><a href="http://odp.poslaju.com.my/" target="_blank">ODP Login</a></li><li><a href="http://est.poslaju.com.my/Login.aspx?ReturnUrl=/Default.aspx" target="blank">EST Login</a></li></ul>');
+			//$('ul.nav > li:nth-child(5)').append('<ul class="sub-menu"><li><a href="/contact-us/?id=1">Finding nearest Pos Laju Location</a></li><li><a href="/contact-us/?id=2">Finding nearest Kiosk Location</a></li><li><a href="/contact-us/?id=3">Finding nearest Agent Location</a></li><li><a href="/contact-us/?id=4">Enquiries</a></li>');
+			//$('ul.nav > li:nth-child(4)').find('ul').remove();
+
+	</script>
+  </body>
+</html>

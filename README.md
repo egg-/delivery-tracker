@@ -20,6 +20,7 @@ Rincos | @egg- | http://www.rincos.co.kr/
 Royal Mail | @egg- | http://www.royalmail.com/
 USPS | @egg- | https://www.usps.com/
 CJ Korea Express (Korea) | @egg- | http://cjkoreaexpress.co.kr/ (https://www.doortodoor.co.kr)
+POS Laju | @egg- | http://www.poslaju.com.my (http://www.poslaju.com.my)
 
 ## Installation
 
@@ -98,6 +99,7 @@ RINCOS | rincos | Rincos
 ROYALMAIL | royalmail | Royal Mail
 USPS | usps | USPS
 CJKOREAEXPRESS | cjkoreaexpress | CJ Korea Express
+POSLAJU | poslaju | POS Laju
 
 ### STATUS
 
