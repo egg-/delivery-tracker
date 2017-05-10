@@ -1,3 +1,6 @@
+# 1.2.1
+* add POS Laju delivery complete message type.
+
 # 1.2.0
 * add POS Laju.
 
