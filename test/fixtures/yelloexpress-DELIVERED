@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>TRACKING</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/Content/w3.1.0.1.css" />
+    <link rel="stylesheet" href="/Content/w3-theme-w3schools.css" />
+
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+    <script src="/Scripts/MicrosoftAjax.js" type="text/javascript"></script>
+    <script src="/Scripts/MicrosoftMvcValidation.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+<div class="w3-container w3-theme-l5 w3-center">
+    <h2><b>TRACKING <i class="fa fa-caret-right"></i> Shipping Tracking</b></h2>
+</div>
+
+<div class="w3-container w3-margin-8">
+<br />
+
+
+        <b>Departure Country : REPUBLIC OF KOREA</b>
+        <br />
+        <b>Destination Country : CHINA</b>
+        <br /><br />
+        <b>Invoice No : DELIVERED</b>
+        <br />
+        <b>Order No : ORDER_NO</b>
+        <br />
+        <b>Delivery No : DELIVERY_NO</b>
+        <br />
+        <b>Delivery Company : 中国邮政速递物流(EMS)</b>
+        <br /><br />
+<a href="/Search/Detail?invoiceNo=DELIVERED&amp;layout=0">Detail Info</a>&nbsp;&nbsp;&nbsp;<a href="/Search/ImageUpload?invoiceNo=DELIVERED&amp;layout=0">Image Upload</a>        <br /><br />
+        <h3><b>Shipping Tracking</b></h3>
+        <table class="w3-table w3-bordered w3-border">
+        <thead>
+        <tr>
+        <th>Date</th>
+        <th>Status</th>
+        <th>Detail</th>
+        <th>Location</th>
+        </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+            <td>2016-03-04 15:56 (현지 시간(本地时间))</td>
+            <td>10</td>
+            <td>입고 대기(待入库)</td>
+            <td>ePOSTg</td>
+            </tr>
+            <tr>
+            <td>2016-03-05 11:40 (현지 시간(本地时间))</td>
+            <td>20</td>
+            <td>입고 완료(入库完毕)</td>
+            <td>YELLO EXPRESS (InCheon, Korea)</td>
+            </tr>
+            <tr>
+            <td>2016-03-05 13:37 (현지 시간(本地时间))</td>
+            <td>30</td>
+            <td>출고 완료(出库完毕)</td>
+            <td>YELLO EXPRESS (InCheon, Korea)</td>
+            </tr>
+            <tr>
+            <td>2016-03-05 22:55 (현지 시간(本地时间))</td>
+            <td>100</td>
+            <td>항공기 출발(飞机出发)</td>
+            <td>ICN (Incheon, Korea)</td>
+            </tr>
+            <tr>
+            <td>2016-03-06 01:32</td>
+            <td>200</td>
+            <td>항공기 도착(飞机到达)</td>
+            <td>China</td>
+            </tr>
+            <tr>
+            <td>2016-03-06 14:53</td>
+            <td>300</td>
+            <td>통관 진행중(通关进行中)</td>
+            <td>China</td>
+            </tr>
+            <tr>
+            <td>2016-03-07 19:43</td>
+            <td>400</td>
+            <td>통관 완료(通关完毕)</td>
+            <td>China</td>
+            </tr>
+            <tr>
+            <td>2016-03-08 10:29</td>
+            <td>500</td>
+            <td>배송 시작(配送开始)</td>
+            <td>China</td>
+            </tr>
+            <tr>
+            <td>2016-03-11 12:46</td>
+            <td>700</td>
+            <td>배송 완료(配送完毕)</td>
+            <td>China</td>
+            </tr>
+        </tbody>
+        </table>
+
+
+
+
+        <br />
+            <h3><b>배송조회(送货追踪) : <a href='http://www.ems.com.cn/' target="_blank">中国邮政速递物流(EMS) : DELIVERY_NO</a></b></h3>
+            <table class="w3-table w3-bordered w3-border">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>时间</th>
+                    <th>地点和跟踪进度</th>
+                </tr>
+                </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2016-03-08 10:29</td>
+                    <td>【东莞市】 东莞市邮政速递物流公司石碣揽投部已收件（揽投员姓名：谭锡强,联系电话:18825808859）</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2016-03-08 19:46</td>
+                    <td>【东莞市】 已离开收寄点，发往广东省邮政速递物流有限公司中山三角邮件处理中心</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2016-03-09 01:00</td>
+                    <td>【中山市】 到达广东省邮政速递物流有限公司中山三角邮件处理中心处理中心（经转）</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>2016-03-09 08:22</td>
+                    <td>【中山市】 离开中山市 发往济南市（经转）</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>2016-03-10 15:05</td>
+                    <td>【济南市】 到达  济南航站 处理中心'</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>2016-03-11 06:42</td>
+                    <td>【济南市】 离开济南航站 发往济南速递贤文庄揽投部</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>2016-03-11 08:40</td>
+                    <td>【济南市】 济南速递贤文庄揽投部安排投递，预计13:00:00前投递（投递员姓名：刘化强18853162620;联系电话：18853162620）</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>2016-03-11 12:46</td>
+                    <td>【济南市】 投递并签收，签收人：本人收</td>
+                </tr>
+            </tbody>
+            </table>
+
+
+<br /><br />
+<input type="button" value="Go Back" class="w3-btn w3-theme w3-card-4" onclick="goBack()" />
+<br /><br />
+
+</div>
+
+
+
+
+</body>
+</html>

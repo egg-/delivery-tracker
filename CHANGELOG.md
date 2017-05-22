@@ -1,3 +1,6 @@
+# 1.3.0
+* add Yello Express.
+
 # 1.2.1
 * add POS Laju delivery complete message type.
 
