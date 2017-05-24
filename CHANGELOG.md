@@ -1,3 +1,6 @@
+# 1.3.1
+* update yello express state
+
 # 1.3.0
 * add Yello Express.
 
