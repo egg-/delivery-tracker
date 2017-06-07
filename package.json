@@ -1,6 +1,6 @@
 {
   "name": "delivery-tracker",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -36,7 +36,8 @@
     "cj",
     "cjkoreaexpress",
     "pos laju",
-    "yello express"
+    "yello express",
+    "efs"
   ],
   "license": "MIT",
   "bugs": {

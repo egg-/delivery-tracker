@@ -22,6 +22,7 @@ USPS | @egg- | https://www.usps.com/
 CJ Korea Express (Korea) | @egg- | http://cjkoreaexpress.co.kr/ (https://www.doortodoor.co.kr)
 POS Laju | @egg- | http://www.poslaju.com.my
 Yello Express | @egg- | https://www.yello-express.com
+EFS | @egg- | http://efs.asia/
 
 ## Installation
 
@@ -102,6 +103,7 @@ USPS | usps | USPS
 CJKOREAEXPRESS | cjkoreaexpress | CJ Korea Express
 POSLAJU | poslaju | POS Laju
 YELLOEXPRESS | yelloexpress | Yello Express
+EFS | efs | EFS
 
 ### STATUS
 
