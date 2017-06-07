@@ -184,7 +184,7 @@ body.loading .modal_loading {
 										</tr>
 										<tr>
 											<td align="center" width="120">Tracking No.</td>
-											<td align="right" width="220"><input type="text" id="search_no" name="search_no" value="INFORECEIVED" placeholder="Enter HAWB no. or Ref no." maxlength="20" style="height: 44px" onclick="this.select();" /></td>
+											<td align="right" width="220"><input type="text" id="search_no" name="search_no" value="EFSINFORECEIVED" placeholder="Enter HAWB no. or Ref no." maxlength="20" style="height: 44px" onclick="this.select();" /></td>
 											<td align="right"><button type="submit" id="btnSubmit" style="width: 100px;">Query</button></td>
 										</tr>
 										<tr>

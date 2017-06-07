@@ -10,7 +10,7 @@ var tracker = require('../')
 var courier = tracker.courier(tracker.COURIER.EFS.CODE)
 
 describe(tracker.COURIER.EFS.NAME, function () {
-  var infoNumber = 'INFORECEIVED'
+  var infoNumber = 'EFSINFORECEIVED'
 
   before(function () {
     // @TODO add nock
