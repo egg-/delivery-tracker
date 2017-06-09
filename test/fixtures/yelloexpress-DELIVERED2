@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>TRACKING</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/Content/w3.1.0.1.css" />
+    <link rel="stylesheet" href="/Content/w3-theme-w3schools.css" />
+
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+    <script src="/Scripts/MicrosoftAjax.js" type="text/javascript"></script>
+    <script src="/Scripts/MicrosoftMvcValidation.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+<div class="w3-container w3-theme-l5 w3-center">
+    <h2><b>TRACKING <i class="fa fa-caret-right"></i> Shipping Tracking</b></h2>
+</div>
+
+<div class="w3-container w3-margin-8">
+<br />
+
+
+        <b>Departure Country : REPUBLIC OF KOREA</b>
+        <br />
+        <b>Destination Country : VIET NAM</b>
+        <br /><br />
+        <b>Invoice No : DELIVERED2</b>
+        <br />
+        <b>Order No : ORD95187414HybCC1B3</b>
+        <br />
+        <b>Delivery No : LP021908215KR</b>
+        <br />
+        <b>Delivery Company : VIETNAM POST</b>
+        <br /><br />
+<a href="/Search/Detail?invoiceNo=DELIVERED2&amp;layout=0">Detail Info</a>        <br /><br />
+        <h3><b>Shipping Tracking</b></h3>
+        <table class="w3-table w3-bordered w3-border">
+        <thead>
+        <tr>
+        <th>Date</th>
+        <th>Status</th>
+        <th>Detail</th>
+        <th>Location</th>
+        </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+            <td>2017-05-22 12:58 (현지 시간(local time))</td>
+            <td>10</td>
+            <td>입고 대기(Ready for warehousing)</td>
+            <td>매드스퀘어 주식회사</td>
+            </tr>
+            <tr>
+            <td>2017-05-24 15:30 (현지 시간(local time))</td>
+            <td>20</td>
+            <td>입고 완료(Completion of the warehousing)</td>
+            <td>YELLO EXPRESS (InCheon, Korea)</td>
+            </tr>
+            <tr>
+            <td>2017-05-24 15:30 (현지 시간(local time))</td>
+            <td>30</td>
+            <td>출고 완료(Released warehouse)</td>
+            <td>YELLO EXPRESS (InCheon, Korea)</td>
+            </tr>
+            <tr>
+            <td>2017-05-30 18:20 (현지 시간(local time))</td>
+            <td>100</td>
+            <td>항공기 출발(Aircraft departure)</td>
+            <td>ICN (Incheon, Korea)</td>
+            </tr>
+            <tr>
+            <td>2017-05-30 22:10</td>
+            <td>200</td>
+            <td>항공기 도착(Aircraft arrival)</td>
+            <td>HAN (HANOI, VIETNAM)</td>
+            </tr>
+            <tr>
+            <td>2017-06-02 12:45</td>
+            <td>500</td>
+            <td>배송 시작(Start delivery)</td>
+            <td>VNSGNA</td>
+            </tr>
+        </tbody>
+        </table>
+
+
+
+
+        <br />
+            <h3><b>Local Delivery Status : <a href='http://ems.com.vn/default.aspx' target="_blank">VIETNAM POST : LP021908215KR</a></b></h3>
+            <table class="w3-table w3-bordered w3-border">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>Date Time</th>
+                    <th>Status</th>
+                </tr>
+                </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2017-06-02 12:45</td>
+                    <td>Delivery Start</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2017-06-07 02:50</td>
+                    <td>Delivered</td>
+                </tr>
+            </tbody>
+            </table>
+
+
+<br /><br />
+<input type="button" value="Go Back" class="w3-btn w3-theme w3-card-4" onclick="goBack()" />
+<br /><br />
+
+</div>
+
+
+
+
+</body>
+</html>

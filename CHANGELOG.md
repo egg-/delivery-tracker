@@ -1,3 +1,6 @@
+# 1.4.2
+* update yello express, rincos delivery message
+
 # 1.4.0
 * add EFS.
 
