@@ -1,3 +1,6 @@
+# 1.4.3
+* update CJ Korea Express timezone.
+
 # 1.4.2
 * update yello express, rincos delivery message
 
