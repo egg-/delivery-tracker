@@ -1,0 +1,8 @@
+
+
+	<table border="0" cellspacing="0" cellpadding="10" id="tracking_table" style="width:100%;">
+		<tr>
+			<th style="background-color:#ddd;border:1px solid black;">Remark</th>
+			<th style="min-width:400px;background-color:#ddd;border:1px solid black;">Event</th>
+			<th style="background-color:#ddd;border:1px solid black;">Date</th>
+		</tr><tr class="altrow"><td>Shipper</td><td>Left Shipper Facility</td><td>2017-11-08 15:31:49</td></tr><tr class="altrow"><td>eParcel KR Center</td><td>Arrived At The Departure Center</td><td>2017-11-08 15:33:20</td></tr><tr class="altrow"><td>AIRPORT GMP</td><td>SHIPPED</td><td>2017-11-09 15:16:51</td></tr><tr class="altrow"><td>Singapore</td><td>Depot Scan Singapore</td><td>2017-11-09 23:43:00</td></tr><tr class="altrow"><td>Singapore</td><td>Order has been created</td><td>2017-11-09 23:55:00</td></tr><tr class="altrow"><td>Singapore</td><td>Shipment handed to coloader - Simply Post Alternate Number RESCHEDULEDSG</td><td>2017-11-10 02:30:00</td></tr><tr class="altrow"><td>Singapore</td><td>Item has been scanned arrived at Hub</td><td>2017-11-10 13:46:00</td></tr><tr class="altrow"><td>Singapore</td><td>rescheduled for delivery next working day</td><td>2017-11-10 14:30:00</td></tr></table>

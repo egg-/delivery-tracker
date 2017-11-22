@@ -21,8 +21,6 @@ describe(tracker.COURIER.EFS.NAME, function () {
     courier.trace(infoNumber, function (err, result) {
       assert.equal(err, null)
 
-      console.log(result)
-
       assert.equal(infoNumber, result.number)
       assert.equal(tracker.COURIER.EFS.CODE, result.courier.code)
       assert.equal(tracker.STATUS.INFO_RECEIVED, result.status)

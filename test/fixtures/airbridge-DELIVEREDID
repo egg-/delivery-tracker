@@ -1,0 +1,8 @@
+
+
+	<table border="0" cellspacing="0" cellpadding="10" id="tracking_table" style="width:100%;">
+		<tr>
+			<th style="background-color:#ddd;border:1px solid black;">Remark</th>
+			<th style="min-width:400px;background-color:#ddd;border:1px solid black;">Event</th>
+			<th style="background-color:#ddd;border:1px solid black;">Date</th>
+		</tr><tr class="altrow"><td>Shipper</td><td>Left Shipper Facility</td><td>2017-11-08 15:30:50</td></tr><tr class="altrow"><td>eParcel KR Center</td><td>Arrived At The Departure Center</td><td>2017-11-08 15:34:11</td></tr><tr class="altrow"><td>AIRPORT ICN</td><td>SHIPPED</td><td>2017-11-10 14:43:02</td></tr><tr class="altrow"><td>JAKARTA</td><td>ARRIVAL</td><td>2017-11-13 08:00:00</td></tr><tr class="altrow"><td>JAKARTA</td><td>CUSTOM</td><td>2017-11-13 10:00:00</td></tr><tr class="altrow"><td>JAKARTA</td><td>AT CENTRAL HUB</td><td>2017-11-15 13:12:01</td></tr><tr class="altrow"><td>RECEIVED BY MBA JUM</td><td>DELIVERED</td><td>2017-11-16 23:02:32</td></tr></table>

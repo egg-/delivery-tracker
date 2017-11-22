@@ -1,0 +1,8 @@
+
+
+	<table border="0" cellspacing="0" cellpadding="10" id="tracking_table" style="width:100%;">
+		<tr>
+			<th style="background-color:#ddd;border:1px solid black;">Remark</th>
+			<th style="min-width:400px;background-color:#ddd;border:1px solid black;">Event</th>
+			<th style="background-color:#ddd;border:1px solid black;">Date</th>
+		</tr><tr class="altrow"><td>Shipper</td><td>Left Shipper Facility</td><td>2017-11-08 15:31:28</td></tr><tr class="altrow"><td>eParcel KR Center</td><td>Arrived At The Departure Center</td><td>2017-11-08 15:33:46</td></tr><tr class="altrow"><td>-</td><td>Pending Pickup</td><td>2017-11-10 06:53:31</td></tr><tr class="altrow"><td>AIRPORT GMP</td><td>SHIPPED</td><td>2017-11-10 14:43:07</td></tr><tr class="altrow"><td>-</td><td>Arrived at Sorting Hub</td><td>2017-11-12 08:43:55</td></tr><tr class="altrow"><td>MY</td><td>Delivery Completed</td><td>2017-11-13 03:23:00</td></tr></table>
