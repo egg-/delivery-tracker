@@ -1,3 +1,6 @@
+# 1.4.4
+* update USPS site changes.
+
 # 1.4.3
 * update CJ Korea Express timezone.
 
