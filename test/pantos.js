@@ -10,52 +10,20 @@ var tracker = require('../')
 var courier = tracker.courier(tracker.COURIER.PANTOS.CODE)
 
 describe(tracker.COURIER.PANTOS.NAME, function () {
-  var deliveredFedexNumber = 'DELIVEREDNUM-FEDEX'
-  var deliveredAuspostNumber = 'DELIVEREDNUM-AUSPOST'
+  var deliveredNum = 'DELIVEREDN'
 
   before(function () {
     // @TODO add nock
-    prepare(courier, deliveredFedexNumber)
-    prepare(courier, deliveredAuspostNumber)
-    prepare(tracker.courier(tracker.COURIER.FEDEX.CODE), 'DELIVEREDNUM')
-    prepare(tracker.courier(tracker.COURIER.AUSPOST.CODE), 'DELIVEREDNUM')
+    prepare(courier, deliveredNum)
   })
 
-  it('delivered fedex number', function (done) {
-    courier.trace(deliveredFedexNumber, function (err, result) {
+  it('delivered number', function (done) {
+    courier.trace(deliveredNum, function (err, result) {
       assert.equal(err, null)
 
-      assert.equal(deliveredFedexNumber, result.number)
+      assert.equal(deliveredNum, result.number)
       assert.equal(tracker.COURIER.PANTOS.CODE, result.courier.code)
       assert.equal(tracker.STATUS.DELIVERED, result.status)
-
-      var fedexCount = 0
-      for (var i = 0; i < result.checkpoints.length; i++) {
-        if (tracker.COURIER.FEDEX.CODE === result.checkpoints[i].courier.code) {
-          fedexCount++
-        }
-      }
-      assert.notEqual(fedexCount, 0)
-
-      done()
-    })
-  })
-
-  it('delivered australia post number', function (done) {
-    courier.trace(deliveredAuspostNumber, function (err, result) {
-      assert.equal(err, null)
-
-      assert.equal(deliveredAuspostNumber, result.number)
-      assert.equal(tracker.COURIER.PANTOS.CODE, result.courier.code)
-      assert.equal(tracker.STATUS.DELIVERED, result.status)
-
-      var auspostCount = 0
-      for (var i = 0; i < result.checkpoints.length; i++) {
-        if (tracker.COURIER.AUSPOST.CODE === result.checkpoints[i].courier.code) {
-          auspostCount++
-        }
-      }
-      assert.notEqual(auspostCount, 0)
 
       done()
     })

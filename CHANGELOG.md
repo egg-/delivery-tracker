@@ -1,3 +1,6 @@
+# 1.5.1
+* fixed can not load pantos data.
+
 # 1.5.0
 * add Air Bridge.
 
