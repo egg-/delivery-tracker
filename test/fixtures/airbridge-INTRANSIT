@@ -1,0 +1,8 @@
+
+
+	<table border="0" cellspacing="0" cellpadding="10" id="tracking_table" style="width:100%;">
+		<tr>
+			<th style="background-color:#ddd;border:1px solid black;">Remark</th>
+			<th style="min-width:400px;background-color:#ddd;border:1px solid black;">Event</th>
+			<th style="background-color:#ddd;border:1px solid black;">Date</th>
+		</tr><tr class="altrow"><td>Shipper</td><td>Left Shipper Facility</td><td>2017-12-15 19:25:17</td></tr></table>

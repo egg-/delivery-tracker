@@ -13,12 +13,14 @@ describe(tracker.COURIER.AIRBRIDGE.NAME, function () {
   var deliveredIDNumber = 'DELIVEREDID'
   var deliveredMYNumber = 'DELIVEREDMY'
   var rescheduledSGNumber = 'RESCHEDULEDSG'
+  var intransitNumber = 'INTRANSIT'
 
   before(function () {
     // @TODO add nock
     prepare(courier, deliveredIDNumber)
     prepare(courier, deliveredMYNumber)
     prepare(courier, rescheduledSGNumber)
+    prepare(courier, intransitNumber)
   })
 
   it('indonesia delivered number', function (done) {
@@ -51,6 +53,18 @@ describe(tracker.COURIER.AIRBRIDGE.NAME, function () {
       assert.equal(rescheduledSGNumber, result.number)
       assert.equal(tracker.COURIER.AIRBRIDGE.CODE, result.courier.code)
       assert.equal(tracker.STATUS.EXCEPTION, result.status)
+
+      done()
+    })
+  })
+
+  it('transit number', function (done) {
+    courier.trace(intransitNumber, function (err, result) {
+      assert.equal(err, null)
+
+      assert.equal(intransitNumber, result.number)
+      assert.equal(tracker.COURIER.AIRBRIDGE.CODE, result.courier.code)
+      assert.equal(tracker.STATUS.IN_TRANSIT, result.status)
 
       done()
     })
