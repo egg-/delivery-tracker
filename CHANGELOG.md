@@ -1,3 +1,6 @@
+# 1.5.4
+* add exception courier error message.
+
 # 1.5.3
 * add external courier to pantos.
 

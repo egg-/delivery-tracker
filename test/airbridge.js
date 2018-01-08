@@ -64,7 +64,7 @@ describe(tracker.COURIER.AIRBRIDGE.NAME, function () {
 
       assert.equal(intransitNumber, result.number)
       assert.equal(tracker.COURIER.AIRBRIDGE.CODE, result.courier.code)
-      assert.equal(tracker.STATUS.IN_TRANSIT, result.status)
+      assert.equal(tracker.STATUS.EXCEPTION, result.status)
 
       done()
     })
