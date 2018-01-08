@@ -1,3 +1,9 @@
+# 1.5.3
+* add external courier to pantos.
+
+# 1.5.2
+* add exception courier error message.
+
 # 1.5.1
 * fixed can not load pantos data.
 
