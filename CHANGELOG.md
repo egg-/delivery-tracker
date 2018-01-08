@@ -1,3 +1,7 @@
+# 1.5.5
+* update cj korea express.
+* fixed can not load external courier (pantos)
+
 # 1.5.4
 * add exception courier error message.
 

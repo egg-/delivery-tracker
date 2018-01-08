@@ -7,6 +7,7 @@
 
 
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 
 
@@ -15,295 +16,963 @@
 
 
 
-<!doctype html>
-<html lang="ko" xml:lang="ko">
-<head>
-	<meta charset="utf-8">
-	<title>배송조회_결과 | CJ대한통운 택배 모바일 홈페이지</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-	<link rel="stylesheet" href="/m/css/base.css" type="text/css">
-	<script src="/m/js/jquery-1.7.2.min.js"></script>
-	<script src="/m/js/ui.js"></script>
-	<script type="text/javascript" src="/m/js/script.js"></script>
-	<script type="text/javascript" src="/js/cj.js"></script>
-	<script type="text/javascript" src="/js/function-1.2.js"></script>
-	<script type="text/javascript" src="/js/ajax-helper-2.0.js" ></script>
-	<script type="text/javascript" src="/js/policy.js"></script>
-	<!--[if IE]><script type="text/javascript" src="/m/js/html5.js"></script><![endif]-->
-	<script type="text/javascript">
-
-function changeMenu(){
-	if(hasClass(document.getElementById("allMenu"),"default")){
-		removeClass(document.getElementById("allMenu"), "default")
-		addClass(document.getElementById("allMenu"), "focus");
-	}
-	else{
-		removeClass(document.getElementById("allMenu"), "focus")
-		addClass(document.getElementById("allMenu"), "default");
-	}
-}
-
-function hasClass(ele,cls) {
-	return ele.className.match(new RegExp('(\\s|^)'+cls+'(\\s|$)'));
-}
-
-function addClass(ele,cls) {
-	if (!this.hasClass(ele,cls)) ele.className += " "+cls;
-}
-
-function removeClass(ele,cls) {
-	if (hasClass(ele,cls)) {
-		var reg = new RegExp('(\\s|^)'+cls+'(\\s|$)');
-		ele.className=ele.className.replace(reg,' ');
-	}
-}
-
-function go_logout(){
-	/*
-	var frm = document.forms[0];
-	frm.fsp_cmd.value = "logoutACTM";
-	frm.action = "/LOGIN_ACT_001";
-	frm.submit();
-	*/
-	document.location.href = '/doortodoor.do?fsp_action=LOGIN_ACT_001&fsp_cmd=logoutACTM';
-}
-
-function viewLegal(arg){
-	window.open("/m/sub/sub_001_legal" + arg +".jsp");
-}
-
-function checkMobile(){
-	 var agent = navigator.userAgent;
-	 var obj = document.getElementById("_body");
-	 if (agent.match(/iPhone/) != null || agent.match(/iPod/) != null) {
-		 obj.style.height = "100%";
-	 }else {
-		 //obj.style.height = "200%";
-	 }
-}
-
-function gotoMemberRev(){
-
-	var params = {};
-	params.fsp_action = 'PARC_ACT_001';
-	params.fsp_cmd = 'retrieveMobilePsnCustACT';
-	params.nextpage = '/m/sub/sub_002.jsp';
-	params.cust_id = '';
-	params.user_id = '';
-
-	CallBizLogic(params);
-}
-
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 
-
-	  ga('create', 'UA-47919938-8', 'doortodoor.co.kr');
-
-	  ga('send', 'pageview');
-
-
-</script>
-</head>
-<body>
-<div class="wrapper">
-	<span class="topLine"><span class="org"></span></span>
-	<header>
-	<h1><a href="/m"><img src="/m/images/common/logo.png" width="85" height="36" title="íë°°ëííµì´ ëª¨ë°ì¼ ìë¹ì¤" alt="íë°°ëííµì´ ëª¨ë°ì¼ ìë¹ì¤"></a></h1>
-
-    <!-- 메뉴이동 -->
-	<div class="navigation">
-	 <span class="menu all"><a href="#">메뉴</a></span>
-	 <ul style="display:none;">
-	     <li><a href="/m/sub/sub_006.jsp">배송조회</a></li>
-	     <li><a href="/m/sub/dlv_main.jsp">일반예약</a></li>
-	     <li><a href="/m/sub/sub_014.jsp">반품예약</a></li>
-	     <li><a href="/m/post/post_main.jsp">우편예약</a></li>
-	     <li><a href="/m/sub/sub_011.jsp">운임검색</a></li>
-	     <li><a href="/m/service/service_001.jsp">고객의소리</a></li>
-	     <li><a href="#" class="close">닫기</a></li>
-     </ul>
-    </div>
-    </header>
-    <!-- ì ì²´ë©ë´ë²í¼ -->
 
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
 <head>
-<style type="text/css">
-.btn_red02 {display:block; float:left; height:32px; padding-left:17px; background:url("../../dtd_images/common/btn_red02.png") no-repeat left top; cursor:pointer;}
-.btn_red02 span {display:block; float:left; padding-right:19px; background:url("../../dtd_images/common/btn_red02.png") no-repeat right top; color:#ffffff; font-size:13px; height:32px; line-height:29px; letter-spacing:-1px;}
-</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>국내 택배조회 | 배송조회  | 예약/조회  | CJ대한통운택배</title>
+
+<link rel="stylesheet" href="/dtd_css/common.css" media="all"/>
+<link rel="stylesheet" href="/dtd_css/style.css" media="all" />
+<script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/js/function-1.2.js"></script>
+<script type="text/javascript" src="/js/policy.js"></script>
+<script type="text/javascript" src="/js/cj.js"></script>
+<script type="text/javascript" src="/js/siteNavi.js"></script>
 <script type="text/javascript">
-//로지아이로 이동한다.
-function go_logii(){
-	var frm = document.getElementById("logiiForm");
+$(document).ready(function(){  //// 팝업에서 IE 호환성 보기에서 사이즈가 늘어남을 방지하기 위한 펑션.
 
-	//frm.action = "http://m.re.logii.com/interface/delvprom/delv_click.asp";
-	//frm.action = "http://m.logii.com/interface/delvprom/delv_click.asp";
-	frm.action = "https://m.logii.com:888/interface/delvprom/delv_click.asp";
+	if($("div.popup_wrap").length > 0){
+		var $table = $("div.popup_wrap").find("table");
 
-	/*
-	개발 : http://m.re.logii.com/interface/delvprom/delv_click.asp
-	운영 : http://m.logii.com/interface/delvprom/delv_click.asp
-	*/
+		$table.find("tr").each(function(){
+			if(!($(this).hasClass("h33"))){
+				$(this).addClass("h33");
+			}
+		});
 
+		$table.find("th").each(function(){
+			if(!($(this).hasClass("h33"))){
+				$(this).addClass("h33");
+			}
+		});
 
+		$table.find("td").each(function(){
+			if(!($(this).hasClass("h33"))){
+				$(this).addClass("h33");
+			}
+		});
+	}
+});
 
-	frm.submit();
-}
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create',  'UA-47919938-8', 'doortodoor.co.kr');
+	  ga('send', 'pageview');
 </script>
+
+	<script type="text/javascript">
+
+
+
+    	function content_print(){
+	        var initBody = document.body.innerHTML;
+	        window.onbeforeprint = function(){
+	            document.body.innerHTML = document.getElementById('printDiv').innerHTML;
+	        }
+	        window.onafterprint = function(){
+	            document.body.innerHTML = initBody;
+	        }
+	        window.print();
+	    }
+
+		// 영업소 정보 팝업
+		function checkDetail(reg_bran_id) {
+
+			var f = document.getElementById("retrieveBranInfoForm");
+			f.bran_id.value = reg_bran_id;
+
+			openWin('','wbOld',490,320);	//빈페이지팝업 open
+			f.fsp_action.value = "PARC_ACT_002";
+			f.fsp_cmd.value = "retrieveInchgSaleSmlInfoACT";
+			f.nextpage.value = "popup/pop_salesMap.jsp";
+			f.target = "wbOld";
+			f.submit();
+		}
+		// 사원 정보 팝업
+		function checkEmp(empImg,empnm,emptel) {
+			var theURL="/popup/pop_salesAdd.jsp?empImg="+empImg+"&empnm="+empnm+"&emptel="+emptel;
+			window.open(encodeURI(theURL),'택배기사정보','top=100px,left=300px,status=yes,resizable=no,menubar=no,scrollbars=no,width=447,height=436	');
+		}
+		// 로지아이로 이동한다.
+		function go_logii(){
+			var frm = document.getElementById("logiiForm");
+			frm.submit();
+		}
+		// 로지아이 정보가 있을 경우 팝업을 띄운다.
+		function init(){
+
+		}
+
+
+		function printInvc(){
+			window.open('../popup/printInvc.jsp', 'printInvc', 'width=845, height=930');
+		}
+
+		$(function(){
+			init();
+		});
+    </script>
 </head>
 <body>
-<form action="" method="post" id="logiiForm" name="logiiForm">
+<form name="popup_form_submit" id="popup_form_submit" method="post" action="doortodoor.do" onsubmit="return false;">
+	<input type="hidden" id="fsp_action" name="fsp_action" value="PARC_ACT_002"/>
+	<input type="hidden" id="fsp_cmd" name="fsp_cmd" value="retrieveInvNoACT"/>
+	<input type="hidden" id="invc_no" name="invc_no" value=""/>
+</form>
+<form action="https://www.logii.com/interface/delvproms/delv_click.asp" method="post" id="logiiForm" name="logiiForm">
 	<input type="hidden" id="comp_code" name="comp_code" value="korex"/>
-	<input type="hidden" id="inv_no" name="inv_no" value="DELIVERED" />
+	<input type="hidden" id="inv_no" name="inv_no" value="DELIVERED"/>
 	<input type="hidden" id="login_yn" name="login_yn" value="N"/>
 	<input type="hidden" id="login_name" name="login_name" value=""/>
 </form>
+<form name="retrieveBranInfoForm" id="retrieveBranInfoForm" method="post" action="doortodoor.do">
+<input type="hidden" name="fsp_action" id="fsp_action" value=""  />
+<input type="hidden" name="fsp_cmd" id="fsp_cmd" value=""  />
+<input type="hidden" name="nextpage" id="nextpage" value=""  />
+<input type="hidden" name="bran_id" id="bran_id" value=""  />
+</form>
+<div class="wrap depth2_focus">
+	<!-- header_area -->
 
 
-	<div class="contents">
+<script type="text/javascript">
+function auth_forward(url, action, cmd){
+	var frm = document.getElementById("authForm");
+	frm.action = url ;
+	frm.fsp_action.value = action ;
+	frm.fsp_cmd.value = cmd ;
+	frm.submit();
+}
+</script>
+<form action="" id="authForm" name="authForm" method="post">
+	<input type="hidden" id="authDirection" name="authDirection" value=""/>
+	<input type="hidden" id="authInvcNo" name="authInvcNo" value=""/>
+	<input type="hidden" id="fsp_action" name="fsp_action" />
+	<input type="hidden" id="fsp_cmd" name="fsp_cmd" />
+</form>
+<!-- menuForm Start -->
+<form name="menuForm" id="menuForm" method="post" action="">
+<input type="hidden" name="fsp_action" id="fsp_action" value=""  />
+<input type="hidden" name="fsp_cmd" id="fsp_cmd" value=""  />
+<input type="hidden" name="nextpage" id="nextpage" value=""  />
+<input type="hidden" name="cust_id" id="cust_id" value=""  />
+<input type="hidden" name="new_pswd_chk" id="new_pswd_chk" value=""  />
+<input type="hidden" name="authDirection" id="authDirection"  />
+<input type="hidden" name="authInvcNo" id="authInvcNo"  />
+</form>
+<script type="text/javascript">
+var sn = '';
+var sn1 = '';
+function SET_GBN(menu1, menu2){
+	var $menu1 = $("div.gnb").find("#gnb_" + menu1);
+	if($menu1.length != 0){
+		$menu1.removeClass("default").addClass("focus");
+		//$menu1.attr("data-set", "1");
+		var $menu2 = $("div.gnb").find("#gnb_" + menu1).find("#gnb_sub_"+ menu1 +"_" + menu2);
+		if($menu2.length != 0){
+			$menu2.attr("class", "focus");
+		}
+	}
 
-		<div class="iconTitle">
-			<img src="/m/images/common/ico_view.png" width="18" height="17" alt="배송조회 결과"> 배송조회 결과
+	if(sn == '0' || sn == '7' || sn == '12'){
+		if ($("div.wrap").hasClass("depth2_focus")){
+			$("div.wrap").removeClass("depth2_focus");
+			$("div.wrap").addClass("depth2_default");
+		}
+	}
+
+};
+
+function BIND_GNB_EVENT(){
+	var $menus = $("div.gnb>div");
+	$menus.each(function(){
+		$(this).mouseover(function(){
+			if ($("div.wrap").hasClass("depth2_default")){
+				$("div.wrap").removeClass("depth2_default");
+				$("div.wrap").addClass("depth2_focus");
+			}
+			$menus.removeClass("focus");
+			$menus.removeClass("default");
+			$menus.addClass("default");
+			$(this).removeClass("default");
+			$(this).addClass("focus");
+		});
+	});
+
+	$menus.find("a.depth1").each(function(){
+		$(this).focus(function(){
+			var $parent = $(this).parents("div:first");
+			$parent.trigger("mouseover");
+		});
+	});
+
+	$("#gng_area_out").mouseout(function(){
+		$menus.removeClass("focus");
+		$menus.removeClass("default");
+		$menus.addClass("default");
+		SET_GBN(sn, sn1);
+	});
+};
+
+var SKIP_NAVI_EVENT_BIND = function(){
+
+	var $skipNavi = $("div.skipnavi");
+	var $skipNavip = $("div.skipnavi").find("p");
+
+	var $dumy = $("div.dumySkipNavi");
+
+	$dumy.find("a").focus(function(){
+		$skipNavi.show();
+		$skipNavip.hide();
+		var cnt = $(this).attr("tabindex");
+		$("div.skipnavi").find("p:nth-child("+ cnt +")").show();
+	});
+
+	$dumy.find("a").blur(function(){
+		$skipNavi.hide();
+	});
+};
+
+function chatPop() {
+	window.open("https://chatbot.doortodoor.co.kr/chatbot/chatbot.jsp?company=0000000000&media=COM",  "scrollbars=yes", "width=800, height=1500");
+};
+
+$(document).ready(function(){
+	SKIP_NAVI_EVENT_BIND();
+	BIND_GNB_EVENT();
+
+	sn = '1';
+	sn1 = '05';
+
+	SET_GBN(sn, sn1);
+
+
+});
+
+var onOneClickFlag = true;
+
+function toggleOneClickService(){
+	var $bt_onclick = $("#bt_onclick");
+
+	if($bt_onclick.hasClass("default")){
+
+
+		if($("#onclickContainner").find("iframe").length == 0){
+			$("#onclickContainner").append('<iframe src="/onclick/index.jsp" style="width:1106px; height:475px; margin-left:52px; margin-top:-23px;" frameborder="0" title="원클릭서비스"></iframe>');
+		}
+
+		$bt_onclick.removeClass("default");
+		$bt_onclick.addClass("focus");
+		$("#onclickContainner").show();
+	}
+	else{
+		$bt_onclick.removeClass("focus");
+		$bt_onclick.addClass("default");
+		$("#onclickContainner").hide();
+	}
+}
+
+function onOneClickService(){
+	if(onOneClickFlag){
+		toggleOneClickService();
+	}
+	onOneClickFlag = true;
+}
+
+function onFocusOneClickService(obj){
+	toggleOneClickService(obj);
+}
+
+function onblurOneClickService(obj){
+	onOneClickFlag = false;
+}
+
+$(function(){
+	$(window).scroll(function() {
+		var t = $(window).scrollTop() - 100;
+		if(t < 51){
+			t = 51;
+		}
+		$("div.oneclick_area").stop();
+		$("div.oneclick_area").animate({'top': t }, 51);
+
+
+		var v = $(window).scrollTop() - 23;
+		if(v < 128){
+			v = 128;
+		}
+		$("div.oneclick_area2").stop();
+		$("div.oneclick_area2").animate({'top': v }, 128);
+	});
+});
+
+</script>
+
+<!-- header_area -->
+   <div class="header_area skip_default" id="gnbHeader">
+    	<!-- skipnavi -->
+	<div class="skipnavi">
+	    <p class="skip1"><a href="#gnb_1">주메뉴 바로가기</a></p>
+	    <p class="skip3"><a href="#tabOneclick">원클릭서비스 바로가기</a></p>
+	    <p class="skip2"><a href="#tabContents">본문 바로가기</a></p>
+	</div>
+	<div class="dumySkipNavi"><a tabindex="1" href="#gnb_1"></a><a tabindex="2" href="#tabOneclick"></a><a tabindex="3" href="#tabContents"></a></div>
+    <!-- //skipnavi -->
+
+
+
+    <!-- utill_area -->
+   	<div class="utill_area">
+       	<div class="utill">
+
+			<a href="javascript:auth_forward('/mypage/login.jsp','','');">로그인</a>
+			<!--  <a href="javascript:auth_forward('/mypage/join.jsp','','');">회원가입</a>-->
+
+            <a class="last" href="javascript:goLink('link','N','/customer/cu_004_noti.jsp');">고객센터</a>
+           </div>
+       </div>
+       <!-- //utill_area -->
+       <!-- gnb_area -->
+       <div class="gnb_area" >
+       	<div class="gnb_contents" id="gng_area_out">
+               <h1><a href="/" title="CJ대한통운 통합 택배사이트 메인화면으로 가기"><img src="/dtd_images/common/logo1.png" alt="CJ대한통운 사이트 로고"  /></a></h1>
+               <!-- gnb -->
+               <div class="gnb">
+                   <!-- menu1 -->
+                   <div class="menu menu1 default" id="gnb_1" style="height: 50px;">
+                       <a href="javascript:gotoSiteNavi(1);" class="depth1"><img src="/dtd_images/common/gnb1.png" alt="예약/조회" /></a>
+                       <ul class="depth2">
+                           <li class="default" id="gnb_sub_1_01"><a href="javascript:gotoSiteNavi(1);">일반 예약</a></li>
+                           <li class="default" id="gnb_sub_1_02"><a href="javascript:gotoSiteNavi(2);">반품 예약</a></li>
+                           <li class="default" id="gnb_sub_1_03"><a href="javascript:gotoSiteNavi(3);">SMS 예약</a></li>
+                           <li class="default" id="gnb_sub_1_04"><a href="javascript:gotoSiteNavi(4);">원메일 예약</a></li>
+                           <li class="default" id="gnb_sub_1_05"><a href="javascript:gotoSiteNavi(5);">배송 조회</a></li>
+                           <li class="default" id="gnb_sub_1_06"><a href="javascript:gotoSiteNavi(8);">예약 확인/취소</a></li>
+                       </ul>
+                   </div>
+                   <!-- //menu1 -->
+                   <!-- menu2 -->
+                   <div class="menu menu2 default" id="gnb_2" style="height: 50px;">
+                       <a href="javascript:gotoSiteNavi(21);" class="depth1"><img src="/dtd_images/common/gnb2.png" alt="국내택배" /></a>
+                       <ul class="depth2">
+                           <li class="default" id="gnb_sub_2_01"><a href="javascript:gotoSiteNavi(21);">국내 택배 서비스</a></li>
+                           <li class="default" id="gnb_sub_2_02"><a href="javascript:gotoSiteNavi(22);">항공 택배 서비스</a></li>
+                           <li class="default" id="gnb_sub_2_03"><a href="javascript:gotoSiteNavi(23);">공항수하물 보관 서비스</a></li>
+                           <li class="default" id="gnb_sub_2_04"><a href="javascript:gotoSiteNavi(24);">편의점 택배</a></li>
+                           <li class="default" id="gnb_sub_2_12"><a href="javascript:gotoSiteNavi(31);">중량물 설치 택배 서비스</a></li>
+                           <li class="default" id="gnb_sub_2_05"><a href="javascript:gotoSiteNavi(25);">택배 운임 안내</a></li>
+                           <li class="default" id="gnb_sub_2_06"><a href="javascript:gotoSiteNavi(27);">택배 서비스 이용 안내</a></li>
+                           <li class="default" id="gnb_sub_2_07"><a href="javascript:gotoSiteNavi(29);">택배 포장 안내</a></li>
+                       </ul>
+                   </div>
+                   <!-- //menu2 -->
+                   <!-- menu3 -->
+                   <div class="menu menu3 default" id="gnb_3" style="height: 50px;">
+                       <a href="javascript:gotoSiteNavi(41);" class="depth1"><img src="/dtd_images/common/gnb3.png" alt="국제특송" /></a>
+                       <ul class="depth2">
+                           <li class="default" id="gnb_sub_3_01"><a href="javascript:gotoSiteNavi(41);">국제특송 서비스</a></li>
+                           <li class="default" id="gnb_sub_3_02"><a href="javascript:gotoSiteNavi(42);">국제특송 네트워크 현황</a></li>
+                           <li class="default" id="gnb_sub_3_03"><a href="javascript:gotoSiteNavi(43);">국제특송 제휴 서비스</a></li>
+                           <li class="default" id="gnb_sub_3_04"><a href="javascript:gotoSiteNavi(47);">국제특송 서비스 이용 안내</a></li>
+                           <li class="default" id="gnb_sub_3_05"><a href="javascript:gotoSiteNavi(48);">국제특송 배송 조회</a></li>
+                           <li class="default" id="gnb_sub_3_06"><a href="javascript:gotoSiteNavi(49);">발송제한품목 및 통관사항 안내</a></li>
+                       </ul>
+                   </div>
+                   <!-- //menu3 -->
+                   <!-- menu4 -->
+                   <div class="menu menu4 default" id="gnb_4" style="height: 50px;">
+                       <a href="javascript:gotoSiteNavi(61);" class="depth1"><img src="/dtd_images/common/gnb4.png" alt="원메일서비스" /></a>
+                       <ul class="depth2">
+                           <li class="default" id="gnb_sub_4_01"><a href="javascript:gotoSiteNavi(61);">ONEMAIL 서비스 안내</a></li>
+                           <li class="default" id="gnb_sub_4_02"><a href="javascript:gotoSiteNavi(62);">DM 서비스 안내</a></li>
+                       </ul>
+                   </div>
+                   <!-- //menu4 -->
+                   <!-- menu5 -->
+                   <div class="menu menu5 default" id="gnb_5" style="height: 50px;">
+                       <a href="javascript:gotoSiteNavi(81);" class="depth1"><img src="/dtd_images/common/gnb5.png" alt="고객센터" /></a>
+                       <ul class="depth2">
+                       	   <li class="default" id="gnb_sub_5_01"><a href="javascript:gotoSiteNavi(81);">고객의 소리</a></li>
+                           <li class="default" id="gnb_sub_5_02"><a href="javascript:gotoSiteNavi(82);">고객센터 안내</a></li>
+                           <li class="default" id="gnb_sub_5_07"><a href="javascript:chatPop();" >챗봇</a></li>
+                           <!-- <li class="default" id="gnb_sub_5_07"><a href="javascript:gotoSiteNavi(82);">챗봇</a></li>-->
+                           <li class="default" id="gnb_sub_5_03"><a href="javascript:gotoSiteNavi(84);">FAQ</a></li>
+                           <li class="default" id="gnb_sub_5_05"><a href="javascript:gotoSiteNavi(88);">택배 터미널 안내</a></li>
+                           <li class="default" id="gnb_sub_5_06"><a href="javascript:gotoSiteNavi(89);">택배사원 안내</a></li>
+                       </ul>
+                   </div>
+                   <!-- //menu5 -->
+                   <!-- menu6 -->
+                   <div class="menu menu6 default" id="gnb_6" style="height: 50px;">
+                       <a href="javascript:gotoSiteNavi(101);" class="depth1"><img src="/dtd_images/common/gnb6.png" alt="회사소개" /></a>
+                       <ul class="depth2">
+                           <li class="default" id="gnb_sub_6_01"><a href="javascript:gotoSiteNavi(101);">택배 사업소개</a></li>
+                           <li class="default" id="gnb_sub_6_02"><a href="javascript:gotoSiteNavi(105);">연혁</a></li>
+                           <li class="default" id="gnb_sub_6_03"><a href="javascript:gotoSiteNavi(107);">인증 및 수상</a></li>
+                           <li class="default" id="gnb_sub_6_04"><a href="javascript:gotoSiteNavi(85);">뉴스/공지사항/이벤트</a></li><!-- 131031 -->
+                       </ul>
+                   </div>
+                   <!-- //menu6 -->
+               </div>
+               <!-- //gnb -->
+           </div>
+       </div>
+       <!-- //gnb_area -->
+       <!-- sidemenu -->
+	    <div class="sidemenu">
+	        <!-- allmenu_area -->
+
+<script type="text/javascript">
+	function SHOW_ALL_MENU(mode){
+		if(mode == 1){
+			$("div.allmenu_area").removeClass("default");
+			$("div.allmenu_area").addClass("focus");
+		}
+		else{
+			$("div.allmenu_area").removeClass("focus");
+			$("div.allmenu_area").addClass("default");
+		}
+	}
+
+	function allMenuFocusMove(){
+		try{
+			document.getElementById("allMenuTab1").focus();
+		}
+		catch(e){
+
+		}
+	}
+
+	function chatPop() {
+		window.open("https://chatbot.doortodoor.co.kr/chatbot/chatbot.jsp?company=0000000000&media=COM",  "scrollbars=yes", "width=800, height=1500");
+	}
+
+</script>
+
+<div class="allmenu_area default">
+ 	<div class="btn"><a href="javascript:SHOW_ALL_MENU(1)" class="btn_allmenu default" id="showAllMenu1">전체메뉴보기</a></div>
+     <div class="allmenu">
+     	<div class="menulist_area">
+         	<div class="menu">
+             	<p class="txt_gnb">예약/조회</p>
+                 <ul class="list_depth">
+                 	<li><a href="javascript:gotoSiteNavi(1);"  class="txt_depth2" id="allMenuTab1">일반 예약</a></li>
+                 	<li><a href="javascript:gotoSiteNavi(2);"  class="txt_depth2">반품 예약</a></li>
+                 	<li><a href="javascript:gotoSiteNavi(3);"  class="txt_depth2">SMS 예약</a></li>
+                 	<li><a href="javascript:gotoSiteNavi(4);"  class="txt_depth2">원메일 예약</a></li>
+                 	<li>
+                     	<a href="javascript:gotoSiteNavi(5);"  class="txt_depth2">배송 조회</a>
+                     	<a href="javascript:gotoSiteNavi(5);"  class="txt_depth3">&ndash; &nbsp;국내 택배 조회</a>
+                     	<a href="javascript:gotoSiteNavi(6);"  class="txt_depth3">&ndash; &nbsp;국제특송 조회</a>
+                     	<a href="javascript:gotoSiteNavi(7);"  class="txt_depth3">&ndash; &nbsp;운송장 영수증 출력</a>
+                     </li>
+                 	<li><a href="javascript:gotoSiteNavi(8);"  class="txt_depth2">예약 확인/취소</a></li>
+                 </ul>
+         	</div>
+         	<div class="menu">
+             	<p class="txt_gnb">국내택배</p>
+                 <ul class="list_depth">
+                 	<li><a href="javascript:gotoSiteNavi(21);"  class="txt_depth2">국내 택배 서비스</a></li>
+                 	<li><a href="javascript:gotoSiteNavi(22);"  class="txt_depth2">항공 택배 서비스</a></li>
+                 	<li><a href="javascript:gotoSiteNavi(23);"  class="txt_depth2">공항수하물 보관 서비스</a></li>
+                 	<li><a href="javascript:gotoSiteNavi(24);"  class="txt_depth2">편의점 택배</a></li>
+                 	<li>
+                     	<a href="javascript:gotoSiteNavi(31);"  class="txt_depth2">중량물 설치 택배 서비스</a>
+                     	<a href="javascript:gotoSiteNavi(31);"  class="txt_depth3">&ndash; &nbsp;서비스안내</a>
+                     	<!--<a href="javascript:gotoSiteNavi(32);"  class="txt_depth3">&ndash; &nbsp;견적의뢰</a>-->
+                   </li>
+                 	<li>
+                     	<a href="javascript:gotoSiteNavi(25);"  class="txt_depth2">택배 운임 안내</a>
+                     	<a href="javascript:gotoSiteNavi(25);"  class="txt_depth3">&ndash; &nbsp;택배 운임 안내</a>
+                     	<a href="javascript:gotoSiteNavi(26);"  class="txt_depth3">&ndash; &nbsp;택배 운임 검색</a>
+                     </li>
+                 	<li>
+                     	<a href="javascript:gotoSiteNavi(27);"  class="txt_depth2">택배 서비스 이용 안내</a>
+                     	<a href="javascript:gotoSiteNavi(27);"  class="txt_depth3">&ndash; &nbsp;택배 접수 방법</a>
+                     	<a href="javascript:gotoSiteNavi(28);"  class="txt_depth3">&ndash; &nbsp;고객불만접수 안내</a>
+                     </li>
+                 	<li>
+                     	<a href="javascript:gotoSiteNavi(29);"  class="txt_depth2">택배 포장 안내</a>
+                     	<a href="javascript:gotoSiteNavi(29);"  class="txt_depth3">&ndash; &nbsp;택배 포장 방법</a>
+                     	<a href="javascript:gotoSiteNavi(30);"  class="txt_depth3">&ndash; &nbsp;품목별 포장 안내</a>
+                     </li>
+                 </ul>
+         	</div>
+         	<div class="menu">
+             	<p class="txt_gnb">국제특송</p>
+                 <ul class="list_depth">
+                 	<li><a href="javascript:gotoSiteNavi(41);"  class="txt_depth2">국제특송 서비스</a></li>
+                 	<li><a href="javascript:gotoSiteNavi(42);"  class="txt_depth2">국제특송<br />네트워크 현황</a></li>
+                 	<li>
+                     	<a href="javascript:gotoSiteNavi(43);"  class="txt_depth2">국제특송 제휴 서비스</a>
+                     	<a href="javascript:gotoSiteNavi(43);"  class="txt_depth3">&ndash; &nbsp;주요기관 제휴</a>
+                     	<a href="javascript:gotoSiteNavi(44);"  class="txt_depth3">&ndash; &nbsp;아시아나항공 제휴</a>
+                     	<a href="javascript:gotoSiteNavi(45);"  class="txt_depth3">&ndash; &nbsp;Ebay 판매대행사업</a>
+                     	<a href="javascript:gotoSiteNavi(46);"  class="txt_depth3">&ndash; &nbsp;ARAMEX Express</a>
+                     </li>
+                 	<li><a href="javascript:gotoSiteNavi(47);"  class="txt_depth2">국제특송<br />서비스 이용안내</a></li>
+                 	<li><a href="javascript:gotoSiteNavi(48);"  class="txt_depth2">국제특송 배송 조회</a></li>
+                 	<li>
+                     	<a href="javascript:gotoSiteNavi(49);"  class="txt_depth2">발송제한품목 및<br />통관사항 안내</a>
+                     	<a href="javascript:gotoSiteNavi(49);"  class="txt_depth3">&ndash; &nbsp;국내 수입</a>
+                     	<a href="javascript:gotoSiteNavi(50);"  class="txt_depth3">&ndash; &nbsp;해외 수출</a>
+                     </li>
+                 </ul>
+         	</div>
+         	<div class="menu">
+             	<p class="txt_gnb">원메일서비스</p>
+                 <ul class="list_depth">
+                 	<li><a href="javascript:gotoSiteNavi(61);"  class="txt_depth2">ONEMAIL 서비스안내</a></li>
+                 	<li>
+                     	<a href="javascript:gotoSiteNavi(62);"  class="txt_depth2">DM 서비스 안내</a>
+                        <a href="javascript:gotoSiteNavi(62);"  class="txt_depth3">&ndash; &nbsp;CJ대한통운 DM 서비스</a>
+                        <a href="javascript:gotoSiteNavi(63);"  class="txt_depth3">&ndash; &nbsp;DM 서비스 견적의뢰</a>
+                     </li>
+                 </ul>
+         	</div>
+         	<div class="menu">
+             	<p class="txt_gnb">고객센터</p>
+                 <ul class="list_depth">
+                   <li><a href="javascript:gotoSiteNavi(81);"  class="txt_depth2">고객의 소리</a></li>
+                 	<li>
+                     	<a href="javascript:gotoSiteNavi(82);"  class="txt_depth2">고객센터 안내</a>
+                     	<a href="javascript:gotoSiteNavi(82);"  class="txt_depth3">&ndash; &nbsp;고객센터 소개</a>
+                     	<a href="javascript:gotoSiteNavi(83);"  class="txt_depth3">&ndash; &nbsp;고객서비스 헌장</a>
+                     </li>
+                 	<li><a href="javascript:gotoSiteNavi(84);"  class="txt_depth2">FAQ</a></li>
+                 	<li><a href="javascript:chatPop();" >챗봇</a></li>
+                    <li><a href="javascript:gotoSiteNavi(88);"  class="txt_depth2">택배 터미널 안내</a></li>
+                 	<li><a href="javascript:gotoSiteNavi(89);"  class="txt_depth2">택배사원 안내</a></li>
+                 </ul>
+         	</div>
+         	<div class="menu">
+             	<p class="txt_gnb">회사소개</p>
+                 <ul class="list_depth">
+                 	<li>
+                     	<a href="javascript:gotoSiteNavi(101);"  class="txt_depth2">택배 사업소개</a>
+                     	<a href="javascript:gotoSiteNavi(101);"  class="txt_depth3">&ndash; &nbsp;개요</a>
+                     	<a href="javascript:gotoSiteNavi(102);"  class="txt_depth3">&ndash; &nbsp;CJ대한통운 택배 특장점</a>
+                     	<a href="javascript:gotoSiteNavi(103);"  class="txt_depth3">&ndash; &nbsp;상품분류시스템<br />&nbsp;&nbsp;&nbsp;(네트워크안내)</a>
+                     	<a href="javascript:gotoSiteNavi(104);"  class="txt_depth3">&ndash; &nbsp;택배프로세스</a>
+                     </li>
+                 	<li>
+                     	<a href="javascript:gotoSiteNavi(105);"  class="txt_depth2">연혁</a>
+                     	<a href="javascript:gotoSiteNavi(105);"  class="txt_depth3">&ndash; &nbsp;CJ대한통운</a>
+                     	<a href="javascript:gotoSiteNavi(106);"  class="txt_depth3">&ndash; &nbsp;CJ GLS</a>
+                     </li>
+                 	<li>
+                     	<a href="javascript:gotoSiteNavi(107);"  class="txt_depth2">인증 및 수상</a>
+                     	<a href="javascript:gotoSiteNavi(107);"  class="txt_depth3">&ndash; &nbsp;CJ대한통운</a>
+                     	<a href="javascript:gotoSiteNavi(108);"  class="txt_depth3">&ndash; &nbsp;CJ GLS</a>
+                     </li>
+                     <li>
+                     	<a href="javascript:gotoSiteNavi(85);"  class="txt_depth2">뉴스/공지사항/이벤트</a>
+                     	<a href="javascript:gotoSiteNavi(85);"  class="txt_depth3">&ndash; &nbsp;뉴스</a>
+                     	<a href="javascript:gotoSiteNavi(86);"  class="txt_depth3">&ndash; &nbsp;공지사항</a>
+                     	<a href="javascript:gotoSiteNavi(87);"  class="txt_depth3">&ndash; &nbsp;이벤트</a>
+                    </li>
+                 </ul>
+         	</div>
+         	<div class="btn btn_close"><a href="javascript:SHOW_ALL_MENU(0)" class="btn_allmenu focus" onblur="allMenuFocusMove();">전체메뉴닫기</a></div>
+         </div>
+     </div>
+ </div>
+	        <!-- //allmenu_area -->
+	        <!-- oneclick_area -->
+	        <div class="oneclick_area">
+		        <a href="#tabContents" title="본문 바로가기" class="hidden"></a>
+		        <div class="btn default" id="bt_onclick"><a href="javascript:toggleOneClickService();" id="tabOneclick" style="cursor: pointer;" title="원클릭 서비스">원클릭 서비스</a></div>
+		        <div class="oneclick_box" id="onclickContainner" style="display: none;"></div>
+		    </div>
+
+	        <div class="oneclick_area2">
+		        <a href="#tabContents" title="본문 바로가기" class="hidden"></a>
+ 		        <div class="btn btn_chat" id="bt_onclick2"><a href="javascript:chatPop();">챗봇</a></div>
+		        <div class="oneclick_box" id="onclickContainner" style="display: none;"></div>
+		    </div>
+	        <!-- //oneclick_area -->
+	    </div>
+    	<!-- //sidemenu -->
+   </div>
+   <!-- //header_area -->
+
+
+    <!-- //header_area -->
+    <!-- container -->
+    <div class="container">
+    	<div class="contents_area reserve">
+        	<!-- lnb_area -->
+
+<script type="text/javascript">
+function chatPop() {
+	window.open("https://chatbot.doortodoor.co.kr/chatbot/chatbot.jsp?company=0000000000&media=COM",  "scrollbars=yes", "width=800, height=1500");
+}
+
+</script>
+		<!-- left Menu -->
+
+		<div class="lnb_area">
+		   	<h2>예약/조회</h2>
+			<ul>
+
+
+
+				<li class="lnb default"><a href="javascript:goLink('link','','/parcel/pa_00.jsp');">일반 예약</a></li>
+
+
+				<li class="lnb default"><a href="javascript:goLink('link','','/parcel/pa_0000.jsp');">반품 예약</a></li>
+
+
+
+		       	<li class="lnb default"><a href="javascript:goLink('link','','/parcel/pa_sms.jsp');">SMS 예약</a></li>
+
+
+				<li class="lnb default"><a href="javascript:goLink('link','','/parcel/pa_000000.jsp');">원메일 예약</a></li>
+
+				<li class="lnb focus"><a href="javascript:goLink('link','','/parcel/pa_004.jsp');">배송 조회</a></li>
+
+
+				<li class="lnb default"><a href="javascript:goLink('link','','/parcel/pa_000.jsp');">예약 확인/취소</a></li>
+
+				<!--
+				<li><a href="javascript:goLink('link','','/parcel/pa_004.jsp');"><img src="/dtd_images/common/left/leftmenu_01_02_off.gif" onmouseover="imgOver(this);" onmouseout="imgOut(this,'off');" alt="운송장조회" /></a></li>
+				 -->
+			</ul>
 		</div>
 
-         <h2 class="dtit">1. 기본정보</h2>
-         <div class="list">
-			<table class="listSty1" summary="이 표는 기본정보 검색 표입니다. 운송장번호, 보내는 분, 받는 분, 물품정보로 구성되어 있습니다.">
-				<caption class="hidden">기본정보 검색 표</caption>
-				<colgroup>
-					<col width="30%" />
-					<col width="70%" />
-				</colgroup>
-				<tbody>
-				<tr class="first">
-					<th scope="row">운송장번호</th>
-					<td>DELIVERED</td>
-				</tr>
-				<tr>
-					<th scope="row">보내는 분</th>
-					<td>VI*</td>
-				</tr>
-				<tr>
-					<th scope="row">받는 분</th>
-					<td>홍윤*</td>
-				</tr>
-				<tr>
-					<th scope="row">물품정보</th>
-					<td>VICXXO 3D 풀커버강화유리필름 아이폰7 블랙</td>
-				</tr>
-				</tbody>
-			</table>
-		</div>
+	<!-- //leftarea :: END -->
+            <!-- //lnb_area -->
+            <!-- contents -->
+            <div class="contents" id="tabContents">
+                <!-- title_area -->
+                <div class="title_area">
+                    <div class="title">
+                        <h3 >배송 조회</h3>
+                        <p class="linemap"><a href="/" title="HOME">HOME&nbsp;&gt;&nbsp;</a><a href="javascript:gotoSiteNavi(1);" title="예약/조회">예약/조회&nbsp;&gt;&nbsp;</a><a href="javascript:gotoSiteNavi(5);" title="배송조회">배송 조회&nbsp;&gt;&nbsp;</a><span>국내 택배조회</span></p>
+                    </div>
+                    <div class="sub_tit">고객님의 소중한 상품이 어디까지 전달되고 있는지 실시간 배송정보를 확인하실 수 있습니다.</div>
+                </div>
+                <!-- //title_area -->
+                <!-- cont -->
+                <ul class="tap_area tap01 mb30">
+                	<li class="first focus">
+	                    <a href="javascript:goLink('link','','/parcel/pa_004.jsp');" title="국내 택배조회" class="tap"><span>국내 택배조회</span></a>
+                        <div class="intap">
+                            <!-- cont -->
+                            <div class="cont">
+                                <h3 class="cont_tit">조회결과</h3>
+                                <div class="board_area mb50 ml23">
+                                    <!-- table -->
+                                    <table cellpadding="0" cellspacing="0" summary="이 표는 5열로 구성되어 있으며 1열은 운송장번호, 2열은 보내는 분, 3열은 받는 분, 4열은 상품정보, 5열은 수량으로 구성되어 있습니다." width="845px" class="ptb10">
+                                        <caption class="hidden">배송조회 조회 결과 표</caption>
+                                        <colgroup>
+                                            <col width="187px" />
+                                            <col width="144px" />
+                                            <col width="144px" />
+                                            <col width="*px" />
+                                            <col width="145px" />
+                                        </colgroup>
+                                        <tr>
+                                            <th scope="col">운송장번호</th>
+                                            <th scope="col">보내는 분</th>
+                                            <th scope="col">받는 분</th>
+                                            <th scope="col">상품정보</th>
+                                            <th scope="col" class="last">수량</th>
+                                        </tr>
 
-        <br />
 
-		<h2 class="dtit">2. 상태정보</h2>
-		<div class="list">
-		 <table class="listSty2" summary="이 표는 상태정보 결과 표입니다. 3열로 되어있으며 1열 처리일시, 2열 담당점소, 3열 상품상태로 구성되어 있습니다.">
-			<caption class="hidden">상태정보 결과 표</caption>
-			<colgroup>
-				<col width="35%" />
-				<col width="*" />
-				<col width="33%" />
-			</colgroup>
-			<thead>
-			<tr class="first">
-				<th scope="col">처리일시</th>
-				<th scope="col">담당점소</th>
-				<th scope="col">상품상태</th>
-			</tr>
-			</thead>
-			<tbody>
 
-													<tr >
-														<td>2017-02-28<br />
-															14:42</td>
-														<td>서울은평역촌<br /><span class="wbN">&nbsp;</span></td>
-														<td class="last">
-																집화처리<br />
+								<tr>
+									<td class="last_b">DELIVERED
 
-														</td>
-													</tr>
+									</td>
+									<td class="last_b">매*</td>
+									<td class="last_b">최*</td>
+									<td class="last_b">기타</td>
+									<td class="last last_b">1</td>
+								</tr>
 
-													<tr >
-														<td>2017-03-01<br />
-															04:47</td>
-														<td>용인HUB<br /><span class="wbN">&nbsp;</span></td>
-														<td class="last">
-																간선상차<br />
+                                    </table>
+                                    <!-- //table -->
+                                </div>
+                            </div>
+                            <!-- //cont -->
 
-														</td>
-													</tr>
+                            <!-- cont -->
+                            <div class="cont">
+                                <h3 class="cont_tit">상품상태 확인</h3>
+                                <div class="board_area mb50 ml23">
+                                    <div class="step_icon mb35">
 
-													<tr >
-														<td>2017-03-02<br />
-															08:10</td>
-														<td>송파B<br /><span class="wbN">&nbsp;</span></td>
-														<td class="last">
-																간선하차<br />
 
-														</td>
-													</tr>
+                                        <p class="step">
+                                            <span class="icon reserve5_icon1_on"></span>
+                                            <span class="text"><strong>01.</strong> 상품인수</span>
+                                        </p>
+                                        <p class="arrow"></p>
+                                        <p class="step">
+                                            <span class="icon reserve5_icon2_on"></span>
+                                            <span class="text"><strong>02.</strong> 상품이동중</span>
+                                        </p>
+                                        <p class="arrow"></p>
+                                        <p class="step">
+                                            <span class="icon reserve5_icon3_on"></span>
+                                            <span class="text"><strong>03.</strong> 배달지도착</span>
+                                        </p>
+                                        <p class="arrow"></p>
+                                        <p class="step">
+                                            <span class="icon reserve5_icon4_on"></span>
+                                            <span class="text"><strong>04.</strong> 배달출발</span>
+                                        </p>
+                                        <p class="arrow"></p>
+                                        <p class="step">
+                                            <span class="icon reserve5_icon5_on"></span>
+                                            <span class="text"><strong>05.</strong> 배달완료</span>
+                                        </p>
+                                    </div>
+                                    <!-- table -->
+                                    <table cellpadding="0" cellspacing="0" summary="상품상태 확인 표" width="822px" class="ptb10 mb15">
+                                        <caption class="hidden">이 표는 4열로 구성되어 있으며 1열은 단계, 2열은 처리, 3열은 상품상태, 4열은 담당 점소로 구성되어 있습니다.</caption>
+                                        <colgroup>
+                                            <col width="105px" />
+                                            <col width="124px" />
+                                            <col width="*" />
+                                            <col width="149px" />
+                                        </colgroup>
+                                        <tr>
+                                            <th scope="col">단계</th>
+                                            <th scope="col">처리</th>
+                                            <th scope="col">상품상태</th>
+                                            <th scope="col" class="last">담당 점소</th>
+                                        </tr>
 
-													<tr >
-														<td>2017-03-02<br />
-															09:00</td>
-														<td>서울송파거마<br /><span class="wbN">&nbsp;</span></td>
-														<td class="last">
-																배달출발<br />
-																&nbsp;(배달예정시간:14∼16시)
 
-														</td>
-													</tr>
+											<tr>
+												<td class="">
+												상품인수
 
-													<tr class="last_b">   
-														<td>2017-03-02<br />
-															14:20</td>
-														<td>서울송파거마<br /><span class="wbN">&nbsp;</span></td>
-														<td class="last">
-																배달완료<br />
+												</td>
+												<td class="">2018-01-02 18:14</td>
+												<td class="">보내시는 고객님으로부터 상품을 인수받았습니다</td>
+												<td class="last ">
+													<a href="javascript:checkDetail('7821');" title="집배점 정보 팝업">도산</a>
+												</td>
 
-														</td>
-													</tr>
+											</tr>
 
-			</tbody>
-		</table>
-		</div>
+											<tr>
+												<td class="">
+																								상품이동중
 
-		<div style="overflow:hidden;">
-        <a href="javascript:go_logii(); " title="새창" class="btn_red02"><span>캐쉬백 포인트 적립</span></a>
-        <span class="text6" style="display:block; float:left; margin-top:6px;">※ 운송장번호로 캐쉬백 포인트 적립하세요!</span>
+												</td>
+												<td class="">2018-01-02 22:54</td>
+												<td class="">물류터미널로 상품이 이동중입니다.</td>
+												<td class="last ">
+													<a href="javascript:checkDetail('V152');" title="집배점 정보 팝업">강남B1</a>
+												</td>
+
+											</tr>
+
+											<tr>
+												<td class="">
+																																				상품이동중
+
+												</td>
+												<td class="">2018-01-03 02:59</td>
+												<td class="">배달지역으로 상품이 이동중입니다.</td>
+												<td class="last ">
+													<a href="javascript:checkDetail('V073');" title="집배점 정보 팝업">고촌3CP</a>
+												</td>
+
+											</tr>
+
+											<tr>
+												<td class="">
+																																																												배달출발
+
+												</td>
+												<td class="">2018-01-03 13:36</td>
+												<td class="">고객님의 상품을 배달할 예정입니다.(20∼22시)<br />(배달담당:안용수 010-4035-1725)</td>
+												<td class="last ">
+													<a href="javascript:checkDetail('7979');" title="집배점 정보 팝업">파주와석</a>
+												</td>
+
+											</tr>
+
+											<tr>
+												<td class="">
+																																																배달지도착
+
+												</td>
+												<td class="">2018-01-03 14:32</td>
+												<td class="">고객님의 상품이 배달지에 도착하였습니다.<br />(배달예정:안용수 010-4035-1725)</td>
+												<td class="last ">
+													<a href="javascript:checkDetail('V230');" title="집배점 정보 팝업">파주Sub</a>
+												</td>
+
+											</tr>
+
+											<tr>
+												<td class="last_b">
+																																																																								배달완료
+												</td>
+												<td class="last_b">2018-01-03 16:13</td>
+												<td class="last_b">고객님의 상품이 배달완료 되었습니다.<br />(담당사원:안용수 010-4035-1725)</td>
+												<td class="last last_b">
+													<a href="javascript:checkDetail('7979');" title="집배점 정보 팝업">파주와석</a>
+												</td>
+
+											</tr>
+
+
+
+
+
+
+                                    </table>
+                                    <!-- //table -->
+                                    <!-- 131031 -->
+
+                                    <div style="overflow:hidden;">
+                                        <a href="javascript:go_logii(); " title="새창" class="btn_red02"><span>캐쉬백 포인트 적립</span></a>
+                                        <span class="text6" style="display:block; float:left; margin-top:6px;">※ 운송장번호로 캐쉬백 포인트 적립하세요!</span>
+                                    </div>
+                                    <div>
+                                    	<span class="text6" style="display:block; float:left; margin-top:6px;"><font size="2"><b>*연계배달: 도서외곽 지역 등 배달기사가 직접 상품을 배달할 수 없는 경우</br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp타택배사 위탁 및 선박(선주) 위탁 등으로 고객님께 상품을 배달하는 방식</b></font></span>
+                                    </div>
+                                    <!-- //131031 -->
+                                </div>
+                            </div>
+                            <!-- //cont -->
+                            <!-- cont -->
+
+                            <div class="cont">
+                                <h3 class="cont_tit">택배기사 정보</h3>
+                                <div class="board_area board_horizon board_horizon2 h38 mb50 ml23 clear">
+                                	<img src="http://nplus.doortodoor.co.kr/service/cc/util/UrlFileOpen.jsp?filepath=/upload_nas/upload/MSEM/20170701/&filename=%BE%C8%BF%EB%BC%F6_%B5%BF%BA%B9.jpg" alt="택배기사 사진" class="float_l mr11" style="width:145px; height:197px" />
+                                    <!-- table -->
+                                    <table cellpadding="0" cellspacing="0" summary="이 표는 5열로 구성되어 있으며 1열은 운송장번호, 2열은 보내는 분, 3열은 받는 분, 4열은 상품정보, 5열은 수량으로 구성되어 있습니다." width="666px" class="float_l">
+                                        <caption class="hidden">배달조회 조회 결과 표</caption>
+                                        <colgroup>
+                                            <col width="128px" />
+                                            <col width="230px" />
+                                            <col width="*" />
+                                            <col width="231px" />
+                                        </colgroup>
+                                        <tr class="top">
+                                            <th scope="col">택배기사</th>
+                                            <td>안용수</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">연락처</th>
+                                            <td>010-4035-1725</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">소속</th>
+                                            <td>파주와석</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">Sub터미널</th>
+                                            <td>파주Sub</td>
+                                        </tr>
+                                        <tr class="last_b">
+                                            <th scope="col">지점</th>
+                                            <td>파주지점</td>
+                                        </tr>
+                                    </table>
+                                    <!-- //table -->
+                                </div>
+                            </div>
+
+                            <!-- //cont -->
+                		</div>
+                    </li>
+                	<li class="center default">
+    	                <a href="javascript:goLink('link','','/parcel/pa_004_01.jsp');" class="tap" title="국제 특송조회"><span>국제 특송 조회</span></a>
+                    </li>
+                	<li class="last default">
+        	            <a href="javascript:goLink('link','','/parcel/pa_004_02.jsp');" class="tap" title="운송장 영수증 출력"><span>운송장 영수증 출력</span></a>
+                    </li>
+                </ul>
+				<!-- //cont -->
+            </div>
+            <!-- //contents -->
+        </div>
+    </div>
+    <!-- //container-->
+    <!-- footer -->
+
+	<div class="footer_area">
+    	<div class="footer">
+            <h1><img src="../dtd_images/common/logo2.png" alt="CJ 대한통운 사이트 로고" /></h1>
+            <!-- copyright -->
+            <div class="copy_area">
+            	<p class="f_menu">
+                	<span><a href="http://www.cjkoreaexpress.co.kr" target="_blank">CJ대한통운</a></span>
+                	<span><a href="/etc/private.jsp" class="import">개인정보처리방침</a></span>
+                	<span><a href="/etc/agree.jsp">택배이용약관</a></span>
+                	<span><a href="/etc/lawnotice.jsp">법적고지</a></span>
+                	<span><a href="/etc/disagree_email.jsp">이메일무단수집거부</a></span>
+                	<span><a href="http://www.cjkoreaexpress.co.kr/web/kr/etc/cyber.asp" target="_blank">사이버감사실</a></span>
+                	<span class="last"><a href="/etc/sitemap.jsp">사이트맵</a></span>
+
+                	<h1><a href="http://www.kca.go.kr/wpge/m_210/ccm1100.do"><img src="../dtd_images/common/ccm_cert.png" height="50" alt="CCM 인증 로고" /></a></h1>
+                </p>
+                <p class="address">씨제이대한통운㈜ 사업자등록번호 &#58; 110-81-05034&nbsp;&nbsp;&nbsp;&nbsp;대표자 &#58; 박근태, 손관수&nbsp;&nbsp;&nbsp;&nbsp;개인정보보호 책임자 &#58; 서병교&nbsp;&nbsp;&nbsp;&nbsp;<br />주소 &#58; 서울특별시 중구 세종대로9길53 ⁄서울특별시 중구 서소문동 58-12<br /><strong>택배고객센터 &#58; 1588-1255(월~금 08:00~18:00 / 토 09:00~13:00)</strong></p>
+                <p class="copy">COPYRIGHT 2013 BY CJ Logistics Corporation. ALL RIGHTS RESERVED.</p>
+            </div>
+            <!-- //copyright -->
+            <!-- link -->
+            <script type="text/javascript">
+            function onShowSelect(obj){
+            	if( $("#" + obj).hasClass("focus") ){
+            		$("#" + obj).removeClass("focus");
+            		$("#" + obj).find(".site_area").hide();
+            	}
+            	else{
+            		$("#" + obj).addClass("focus");
+            		$("#" + obj).find(".site_area").show();
+            	}
+            }
+
+            function onLinkSelect(obj, url){
+            	window.open(url,"");
+            	onShowSelect(obj);
+            }
+            </script>
+            <div class="link_area">
+            	<p class="gotoservice"><a href="http://www.cjkoreaexpress.co.kr" target="_blank" title="새창">법인홈페이지 바로가기</a></p>
+            	<p class="gotoservice"><a href="http://cnplus.doortodoor.co.kr" target="_blank" title="새창">기업택배 바로가기</a></p>
+
+                <div class="sitelink">
+                <!-- <script type="text/javascript" src="/js/link02_utf8_style.js?ver=123132"></script> -->
+                <script type="text/javascript" src="/js/link02_utf8.js"></script>
+                </div>
+            </div>
+            <!-- //link -->
+        </div>
     </div>
 
-		<div class="midBtb">
-			<!--<a href="/m/" class="blueBtn" title="메인으로 가기">메인으로 가기 <img src="/m/images/common/bg_btn_pointer.png" width="6" height="8" alt="메인으로 가기"></a>-->
 
-			<a href="https://www.doortodoor.co.kr/m/" class="blueBtn" title="메인으로 가기">메인으로 가기 <img src="/m/images/common/bg_btn_pointer.png" width="6" height="8" alt="메인으로 가기"></a>
-		</div>
-    </div>
 
-    <div class="footer">
-    	<ul>
-			<li><a href="javascript:viewLegal('5');" style="font-size: 12px">개인정보취급/처리방침</a></li>
-			<li class="line"><a href="javascript:viewLegal('4');" style="font-size: 12px">택배이용약관</a></li>
 
-			<li class="lineRight"><a href="/m/sub/login.jsp" style="font-size: 12px">로그인</a>
 
-			<li><a href="/main/index.jsp" style="font-size: 12px">PC버전</a></li>
-		</ul>
-		<p class="copyright">COPYRIGHT 2013 BY CJ korea express Corporation<br />ALL RIGHT RESERVED.</p>
-    </div>
+
+
+
+
+    <script type="text/javascript">
+    $(window).load(function () { $("ul.tap_area").css("height", ($("div.intap").height() + $("a.tap").height()) + "px");});
+    </script>
+
+    <!-- //footer -->
 </div>
-</body>
-</html>
 </body>
 </html>
