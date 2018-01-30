@@ -1,3 +1,6 @@
+# 1.6.2
+* update UPS time format
+
 # 1.6.1
 * sort UPS checkpoints.
 
