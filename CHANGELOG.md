@@ -1,3 +1,6 @@
+# 1.6.0
+* add UPS.
+
 # 1.5.5
 * update cj korea express.
 * fixed can not load external courier (pantos)

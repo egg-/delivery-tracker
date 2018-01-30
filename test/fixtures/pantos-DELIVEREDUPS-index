@@ -1,0 +1,1024 @@
+
+<!--
+공통메시지 설정
+ -->
+
+<script type="text/javascript" language="javascript">
+/* Constant 시작 */
+var OBJ_MSG = {
+     "gsi.wrn.om.notSelect"                      :"Nothing is selected."
+	,"gsi.wrn.om.distribution"                   :"Do you want to distribute?"
+	,"gsi.msg.ws.inputselect"                    :"Please select @."
+	,"gsi.wrn.om.select"                         :"Please select @."       //   Please Select @
+
+	,"gsi.wrn.om.valid005"              :"Please check the Container Own type."
+	,"gsi.wrn.om.valid006"              :"Please delete the container detail information."
+	,"gsi.wrn.om.valid007"              :"Please check the Wagon QTY and Description lines."
+	,"gsi.wrn.om.valid008"              :"In case of CNTR Release, Split is impossible."
+	,"gsi.wrn.om.valid009"              :"In case of CNTR Release or CNTR Pre-Pick up, Split is impossible."
+	,"gsi.wrn.om.valid010"              :"In case of Customer Trucking, can not be added Truck Service type."
+	,"gsi.wrn.om.valid011"              :"In case Selling Object is N, the settlement information can not be registered in Settlement Object Info."
+	,"gsi.wrn.om.valid012"              :"There is not linked menu."
+	,"gsi.wrn.om.valid013"              :"It is not enough to inquire BL."
+	,"gsi.wrn.om.valid014"              :"There is not EO No."
+	,"gsi.wrn.om.valid015"              :"EO Link Error."
+	,"gsi.wrn.om.valid016"              :"In case Order type is Domestic, only the first stage can be selected."
+	,"gsi.wrn.om.valid017"              :"Please check the sequance of the stage."
+	,"gsi.wrn.om.valid018"              :"Triangle role can not be duplicated."
+	,"gsi.wrn.om.valid019"              :"Sea&Air Owner can be selected only in case of the Service type is SEA or AIR."
+	,"gsi.wrn.om.valid020"              :"It can not be changed after the EO is completed."
+	,"gsi.wrn.om.valid021"              :"Port information is changed. Please check the Service step."
+	,"gsi.wrn.om.valid022"              :"The Node for Trucking should be exist Latitude, Longitude and Postcode."
+	,"gsi.wrn.om.valid023"              :"It is not Pantos management warehouse."
+	,"gsi.wrn.om.valid024"              :"Can not Delete : Previously generated SO have execution performance."
+	,"gsi.wrn.om.valid025"              :"The reason of delete is not entered. Cancel to delete."
+	,"gsi.wrn.om.valid026"              :"Departure, Destination information for Trucking is not exist."
+	,"gsi.wrn.om.valid027"              :"It is not the target of Temp Save."
+	,"gsi.wrn.om.valid028"              :"Interface Order is not the target of Temp Save."
+	,"gsi.wrn.om.valid029"              :"Order Customer or REF No of SVC Parts is not entered."
+	,"gsi.wrn.om.valid030"              :"Already existed REF No."
+	,"gsi.wrn.om.valid031"              :"PKG Pre-Pick up can be selected only in case the order type is Domestic Truck or International Air."
+	,"gsi.wrn.om.valid032"              :"In case the order type is Domestic Truck and the shipment type is PKG Pre-pick up, Delivery Channel is not applied. "
+	,"gsi.wrn.om.valid033"              :"In case of existing only stage 1, the Date should be entered one or more."
+	,"gsi.wrn.om.valid034"              :"In case the Cargo type is Dangerous, the Handling Memo is mandatory."
+	,"gsi.wrn.om.valid035"              :"Korean words can not be used in Item."
+	,"gsi.wrn.om.valid036"              :"Item name can not exeed 50 digits."
+	,"gsi.wrn.om.valid037"              :"Summary Information of Full Container is not exist."
+	,"gsi.wrn.om.valid038"              :"Seal No are entered but the Container No are not exist."
+	,"gsi.wrn.om.valid039"              :"Inexistent Container Number."
+	,"gsi.wrn.om.valid040"              :"Same container number is entered."
+	,"gsi.wrn.om.valid041"              :"Please check the data of Service and Shipment tab."
+	,"gsi.wrn.om.valid042"              :"Please check the data of Service and Shipment tab."
+	,"gsi.wrn.om.valid043"              :"Please check the data of Service and Shipment tab."
+	,"gsi.wrn.om.valid044"              :"Please check the Reason of Service step management."
+	,"gsi.wrn.om.valid045"              :"In case the Order type is Clearance, the Service step can not be divided."
+	,"gsi.wrn.om.valid046"              :"The third stage can not be existed only."
+	,"gsi.wrn.om.valid047"              :"In case of COC Container, CNTR Release EO can not be created."
+	,"gsi.wrn.om.valid048"              :"gsi.wrn.om.valid048"
+	,"gsi.wrn.om.valid049"              :"WH In can not be the last Service type of Service Step-Execution in Forwarding&Express Order."
+	,"gsi.wrn.om.valid050"              :"In the second stage, it should be arrived by sea or air."
+	,"gsi.wrn.om.valid051"              :"In the second stage, the last role should be Destination."
+	,"gsi.wrn.om.valid052"              :"Please enter the manifest information for bonded trucking."
+	,"gsi.wrn.om.valid053"              :"Please enter the detail information in the Sea, Air, Rail Service type."
+	,"gsi.wrn.om.valid054"              :"In case only if Sea or Air service exist 2 or more, Multimodal BL Owner role can be selected."
+	,"gsi.wrn.om.valid055"              :"The service type @ in the Service step - Operation can be entered only in the 2nd stage."
+	,"gsi.wrn.om.valid056"              :"In case Switch BL is Y, the Trianlge role in the Service Step-Operation should be exist."
+	,"gsi.wrn.om.valid057"              :"In case Triangle is N, the Triangle role in the Service Step-Operation can not be existed."
+	,"gsi.wrn.om.valid058"              :"PS should be checked in case of Main selected."
+	,"gsi.wrn.om.valid059"              :"In case of existing Bill To Customer, Main should be existed."
+	,"gsi.wrn.om.valid060"              :"Main should be selected the only one in Settlement Object Info."
+	,"gsi.wrn.om.valid061"              :"In case of selecting Domestic Truck in the Forwarding Order, Shipment Type is restricted Normal or PKG Pre-Pick up."
+	,"gsi.wrn.om.valid062"              :"Main is not selected in Settlement Object Info."
+	,"gsi.wrn.om.valid063"              :"Corporation in Settlement Object Info should be exist in Service Step."
+	,"gsi.wrn.om.valid064"              :"Not exist the Service Order."
+	,"gsi.wrn.om.valid065"              :"Can be selected in Express Order : Truck, Express, Clearance(EXP), Clearance(IMP), WH In, WH Out"
+	,"gsi.wrn.om.valid066"              :"In case of Pantos Express, Express Service type can not be selected in the stage 1."
+	,"gsi.wrn.om.valid067"              :"The Item is recognized as dangerous. Please check it again."
+	,"gsi.wrn.om.valid068"              :"Please select the Node type first."
+	,"gsi.wrn.om.valid069"              :"@ Split is impossible before Onboard Close."
+	,"gsi.wrn.om.valid070"              :"Row:@ CNTR NO:@ CNTR No is not 11 digits."
+	,"gsi.wrn.om.valid071"              :"@ row : Stage is not entered."
+	,"gsi.wrn.om.valid072"              :"@ row : Check the sequence of stage."
+	,"gsi.wrn.om.valid073"              :"Row @ : Representative CY(ZZ000001) can not be exist except CNTR Release Service Type."
+	,"gsi.wrn.om.valid074"              :"@ row : Check the Node From data."
+	,"gsi.wrn.om.valid075"              :"@ row : Node To data is not needed."
+	,"gsi.wrn.om.valid076"              :"@ row : Check the Node To data."
+	,"gsi.wrn.om.valid077"              :"@ row : Node From and To data are same."
+	,"gsi.wrn.om.valid078"              :"@ row : Enter the Corporation."
+	,"gsi.wrn.om.valid079"              :"@ row : Enter the Department."
+	,"gsi.wrn.om.valid080"              :"@ row : Check the Role of Destination."
+	,"gsi.wrn.om.valid081"              :"@ row : Check the Role of Origin."
+	,"gsi.wrn.om.valid082"              :"@ row : The role of Transit can not be selected after Destination."
+	,"gsi.wrn.om.valid083"              :"@ row : WH Out service type can not be existed before WH In."
+	,"gsi.wrn.om.valid084"              :"@ row : WH Out service type should be existed after WH In."
+	,"gsi.wrn.om.valid085"              :"@ should be more than @."
+	,"gsi.wrn.om.valid086"              :"@ is different with @."
+	,"gsi.wrn.om.valid087"              :"Please enter the shipping amount information in Shipment tab."
+	,"gsi.wrn.om.valid088"              :"Please check the data of Service and Shipment tab."
+	,"gsi.wrn.om.valid089"              :"In the @, it can be selected only @."
+	,"gsi.wrn.om.valid090"              :"Local Partner can not be selected except @."
+	,"gsi.wrn.om.valid091"              :"Local Partner can not be existed both Origin and Destination."
+	,"gsi.wrn.om.valid092"              :"Please enter the shipping amount information in Shipment tab."
+	,"gsi.wrn.om.valid093"              :"@ : Past date is entered."
+	,"gsi.wrn.om.valid094"              :"@ is not able to be after @."
+	,"gsi.wrn.om.valid095"              :"@ Date/Time format is incorrect."
+	,"gsi.wrn.om.valid096"              :"@ Date format is incorrect."
+	,"gsi.wrn.om.valid097"              :"@ Time format is incorrect."
+	,"gsi.wrn.om.valid098"              :"In case @ is selected in the Service Step - Execution, @ should be exist."
+	,"gsi.wrn.om.valid099"              :"In case Ship Method is @, @ should be exist."
+	,"gsi.wrn.om.valid100"              :"In case Ship Method is @, @ can not be exist."
+	,"gsi.wrn.om.valid101"              :"In case of multimodal BL shipment, transloading warehouse service type @ is needed."
+	,"gsi.wrn.om.valid102"              :"In the Sea / Air / Rail EO, the diffrent @ can not be exist."
+	,"gsi.wrn.om.valid103"              :"Please select the @ in the Service Step-Operation."
+	,"gsi.wrn.om.valid104"              :"@ in the Service Step-Operation can not be duplicated."
+	,"gsi.wrn.om.valid105"              :"In case it is @, stage 2 should be exist."
+	,"gsi.wrn.om.valid106"              :"In case it is not @, stage 2 or 3 can not be added."
+	,"gsi.wrn.om.valid107"              :"@ can not be duplicated."
+	,"gsi.wrn.om.valid108"              :"Please check @"
+	,"gsi.wrn.om.valid109"              :"Past Date is entered."
+	,"gsi.wrn.om.valid110"              :"Can not select @"
+	,"gsi.wrn.om.valid111"              :"In case the Service Type is WH In or WH Out, the Node Type can be selected Warehouse, CY, CFS only."
+	,"gsi.wrn.om.valid112"              :"This customer can not be the target of billing."
+	,"gsi.wrn.om.valid113"              :"In the @, it can not be selected @."
+	,"gsi.wrn.om.valid114"              :"Row @ : Service Type is not exist."
+	,"gsi.wrn.om.valid115"              :"@ : Latitude is not exist."
+	,"gsi.wrn.om.valid116"              :"@ : Longitude is not exist."
+	,"gsi.wrn.om.valid117"              :"@ : Latitude is not exist."
+	,"gsi.wrn.om.valid118"              :"@ : Longitude is not exist."
+	,"gsi.wrn.om.valid119"              :"@ Date can not be entered after 4 months later."
+	,"gsi.wrn.om.valid120"              :"Only the same country can be entered in Domestic Order."
+
+	, "gsi.wrn.om.valid121"              :"The employee's CORP and DEPT information are different."
+	, "gsi.wrn.om.valid122"              :"In case shipping cancel WH Out EO exist, SO Copy is impossible. "
+	, "gsi.wrn.om.valid123"              :"In case LCL container is existed, the other container can not be added."
+	, "gsi.wrn.om.valid124"              :"FCL and LCL can not be existed together in the same SO."
+	, "gsi.wrn.om.valid125"              :"REF No type is different. Please check it."
+	, "gsi.wrn.om.valid126"              :"In case the EO is not created, the Split can not be proceeded."
+	, "gsi.wrn.om.valid127"              :"In case the EO has execution performace, the Split can not be proceeded."
+	, "gsi.wrn.om.valid128"              :"The Split in stage 2 can be proceeded only Sea, Air."
+	, "gsi.wrn.om.valid129"              :"The Split can not be proceeded before Onboard close."
+	, "gsi.wrn.om.valid130"              :"SO No should be entered more than 12 digits."
+	, "gsi.wrn.om.valid131"              :"Please enter the inquiry conditions."
+	, "gsi.wrn.om.valid132"              :"AMS Service type can not be existed in stage 2."
+	, "gsi.wrn.om.valid133"              :"In case of LCL, Container summary's QTY should be 0."
+	, "gsi.wrn.om.valid134"              :"In case of LCL, the Full/Part column should be Part."
+	, "gsi.wrn.om.valid135"              :"In case of LCL, the LCL Y/N column should be Y."
+	, "gsi.wrn.om.valid136"              :"In case of FCL, the container information should be entered."
+	, "gsi.wrn.om.valid137"              :"In case of FCL, it can not be entered Open Top, Flat Rack, Tank container."
+	, "gsi.wrn.om.valid138"              :"In case of FCL, the LCL Y/N column should be N."
+	, "gsi.wrn.om.valid139"              :"In case of Bulk, the container type should be Open Top, Flat Rack, Tank container."
+	, "gsi.wrn.om.valid140"              :"In case of Bulk, the LCL Y/N column should be N."
+	, "gsi.wrn.om.valid141"              :"The LCL Y/N column is Y, but the Load type is FCL."
+	, "gsi.wrn.om.valid142"              :"Please check the Route in @ detail. Do you want to proceed?"
+	, "gsi.wrn.om.valid143"              :"Node From/To in the Service step-Operation are not exist in the Service step-Execution."
+	, "gsi.wrn.om.valid145"              :"In case the Selling object is N, Bill to customer can not be entered."
+	, "gsi.wrn.om.valid146"              :"In case the Selling object is N, PS column can not be selected."
+	, "gsi.wrn.om.valid147"              :"Shipping amount information is not exist. Please check the Shipment tab."
+	, "gsi.wrn.om.valid148"              :"Can not be added previously than Container Release. "
+	, "gsi.wrn.om.valid149"              :"In case of PKG Pre-Pick up, it can not be added previously than @ in the stage 1."
+	, "gsi.wrn.om.valid150"              :"Can not Delete : Previously generated SO have execution performance."
+	, "gsi.wrn.om.valid151"              :"In case of PKG Pre-Pick up, it can not be deleted Truck EO in the stage 1."
+	, "gsi.wrn.om.valid152"              :"Please modify after deletion."
+	, "gsi.wrn.om.valid153"              :"The Transit role can be existed only in the stage 2."
+	, "gsi.wrn.om.valid154"              :"In the same stage, @ can not be duplicated."
+	, "gsi.wrn.om.valid155"              :"The Transit role can be existed only in the stage 2."
+	, "gsi.wrn.om.valid156"              :"@ Minute format is incorrect. Please enter 0 to 59."
+	, "gsi.wrn.om.valid157"              :"@ Hour format is incorrect. Please enter 0 to 23."
+	, "gsi.wrn.om.valid158"              :"Please select carrier"
+	, "gsi.wrn.om.valid159"              :"After SO Completion, availabel adding Service Type is only Truck that trucking type is Container&Empty"
+	, "gsi.wrn.om.valid188"              :"User who belonged to the execution CORP can be selected."
+	, "gsi.wrn.om.valid189"              :"Department that belonged to the execution CORP can be selected."
+	, "gsi.wrn.om.valid190"              :"Split is able to only Truck, Sea, Air."
+	, "gsi.wrn.om.valid191"              :"To send OPS information, WH In EO should be existed."
+	, "gsi.wrn.om.valid192"              :"In case LCL Y/N is Y in the Container Deail, only LCL can be selected in the Load Type."
+	, "gsi.wrn.om.valid193"              :"In case LCL Y/N is N in the Container Deail, LCL can not be selected in the Load Type."
+	, "gsi.wrn.om.valid194"              :"AMS service type can not be added after Role confirm."
+	, "gsi.wrn.om.valid195"              :"In the second stage, the first Service type should be Sea or Air."
+	, "gsi.wrn.om.valid196"              :"In the second stage, the last Service type should be Sea or Air."
+	, "gsi.wrn.om.valid197"              :"CNTR Accrual can be selected only when the container type is SOC or DP."
+	, "gsi.wrn.om.valid198"              :"Data conversion SO can not be inquired."
+	, "gsi.wrn.om.valid199"              :"The postcode of @ is not correct."
+	, "gsi.wrn.om.valid200"              :"In case of Manifest clearance, the Invoice value should be under 2 milion won(KRW 2,000,000)."
+	, "gsi.wrn.om.valid201"              :"Can not be deleted after Revenue recognition."
+	, "gsi.wrn.om.valid202"              :"It is different between execution CORP and the CORP of execution department."
+	, "gsi.wrn.om.valid260"              :"Performance move target Node is different."
+	, "gsi.wrn.om.valid261"              :"Please check the target container for performance move."
+	, "gsi.wrn.om.valid262"              :"No container is selected."
+	, "gsi.wrn.om.valid263"              :"SO No(@) EO is not completed."
+	, "gsi.wrn.om.valid264"              :"EO is processing."
+	, "gsi.wrn.om.valid265"              :"In case the execution Y/N is settlement, the EO can not be moved."
+	, "gsi.wrn.om.valid266"              :"Container number is not exist."
+	, "gsi.wrn.om.valid267"              :"Shipping amount are different between performance move object and target. "
+	, "gsi.wrn.om.valid268"              :"Service type is different."
+	, "gsi.wrn.om.valid269"              :"There is no same container."
+	, "gsi.wrn.om.valid270"              :"Please inquiry the data after inputting the MBL No or Date, Order Customer. "
+	, "gsi.wrn.om.valid271"              :"Please enter both From Date and To Date."
+	, "gsi.wrn.om.valid272"              :"The period of inquiry date can not exceed @ days."
+	, "gsi.wrn.om.valid273"              :"Already exist added information. After save and then change."
+	, "gsi.wrn.om.valid274"              :"Can not change international FWD service type."
+	, "gsi.wrn.om.valid275"              :"Same service type can be selected when changing."
+	, "gsi.wrn.om.valid276"              :"Please select the object to change."
+	, "gsi.wrn.om.valid277"              :"Already exist changed information. After save and then add."
+	, "gsi.wrn.om.valid278"              :"Can not add the service type previous to international FWD service type."
+	, "gsi.wrn.om.valid279"              :"Please select the object to add."
+	, "gsi.wrn.om.valid280"              :"Deletion can be only added service type."
+	, "gsi.wrn.om.valid281"              :"Already exist changed information. After save and then delete."
+	, "gsi.wrn.om.valid282"              :"Selected service type can not be @ due to existing execution performance."
+	, "gsi.wrn.om.valid283"              :"Please select the service type to delete."
+	, "gsi.wrn.om.valid284"              :"There is no information to save."
+	, "gsi.wrn.om.valid285"              :"There is no changed information."
+	, "gsi.wrn.om.valid286"              :"Do you want to delete the selected service type?"
+	, "gsi.wrn.om.valid287"              :"Do you want to change the selected service type?"
+	, "gsi.wrn.om.valid288"              :"Total QTY is not agreed with BL."
+	, "gsi.wrn.om.valid289"              :"Total G.WT is not agreed with BL."
+	, "gsi.wrn.om.valid290"              :"Total Volume is not agreed with BL."
+	, "gsi.wrn.om.valid291"              :"Total C.WT is not agreed with BL."
+	, "gsi.wrn.om.valid292"              :"Total R.Ton is not agreed with BL."
+	, "gsi.wrn.om.valid293"              :"All containers should be moved."
+	, "gsi.wrn.om.valid294"              :"Can not split as same BL No."
+	, "gsi.wrn.om.valid295"              :"@ can not be more than @."
+	, "gsi.wrn.om.valid296"              :"Air SO No is existed."
+	, "gsi.wrn.om.valid297"              :"The SO that has different REF No Type is included."
+	, "gsi.wrn.om.valid298"              :"Service Order Date is mandatory."
+	, "gsi.wrn.om.valid299"              :"Can not select the same SO as relation."
+	, "gsi.wrn.om.valid300"              :"Consol role can not be added after air consol."
+	, "gsi.wrn.om.valid304"              :"Split in the @ stage can be only Truck service type."
+	, "gsi.wrn.om.valid305"              :"Performance moved EO can not be deleted."
+	, "gsi.wrn.om.valid306"              :"Pre-Pick up trucking that the distribution status is waiting can not be selected."
+	, "gsi.wrn.om.valid307"              :"There are changed data. Please search again and proceed."
+	, "gsi.wrn.om.valid308"              :"Triangle Role can be existed only in the 2nd stage."
+	, "gsi.wrn.om.valid309"              :"Express Service Type should be only one."
+	, "gsi.wrn.om.valid310"              :"Already Role confirmed. Do you want to delete?"
+	, "gsi.wrn.om.valid311"              :"Can not be deleted after creation freight."
+	, "gsi.wrn.om.valid312"              :"It can not be deleted when existing freight at @ stage."
+	, "gsi.wrn.om.valid313"              :"The country between Node To and destination CORP are different. "
+	, "gsi.wrn.om.valid314"              :"In case the Trucking type is By Pantos, Trucking carrier can not be entered."
+	, "gsi.wrn.om.valid315"              :"Can not find the optimized carrier and express service type"
+	, "gsi.wrn.om.valid316"              :"Check the length and weight unit."
+	, "gsi.wrn.om.valid317"              :"Multimodal BL Owner can not added after first BL onboard close."
+	, "gsi.wrn.om.valid318"              :"동일한 Node From/To가 입력되었습니다."
+	, "gsi.wrn.om.valid319"              :"Can not be selected WH In and Sales Order together."
+	, "gsi.wrn.om.valid320"              :"Can not be selected WH Out and Purchase Order together."
+	, "gsi.wrn.om.valid321"              :"Can not be selected Sales Order and Purchase Order together."
+	, "gsi.wrn.om.valid1001"             :"Please enter the Node."
+	,"gsi.wrn.om.potalTmValid001"        :"gsi.wrn.om.potalTmValid001"
+	,"gsi.wrn.om.potalTmValid002"        :"gsi.wrn.om.potalTmValid002"
+
+	//Confirm Msg
+	, "gsi.inf.om.inf001"                   :"Do you want to change @?"
+	, "gsi.inf.om.inf002"                   :"There are changes. Do you want to proceed new creation?"
+	, "gsi.inf.om.inf003"                   :"Do you want to cancel Split?"
+	, "gsi.inf.om.inf004"                   :"Delivery Channel is not exist. Do you want to make Delivery Channel with Creating SO?"
+	, "gsi.inf.om.inf005"                   :"There are changes in the Service step. Do you want to modify Delivery Channel?"
+	, "gsi.inf.om.inf006"                   :"Execution performance is exist but there are changes. Do you want to proceed?"
+	, "gsi.inf.om.inf007"                   :"In case Bulk type is N, Load type will be selected LCL. Do you want to save?"
+	, "gsi.inf.om.inf008"                   :"Triangle is Y but the Triangle role is not exist in the Service step-Operation. Do you want to proceed?"
+	, "gsi.inf.om.inf009"                   :"There are COPR that is existed in the Service step but not in the Settlement Object.It will be excluded from the object of Settlement and Revenue recognition. Do you want to proceed?"
+	, "gsi.inf.om.inf010"                   :"Shipping amount of @ is already entered.Do you want to update the shipment information automatically by shipping amount of @?"
+	, "gsi.inf.om.inf011"                   :"In case Incoterms is @, normally Freight term is @ but selected as @. Do you want to proceed?"
+	, "gsi.inf.om.inf012"                   :"Sales Leader Dept is different with Settlement Object Info Dept. Do you want to continue?"
+	, "gsi.wrn.om.valid301"                 :"Since the 2nd stage is deleted, it will be completed as existing only first stage. Do you want to proceed?"
+	, "gsi.wrn.om.valid302"                 :"In case of changing PKG Pre-Pick up information, the shipment information will be deleted. Do you want to proceed?"
+	, "gsi.wrn.om.valid303"                 :"Will you proceed Split the @ Stage - EO No : @ ?"
+
+	// Fw
+	,"gsi.wrn.fw.noBlNo"                    :"gsi.wrn.fw.noBlNo"
+	,"gsi.msg.is.commonSendConfirm"         :"Do you want to send?"
+	,"gsi.wrn.om.valid035"                  :"Korean words can not be used in Item."
+	,"gsi.wrn.fw.blStatus.OnbrClosed"       :"On board Close data exists."
+	,"gsi.wrn.fw.blStatus.OnbrCanceled"     :"On board cancel data exists."
+	,"gsi.wrn.fw.blSave.mnfstValid01"       :"BX is not permitted when cargo manifest. Please modify and re-process."
+	,"gsi.wrn.fw.blSave.mnfstValid02"       :"PK or PL is not permitted when cargo manifest. Please modify and re-process."
+	,"gsi.wrn.fw.com.modiAlertSend"         :"PK or PL is not permitted when cargo manifest. Please modify and re-process."
+	,"gsi.wrn.fw.blCom.roleChk01"           :"역할구분이  EXP(선적지), IMP(도착지) 만 가능합니다."
+	,"gsi.wrn.fw.alreadyClosed"             :"Closed data already existed."
+	,"gsi.wrn.fw.alreadyImpCCReq"           :"Import C/C has already been requested."
+	,"gsi.wrn.fw.blCom.modiChk"             :"Data is changed. Please retrieve it again"
+	,"gsi.wrn.fw.blCom.roleChk01"           :"역할구분이  EXP(선적지), IMP(도착지) 만 가능합니다."
+	,"gsi.wrn.fw.alreadyClosed"             :"Closed data already existed."
+	,"gsi.wrn.fw.alreadyImpCCReq"           :"Import C/C has already been requested."
+	,"gsi.wrn.fw.alreadyExpCCReq"           :"Export C/C has already been requested."
+	,"gsi.wrn.fw.alreadyCanceled"           :"Cancelled data existed."
+	,"gsi.wrn.fw.blClose.roleCloseValid03"  :"Role Confirm was already completed"
+	,"gsi.wrn.fw.blSwitchVaild02"           :"It's already switched."
+	,"gsi.wrn.fw.consolBL.valid01"          :"입력한 @가 연결된 HBL보다 큽니다"
+	,"gsi.wrn.fw.blSave.colValid01"         :"Please choose Cargo type"
+	,"gsi.wrn.fw.blSave.colValid02"         :"Please check weight and package"
+	,"gsi.wrn.fw.blSave.colValid03"         :"Duplicated license no exists, Contiue?"
+	,"gsi.msg.fw.blClose.addSvcConf"        :"Close without completing additional SVC?"
+	,"gsi.wrn.fw.print.noCont"              :"No data for print."
+	,"gsi.msg.fw.print.SelectPrinter"       :"Select type of print."
+	,"gsi.wrn.fw.blSave.cntrValid01"        :"Container does not exist"
+	,"gsi.wrn.fw.blSave.vaild01"            :"Input Actual Dimension."
+	,"gsi.wrn.fw.blStatus.arrClosed"        :"Arrival Closed!"
+	,"gsi.msg.fw.blClose.autoRateConf"      :"Auto rating will be applied, Continue?"
+	,"gsi.wrn.fw.noCarrier"                 :"Input carrier data."
+	,"gsi.msg.fw.sucCCReq"                  :"CC Request Success."
+	,"gsi.wrn.fw.blSave.noCntr"             :"Container does not exist"
+	,"gsi.msg.fw.consolBL.inputCntrSum"     :"Please input container summary information"
+	,"gsi.wrn.fw.blSave.colValid04"         :"Please check D.Term"
+	,"gsi.wrn.fw.blSave.colValid05"         :"Please check D.Term"
+	,"gsi.wrn.fw.dblChk"                    :"It's not DBL."
+	,"gsi.wrn.fw.consolBL.reqDelete"        :"Delete 처리요망"
+	,"gsi.wrn.fw.blSave.colValid06"         :"DO date does not exist"
+	,"gsi.wrn.fw.blStatus.fieldClosed"      :"Field closed data exists."
+	,"gsi.wrn.fw.blStatus.fieldCanceled"    :"Field close is required."
+	,"gsi.msg.fw.selectHbl"                 :"Please choose HBL"
+	,"gsi.msg.fw.consolBL.blNoInput"        :"Please input HBL No or Consol HBL No"
+	,"gsi.msg.fw.blserachCon"               :"Input HBL No or SO No or REF No "
+	,"gsi.msg.fw.selectAgent"               :"Please choose House Agent"
+	,"gsi.msg.fw.print.SelectLaser"         :"Select Laser print."
+	,"gsi.wrn.fw.noMblExist"                :"MBL Info does not exist."
+	,"gsi.wrn.fw.noMblExist"                :"MBL Info does not exist."
+	,"gsi.msg.fw.mblNoInput"                :"Enter MBL NO. "
+	,"gsi.msg.fw.noMblCloseConf"            :"No MBL data. You want to close?"
+	,"gsi.msg.fw.com.addressValid01"        :"Please input NTFY ADDR more than 2 rows"
+	,"gsi.msg.fw.print.inputPrtCnt"         :"Input Print CNT."
+	,"gsi.msg.fw.print.selectPrintList"     :"Choose print form."
+	,"gsi.wrn.fw.blSave.colValid07"         :"Please check R.TON."
+	,"gsi.wrn.fw.blSave.cntrValid02"        :"Seal No is duplicated"
+	,"gsi.msg.fw.com.addressValid02"        :"Please input SHPR ADDR more than 2 rows"
+	,"gsi.wrn.fw.blSwitchVaild01"           :"Can not be switched"
+	,"gsi.msg.fw.blSwitchConf"              :"Making Switch BL?"
+	,"gsi.wrn.fw.blClose.roleCloseValid02"             :"Switch BL does not exist"
+	,"gsi.msg.cm.closConf"                  :"Will you Close?"
+	,"gsi.wrn.cm.work.modiSaveInfo"         :"Save before going further."
+	,"gsi.wrn.fw.blDel.vaild03"             :"Cannot delete. Onboard Closing was already completed. BL No[@]"
+	,"gsi.wrn.fw.blClose.roleCloseValid03"  :"Role Confirm was already completed"
+	,"gsi.msg.cm.work.moveConf"             :"It's not completed. Do you want to move?"
+	,"gsi.msg.cm.SendConf"                  :"Do you want to transfer @ ?"
+	,"gsi.wrn.cm.searchTerm01"              :"Adjust date period within 30 days."
+	,"gsi.msg.cm.CancelConf"                :"Will you Cancel?"
+	,"gsi.msg.fw.cantblank"                 :"special characters or spaces can not be input "
+	,"gsi.inf.so.aprv003"                   :"Do you want to request for an approval?"
+	,"gsi.wrn.fw.reqPrntAprv01"             :"Do you want to request for an approval to [@:@]?"
+	,"gsi.wrn.fw.ptnrVaild001"              :"Cannot Select This Code as PTNR\nPlease Select Sub PTNR Code."
+	,"gsi.wrn.fw.noExist;DBL Sales Leader"  :"DBL Sales Leader does not exist."
+	,"gsi.wrn.fw.noExist;DBL Sales DEPT"    :"DBL Sales DEPT does not exist."
+	,"gsi.wrn.fw.noExist;DBL Job Id"        :"DBL Job Id does not exist."
+	,"gsi.wrn.fw.cobladd.Valid001"          :"Coload Type should be Consol(other forwarder)."
+	,"gsi.wrn.fw.seaHblToMblSync"           :"This Change will be applied to MBL either. will you proceed?"
+	,"gsi.msg.fw.dateorderchkF<P"           :"FDEST ETA Can't be earlier than POD ETA."
+	,"gsi.msg.fw.onbrArrSame"               :"Arrival DT must later than Onboard DT."
+	,"gsi.wrn.fw.blSave.USfrtAmt"           :"FRT AMT is mandantory for US Shipment."
+	,"gsi.wrn.fw.agentChg"                  :"Agent will be also changed, continue?"
+	,"gsi.wrn.fw.close08"                   :"Weight Close is not available. (Export & Consol Role Only)   "
+	,"gsi.wrn.fw.blClose.mblNoCarrOper"     :"There is no Carrier or Operator on MBL. Can't Close."
+	,"gsi.wrn.fw.print.hbllistschedule"     :"Please check Print condition. (You must be Origin Role & need MAWB No & can't print if it's Settlement DBL)"
+	,"gsi.wrn.fw.validSr12"                 :"You can't insert affilicate code when Local PTNR is checked."
+	,"gsi.wrn.fw.blSave.RouteChk"           :"In case that fianl destination is in U.S.A, the Route should be AWT or MLB. Please check Route information."
+	,"gsi.wrn.fw.blSave.colValid08"         :"We found dangerous item words in Item column. \n (Main Tab / License Tab). Pls kidnly check Cargo Type again."
+	,"gsi.wrn.fw.blSave.vaild02"            :"You must input RATE for BRAZIL shipment."
+	,"gsi.wrn.fw.close11"                   :"Inspection target Express BL exists. Pls check again."
+	,"gsi.wrn.fw.close13"                   :"Do you want to 'Onboard Holding' for checked HAWB?"
+	,"gsi.wrn.fw.close14"                   :"Do you want to 'Onboard Holding Cancel' for checked HAWB?"
+	,"gsi.wrn.fw.blSave.colValid10"         :"PTNR / SHPR WT Unit is 'LB' , not 'KG'.  Pls kindly check again."
+	,"gsi.wrn.fw.blSave.colValid11"         :"You must input 'USD' as currency for BRAZIL shipment. (Main Tab)"
+	,"gsi.wrn.fw.validPod"                  :"The current POD is located in inland area.Please check the actual port and revise it."
+	,"gsi.wrn.fw.validShipmethod"           :"Bizptnr-kind type code of carrier[@] is Ferry.\nDo you want to modify ship-method(Ferry)?"
+	,"gsi.wrn.fw.validDate01"               :"MBL Onboard Date is different. Proceed?"
+	,"gsi.wrn.fw.blSave.colValid12"         :"Weight differ between SHPR and PTNR is more than 1kg. Pls check again."
+	,"gsi.wrn.fw.blSave.colValid13"         :"There's prohibited words in EL No Tab (Item). Pls check again."
+	,"gsi.wrn.fw.blSave.colValid14"         :"W/T differ between BL and Order is more than 10%. Pls check again."
+	,"gsi.wrn.fw.blClose.wtCancelValid04"   :"Freight which inserted as 'Per CWT / GWT' is existed. Check freight also if you want to revise BL C/WT."
+	,"gsi.msg.fw.soExpLice"                 :"Will you apply new export License's?"
+	,"gsi.wrn.fw.salesMan"                  :"You can select salesman belonging to the sales department."
+	,"gsi.wrn.fw.blSave.colValid15"         :"C/WT & G/WT is more than 10 Ton. Is it correct ?"
+	,"gsi.wrn.fw.blSave.colValid16"         :"C/WT & G/WT is more than 50 Ton. You can't input more than 50 Ton. Pls contact IT."
+	,"gsi.wrn.fw.blSave.colValid17"         :"Converted TEU is more than 1000 TEU. You can't input more than 1000 TEU. Pls contact IT."
+	,"gsi.wrn.fw.chksalesman"               :"You can input salesman belonging to your Corp. Please check salesman"
+	,"gsi.msg.fw.saveFDest"                 :"F.DEST is Not same with DEST. Pls kindly check once more."
+	,"gsi.wrn.fw.blSave.colValid18"         :"C/WT is more than 50 ton. Is it Correct ?"
+	,"gsi.wrn.fw.ValidccReq01"              :"Can not CC request. Please input FRT_LOC(Firms Code)"
+	,"gsi.wrn.fw.blSave.colValid19"         :"Can not use '2051019' for COLOMBIA Branch, Use 'E900'."
+	,"gsi.wrn.fw.validCntr30"               :"CNTR No is duplicated. Will you close?"
+	,"gsi.msg.fw.select12"                  :"Do you want to apply ?"
+	,"gsi.wrn.fw.lTimeChk"                  :"Please check lead time for this shipment. Lead time is too short or long"
+	,"gsi.wrn.om.valid121"                  :"The employee's CORP and DEPT information are different."
+	,"gsi.wrn.fw.blSave.colValid20"         :"You must input Model Name for this shipment."
+	,"gsi.wrn.fw.blSave.colValid21"         :"This model name doesn't exist in LGE Phone Name Database. Pls check again"
+	,"gsi.wrn.fw.blSave.colValid22"         :"Pls use 2206921 for Sea , 2206922 for Air instead of C300 on SHPR , CNEE , NTFY."
+	,"gsi.wrn.fw.close15"                   :"Do you want to execute 'Warehouse Close' ?"
+	,"gsi.wrn.fw.close16"                   :"Do you want to execute 'Warehouse Cancel' ?"
+	,"gsi.wrn.fw.blSave.colValid23"         :"W/T Close doesn't executed yet. You can't proceed."
+	,"gsi.wrn.fw.close17"                   :"Seal No is duplicated for recent 1 week BL. Pls check again."
+	,"gsi.msg.fw.onboardclose02"            :"DEST PTNR is not FNS branch code. You can't save."
+	,"gsi.msg.fw.onboardclose03"            :"There's no HBL Image on EDMS. Pls check EDMS Image again."
+	,"gsi.msg.fw.saveMsr07"                 :"FRT TERM has been changed by user. Pls check again."
+
+};
+
+//공통메시지 Include처리. 턴수최소화를 위해, 별도의 메시지용 js파일을 만들어 include하지 않는다.
+//DB를 통한 메시지 다국어 처리를 위함, 기존 message_ko.js 혹은 message_en.js은 사용하지 않는다.
+//@을 통한 파라미터 파싱이 기본적으로 처리됨에 따라 임의의 @을 넣어준다. 불편하네 -_-;
+
+//var MSG_COM_ERR_002	= "Required Input : @";
+
+</script>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache; no-store; no-save">
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Global JavaScript Variable -->
+<script type="text/javascript">
+	if(location.hostname=="epantos.com") location.replace("http://www.epantos.com/ecp");
+
+	var xfn_nvl = function(pVal){ return (pVal == null || pVal == '')?'{}':pVal; }
+
+    var GFN_PAGE_TITLE = JSON.parse(xfn_nvl(''));
+    var GFN_SESSION_LIST = 'bnVsbA==';
+    var GFN_CONTEXT_INFO = JSON.parse(xfn_nvl('{"air.logo.path":"http://totprd.pantos.com/common/images/airlogo/","pgmId":"","menuId":"","pushserver.port":"3000","gsi.asis.url":"totqa.pantos.com:8001","host.run.mode":"prd","server.context":"/ecp","img.base.path":"http://totprd.pantos.com/common/images","pushserver.host":"10.86.224.192"}'));
+    var GFN_PARAM_INFO = JSON.parse(xfn_nvl('{"param":["null"]}'));
+</script>
+
+<!-- JavaScript Library -->
+
+<!-- realgrid js 1.1.24 -->
+<script type="text/javascript" src="/resources/js/sys/libs/realgrid/realgridjs-lic.js"></script>
+<script type="text/javascript" src="/resources/js/sys/libs/realgrid/realgridjs.min.js"></script>
+<script type="text/javascript" src="/resources/js/sys/libs/realgrid/realgridjs-api.js"></script>
+<script type="text/javascript" src="/resources/js/sys/libs/realgrid/realgridjs-theme.js"></script>
+<script type="text/javascript" src="/resources/js/sys/libs/realgrid/jszip.min.js"></script>
+
+<!-- jquery with 3rd party libs -->
+<script type="text/javascript" src="/resources/js/sys/libs/jquery/jquery.1.11.0.min.js"></script>
+<script type="text/javascript" src="/resources/js/sys/libs/jquery-ui/jquery.ui.1.11.4.min.js"></script>
+<script type="text/javascript" src="/resources/js/sys/libs/jquery.mousewheel/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="/resources/js/sys/libs/jquery.scrollbar/jquery.custom.scrollbar.min.js"></script>
+<script type="text/javascript" src="/resources/js/sys/libs/jquery.bxslider/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/resources/js/sys/libs/jquery.validation/dist/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/resources/js/sys/libs/jquery.print/jQuery.print.js"></script>
+<script type="text/javascript" src="/resources/js/sys/libs/jquery.base64/jquery.base64.js"></script>
+<script type="text/javascript" src="/resources/js/sys/libs/inputmask/dist/jquery.inputmask.bundle.js"></script>
+<script type="text/javascript" src="/resources/js/sys/libs/jquery-cookie/src/jquery.cookie.js"></script>
+
+<!-- select2 : custom select component with jquery -->
+<script type="text/javascript" src="/resources/js/sys/libs/select2/select2.full.min.js"></script>
+<!-- lodash : utils for string, array, number, object, etc. -->
+<script type="text/javascript" src="/resources/js/sys/libs/lodash/lodash.min.js"></script>
+<!-- moment : utils for date/time manipulation -->
+<script type="text/javascript" src="/resources/js/sys/libs/moment/moment-with-locales.js"></script>
+<!-- voca : utils for string, more strongly than lodash -->
+<script type="text/javascript" src="/resources/js/sys/libs/voca/voca.min.js"></script>
+<!-- ckeditor : web text editor -->
+<script type="text/javascript" src="/resources/js/sys/libs/ckeditor/ckeditor.js"></script>
+
+<!-- sample project only -->
+<script type="text/javascript" src="/resources/js/sys/libs/jquery.syntax/jquery.syntax.js"></script>
+<script type="text/javascript" src="/resources/js/sys/libs/jquery.syntax/jquery.syntax.cache.js"></script>
+
+<!-- ecpl js bundles -->
+<script type="text/javascript" src="/resources/js/sys/dist/prd/ec-components-bundle.js"></script>
+<script type="text/javascript" src="/resources/js/sys/dist/prd/ec-utils-bundle.js"></script>
+
+<!-- common -->
+<script type="text/javascript" src="/resources/js/com/cm-common.js"/></script>
+
+<!-- ecp -->
+<script type="text/javascript" src="/resources/js/ecp/ec-config.js"/></script>
+<script type="text/javascript" src="/resources/js/ecp/web/freewall.js"/></script>
+<script type="text/javascript" src="/resources/js/ecp/web/ui.common.before.js"/></script>
+<script type="text/javascript" src="/resources/js/ecp/ep-mobile.js"/></script>
+<script type="text/javascript" src="/resources/js/ecp/ep-common.js"/></script>
+<script type="text/javascript" src="/resources/js/ecp/ep-popup.js"/></script>
+<script type="text/javascript" src="/resources/js/ecp/session.js"/></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="/resources/css/ecp/web/before_common.css" />
+
+
+<!--
+공통메시지 설정
+ -->
+
+<script type="text/javascript" language="javascript">
+/* 공통 메시지  */
+var CM_OBJ_MSG = {
+	// msg
+	 "gsi.msg.cm.del"                       :"Successfully deleted"				// "Successfully deleted"
+	,"gsi.msg.cm.noDataFound"               :"There is no data found"		// "There is no data found"
+	,"gsi.msg.cm.save"                      :"Successfully saved"				// "Successfully saved"
+	,"gsi.msg.cm.noDataModify"              :"No Data Modified"		// "No Data Modified"
+	,"gsi.msg.cm.cancel"      		        :"Has been canceled."			// "Has been canceled."
+	,"gsi.msg.cm.input"                     :"Please input @"			// "Please input @"
+	,"gsi.msg.cm.noDataSelected"            :"No Data Selected"	// "No Data Selected"
+	,"gsi.msg.cm.close"                     :"Has been closed"			// "Has been closed"
+	,"gsi.msg.cm.closConf"                  :"Will you Close?"			// "Will you Close?"
+	,"gsi.msg.cm.CancelConf"                :"Will you Cancel?"		// "Will you Cancel?"
+	,"gsi.msg.cm.initialConf"               :"Initialize current data?"   	// "Initialize current data?"
+	,"gsi.msg.cm.confConf"                  :"Will you Confirm?"			// "Will you Confirm?"
+	,"gsi.msg.cm.edms.uploadSuc"            :"Document Upload Request is Completed. The Result can be Checked via EDMS Viewer."	// "Document Upload Request is Completed. The Result can be Checked via EDMS Viewer."
+	,"gsi.msg.cm.work.moveConf"             :"It's not completed. Do you want to move?"   	// "It's not completed. Do you want to move?"
+	,"gsi.msg.cm.SendConf"                  :"Do you want to transfer @ ?"			// "Do you want to transfer @ ?"
+	,"gsi.msg.fw.excute"					:"Do you proceed to @ ?"			// "Do you proceed to @ ?"
+	,"gsi.msg.om.message068"				:"Bill to Customer Code @ -  The billing customer is designated as @ Hold target, Can not distribute. Please check with financial department."		// Bill to Customer Code @ -  The billing customer is designated as @ Hold target, Can not distribute. Please check with financial department.
+
+	// wrn
+	,"gsi.wrn.cm.save"                       	:"Do you want save?"							// "Do you want save?"
+	,"gsi.wrn.cm.nodata"                     	:"Data does not exist."						// "Data does not exist."
+	,"gsi.wrn.cm.del"                        	:"Are you sure you want to delete?"							// "Are you sure you want to delete?"
+	,"gsi.wrn.cm.invalidDateFormat"          	:"Invalid Date Format"			// "Invalid Date Format"
+	,"gsi.wrn.cm.edDtGeStDt"                 	:"Start Date must be greater or equal to than the closing date."					// "Start Date must be greater or equal to than the closing date."
+	,"gsi.wrn.cm.edDtGeStDtParam"            	:"@ Closing date must be greater or equal to than the @ start date."				// "@ Closing date must be greater or equal to than the @ start date."
+	,"gsi.wrn.cm.noDataFound"                	:"gsi.wrn.cm.noDataFound"					// "gsi.wrn.cm.noDataFound"
+	,"gsi.wrn.cm.nochange"                   	:"No changes have been made."						// "No changes have been made."
+	,"gsi.wrn.cm.requredParam"               	:"@ are mandatory."					// "@ are mandatory."
+	,"gsi.wrn.cm.cancel"      		         	:"Do you want to cancel it?"					// "Do you want to cancel it?"
+	,"gsi.wrn.cm.dataChangedContinueParam" 		:"Data was changed. \n Do you want to continue?"		// "Data was changed. \n Do you want to continue?"
+	,"gsi.wrn.cm.searchandsave"            		:"Please search first, and then save it."				// "Please search first, and then save it."
+	,"gsi.wrn.cm.agree"							:"@ does not match the @"						// "@ does not match the @"
+	,"gsi.wrn.cm.fast"                      	:"@ faster than the @"							// "@ faster than the @"
+	,"gsi.wrn.cm.changeSave"                	:"Data was changed. Save after running."					// "Data was changed. Save after running."
+	,"gsi.wrn.cm.work.modiSaveInfo"         	:"Save before going further."			// "Save before going further."
+	,"gsi.wrn.cm.searchTerm01"              	:"Adjust date period within 30 days."					// "Adjust date period within 30 days."
+	,"gsi.wrn.pr.dataChangedContinue" 			:"Changed data exists. \n When you move, the input data disappears. \n Would you like to move though?"			// "Changed data exists. \n When you move, the input data disappears. \n Would you like to move though?"
+	,"gsi.wrn.om.select"						:"Please select @."						// "Please select @."
+	,"gsi.wrn.ws.chkvalid01"					:"It is impossible state to @"					// "It is impossible state to @"
+	,"gsi.wrn.cm.send"							:"Are you sure to send?"							// "Are you sure to send?"
+
+
+	// err
+	,"gsi.err.cm.inq"								:"Error Occured While Inquery"					// "Error Occured While Inquery"
+	,"gsi.err.cm.save"              				:"Error Occured While Save"					// "Error Occured While Save"
+	,"gsi.err.cm.reg"								:"Error Occured While Regist"					// "Error Occured While Regist"
+	,"gsi.err.cm.duplicate3"             			:"@ is duplicated"			// "@ is duplicated"
+	,"gsi.err.cm.edms.uploadFail"           		:"EDMS Upload fail."		// "EDMS Upload fail."
+
+
+
+	// Validation Msg
+	,"MSG_COM_ERR_002"	: "Required Input : @"
+	,"MSG_COM_ERR_005"	: "Input @ as a number of @ ciphers"
+	,"MSG_COM_ERR_006"	: "Input @ between @ and @"
+	,"MSG_COM_ERR_007"	: "Only number input allowed : @"
+	,"MSG_COM_ERR_011"	: "@ input is allowed more than @ ciphers"
+	,"MSG_COM_ERR_012"	: "@ input is allowed less than @ ciphers"
+	,"MSG_COM_ERR_013"	: "@ input is allowed more than @ ciphers"
+	,"MSG_COM_ERR_014"	: "@ input is allowed less than @ ciphers"
+	,"MSG_COM_ERR_015"	: "Wrong year : @"
+	,"MSG_COM_ERR_016"	: "Invalid SSN : @"
+	,"MSG_COM_ERR_017"	: "Invalid registration number : @"
+	,"MSG_COM_ERR_018"	: "Invalid date : @"
+	,"MSG_COM_ERR_019"	: "Wrong month : @"
+	,"MSG_COM_ERR_020"	: "Wrong date : @"
+	,"MSG_COM_ERR_021"	: "Wrong hour : @"
+	,"MSG_COM_ERR_022"	: "Wrong minute : @"
+	,"MSG_COM_ERR_023"	: "Wrong second : @"
+	,"MSG_COM_ERR_024"	: "@ should be before @-@-@"
+	,"MSG_COM_ERR_025"	: "@ should be after @-@-@"
+	,"MSG_COM_ERR_027"	: "@ input is allowed only @ ciphers.(for Korean, @ ciphers)"
+	,"MSG_COM_ERR_028"	: "@ input is allowed more than @ ciphers.(for Korean, @ ciphers)"
+	,"MSG_COM_ERR_029"	: "@ input is allowed less than @ ciphers.(for Korean, @ ciphers)"
+	,"MSG_COM_ERR_032"	: "@ shouldn't be duplicated"
+	,"MSG_COM_ERR_033"	: "@ is not allowed this character.\n@"
+	,"MSG_COM_ERR_036"	: "@ is only allowed this character.\n@"
+	,"MSG_COM_ERR_037"	: "Invalid email address : @"
+	,"MSG_COM_ERR_059"	: "@ should less than @ places of number"
+	,"MSG_COM_ERR_060"	: "@ should less than @ places of decimals"
+	,"MSG_COM_ERR_061"	: "@ is not Invalid date (ex. 00-0000-0000)"
+	,"MSG_COM_ERR_062"	: "@ is not Invalid date (ex. 000-0000-0000)"
+	,"MSG_COM_ERR_063"	: "@ is not Invalid corporation number"
+	,"MSG_COM_ERR_065"	: "Required Input Exist"
+	,"MSG_COM_WRN_013"	: "@'th and @'th row's key value is duplicated"
+};
+
+//공통메시지 Include처리. 턴수최소화를 위해, 별도의 메시지용 js파일을 만들어 include하지 않는다.
+//DB를 통한 메시지 다국어 처리를 위함, 기존 message_ko.js 혹은 message_en.js은 사용하지 않는다.
+//@을 통한 파라미터 파싱이 기본적으로 처리됨에 따라 임의의 @을 넣어준다. 불편하네 -_-;
+var MSG_COM_ERR_002	= "Required Input : @";
+var MSG_COM_ERR_005	= "Input @ as a number of @ ciphers";
+var MSG_COM_ERR_006	= "Input @ between @ and @";
+var MSG_COM_ERR_007	= "Only number input allowed : @";
+var MSG_COM_ERR_011	= "@ input is allowed more than @ ciphers";
+var MSG_COM_ERR_012	= "@ input is allowed less than @ ciphers";
+var MSG_COM_ERR_013	= "@ input is allowed more than @ ciphers";
+var MSG_COM_ERR_014	= "@ input is allowed less than @ ciphers";
+var MSG_COM_ERR_015	= "Wrong year : @";
+var MSG_COM_ERR_016	= "Invalid SSN : @";
+var MSG_COM_ERR_017	= "Invalid registration number : @";
+var MSG_COM_ERR_018	= "Invalid date : @";
+var MSG_COM_ERR_019	= "Wrong month : @";
+var MSG_COM_ERR_020	= "Wrong date : @";
+var MSG_COM_ERR_021	= "Wrong hour : @";
+var MSG_COM_ERR_022	= "Wrong minute : @";
+var MSG_COM_ERR_023	= "Wrong second : @";
+var MSG_COM_ERR_024	= "@ should be before @-@-@";
+var MSG_COM_ERR_025	= "@ should be after @-@-@";
+var MSG_COM_ERR_027	= "@ input is allowed only @ ciphers.(for Korean, @ ciphers)";
+var MSG_COM_ERR_028	= "@ input is allowed more than @ ciphers.(for Korean, @ ciphers)";
+var MSG_COM_ERR_029	= "@ input is allowed less than @ ciphers.(for Korean, @ ciphers)";
+var MSG_COM_ERR_032	= "@ shouldn't be duplicated";
+var MSG_COM_ERR_033	= "@ is not allowed this character.\n@";
+var MSG_COM_ERR_036	= "@ is only allowed this character.\n@";
+var MSG_COM_ERR_037	= "Invalid email address : @";
+var MSG_COM_ERR_059	= "@ should less than @ places of number";
+var MSG_COM_ERR_060	= "@ should less than @ places of decimals";
+var MSG_COM_ERR_061	= "@ is not Invalid date (ex. 00-0000-0000)";
+var MSG_COM_ERR_062	= "@ is not Invalid date (ex. 000-0000-0000)";
+var MSG_COM_ERR_063	= "@ is not Invalid corporation number";
+var MSG_COM_ERR_065	= "Required Input Exist";
+var MSG_COM_WRN_013 = "@'th and @'th row's key value is duplicated";
+</script>
+
+<!-- Global Session Setting -->
+<script type="text/javascript">
+	var languageType = $.cookie('languageType');
+    (function($, global) {
+    	var url = window.location.href;
+    	if ( url.indexOf("trackingPopup") > -1 || url.indexOf("dlvChaseInqPopup") > -1 ) {
+    		if (window.location.protocol == 'https:') {
+    	    	location.replace(url.replace("https:", "http:"));
+    	    }
+    	}
+
+     	// 로그인 사용자 정보 설정
+        sfnSetSessionInfo(GFN_SESSION_LIST);
+
+        $(document).ready(function() {
+
+	    	var setMenu = function(lang){
+	           var menuUrl = "/resources/json/ecp/web-menu-"+lang+".json";
+	           $.ajax({
+					url: menuUrl,
+					data: {},
+					dataType: 'json',
+					success: function(data) {
+						buildUL(data);
+					},
+					error: function(xhr, status, error) {
+						console.log(error);
+					}
+				});
+	    	}
+	    	var changePath = function(lang){
+	     		var pathname = window.location.pathname; // Returns path only
+	        	var path = pathname.substr(0, (pathname.lastIndexOf('/') +1) );
+	        	var orgFileName  = pathname.split('/').pop().split('.').shift();
+	        	var fileName =  orgFileName.substr(0, (orgFileName.lastIndexOf('-') ) );
+	        	var langFileName = '';
+
+	        	if ( lang== undefined || lang=='') { //기본 URL
+	        		lang = "en";
+	        		langFileName = fileName+'-'+lang;   // XXX-cn => XXX-en
+	        	}
+
+	        	setMenu(lang);
+
+	        	if(lang=='ko'){                 // 한국어 언어설정인경우
+	        		if(orgFileName.lastIndexOf('-')!=-1){   // 현재 url이 다른언어페이지 XXX-en.do, XXX-cn.do
+	        			langFileName = fileName;            // => XXX.do
+	        		}else{
+	        			if(lang=='ko'){
+	        				langFileName = orgFileName;     // => XXX.do
+	        			}
+	        		}
+	        	}else{                                      // 영어 중국어 언어설정인경우
+	        		if(orgFileName.lastIndexOf('-')!=-1){
+	        			langFileName = fileName+'-'+lang;   // XXX-cn => XXX-en
+	        		}else{
+	        			langFileName = orgFileName+'-'+lang;  // XXX => XXX-en
+	        		}
+	        	}
+	        	if(pathname.lastIndexOf('system')!=-1){
+		        	if(orgFileName != langFileName && langFileName !=""){
+		        		var langUrl = path + langFileName +'.do';
+		    			window.location.href=langUrl;   // main.do => main-cn.do
+		        	}
+	    		}
+	     	}
+
+	    	if(_.isUndefined($.cookie('languageType'))){
+	    		languageType = 'en';
+	    	}else{
+	    		languageType = $.cookie('languageType');
+	    	}
+
+	     	// 언어 변경에 따른 페이지 전환
+	    	changeLang = function (lang) {
+	    		if ( languageType != lang ) {
+	    			$.cookie('languageType', lang,  { path : '/' });
+		    		changePath(lang);
+	        		var pathname = window.location.pathname; // Returns path only
+	        		if( pathname.lastIndexOf('/pr/') > -1 ) {
+	        			location.reload();
+	        		}
+	    		}
+	        };
+
+
+	        changePath(languageType);
+
+	    	var buildUL = function (data) {
+	    		var menu = $("#uiNavGnb > ul");
+	        	menu.empty();
+	        	_.each(data,function(item){
+	        		var li = $("<li><a href="+item.url+">" + item.menuName + "</a></li>");
+	                li.appendTo(menu);
+	                if(_.isObject(item.subMenu)){
+	                	var ul = $("<ul></ul>");
+	                	ul.appendTo(li);
+	                	_.each(item.subMenu,function(sub){
+	                		var sli = $("<li><a href="+sub.url+">" + sub.menuName + "</a></li>");
+	                		sli.appendTo(ul);
+	                	});
+	                }
+	        	});
+	        	ui.navGnb();
+	    	}
+
+	    	//업무별 연락처 링크
+	    	$('#btnContactUs').click(function(){
+	    		var currUrl = location.href;
+	    		if ( currUrl.indexOf("contactInfo") > -1 ) {
+	    			return;
+	    		}
+	    		var trankingUrl = '/ecp/web/cm/system/contactInfo.do';
+	    		if ( languageType != undefined && languageType != '' && languageType != 'ko' ) {
+	    			trankingUrl = '/ecp/web/cm/system/contactInfo-'+languageType+'.do';
+	    		}
+	    		location.href = trankingUrl;
+	     	});
+
+		});
+    })(jQuery, window);
+
+
+</script>
+
+<style>
+	#imgOuter { display:table; }
+	#imgLayer {
+		display:table-cell;
+		text-align:center;
+		vertical-align:middle;
+		line-height:0;
+		width:300px;
+		height:300px;
+		border:1px solid #222222;
+		overflow:hidden;
+	}
+	#txtOuter { display:table; }
+	#txtLayer {
+		display:table-cell;
+		text-align:center;
+		vertical-align:middle;
+		line-height:0;
+		width:300px;
+		height:300px;
+		border:1px solid #222222;
+		overflow:hidden;
+	}
+	textarea {
+		text-transform : uppercase;
+	}
+</style>
+<script type="text/javascript" src="/resources/js/ecp/web/pr/dt/dlvChaseInq.js"></script>
+
+</head>
+<body>
+
+<div id="wrapper" class="page-search">
+	<div id="container">
+		<div class="wrap-content">
+			<!-- ## layout : 본문영역 : 주요컨텐츠 ######################################## -->
+			<div id="content">
+				<!-- ## 컨텐츠섹션1  : 검색폼 ## -->
+				<fieldset class="section form-search2">
+					<legend>Tracking</legend>
+					<h1 class="headline">Tracking</h1>
+					<p>Enter up to 30 tracking numbers.<br/>Press ‘Enter’ to seperate. (one per line)</p>
+
+					<div class="form">
+						<textarea rows="5" cols="70" class="textarea" id="quickNo"></textarea>
+						<button type="button" id="btnChaseSrch">Search</button>
+					</div>
+				</fieldset>
+
+				<!-- ## 컨텐츠섹션2  : 검색결과 ## -->
+				<div class="section" id="uiSectionResult">
+					<!-- # 범례 ################################################################# -->
+					<dl class="info-label">
+						<dt>Legend</dt>
+						<dd>
+							<ul>
+								<li>
+									<span>Delivered</span>
+									<span class="icon-state1 ic7"></span>
+								</li>
+								<li>
+									<span>Exception</span>
+									<span class="icon-state1 ic6"></span>
+								</li>
+								<li>
+									<span>In transit</span>
+									<span class="icon-state1 ic2"></span>
+									<span class="icon-state1 ic3"></span>
+									<span class="icon-state1 ic4"></span>
+									<span class="icon-state1 ic5"></span>
+								</li>
+								<li>
+									<span>Picked up</span>
+									<span class="icon-state1 ic1"></span>
+								</li>
+								<li>
+									<span>Others</span>
+									<span class="icon-state1"></span>
+								</li>
+								<li>
+									<span>Customs</span>
+									<span class="icon-state1 ic8"></span>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+
+					<!-- # 결과목록 case2 : 검색결과 있는경우 ######################################### -->
+					<div class="tbl-data1 data-search" data-tbl-toggle="true">
+						<table>
+							<caption>Delivery Inquiry Result</caption>
+							<colgroup><col style="width:85px;"/><col style="width:180px;"/><col style="width:180px;"/><col/><col/><col style="width:105px;"/><col style="width:80px;"/></colgroup>
+							<thead>
+								<tr>
+									<th scope="col" colspan="2">Tracking # / Pantos #</th>
+									<th scope="col">Carrier</th>
+									<th scope="col">Location From</th>
+									<th scope="col">Location To</th>
+									<th scope="col">Domestic #</th>
+									<th scope="col"></th>
+								</tr>
+							</thead>
+							<tbody id="chaseBody">
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+
+<script type="text/javascript" src="/resources/js/ecp/web/pr/dt/dlvChaseInq.js"></script>
+<script type="text/javascript" language="javascript">
+	var chaseCnt = 0;
+	var quickNo;
+	var locale;
+
+	(function($, global){
+		$(document).ready(function() {
+			//화면 복사 방지
+			document.oncontextmenu = new Function ('return false');
+			document.ondragstart = new Function ('return false');
+			document.onselectstart = new Function ('return false');
+			document.body.style.MozUserSelect = 'none';
+			quickNo = CommonUtil.filterXSS('');
+			locale = CommonUtil.filterXSS('');
+
+			if ( !cfIsNull(locale) ) {
+				LOCALECD = locale;
+			}
+
+			$("#btnChaseSrch").click(listeners.onChaseSrchClick);
+			$('#quickNo').keyup( function() {
+				var quickNoLength = $.trim($(this).val()).split("\n").length;
+				var allowedNumberOfLines = 30;
+				if ( quickNoLength > allowedNumberOfLines ) {
+					var modifiedText = $.trim($(this).val()).split("\n").slice(0, allowedNumberOfLines);
+					$(this).val(modifiedText.join("\n"));
+				}
+			}).focusin(function() {
+				document.oncontextmenu = null;
+				document.ondragstart = null;
+				document.onselectstart = null;
+			}).focusout(function() {
+				document.oncontextmenu = new Function ('return false');
+				document.ondragstart = new Function ('return false');
+				document.onselectstart = new Function ('return false');
+			}).blur(function() {
+				document.oncontextmenu = new Function ('return false');
+				document.ondragstart = new Function ('return false');
+				document.onselectstart = new Function ('return false');
+			});
+			fnInitChase();
+		});
+
+		var listeners = {
+			onChaseSrchClick : function() {
+				fnGetChaseList();
+			}
+		}
+
+	})(jQuery, window);
+
+	function fnInitChase() {
+		if ( !cfIsNull(quickNo) ) {
+			quickNo = quickNo.replace(/\n/g, "");
+			$('#quickNo').val(quickNo);
+			//fnGetChaseList();
+		}
+	}
+
+	//배송추적목록조회
+	function fnGetChaseList() {
+		//var dataUrl = '/ecp/pr/dt/dlvchaseinq/retreiveDlvChaseList.dev';
+		var dataUrl = '/ecp/pr/dt/dlvchaseinq/retreiveTrackingList.dev';
+		var quickNoArr = new Array();
+
+
+
+		if ( cfIsNull($.trim($('#quickNo').val())) ) {
+			cfAlert('Required Input : [Inquiry No]');
+			return;
+		}
+		var quickNo = $.trim($('#quickNo').val().toUpperCase());
+		var quickNoList = quickNo.split("\n");
+
+		var inputData = {
+				IN_PARAM : {
+					quickNo  : quickNoList
+			      , locale : LOCALECD
+				  //, pageToken : $("#pageToken").val()
+				}
+			};
+
+		$("#chaseBody").html("");
+		ajax({
+			url : dataUrl,
+			data : inputData,
+			async : false,
+			success : function(data) {
+				if( data ){
+					if( data.header ){
+						if( data['result'] && data['result'].RESULT_CD != "0" ){
+							cfAlert(data['result'].RESULT_MSG);
+							return;
+						}
+						chaseCnt = data["OUT_DS1"].length;
+						if( data["OUT_DS1"].length > 0 ){
+							for ( var i = 0; i < data["OUT_DS1"].length; i++ ) {
+								var chaseInfo = data["OUT_DS1"][i];
+								fnAddChaseList(chaseInfo, i);
+							}
+						} else {
+							cfAlert('If you can not track the delivery, please contact the vendor.');
+							var chaseTr ="";
+							//chaseTr +="<tr>";
+							//chaseTr +="<td colspan=\"7\" class=\"nodata\"><ece:ez>gsi.msg.cm.noDataFound</ece:ez></td>";
+							//chaseTr +="</tr>";
+							$("#chaseBody").html(chaseTr);
+						}
+					}
+				}
+			}
+		});
+	}
+
+	//배송추적상세조회
+	function fnChaseDetail( hblNo, mblNo, expsBizTypeCd, carrSprCd, wmDomCarr, iframeAddrUrl, chaseId1, chaseId3 ) {
+		//var dataUrl = '/ecp/pr/dt/dlvchaseinq/retreiveDlvChaseListDtl.dev';
+		var dataUrl = '/ecp/pr/dt/dlvchaseinq/retreiveTrackingListDtl.dev';
+		var inputData = {
+				IN_PARAM : { hblNo : hblNo
+					       , mblNo : mblNo
+					       , locale : LOCALECD
+					       , expsBizTypeCd : expsBizTypeCd
+					       , carrSprCd : carrSprCd
+					       , wmDomCarr : wmDomCarr
+						   //, pageToken : $("#pageToken").val()
+				}
+		};
+		var chaseTr1 = document.getElementById('chaseBody').getElementsByClassName('active')[0];
+		var chaseDtlTr3 = document.getElementById(chaseId3);
+
+		if ( ( !cfIsNull(chaseTr1) && chaseId1 == chaseTr1.id ) || chaseDtlTr3.hasChildNodes() ) {
+			var curOpenYn = false;
+			if ( "active" == document.getElementById(chaseId1).className ) {
+				curOpenYn = true;
+			}
+			for ( var i = 0; i < chaseCnt; i++ ) {
+				document.getElementById("chase1_"+i).removeAttribute("class");
+			}
+			if (!curOpenYn) {
+				document.getElementById(chaseId1).setAttribute("class", "active");
+			}
+			return;
+		}
+
+
+
+		ajax({
+			url : dataUrl,
+			data : inputData,
+			async : false,
+			success : function(data) {
+				if( data ){
+					if( data.header ){
+						if( data['result'] && data['result'].RESULT_CD != "0" ){
+							cfAlert(data['result'].RESULT_MSG);
+							return;
+						}
+						if( data["OUT_DS1"].length <= 0 ){
+							cfAlert('If you can not track the delivery, please contact the vendor.');
+						}
+						//배송추적상세 처리
+						fnOpenChaseDtl(data["OUT_DS1"], iframeAddrUrl, chaseId1, chaseId3);
+
+					}
+				}
+			}
+		});
+	}
+
+</script>
+
+</html>

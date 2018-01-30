@@ -23,6 +23,7 @@ CJ Korea Express (Korea) | @egg- | http://cjkoreaexpress.co.kr/ (https://www.doo
 POS Laju | @egg- | http://www.poslaju.com.my
 Yello Express | @egg- | https://www.yello-express.com
 EFS | @egg- | http://efs.asia/
+UPS | @egg- | https://www.ups.com
 
 ## Installation
 
@@ -104,6 +105,7 @@ CJKOREAEXPRESS | cjkoreaexpress | CJ Korea Express
 POSLAJU | poslaju | POS Laju
 YELLOEXPRESS | yelloexpress | Yello Express
 EFS | efs | EFS
+UPS | ups | UPS
 
 ### STATUS
 
