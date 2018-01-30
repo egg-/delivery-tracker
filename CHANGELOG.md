@@ -1,3 +1,6 @@
+# 1.6.1
+* sort UPS checkpoints.
+
 # 1.6.0
 * add UPS.
 
