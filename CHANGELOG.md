@@ -1,3 +1,6 @@
+# 1.6.3
+* fixed UPS time format bug
+
 # 1.6.2
 * update UPS time format
 
