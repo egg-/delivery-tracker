@@ -24,6 +24,7 @@ POS Laju | @egg- | http://www.poslaju.com.my
 Yello Express | @egg- | https://www.yello-express.com
 EFS | @egg- | http://efs.asia/
 UPS | @egg- | https://www.ups.com
+TNT | @egg- | https://www.tnt.com
 
 ## Installation
 
@@ -106,6 +107,7 @@ POSLAJU | poslaju | POS Laju
 YELLOEXPRESS | yelloexpress | Yello Express
 EFS | efs | EFS
 UPS | ups | UPS
+TNT | tnt | TNT
 
 ### STATUS
 

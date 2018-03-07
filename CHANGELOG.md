@@ -1,3 +1,6 @@
+# 1.7.9
+* add TNT.
+
 # 1.6.3
 * fixed UPS time format bug
 
