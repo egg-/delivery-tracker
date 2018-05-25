@@ -1,3 +1,6 @@
+# 1.7.2
+* fixed PANTOS not exist tracking number.
+
 # 1.7.1
 * fixed UPS time format bug
 
