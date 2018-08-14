@@ -1,0 +1,25 @@
+
+		<div class="col-sm-3">
+			<h2 class="subscribe__title">Booking</h2>
+			create by: <b></b><br/>
+			date: <b>Agu. 13, 2018</b><br/>
+		</div>
+
+		<div class="col-sm-3">
+			<h2 class="subscribe__title">Pickup</h2>
+			pickup by: <b>SIGIT</b><br/>
+			date: <b>Agu. 13, 2018</b><br/>
+		</div>
+
+		<div class="col-sm-3">
+			<h2 class="subscribe__title">Delivery</h2>
+			courier by: <b></b><br/>
+			date: <b> , </b><br/>
+		</div>
+		<div class="col-sm-3">
+			<h2 class="subscribe__title">delivered</h2>
+			Delivered by: <b></b><br/>
+			date: <b> , </b><br/>
+		</div>
+
+		

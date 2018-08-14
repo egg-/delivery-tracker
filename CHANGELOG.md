@@ -1,3 +1,6 @@
+# 1.8.0
+* add CESCO.
+
 # 1.7.2
 * fixed PANTOS not exist tracking number.
 

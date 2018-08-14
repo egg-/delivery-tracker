@@ -25,6 +25,7 @@ Yello Express | @egg- | https://www.yello-express.com
 EFS | @egg- | http://efs.asia/
 UPS | @egg- | https://www.ups.com
 TNT | @egg- | https://www.tnt.com
+CESCO | @egg- | https://www.cesco-logistics.com/
 
 ## Installation
 
@@ -108,6 +109,7 @@ YELLOEXPRESS | yelloexpress | Yello Express
 EFS | efs | EFS
 UPS | ups | UPS
 TNT | tnt | TNT
+CESCO | cesco | CESCO
 
 ### STATUS
 

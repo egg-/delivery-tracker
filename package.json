@@ -1,6 +1,6 @@
 {
   "name": "delivery-tracker",
-  "version": "1.7.2",
+  "version": "1.8.0",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -41,7 +41,8 @@
     "yello express",
     "efs",
     "ups",
-    "tnt"
+    "tnt",
+    "cesco"
   ],
   "license": "MIT",
   "bugs": {
