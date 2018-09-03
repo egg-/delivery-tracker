@@ -1,3 +1,6 @@
+# 1.9.0
+* add XPOST.
+
 # 1.8.0
 * add CESCO.
 

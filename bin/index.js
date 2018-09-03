@@ -5,7 +5,7 @@ var tracker = require('../')
 
 program
   .arguments('<tracecode>')
-  .option('-c, --courier <courier>', 'Courier Namespace', /^(KOREAPOST|ECARGO|FEDEX|PANTOS|RINCOS|AUSPOST|ROYALMAIL|USPS|CJKOREAEXPRESS|POSLAJU|YELLOEXPRESS|EFS|AIRBRIDGE|UPS|TNT)$/i)
+  .option('-c, --courier <courier>', 'Courier Namespace', /^(KOREAPOST|ECARGO|FEDEX|PANTOS|RINCOS|AUSPOST|ROYALMAIL|USPS|CJKOREAEXPRESS|POSLAJU|YELLOEXPRESS|EFS|AIRBRIDGE|UPS|TNT|CESCO|XPOST)$/i)
   .action(function (tracecode) {
     if (!tracker.COURIER[program.courier]) {
       console.error('The Company is not supported.')

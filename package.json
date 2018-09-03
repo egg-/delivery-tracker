@@ -1,6 +1,6 @@
 {
   "name": "delivery-tracker",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -42,7 +42,8 @@
     "efs",
     "ups",
     "tnt",
-    "cesco"
+    "cesco",
+    "xpost"
   ],
   "license": "MIT",
   "bugs": {

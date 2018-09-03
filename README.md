@@ -26,6 +26,7 @@ EFS | @egg- | http://efs.asia/
 UPS | @egg- | https://www.ups.com
 TNT | @egg- | https://www.tnt.com
 CESCO | @egg- | https://www.cesco-logistics.com/
+XPOST | @egg- | https://www.xpost.ph/
 
 ## Installation
 
@@ -110,6 +111,7 @@ EFS | efs | EFS
 UPS | ups | UPS
 TNT | tnt | TNT
 CESCO | cesco | CESCO
+XPOST | xpost | XPOST
 
 ### STATUS
 
