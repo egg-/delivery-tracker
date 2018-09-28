@@ -1,3 +1,6 @@
+# 1.9.1
+* fixed XPOST pending state. (for pickup)
+
 # 1.9.0
 * add XPOST.
 
