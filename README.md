@@ -27,6 +27,7 @@ UPS | @egg- | https://www.ups.com
 TNT | @egg- | https://www.tnt.com
 CESCO | @egg- | https://www.cesco-logistics.com/
 XPOST | @egg- | https://www.xpost.ph/
+KERRYTHAI | @egg- | https://th.kerryexpress.com
 
 ## Installation
 
@@ -112,6 +113,7 @@ UPS | ups | UPS
 TNT | tnt | TNT
 CESCO | cesco | CESCO
 XPOST | xpost | XPOST
+KERRYTHAI | kerrythai | KERRYTHAI
 
 ### STATUS
 

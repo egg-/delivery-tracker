@@ -1,3 +1,6 @@
+# 2.0.0
+* add KERRY THAI
+
 # 1.9.1
 * fixed XPOST pending state. (for pickup)
 
