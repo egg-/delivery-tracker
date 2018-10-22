@@ -1,3 +1,6 @@
+# 2.0.1
+* change cesco host (disable ssl)
+
 # 2.0.0
 * add KERRY THAI
 
