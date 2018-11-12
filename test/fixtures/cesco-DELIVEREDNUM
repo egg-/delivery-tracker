@@ -1,0 +1,29 @@
+
+		<div class="col-sm-3">
+			<h2 class="subscribe__title">Booking</h2>
+			create by: <b>IFAS SETIANTO</b><br/>
+			date: <b>Nov. 06, 2018</b><br/>
+		</div>
+
+		<div class="col-sm-3">
+			<h2 class="subscribe__title">Pickup</h2>
+			pickup by: <b>IFAS SETIANTO</b><br/>
+			date: <b>Nov. 06, 2018</b><br/>
+		</div>
+
+		<div class="col-sm-3">
+			<h2 class="subscribe__title">Delivery</h2>
+			courier by: <b>MASUD</b><br/>
+			date: <b>Nov. 09, 2018</b><br/>
+		</div>
+		<div class="col-sm-3">
+			<h2 class="subscribe__title">delivered</h2>
+			Delivered by: <b>NOVI</b><br/>
+			date: <b>Nov. 09, 2018</b><br/>
+		</div>
+		<div class="col-sm-12">
+			<h2 class="subscribe__title">STATUS</h2>
+			Status: <b>DELIVERED</b><br/>
+
+		</div>
+		

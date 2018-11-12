@@ -12,14 +12,16 @@ var courier = tracker.courier(tracker.COURIER.CESCO.CODE)
 describe(tracker.COURIER.CESCO.NAME, function () {
   var pendingNum = 'PENDINGNUM'
   var intransitNum = 'INTRANSITNUM'
+  var deliveredNum = 'DELIVEREDNUM'
 
   before(function () {
     // @TODO add nock
     prepare(courier, pendingNum)
     prepare(courier, intransitNum)
+    prepare(courier, deliveredNum)
   })
 
-  it('delivered number', function (done) {
+  it('peding number', function (done) {
     courier.trace(pendingNum, function (err, result) {
       assert.equal(err, null)
 
@@ -36,6 +38,18 @@ describe(tracker.COURIER.CESCO.NAME, function () {
       assert.equal(err, null)
 
       assert.equal(intransitNum, result.number)
+      assert.equal(tracker.COURIER.CESCO.CODE, result.courier.code)
+      assert.notEqual(result.checkpoints.length, 0)
+
+      done()
+    })
+  })
+
+  it('delivered number', function (done) {
+    courier.trace(deliveredNum, function (err, result) {
+      assert.equal(err, null)
+
+      assert.equal(deliveredNum, result.number)
       assert.equal(tracker.COURIER.CESCO.CODE, result.courier.code)
       assert.notEqual(result.checkpoints.length, 0)
 

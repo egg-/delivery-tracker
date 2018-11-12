@@ -1,3 +1,6 @@
+# 2.0.2
+* change cesco host
+
 # 2.0.1
 * change cesco host (disable ssl)
 
