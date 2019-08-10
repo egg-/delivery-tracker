@@ -1,3 +1,6 @@
+# 2.0.4
+* add error auspost
+
 # 2.0.3
 * add message cesco tracking information.
 
