@@ -1,0 +1,58 @@
+{
+    "sicepat": {
+        "status": {
+            "code": 200,
+            "description": "OK"
+        },
+        "result": {
+            "waybill_number": "000260877750",
+            "kodeasal": "CGK10000",
+            "kodetujuan": "CGK10206",
+            "service": "REG",
+            "estimasi": "1 - 2 ",
+            "weight": "1",
+            "resi_JNE": "",
+            "sender": "NIA",
+            "sender_address": "Jakarta",
+            "receiver_address": "Pasar Minggu, DKI Jakarta",
+            "receiver_name": "Jessica",
+            "realprice": "0",
+            "POD_receiver": "Paket diterima oleh [Nutul - (SCY) Security]",
+            "POD_receiver_time": "2019-08-08 18:53",
+            "send_date": "2019-08-07 23:55:56",
+            "track_history": [
+                {
+                    "date_time": "2019-08-07 23:55",
+                    "status": "IN",
+                    "city": "Paket telah di input (manifested) di Jakarta Barat [Palmerah]"
+                },
+                {
+                    "date_time": "2019-08-08 06:54",
+                    "status": "IN",
+                    "city": "Paket telah di terima di Jakarta Selatan [Pancoran Hub]"
+                },
+                {
+                    "date_time": "2019-08-08 10:37",
+                    "status": "IN",
+                    "city": "Paket telah di terima di Jakarta Selatan [Pasar Minggu]"
+                },
+                {
+                    "date_time": "2019-08-08 10:38",
+                    "status": "ANT",
+                    "city": "Paket dibawa [SIGESIT - Murtadi]"
+                },
+                {
+                    "date_time": "2019-08-08 18:53",
+                    "status": "DELIVERED",
+                    "receiver_name": "Paket diterima oleh [Nutul - (SCY) Security]"
+                }
+            ],
+            "last_status": {
+                "date_time": "2019-08-08 18:53",
+                "status": "DELIVERED",
+                "receiver_name": "Paket diterima oleh [Nutul - (SCY) Security]"
+            },
+            "perwakilan": "CGS"
+        }
+    }
+}

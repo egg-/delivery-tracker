@@ -28,6 +28,7 @@ TNT | @egg- | https://www.tnt.com
 CESCO | @egg- | https://www.cesco-logistics.com/
 XPOST | @egg- | https://www.xpost.ph/
 KERRYTHAI | @egg- | https://th.kerryexpress.com
+SICEPAT | @egg- | http://sicepat.com/
 
 ## Installation
 
@@ -58,6 +59,7 @@ Usage: index [options] <tracecode>
 
     -h, --help               output usage information
     -c, --courier <courier>  Courier Namespace
+    -k, --apikey <apikey>  Courier API key
 
 $ delivery-tracker -c EMS EBXXXXXXXXXKR
 ```

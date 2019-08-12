@@ -1,3 +1,6 @@
+# 2.1.0
+* add sicepat.
+
 # 2.0.4
 * add error auspost
 
