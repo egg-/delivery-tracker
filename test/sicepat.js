@@ -8,7 +8,7 @@ var prepare = require('./fixtures/prepare')
 var tracker = require('../')
 
 var courier = tracker.courier(tracker.COURIER.SICEPAT.CODE, {
-  apikey: ''
+  apikey: 'test'
 })
 
 describe(tracker.COURIER.SICEPAT.NAME, function () {
