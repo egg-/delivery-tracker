@@ -116,6 +116,7 @@ TNT | tnt | TNT
 CESCO | cesco | CESCO
 XPOST | xpost | XPOST
 KERRYTHAI | kerrythai | KERRYTHAI
+SICEPAT | sicepat | SICEPAT
 
 ### STATUS
 
