@@ -1,6 +1,6 @@
 {
   "name": "delivery-tracker",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -45,7 +45,8 @@
     "cesco",
     "xpost",
     "kerry",
-    "kerryexpress"
+    "kerryexpress",
+    "sicepat"
   ],
   "license": "MIT",
   "bugs": {

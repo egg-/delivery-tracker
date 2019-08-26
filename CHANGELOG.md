@@ -1,3 +1,6 @@
+# 2.1.1
+* update sicepat error.
+
 # 2.1.0
 * add sicepat.
 
