@@ -1,3 +1,6 @@
+# 2.1.2
+* add handle for sicepat unknown error.
+
 # 2.1.1
 * update sicepat error.
 
