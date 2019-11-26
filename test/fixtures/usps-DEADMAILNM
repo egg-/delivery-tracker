@@ -1,0 +1,3184 @@
+
+
+
+
+<!doctype html>
+ <html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>USPS.com&reg; - USPS Tracking&reg; Results</title>
+  <link rel="stylesheet" href="/go/css/footer.css">
+  <link rel="stylesheet" href="/go/css/libs/bootstrap.min.css">
+  <link rel="stylesheet" href="/go/css/libs/datepicker3.css">
+  <link rel="stylesheet" href="/go/css/main.css">
+</head>
+<body>
+  <div id="tracking_page_wrapper">
+    
+<script src="/go/scripts/libs/jquery.min.js"></script>
+<script src="/go/js/modules/usps/metrics/metrics-all.js"></script>
+
+<script type="text/javascript">
+	
+	var dataLayer = window.dataLayer = window.dataLayer || [];
+    dataLayer.push({"ecommerce":{"impressions":[{"dimension149":"USPS Tracking","brand":"USPS Tools","position":1,"id":"DEADMAILNM","name":"First-Class Package Service","category":"Alert / Return to Sender Processed / BOUNTIFUL, UT  84010","list":"Tracking Tool Results"}]},"event":"ecomListImpression","loginStatus":"Not Logged In"})
+</script>
+
+
+
+
+      <!-- GLOBAL HEADER  -->
+		
+      		<link href="/global-elements/header/css/usps-elements.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="/global-elements/header/css/utility-header.css">
+
+<style type="text/css">
+/* Eliminate Utility Bar */
+	#utility-bar, .util {
+		display: none;
+	}
+/* Change for Update prior to reskin */
+ul, ol {
+ list-style-type: disc;
+ list-style:disc;
+}
+.empty-search ul {
+    list-style: none;
+    list-style-type:none;
+ 
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    background-position:50%;
+}
+
+li.usps-logo {
+    background-color: #FFFFFF !important;
+}
+/* Specific non-responsive limit*/
+body {
+	overflow-x:hidden;
+}
+
+
+/* Tracking fix */
+#track-confirm {
+    height: 100%;
+}
+@media only screen and (min-width: 959px){
+	.menu ol li ol li:first-of-type {
+		padding-top: 0 !important;
+
+	}
+	.global-navigation, #utility-header {
+		max-width: 100% !important;
+	}
+	.menu-wrap {
+		max-width: 100% !important;
+	}
+	
+	html, body {
+		max-width: 100%;
+		overflow-x: -moz-scrollbars-vertical;
+	}
+}
+.product_tracking_header .product_info td {
+   vertical-align: top;
+}
+
+.product_tracking_details .tracking_history_container div.more_rows a {
+	font-size: 14px;
+}
+
+.panel-actions-content {
+    font-size: 14px;
+}
+
+div#shortcuts-menu-wrapper a {
+    font-weight: normal;
+}
+
+input#global-header--search-track {
+    background: transparent;
+    border: 0;
+    color: #202020;
+    display: inline-block;
+    font-family: "HelveticaNeueW02-55Roma","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-size: 1.3rem;
+    height: 40px;
+    height: 4rem;
+    line-height: 20px;
+    line-height: 2rem;
+    outline: 0;
+    margin: 0;
+    padding: 10px 0;
+    -webkit-appearance: none;
+    width: 83%;
+}
+
+.easy-autocomplete-container ul li, .easy-autocomplete-container ul .eac-category {
+    margin-top: 0px;
+}
+
+.empty-search li {
+	margin-top:0px;
+}
+body {
+    font-size: 14px;
+}
+
+.hint .speech_bubble {
+	bottom: calc(100% + 10px) !important;
+}
+
+.error-handler li {
+    display: none;
+}
+@media only screen and (max-width: 958px) {
+	.quick--search .input--field {
+		height: 44px!important;
+		border: 0!important;
+		margin-top:3px!important;
+	}
+}
+
+form#trackPackage .tracking-btn.disabled {
+    opacity: 1;
+    cursor: pointer;
+    filter: alpha(opacity=100);
+}
+.mobile-quicktools .quicktools-full .shortcut.sc-pobox {
+    border-left: 0px !important;
+}
+		@media only screen and (max-width:958px){
+			.alert-bar{}
+			.menu.active .menu--tier-one-link span:first-of-type {		
+				width: 80%;		
+				display: block;		
+				left: 0;		
+				position: absolute;		
+				padding-left: 22px;		
+				height: 80px;		
+				top: 0;		
+				padding-top: 28px;		
+				box-sizing: border-box;		
+			}
+			.menu.active .menu--tier-one li {
+				border-top: 1px solid #333366;
+				padding-top: 0 !important;
+				padding-bottom:  0 !important;
+			}
+
+			.menu.active .menu--tier-one li.ge_parent ol li {
+				padding-top:0 !important;
+				padding-bottom:0 !important;
+
+			}
+
+			a.menu--tier-one-link.menu--item {		
+				padding-top: 28px !important;		
+				display: block;		
+				padding-bottom: 27px !important;		
+			}
+
+			.menu ol li ol li a {
+				line-height: 20px !important;
+				margin-top: 0px !important;
+				padding: 20px 22px !important;
+			}
+			.menu.active ol li.touchscreen-only {
+					display: none !important;
+				}
+		}
+#utility-header a#link-myusps:before {
+    background-image: url(/global-elements/header/images/utility-header/mailman.svg) !important;
+}
+
+</style>
+     <div id="utility-header">
+        <style type="text/css">
+            #utility-bar {
+                display: none;
+            }
+        </style>
+        <div id="skip-content2" style="height:0px;overflow:hidden;">
+            <a href="#maincontent" id="skip-nav2" style="height: 0.1rem;">Skip to Main Content</a>
+        </div>
+		<script type="text/javascript" src="https://www.usps.com/ContentTemplates/common/scripts/OneLinkUsps.js"></script>
+
+        <div class="utility-links">
+            <div id="nav-tool-multilingual-header" class="nav-tool-header" style="display:inline !important;">
+                <a href="#" class="anchor" tabindex="0" name="anchor-login" id="multiling-anchor"
+                 style="display:inline !important;">
+                    English<span class="hide-fromsighted" style="display:inline !important;"> Use arrow key to access related widget.</span>
+                    </a>
+                <div id="lang_select" class="nav-window-header" style="height: 0px; overflow: hidden;">
+                    <div class="content">
+                        <div class="multi-option">
+                            <a href="javascript:OneLink('en');" class="multi-lang-link">English</a>
+                        </div>
+                        <div class="multi-option odd">
+                            <a href="javascript:OneLink('es');" class="multi-lang-link">Espa&ntilde;ol</a>
+                        </div>
+                        <div class="multi-option last">
+                            <a href="javascript:OneLink('zh');" class="multi-lang-link chinese">&nbsp;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a id="link-customer" href="https://www.usps.com/help/welcome.htm">Customer &nbsp;Service</a>
+            <a id="link-myusps" href="https://informeddelivery.usps.com/">Informed Delivery</a>
+            <a id="login-register-header" class="link-reg" href="https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&amp;appURL=https://www.usps.com/"><span>Register / Sign in</span></a>
+            <div id="link-cart" style="display: inline-block;"></div>
+        </div>
+    </div>
+<script>var appID = "UspsTools";</script>
+
+
+    <div class="global-navigation">
+
+
+        <div class="mobile-header mobile-title">
+            <div class="mobile-header search-trigger">
+                <a href="#"></a>
+            </div>
+            <div class="mobile-header usps_logo">
+                <a href="https://www.usps.com/welcome.htm"></a>
+            </div>
+            <div class="mobile-header mobile-menu-trigger">
+                <a href="#"></a>
+            </div>
+        </div>
+
+        <div id="global-menu" class="menu" style="top: 0px;">
+
+            <div class="menu-wrap">
+                <div id="msign" class="mobile-utility">
+                    <div class="mobile-sign">
+                        <a href="https://reg.usps.com/entreg/LoginAction_input?app=Phoenix&amp;appURL=">Sign In</a>
+                    </div>
+                </div>
+                <nav class="site-nav">
+                    <ol class="menu--tier-one">
+                        <li class="usps-logo">
+                            <a href="https://www.usps.com/welcome.htm">
+                                <img src="/global-elements/header/images/utility-header/logo-sb.svg">
+                            </a>
+                        </li>
+                        <li class="menu--tier-one-category--quick-tools">
+                            <a href="#" class="quick-tools--trigger menu--tier-one-link menu--item"><span>Quick Tools</span></a>
+                        </li>
+                        <li class="menu--tier-one-category--mail-ship">
+                            <a href="https://www.usps.com/ship/welcome.htm" class="menu--tier-one-link menu--item"><span>Mail &amp; Ship</span><span class="tier_one_chevron">Open/Close Menu</span></a>
+                            <ol class="menu--tier-two">
+                                <li class="touchscreen-only">
+                                    <a href="https://www.usps.com/ship/welcome.htm" class="menu--tier-two-link">Mail &amp; Ship</a>
+                                </li>
+                                <li>
+                                    <a href="https://cns.usps.com/" class="menu--tier-two-link">Click-N-Ship</a>
+                                </li>
+                                <li>
+                                    <a href="https://store.usps.com/store/" class="menu--tier-two-link">Order Stamps &amp; Supplies</a>
+                                </li>
+                                <li>
+                                    <a href="https://postcalc.usps.com/" class="menu--tier-two-link">Calculate a Price</a>
+                                </li>
+                                <li>
+                                    <a href="https://tools.usps.com/go/ScheduleAPickupAction!input.action" class="menu--tier-two-link">Schedule a Pickup</a>
+                                </li>
+                                <li>
+                                    <a href="https://tools.usps.com/go/ZipLookupAction_input" class="menu--tier-two-link">Look Up a ZIP Code</a>
+                                </li>
+                                <li>
+                                    <a href="https://tools.usps.com/go/POLocatorAction!input.action" class="menu--tier-two-link">Find USPS Locations</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/help/welcome.htm" class="menu--tier-two-link">Claims &amp; Refunds</a>
+                                </li>									
+                                <li>
+                                    <a href="https://www.usps.com/ship/welcome.htm" class="menu--tier-two-link">Learn about Mail &amp; Shipping</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li class="menu--tier-one-category--track-manage">
+                            <a href="https://www.usps.com/manage/welcome.htm" class="menu--tier-one-link menu--item"><span>Track &amp; Manage</span><span class="tier_one_chevron">Open/Close Menu</span></a>
+                            <ol class="menu--tier-two">
+                                <li class="touchscreen-only">
+                                    <a href="https://www.usps.com/manage/welcome.htm" class="menu--tier-two-link">Track &amp; Manage</a>
+                                </li>
+                                <li>
+                                    <a href="https://tools.usps.com/go/TrackConfirmAction_input" class="menu--tier-two-link">Tracking</a>
+                                </li>
+                                <li>
+                                    <a href="https://informeddelivery.usps.com/" class="menu--tier-two-link">Informed Delivery</a>
+                                </li>
+                                <li>
+                                    <a href="https://retail-pi.usps.com/retailpi/actions/index.action" class="menu--tier-two-link">Intercept a Package</a>
+                                </li>
+                                <li>
+                                    <a href="https://redelivery.usps.com/redelivery/" class="menu--tier-two-link">Schedule a Redelivery</a>
+                                </li>
+                                <li>
+                                    <a href="https://holdmail.usps.com/holdmail/" class="menu--tier-two-link">Hold Mail</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/manage/forward.htm" class="menu--tier-two-link">Forward Mail</a>
+                                </li>
+                                <li>
+                                    <a href="https://moversguide.usps.com/?referral=MG80" class="menu--tier-two-link">Change of Address</a>
+                                </li>
+                                <li>
+                                    <a href="https://poboxes.usps.com/" class="menu--tier-two-link">Rent or Renew PO Box</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/manage/welcome.htm" class="menu--tier-two-link">Learn about Managing Mail</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li class="menu--tier-one-category--postal-store">
+                            <a href="https://store.usps.com/store/" class="menu--tier-one-link menu--item"><span>Postal Store</span><span class="tier_one_chevron">Open/Close Menu</span></a>
+                            <ol class="menu--tier-two">
+                                <li class="touchscreen-only">
+                                    <a href="https://store.usps.com/store/" class="menu--tier-two-link">Postal Store</a>
+                                </li>
+                                <li>
+                                    <a href="https://store.usps.com/store/browse/category.jsp?categoryId=buy-stamps"
+                                     class="menu--tier-two-link">Stamps</a>
+                                </li>
+                                <li>
+                                    <a href="https://store.usps.com/store/browse/category.jsp?categoryId=shipping-supplies"
+                                     class="menu--tier-two-link">Shipping Supplies</a>
+                                </li>
+                                <li>
+                                    <a href="https://store.usps.com/store/browse/category.jsp?categoryId=cards-envelopes"
+                                     class="menu--tier-two-link">Cards &amp; Envelopes</a>
+                                </li>
+                                <li>
+                                    <a href="https://store.usps.com/store/browse/category.jsp?categoryId=stamp-collectors"
+                                     class="menu--tier-two-link">Collectors</a>
+                                </li>
+                                <li>
+                                    <a href="https://store.usps.com/store/pse/" class="menu--tier-two-link">Personalized Stamped Envelopes</a>
+                                </li>
+                                <li>
+                                    <a href="https://store.usps.com/store/browse/category.jsp?categoryId=stamp-gifts"
+                                     class="menu--tier-two-link">Gifts</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/shop/money-orders.htm" class="menu--tier-two-link">Money Orders</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/shop/returns-exchanges.htm" class="menu--tier-two-link">Returns &amp;  Exchanges</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li class="menu--tier-one-category--business">
+                            <a href="https://www.usps.com/business/welcome.htm" class="menu--tier-one-link menu--item"><span>Business</span><span class="tier_one_chevron">Open/Close Menu</span></a>
+                            <ol class="menu--tier-two">
+                                <li class="touchscreen-only">
+                                    <a href="https://www.usps.com/business/welcome.htm" class="menu--tier-two-link">Business</a>
+                                </li>
+                                <li>
+                                    <a href="https://dbcalc.usps.com/" class="menu--tier-two-link">Calculate a  Business Price</a>
+                                </li>
+                                <li>
+                                    <a href="https://eddm.usps.com/eddm/customer/routeSearch.action" class="menu--tier-two-link">Every Door Direct Mail</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/business/business-shipping.htm" class="menu--tier-two-link">Shipping For Business</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/business/advertise-with-mail.htm" class="menu--tier-two-link">Advertise with Mail</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/business/postage-options.htm" class="menu--tier-two-link">Postage Options</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/business/return-services.htm" class="menu--tier-two-link">Returns Services</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/business/international-shipping.htm" class="menu--tier-two-link">Take Your Business Global</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/business/manage-mail.htm" class="menu--tier-two-link">Manage Business Mail</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li class="menu--tier-one-category--international">
+                            <a href="https://www.usps.com/international/welcome.htm" class="menu--tier-one-link menu--item"><span>International</span><span class="tier_one_chevron">Open/Close Menu</span></a>
+                            <ol class="menu--tier-two">
+                                <li class="touchscreen-only">
+                                    <a href="https://www.usps.com/international/welcome.htm" class="menu--tier-two-link">International</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/international/international-how-to.htm" class="menu--tier-two-link">Print &amp; Ship International</a>
+                                </li>
+                                <li>
+                                    <a href="https://ircalc.usps.com/" class="menu--tier-two-link">Calculate International Prices</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/international/mail-shipping-services.htm" class="menu--tier-two-link">International Mail Services</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/international/preparing-international-shipments.htm"
+                                     class="menu--tier-two-link">Preparing International Shipments</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/international/customs-forms.htm" class="menu--tier-two-link">Complete Customs Forms</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/ship/apo-fpo-dpo.htm?pov=international" class="menu--tier-two-link">Military &amp; Diplomatic Mail</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/international/money-transfers.htm" class="menu--tier-two-link">Send Money Abroad</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/international/passports.htm" class="menu--tier-two-link">Passports</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li class="menu--tier-one-category--help">
+                            <a href="https://www.usps.com/help/welcome.htm" class="menu--tier-one-link menu--item"><span>Help</span><span class="tier_one_chevron">Open/Close Menu</span></a>
+                            <ol class="menu--tier-two">
+                                <li class="touchscreen-only">
+                                    <a href="https://www.usps.com/help/welcome.htm" class="menu--tier-two-link">Help</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/help/missing-mail.htm" class="menu--tier-two-link">Find Missing Mail</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/help/claims.htm" class="menu--tier-two-link">File a Claim</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/help/refunds.htm" class="menu--tier-two-link">Request a Refund</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.usps.com/help/contact-us.htm" class="menu--tier-two-link">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="http://faq.usps.com/" class="menu--tier-two-link">FAQs</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li class="menu--tier-one-category--search">
+                            <a href="#" class="menu--tier-one-link menu--item"><span>Search USPS.com</span></a>
+                            <ol class="menu--tier-two">
+                            </ol>
+                        </li>
+                        <li class="menu--tier-one-category--expand">
+
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+<!--
+    <div class="alert-bar" style="">
+        <p>We are temporarily experiencing technical difficulties causing transactional payment
+            failures. We apologize for the inconvenience. <a href="#"><span style="">Read&nbsp;more</span></a></p>
+    </div>
+
+
+    <div class="alert-bar" style="">
+        <p><a href="http://about.usps.com/news/service-alerts/welcome.htm">Due to Winter Storm Stella, postal services may be interrupted in impacted areas. The Postal Service will continue to monitor. <span style="">Read&nbsp;more</span></a></p>
+    </div>
+
+<div class="alert-bar" style="">
+	<p>Some of our applications are undergoing maintenance from 7 AM ET through 11 AM ET, Wednesday, April 19. We apologize for any  inconvenience.</p>
+</div>
+
+    <div class="alert-bar" style="">
+        <p><a style="font-size: 14px;" href="http://about.usps.com/news/service-alerts/welcome.htm">Alert: USPS is currently restoring service across Hurricane Irma affected areas. <span style="">Read&nbsp;more</span></a></p>
+    </div>
+
+	<div class="alert-bar" style="">
+		<p>Alert: Some of our applications are undergoing maintenance from 7 PM ET through 10 PM ET, Sunday, September 17. We apologize for any inconvenience.</p>
+	</div>
+	
+
+
+
+    <div class="alert-bar" style="">
+        <p><a style="font-size: 14px;" href="https://www.usps.com/holiday/holiday-schedule.htm">Alert:&nbsp;Get Post Office&trade; holiday hours, deadlines, and tips, plus mail service alerts for US Virgin Islands and Puerto Rico. <span style="white-space:nowrap;">Read&nbsp;more</span></a></p>
+    </div>
+
+	-->
+	
+<script src="/global-elements/lib/script/requirejs/require.js"></script>
+<script type="text/javascript" src="/global-elements/header/script/login.js"></script>
+
+ <div class="search--wrapper-hidden" id='search--display' style="display:none">
+<div class="search-close"><a href="#"><img src="/global-elements/header/images/utility-header/close_x.svg" alt="close search"></a></div>
+	<span aria-hidden="false" class="input--wrap-label">
+		<label class="visuallyhidden" for="styleguide-header--search-track">Search USPS.com</label>
+	</span>
+<form method="get" class="search global-header--search" action="https://search.usps.com/search?client=responsive_ecom&output=xml_no_dtd&proxystylesheet=responsive_ecom&sort=date:D:L:d1&wc=200&wc_mc=1&oe=UTF-8&ie=UTF-8&ud=1&exclude_apps=1&site=usps_com%7Cfaq%7Cabout%7Cpostal_explorer&ulang=en&access=p&entqr=3&entqrm=0&filter=0">
+
+	<span aria-hidden="false" class="input--wrap">
+		<input autocomplete="on" placeholder="Search or Enter a Tracking Number" class="search--track-input input--field q" id="global-header--search-track" maxlength="256" name="q" type="text">
+		<input value="Search" class="input--search search--submit" type="submit">
+	</span>
+</form>
+
+        <div class="empty-search">
+            <p>Top Searches</p>
+            <ul>
+                <li><a href="http://search.usps.com/search?client=responsive_ecom&amp;output=xml_no_dtd&amp;proxystylesheet=responsive_ecom&amp;sort=date:D:L:d1&amp;wc=200&amp;wc_mc=1&amp;oe=UTF-8&amp;ie=UTF-8&amp;ud=1&amp;exclude_apps=1&amp;site=usps_com%7Cfaq%7Cabout%7Cpostal_explorer&amp;ulang=en&amp;access=p&amp;entqr=3&amp;entqrm=0&amp;filter=0&amp;q=PO%20Boxes">PO BOXES</a></li>
+                <li><a href="http://search.usps.com/search?client=responsive_ecom&amp;output=xml_no_dtd&amp;proxystylesheet=responsive_ecom&amp;sort=date:D:L:d1&amp;wc=200&amp;wc_mc=1&amp;oe=UTF-8&amp;ie=UTF-8&amp;ud=1&amp;exclude_apps=1&amp;site=usps_com%7Cfaq%7Cabout%7Cpostal_explorer&amp;ulang=en&amp;access=p&amp;entqr=3&amp;entqrm=0&amp;filter=0&amp;q=Passports">PASSPORTS</a></li>
+                <li><a href="http://search.usps.com/search?client=responsive_ecom&amp;output=xml_no_dtd&amp;proxystylesheet=responsive_ecom&amp;sort=date:D:L:d1&amp;wc=200&amp;wc_mc=1&amp;oe=UTF-8&amp;ie=UTF-8&amp;ud=1&amp;exclude_apps=1&amp;site=usps_com%7Cfaq%7Cabout%7Cpostal_explorer&amp;ulang=en&amp;access=p&amp;entqr=3&amp;entqrm=0&amp;filter=0&amp;q=Free%20Boxes">FREE BOXES</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="shortcuts-menu-wrapper">
+
+        <div id="shortcuts-menu" style="">
+            <div class="quicktools-container">
+                <div class="shortcuts-close">
+                    <a href="#">
+                        <img src="/global-elements/header/images/utility-header/close_x.svg" alt="close shortcuts">
+                    </a>
+                </div>
+                <div class="shortcuts-title">
+                    <h2>Quick Tools</h2>
+                </div>
+
+                <div class="short-container">
+                    <div class="shortcut sc-track">
+                        <a href="https://tools.usps.com/go/TrackConfirmAction_input">
+                            <span></span> Track a
+                            <br />Package
+                        </a>
+                    </div>
+                    <div class="shortcut sc-informed">
+                        <a href="https://informeddelivery.usps.com/">
+                            <span></span> Informed Delivery</a>
+                    </div>
+                    <div class="shortcut sc-loc">
+                        <a href="https://tools.usps.com/go/POLocatorAction!input.action">
+                            <span></span> Find USPS
+                            <br /> Locations </a>
+                    </div>
+                    <div class="shortcut sc-buy">
+                        <a href="https://store.usps.com/store/browse/category.jsp?categoryId=buy-stamps">
+                            <span></span> Buy Stamps </a>
+                    </div>
+                    <div class="shortcut sc-pick">
+                        <a href="https://tools.usps.com/go/ScheduleAPickupAction!input.action">
+                            <span></span> Schedule
+                            <br /> a Pickup </a>
+                    </div>
+                    <div class="shortcut sc-calc">
+                        <a href="https://postcalc.usps.com/">
+                            <span></span> Calculate
+                            <br /> a Price </a>
+                    </div>
+                    <div class="shortcut sc-zip">
+                        <a href="https://tools.usps.com/go/ZipLookupAction_input">
+                            <span></span> Look Up a
+                            <br /> ZIP&nbsp;Code<sup>&trade;</sup>
+                        </a>
+                    </div>
+                    <div class="shortcut sc-hold">
+                        <a href="https://holdmail.usps.com/holdmail/">
+                            <span></span> Hold Mail </a>
+                    </div>
+                    <div class="shortcut sc-change">
+                        <a href="https://moversguide.usps.com/?referral=MG82">
+                            <span></span> Change
+                            <br />My Address </a>
+                    </div>
+                    <div class="shortcut sc-pobox">
+                        <a href="https://poboxes.usps.com/">
+                            <span></span> Rent/Renew
+                            <br />a PO Box </a>
+                    </div>
+                    <div class="shortcut sc-boxes">
+                        <a href="https://store.usps.com/store/browse/subcategory.jsp?categoryId=free-shipping-supplies&amp;categoryNavIds=shipping-supplies%3Afree-shipping-supplies">
+                            <span></span> Free Boxes </a>
+                    </div>
+                </div>
+                <div class="shortcuts-menu-bg"></div>
+            </div>
+
+            <div class="mobile-quicktools" style="display:none;">
+                <div class="quicktools-title-close qt-close">
+                    <a href="#">
+                        <p class="qt--close">Close Tools</p>
+                    </a>
+                </div>
+                <div class='qt-scroll'>
+                    <div class="quicktools-open">
+                        <div class="quick--search">
+                            <form name="quick-tools--form-trackconfirm" id="quick-tools--form-trackconfirm" action="https://tools.usps.com/go/TrackConfirmAction">
+                                <span aria-hidden="false" class="input--wrap-label">
+            <label class="visuallyhidden" for="styleguide-header--search-track">Enter a Tracking Number</label>
+          </span>
+                                <span aria-hidden="false" class="input--wrap">
+            <input name="tLabels" autocomplete="off" placeholder="Enter a Tracking Number" class="input--field" id="quick-tools--input" maxlength="256" name="q" type="text">
+            <input value="Search" class="quick-tools--track--submit input--search search--submit" type="submit">
+          </span>
+                            </form>
+                        </div>
+                    <div class="shortcut sc-informed">
+                        <a href="https://informeddelivery.usps.com/">
+                            <span></span> Informed Delivery</a>
+                    </div>
+                        <div class="shortcut sc-buy">
+                            <a href="https://store.usps.com/store/browse/category.jsp?categoryId=buy-stamps">
+                                <span></span> Buy Stamps </a>
+                        </div>
+                        <div class="shortcut sc-loc">
+                            <a href="https://tools.usps.com/go/POLocatorAction!input.action">
+                                <span></span> Find USPS
+                                <br /> Locations
+                            </a>
+                        </div>
+                        <div class="shortcut sc-pick">
+                            <a href="https://tools.usps.com/go/ScheduleAPickupAction!input.action">
+                                <span></span> Schedule
+                                <br /> a Pickup </a>
+                        </div>
+
+                    </div>
+                    <div class="quicktools-full">
+                        <div class="shortcut sc-zip">
+                            <a href="https://tools.usps.com/go/ZipLookupAction_input">
+                                <span></span> Look Up a
+                                <br /> ZIP&nbsp;Code<sup>&trade;</sup>
+                            </a>
+                        </div>
+
+                        <div class="shortcut sc-calc">
+                            <a href="https://postcalc.usps.com/">
+                                <span></span> Calculate
+                                <br /> a Price </a>
+                        </div>
+
+                        <div class="shortcut sc-hold">
+                            <a href="https://holdmail.usps.com/holdmail/">
+                                <span></span> Hold Mail </a>
+                        </div>
+                        <div class="shortcut sc-change">
+                            <a href="https://moversguide.usps.com/?referral=MG82">
+                                <span></span> Change
+                                <br />My Address </a>
+                        </div>
+                        <div class="shortcut sc-pobox">
+                            <a href="https://poboxes.usps.com/">
+                                <span></span> Rent/Renew
+                                <br />a PO Box </a>
+                        </div>
+                        <div class="shortcut sc-boxes">
+                            <a href="https://store.usps.com/store/browse/subcategory.jsp?categoryId=free-shipping-supplies&amp;categoryNavIds=shipping-supplies%3Afree-shipping-supplies">
+                                <span></span> Free Boxes </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="qt-more" style="display:none;">
+                    <a href="#">
+                        <p class="full">More Tools</p>
+                    </a>
+                </div>
+                <div class="qt-boot" style="display:none;">
+                    <a href="#">
+                        <p class="full">Close Tools</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="quicktools-title" style="display:none;">
+        <a href="#">
+            <p>Quick Tools</p>
+        </a>
+    </div>
+
+
+<div id="ge-overlay" style="display:none;" class=""></div>
+
+
+<script src="/global-elements/lib/script/requirejs/require.js"></script>
+<script type="text/javascript" src="/global-elements/lib/script/jquery/dist/jquery.min.js"></script>
+<script src="/global-elements/lib/script/modernizr/modernizr.js"></script>
+<script type="text/javascript">
+	var GlobalJQueryv1_11 = jQuery.noConflict(true);
+        var locked = false;
+
+        function lockScroll() {
+            // lock scroll position, but retain settings for later
+
+            GlobalJQueryv1_11("html").addClass("noscroll");
+            GlobalJQueryv1_11("body").addClass("noscroll");
+
+            locked = true;
+        }
+
+        function unlockScroll() {
+            // un-lock scroll position
+
+            GlobalJQueryv1_11("html").removeClass("noscroll");
+            GlobalJQueryv1_11("body").removeClass("noscroll");
+
+            locked = false;
+        };
+
+        function resetContent() {
+            GlobalJQueryv1_11('#ge-overlay').removeClass('active');
+
+            GlobalJQueryv1_11('.quicktools-title p').removeClass('full');
+
+            GlobalJQueryv1_11(".menu--tier-one-category--search").removeClass('active');
+
+            unlockScroll();
+
+            //GlobalJQueryv1_11('.menu--tier-one-category--search').removeClass('active');            
+            //GlobalJQueryv1_11('.mobile-header .search-trigger').removeClass('active');
+            //GlobalJQueryv1_11('#search--display').removeClass("active");
+            //GlobalJQueryv1_11('#search--display').css("display", 'none');  
+
+            //GlobalJQueryv1_11('#shortcuts-menu').removeClass('active');
+        };
+
+        function positionSearchOverlay() {
+            var mq = window.matchMedia("(min-width: 700px)");
+
+            if (mq.matches) {
+                var topOff = GlobalJQueryv1_11(
+                        '.menu--tier-one-category--search a.menu--tier-one-link.menu--item').offset()
+                    .top +
+                    GlobalJQueryv1_11('.menu--tier-one-category--search a.menu--tier-one-link.menu--item').height() -
+                    7;
+                var leftOff = GlobalJQueryv1_11(
+                        'li.menu--tier-one-category--search a.menu--tier-one-link.menu--item').offset()
+                    .left - 518;
+                GlobalJQueryv1_11('#search--display.active').css("top", topOff);
+                GlobalJQueryv1_11('#search--display.active').css("left", leftOff);
+
+                /*
+                document.ontouchstart = function(e) {
+                    e.preventDefault();
+                }
+                */
+            } else {
+                document.ontouchstart = function(e) {
+                    return true;
+                }
+            }
+        };
+
+        function touchFixTabletLandscape() {
+            var mq = window.matchMedia("(min-width: 700px)");
+
+            if (mq.matches) {
+                if (GlobalJQueryv1_11("html").hasClass("touch")) {
+                    //alert("stuff");
+                    //The script below should be wrapped in a Modernizr check for touchstart  and also something to check that we are on a tablet, otherwise the logic below will impact the mobile nav.
+
+                    GlobalJQueryv1_11(".menu--tier-one-category--mail-ship .menu--tier-one-link, .menu--tier-one-category--help .menu--tier-one-link, .menu--tier-one-category--international .menu--tier-one-link, .menu--tier-one-category--business .menu--tier-one-link, .menu--tier-one-category--postal-store .menu--tier-one-link, .menu--tier-one-category--track-manage .menu--tier-one-link")
+                        .on("touchstart click", function(event) {
+                        //prevent the default link navigation
+                        event.preventDefault();
+
+                        //caching link selector for performance
+                        GlobalJQueryv1_11this = GlobalJQueryv1_11(this);
+
+                        //check if link has been triggeed once. if so user is probably trying to go to top level link so navigate there
+                        if (GlobalJQueryv1_11this.data('clicked-once')) {
+                            //window.location = GlobalJQueryv1_11this.attr('href');
+                        } else {
+                            //find the submenu and display it, then set that weve clicked this once
+                            GlobalJQueryv1_11this.find(".menu--tier-two").css("opacity", 1);
+                            GlobalJQueryv1_11this.data('clicked-once', true);
+                            //touchFixTabletLandscape();
+                        }
+                    });
+                } else {}
+            } else {}
+        };
+
+        function closeAll() {
+            GlobalJQueryv1_11('.qt-close').removeClass('active');
+            GlobalJQueryv1_11('.quicktools-open').css("height", "0px");
+            GlobalJQueryv1_11('.quicktools-full').css('height', '0px');
+            GlobalJQueryv1_11('.quicktools-title a p').text('Quick Tools').removeClass('partial');
+            GlobalJQueryv1_11('#global-menu.menu').removeClass('active');
+
+            GlobalJQueryv1_11('.quicktools-open').removeClass('active');
+            GlobalJQueryv1_11('.mobile-header .search-trigger').removeClass('active');
+
+            GlobalJQueryv1_11('.mobile-header .mobile-menu-trigger').removeClass('active');
+            GlobalJQueryv1_11('#ge-overlay').removeClass('active');
+            GlobalJQueryv1_11('.mobile-quicktools').removeClass('active');
+            //unlockScroll();
+        }
+
+        touchFixTabletLandscape();
+
+        GlobalJQueryv1_11(window).resize(function() {
+            resetContent();
+            positionSearchOverlay();
+
+            var mq = window.matchMedia("(min-width: 966px)");
+            if (mq.matches) {
+                GlobalJQueryv1_11('#search--display').removeClass("active");
+                GlobalJQueryv1_11('#search--display').css("display", 'none');
+
+                GlobalJQueryv1_11("#shortcuts-menu").removeClass("active");
+            }
+        });
+
+        GlobalJQueryv1_11(window).bind('orientationchange', function(event) {
+            resetContent();
+            positionSearchOverlay();
+            window.location.reload();
+            touchFixTabletLandscape();
+        });
+
+
+        //START SEARCH
+        GlobalJQueryv1_11('li.menu--tier-one-category--search a.menu--tier-one-link').on('click', function(e) {
+                GlobalJQueryv1_11('li.menu--tier-one-category--search').trigger('click');
+
+                GlobalJQueryv1_11("#ge-overlay").addClass("active");
+
+                positionSearchOverlay();
+            });
+
+
+        GlobalJQueryv1_11(".menu--tier-one-category--search, .menu--tier-one-category--search a, .search-close").on('click', function(e) {
+            GlobalJQueryv1_11(".menu--tier-one-category--search").toggleClass("active");
+            GlobalJQueryv1_11('#search--display').toggleClass("active");
+
+            positionSearchOverlay();
+
+            if (GlobalJQueryv1_11('#search--display').hasClass('active')) {
+
+                GlobalJQueryv1_11('#ge-overlay').addClass('active');
+                lockScroll();
+            } else {
+                GlobalJQueryv1_11('#ge-overlay').removeClass('active');
+                unlockScroll();
+                GlobalJQueryv1_11('.menu--tier-one-category--search').removeClass('active');
+
+            };
+
+            if (GlobalJQueryv1_11('#search--display').hasClass('active')) {
+                GlobalJQueryv1_11('.q').focus();
+            }
+
+            positionSearchOverlay()
+        });
+
+        //mobile search trigger
+        GlobalJQueryv1_11('.search-trigger a').on('click', function(e) {
+            GlobalJQueryv1_11('#global-menu').removeClass('active');
+
+            GlobalJQueryv1_11('.quicktools-title p').removeClass('full');
+
+            GlobalJQueryv1_11('.mobile-quicktools').removeClass('active');
+
+            GlobalJQueryv1_11('.mobile-header.mobile-menu-trigger').removeClass('active');
+
+            if (GlobalJQueryv1_11('.mobile-header .search-trigger').hasClass('active')) {
+
+                GlobalJQueryv1_11('.mobile-header .search-trigger').removeClass('active');
+                GlobalJQueryv1_11('#search--display').css('display', 'none');
+                GlobalJQueryv1_11('#ge-overlay').removeClass('active');
+                closeAll();
+                unlockScroll();
+
+            } else {
+                positionSearchOverlay();
+
+                GlobalJQueryv1_11('.mobile-header .search-trigger').addClass('active');
+                GlobalJQueryv1_11('#search--display').css('display', 'block');
+                GlobalJQueryv1_11('#ge-overlay').addClass('active');
+
+                GlobalJQueryv1_11('#search--input').focus();
+                
+                lockScroll();
+            }
+        });
+
+        // short cuts
+        GlobalJQueryv1_11(".quick-tools--trigger").on('touchstart click', function(e) {
+            GlobalJQueryv1_11("#shortcuts-menu").addClass("active");
+            GlobalJQueryv1_11("#ge-overlay").addClass('active');
+
+            if (locked) {
+                unlockScroll();
+            } else {
+                lockScroll();
+                GlobalJQueryv1_11('#search--display').removeClass("active");
+                GlobalJQueryv1_11('#search--display').css("display", 'none');
+            }
+        });
+
+        GlobalJQueryv1_11(".quicktools-container .shortcuts-close a").on('touchstart click', function(
+            e) {
+            GlobalJQueryv1_11("#shortcuts-menu").removeClass("active");
+            GlobalJQueryv1_11("#ge-overlay").removeClass('active');
+
+            if (locked) {
+                unlockScroll();
+            } else {
+                lockScroll();
+                GlobalJQueryv1_11('#search--display').removeClass("active");
+                GlobalJQueryv1_11('#search--display').css("display", 'none');
+            }
+        });
+
+
+        GlobalJQueryv1_11('#ge-overlay').on('touchstart click', function(e) {
+
+            GlobalJQueryv1_11("#shortcuts-menu").removeClass('active');
+
+            GlobalJQueryv1_11(".search--wrapper-hidden").removeClass('active');
+
+            GlobalJQueryv1_11('#search--display').css('display', 'none');
+            GlobalJQueryv1_11('#search--display').removeClass('active');
+            GlobalJQueryv1_11('.menu--tier-one-category--search').removeClass('active');
+
+
+            GlobalJQueryv1_11('.mobile-header.search-trigger').removeClass('active');
+
+            GlobalJQueryv1_11("#ge-overlay").removeClass('active');
+            //GlobalJQueryv1_11('#ge-overlay').addClass('non-active');
+            if (locked) {
+                unlockScroll();
+            } else {
+                lockScroll();
+            }
+
+            var mq = window.matchMedia("(max-width: 700px)");
+            if (mq.matches) {
+                GlobalJQueryv1_11('.mobile-header .search-trigger').removeClass('active');
+                GlobalJQueryv1_11('.mobile-quicktools').removeClass('active');
+
+                GlobalJQueryv1_11('.mobile-quicktools.active').removeAttr('style');
+                GlobalJQueryv1_11('.quicktools-open').removeClass('active');
+                GlobalJQueryv1_11('.quicktools-open').css('height', '0px');
+                GlobalJQueryv1_11('.quicktools-full').css('height', '0px');
+                GlobalJQueryv1_11('.quicktools-title a p').text('Quick Tools').removeClass('full');
+                GlobalJQueryv1_11('.qt-close').removeClass('active');
+                GlobalJQueryv1_11('.mobile-quicktools').removeClass('active');
+                GlobalJQueryv1_11('.qt-boot').css('display', 'none').removeClass('active');
+                GlobalJQueryv1_11('.mobile-quicktools.active').removeAttr('style');
+                //GlobalJQueryv1_11('#ge-overlay').removeClass('active');
+            }
+        });
+
+
+        //working
+        //Mobile menu trigger displays dropdown mobile menu with commented out code for overlay
+        GlobalJQueryv1_11('.mobile-header .mobile-menu-trigger').on('click', function(e) {
+
+            GlobalJQueryv1_11('.quicktools-title p').removeClass('full');
+
+            if (GlobalJQueryv1_11('#global-menu.menu').hasClass('active')) {
+                closeAll();
+                GlobalJQueryv1_11('.mobile-header .mobile-menu-trigger').removeClass('active');
+                GlobalJQueryv1_11('.ge-overlay').addClass('active');
+
+                //added code to reset open menu
+                e.preventDefault();
+                GlobalJQueryv1_11('.ge_parent').removeAttr('style').removeClass('ge_parent');
+
+                unlockScroll();
+            } else {
+
+                GlobalJQueryv1_11('.menu--tier-one-category--search').removeClass('active');            
+                GlobalJQueryv1_11('.mobile-header .search-trigger').removeClass('active');
+                GlobalJQueryv1_11('#search--display').removeClass("active");
+                GlobalJQueryv1_11('#search--display').css("display", 'none'); 
+
+                closeAll();
+                GlobalJQueryv1_11('#global-menu.menu').addClass('active');
+                GlobalJQueryv1_11('.mobile-header .mobile-menu-trigger').addClass('active');
+                GlobalJQueryv1_11('.ge-overlay').addClass('active');
+
+                lockScroll();
+            }
+        });
+
+        //menu active in mobile
+
+        GlobalJQueryv1_11('[placeholder]').focus(function() {
+            var input = GlobalJQueryv1_11(this);
+            if (input.val() == input.attr('placeholder')) {
+                input.val('');
+                //input.removeClass('placeholder');
+            }
+        }).blur(function() {
+            var input = GlobalJQueryv1_11(this);
+            if (input.val() == '' || input.val() == input.attr('placeholder')) {
+                //input.addClass('placeholder');
+                input.val(input.attr('placeholder'));
+            }
+        }).blur();
+        GlobalJQueryv1_11('[placeholder]').parents('form').submit(function() {
+            GlobalJQueryv1_11(this).find('[placeholder]').each(function() {
+                var input = GlobalJQueryv1_11(this);
+                if (input.val() == input.attr('placeholder')) {
+                    input.val('');
+                }
+            })
+        });
+
+
+
+//change to js contained in the header file
+
+
+
+if (GlobalJQueryv1_11(window).width()<=959){
+            // if menu item is clicked and it isn't chevron follow link unless
+			// check that parent is open first
+  GlobalJQueryv1_11('.menu .menu--tier-one li:has(ol) a span').not('.menu--tier-two li a, .menu .menu--tier-one li:has(ol) a span.tier_one_chevron').on('click touchstart', function(e) {
+                    if (!GlobalJQueryv1_11(this).parent().parent().hasClass('ge_parent')) {
+
+						e.preventDefault();
+                        tpOff = 0;
+                        GlobalJQueryv1_11('.ge_parent').removeClass('ge_parent');
+                        GlobalJQueryv1_11(this).parent().parent().addClass('ge_parent');
+                        GlobalJQueryv1_11('#global-menu').animate({
+                            scrollTop: tpOff
+                        }, 10);
+                        //console.log('Reset');
+                        if (GlobalJQueryv1_11(this).offset().top - 50 < 0) {
+                            tpOff = (GlobalJQueryv1_11(this).offset().top - 50) * -1;
+                        } else {
+                            tpOff = GlobalJQueryv1_11(this).offset().top - 50;
+                        }
+                        //console.log(tpOff);
+                        GlobalJQueryv1_11('#global-menu').animate({
+                            scrollTop: tpOff
+                        }, 300);
+                    } else {
+						if (GlobalJQueryv1_11(this).hasClass('tier_one_chevron')){
+							e.preventDefault();
+						} else {	a = GlobalJQueryv1_11(this);
+									window.location = GlobalJQueryv1_11(this).parent().attr('href');
+									GlobalJQueryv1_11(this).removeClass('ge_parent');
+									GlobalJQueryv1_11('#global-menu').animate({
+										scrollTop: 0
+									}, 10);
+								}
+
+                    }
+					
+		});
+            // quickfix to bind actions to chevron as well
+           // GlobalJQueryv1_11(' .menu .menu--tier-one li:has(ol) a span.tier_one_chevron').on('click touchstart',   function(e) {
+		GlobalJQueryv1_11('.menu .menu--tier-one li:has(ol) a span.tier_one_chevron').on('click touchstart', function(e) {
+					e.preventDefault();
+                    if (!GlobalJQueryv1_11(this).parent().parent().hasClass('ge_parent')) {
+                        e.preventDefault();
+                        GlobalJQueryv1_11('.ge_parent').removeClass('ge_parent');
+                        GlobalJQueryv1_11(this).parent().parent().addClass('ge_parent');
+                    } else {
+                        e.preventDefault();
+                        GlobalJQueryv1_11(this).parent().parent().removeClass('ge_parent');
+                    }
+                });
+
+
+            //click on overlay, remove parent class and close menu
+            GlobalJQueryv1_11("#ge-overlay").on('touchstart click', function(e) {
+                GlobalJQueryv1_11('.ge_parent').removeClass('ge_parent');
+
+                GlobalJQueryv1_11('#global-menu.menu').removeClass('active');
+                //GlobalJQueryv1_11('#global-menu.menu').addClass('non-active');
+                GlobalJQueryv1_11('#ge-overlay').removeClass('mobile-active');
+
+                GlobalJQueryv1_11('.menu--tier-one-category--search').toggleClass('active');
+                //GlobalJQueryv1_11(".search--wrapper-hidden").removeClass('active');
+            });
+        }
+
+
+        GlobalJQueryv1_11("#ge-overlay, .search--wrapper-hidden").bind(
+            'touchmove',
+            function(e) {
+                e.preventDefault();
+            }
+        );
+
+
+        // mobile quicktools
+
+        GlobalJQueryv1_11(".quicktools-title, .qt-more").on('click', function(e) {
+            e.preventDefault();
+            var qt1 = GlobalJQueryv1_11('.quicktools-open').css('height');
+            var qt2 = GlobalJQueryv1_11('.quicktools-full').css('height');
+
+            if ((GlobalJQueryv1_11(window).width() < 373)) {
+
+                // if qt1 and qt2 are closed (height = 0)
+                if ((qt1 == '0px') && (qt2 == '0px')) {
+                    closeAll();
+                    GlobalJQueryv1_11('.quicktools-open').addClass('active');
+                    GlobalJQueryv1_11('.quicktools-open').css('height', '100%');
+                    GlobalJQueryv1_11('.quicktools-full').css('height', '100%');
+                    GlobalJQueryv1_11('.quicktools-title a p').addClass('full').text('Close Tools');
+                    GlobalJQueryv1_11('.mobile-quicktools').addClass('active');
+                    GlobalJQueryv1_11('.mobile-quicktools.active').css('height', '94%');
+                    GlobalJQueryv1_11('.qt-boot').css('display', 'block').addClass('active');
+                    GlobalJQueryv1_11('.qt-close').addClass('active');
+
+                    lockScroll();
+                    GlobalJQueryv1_11('#ge-overlay').addClass('active');
+
+                }
+
+                // if qt1 and qt2 are not closed (height = 0)
+                if ((qt1 != '0px') && (qt2 != '0px')) {
+                    GlobalJQueryv1_11('.quicktools-open').removeClass('active');
+                    GlobalJQueryv1_11('.quicktools-open').css('height', '0');
+                    GlobalJQueryv1_11('.quicktools-full').css('height', '0');
+                    GlobalJQueryv1_11('.quicktools-title a p').text('QuickTools').removeClass('full');
+                    GlobalJQueryv1_11('.qt-close').removeClass('active');
+                    GlobalJQueryv1_11('.mobile-quicktools').removeClass('active');
+                    closeAll();
+                    GlobalJQueryv1_11('.qt-boot').css('display', 'none').removeClass('active');
+
+                    GlobalJQueryv1_11('.qt-close').removeClass('active');
+
+                    unlockScroll();
+                    GlobalJQueryv1_11('#ge-overlay').removeClass('active');
+                    GlobalJQueryv1_11('.mobile-quicktools.active').removeAttr('style');
+
+                }
+            }
+
+            if ((GlobalJQueryv1_11(window).width() > 480) && ((GlobalJQueryv1_11(window).width() <= 736))) {
+                // if qt1 and qt2 are closed (height = 0)
+                if ((qt1 == '0px') && (qt2 == '0px')) {
+                    closeAll();
+                    GlobalJQueryv1_11('.quicktools-open').addClass('active');
+                    GlobalJQueryv1_11('.quicktools-open').css('height', '100%');
+                    GlobalJQueryv1_11('.quicktools-full').css('height', '100%');
+                    GlobalJQueryv1_11('.quicktools-title a p').addClass('full').text('Close Tools');
+                    GlobalJQueryv1_11('.mobile-quicktools').addClass('active');
+                    GlobalJQueryv1_11('.mobile-quicktools.active').css('height', '94%');
+                    GlobalJQueryv1_11('.qt-boot').css('display', 'block').addClass('active');
+                    GlobalJQueryv1_11('.qt-close').addClass('active');
+
+                    lockScroll();
+                    GlobalJQueryv1_11('#ge-overlay').addClass('active');
+                }
+
+                // if qt1 and qt2 are not closed (height = 0)
+                if ((qt1 != '0px') && (qt2 != '0px')) {
+                    GlobalJQueryv1_11('.quicktools-open').removeClass('active');
+                    GlobalJQueryv1_11('.quicktools-open').css('height', '0');
+                    GlobalJQueryv1_11('.quicktools-full').css('height', '0');
+                    GlobalJQueryv1_11('.quicktools-title a p').text('QuickTools').removeClass('full');
+                    GlobalJQueryv1_11('.qt-close').removeClass('active');
+                    GlobalJQueryv1_11('.mobile-quicktools').removeClass('active');
+                    closeAll();
+                    GlobalJQueryv1_11('.qt-boot').css('display', 'none').removeClass('active');
+
+                    GlobalJQueryv1_11('.qt-close').removeClass('active');
+
+                    unlockScroll();
+                    GlobalJQueryv1_11('#ge-overlay').removeClass('active');
+                    GlobalJQueryv1_11('.mobile-quicktools.active').removeAttr('style');
+
+                }
+            }
+
+
+            if ((GlobalJQueryv1_11(window).width() <= 538) && (GlobalJQueryv1_11(window).width() > 373)) {
+
+                // if qt1 and qt2 are closed (height = 0)
+                if ((qt1 == '0px') && (qt2 == '0px')) {
+                    closeAll();
+                    GlobalJQueryv1_11('.quicktools-open').addClass('active');
+                    GlobalJQueryv1_11('.quicktools-open').css('height', '100%');
+                    GlobalJQueryv1_11('.quicktools-title a p').addClass('partial').text('More Tools');
+                    GlobalJQueryv1_11('.qt-close').addClass('active');
+                    GlobalJQueryv1_11('.mobile-quicktools').addClass('active');
+                    GlobalJQueryv1_11('#ge-overlay').addClass('active');
+                    GlobalJQueryv1_11('.qt-more').css('display', 'block').addClass('active');
+                    lockScroll();
+                } else if ((qt1 != '0px') && (qt2 == '0px')) {
+                    // if qt1 and qt2 are closed (height = 0)
+                    GlobalJQueryv1_11('.quicktools-full').css("height", "100%");
+                    GlobalJQueryv1_11('.quicktools-title a p').addClass('full').text('Close Tools');
+                    GlobalJQueryv1_11('.quicktools-full').addClass('active');
+                    GlobalJQueryv1_11('.qt-more').css('display', 'none').removeClass('active');
+                    GlobalJQueryv1_11('.qt-boot').css('display', 'block').addClass('active');
+                    GlobalJQueryv1_11('.mobile-quicktools.active').css('height', '94%');
+                } else if ((qt1 != '0px') && (qt2 != '0px')) {
+                    // if qt1 and qt2 are open (height = 0)
+                    GlobalJQueryv1_11('.mobile-quicktools.active').removeAttr('style');
+                    GlobalJQueryv1_11('.quicktools-open').removeClass('active');
+                    GlobalJQueryv1_11('.quicktools-open').css('height', '0px');
+                    GlobalJQueryv1_11('.quicktools-full').css('height', '0px');
+                    GlobalJQueryv1_11('.quicktools-title a p').text('Quick Tools').removeClass('full');
+                    GlobalJQueryv1_11('.qt-close').removeClass('active');
+                    GlobalJQueryv1_11('.mobile-quicktools').removeClass('active');
+                    GlobalJQueryv1_11('.qt-boot').css('display', 'none').removeClass('active');
+                    GlobalJQueryv1_11('.mobile-quicktools.active').removeAttr('style');
+                    GlobalJQueryv1_11('#ge-overlay').removeClass('active');
+
+                    unlockScroll();
+                }
+            }
+
+            if ((GlobalJQueryv1_11(window).width() > 538) && (GlobalJQueryv1_11(window).width() < 959)) {
+                // if qt1 and qt2 are closed (height = 0)
+                if ((qt1 == '0px') && (qt2 == '0px')) {
+                    closeAll();
+                    GlobalJQueryv1_11('.quicktools-open').addClass('active');
+                    GlobalJQueryv1_11('.quicktools-open').css('height', '100%');
+                    GlobalJQueryv1_11('.quicktools-full').css('height', '100%');
+                    GlobalJQueryv1_11('.quicktools-title a p').addClass('full').text('Close Tools');
+                    GlobalJQueryv1_11('.mobile-quicktools').addClass('active');
+                    lockScroll();
+                    GlobalJQueryv1_11('#ge-overlay').addClass('active');
+                    GlobalJQueryv1_11('.qt-boot').css('display', 'block').addClass('active');
+
+                }
+
+                // if qt1 and qt2 are not closed (height = 0)
+                if ((qt1 != '0px') && (qt2 != '0px')) {
+                    GlobalJQueryv1_11('.quicktools-open').removeClass('active');
+                    GlobalJQueryv1_11('.quicktools-open').css('height', '0');
+                    GlobalJQueryv1_11('.quicktools-full').css('height', '0');
+                    GlobalJQueryv1_11('.quicktools-title a p').text('QuickTools').removeClass('full');
+                    GlobalJQueryv1_11('.qt-close').removeClass('active');
+                    GlobalJQueryv1_11('.mobile-quicktools').removeClass('active');
+                    GlobalJQueryv1_11('.qt-boot').css('display', 'none').removeClass('active');
+                    closeAll();
+                    unlockScroll();
+                    GlobalJQueryv1_11('#ge-overlay').removeClass('active');
+                    GlobalJQueryv1_11('.mobile-quicktools.active').removeAttr('style');
+
+                }
+
+            }
+
+        });
+
+        GlobalJQueryv1_11('.qt-close, .qt-boot').on('click', function(e) {
+            e.preventDefault();
+            GlobalJQueryv1_11('.quicktools-open').removeClass('active');
+            GlobalJQueryv1_11('.quicktools-open').css('height', '0px');
+            GlobalJQueryv1_11('.quicktools-full').css('height', '0px');
+            GlobalJQueryv1_11('.quicktools-title a p').text('QuickTools').removeClass('full');
+            GlobalJQueryv1_11('.qt-close').removeClass('active');
+            GlobalJQueryv1_11('.mobile-quicktools.active').removeAttr('style');
+            GlobalJQueryv1_11('.mobile-quicktools').removeClass('active');
+
+            GlobalJQueryv1_11('.qt-boot').css('display', 'none').removeClass('active');
+
+            unlockScroll();
+            GlobalJQueryv1_11('#ge-overlay').removeClass('active');
+
+        });
+        // end mobile quicktools
+
+
+        //place language selector
+        //assign bg color to language
+        if (GlobalJQueryv1_11("html").hasClass("no-touch")) {
+            GlobalJQueryv1_11('.utility-links #nav-tool-multilingual-header').hover(function(e) {
+                placeLanguage();
+                GlobalJQueryv1_11('.utility-links #lang_select').addClass('active');
+                GlobalJQueryv1_11('.utility-links .nav-tool-header a.anchor').addClass('highlight');
+            }, function(e) {
+                GlobalJQueryv1_11('.utility-links #lang_select').removeClass('active');
+                GlobalJQueryv1_11('.utility-links .nav-tool-header a.anchor').removeClass('highlight');
+            });
+            GlobalJQueryv1_11('#lang_select .content div').hover(function(e) {
+                GlobalJQueryv1_11('.utility-links .nav-tool-header a.anchor').addClass('highlight');
+            }, function(e) {
+                GlobalJQueryv1_11('.utility-links .nav-tool-header a.anchor').removeClass('highlight');
+            });
+        }
+
+        if (GlobalJQueryv1_11("html").hasClass("touch")) {
+            GlobalJQueryv1_11('.utility-links #nav-tool-multilingual-header').on('touchstart click', function(e) {
+                    placeLanguage();
+                    GlobalJQueryv1_11('.utility-links #lang_select').toggleClass('active');
+                    GlobalJQueryv1_11('.utility-links .nav-tool-header a.anchor').toggleClass('highlight');
+            });
+            GlobalJQueryv1_11('#lang_select .content div').on('click', function(e) {
+                GlobalJQueryv1_11('.utility-links .nav-tool-header a.anchor').toggleClass('highlight');
+                GlobalJQueryv1_11('.nav-window-header').toggleClass('active');
+
+            });
+			GlobalJQueryv1_11('#lang_select .content div').hover(function(e){
+				GlobalJQueryv1_11('.utility-links .nav-tool-header a.anchor').addClass('highlight');
+			}, function(e){
+				GlobalJQueryv1_11('.utility-links .nav-tool-header a.anchor').removeClass('highlight');
+			});
+			
+            GlobalJQueryv1_11('.nav-tool-header .anchor').on('click', function(e) {
+                GlobalJQueryv1_11('.nav-window-header').toggleClass('active');
+                GlobalJQueryv1_11('.utility-links .nav-tool-header a.anchor').toggleClass('highlight');
+            });
+        }
+
+
+        function placeLanguage() {
+            var lft = GlobalJQueryv1_11('.utility-links #nav-tool-multilingual-header').offset().left;
+            var tp = GlobalJQueryv1_11('.utility-links #nav-tool-multilingual-header').offset().top;
+            GlobalJQueryv1_11("div#lang_select").offset({
+                top: tp + 20,
+                left: lft
+            });
+        }
+		
+		
+		/* Speech Bubble Tool Tip */
+		GlobalJQueryv1_11('body').on('click','.speech_bubble.tool_tip_text a', function(e){
+			window.open(GlobalJQueryv1_11(this).attr('href'));
+		});
+		
+</script>
+
+
+  <link href="/global-elements/header/script/search/easy-autocomplete.min.css" rel="stylesheet" type="text/css"/>
+
+<script src="/global-elements/lib/script/requirejs/require.js"></script>
+<script src="/global-elements/header/script/header-init-search.js"></script>
+<script type="text/javascript" src="https://www.usps.com/assets/script/component-guide-init-search-alt.js"></script>
+
+
+ <!-- IVA Required code (CSS) -->
+ <style>
+#alme-container,.alme-global-launches {
+    z-index: 999 !important;
+}
+ </style>
+<link type="text/css" href="https://www.usps.com/chatbot/prod/NIT.Alme.Combined.min.css" rel="stylesheet">
+ <!-- END IVA Required code (CSS) -->
+ 
+<!-- IVA Required HTML code -->
+  <nit-iva-container ng-app="alme"></nit-iva-container>
+<!-- END IVA Required HTML code -->
+			  
+		
+      <!-- END GLOBAL HEADER -->
+	  
+    <div class="container-fluid full-subheader"> <!-- Subheader -->
+      <h1>USPS Tracking<sup>&reg;</sup></h1>
+      <div class="subheader_links">
+        <a href="#" class="active">Tracking <i class="icon-carat_right"></i></a>
+        <a href="http://faq.usps.com/?articleId=220900" class="" target="_blank">FAQs <i class="icon-carat_right"></i></a>
+      </div>
+    </div><!-- End Subheader -->
+
+	<div class="container-fluid tracking_form_container"> <!-- Track another package, tracking number entry form -->
+      <div class="row">
+        <div class="col-sm-10">
+          <h3><a class="track-another-package-open" href="#">Track Another Package <i>+</i></a></h3>
+          <span class="cancel"><a href="#" class="track-another-package-close">Close <i class="icon-cancel"></i></a></span>
+        </div>
+      </div>
+      <div class="row tracking-group" style="display: none">
+
+	  <!-- Start TRACKING FORM -->
+	  <form data-toggle="validator" action="TrackConfirmAction" name="TrackConfirmAction" id="trackPackage" method="GET">
+		<input type="hidden" id="tRef" name="tRef" value="fullpage"/>
+		<input type="hidden" id="tLc" name="tLc" value="0"/>
+		<input type="hidden" id="text28777" name="text28777" value=""/>
+		<input type="hidden" id="tLabels" name="tLabels" value=""/>
+		<div class="col-sm-10">
+			<div class="form-group">
+			  <textarea type="text" class="form-control" id="tracking-input" placeholder="Enter up to 35 tracking numbers separated by commas" required pattern="(((,[1-9])\d+)){1,35}" required data-pattern-error="Please enter a valid tracking number" data-required-error="Please enter a tracking number."></textarea>
+			  <div class="help-block with-errors"></div>
+			</div>
+		</div>
+		<div class="col-sm-2 track-btn-ctn">
+		  <button class="button tracking-btn" type="submit">Track</button>
+		</div>
+	  </form>
+	  <!-- End TRACKING FORM -->
+
+      </div>
+      </div><!-- END Track another package, tracking number entry form -->
+
+    <div id="tracked-numbers"> <!-- Container for all tracking numbers, includes available actions  -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+											
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		   
+		
+	
+	
+	
+	
+		
+		
+	
+
+
+	<div class="track-bar-container"> <!-- Tracking bar with available actions underneath -->
+
+	<!-- .container-fluid -->
+        <div class="container-fluid">
+          <a class="remove-span" href="#">Remove <i class="icon-cancel"></i></a>
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+
+		<!-- ADP -->
+		
+			
+			
+				
+				
+					
+					
+					
+				
+				
+			
+		
+		<!-- End ADP -->
+
+              <div class="product_summary delivery_alert">
+		
+				
+
+                <h3 class="tracking_number">
+                  Tracking Number:
+                  <span class="tracking-number"> DEADMAILNM</span>
+               </h3>
+
+		<!-- START pdd, edd, gdd, etc. -->
+		<div class="expected_delivery">
+
+		<!-- Start status summary -->
+		
+		   
+				
+				   
+				   
+				   
+				   
+					  <p>The return on your item was processed on January 23, 2018 at 8:54 am in BOUNTIFUL, UT 84010.</p>
+				   
+				
+		   
+		   
+		
+		<!-- end status summary -->
+		
+		<!-- begin -->
+		
+		
+		
+		
+
+		
+	
+			
+		
+
+	
+	</div>
+	<!-- END pdd, edd, gdd, etc. -->
+
+		<div class="delivery_status">
+                  <h3>
+                    Status<span class="colon">:</span>
+                  </h3>
+                  <h2>
+                  
+				
+				
+				
+				
+				
+				
+				
+				
+					<strong>Alert</strong>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+                  </h2>
+				  
+                  <div class="status_feed">
+				  
+                    <p>January 23, 2018 at 8:54 am</p>
+				  
+                    <p class="important">Return to Sender Processed</p>
+                    <p>BOUNTIFUL,&nbsp;UT&nbsp;84010&nbsp;</p>
+					
+					
+					
+					
+					
+		
+		
+					<!-- Anchor links -->
+					<!-- Get text and email updates -->
+					
+					   
+					      <a href="#" class="action_jump" data-action="get-updates">Get Updates <i class="icon-carat_down"></i></a><br />
+					   
+					
+					
+					<!-- Change Delivery Instructions -->
+					
+
+					
+							
+					<!-- schedule redelivery -->
+					
+
+                  </div>
+				  
+		
+		
+		
+
+		
+		
+				
+				  
+                </div>
+
+			  
+				
+				
+				
+				
+				
+				
+				
+				
+					<div class="status_bar status_4">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+                  <!-- Can be status_0 through status_6 -->
+                  <!-- Everything else in the bar happens automatically -->
+                  <div class="bar_third bar_third_1"><span></span></div>
+                  <div class="bar_third bar_third_2"><span></span></div>
+                  <div class="bar_third bar_third_3"><span></span></div>
+				  
+			  
+				
+				
+				
+				
+				
+				
+				
+				
+					<span class="text_explanation">Alert</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				  
+                </div>
+
+              </div> <!-- END Product Summary -->
+
+			
+              <!-- Product Tracking Information -->
+              <div class="product_additional_information">
+
+                <!-- Product Tracking Details -->
+                <div class="product_tracking_details">
+
+
+                  <!-- AVAILABLE ACTIONS -->
+                  <!-- This is the parent container for the available actions accordion menu -->
+                  <div class="actions_contain">
+
+                    <!-- Accordion Actions -->
+                    <div class="panel-group" id="accordion-actions-1" role="tablist" aria-multiselectable="true">
+
+					
+	                   <div class="panel panel-default get-updates-anchor"><!-- Text and Email Updates -->
+							
+
+
+
+ <div class="panel-heading collapser" role="tab" data-parent="#accordion-actions" aria-expanded="true" aria-contro>
+	<h4 class="panel-title">
+	 <a href="#" role="button" data-parent="#accordion-actions" aria-expanded="true" aria-controls="collapseTwo" class="collapsed" id="">
+		<span class="panel-word">Text & Email Updates</span>
+		<span class="carat-group"><span role="button" data-parent="#accordion-actions" aria-expanded="true" aria-controls="collapseTwo" class="down-arr" ><span class="icon-carat_down"></span></span><span role="button" data-parent="#accordion-actions" aria-expanded="true" aria-controls="collapseTwo" class="up-arr" ><span class="icon-carat_up"></span></span></span>
+	 </a>
+	</h4>
+ </div>
+ <div id="textAndEmailUpdatesPanel_1" class="panel-collapse collapse textAndEmailUpdatesPanel" role="tabpanel" aria-labelledby="headingOne">
+	<div class="panel-body euPanalAction"> <!-- Body content for third panel, 'Email Updates' -->
+	  <form action="/go/TrackConfirmRequestUpdateAJAXAction.action" id="textAndEmailUpdate_1" class="actions_form actions_email_updates textAndEmailUpdate" data-toggle="validator" role="form" novalidate="true">
+	  
+	  <input type="hidden" name="label" value="DEADMAILNM" />
+	  
+		<div class="row">
+		 <div class="panel-actions-content">
+			<p style="font-size: 14px;"><strong>Select what types of updates you'd like to receive and how. Send me a notification for:</strong></p>
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="checkbox-wrapper_1" class="actions-priced" style="margin-left:0px;">
+						<div class="form-group">	
+							<div class="row">
+								<div class="col-xs-2 col-sm-1">
+									<div>
+										<p id="text-update-label"><strong>Text</strong></p>
+									</div>
+								</div>
+								<div class="col-xs-10 col-sm-11">
+									<div style="margin-left:-25px;">
+										<p id="email-update-label"><strong>Email</strong></p>
+									</div>
+								</div>
+							</div><!--row-->
+						</div>
+
+						<div class="form-group">	
+							<div class="row">
+								<div class="col-xs-2 col-sm-1">
+									<div class="checkbox checkbox-group textallbelowupdates" style="margin-top:10px;margin-bottom:0px;">
+										<label style="font-size: 14px;" for="textAll_1" class="specific-check-label specific-label check-label label-choice">
+										<input id="textAll_1" type="checkbox" class="text-updates-label textallbelowupdates textupdates_1" name="textAll" data-error="You must select an option in order to submit this form" class="form-control" />
+											<span></span>
+											<!--All Below Updates-->
+										</label>
+										<div class="help-block with-errors"></div>
+									</div>
+								</div>
+								<div class="col-xs-10 col-sm-11">
+									<div style="float:left;margin-left:-25px;" class="checkbox checkbox-group  emailallbelowupdates">
+										<label for="emailAll_1" class="specific-check-label specific-label check-label label-choice" style="font-size:12.5px;font-weight:normal;">
+										<input id="emailAll_1" type="checkbox" class="email-updates-label emailallbelowupdates emailupdates_1" name="emailAll" data-error="You must select an option in order to submit this form" class="form-control" />
+									 <span></span>
+									 <!--All Below Updates-->
+									</label>
+									<div class="help-block with-errors"></div>
+									</div>
+								<div style="float:left;margin-top:10px;">
+									<span>All Below Updates</span>
+								</div>
+								</div>
+							</div><!--row-->
+						</div>
+						
+							<div class="form-group">
+								<div class="row">
+									<div class="col-xs-2 col-sm-1">
+										
+											<div class="checkbox checkbox-group textexpecteddeliveryupdates">
+												<label style="font-size: 14px;" for="textFuture_1" class="specific-check-label specific-label check-label label-choice">
+												<input id="textFuture_1" type="checkbox" class="text-updates-label textexpecteddeliveryupdates text-enabled-option textupdates_1" name="textFuture" data-error="You must select an option in order to submit this form" class="form-control" />
+												<span></span>
+												<!--Expected Delivery Updates-->
+												</label>
+											</div>
+										
+								</div>
+								<div class="col-xs-10 col-sm-11">
+									
+										<div style="float:left;margin-left:-25px;" class="checkbox checkbox-group emailexpecteddeliveryupdates">
+											<label for="emailFuture_1" class="specific-check-label specific-label check-label label-choice" style="font-size:12.5px;font-weight:normal;">
+											<input id="emailFuture_1" type="checkbox" class="email-updates-label emailexpecteddeliveryupdates email-enabled-option emailupdates_1" name="emailFuture" data-error="You must select an option in order to submit this form" class="form-control" />
+											 <span></span>
+											 <!--Expected Delivery Updates-->
+											</label>
+										</div>
+										
+									<div style="float:left;margin-top:10px;">
+										<span>Expected Delivery Updates</span>
+										<span role="button" href="#" class="hint">
+										 <i class="icon-tooltip"></i>
+										 <span class="speech_bubble tool_tip_text" data-toggle="tooltip">
+											<p style="margin-bottom:0px;">Receive a message when the expected delivery date is available or changes or your package is out for delivery. If available, a delivery time window will be provided.</p>
+										 </span>
+										</span>
+									</div>
+								</div>
+								</div><!--row-->
+							</div>
+							
+						
+							<div class="form-group">
+								<div class="row">
+								<div class="col-xs-2 col-sm-1">
+									
+										<div class="checkbox checkbox-group textdayofdeliveryupdates">
+											<label style="font-size: 14px;" for="textToday_1" class="specific-check-label specific-label check-label label-choice">
+											<input id="textToday_1" type="checkbox" class="text-updates-label textdayofdeliveryupdates text-enabled-option textupdates_1" name="textToday" data-error="You must select an option in order to submit this form" class="form-control" />
+												<span></span>
+												<!--Day of Delivery Updates-->
+											</label>
+											<span role="button" href="#" class="hint">
+											</span>
+										</div>
+									
+								</div>
+								<div class="col-xs-10 col-sm-11">
+									
+										<div style="float:left;margin-left:-25px;" class="checkbox checkbox-group emaildayofdeliveryupdates">
+											<label for="emailToday_1" class="specific-check-label specific-label check-label label-choice" style="font-size:12.5px;font-weight:normal;">
+											<input id="emailToday_1" type="checkbox" class="email-updates-label emaildayofdeliveryupdates email-enabled-option emailupdates_1" name="emailToday" data-error="You must select an option in order to submit this form" class="form-control" />
+											 <span></span>
+											 <!--Day of Delivery Updates-->
+											</label>
+											<div class="help-block with-errors"></div>
+										</div>
+									
+									<div style="float:left;margin-top:10px;">
+										<span>Day of Delivery Updates</span>
+										<span role="button" href="#" class="hint">
+										 <i class="icon-tooltip"></i>
+										 <span class="speech_bubble tool_tip_text" data-toggle="tooltip">
+											<p style="margin-bottom:0px;">Receive a message on the day your package is out for delivery. If available, a delivery time window will be provided.</p>
+										 </span>
+										</span>
+									</div>
+								</div>
+								</div><!--row-->
+							</div>
+							
+						
+							<div class="form-group">
+							<div class="row">
+								<div class="col-xs-2 col-sm-1">
+									
+										<div class="checkbox checkbox-group textpackagedeliveredtoaddress">
+											<label style="font-size: 14px;" for="textDnd_1" class="specific-check-label specific-label check-label label-choice">
+											<input id="textDnd_1" type="checkbox" class="text-updates-label textpackagedeliveredtoaddress text-enabled-option textupdates_1" name="textDnd" data-error="You must select an option in order to submit this form" class="form-control" />
+												<span></span>
+												<!--Package Delivered to Address-->
+											</label>
+											<span role="button" href="#" class="hint">
+											</span>
+										</div>
+									
+								</div>
+								<div class="col-xs-10 col-sm-11">
+									
+										<div style="float:left;margin-left:-25px;" class="checkbox checkbox-group emailpackagedeliveredtoaddress">
+											<label for="emailDnd_1" class="specific-check-label specific-label check-label label-choice" style="font-size:12.5px;font-weight:normal;">
+											<input id="emailDnd_1" type="checkbox" class="email-updates-label emailpackagedeliveredtoaddress email-enabled-option emailupdates_1" name="emailDnd" data-error="You must select an option in order to submit this form" class="form-control" />
+											 <span></span>
+											 <!--Package Delivered to Address-->
+											</label>
+										</div>
+									
+									<div style="float:left;margin-top:10px;">
+										<span>Package Delivered</span>
+										<span role="button" href="#" class="hint">
+										 <i class="icon-tooltip"></i>
+										 <span class="speech_bubble tool_tip_text" data-toggle="tooltip">
+											<p style="margin-bottom:0px;">Receive a message when package has been delivered to the recipient's address or when it's been delivered to a delivery partner (if applicable).</p>
+										 </span>
+										</span>
+									</div>
+								</div>
+							</div><!--row-->
+							</div>
+							
+						
+							<div class="form-group">
+							<div class="row">
+								<div class="col-xs-2 col-sm-1">
+									
+										<div class="checkbox checkbox-group textavailableforpickup">
+											<label style="font-size: 14px;" for="textPickup_1" class="specific-check-label specific-label check-label label-choice">
+											<input id="textPickup_1" type="checkbox" class="text-updates-label textavailableforpickup text-enabled-option textupdates_1" name="textPickup" data-error="You must select an option in order to submit this form" class="form-control" />
+												<span></span>
+												<!--Available for Pickup-->
+											</label>
+											<span role="button" href="#" class="hint">
+											</span>
+										</div>
+									
+								</div>
+								<div class="col-xs-10 col-sm-11">
+									
+										<div style="float:left;margin-left:-25px;" class="checkbox checkbox-group emailavailableforpickup">
+											<label for="emailPickup_1" class="specific-check-label specific-label check-label label-choice" style="font-size:12.5px;font-weight:normal;">
+											<input id="emailPickup_1" type="checkbox" class="email-updates-label emailavailableforpickup email-enabled-option emailupdates_1" name="emailPickup" data-error="You must select an option in order to submit this form" class="form-control" />
+											 <span></span>
+											 <!--Available for Pickup-->
+											</label>
+										</div>
+									
+									<div style="float:left;margin-top:10px;">
+										<span>Available for Pickup</span>
+										<span role="button" href="#" class="hint">
+										 <i class="icon-tooltip"></i>
+										 <span class="speech_bubble tool_tip_text" data-toggle="tooltip">
+											<p style="margin-bottom:0px;">Receive a message when your package is ready to be picked up at your local Post Office location.</p>
+										 </span>
+										</span>
+									</div>
+								</div>
+							</div><!--row-->
+							</div>
+							
+						
+							<div class="form-group">
+							<div class="row">
+								<div class="col-xs-2 col-sm-1">
+									
+										<div class="checkbox checkbox-group textalertsandotherupdates">
+											<label style="font-size: 14px;" for="textAlert_1" class="specific-check-label specific-label check-label label-choice">
+											<input id="textAlert_1" type="checkbox" class="text-updates-label textalertsandotherupdates text-enabled-option textupdates_1" name="textAlert" data-error="You must select an option in order to submit this form" class="form-control" />
+												<span></span>
+												<!--Delivery Exception Updates-->
+											</label>
+											<span role="button" href="#" class="hint">
+											</span>
+										</div>
+										
+								</div>
+								<div class="col-xs-10 col-sm-11">
+									
+										<div style="float:left;margin-left:-25px;" class="checkbox checkbox-group emailalertsandotherupdates">
+											<label for="emailAlert_1" class="specific-check-label specific-label check-label label-choice" style="font-size:12.5px;font-weight:normal;">
+											<input id="emailAlert_1" type="checkbox" class="email-updates-label emailalertsandotherupdates email-enabled-option emailupdates_1" name="emailAlert" data-error="You must select an option in order to submit this form" class="form-control" />
+											 <span></span>
+											 <!--Delivery Exception Updates-->
+											</label>
+										</div>
+										
+									<div style="float:left;margin-top:10px;">
+										<span>Delivery Exception Updates</span>
+										<span role="button" href="#" class="hint">
+										 <i class="icon-tooltip"></i>
+										 <span class="speech_bubble tool_tip_text" data-toggle="tooltip">
+											<p style="margin-bottom:0px;">Receive a message when there are other delivery updates, alerts about potential delays (including weather-related delays), or actions needed (e.g., Schedule Redelivery) related to your package.</p>
+										 </span>
+										</span>
+									</div>
+								</div>
+							</div><!--row-->
+							</div>
+							
+						
+							<div class="form-group">
+							<div class="row">
+								<div class="col-xs-2 col-sm-1">
+									
+										<div class="checkbox checkbox-group textotheractivity">
+											<label style="font-size: 14px;" for="textOA_1" class="specific-check-label specific-label check-label label-choice">
+											<input id="textOA_1" type="checkbox" class="text-updates-label textotheractivity text-enabled-option textupdates_1" name="textOA" data-error="You must select an option in order to submit this form" class="form-control" />
+												<span></span>
+												<!--Package In-Transit Updates-->
+											</label>
+											<span role="button" href="#" class="hint">
+											</span>
+										</div>
+										
+								</div>
+								<div class="col-xs-10 col-sm-11">
+									
+										<div style="float:left;margin-left:-25px;" class="checkbox checkbox-group emailotheractivity">
+											<label for="emailOA_1" class="specific-check-label specific-label check-label label-choice" style="font-size:12.5px;font-weight:normal;">
+											<input id="emailOA_1" type="checkbox" class="email-updates-label emailotheractivity email-enabled-option emailupdates_1" name="emailOA" data-error="You must select an option in order to submit this form" class="form-control" />
+											 <span></span>
+											 <!--Package In-Transit Updates-->
+											</label>
+										</div>
+										
+									<div style="float:left;margin-top:10px;">
+										<span>Package In-Transit Updates</span>
+										<span role="button" href="#" class="hint">
+										 <i class="icon-tooltip"></i>
+										 <span class="speech_bubble tool_tip_text" data-toggle="tooltip">
+											<p style="margin-bottom:0px;">Receive a message when your package is in-transit with the current expected delivery date, if available.</p>
+										 </span>
+										</span>
+									</div>
+								</div>
+							</div><!--row-->
+							</div>
+							
+					</div>
+				</div>
+			</div>
+			
+			<div class="row hidden" id="text-updates-wrapper_1" style="margin-left:20px;">
+			 <div style="margin-left:0px;" class="col-sm-8">
+			 
+				<div class="actions_priced">
+				 <div class="form-group">
+					<p style="font-size:14px;font-weight:bold;" for="textUpdatePhoneNumber_1">Enter the phone number where you'd like to receive updates on your package:</p>
+					<input id="textUpdatePhoneNumber_1" type="tel" name="smsNumber" class="form-control phone textRequired" placeholder="000-000-0000" pattern="^[\w\-_&.,`#@!\s]+.{11,}$" required data-pattern-error="Please enter a valid phone number" data-required-error="Please enter a valid phone number" data-validate="true">
+					<div class="help-block with-errors"></div>
+					<div><sup>*Phone number (US or Canadian only, valid text message enabled number)</sup></div>
+				 </div>
+				</div>
+			 </div>
+		  </div>
+			
+			<div class="row hidden" id="text-updates-messages_1">
+				<div class="panel-actions-content" style="padding-bottom: 0;">
+				<p style="font-size: 14px;">Message frequency is based on the request type; packages may have up to 11 tracking events. Standard Message and Data rates may apply.</p>
+				<p style="font-size: 14px;">For additional information, text HELP to 2USPS (28777). Text STOP to 2USPS to opt out.</p>
+				<p style="font-size: 14px;">Read more about <a href="https://www.usps.com/texttracking" target="new">Text Tracking </a><img src="images/USPS_Red_Caret_8x12.svg"></p>
+				
+				</div>
+			</div>
+
+			<div class="row hidden" id="email-updates-wrapper_1" style="margin-top: 20px;margin-left:20px;">
+				<p style="font-size:14px;margin-left:16px;"><strong>Enter the name and email address where you'd like to receive updates on your package:</strong></p>
+			 
+			 <div style="margin-left:0px;" class="col-sm-6">
+				<div class="form-group">
+				 <label for="emailUpdate_name1_1">*Name</label>
+				 <input type="text" class="form-control emailRequired" id="emailUpdate_name1_1" name="name1" placeholder="First Last" pattern="^[\w\-_&.,`#@!\s]+$" required data-pattern-error="Please enter a name" data-required-error="Please enter a name" data-validate="true">
+				 <div class="help-block with-errors"></div>
+				</div>
+				<div class="form-group">
+				 <label>*Email Address</label>
+				 <input type="email" id="emailUpdate_email1_1" name="email1" class="form-control euEmailInput emailRequired" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" required data-pattern-error="Please enter a valid e-mail address" data-required-error="Please enter a valid e-mail address" placeholder="email123@mail.com" data-validate="true">
+				 <div class="help-block with-errors"></div>
+				</div>
+				<a id="euAddEmailLink_1" class="add-another-email with-name icon_add">Add Another Email <i class="icon_add">+</i></a>
+			 </div>
+			</div>
+			
+			<div class="row hidden" id="update-text-tac_1" style="margin-top:20px;">
+			 <div class="col-sm-6">
+				<div class="form-group">
+				 <div class="checkbox">
+					<label for="agreedTextUpdates_1"><input id="agreedTextUpdates_1" type="checkbox" name="confirmSms" class="textRequired" required="" data-error="You must read and agree to the Terms &amp; Conditions to submit your request." data-validate="true"><span></span>I have read, understand, and agree to the <a href="#" data-toggle="modal" data-target="#modalTextUpdatesTerms">Terms and Conditions</a></label>
+					<div class="help-block with-errors"></div>
+				 </div>
+				</div>
+			 </div>
+			</div>
+			
+			<button id="teuButton_1" class="button getTextAndEmailUpdates hidden" style="margin:20px auto 20px">Get Updates</button>
+		 </div>
+		</div>
+	 </form>
+	</div><!-- End Body content for 'Email Updates' -->
+
+	<!-- start response messages -->
+
+	<div class="panel-actions-content text-updates-content success hidden">
+		<label class="response-ok"><img src="images/USPS_Green_Check.svg"> Confirmation</label>
+		<div class="text-updates-success-number"></div><br />
+		<div class="text-updates-success">
+			Your Text Updates messages will be sent to:
+		</div><br />
+		<div class="text-updates-success-phone text-updates-success"></div><br />
+		<div class="response-bold-text">
+			To complete your request, you must reply YES to the welcome message.<br />
+			For additional information, text <strong>HELP</strong> to 2USPS (28777). You may opt out by texting <strong>STOP</strong> to 2USPS.
+		</div>	
+	</div>
+	
+	<div class="panel-actions-content text-updates-content error hidden">
+		<label class="response-error"><img src="images/USPS_Red_X.svg"> Unable to Complete Request</label>
+		<div class="text-updates-error-number"></div><br />
+		<br />
+		<div class="text-updates-error">
+			<div class="response-text">Your Text Updates request will not
+				be sent to</div>
+			<div class="text-updates-error-phone"></div>
+			<div class="response-text">
+				<div class="response-sms data-error-div-result"></div>
+			</div>
+			<div class="response-text">Please try again later.</div>
+			<div class="response-text">For additional information, text
+				<strong>HELP</strong> to 2USPS (28777). You may opt out by texting <strong>STOP</strong> to 2USPS</div>
+		</div>	
+		<br />
+		<br />
+	</div>
+
+	<div class="panel-actions-content email-updates-content success hidden" id="email-page-success-div_1">
+		<label class="response-ok"><img src="images/USPS_Green_Check.svg"> Confirmation</label>
+		<div class="email-updates-success-number"></div>
+		<br/>
+		<div class="response-email response-text">
+			Your request will be processed as soon as there is tracking activity consistent with your request.
+		</div>
+		<br/>   	
+		<div class="response-email">
+			Your confirmation will be sent to the following:
+		</div>	
+		<div class="email-updates-success-email response-data"></div>
+	</div>
+	
+	<div class="panel-actions-content email-updates-content error hidden" id="email-page-error-div_1">
+		<label class="response-error errorMsg"><img src="images/USPS_Red_X.svg"> Unable to Complete Request</label>
+		<div class="email-updates-error-number"></div>
+		<br />
+		<div class="email-updates-error">
+			<div class="response-email email-error-address">Your email Updates request will not
+				be sent to</div>
+			<div class="response-email">
+				<div class="email-updates-error-email data-error-div-result"></div>
+			</div>
+			<div class="response-email email-error-address">Please try again later.</div>
+		</div>
+		<br />
+		<br />
+	</div>
+
+	<!-- end response messages --> 
+
+ </div>
+	                   </div>
+					
+					
+					
+					
+					
+					
+					
+					 
+					<div class="panel panel-default "><!-- Tracking History -->
+													
+					
+						
+	
+		
+
+			  <!-- Panel Heading -->
+			  <div class="panel-heading collapser" role="tab" data-parent="#accordion-actions" aria-expanded="true" aria-controls>
+				<h4 class="panel-title">
+				  <a href="#" role="button" data-parent="#accordion-actions" aria-expanded="true" aria-controls="collapseFive" class="collapsed" id="">
+					<span class="panel-word">Tracking History</span>
+					<span class="carat-group">
+					<span role="button" data-parent="#accordion-actions" aria-expanded="true" aria-controls="collapseFive" class="down-arr">
+					<span class="icon-carat_down"></span>
+					</span>
+					<span role="button" data-parent="#accordion-actions" aria-expanded="true" aria-controls="collapseFive" class="up-arr"><span class="icon-carat_up"></span>
+					</span>
+					</span>
+				  </a>
+				</h4>
+			  </div>
+			<!-- End of panel heading -->
+
+			<div id="trackingHistory_1" class="panel-collapse collapse thPanel" role="tabpanel" >
+				<div class="panel-body">
+					<!-- Body content for 'Return Receipt Email'  -->
+					<div class="row">
+						<div class="panel-actions-content thPanalAction" style="">
+							<span>
+								<strong>
+									January 23, 2018,
+									8:54 am
+								</strong>
+							</span>
+							<br />
+							
+								
+								<span>
+									Return to Sender Processed
+								</span><br />
+								
+								
+							
+								
+							
+								
+								<span>
+									BOUNTIFUL,&nbsp;UT&nbsp;84010&nbsp;
+								</span><br />
+								
+								
+							
+								
+							
+								
+								<span>
+									The return on your item was processed on January 23, 2018 at 8:54 am in BOUNTIFUL, UT 84010.
+								</span><br />
+								
+								
+							
+							<hr />
+							
+							<span>
+								<strong>
+									
+									
+								</strong>
+							</span>
+							<br />
+							
+								
+								<span>
+									Dead Mail / Sent to Mail Recovery Center
+								</span><br />
+								
+								
+							
+								
+							
+								
+								
+								
+							
+							<hr />
+							
+							<span>
+								<strong>
+									January 22, 2018,
+									1:24 pm
+								</strong>
+							</span>
+							<br />
+							
+								
+								<span>
+									Unable to deliver item, problem with address
+								</span><br />
+								
+								
+							
+								
+							
+								
+								<span>
+									BOUNTIFUL,&nbsp;UT&nbsp;84010&nbsp;
+								</span><br />
+								
+								
+							
+							<hr />
+							
+							<span>
+								<strong>
+									January 22, 2018
+									
+								</strong>
+							</span>
+							<br />
+							
+								
+								<span>
+									Rescheduled to Next Delivery Day
+								</span><br />
+								
+								
+							
+								
+							
+								
+								<span>
+									BOUNTIFUL,&nbsp;UT&nbsp;84010&nbsp;
+								</span><br />
+								
+								
+							
+							<hr />
+							
+							<span>
+								<strong>
+									January 22, 2018,
+									9:22 am
+								</strong>
+							</span>
+							<br />
+							
+								
+								<span>
+									Out for Delivery
+								</span><br />
+								
+								
+							
+								
+							
+								
+								<span>
+									BOUNTIFUL,&nbsp;UT&nbsp;84010&nbsp;
+								</span><br />
+								
+								
+							
+							<hr />
+							
+							<span>
+								<strong>
+									January 22, 2018,
+									9:12 am
+								</strong>
+							</span>
+							<br />
+							
+								
+								<span>
+									Sorting Complete
+								</span><br />
+								
+								
+							
+								
+							
+								
+								<span>
+									BOUNTIFUL,&nbsp;UT&nbsp;84010&nbsp;
+								</span><br />
+								
+								
+							
+							<hr />
+							
+							<span>
+								<strong>
+									January 22, 2018,
+									6:51 am
+								</strong>
+							</span>
+							<br />
+							
+								
+								<span>
+									Arrived at Post Office
+								</span><br />
+								
+								
+							
+								
+							
+								
+								<span>
+									BOUNTIFUL,&nbsp;UT&nbsp;84010&nbsp;
+								</span><br />
+								
+								
+							
+							<hr />
+							
+							<span>
+								<strong>
+									January 21, 2018,
+									12:58 am
+								</strong>
+							</span>
+							<br />
+							
+								
+								<span>
+									Departed USPS Regional Facility
+								</span><br />
+								
+								
+							
+								
+							
+								
+								<span>
+									SALT LAKE CITY UT NETWORK DISTRIBUTION CENTER&nbsp;
+								</span><br />
+								
+								
+							
+							<hr />
+							
+							<span>
+								<strong>
+									January 20, 2018,
+									5:25 pm
+								</strong>
+							</span>
+							<br />
+							
+								
+								<span>
+									Arrived at USPS Regional Facility
+								</span><br />
+								
+								
+							
+								
+							
+								
+								<span>
+									SALT LAKE CITY UT NETWORK DISTRIBUTION CENTER&nbsp;
+								</span><br />
+								
+								
+							
+							<hr />
+							
+							<span>
+								<strong>
+									January 20, 2018,
+									12:55 pm
+								</strong>
+							</span>
+							<br />
+							
+								
+								<span>
+									In Transit to Destination
+								</span><br />
+								
+								
+							
+								
+							
+								
+								
+								
+							
+							<hr />
+							
+							<span>
+								<strong>
+									January 19, 2018,
+									11:55 pm
+								</strong>
+							</span>
+							<br />
+							
+								
+								<span>
+									Departed USPS Regional Facility
+								</span><br />
+								
+								
+							
+								
+							
+								
+								<span>
+									BOISE ID DISTRIBUTION CENTER&nbsp;
+								</span><br />
+								
+								
+							
+							<hr />
+							
+							<span>
+								<strong>
+									January 19, 2018,
+									10:19 pm
+								</strong>
+							</span>
+							<br />
+							
+								
+								<span>
+									Arrived at USPS Regional Facility
+								</span><br />
+								
+								
+							
+								
+							
+								
+								<span>
+									BOISE ID DISTRIBUTION CENTER&nbsp;
+								</span><br />
+								
+								
+							
+							<hr />
+							
+							<span>
+								<strong>
+									January 19, 2018,
+									4:05 pm
+								</strong>
+							</span>
+							<br />
+							
+								
+								<span>
+									Departed Post Office
+								</span><br />
+								
+								
+							
+								
+							
+								
+								<span>
+									TWIN FALLS,&nbsp;ID&nbsp;83301&nbsp;
+								</span><br />
+								
+								
+							
+							<hr />
+							
+							<span>
+								<strong>
+									January 19, 2018,
+									12:10 pm
+								</strong>
+							</span>
+							<br />
+							
+								
+								<span>
+									USPS in possession of item
+								</span><br />
+								
+								
+							
+								
+							
+								
+								<span>
+									TWIN FALLS,&nbsp;ID&nbsp;83301&nbsp;
+								</span><br />
+								
+								
+							
+							<hr />
+							
+							<span>
+								<strong>
+									December 27, 2017,
+									4:34 pm
+								</strong>
+							</span>
+							<br />
+							
+								
+								<span>
+									Shipping Label Created, USPS Awaiting Item
+								</span><br />
+								
+								
+							
+								
+							
+								
+								<span>
+									BOUNTIFUL,&nbsp;UT&nbsp;84010&nbsp;
+								</span><br />
+								
+								
+							
+							<hr />
+							
+						</div>
+					</div>
+				</div>
+				<!-- END Body content for 'Tracking History' -->
+			</div>
+			
+					
+                    </div>
+
+					 
+                  <div class="panel panel-default "><!-- Product Information -->
+					
+
+
+
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		   
+		
+	
+	
+	
+  <!-- Panel Heading -->
+  <div class="panel-heading collapser" role="tab" data-parent="#accordion-actions" aria-expanded="true" aria-controls>
+	<h4 class="panel-title">
+	  <a href="#" role="button" data-parent="#accordion-actions" aria-expanded="true" aria-controls="collapseFive" class="collapsed" id="">
+		<span class="panel-word">Product Information</span>
+		<span class="carat-group">
+		<span role="button" data-parent="#accordion-actions" aria-expanded="true" aria-controls="collapseFive" class="down-arr">
+		<span class="icon-carat_down"></span>
+		</span>
+		<span role="button" data-parent="#accordion-actions" aria-expanded="true" aria-controls="collapseFive" class="up-arr"><span class="icon-carat_up"></span>
+		</span>
+		</span>
+	  </a>
+	</h4>
+  </div>
+<!-- End of panel heading -->
+
+  <div id="product-information_1" class="panel-collapse collapse piPanel" role="tabpanel">
+
+
+  <div class="panel-body sample-number-panels"> <!-- Body content for first panel, 'Product Information' -->
+	  <div class="row">
+		<div class="panel-actions-content product-information-content">
+
+			<ul class="product_info">
+			  <li>
+				<strong>Postal Product:</strong>
+				First-Class Package Service
+			  </li>
+			  <li>
+				<dl>
+				  <dt>Features:</dt>
+				  <dd>
+				
+				
+			
+				
+				
+				
+				
+					USPS Tracking<SUP>&#174;</SUP><br />
+				
+				
+			
+				  </dd>
+				</dl>
+			  </li>
+			  <li>
+				<!-- multiple delivery events, i.e. gdd, edd, pdd -->
+				
+				
+					
+					
+
+			  
+		</li>
+			</ul>
+
+		  </div> <!-- End Buttons Container -->
+		</div>
+	  </div>
+	</div> <!-- End body content for first panel  -->
+  
+	<div class="panel-actions-content product-information-content success hidden">
+	
+		<label class="response-ok"><img src="images/USPS_Green_Check.svg"> Authorization complete!</label>
+		<div>
+			<span>Thanks,&nbsp;<span class="firstName">[First Name]</span>. You will receive a confirmation email.</span><br />
+			<span>As outlined in the Terms &amp; Conditions, the postal carrier has the final discretion to leave your package at this address.</span>
+		</div>
+  </div>
+  <div class="panel-actions-content product-information-content error hidden">
+		<label class="response-error"><img src="images/USPS_Red_X.svg">
+			<span class="firstName">[first name]</span>, we're sorry we cannot proceed with your request because&nbsp;<span class="errorScenario">[error scenario]</span>
+		</label>
+  </div>
+</div>
+                  </div>
+					 <!-- END Product Information -->
+					 
+					
+
+					</div> <!-- End #accordion-actions -->
+
+              </div> <!-- End .actions_contain -->
+
+            </div> <!-- END Product Tracking Details -->
+          </div> <!-- END Product Tracking Information -->
+		  
+		  
+        </div><!-- End col -->
+				
+				  <a href="#" role="button" class="see-all show-less tracking-result-collapser">See Less <i class="icon-carat_up"></i></a>
+				
+				
+      </div><!-- End .row -->
+    </div>  <!-- End .container-fluid -->
+  </div> <!-- END Tracking bar with available actions underneath -->
+
+  <!-- Containers for tracking bar divs without available actions menu -->
+
+
+<!--
+      There are currently 5 states that get attached to "product_summary" div. These class names work independently of the "status_0" through "status_6" track bar. Copy changes to these sections are made separately.
+
+      delviery_na
+      delivery_onitsway
+      delivery_transit
+      delivery_attempted
+      delivery_delivered
+    -->
+
+      <!-- END Containers for tracking bar divs without available actions menu -->
+
+	
+    </div> <!--End Tracking Numbers container -->
+
+
+<div class="container-fluid find-FAQs"><!-- FAQs Link Callout row  -->
+<div class="row">
+  <div class="col-sm-12">
+    <h2>Can&rsquo;t find what you&rsquo;re looking for?</h2>
+    <p>Go to our FAQs section to find answers to your tracking questions.</p>
+    <a href="http://faq.usps.com/?articleId=220900" target="_blank" class="button">FAQs</a>
+  </div>
+</div>
+</div> <!-- END FAQs container-->
+
+
+
+
+
+    <div class="house_ad"><!--Sign up ad row -->
+      <div class="container-fluid">
+        <div class="row" >
+          <div class="col-xs-12 col-md-7 col-md-push-5 photo_area col-lg-8" style="background-image: url(images/Tracking_DSKTP_Promo_Ad2_865x410.jpg)">
+          </div>
+          <div class="col-xs-12 col-md-5">
+            <section class="house_ad_text">
+              <h3>The easiest tracking number is the one you don't have to know.</h3>
+              <p>With Informed Delivery<sup>&reg;</sup>, you never have to type in another tracking number. Sign up to:</p>
+              <ul>
+                <li>See images* of incoming mail.</li>
+                <li>Automatically track the packages you're expecting.</li>
+                <li>Set up email and text alerts so you don't need to enter tracking numbers.</li>
+                <li>Enter USPS Delivery Instructions<sup>&trade;</sup> for your mail carrier.</li>
+              </ul>
+            </section>
+            <a href="https://reg.usps.com/entreg/RegistrationAction_input?app=UspsTools&appURL=https%3A%2F%2Ftools.usps.com%2Fgo%2FTrackConfirmAction%21input" class="button" tar>Sign Up</a>
+            <p>*NOTE: Black and white (grayscale) images show the outside, front of letter-sized envelopes and mailpieces that are processed through USPS automated equipment.</p>
+          </div>
+        </div>
+      </div>
+    </div><!--End Sign up ad row -->
+
+
+  </div><!-- Closing tag for tracking page wrapper -->
+  <!--  END tracking id page container -->
+
+
+  <!-- Modal Markup -->
+  <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <a tabindex="0" href="#" class="closeX" role="button" aria-label="Close modal" data-dismiss="modal"><span class="icon-cancel" aria-hidden="true"></span></a>
+        <div id="modalLabel" style="display:none;"></div>
+        <div class="modal-body tool_tip_text">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="modal fade" id="modalTextUpdatesTerms" tabindex="-1" role="dialog" aria-labelledby="modalLabel3">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div id="modalLabel3" style="display:none;"></div>
+
+      <div class="modal-body tool_tip_text">
+		<h4 class="modal-header">Terms and Conditions of Use for Text Updates</h4>
+		<div class="modal-body">
+		<p>Your access to, and use of, USPS Text Tracking is subject to our website <a href="http://about.usps.com/termsofuse.htm" target="_new">Terms of Use</a> and all applicable laws and regulations.  By clicking "I Agree" or otherwise accessing and using USPS Text Tracking, you accept, without limitation or qualification, the <a href="http://about.usps.com/termsofuse.htm" target="_new">Terms of Use</a>.</p>
+		<p>
+		USPS Text Tracking provides you with text message updates, including the date and time of delivery, as your package moves through the USPS system.  Your telecommunications carrier may charge data usage fees (including additional charges when roaming) to receive TEXT messages.  Please contact your wireless carrier for complete pricing details.
+		</p>
+		<p>
+		After submitting your phone number to USPS you will receive a text message confirming your request to subscribe to USPS Text Tracking.  You must reply YES to the confirmation message to begin receiving tracking updates about your package.  You may opt out of receiving USPS Text Tracking updates at any time by sending <strong>STOP</strong> to 2USPS (28777).
+		</p>
+		</div><!-- /modal-body -->
+	  <!--<p>USPS Change Redelivery Terms and Conditions placeholder.</p>
+          <br>-->
+      </div>
+      <a tabindex="0" href="#" class="closeX" role="button" aria-label="Close modal" data-dismiss="modal"><span class="icon-cancel" aria-hidden="true"></span></a>	  
+    </div>
+  </div>
+</div>
+
+  <div class="modal fade" id="modalEmailTerms" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div id="modalLabel" style="display:none;"></div>
+        <div class="modal-body tool_tip_text">
+
+        </div>
+        <a tabindex="0" href="#" class="closeX" role="button" aria-label="Close modal" data-dismiss="modal"><span class="icon-cancel" aria-hidden="true"></span></a>
+      </div>
+    </div>
+  </div>
+
+<div class="modal fade" id="modalRedeliveryTerms" tabindex="-1" role="dialog" aria-labelledby="modalLabel2">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div id="modalLabel2" style="display:none;"></div>
+      <div class="modal-body tool_tip_text">
+		<h4 class="modal-header">Terms and Conditions of Use for Schedule Redelivery</h4>
+		  <div class="modal-body">
+			<p>The person who prepares this form states that he or she is the person, executor, guardian, authorized officer, or agent of the person for whom mail would be redelivered under this order. Anyone submitting false or inaccurate information on this form is subject to punishment by fine or imprisonment or both under Sections 2, 1001, 1702 and 1708 of Title 18, United States Code.</p>
+		  </div>
+      </div>
+      <a tabindex="0" href="#" class="closeX" role="button" aria-label="Close modal" data-dismiss="modal"><span class="icon-cancel" aria-hidden="true"></span></a>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalDeliveryInstructionsTerms" tabindex="-1" role="dialog" aria-labelledby="modalLabel1">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div id="modalLabel1" style="display:none;"></div>
+      <div class="modal-body tool_tip_text">
+		<h4 class="modal-header">Terms and Conditions of Use for USPS.com Delivery Instructions</h4>
+		<div class="modal-body">
+		<p>
+		This Terms of Use Agreement (this "Agreement") is a legal agreement between you ("You" "Your" or "User") and the United States Postal Service&reg;, an Independent Establishment of the Executive Branch of the United States Federal Government ("USPS<sup>&reg;</sup>" or "Postal Service"). The Agreement sets forth the terms and conditions for Your use of the USPS.com  Delivery Instructions that allows You to electronically request that certain types of United States Postal Service package(s) be left  at the address of delivery without You being present to accept the package authorized for release ("Delivery Instructions" or ("Service")).  The Service also allows You to redirect Your package to a different address with the potential of having additional postage charged for a change in delivery location.  This Agreement is between You and USPS only, and not with any other entity.  USPS is solely responsible for the services, content and materials provided through usps.com and the Service generally.  User acknowledges and agrees that he or she is solely responsible for and shall abide by (i) the terms of this Agreement; (ii) the terms of use and guidelines of all secondary website, services and devices affiliated with the Service, as applicable, or linked to through the Service; and (iii) all policies, procedures and regulations of the United States Postal Service, which shall include and not be limited to the requirements of the USPS Domestic Mail Manual. User warrants, represents and agrees that interaction with the Service is for the sole purpose to facilitate a shipping transaction.
+		</p>
+		<p><strong>Modification of These Terms of Use</strong></p>
+		<p>
+		The Postal Service reserves the right to change the terms, conditions, and notices under which the Delivery Instructions are offered. You may review the most current terms and conditions of use at <a href="https://www.usps.com/tracking/easr-terms-and-conditions-popup.htm">https://www.usps.com/tracking/easr-terms-and-conditions-popup.htm</a>. If You do not agree to, or cannot comply with, the Agreement as amended, You must stop using the Service. You will be deemed to have accepted the Agreement as amended if You continue to use the Service. User acknowledges and agrees that his or her use of the Service, in each instance, is subject to any such changes and that User's use of the Service constitutes acceptance of such changed terms. User agrees to review this Agreement from time to time to ensure compliance with these terms and conditions, but at a minimum, in each instance that You request a release through Delivery Instructions. 
+		</p>
+		<p><strong>Description of Service</strong></p>
+		<p>
+		The Service is an online platform designed to allow You to authorize the USPS to release Your package for delivery at an address that You would be authorized to receive such package.   The Service is not available for packages insured for over $200 or registered packages or those requiring signatures.  This online Service provides the same shipment release option You would have at Post Office<sup>&trade;</sup> locations by filling out Postal Service Form PS 3849 entitled, "Delivery Notice/Reminder/Receipt." This service is free of charge for packages released to Your address or a neighbors address, but there is no guarantee that the letter carrier will receive the instructions You provide in a timely manner that would allow the release of Your package or that Your instructions will be followed. Alternate delivery locations such as Your back door or front porch can be requested if a package will not fit in Your mailbox.  The Service also allows You to redirect Your package to a different address, and allows You to upgrade the service to premium delivery services such as Priority Mail or Priority Mail Express or to add applicable extra services if so desired.  In such instance where You redirect Your package to a different address or upgrade delivery options, the USPS will provide an estimate of postage during checkout; however, the estimate may not be accurate due to various constraints.  Actual postage to the changed address is determined after the package is intercepted, weighed, rated and any service upgrades are applied .  Your package will be sent to its original destination if the payment fails at the time the package is intercepted.  Should the actual postage amount exceed the estimate, Your credit card will not be charged, but the package will arrive to its alternative destination Postage Due.  Such payment must be made with cash, check or money order.  Any package that is received damaged will be delivered as addressed.     
+		</p>
+		<p><strong>Functionality not Guaranteed</strong></p>
+		<p>
+		You acknowledge that functionality of the Service may be compromised or unavailable based on the configuration of Your system based on Your operating system, browser version as well as Your hardware or phone.  Access to the Service is not guaranteed for every software and hardware configuration, and You agree that the Postal Service shall have no liability for Your inability to access My USPS.com in every instance, or to access the various services available through My USPS.com due to such hardware and software constraints.     
+		</p>
+		<p><strong>Privacy </strong></p>
+		<p>
+		For over two centuries, the Postal Service has valued Your privacy, and built a brand that customers trust.  When using the Service, the information You provide is accessible to the Postal Service, but may also be collected by third parties such as the companies that control the operating systems of the particular application You are using, e.g. browser, mobile device, etc. as well as Your telecommunications provider (not unlike an Internet Service Provider's ability to access data provided by its subscribers). Information collected by any such third party is governed by its terms of service and its privacy policy. Any information provided by You to the Postal Service while utilizing the Service is governed by the USPS privacy policy. 
+		</p>
+		<p>
+		For information about our privacy policy, please visit <a href="http://www.usps.com/privacypolicy">www.usps.com/privacypolicy</a>. 
+		</p>
+		<p><strong>Intellectual Property - License Grant and Restrictions </strong></p>
+		<p>
+		This Service provided to You by the USPS is for User's personal use. User may not modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell any information, software, products, or services obtained from the Service. Material provided by the Service is the copyrighted property of the Postal Service. All rights reserved. The intellectual property and images presented through the Service may not under any circumstances be reproduced or used without USPS's prior written permission. Other than the actual information related to Your mailed item, You may view and download material from this Service (i) for personal; (ii) where the materials clearly state that these materials may be copied and reproduced according to the terms stated in those particular pages; or (iii) with the express written permission of the Postal Service. In all other cases, You will need written permission from the Postal Service to reproduce, republish, upload, post, transmit, distribute or publicly display material from this Service. 
+		</p>
+		<p>USPS grants to You a limited, non-exclusive, non-transferable license to access and use the Service for personal use only.  USPS also grants to You a non-exclusive, non-transferable license to use the Service on any device that You own or control as permitted by any terms of use set forth by Your device manufacturer, the terms of use of Your device's operating system and/or the terms of use of Your telecommunications provider. Any violation by You of the license provisions contained herein may result in the immediate termination of Your right to use the Service. USPS reserves all right, title and interest not expressly granted under this license to the fullest extent possible under applicable laws. ANY USE OF THE SERVICE NOT SPECIFICALLY PERMITTED UNDER THIS AGREEMENT IS STRICTLY PROHIBITED. 
+		</p>
+		<p>
+		You agree that You will not: 
+		</p>
+		<ul>
+		   <li> use the Service or usps.com to reproduce copyrighted materials; </li>
+		   <li> copy, store, edit, change, prepare any derivative work of or alter in any way any of the information provided through the Service or usps.com except for uses related to Your personal mailing and purchase of USPS products and services; </li>
+		   <li> provide Your password, if required by the Service or any Application available on usps.com to any other person;  </li>
+		   <li> translate, reverse engineer, decompile, disassemble, modify or create derivative works based on the Service or any Application available on usps.com or any portion of them accessible through the Service or through usps.com;  </li>
+		   <li> circumvent any technology used by the USPS or its licensors to protect content accessible via the Service or found on usps.com;  </li>
+		   <li> rent, lease or sublicense any of the intellectual property provided through the Service or available on usps.com; or </li>
+		   <li> use the Service or any Application available on usps.com in any way that violates the terms of this Agreement. </li>
+		</ul>
+		<p>
+		As between You and USPS, You acknowledge that USPS owns or has a license to all title and copyrights in and to the Service. All title and intellectual property rights in and to the content in the Service is the property of the respective content owner (whether the USPS or a licensor to the USPS) and may be protected by applicable copyright or other intellectual property laws and treaties and subject to use restrictions under such laws or treaties. 
+		</p>
+		<p>
+		The Service contains the trademarks, service marks, graphics and logos of the USPS and may contain third-party trademarks, service marks, graphics, and logos. You are not granted any right or license with respect to such USPS trademarks or the trademarks of any third party. 
+		</p>
+		<p><strong>Updates, Maintenance and Support </strong></p>
+		<p>USPS may from time to time make available to all users of the Service updates at no cost or subject to additional fees in USPS's sole discretion. "Updates" means any updates, upgrades or error corrections to the Service USPS makes available generally to users of the Service. Notwithstanding anything else contained in this Agreement, USPS will have no obligation to continue producing or releasing new versions of the Service or any updates thereto. USPS is solely responsible for providing any maintenance and support of the Service as specified in this Agreement, or as required under applicable law. </strong></p>
+		<p><strong>Links to Third-Party Sites and Limitation of Liability </strong></p>
+		<p>
+		The Service and other websites and services that may be accessible through the Service or on usps.com generally, which also may be operated by the Postal Service, may contain links to websites operated by parties other than the Postal Service. Such links are provided solely for User's convenience. The Postal Service does not control such third-party websites and is not responsible for the contents of such sites. The Postal Service's inclusion, if any, of links to such third-party websites does not imply any endorsement of the material on such sites or any association with their operators. When linking to such third-party websites, the Postal Service follows web-linking and exit page guidelines as set forth in USPS Management Instruction AS-610-2012-3. The Postal Service does not monitor websites linked to by User, and the use of any such links is performed strictly at the User's own risk. IN NO EVENT SHALL THE POSTAL SERVICE BE LIABLE FOR ANY DAMAGES THAT RESULT FROM ACTIVITY OCCURRING ON NON-POSTAL SERVICE WEBSITES WHEN A USER LINKS TO SUCH SITE FROM THE SERVICE OR USPS.COM. 
+		</p>
+		<p><strong>No Unlawful or Prohibited Use </strong></p>
+		<p>
+		As a condition of Your use of this Service, You warrant to the Postal Service that You will not use the Service or usps.com for any purpose that is unlawful or prohibited by these Terms of Use. 
+		</p>
+		<p>
+		User agrees that when using the Service or usps.com that User shall not: 
+		</p>
+		<ul>
+		   <li> Defame, abuse, harass, stalk, threaten or otherwise violate the legal rights (such as rights of privacy and publicity) of others; </li>
+		   <li> Publish, post, upload, distribute or disseminate any inappropriate, profane, defamatory, infringing, obscene, indecent or unlawful topic, name, material or information; </li>
+		   <li> Upload files that contain software or other material protected by intellectual property laws (or by rights of privacy of publicity) unless You own or control the rights thereto or have received all necessary consents; </li>
+		   <li> Upload files that contain viruses, corrupted files, or any other similar software or programs that may damage the operation of another's computer; </li>
+		   <li> Advertise or offer to sell any goods or services for any commercial purpose; </li>
+		   <li> Conduct or forward surveys, promotions, sweepstakes, contests, pyramid schemes or chain letters; </li>
+		   <li> Download any file posted by another user of the Service that User knows, or reasonably should know, cannot be legally distributed in such manner; </li>
+		   <li> Falsify or delete any author attributions, legal or other proper notices or proprietary designations or labels of the origin or source of software or other material contained in a file that is uploaded; or </li>
+		   <li> Restrict or inhibit any other user from using and enjoying the Service or usps.com generally. 
+		</ul>
+		<p>
+		The Postal Service reserves the right to terminate User's access to the Service at any time without notice for any reason whatsoever. 
+		</p>
+		<p>
+		The Postal Service reserves the right at all times to disclose any information as necessary to satisfy any applicable law, regulation, legal process or governmental request, or to edit, refuse to post or to remove any information or materials, in whole or in part, in the Postal Service's sole discretion. 
+		</p>
+		<p>
+		User grants the Postal Service permission to use any information, suggestions, ideas, drawings or concepts communicated for any purpose by You to the Postal Service in any manner that the Postal Service chooses, commercial, public or otherwise, without compensation whatsoever. User agrees and acknowledges that all content provided within the Service or thorough usps.com generally, whether provided by the Postal Service, third-parties or from User, to the fullest extent permitted by law and under contract, shall be or become the property of the United States Postal Service with no restrictions in use, whether commercial or otherwise. 
+		</p>
+		<p><strong>Liability Disclaimer </strong></p>
+		<p>The information, software if any, products, and services included through this Service may include inaccuracies or typographical errors. Changes are periodically added to the information provided. The Postal Service and/or its respective suppliers may make improvements and/or changes to this Service and the Applications at any time. 
+		</p>
+		<p>
+		THE MATERIALS AND/OR INFORMATION PROVIDED UTILIZING THE SERVICE ARE PROVIDED "AS IS" AND WITHOUT WARRANTIES OF ANY KIND EITHER EXPRESS OR IMPLIED TO THE FULLEST EXTENT PERMITTED PURSUANT TO APPLICABLE LAW. THE POSTAL SERVICE DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE POSTAL SERVICE DOES NOT WARRANT OR REPRESENT THAT THE INFORMATION IS ACCURATE OR RELIABLE OR THAT, THE MATERIALS AND/OR INFORMATION PROVIDED UTILIZING THE SERVICE OR USPS.COM WILL BE FREE OF ERRORS OR VIRUSES. IF YOU ARE DISSATISFIED WITH ANY PORTION OF THIS SERVICE OR USPS.COM, OR WITH ANY OF THESE TERMS OF USE, USER'S SOLE AND EXCLUSIVE REMEDY IS TO DISCONTINUE USING THE SERVICE OR USPS.COM. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, UNDER NO CIRCUMSTANCES, INCLUDING BUT NOT LIMITED TO NEGLIGENCE, WILL THE POSTAL SERVICE BE LIABLE FOR DIRECT, SPECIAL, INDIRECT, EXEMPLARY, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES THAT RESULT FROM OR RELATE TO THE USE OR INABILITY TO USE THE MATERIALS AND/OR INFORMATION PROVIDED UTILIZING THE SERVICE OR THE APPLICATIONS, EVEN IF THE POSTAL SERVICE HAS BEEN ADVISED OF THE POSSIBLITY OF SUCH DAMAGES. FOR THE AVOIDANCE OF DOUBT, IN NO EVENT SHALL THE POSTAL SERVICE BE LIABLE FOR ANY DAMAGES RESULTING FROM USER'S INABILITY TO ACCESS OR USE THE SERVICE, USPS.COM, MATERIALS AND/OR INFORMATION PROVIDED UTILIZING THE SERVICE OR USPS.COM DUE TO FAILURE OF THE USER'S DEVICE, OPERATING SYSTEM OR USER'S INABILITY TO ACCESS SUFFICIENT BANDWIDTH AND/OR TELECOMMUNICATIONS CONNECTIVITY. YOU ACKNOWLEDGE AND AGREE THAT YOUR TELECOMMUNICATIONS CARRIER MAY CHARGE DATA USAGE FEES (INCLUDING ADDITIONAL CHARGES WHEN ROAMING) TO ACCESS THE SERVICE, AND THAT THE POSTAL SERVICE SHALL NOT BE LIABLE FOR ANY SUCH FEES AS A RESULT OF YOUR USE OF THE APPLICATION OR THE SERVICE. YOU SHOULD CONTACT YOUR WIRELESS OR TELECOMMUNICATIONS PROVIDER FOR COMPLETE PRICING DETAILS. 
+		</p>
+		<p><strong>Indemnification </strong></p>
+		<p>
+		You acknowledge and agree to indemnify and hold the Postal Service, its affiliates, officers, employees and agents, harmless, including costs and attorneys' fees, from any claim or demand made by any third party due to or arising out of Your use of the Service or in the event of Your violation of this Agreement, any infringement of third party rights by You while utilizing the Service or usps.com, of any intellectual property or other right of any person or entity or arising out of or related to any products or services purchased by You in connection with the Service or usps.com offered by a third party.
+		</p>
+		<p><strong>Access Restriction and Registration </strong></p>
+		<p>The Postal Service, in its sole and unreviewable discretion, reserves the right to deny any User access to the Service, the applications or any portion of usps.com without notice. You must register for this Service, and by doing so, You warrant and represent that You have the authority to request the functions performed through the Service.  You agree not to use the Service to solicit information regarding any shipments of which You are not either the bona fide recipient or sender.  
+		</p>
+		<p><strong>General </strong></p>
+		<p>
+		THIS AGREEMENT IS GOVERNED BY UNITED STATES FEDERAL LAW. USER AGREES THAT ALL DISPUTES AND MATTERS WHATSOEVER ARISING UNDER, IN CONNECTION WITH OR INCIDENT TO THESE TERMS OF USE SHALL BE BROUGHT BY USER IN AND BEFORE A FEDERAL COURT LOCATED IN THE DISTRICT OF COLUMBIA (EXCLUDING RIGHTFUL ACTIONS BROUGHT BEFORE THE UNITED STATES POSTAL SERVICE BOARD OF CONTRACT APPEALS), TO THE EXCLUSION OF THE COURTS OF ANY OTHER STATE OR COUNTRY. USER AGREES TO WAIVE ANY OBJECTIONS AS TO THE LAYING OF PERSONAL JURISDICTION OR VENUE IN SUCH A COURT, AND AS TO ANY PURPORTED INCONVENIENCE OF THE CHOSEN FORUM. 
+		</p>
+		<p>
+		The Postal Service's performance of this Agreement is subject to existing laws and legal processes, and nothing contained in this Agreement is in derogation of the Postal Service's right to comply with governmental, court and law enforcement requests or requirements relating to Your use of this Service or information provided to or gathered by the Postal Service with respect to such use. If any part of this Agreement is determined to be invalid or unenforceable pursuant to applicable law including, but not limited to, the warranty disclaimers and liability limitations set forth above, then the invalid or unenforceable provision will be deemed superseded by a valid, enforceable provision that most closely matches the intent of the original provision and the remainder of the Agreement shall continue in effect. 
+		</p>
+		<p>
+		This Agreement constitutes the entire Agreement between the User and the Postal Service with respect to this Service and it supersedes all prior or contemporaneous communications and proposals, whether electronic, oral or written, between the User and the Postal Service with respect to this Service. A printed version of this Agreement and of any notice given in electronic form shall be admissible in judicial or administrative proceedings based upon or relating to this Agreement to the same extent and subject to the same conditions as other business documents and records originally generated and maintained in printed form. 
+		</p>
+		<p>
+		Updated: 02/20/2015
+		</p>
+		</div>
+      </div>
+      <a tabindex="0" href="#" class="closeX" role="button" aria-label="Close modal" data-dismiss="modal"><span class="icon-cancel" aria-hidden="true"></span></a>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <!---  GLOBAL FOOTER - FOR REFRERENCE ONLY -->
+  <!-- <script src="http://www.w3schools.com/lib/w3data.js"></script> -->
+	
+   		<div id="global-footer--wrap" class="global-footer--wrap">
+<link type="text/css" rel="stylesheet" href="/global-elements/footer/css/main-sb.css">
+<link type="text/css" rel="stylesheet" href="/global-elements/footer/css/footer-sb.css">
+		
+			<!--[if lte IE 8]>
+			<link href="/global-elements/footer/css/main.ie.sb.css" rel="stylesheet" type="text/css" />
+			<link href="/global-elements/footer/css/footer.ie.sb.css" rel="stylesheet" type="text/css" />
+			<![endif]-->
+		
+		<script type="text/javascript">
+		var MTIProjectId='f3e4655b-fd06-4b8b-8a25-01c859692612';
+		(function() {
+			var mtiTracking = document.createElement('script');
+			mtiTracking.type='text/javascript';
+			mtiTracking.async='true';
+			mtiTracking.src=('https:'==document.location.protocol?'https:':'http:')+'//fast.fonts.net/t/trackingCode.js';
+			(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+		})();
+		</script>
+<footer class="global-footer">
+<a href="https://www.usps.com/" class="global-footer--logo-link"></a>
+<nav class="global-footer--navigation">
+<ol>
+<li style="color:#333366;" class="global-footer--navigation-category">
+						Helpful Links
+						<ol class="global-footer--navigation-options">
+<li>
+<a href="https://www.usps.com/help/welcome.htm">Contact Us</a>
+</li>
+<li>
+<a href="https://www.usps.com/globals/site-index.htm">Site Index</a>
+</li>
+<li>
+<a href="http://faq.usps.com/">FAQs</a>
+</li>
+</ol>
+</li>
+<li style="color:#333366;" class="global-footer--navigation-category">
+						On About.USPS.com
+						<ol class="global-footer--navigation-options">
+<li>
+<a href="http://about.usps.com/">About USPS Home</a>
+</li>
+<li>
+<a href="http://about.usps.com/news/welcome.htm">Newsroom</a>
+</li>
+<li>
+<a href="http://about.usps.com/news/service-alerts/welcome.htm">USPS Service Updates</a>
+</li>
+<li>
+<a href="http://about.usps.com/forms-publications/welcome.htm">Forms &amp; Publications</a>
+</li>
+<li>
+<a href="https://www.usps.com/gov-services/gov-services.htm">Government Services</a>
+</li>
+<li>
+<a href="http://about.usps.com/careers/welcome.htm">Careers</a>
+</li>
+</ol>
+</li>
+<li style="color:#333366;" class="global-footer--navigation-category">
+						Other USPS Sites
+						<ol class="global-footer--navigation-options">
+<li>
+<a href="https://gateway.usps.com/">Business Customer Gateway</a>
+</li>
+<li>
+<a href="https://postalinspectors.uspis.gov/">Postal Inspectors</a>
+</li>
+<li>
+<a href="http://www.uspsoig.gov/">Inspector General</a>
+</li>
+<li>
+<a href="http://pe.usps.gov/">Postal Explorer</a>
+</li>
+<li>
+<a href="http://www.postalmuseum.si.edu/">National Postal Museum</a>
+</li>
+<li>
+<a href="https://www.usps.com/webtools/welcome.htm">Resources for Developers</a>
+</li>
+</ol>
+</li>
+<li style="color:#333366;" class="global-footer--navigation-category">
+						Legal Information
+						<ol class="global-footer--navigation-options">
+<li>
+<a href="http://about.usps.com/who-we-are/privacy-policy/privacy-policy-highlights.htm">Privacy Policy</a>
+</li>
+<li>
+<a href="http://about.usps.com/termsofuse.htm">Terms of Use</a>
+</li>
+<li>
+<a href="http://about.usps.com/who-we-are/foia/welcome.htm">FOIA</a>
+</li>
+<li>
+<a href="http://about.usps.com/who-we-are/no-fear-act/welcome.htm">No FEAR Act EEO Data</a>
+</li>
+</ol>
+</li>
+</ol>
+</nav>
+		
+			<div class="global-footer--copyright">Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> USPS.  All Rights Reserved.</div>
+		
+		
+<ul class="global-footer--social">
+<li>
+    <a style="text-decoration: none;" href="https://www.facebook.com/USPS?rf=108501355848630">
+        <img alt="Image of Facebook social media icon." src="/global-elements/footer/images/social-facebook_1.png">
+    </a>
+</li>
+<li>
+    <a style="text-decoration: none;" href="https://twitter.com/usps">
+	  <img alt="Image of Twitter social media icon." src="/global-elements/footer/images/social-twitter_2.png">
+    </a></li>
+<li>
+	<a style="text-decoration: none;" href="http://www.pinterest.com/uspsstamps/">
+        <img alt="Image of Pinterest social media icon." src="/global-elements/footer/images/social-pinterest_6.png">
+    </a>
+</li>
+<li>
+    <a style="text-decoration: none;" href="https://www.youtube.com/usps">
+     <img alt="Image of Youtube social media icon." src="/global-elements/footer/images/social-youtube_3.png">
+    </a> 
+</li>
+</ul>
+
+</footer>
+</div><div id='quick-tools-container' style='display:none;'></div>
+<script type="text/javascript">var djConfig = { webtrendsApplicationId : 'Tools', blankGif: '/global-elements/navigation/images/blank.gif' };</script>
+<script type="text/javascript" src="https://tools.usps.com/go/pages/common/quicktools-api.jsp"></script>
+
+<script type="text/javascript" charset="utf-8" src="https://www.usps.com/ContentTemplates/common/scripts/ssbw.js"></script>
+
+<script type="text/javascript">
+var env = "prod";
+if ((document.location.hostname.indexOf("local") != -1) || (document.location.hostname.indexOf("dusps") != -1) || (document.location.hostname.indexOf("dev") != -1) || (document.location.hostname.indexOf("tusps") != -1) || (document.location.hostname.indexOf("sit") != -1) || (document.location.hostname.indexOf("qusps") != -1) || (document.location.hostname.indexOf("cat") != -1) || (document.location.hostname.indexOf("stage") != -1)) {
+	document.write("<script type=\"text\/javascript\" src=\"\/global-elements\/footer\/\script/unvanitizer.js\"><\/script>");
+	env = "dev";
+}
+
+</script>
+
+	
+	<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MVCC8H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MVCC8H');</script>
+<!-- End Google Tag Manager -->
+
+ <script type="text/javascript">
+if ((document.location.pathname.indexOf("TrackConfirmAction") != -1)) {
+	document.write("<script type=\"text\/javascript\" src=\"https:\/\/www.usps.com\/chatbot\/prod\/NIT.Alme.Combined.min.js\"><\/script>");
+}
+</script>
+
+
+
+
+	
+
+	
+
+  <script>
+    // w3IncludeHTML();
+  </script>
+  <!-- Libraries -->
+  <script src="/go/scripts/libs/jquery.min.js"></script>
+
+  <script src="/go/scripts/libs/moment.min.js"></script>
+  <script src="/go/scripts/libs/bootstrap.min.js"></script>
+  <script src="/go/scripts/libs/bootstrap-datepicker.js"></script>
+  <script src="/go/scripts/libs/jquery.keyboard-focus.js"></script>
+  <script src="/go/scripts/libs/jquery.mask.min.js"></script>
+  <script src="/go/scripts/libs/validator.min.js"></script>
+  <!-- Data -->
+  <script src="/go/data/data.js"></script>
+  <!-- App scripts -->
+
+<script type="text/javascript">
+	var isUserLoggedIn = false;
+	var atgCartWidgetUrl = 'https://store.usps.com/store/usps_gh/shopping-cart3.jsp';
+	var trackSigninUrl = 'https://reg.usps.com/entreg/LoginAction_input';
+	var regSignOutUrl = 'https://reg.usps.com/logout';
+	var trackSigninApp = 'UspsTools';
+	var currentPage = encodeURIComponent(document.URL);
+	trackSigninUrl = trackSigninUrl + "?app="+trackSigninApp + "&appURL="+currentPage;
+	regSignOutUrl = regSignOutUrl + "?app="+trackSigninApp + "&appURL="+currentPage;
+	
+</script>	
+
+  <script src="/go/scripts/tracking.js"></script>
+  <script src="/go/scripts/login-timeout.js"></script>
+</body>
+</html>
