@@ -1,3 +1,9 @@
+# 2.2.3
+* update xpost api endpoint
+
+# 2.2.0
+* add xio express
+
 # 2.1.3
 # 2.1.2
 * add handle for sicepat unknown error.
