@@ -1,0 +1,190 @@
+{
+"SearchResults": [
+{
+"SearchItem": "DELIVEREDNM",
+"Shipment": {
+"DRAvail": true,
+"ProNumber": "DELIVEREDNM",
+"PickupNumber": "27540806",
+"CustomerNumber": "349172",
+"BOLNumber": "50122450445",
+"BOLReceived": true,
+"PODReceived": false,
+"PONumber": "",
+"OrderNumber": "27540806",
+"OperationalStatus": "PICK",
+"Status": "P",
+"InspectionAvailable": false,
+"ProDateTime": "2019-11-25T00:00:00",
+"DeliverDateTime": "2019-12-02T00:00:00",
+"SpecInst1": "CC 713 446 6222 TOM\\QTE 50112337002Q",
+"SpecInst2": "",
+"SpecInst3": "",
+"Scac": "RDFS",
+"Location": "ATL",
+"Dest": "SFS",
+"Manifest": "352616-8",
+"BillToAccount": "",
+"Pieces": 3,
+"Weight": 1740,
+"ApptDateTime": "0001-01-01T00:00:00",
+"DeliveredDateTime": "2019-12-02T00:00:00",
+"ProjectedDeliveryDateTime": "2019-12-04T00:00:00",
+"HAWB": null,
+"Origin": {
+"Name": "ADESSO INC",
+"Address1": "1100 LAVAL BLVD STE 500",
+"Address2": "C/O DSV SOLUTIONS",
+"City": "LAWRENCEVILLE",
+"State": "GA",
+"PostalCode": "30043"
+},
+"Consignee": {
+"Name": "ARMSTRONG RELOCATION",
+"Address1": "1555 ZEPHYR AVE",
+"Address2": "",
+"City": "HAYWARD",
+"State": "CA",
+"PostalCode": "94544"
+},
+"PickupTerminal": {
+"TerminalName": "Customer Service",
+"TerminalTollFreePhone": "(855) 776-3567"
+},
+"Comments": [
+{
+"ActivityCode": null,
+"StatusComment": "11/25/2019 11:42 AM Pickup Request Received.",
+"StatusDateTime": "2019-11-25T11:42:00",
+"Status": null,
+"Reason": null
+},
+{
+"ActivityCode": "PU",
+"StatusComment": "11/25/2019 06:32 PM Shipment was picked up",
+"StatusDateTime": "2019-11-25T18:32:00",
+"Status": null,
+"Reason": null
+},
+{
+"ActivityCode": "CLO",
+"StatusComment": "11/26/2019 06:50 PM Trailer Closed - ready for dispatch",
+"StatusDateTime": "2019-11-26T18:50:00",
+"Status": null,
+"Reason": null
+},
+{
+"ActivityCode": "DSP",
+"StatusComment": "11/26/2019 07:24 PM Trailer dispatched from DECATUR, GA to LIVERMORE, CA.",
+"StatusDateTime": "2019-11-26T19:24:00",
+"Status": "L1",
+"Reason": "NS"
+},
+{
+"ActivityCode": "ARV",
+"StatusComment": "11/29/2019 09:43 PM Trailer arrived at terminal in LIVERMORE, CA",
+"StatusDateTime": "2019-11-29T21:43:00",
+"Status": "O1",
+"Reason": "NS"
+},
+{
+"ActivityCode": "UNL",
+"StatusComment": "12/02/2019 01:00 AM Trailer unloaded at terminal in LIVERMORE, CA",
+"StatusDateTime": "2019-12-02T01:00:00",
+"Status": null,
+"Reason": null
+},
+{
+"ActivityCode": "OFD",
+"StatusComment": "12/02/2019 09:58 AM Shipment out for delivery",
+"StatusDateTime": "2019-12-02T09:58:00",
+"Status": "OD",
+"Reason": "NS"
+},
+{
+"ActivityCode": "DEL",
+"StatusComment": "12/02/2019 05:00 PM Shipment delivered to consignee",
+"StatusDateTime": "2019-12-02T17:00:00",
+"Status": "D1",
+"Reason": "NS"
+}
+],
+"Position": {
+"StatusCode": "ATSTOP",
+"Latitude": 37.6961479,
+"Longitude": -121.700623,
+"City": "Livermore",
+"State": "CA",
+"TimeStamp": "2019-11-29T21:43:04"
+},
+"ReferenceNumbers": [
+{
+"StopID": "zz1dqhqg6ka0broLAPPP02",
+"Qual": "BM",
+"Nbr": "50122450445"
+},
+{
+"StopID": "zz1dqhqg6ka0broLAPPP02",
+"Qual": "CR",
+"Nbr": "125.0"
+},
+{
+"StopID": "zz1dqhqg6ka0broLAPPP02",
+"Qual": "CR",
+"Nbr": "3.0"
+},
+{
+"StopID": "zz1dqhqg6ka0broLAPPP02",
+"Qual": "CR",
+"Nbr": "50112337002Q"
+},
+{
+"StopID": "zz1dqhqg6ka0broLAPPP02",
+"Qual": "CR",
+"Nbr": "RDFS"
+},
+{
+"StopID": "zz1dqhqg6ka0broLAPPP02",
+"Qual": "D1",
+"Nbr": "48"
+},
+{
+"StopID": "zz1dqhqg6ka0broLAPPP02",
+"Qual": "D2",
+"Nbr": "40"
+},
+{
+"StopID": "zz1dqhqg6ka0broLAPPP02",
+"Qual": "D3",
+"Nbr": "91"
+},
+{
+"StopID": "zz1dqhqg6ka0broLAPPP02",
+"Qual": "PO",
+"Nbr": "1069889-766756"
+},
+{
+"StopID": "zz1dqhqg6ka0broLAPPP02",
+"Qual": "Z1",
+"Nbr": "238558-P1"
+},
+{
+"StopID": "zz1dqhqg6ka0broLAPPP02",
+"Qual": "ZZ",
+"Nbr": "PRIORITY1_BT"
+}
+],
+"SchedArriveEarly": "2019-11-25T15:00:00",
+"SchedArriveLate": "2019-11-25T17:00:00",
+"ActualDeparture": "2019-11-25T18:32:00",
+"OrderDate": "2019-11-25T11:42:00",
+"PickedUp": true
+},
+"DisplayBOL": false,
+"DisplayPOD": true,
+"DisplayInvoice": false,
+"DisplayInspection": false,
+"DisplayWI": false
+}
+]
+}
