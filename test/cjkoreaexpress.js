@@ -2,15 +2,15 @@
 
 'use strict'
 
-var assert = require('assert')
+const assert = require('assert')
 
-var prepare = require('./fixtures/prepare')
-var tracker = require('../')
+const prepare = require('./fixtures/prepare')
+const tracker = require('../')
 
-var courier = tracker.courier(tracker.COURIER.CJKOREAEXPRESS.CODE)
+const courier = tracker.courier(tracker.COURIER.CJKOREAEXPRESS.CODE)
 
 describe(tracker.COURIER.CJKOREAEXPRESS.NAME, function () {
-  var deliveredNumber = 'DELIVERED'
+  const deliveredNumber = 'DELIVERED'
 
   before(function () {
     // @TODO add nock

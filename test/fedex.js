@@ -2,18 +2,18 @@
 
 'use strict'
 
-var assert = require('assert')
+const assert = require('assert')
 
-var prepare = require('./fixtures/prepare')
-var tracker = require('../')
+const prepare = require('./fixtures/prepare')
+const tracker = require('../')
 
-var courier = tracker.courier(tracker.COURIER.FEDEX.CODE)
+const courier = tracker.courier(tracker.COURIER.FEDEX.CODE)
 
 describe(tracker.COURIER.FEDEX.NAME, function () {
-  var pendingNumber = 'PENDINGNUM'
-  var intransitNumber = 'DELIVEREDNUM'
-  var deliveredNumber = 'DELIVEREDNUM'
-  var exceptionNumber = 'EXCEPTIONNUM'
+  const pendingNumber = 'PENDINGNUM'
+  const intransitNumber = 'DELIVEREDNUM'
+  const deliveredNumber = 'DELIVEREDNUM'
+  const exceptionNumber = 'EXCEPTIONNUM'
 
   before(function () {
     // @TODO add nock
@@ -66,8 +66,8 @@ describe(tracker.COURIER.FEDEX.NAME, function () {
       assert.equal(exceptionNumber, result.number)
       assert.equal(tracker.COURIER.FEDEX.CODE, result.courier.code)
 
-      var exceptionCount = 0
-      for (var i = 0; i < result.checkpoints.length; i++) {
+      let exceptionCount = 0
+      for (let i = 0; i < result.checkpoints.length; i++) {
         if (tracker.STATUS.EXCEPTION === result.checkpoints[i].status) {
           exceptionCount++
         }

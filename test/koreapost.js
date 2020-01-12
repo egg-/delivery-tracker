@@ -2,21 +2,21 @@
 
 'use strict'
 
-var assert = require('assert')
+const assert = require('assert')
 
-var prepare = require('./fixtures/prepare')
-var tracker = require('../')
+const prepare = require('./fixtures/prepare')
+const tracker = require('../')
 
-var courier = tracker.courier(tracker.COURIER.KOREAPOST.CODE)
+const courier = tracker.courier(tracker.COURIER.KOREAPOST.CODE)
 
 describe(tracker.COURIER.KOREAPOST.NAME, function () {
-  var invalidNumber = 'INVALIDNUM0KR'
-  var pendingNumber = 'EBPENDING00KR'
-  var intransitNumber = 'EBINTRANSITKR'
-  var deliveredNumber = 'EBCOMPLETE0KR'
-  var finalDeliveryNumber = 'EBCOMPLETE1KR'
-  var exceptionNumber = 'EYEXCEPTIONKR'
-  var failattemptNumber = 'EYEXCEPTIONKR'
+  const invalidNumber = 'INVALIDNUM0KR'
+  const pendingNumber = 'EBPENDING00KR'
+  const intransitNumber = 'EBINTRANSITKR'
+  const deliveredNumber = 'EBCOMPLETE0KR'
+  const finalDeliveryNumber = 'EBCOMPLETE1KR'
+  const exceptionNumber = 'EYEXCEPTIONKR'
+  const failattemptNumber = 'EYEXCEPTIONKR'
 
   before(function () {
     // @TODO add nock
@@ -102,8 +102,8 @@ describe(tracker.COURIER.KOREAPOST.NAME, function () {
       assert.equal(failattemptNumber, result.number)
       assert.equal(tracker.COURIER.KOREAPOST.CODE, result.courier.code)
 
-      var attemptCount = 0
-      for (var i = 0; i < result.checkpoints.length; i++) {
+      let attemptCount = 0
+      for (let i = 0; i < result.checkpoints.length; i++) {
         if (tracker.STATUS.FAIL_ATTEMPT === result.checkpoints[i].status) {
           attemptCount++
         }

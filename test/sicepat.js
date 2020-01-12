@@ -2,17 +2,17 @@
 
 'use strict'
 
-var assert = require('assert')
+const assert = require('assert')
 
-var prepare = require('./fixtures/prepare')
-var tracker = require('../')
+const prepare = require('./fixtures/prepare')
+const tracker = require('../')
 
-var courier = tracker.courier(tracker.COURIER.SICEPAT.CODE, {
+const courier = tracker.courier(tracker.COURIER.SICEPAT.CODE, {
   apikey: 'test'
 })
 
 describe(tracker.COURIER.SICEPAT.NAME, function () {
-  var deliveredNumber = 'DELIVERED'
+  const deliveredNumber = 'DELIVERED'
 
   before(function () {
     // @TODO add nock

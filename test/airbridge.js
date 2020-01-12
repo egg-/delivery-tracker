@@ -2,18 +2,18 @@
 
 'use strict'
 
-var assert = require('assert')
+const assert = require('assert')
 
-var prepare = require('./fixtures/prepare')
-var tracker = require('../')
+const prepare = require('./fixtures/prepare')
+const tracker = require('../')
 
-var courier = tracker.courier(tracker.COURIER.AIRBRIDGE.CODE)
+const courier = tracker.courier(tracker.COURIER.AIRBRIDGE.CODE)
 
 describe(tracker.COURIER.AIRBRIDGE.NAME, function () {
-  var deliveredIDNumber = 'DELIVEREDID'
-  var deliveredMYNumber = 'DELIVEREDMY'
-  var rescheduledSGNumber = 'RESCHEDULEDSG'
-  var intransitNumber = 'INTRANSIT'
+  const deliveredIDNumber = 'DELIVEREDID'
+  const deliveredMYNumber = 'DELIVEREDMY'
+  const rescheduledSGNumber = 'RESCHEDULEDSG'
+  const intransitNumber = 'INTRANSIT'
 
   before(function () {
     // @TODO add nock

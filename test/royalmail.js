@@ -2,15 +2,15 @@
 
 'use strict'
 
-var assert = require('assert')
+const assert = require('assert')
 
-var prepare = require('./fixtures/prepare')
-var tracker = require('../')
+const prepare = require('./fixtures/prepare')
+const tracker = require('../')
 
-var courier = tracker.courier(tracker.COURIER.ROYALMAIL.CODE)
+const courier = tracker.courier(tracker.COURIER.ROYALMAIL.CODE)
 
 describe(tracker.COURIER.ROYALMAIL.NAME, function () {
-  var intransitNumber = 'LBTRANSIT'
+  const intransitNumber = 'LBTRANSIT'
 
   before(function () {
     // @TODO add nock

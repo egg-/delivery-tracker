@@ -40,8 +40,8 @@ $ npm install delivery-tracker
 ## Usage
 
 ```javascript
-var tracker = require('delivery-tracker')
-var courier = tracker.courier(tracker.COURIER.KOREAPOST.CODE)
+const tracker = require('delivery-tracker')
+const courier = tracker.courier(tracker.COURIER.KOREAPOST.CODE)
 
 courier.trace({trace_number}, function (err, result) {
   console.log(result)
