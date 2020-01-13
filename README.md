@@ -30,6 +30,7 @@ XPOST | @egg- | https://www.xpost.ph/
 KERRYTHAI | @egg- | https://th.kerryexpress.com
 SICEPAT | @egg- | http://sicepat.com/
 XIOExpress | @egg- | https://xioexpress.com/
+RoadRunner Freight | @luqven | https://freight.rrts.com/
 
 ## Installation
 
