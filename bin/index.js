@@ -5,7 +5,7 @@ var tracker = require('../')
 
 program
   .arguments('<tracecode>')
-  .option('-c, --courier <courier>', 'Courier Namespace', /^(KOREAPOST|ECARGO|FEDEX|PANTOS|RINCOS|AUSPOST|ROYALMAIL|USPS|CJKOREAEXPRESS|POSLAJU|YELLOEXPRESS|EFS|AIRBRIDGE|UPS|TNT|CESCO|XPOST|KERRYTHAI|SICEPAT|XIOEXPRESS)$/i)
+  .option('-c, --courier <courier>', 'Courier Namespace', /^(KOREAPOST|ECARGO|FEDEX|PANTOS|RINCOS|AUSPOST|ROYALMAIL|USPS|CJKOREAEXPRESS|POSLAJU|YELLOEXPRESS|EFS|AIRBRIDGE|UPS|TNT|CESCO|XPOST|KERRYTHAI|SICEPAT|XIOEXPRESS|ROADRUNNER)$/i)
   .option('-k, --apikey <apikey>', 'API KEY')
   .action(function (tracecode) {
     if (!tracker.COURIER[program.courier]) {
