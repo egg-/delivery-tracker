@@ -1,3 +1,7 @@
+# 2.3.0
+* add eparcel express
+* fixed ups tracker
+
 # 2.2.3
 * update xpost api endpoint
 

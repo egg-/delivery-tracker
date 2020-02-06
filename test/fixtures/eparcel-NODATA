@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+
+<html style="background: none; background-color: #fff;">
+    <head>
+        <title>용성종합물류</title>
+
+        
+        <link rel="stylesheet" href="/Content/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/Content/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="/Content/css/invoice.min.css" />
+        <link rel="stylesheet" href="/Content/css/lockscreen.min.css" />
+        <link rel="stylesheet" href="/Content/css/smartadmin-production-plugins.min.css" />
+        <link rel="stylesheet" href="/Content/css/smartadmin-production.min.css" />
+        <link rel="stylesheet" href="/Content/css/smartadmin-rtl.min.css" />
+        <link rel="stylesheet" href="/Content/css/smartadmin-skins.glokay.06.css" />
+        <link rel="stylesheet" href="/Content/css/your_style_glokay.25.css" />
+
+  
+        <!-- FAVICONS -->
+		<link rel="shortcut icon" href="" type="image/x-icon"/>
+		<link rel="icon" href="" type="image/x-icon"/>
+
+		<!-- AWESOME FONT -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"  />
+
+		<!-- Specifying a Webpage Icon for Web Clip 
+			 Ref: https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html -->
+		<link rel="apple-touch-icon" href="/Content/img/splash/sptouch-icon-iphone.png"/>
+		<link rel="apple-touch-icon" sizes="76x76" href="/Content/img/splash/touch-icon-ipad.png"/>
+		<link rel="apple-touch-icon" sizes="120x120" href="/Content/img/splash/touch-icon-iphone-retina.png"/>
+		<link rel="apple-touch-icon" sizes="152x152" href="/Content/img/splash/touch-icon-ipad-retina.png"/>
+		
+		<!-- iOS web-app metas : hides Safari UI Components and Changes Status Bar Appearance -->
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+		
+		<!-- Startup image for web apps -->
+		<link rel="apple-touch-startup-image" href="/Content/img/splash/ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)"/>
+		<link rel="apple-touch-startup-image" href="/Content/img/splash/ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)"/>
+		<link rel="apple-touch-startup-image" href="/Content/img/splash/iphone.png" media="screen and (max-device-width: 320px)"/>
+
+
+    </head>
+
+
+
+<style type="text/css">
+#loading {
+    width: 100%;   
+    height: 100%;   
+    top: 0px;
+    left: 0px;
+    position: fixed;   
+    display: none;   
+    opacity: 0.7;   
+    background-color: #fff;   
+    z-index: 99;   
+    text-align: center;
+}
+ 
+#loading-image {   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+}
+
+.has-sub ul{z-index:99;}
+</style>
+
+<div id="loading"><i id="loading-image" class="fa fa-spinner fa-spin fa-2x"></i></div>
+
+
+
+<body class="desktop-detected pace-done sb_theme" style="background: none; background-color: #fff;">
+
+    <script data-pace-options='{ "restartOnRequestAfter": true }' src="/Scripts/plugin/pace/pace.min.js"></script>
+
+	<script src="/Scripts/libs/jquery-2.1.1.min.js"></script>
+    <script src="/Scripts/libs/jquery-ui-1.10.3.min.js"></script>
+
+
+
+    <!-- HEADER -->
+	<header id="header" style="background-image: none;">
+		<div id="logo-group" style="text-align: center;">
+
+            <!-- PLACE YOUR LOGO HERE -->
+            <a href="/Track/Search">
+                <span id="logo">
+                    <img src="/Content/img/sparcel_header.png" alt="용성종합물류" title="용성종합물류" style="width: 200px; margin-left: -18px; margin-top: -7px; display: block;" />
+                </span>
+            </a>
+		</div>
+             
+     
+
+
+
+
+		<!-- pulled right: nav area -->
+        <div class="pull-right">
+            
+
+<script language="javascript">
+//    $(document).ready(function (e) {
+//        try {
+//            $("#select_lang").msDropDown();
+//        } catch (e) {
+//            alert(e.message);
+//        }
+//    });
+
+    //function change_lang() {
+    function change_lang(LANG) {
+     ///   var LANG = document.getElementById("select_lang").value.trim();
+
+        $('#loading').show();
+        $.ajax({
+            url: '/Account/ChangeTrackingLanguage',
+            type: 'POST',
+            dataType: 'json',
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify({
+                culture: LANG
+            }),
+            success: function (result) {
+                if (result.Success == true) {
+                    location.reload(true);
+                }
+            }
+            , error: function (xhr, textStatus, exceptionThrown) {
+                $('#loading').hide();
+                alert("Error : language change failed.");
+            }
+        });
+    }
+</script>
+
+
+
+
+
+<ul class="header-dropdown-list hidden-xs">
+	<li>
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #fff;"> 
+            <img src="/Content/img/blank.gif" id="SelectLANG_img_us" class="flag flag-us" alt="United States" /><span style="margin-top: -3px;"> English (US) </span>
+
+            <i class="fa fa-angle-down"></i> 
+        </a>
+		<ul class="dropdown-menu pull-right">
+			<li class="active">
+				<a href="javascript:change_lang('en-US', 'flag-us', 'English (US)');"><img src="/Content/img/blank.gif" class="flag flag-us" alt="United States" /> English (US)</a>
+			</li>
+			<li >
+				<a href="javascript:change_lang('zh-CN', 'flag-cn', '中国语');"><img src="/Content/img/blank.gif" class="flag flag-cn" alt="China" /> 中国语</a>
+			</li>	
+			<li >
+				<a href="javascript:change_lang('ko-KR', 'flag-kr', '한국어');"><img src="/Content/img/blank.gif" class="flag flag-kr" alt="Korea" /> 한국어</a>
+			</li>				
+		    <li >
+				<a href="javascript:change_lang('ja-JP', 'flag-jp', '日本語');"><img src="/Content/img/blank.gif" class="flag flag-jp" alt="Korea" /> 日本語</a>
+			</li>		
+		</ul>
+	</li>
+</ul>
+
+		</div>
+		<!-- end pulled right: nav area -->
+          
+	</header>
+
+    <div id="main" style="background-color: #fff; margin-left: 0px; padding-top: 20px;">
+	    
+
+
+
+
+
+
+
+
+
+<div id="content">
+
+        <div class="panel panel-default">
+            <div class="panel-heading" style="background-color:red; cursor: pointer;" onclick="display_toggle(1);">
+                <span style="font-size:20px; font-weight:bold;">1 Registration number : NODATA</span>
+            </div>
+            <div class="panel-body result-body-1" style="display:block;">
+No data.            </div>
+        </div>
+</div>
+
+
+
+
+
+
+    </div>
+
+    <!-- IMPORTANT: APP CONFIG -->
+		<script src="/Scripts/app.config.js"></script>
+
+		<!-- JS TOUCH : include this plugin for mobile drag / drop touch events-->
+		<script src="/Scripts/plugin/jquery-touch/jquery.ui.touch-punch.min.js"></script> 
+
+		<!-- BOOTSTRAP JS -->
+		<script src="/Scripts/bootstrap/bootstrap.min.js"></script>
+
+		<!-- CUSTOM NOTIFICATION -->
+		<script src="/Scripts/notification/SmartNotification.min.js"></script>
+
+		<!-- JARVIS WIDGETS -->
+		<script src="/Scripts/smartwidgets/jarvis.widget.min.js"></script>
+
+		<!-- EASY PIE CHARTS -->
+		<script src="/Scripts/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+
+		<!-- SPARKLINES -->
+		<script src="/Scripts/plugin/sparkline/jquery.sparkline.min.js"></script>
+
+		<!-- JQUERY VALIDATE -->
+		<script src="/Scripts/plugin/jquery-validate/jquery.validate.min.js"></script>
+
+		<!-- JQUERY MASKED INPUT -->
+		<script src="/Scripts/plugin/masked-input/jquery.maskedinput.min.js"></script>
+
+		<!-- JQUERY SELECT2 INPUT -->
+		<script src="/Scripts/plugin/select2/select2.min.js"></script>
+
+		<!-- JQUERY UI + Bootstrap Slider -->
+		<script src="/Scripts/plugin/bootstrap-slider/bootstrap-slider.min.js"></script>
+
+		<!-- browser msie issue fix -->
+		<script src="/Scripts/plugin/msie-fix/jquery.mb.browser.min.js"></script>
+
+		<!-- FastClick: For mobile devices -->
+		<script src="/Scripts/plugin/fastclick/fastclick.min.js"></script>
+
+		<!--[if IE 8]>
+
+		<h1>Your browser is out of date, please update your browser by going to www.microsoft.com/download</h1>
+
+		<![endif]-->
+
+		<!-- Demo purpose only
+		<script src="/Scripts/demo.min.js"></script> -->
+
+		<!-- MAIN APP JS FILE -->
+		<script src="/Scripts/app.min.js"></script>
+
+		<!-- ENHANCEMENT PLUGINS : NOT A REQUIREMENT -->
+		<!-- Voice command : plugin -->
+		<script src="/Scripts/speech/voicecommand.min.js"></script>
+
+		<!-- SmartChat UI : plugin -->
+		<script src="/Scripts/smart-chat-ui/smart.chat.ui.min.js"></script>
+		<script src="/Scripts/smart-chat-ui/smart.chat.manager.min.js"></script>
+
+		<!-- PAGE RELATED PLUGIN(S) -->
+		<script src="/Scripts/plugin/datatables/jquery.dataTables.min.js"></script>
+		<script src="/Scripts/plugin/datatables/dataTables.colVis.min.js"></script>
+		<script src="/Scripts/plugin/datatables/dataTables.tableTools.min.js"></script>
+		<script src="/Scripts/plugin/datatables/dataTables.bootstrap.min.js"></script>
+		<script src="/Scripts/plugin/datatable-responsive/datatables.responsive.min.js"></script>
+
+
+                
+        <script src="/scripts/plugin/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+                
+
+        <script src="/scripts/plugin/moment/moment.min.js"></script>
+        <script src="/scripts/plugin/fullcalendar/jquery.fullcalendar.min.js"></script>
+                
+
+        <script src="/scripts/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+        <script src="/scripts/plugin/sparkline/jquery.sparkline.min.js"></script>
+        <script src="/scripts/plugin/morris/morris.min.js"></script>
+        <script src="/scripts/plugin/morris/raphael.min.js"></script>
+        <script src="/scripts/plugin/flot/jquery.flot.cust.min.js"></script>
+        <script src="/scripts/plugin/flot/jquery.flot.resize.min.js"></script>
+        <script src="/scripts/plugin/flot/jquery.flot.time.min.js"></script>
+        <script src="/scripts/plugin/flot/jquery.flot.fillbetween.min.js"></script>
+        <script src="/scripts/plugin/flot/jquery.flot.orderBar.min.js"></script>
+        <script src="/scripts/plugin/flot/jquery.flot.pie.min.js"></script>
+        <script src="/scripts/plugin/flot/jquery.flot.tooltip.min.js"></script>
+        <script src="/scripts/plugin/dygraphs/dygraph-combined.min.js"></script>
+        <script src="/scripts/plugin/chartjs/chart.min.js"></script>
+        <script src="/scripts/plugin/highChartCore/highcharts-custom.min.js"></script>
+        <script src="/scripts/plugin/highchartTable/jquery.highchartTable.min.js"></script>
+                
+
+          
+                
+        <script src="/scripts/plugin/jqgrid/jquery.jqGrid.min.js"></script>
+        <script src="/scripts/plugin/jqgrid/grid.locale-en.min.js"></script>
+                
+        <script src="/scripts/plugin/jquery-form/jquery-form.min.js"></script>
+                
+        <script src="/scripts/smart-chat-ui/smart.chat.ui.min.js"></script>
+        <script src="/scripts/smart-chat-ui/smart.chat.manager.min.js"></script>
+                
+        <script src="/scripts/plugin/vectormap/jquery-jvectormap-1.2.2.min.js"></script>
+        <script src="/scripts/plugin/vectormap/jquery-jvectormap-world-mill-en.js"></script>
+                
+
+       <!-- DO NOT REMOVE : GLOBAL FUNCTIONS! -->
+        <script>
+            $(document).ready(function () {
+                pageSetUp();
+                //drawBreadCrumb();
+            });
+        </script>
+</body>
+</html>

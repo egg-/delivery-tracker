@@ -30,6 +30,7 @@ XPOST | @egg- | https://www.xpost.ph/
 KERRYTHAI | @egg- | https://th.kerryexpress.com
 SICEPAT | @egg- | http://sicepat.com/
 XIOExpress | @egg- | https://xioexpress.com/
+eParcel | @egg- | https://eparcel.kr/
 
 ## Installation
 
@@ -118,7 +119,8 @@ CESCO | cesco | CESCO
 XPOST | xpost | XPOST
 KERRYTHAI | kerrythai | KERRYTHAI
 SICEPAT | sicepat | SICEPAT
-XIOEXPRESS | sicepat | XIOExpress
+XIOEXPRESS | xioexpress | XIOExpress
+EPARCEL | eparcel | eParcel
 
 ### STATUS
 
