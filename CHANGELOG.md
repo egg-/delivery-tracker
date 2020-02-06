@@ -1,3 +1,6 @@
+# 2.3.2
+* sicepat: change to work without apikey
+
 # 2.3.1
 * fit to standard format
 
