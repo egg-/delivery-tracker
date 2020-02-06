@@ -1,3 +1,6 @@
+# 2.3.1
+* fit to standard format
+
 # 2.3.0
 * add eparcel express
 * fixed ups tracker
