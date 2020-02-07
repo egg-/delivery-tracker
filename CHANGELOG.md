@@ -1,3 +1,9 @@
+# 2.3.4
+* sicepat: add status for INFO_RECEIVED
+
+# 2.3.3
+* sicepat: add apikey for option
+
 # 2.3.2
 * sicepat: change to work without apikey
 
