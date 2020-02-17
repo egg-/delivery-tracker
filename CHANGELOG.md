@@ -1,3 +1,6 @@
+# 2.3.5
+* eparcel: fixed delivery status check issue.
+
 # 2.3.4
 * sicepat: add status for INFO_RECEIVED
 
