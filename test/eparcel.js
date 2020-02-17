@@ -10,22 +10,22 @@ var tracker = require('../')
 var courier = tracker.courier(tracker.COURIER.EPARCEL.CODE)
 
 describe(tracker.COURIER.EPARCEL.NAME, function () {
-  var intransitNumber = 'INTRANSIT'
+  var deliveredNumber = 'DELIVEREDNUM'
   var nodataNumber = 'NODATA'
 
   before(function () {
     // @TODO add nock
-    prepare(courier, intransitNumber)
+    prepare(courier, deliveredNumber)
     prepare(courier, nodataNumber)
   })
 
-  it('transit number', function (done) {
-    courier.trace(intransitNumber, function (err, result) {
+  it('delivered number', function (done) {
+    courier.trace(deliveredNumber, function (err, result) {
       assert.equal(err, null)
 
-      assert.equal(intransitNumber, result.number)
+      assert.equal(deliveredNumber, result.number)
       assert.equal(tracker.COURIER.EPARCEL.CODE, result.courier.code)
-      assert.equal(tracker.STATUS.IN_TRANSIT, result.status)
+      assert.equal(tracker.STATUS.DELIVERED, result.status)
 
       done()
     })

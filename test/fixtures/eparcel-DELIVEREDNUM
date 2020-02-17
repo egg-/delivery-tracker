@@ -3,7 +3,7 @@
 
 <html style="background: none; background-color: #fff;">
     <head>
-        <title>용성종합물류</title>
+        <title>용성종합물류-eparcel</title>
 
         
         <link rel="stylesheet" href="/Content/css/bootstrap.min.css" />
@@ -18,8 +18,8 @@
 
   
         <!-- FAVICONS -->
-		<link rel="shortcut icon" href="" type="image/x-icon"/>
-		<link rel="icon" href="" type="image/x-icon"/>
+		<link rel="shortcut icon" href="/Content/img/favicon/empty_16.ico" type="image/x-icon"/>
+		<link rel="icon" href="/Content/img/favicon/empty_16.ico" type="image/x-icon"/>
 
 		<!-- AWESOME FONT -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"  />
@@ -89,7 +89,7 @@
             <!-- PLACE YOUR LOGO HERE -->
             <a href="/Track/Search">
                 <span id="logo">
-                    <img src="/Content/img/sparcel_header.png" alt="용성종합물류" title="용성종합물류" style="width: 200px; margin-left: -18px; margin-top: -7px; display: block;" />
+                    <img src="/Content/img/sparcel_header.png" alt="용성종합물류-eparcel" title="용성종합물류-eparcel" style="width: 200px; margin-left: -18px; margin-top: -7px; display: block;" />
                 </span>
             </a>
 		</div>
@@ -186,9 +186,9 @@
 
         <div class="panel panel-default">
             <div class="panel-heading" style="background-color:#f5f5f5;; cursor: pointer;" onclick="display_toggle(1);">
-                <span style="font-size:20px; font-weight:bold;">1 Registration number : INTRANSIT</span>
-                        <span class="label label-warning" style="font-size:20px; margin-left:20px; margin-right:20px;">[30] Be released</span>
-                    <span style="font-size:20px; font-weight:bold;">2020-02-04 16:50:19</span>
+                <span style="font-size:20px; font-weight:bold;">1 Registration number : DELIVEREDNUM</span>
+                        <span class="label label-success" style="font-size:20px; margin-left:20px; margin-right:20px;">[700] Completion of the delivery</span>
+                    <span style="font-size:20px; font-weight:bold;">2020-02-13 04:51:49</span>
             </div>
             <div class="panel-body result-body-1" style="display:block;">
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
@@ -203,17 +203,47 @@
 
                         <tbody>
                             <tr>
-                                <td>2020-02-04 16:50:19</td>
+                                <td>2020-02-13 04:51:49</td>
+                                <td>[700] Completion of the delivery</td>
+                                <td>SUCCESS</td>
+                            </tr>
+                            <tr>
+                                <td>2020-02-12 23:53:27</td>
+                                <td>[550] Currently deliverling</td>
+                                <td>DELIVERY IN PROGRESS</td>
+                            </tr>
+                            <tr>
+                                <td>2020-02-12 11:31:00</td>
+                                <td>[550] Currently deliverling</td>
+                                <td>ORDER RECEIVED AT DESTINATION WAREHOUSE</td>
+                            </tr>
+                            <tr>
+                                <td>2020-02-12 09:19:50</td>
+                                <td>[500] Start delivery</td>
+                                <td>Order received at local sorting centre.</td>
+                            </tr>
+                            <tr>
+                                <td>2020-02-12 06:19:00</td>
+                                <td>[200] Aircraft arrival</td>
+                                <td>싱가포르 창이 공항(Singapore Changi Airport)</td>
+                            </tr>
+                            <tr>
+                                <td>2020-02-11 19:31:00 (local time)</td>
+                                <td>[100] Aircraft departure</td>
+                                <td>Gimpo International Airport</td>
+                            </tr>
+                            <tr>
+                                <td>2020-02-11 15:26:15 (local time)</td>
                                 <td>[30] Be released</td>
                                 <td>용성종합물류</td>
                             </tr>
                             <tr>
-                                <td>2020-02-03 13:33:15</td>
+                                <td>2020-02-11 11:32:41 (local time)</td>
                                 <td>[20] Completion of the warehousing</td>
                                 <td>용성종합물류</td>
                             </tr>
                             <tr>
-                                <td>2020-01-31 10:46:30</td>
+                                <td>2020-02-07 11:07:14 (local time)</td>
                                 <td>[10] Ready for warehousing</td>
                                 <td>매드스퀘어</td>
                             </tr>
@@ -228,11 +258,11 @@
                         </div>
                         <div class="panel-body">
                             Departure country : REPUBLIC OF KOREA
-                            <br />Destination Country : INDONESIA
-                            <br />Registration number : INTRANSIT
-                            <br />Order No : 202001300413467645
-                            <br />Delivery No : INTRANSIT
-                            <br />Delivery Company : <a href='http://www.telandc.com/about-us&lang=EN' target='_blank'>TEL&C</a>                        </div>
+                            <br />Destination Country : SINGAPORE
+                            <br />Registration number : DELIVEREDNUM
+                            <br />Order No : 202002060801552932
+                            <br />Delivery No : DELIVEREDNUM
+                            <br />Delivery Company : JANIO                        </div>
                     </div>
                 </div>
             </div>

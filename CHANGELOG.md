@@ -1,3 +1,6 @@
+# 2.3.6
+* eparcel: fixed delivery status check issue and change test dummy data.
+
 # 2.3.5
 * eparcel: fixed delivery status check issue.
 
