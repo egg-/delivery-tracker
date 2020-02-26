@@ -1,3 +1,6 @@
+# 2.3.7
+* sicepat: fixed delivery status check issue.
+
 # 2.3.6
 * eparcel: fixed delivery status check issue and change test dummy data.
 
