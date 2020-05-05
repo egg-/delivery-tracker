@@ -1,3 +1,6 @@
+# 2.3.8
+* sicepat: apply updated return value
+
 # 2.3.7
 * sicepat: fixed delivery status check issue.
 

