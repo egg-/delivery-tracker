@@ -1,6 +1,6 @@
 {
   "name": "delivery-tracker",
-  "version": "2.3.8",
+  "version": "2.3.9",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -56,13 +56,13 @@
   },
   "homepage": "https://github.com/egg-/delivery-tracker#readme",
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "1.0.4",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-mocha-test": "^0.13.2",
     "matchdep": "^1.0.1",
     "mocha": "^3.2.0",
     "nock": "^9.0.2",
-    "standard": "^8.6.0"
+    "standard": "8.6.0"
   },
   "dependencies": {
     "async": "^2.1.4",

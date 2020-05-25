@@ -10,18 +10,18 @@ var tracker = require('../')
 var courier = tracker.courier(tracker.COURIER.KERRYTHAI.CODE)
 
 describe(tracker.COURIER.KERRYTHAI.NAME, function () {
-  var deliveredNumber = 'DELIVERED'
+  var exeptionNumber = 'EXCEPTIONTHAI'
 
   before(function () {
     // @TODO add nock
-    prepare(courier, deliveredNumber)
+    prepare(courier, exeptionNumber)
   })
 
   it('delivered number', function (done) {
-    courier.trace(deliveredNumber, function (err, result) {
+    courier.trace(exeptionNumber, function (err, result) {
       assert.equal(err, null)
 
-      assert.equal(deliveredNumber, result.number)
+      assert.equal(exeptionNumber, result.number)
       assert.equal(tracker.COURIER.KERRYTHAI.CODE, result.courier.code)
 
       done()

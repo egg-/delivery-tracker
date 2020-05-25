@@ -1,3 +1,6 @@
+# 2.3.9
+* kerrythai: changed tracking endpoint
+
 # 2.3.8
 * sicepat: apply updated return value
 
