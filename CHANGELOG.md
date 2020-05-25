@@ -1,3 +1,37 @@
+# 2.3.8
+* sicepat: apply updated return value
+
+# 2.3.7
+* sicepat: fixed delivery status check issue.
+
+# 2.3.6
+* eparcel: fixed delivery status check issue and change test dummy data.
+
+# 2.3.5
+* eparcel: fixed delivery status check issue.
+
+# 2.3.4
+* sicepat: add status for INFO_RECEIVED
+
+# 2.3.3
+* sicepat: add apikey for option
+
+# 2.3.2
+* sicepat: change to work without apikey
+
+# 2.3.1
+* fit to standard format
+
+# 2.3.0
+* add eparcel express
+* fixed ups tracker
+
+# 2.2.3
+* update xpost api endpoint
+
+# 2.2.0
+* add xio express
+
 # 2.1.3
 # 2.1.2
 * add handle for sicepat unknown error.
