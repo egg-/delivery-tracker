@@ -1,3 +1,9 @@
+# 2.3.11
+* sicepat: add 'rejectUnauthorized' option to ignore ssl error.
+
+# 2.3.10
+* sicepat: updated the changed date time format.
+
 # 2.3.9
 * kerrythai: changed tracking endpoint
 
