@@ -31,6 +31,7 @@ KERRYTHAI | @egg- | https://th.kerryexpress.com
 SICEPAT | @egg- | http://sicepat.com/
 XIOExpress | @egg- | https://xioexpress.com/
 eParcel | @egg- | https://eparcel.kr/
+LBC | @egg- | https://www.lbcexpress.com/
 
 ## Installation
 
@@ -121,6 +122,7 @@ KERRYTHAI | kerrythai | KERRYTHAI
 SICEPAT | sicepat | SICEPAT
 XIOEXPRESS | xioexpress | XIOExpress
 EPARCEL | eparcel | eParcel
+LBC | lbc | LBC
 
 ### STATUS
 

@@ -1,3 +1,6 @@
+# 2.4.0
+* added courier LBC
+
 # 2.3.11
 * sicepat: add 'rejectUnauthorized' option to ignore ssl error.
 
