@@ -1,3 +1,6 @@
+# 2.4.1
+* disable strictSSL for CJ
+
 # 2.4.0
 * added courier LBC
 
