@@ -1,3 +1,6 @@
+# 2.4.2
+* update eparcel check point area
+
 # 2.4.1
 * disable strictSSL for CJ
 
