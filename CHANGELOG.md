@@ -1,3 +1,6 @@
+# 2.4.3
+* fixed an issue of UPS that always marked as InTransit
+
 # 2.4.2
 * update eparcel check point area
 
