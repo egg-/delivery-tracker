@@ -9,7 +9,11 @@ module.exports = function (courier, number) {
   } else {
     for (var key in trackingInfo) {
       var filename = [courier.CODE, number, key].join('-')
-      typeof trackingInfo[key] === 'object' && prepareNock(trackingInfo[key], filename)
+      if (typeof trackingInfo[key] === 'object') {
+        prepareNock(trackingInfo[key], filename)
+      } else if (typeof trackingInfo[key] === 'function') {
+        prepareNock(trackingInfo[key](), filename)
+      }
     }
   }
 }

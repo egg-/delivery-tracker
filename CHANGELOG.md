@@ -1,3 +1,6 @@
+# 2.4.4
+* fixed an issue in CJKOREAEXPRESS is not working.
+
 # 2.4.3
 * fixed an issue of UPS that always marked as InTransit
 

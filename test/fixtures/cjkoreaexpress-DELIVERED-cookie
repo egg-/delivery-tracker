@@ -1,0 +1,2593 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+
+
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-47919938-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  
+  
+  gtag('config', 'UA-47919938-1');
+  
+  
+  
+  
+	</script>
+	<script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0036/4517.js" async="async"></script>
+
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '322984241710585');
+fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=322984241710585&ev=PageView&noscript=1"
+/></noscript>
+		<!-- End Facebook Pixel Code -->
+
+
+
+
+
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="CJ대한통운, 대한통운택배, 택배, 운송장, 배송정보, 배송추적, 택배조회">
+		<meta name="description" content="CJ대한통운 택배조회 페이지입니다." />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="택배조회 | CJ대한통운" />
+		<meta name="twitter:site" content="CJ대한통운" />
+		<meta name="twitter:creator" content="CJ대한통운" />
+		<meta name="twitter:image"
+			content="http://www.cjlogistics.com/static/pc/global/template/images/sns/sns_img_ko.jpg" />
+		<meta name="twitter:description" content="CJ대한통운 택배조회 페이지입니다." />
+		<meta property="og:title" content="택배조회 | CJ대한통운">
+		<meta property="og:site_name" content="CJ대한통운" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="http://www.cjlogistics.com/ko/tool/parcel/tracking" />
+
+
+
+
+
+		<meta property="og:image"
+			content="http://www.cjlogistics.com/static/pc/global/template/images/sns/sns_img_ko.jpg">
+
+
+
+		<meta property="og:description" content="CJ대한통운 택배조회 페이지입니다." />
+		<title>택배조회 | 조회/예약 | CJ대한통운</title>
+		<link rel="image_src" href="http://www.cjlogistics.com/static/pc/global/template/images/sns/sns_img_ko.jpg" />
+		<link rel="shortcut icon" type="image/x-icon" href="/static/pc/global/template/images/logo/cj.ico" />
+		<!-- 공통 cjlgt.min.css -->
+		<link rel="stylesheet" href="/static/pc/global/template/css/cjlgt.min.css?v=2020092417">
+		<!-- 메인 main.min.css -->
+		<link rel="stylesheet" href="/static/pc/global/template/css/main.min.css?v=2020092417">
+		<!-- 서브 page.min.css -->
+		<link rel="stylesheet" href="/static/pc/global/template/css/page.min.css?v=2020092417">
+
+
+
+
+
+</head>
+
+<body id="ko">
+
+
+
+	<!-- 공통 : skip_nav -->
+	<ul class="skip">
+		<li><a href="#skipCt">본문 바로가기</a></li>
+		<li><a href="#gnb">대 메뉴 바로가기</a></li>
+	</ul>
+	<!-- //공통 : skip_nav -->
+
+
+
+
+
+
+	<!-- 공통 : header  -->
+	<div id="header">
+		<!-- 스크롤 업 class="scroll-up" -->
+		<!-- inner -->
+		<div id="inner">
+			<div class="left-motion">
+				<h1>
+					<a href="/ko/main">CJ대한통운 </a>
+				</h1>
+				<!-- 171126 추가 -->
+				<div class="box-globalLang" data-control="btnGlobalLang">
+					<!-- 활성화 class="on"  -->
+
+
+
+					<span id="btnGlobalLang">KO</span>
+
+
+
+				</div>
+				<!-- //171126 추가 -->
+				<div class="box-globalNetwork" data-control="btnGlobalNetwork">
+					<a href="#list-network-wrap" onclick="fncGlobalCountryList();" id="btnGlobalNetwork" class=""
+						title="글로벌 네트워크 리스트 열기" data-accessibilityopen="글로벌 네트워크 리스트 열기"
+						data-accessibilityclose="글로벌 네트워크 리스트 닫기"><span>글로벌 네트워크 리스트 열기</span></a>
+					<!-- 활성화 class on -->
+					<div class="list-network-wrap" id="list-network-wrap">
+						<p class="title-network"><a href="/ko/network"
+								onclick="googleTag('글로벌 네트워크','GNB','글로벌 네트워크');">GLOBAL NETWORK</a></p>
+						<ul class="list-network" id="globalCountryList">
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- gnb -->
+			<div id="gnb">
+				<h2 class="hidden">Main Menu</h2>
+				<ul>
+					<li>
+						<a href="/ko/business" onclick="googleTag('사업영역','GNB','사업영역');"><span>사업영역</span></a>
+					</li>
+					<li>
+						<a href="/ko/tes" onclick="googleTag('TES','GNB','TES');"><span>TES</span></a>
+					</li>
+					<li>
+						<a href="/ko/network"
+							onclick="googleTag('글로벌 네트워크','GNB','글로벌 네트워크');"><span>글로벌 네트워크</span></a>
+					</li>
+					<li>
+						<a href="/ko/sustainablity"
+							onclick="googleTag('지속가능경영','GNB','지속가능경영');"><span>지속가능경영</span></a>
+					</li>
+				</ul>
+			</div>
+			<!-- //gnb -->
+			<div class="right-motion">
+				<!-- box-tool -->
+				<div class="box-tool" id="btnTools">
+					<a href="#btnTools" class="btn-tool" data-accessibilityopen="조회/예약 레이어 팝업 열기"
+						data-accessibilityclose="조회/예약 레이어 팝업 닫기" title="" data-control="btnTools">
+						<div class="gap-wrap">
+							<span class="gap">조회/예약<span class="icon"></span>
+							</span>
+							<span class="bg-1"></span>
+							<span class="bg-2"></span>
+							<span class="bg-3"></span>
+						</div>
+					</a>
+					<div class="box-toolLink">
+						<div class="tool-top">
+							<span class="tool-title">
+							<label for="trackingNum">택배조회</label>
+						</span>
+							<div class="ipt-1 input-control">
+								<input type="text" id="trackingNum" maxlength="20" placeholder="운송장 번호를 입력하세요" title="운송장 번호를 입력하세요" onkeyup="numberCheck(this);" onkeypress="javascript:if(event.keyCode==13){fncTrackingSearch(),googleTag('조회/예약 | 택배조회','GNB','택배조회'); return false;}">
+								<button type="button" class="form-control-clear">Text Clear</button>
+							</div>
+							<div class="btn-1">
+								<span class="icon-search">
+								<input type="submit" title="검색" onclick="return fncTrackingSearch(),googleTag('조회/예약 | 택배조회','GNB','택배조회');">
+							</span>
+							</div>
+						</div>
+						<div class="tool-bottom">
+							<ul class="tool-list">
+
+
+
+
+
+
+
+
+								<li>
+									<a href="/ko/tool/parcel/reservation-general"
+										onclick="googleTag('조회/예약 | 택배예약','GNB','택배예약');">택배예약</a>
+								</li>
+
+
+
+
+
+
+
+
+
+								<li>
+									<a href="/ko/tool/international/tracking"
+										onclick="googleTag('조회/예약 | 특송조회','GNB','특송조회');">특송조회</a>
+								</li>
+
+
+
+
+
+
+
+
+
+								<li>
+									<a href="/ko/tool/removal/domestic-quotation"
+										onclick="googleTag('조회/예약 | 이사상담','GNB','이사상담');">이사상담</a>
+								</li>
+
+
+
+
+
+
+
+								<li>
+									<a href="#"
+										onclick="globalBannerManager('ko', 'K1', '04', 'https://chatbot.cjlogistics.com:8443/chatbot/chatbot.jsp?media=COM','챗봇상담', 'scrollbars=yes, width=800, height=1500');googleTag('조회/예약 | 챗봇상담','GNB','챗봇상담');"
+										title="새창">챗봇상담</a>
+								</li>
+
+
+
+
+
+
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- //box-tool -->
+
+				<!-- 퍼블 통합검색(HTML) -->
+				<div class="box-search-total">
+					<a class="btn-search-open s-open" href="#searchLink"><span>검색 레이어 열기</span></a>
+				</div>
+				<!-- //퍼블 통합검색 (HTML) -->
+			</div>
+		</div>
+		<!-- //inner -->
+
+		<!-- 퍼블 통합검색(HTML) -->
+		<form name="frmUnifiedSearch" id="frmUnifiedSearch" method="post">
+			<input type="hidden" title="인증키" name="_csrf" value="97869090-812a-4676-8303-c8cc9b23e3e6" />
+			<div class="search-total-form" id="searchLink" style="display: none;">
+				<div class="search-total-input">
+					<div class="ipt-1 input-control">
+						<label for="inputSearch">검색어를 입력하세요.</label>
+						<input type="text" id="inputSearch" name="inputSearch" class="placeholder" title="검색어를 입력하세요."  maxlength="30" onkeypress='javascript:if(event.keyCode==13){fncUnifiedSearch(); return false;}'/>
+						<button type="button" class="form-control-clear">Text Clear</button>
+					</div>
+					<div class="btn-1">
+						<span class="icon-search"><input type="button" onclick="fncUnifiedSearch();" title="Search"></span>
+					</div>
+				</div>
+
+				<div class="search-total-etarget"></div>
+			</div>
+		</form>
+		<!-- //퍼블 통합검색 (HTML) -->
+
+		<!-- box-siteMap -->
+		<div class="box-siteMap">
+			<a href="#smOpen" class="btn-layer" alt="사이트맵 레이어 팝업 열기" title="사이트맵 레이어 팝업 열기"
+				data-control="smOpen"><span>사이트맵 레이어 팝업 열기</span></a>
+		</div>
+		<!-- //box-siteMap -->
+
+		<!-- siteMap-wrap -->
+		<div class="siteMap-wrap" id="smOpen">
+			<div class="siteMap-bg">
+				<div class="sm-inner">
+					<ul class="sm-oneDepth">
+
+						<li class="widType-1">
+
+
+
+							<a href="/ko/business"> 사업영역 </a>
+
+
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/business/contract-logistics"> 계약물류 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/business/parcel"> 택배 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/business/forwarding"> 포워딩 & 국제특송 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/business/stevedoring"> 항만하역 & 운송 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/business/business"> 프로젝트 물류 </a>
+
+
+								</li>
+							</ul>
+
+						</li>
+
+						<li>
+
+
+
+							<a href="/ko/tes"> TES </a>
+
+
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/tes/story/technology"> TES Story </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/tes/insights"> TES Insights </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/tes/innovation-center"> TES Innovation Center </a>
+
+
+								</li>
+							</ul>
+
+						</li>
+
+						<li>
+
+
+
+							<a href="/ko/network"> 글로벌 네트워크 </a>
+
+
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/network?anchor=country"> 해외 진출국 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/network/infra"> 글로벌 물류 인프라 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/network?anchor=newFamily"> New Family </a>
+
+
+								</li>
+							</ul>
+
+						</li>
+
+						<li class="widType-2">
+
+
+
+							<a href="/ko/sustainablity"> 지속가능경영 </a>
+
+
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/page/sustainablity/introduction"> 지속가능경영 소개 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/page/sustainablity/system"> 지속가능경영 체계 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/page/sustainablity/goal"> 지속가능발전 목표 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/page/sustainablity/key-issue"> 핵심이슈 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/page/sustainablity/job-creation"> CJ대한통운 CSV </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/page/law-observance/will"> 준법경영 </a>
+
+
+								</li>
+							</ul>
+
+						</li>
+
+						<li class="widType-1">
+
+
+
+							<a href="/ko/about"> 회사소개 </a>
+
+
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/about/brand/history"> CJ대한통운 스토리 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/about/sponsorship/motorsports"> 스폰서십 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/about/marketing/movie"> 마케팅 자료실 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/about/location"> 오시는 길 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/page/about/cj-way"> 인재채용 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/page/investment/composition"> 투자정보 </a>
+
+
+								</li>
+							</ul>
+
+						</li>
+
+						<li>
+
+
+
+							<a href="/ko/newsroom"> 뉴스룸 </a>
+
+
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/newsroom/news"> 뉴스 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/newsroom/latest"> LATEST </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/newsroom/notice"> 공지사항 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/newsroom/event"> 이벤트 </a>
+
+
+								</li>
+							</ul>
+
+						</li>
+
+						<li>
+
+
+
+							<a href="/ko/support"> 고객지원 </a>
+
+
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/support/guide"> 이용안내 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/support/faq"> 자주묻는질문 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/support/inquiry/agreement"> 1:1 문의 </a>
+
+
+								</li>
+							</ul>
+
+						</li>
+
+						<li class="widType-2">
+
+
+							<span class="title on">조회/예약</span>
+
+
+
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/tool/parcel/tracking" class="on"> 택배조회 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/tool/parcel/reservation-general"> 택배예약 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/tool/international/tracking"> 특송조회 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+
+
+									<a href="/ko/tool/removal/domestic-quotation"> 이사상담 </a>
+
+
+								</li>
+							</ul>
+
+							<ul class="sm-twoDepth">
+								<li>
+
+
+									<a href="#none"
+										onclick="globalBannerManager('ko', 'K1', '04', 'https://chatbot.cjlogistics.com:8443/chatbot/chatbot.jsp?media=COM','챗봇상담', 'scrollbars=yes, width=800, height=1500');"
+										title="새창"> 챗봇상담 </a>
+
+
+
+
+								</li>
+							</ul>
+
+						</li>
+
+					</ul>
+					<ul class="pcy-list" style="padding-left: 0;">
+
+						<li>
+							<a href="/ko/agreement/privacy-policy">개인정보처리방침</a>
+						</li>
+
+
+						<li>
+
+
+
+
+
+							<a href="/ko/agreement/condition-parcel">약관 및 운영방침</a>
+
+
+						</li>
+
+						<li>
+
+
+
+
+
+							<a href="/ko/page/law-observance/about">사이버감사실</a>
+
+
+						</li>
+
+						<li>
+
+
+
+
+
+							<a href="/ko/utility/sitemap">사이트맵</a>
+
+
+						</li>
+
+					</ul>
+
+
+					<!--  CJ대한통운 90주년 링크 버튼 -->
+					<div class="btn_90year"><a href="/ko/90years"
+							onclick="googleTag('PC_전체메뉴 펼침 바로가기 버튼 ', '버튼 click', '90주년 페이지');">CJ대한통운 90주년</a></div>
+
+
+				</div>
+				<a href="#none" class="btn-smClose" data-control="smClose" title="사이트맵 레이어 팝업 닫기">close</a>
+				<!-- box-bg -->
+				<div class="box-bg">
+					<!-- 좌측 상단 사선 -->
+					<div class="bg-topLeft-1_1"></div>
+					<div class="bg-topLeft-1_2"></div>
+					<div class="bg-topLeft-1_3"></div>
+					<div class="bg-topLeft-1_4"></div>
+					<div class="bg-topLeft-1_5"></div>
+					<div class="bg-topLeft-2"></div>
+					<div class="bg-topLeft-3"></div>
+					<!-- //좌측 상단 사선 -->
+					<!-- 우측 하단 사선 -->
+					<div class="bg-bottomRight-1_1"></div>
+					<div class="bg-bottomRight-1_2"></div>
+					<div class="bg-bottomRight-1_3"></div>
+					<div class="bg-bottomRight-2"></div>
+					<div class="bg-bottomRight-3"></div>
+					<!-- //우측 하단 사선 -->
+				</div>
+				<!-- //box-bg -->
+			</div>
+		</div>
+		<!-- //siteMap-wrap -->
+	</div>
+	<!-- //공통 : header -->
+	<form id="frmTrackingSearch" name="frmTrackingSearch" style="display: none;">
+
+
+
+		<input type="hidden" title="운송장번호1" id="WayBill_No" name="WayBill_No" value="">
+		<input type="hidden" title="운송장번호2" id="gnbInvcNo" name="gnbInvcNo" value="">
+		<input type="hidden" title="인증키" name="_csrf" value="97869090-812a-4676-8303-c8cc9b23e3e6" />
+
+
+</form>
+		<script type="text/javascript">
+			function fncTrackingSearch(){
+		var trackNum = "";
+		var frm = document.frmTrackingSearch;
+		trackNum = $('#trackingNum').val();
+		
+		
+		
+			
+			
+			if (trackNum != null && trackNum != "") {
+				if (trackNum.byte() != 10 && trackNum.byte() != 12) {
+					alert("운송장 번호는 12자리 또는 10자리입니다.");
+					$('#trackingNum').focus();
+					return false;
+				}
+			}else{
+				alert("운송장번호를 입력하세요");
+				$('#trackingNum').focus();
+				return false;
+			}
+			frm.gnbInvcNo.value = trackNum;
+		    frm.action = '/ko/tool/parcel/tracking';
+		    frm.target="_self";
+		    frm.method="POST";
+		    frm.submit();
+			
+			
+			
+			
+		
+		
+	};
+
+	function fncGlobalCountryList(){
+		var showYn1 = $('.box-globalLink.posi-2').hasClass('show');
+		var showYn2 = $('#globalCountryList').find('li').length;
+		if(!showYn1 && showYn2 == 0){
+			//국가정보
+			$.ajax({
+				url: '/ko/network/country-list',
+				type: 'POST',
+				dataType: 'json',
+				data: GLOBAL_CSRF_NAME+'='+GLOBAL_CSRF_VALUE,
+				timeout: 1000,
+				async: false,
+				error: function(xhr){
+					if(xhr.status=="403"){
+						location.href = location.href;
+					}
+				},
+				success: function(responseText){
+					$("#globalCountryList").find("li").remove();
+					var html = "";
+					for(i=0; i<responseText.networkResult.length; i++){
+						var detailUrl = responseText.networkResult[i].detailUrl;
+				        detailUrl = '/ko/'+detailUrl.split('/')[2]+"/"+detailUrl.split('/')[3];
+				        html += '<li><a href="'+detailUrl+'"><img class="img-flag" src="'+responseText.networkResult[i].flagImageUrl+'" alt="'+responseText.networkResult[i].flagFileMemo+'">'+responseText.networkResult[i].countryNm+'</a></li>';
+					}
+					$('#globalCountryList').html(html);
+				}
+			})
+		}
+	};
+	
+	function fncUnifiedSearch(){
+		var frm = document.frmUnifiedSearch;
+		
+		var inputSearch = frm.elements["inputSearch"].value;
+		if(inputSearch.trim() == null || inputSearch.trim() == '' ){
+			alert('검색어를 입력하세요.');
+			return false;
+		}
+		
+		frm.action = '/ko/search';
+	    frm.target="_self";
+	    frm.method="POST";
+		frm.submit();
+	}
+	
+	function fncSuggestedSearch(_keyWord){
+		$('.placeholder').prev('label').addClass("textup");
+		var frm = document.frmUnifiedSearch;
+		frm.elements["inputSearch"].value = _keyWord;
+		fncUnifiedSearch();
+	}
+		</script>
+
+
+		<!-- 공통 : js -->
+		<script src="/static/pc/global/template/js/jquery-1.12.1.min.js"></script>
+		<script src="/static/pc/global/template/js/jquery-migrate-1.4.1.min.js"></script>
+		<script src="/static/pc/global/template/js/front.js?v=2020092417"></script>
+		<script src="/static/pc/global/template/js/string.js"></script>
+		<script src="/static/pc/global/template/js/common.js?v=2020092417"></script>
+		<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+		<!-- //공통 : js -->
+		<script type="text/javascript">
+			var GLOBAL_SESSION_ID = "anonymousUser";
+		var GLOBAL_CSRF_NAME = "_csrf";
+		var GLOBAL_CSRF_VALUE = "97869090-812a-4676-8303-c8cc9b23e3e6";
+		var GLOBAL_UPLOAD_URL = "/cjlwupload/";
+		var GLOBAL_DOMAIN_KOREAN = "";
+		var GLOBAL_DOMAIN_ENGLISH = "";
+		Kakao.init('76f8b27244e3c303452a0ec474b605e5');
+		</script>
+		<script type="text/javascript" src="/static/pc/global/template/js/jquery.i18n.properties-min-1.0.9.js"></script>
+		<script type="text/javascript">
+			var contextPath = '';
+		$(document).ready(function(){
+			var locale = $.i18n.prop('locale');
+
+			if( locale == 'undefined' || locale == '[locale]' || locale != 'ko' ) {
+				jsLocaleChange();
+			}
+		});
+
+		function jsLocaleChange() {
+			jQuery.i18n.properties({
+				name:'message-common',
+				path:contextPath+'/locale/',
+				mode:'map',
+				language:'ko',
+				callback: function() {
+
+				}
+			});
+		}
+
+		/**
+		 * 다국어를 위한 함수
+		 * {0},{1}.. 과 같은 와일드카드를 사용한 message 내용을 완전한 문장으로 변환하여 리턴한다.
+		 */
+		var multiLocaleMessage = function( strArray ) {
+			if ( strArray instanceof String ) {
+				return strArray;
+			}
+			if ( strArray instanceof Object ) {
+				if ( strArray.length == 1 ) {
+					return strArray[0];
+				}
+				else {
+					var message = strArray[0];
+					var i;
+					for ( i = 1 ; i < strArray.length ; i++ ) {
+						message = message.replace( '{' + (i-1) + '}' , strArray[i] );
+					}
+					return message;
+				}
+			}
+		};
+		
+		function googleTag(eventName, categoryName, labelName){
+			gtag('event', eventName, {
+			  'event_category': categoryName,
+			  'event_label': labelName
+			});
+		};
+
+		</script>
+
+		<!-- 공통 : skipCt -->
+		<div id="skipCt">
+
+
+
+
+
+
+			<!-- 서브페이지 상단 -->
+			<div data-control="subLocation">
+
+				<div id="box-common-location" class="location">
+					<ul>
+						<li>
+							홈
+
+						</li>
+
+
+
+
+						<li>
+							<a href="/ko/tool/parcel/tracking" class="btn-list" data-accessibilityopen="리스트 열기"
+								data-accessibilityclose="리스트 닫기" title="">조회/예약</a>
+							<div class="list-menu">
+								<ul>
+
+
+									<li>
+										<a href="/ko/business">사업영역</a>
+									</li>
+
+
+
+									<li>
+										<a href="/ko/tes">TES</a>
+									</li>
+
+
+
+									<li>
+										<a href="/ko/network">글로벌 네트워크</a>
+									</li>
+
+
+
+									<li>
+										<a href="/ko/sustainablity">지속가능경영</a>
+									</li>
+
+
+
+									<li>
+										<a href="/ko/about">회사소개</a>
+									</li>
+
+
+
+									<li>
+										<a href="/ko/newsroom">뉴스룸</a>
+									</li>
+
+
+
+									<li>
+										<a href="/ko/support">고객지원</a>
+									</li>
+
+
+
+									<li>
+										<a href="/ko/tool/parcel/tracking" class="on" title="현재 페이지">조회/예약</a>
+									</li>
+
+
+
+
+
+
+
+
+
+
+								</ul>
+							</div>
+						</li>
+
+						<li>
+
+
+							<a href="/ko/tool/parcel/tracking" class="btn-list" data-accessibilityopen="리스트 열기"
+								data-accessibilityclose="리스트 닫기" title="">택배조회</a>
+
+
+
+							<div class="list-menu">
+								<ul>
+
+									<li>
+
+
+
+
+										<a href="/ko/tool/parcel/tracking" class="on" title="현재 페이지">택배조회</a>
+
+
+									</li>
+
+									<li>
+
+
+
+
+										<a href="/ko/tool/parcel/reservation-general">택배예약</a>
+
+
+									</li>
+
+									<li>
+
+
+
+
+										<a href="/ko/tool/international/tracking">특송조회</a>
+
+
+									</li>
+
+									<li>
+
+
+
+
+										<a href="/ko/tool/removal/domestic-quotation">이사상담</a>
+
+
+									</li>
+
+									<li>
+
+
+										<a href="#none"
+											onclick="globalBannerManager('ko', 'K1', '04', 'https://chatbot.cjlogistics.com:8443/chatbot/chatbot.jsp?media=COM','챗봇상담', 'scrollbars=yes, width=800, height=1500');"
+											title="새창"> 챗봇상담 </a>
+
+
+
+
+									</li>
+
+								</ul>
+							</div>
+						</li>
+
+
+
+					</ul>
+				</div>
+
+
+				<!-- 서브비쥬얼영역 -->
+
+
+
+
+
+				<div class="box-subTop dim-type-3"
+					style="background-image:url('/static/pc/global/template/images/img/img_subTop_I_1.jpg')">
+					<div class="txt-wrap">
+						<div class="txt-inner">
+							<h2 class="title-1">택배조회</h2>
+
+							<p class="txt-1">CJ대한통운은 고객님의 소중한 마음까지 전달합니다.</p>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
+				<!-- //서브비쥬얼영역 -->
+
+			</div>
+			<!-- //서브페이지 상단 -->
+			<!-- tab1 -->
+
+			<!-- //tab1 -->
+
+
+
+
+
+
+			<!-- box-appSearch  -->
+			<div class="box-appSearch">
+				<h2 class="hidden">APP 다운로드 영역</h2>
+				<!-- grid1080 -->
+				<div class="grid1080">
+					<p class="tt-1">CJ대한통운 APP으로 <br>택배 서비스 이용이<br>더욱 쉬워집니다.</p>
+						<h3>SMS로 다운로드 URL받기</h3>
+						<!-- inner-app -->
+						<div class="inner-app">
+							<div class="app-wrap">
+								<div class="url-wrap">
+									<p class="title-1">개인정보 수집 및 이용 동의</p>
+									<table class="appTable">
+										<caption>개인정보 수집항목, 수집목적, 보유기간, 동의를 위한 표</caption>
+										<colgroup>
+											<col style="width: 31%;" />
+											<col style="width: 42%;" />
+											<col style="width: 14%;" />
+											<col style="width: 13%;" />
+										</colgroup>
+										<thead>
+											<tr>
+												<th scope="col">수집항목</th>
+												<th scope="col">수집목적</th>
+												<th scope="col">보유기간</th>
+												<th scope="col">동의</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>(필수)휴대폰번호</td>
+												<td>APP 설치 안내 SMS 발송</td>
+												<td>3개월</td>
+												<td>
+													<div class="check-wrap" data-control="check">
+														<div class="common-check-box">
+															<div class="common-check-wrap">
+																<input id="agreeSMSYn" name="agreeSMSYn" type="checkbox">
+																<label for="agreeSMSYn" class=""><span class="hidden">동의하기</span></label>
+															</div>
+														</div>
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="txt-1">
+										<p>위 동의를 거부할 권리가 있으며, 동의 거부 시 SMS 발송이 제한 됩니다.</p>
+									</div>
+									<div class="ipt-1">
+										<div class="input-control">
+											<input type="text" class="common-ip-type-1" id="receiver" name="receiver" style="width: 324px; padding-left: 20px;" type="text" placeholder="- 없이 숫자만 입력" maxlength="12" onkeyup="numberCheck(this);" title="휴대폰 번호 입력">
+											<button type="button" class="form-control-clear">Text Clear</button>
+										</div>
+										<span class="common-btnType-2 type-3"><input value="전송" title="전송" type="submit" onclick="fncSendSMS();"><span class="icon"></span></span>
+										<p>본인의 휴대폰번호 외 타인의 개인정보를 입력 할 경우 관련 법령에 의해 처벌 받을 수 있습니다.</p>
+									</div>
+								</div>
+								<div class="qr-wrap">
+									<p class="title-1">QR코드 스캔</p>
+									<p class="img-1">
+										<img src="/static/pc/global/template/images/btn/btn_app_1_4.jpg" alt="QR 코드">
+					</p>
+								</div>
+							</div>
+						</div>
+						<!-- //inner-app -->
+						<a href="#none" class="btn-close"
+							id="btn-closeApp"><img src="/static/pc/global/template/images/btn/btn_close.png" alt="APP 이용안내 닫기"></a>
+				</div>
+				<!-- //grid1080 -->
+			</div>
+			<!-- //box-appSearch -->
+
+			<script type="text/javascript">
+				$(document).ready(function() {
+		// App 닫기
+		$('#btn-closeApp').click(function(){
+			$('.box-appSearch').slideUp();
+		});
+		
+		// 엔터키 입력 시 SMS 발송
+	    $('#receiver').keydown(function (e) {
+			if(e.keyCode == 13){
+				fncSendSMS();
+	        }
+		});
+		
+		// input type text 인 경우 clear 버튼 삽입
+		$('.input-control input[type="text"]').on('input propertychange', function() {
+			var $this = $(this);
+			var visible = Boolean($this.val());
+			$this.siblings('.form-control-clear').toggleClass('hidden', !visible);
+		}).trigger('propertychange');
+
+		$('.form-control-clear').click(function() {
+			$(this).siblings('input[type="text"]').val('')
+			.trigger('propertychange').focus();
+		});
+	});
+	
+	function fncSendSMS(){
+		
+		var receiver = null;
+		receiver = $('#receiver').val();
+		
+		if(receiver.length < 1){
+			alert("SMS를 받으실 휴대폰 번호를 입력 해 주세요.");
+			$('#receiver').focus();
+			return false;
+		}
+		
+		// 휴대폰번호 유효성체크
+		if(!receiver.isMobile()) {
+			alert('SMS를 받으실 휴대폰 번호 형식을 확인해 주세요.');
+			$('#receiver').focus();
+			return false;
+		}
+		
+		if(!$("input:checkbox[name=agreeSMSYn]").is(":checked")) {
+			alert("개인정보 수집 및 이용에 동의해 주세요.");
+			$('#agreeSMSYn').focus();
+			return false;
+		}
+		
+
+	
+	
+		$.ajax({
+			url: '/ko/tool/parcel/sendSMS',
+			type: 'POST',
+			dataType: 'json',	
+			data: GLOBAL_CSRF_NAME + '=' + GLOBAL_CSRF_VALUE + '&receiver=' + receiver,
+			timeout: 1000,	
+			async: false,		
+			error: function(xhr){
+				if(xhr.status == "403"){
+					location.href = location.href;
+				}
+			},
+			success: function(responseText){
+				if(responseText != null && responseText.sendSMSResultMap != null && typeof responseText.sendSMSResultMap.resultList != 'undefined' && responseText.sendSMSResultMap.resultList != null){
+					var fwdyn = responseText.sendSMSResultMap.resultList[0].FWDYN;
+					var msg = '';
+					
+					if (fwdyn == 'D') {
+						msg = '택배 APP 설치 안내 SMS가 이미 발송되었습니다. 휴대폰을 확인해 주시기 바랍니다.';
+					} else {
+						msg = 'SMS 발송이 완료되었습니다.';
+					}
+					
+					alert(msg);
+					
+					$('#receiver').val('');
+					$('#agreeSMSYn').siblings('label').removeClass('on');
+					$('input[name*="agreeSMSYn"]').prop('checked', false);
+					
+				}else{
+					alert('SMS 발송에 실패하였습니다.');
+					$('#receiver').val('');
+					$('#agreeSMSYn').siblings('label').removeClass('on');
+					$('input[name*="agreeSMSYn"]').prop('checked', false);
+				}
+			}
+		});
+	
+
+}
+			</script>
+
+			<div class="grid1080" style="padding-top:100px;">
+				<!-- box-numberInfo -->
+				<div class="box-numberInfo">
+					<p class="tt-1">운송장 번호를 입력하시고 실시간 배송정보를 확인하세요.</p>
+					<div class="common-srcBox-1">
+						<div class="inputSrc-1">
+							<div class="input-control">
+								<input type="text" id="paramInvcNo" name="paramInvcNo" value="" placeholder="‘–’를 제외한 숫자만 입력해주세요" title="택배 조회 - 운송장 번호 ‘–’를 제외한 숫자만 입력해주세요" style="width:353px;" onkeyup="numberCheck(this);checkOverLength(this,12);" maxlength="12">
+								<button type="button" class="form-control-clear">Text Clear</button>
+							</div>
+							<div class="btnSrc-1">
+								<span class="icon-search"><input type="submit" id="btnSubmit" title="Search"></span>
+								<span class="border"></span>
+							</div>
+							<label for="paramInvcNo" style="display:block;height:0;text-indent:-9999px;">택배 조회 - 운송장 번호 ‘–’를 제외한 숫자만 입력해주세요"</label>
+
+						</div>
+					</div>
+				</div>
+				<!-- //box-numberInfo -->
+				<!-- 배송정보 없을때 -->
+				<div id="notResult" Style="display:none;">
+					<h5 class="title-sub5depth">조회 결과</h5>
+					<div class="common-hrTable-1">
+						<table>
+							<caption></caption><!-- 디자인 요소로 사용시 table caption text 없음 -->
+							<colgroup>
+								<col style="width:20%;">
+								<col style="width:20%;">
+								<col style="width:20%;">
+								<col style="width:20%;">
+								<col style="width:20%;">
+							</colgroup>
+							<tbody>
+								<tr>
+									<td colspan="5" class="text-alignCenter">
+										<div class="common-data-none">
+											<p class="txt-1">운송장이 등록되지 않았거나<br>보내는 분이 상품을 준비 중입니다.</p>
+												<p class="txt-2">보내시는 분 혹은 해당 발송업체로 문의해주시기 바랍니다.</p>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- //배송정보 없을때 -->
+				<!-- 배송정보 있을때 -->
+				<div id="isResult" Style="display:none;">
+					<h5 class="title-sub5depth">조회 결과</h5>
+					<div class="common-hrTable-1">
+						<table>
+							<caption>조회 결과 테이블이며 운송장 번호, 보내는 분, 받는 분, 상품 정보, 수량 등의 정보로 구성되어 있음.</caption>
+							<colgroup>
+								<col style="width:20%;">
+								<col style="width:20%;">
+								<col style="width:20%;">
+								<col style="width:20%;">
+								<col style="width:20%;">
+							</colgroup>
+							<thead>
+								<tr>
+									<th scope="col">운송장 번호</th>
+									<th scope="col">보내는 분</th>
+									<th scope="col">받는 분</th>
+									<th scope="col">상품 정보</th>
+									<th scope="col">수량</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="text-alignCenter" id="invcNo"></td>
+									<td class="text-alignCenter" id="sendrNm"></td>
+									<td class="text-alignCenter" id="rcvrNm"></td>
+									<td class="text-alignCenter" id="itemNm"></td>
+									<td class="text-alignCenter" id="qty"></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<h5 class="title-sub5depth" style="padding:52px 0 23px 0;">상품 상태 확인</h5>
+					<!--
+						**** 1~6단계에 따라 이미지 6개 있습니다. ****
+		
+						images/img/img_step_info_1.jpg
+						images/img/img_step_info_2.jpg
+						images/img/img_step_info_3.jpg
+						images/img/img_step_info_4.jpg
+						images/img/img_step_info_5.jpg
+						images/img/img_step_info_6.jpg
+		
+						**** 이미지 title (현재 상품 상태) 접근성 유의해 주세요. ***
+					-->
+					<p style="padding:0 0 47px 0;"><img src="" alt="" id="statusImage"></p>
+						<div class="common-hrTable-1">
+							<table>
+								<caption>상품 상태 확인 테이블이며 단계, 처리, 상품상태, 담당 점소 등의 정보로 구성되어 있음.</caption>
+								<colgroup>
+									<col style="width: 14%;">
+									<col style="width: 21%;">
+									<col style="width: 44%;">
+									<col style="width:*;">
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">단계</th>
+										<th scope="col">처리</th>
+										<th scope="col">상품상태</th>
+										<th scope="col">담당 점소</th>
+									</tr>
+								</thead>
+								<tbody id="statusDetail">
+
+								</tbody>
+							</table>
+						</div>
+						<div class="txt-Spp">운송장 번호로 캐쉬백 포인트 적립하세요.<a id="iptCashback"
+								href="http://www.logii.com/CashBack/TaekbaeCashBack.pm" class="btn-CnoticeType-1"
+								style="margin-left:15px;" target="_blank" title="새창">캐쉬백 포인트 적립하기</a></div>
+						<div class="box-infoPP" id="deliveryDetail" style="display:none;">
+							<img src="" alt="기사님 증명사진" class="img" id="filepathName">
+							<div class="box-txt">
+								<p class="tt-1"><span id="empName"></span> 기사님</p>
+								<table class="table-infoPPType-1">
+									<caption>기사님 정보 테이블이며 연락처, 소속, SUB터미널, 지점 등의 정보로 구성되어 있음.</caption>
+									<colgroup>
+										<col style="width:96px;">
+										<col style="width:*;">
+									</colgroup>
+									<tbody>
+										<tr>
+											<th scope="row">연락처</th>
+											<td id="empPhone"></td>
+										</tr>
+										<tr>
+											<th scope="row">소속</th>
+											<td id="belongName"></td>
+										</tr>
+										<tr>
+											<th scope="row">SUB터미널</th>
+											<td id="subName"></td>
+										</tr>
+										<tr>
+											<th scope="row">지점</th>
+											<td id="branName"></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+				</div>
+				<!-- //배송정보 있을때 -->
+				<!-- 171016 수정 -->
+				<!-- box-tellInfo -->
+				<div class="box-tellInfo type-2">
+					<!-- box-1 -->
+					<div class="box-1">
+						<div class="left">
+							<span>택배 고객센터 안내</span>
+							<p class="txt-1">1588-1255</p>
+						</div>
+						<div class="right">
+							<ul>
+								<li>
+									<span>상담 운영시간</span>
+									<p>월~금요일 09:00~18:00 / 토요일 09:00~13:00</p>
+									<p class="type-2">상품의 파손, 변질에 의한 택배 사고 접수는<a
+											href="/ko/support/inquiry/agreement">1:1 문의</a>를 통해 직접 하실 수 있습니다.</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //box-1 -->
+
+					<!-- box-5 -->
+					<!--  2019-01-25 추가 -->
+					<div class="box-5">
+						<div class="left">
+							<span>무인락커 예약 서비스</span>
+						</div>
+						<div class="right">
+							<p>CJ대한통운 APP의 무인락커 예약 서비스를 이용하시면 <br />언제 어디서든 편리하게 택배 발송 예약을 하실 수 있습니다.</p>
+								<a href="/ko/support/guide/parcel?searchUseInfoSubCd=E001011#tc">자세히 보기</a>
+						</div>
+					</div>
+					<!-- //box-5 -->
+
+					<!-- box-2 -->
+					<div class="box-2">
+						<ul>
+							<li class="icon-1">
+								<a href="/ko/support">
+									<p class="tt-1">고객지원 홈</p>
+									<p class="txt-1">소중한 마음까지 <br>전달하는 CJ대한통운</p>
+								</a>
+							</li>
+							<li class="icon-2">
+								<a href="/ko/support/faq">
+									<p class="tt-1">자주 묻는 질문</p>
+									<p class="txt-1">궁금하신 점이 있다면<br>여기서 먼저 찾아보세요.</p>
+								</a>
+							</li>
+							<li class="icon-3">
+								<a href="/ko/support/guide">
+									<p class="tt-1">이용안내</p>
+									<p class="txt-1">사업별 서비스를<br>안내해드립니다.</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- //box-2 -->
+				</div>
+				<!-- //box-tellInfo -->
+				<!-- //171016 수정 -->
+			</div>
+		</div>
+		<!-- //공통 : skipCt -->
+
+		<!-- 공통 : top 버튼 -->
+		<!--
+			* body 바로 자식요소로 사용합니다.
+			* 다음에 올 요소(next()메소드 사용)에 고정되는 스크립트 넣어놨습니다.
+		-->
+
+
+
+
+
+		<!-- 171222 프린트 레이어 추가 -->
+		<div class="common-layerType-1" id="ly-print">
+			<div class="common-inner-layer mt2" tabindex="0">
+				<div class="gap-7">
+					<!-- title-layerTop -->
+					<p class="title-layerTop">인쇄 최적화를 위한 설정</p>
+					<p class="txt-layer-1">
+						<span class="txt-innerLayer-1">* Internet Explorer는 [인쇄 미리보기]에서 아래와 같이 설정하셔야 합니다.</span><br><br>
+				1. 필수 항목<br>
+						<span class="txt-innerLayer-1">- [설정]에서 배경 및 이미지도 인쇄할 수 있도록 체크</span><br><br>
+
+				2. 선택 항목<br>
+						<span class="txt-innerLayer-1">- 여백 없음 또는 0으로 설정</span><br>
+						<span class="txt-innerLayer-1">- 화면 배율 65% 설정 (추천)</span>
+					</p>
+					<!-- //171229 phr 내용 수정 -->
+
+					<div class="btn-whWrap-2 mt-3">
+						<span class="common-btnType-1">
+					<a href="#none" id="btnPrint">프린트하기</a>
+					<span class="line-right"></span>
+						<span class="line-top"></span>
+						<span class="line-left"></span>
+						<span class="line-bottom"></span>
+						<span class="line-diag"></span>
+						</span>
+					</div>
+					<p><a href="#none" class="cancle dialog-close"
+							title="프린트하기 레이어 닫기"><span class="hidden">프린트하기 레이어 닫기</span></a></p>
+				</div>
+				<div class="bg-line-bottom"></div>
+			</div>
+			<div class="verticalAlign"></div>
+		</div>
+		<!-- //171222 프린트 레이어 추가 -->
+		<h2 class="common-snsTit" tabindex="0">SNS 공유 및 프린트 영역</h2>
+		<div data-control="btnTop" class="common-btnTopType-1">
+			<ul class="list-btn">
+				<li class="share-wrap">
+					<a href="#none" class="btn-share icon-2" title="공유하기 레이어 열기" data-accessibilityopen="공유하기 레이어 열기"
+						data-accessibilityclose="공유하기 레이어 닫기"><span>공유하기</span></a>
+					<div class="list-share">
+						<ul>
+
+
+
+							<li><a href="#none" onclick="fncGlobalShare('facebook');" class="icon-5"
+									title="페이스북"><span>페이스북</span></a></li>
+							<li><a href="#none" onclick="fncGlobalShare('kakao');" class="icon-8"
+									title="카카오톡"><span>카카오톡</span></a></li>
+
+
+
+							<li><a href="#none" class="icon-3 btnUrlCopy" title="url복사"><span>url복사</span></a>
+								<textarea id="virtualTextarea" class="hidden" rows="1" cols="30" title="url복사" tabindex="-1"></textarea>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="btn-layer-open"><a href="#ly-print" class="icon-1 printScrollDown"
+						title="프린트하기"><span>프린트하기</span></a></li><!-- 171229 phr class명 추가 -->
+
+			</ul>
+			<a href="#header" class="btn-top" title="페이지 상단으로 이동">
+				<span class="icon">페이지 상단으로 이동</span>
+			</a>
+		</div>
+
+
+
+
+		<!-- //공통 : top 버튼 -->
+
+
+		<div class="box-bannerSGap-1">
+			<div class="grid1080">
+				<!-- box-bannerType-1 -->
+				<ul class="box-bannerType-1">
+
+
+
+					<li class="li-1">
+
+
+						<a href="/ko/business/parcel" target="_blank">
+
+
+
+							<img src="/cjlwupload/bannerManage/b84427cb-990c-40b9-83f4-7b83e0061814.jpg" alt="택배 사업영역" class="bg">
+							<div class="txt">
+								<p class="tt-1">택배 사업영역 안내</p>
+								<p class="txt-1">압도적 인프라와 최첨단 물류 기술<br />
+택배산업의 패러다임 혁신을 주도합니다.</p>
+							</div>
+						</a>
+					</li>
+
+
+
+
+
+
+					<li class="li-2">
+
+
+						<a href="/ko/support/guide/parcel" target="_self">
+
+
+
+							<img src="/cjlwupload/bannerManage/c068215e-f1c6-4fa0-9a11-ec896ce4f6ec.jpg" alt="배너 이미지" class="bg">
+							<div class="txt">
+								<p class="tt-1">택배 서비스 이용안내</p>
+								<p class="txt-1">CJ대한통운은 최상의<br />
+서비스를 제공합니다.</p>
+							</div>
+						</a>
+					</li>
+
+
+
+
+				</ul>
+				<!-- //box-bannerType-1 -->
+			</div>
+		</div>
+
+
+
+
+
+		<!-- 공통 : footer -->
+		<div id="footer">
+			<h2 class="hidden">
+				하단 영역
+
+			</h2>
+			<!-- box-menu -->
+			<div class="box-menu">
+				<div class="inner">
+					<ul class="list-type-1">
+
+
+
+
+
+
+
+
+
+
+						<li>
+							<a href="/ko/about">회사소개</a>
+							<ul>
+
+								<li>
+
+
+
+
+									<a href="/ko/about/brand/history">CJ대한통운 스토리</a>
+
+
+								</li>
+
+								<li>
+
+
+
+
+									<a href="/ko/about/sponsorship/motorsports">스폰서십</a>
+
+
+								</li>
+
+								<li>
+
+
+
+
+									<a href="/ko/about/marketing/movie">마케팅 자료실</a>
+
+
+								</li>
+
+								<li>
+
+
+
+
+									<a href="/ko/about/location">오시는 길</a>
+
+
+								</li>
+
+								<li>
+
+
+
+
+									<a href="/ko/page/about/cj-way">인재채용</a>
+
+
+								</li>
+
+								<li>
+
+
+
+
+									<a href="/ko/page/investment/composition">투자정보</a>
+
+
+								</li>
+
+							</ul>
+						</li>
+
+
+
+						<li>
+							<a href="/ko/newsroom">뉴스룸</a>
+							<ul>
+
+								<li>
+
+
+
+
+									<a href="/ko/newsroom/news">뉴스</a>
+
+
+								</li>
+
+								<li>
+
+
+
+
+									<a href="/ko/newsroom/latest">LATEST</a>
+
+
+								</li>
+
+								<li>
+
+
+
+
+									<a href="/ko/newsroom/notice">공지사항</a>
+
+
+								</li>
+
+								<li>
+
+
+
+
+									<a href="/ko/newsroom/event">이벤트</a>
+
+
+								</li>
+
+							</ul>
+						</li>
+
+
+
+						<li>
+							<a href="/ko/support">고객지원</a>
+							<ul>
+
+								<li>
+
+
+
+
+									<a href="/ko/support/guide">이용안내</a>
+
+
+								</li>
+
+								<li>
+
+
+
+
+									<a href="/ko/support/faq">자주묻는질문</a>
+
+
+								</li>
+
+								<li>
+
+
+
+
+									<a href="/ko/support/inquiry/agreement">1:1 문의</a>
+
+
+								</li>
+
+							</ul>
+						</li>
+
+
+
+						<li>
+							<a href="/ko/tool/parcel/tracking">조회/예약</a>
+							<ul>
+
+								<li>
+
+
+
+
+									<a href="/ko/tool/parcel/tracking">택배조회</a>
+
+
+								</li>
+
+								<li>
+
+
+
+
+									<a href="/ko/tool/parcel/reservation-general">택배예약</a>
+
+
+								</li>
+
+								<li>
+
+
+
+
+									<a href="/ko/tool/international/tracking">특송조회</a>
+
+
+								</li>
+
+								<li>
+
+
+
+
+									<a href="/ko/tool/removal/domestic-quotation">이사상담</a>
+
+
+								</li>
+
+								<li>
+
+
+									<a href="#none"
+										onclick="globalBannerManager('ko', 'K1', '04', 'https://chatbot.cjlogistics.com:8443/chatbot/chatbot.jsp?media=COM','챗봇상담', 'scrollbars=yes, width=800, height=1500');"
+										title="새창"> 챗봇상담 </a>
+
+
+
+
+								</li>
+
+							</ul>
+						</li>
+
+
+					</ul>
+
+					<ul class="list-type-2">
+						<li>
+							<a href="http://www.hellotruck.co.kr" target="_blank" title="새창">HELLO화물정보망 </a>
+						</li>
+						<li>
+							<a href="http://www.korexmall.co.kr" target="_blank" title="새창">유록스 쇼핑몰 </a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+			<!-- //box-menu -->
+			<!-- box-menu-2 -->
+			<div class="box-menu-2">
+				<div class="inner">
+
+					<a href="/ko/agreement/privacy-policy" class="txt-point">개인정보처리방침</a>
+					<a href="/ko/agreement/legal-notices">법적고지</a><!-- 2018-09-12 추가 -->
+
+
+
+
+
+					<a href="/ko/agreement/condition-parcel">약관 및 운영방침</a>
+
+
+
+
+
+
+					<a href="/ko/page/law-observance/about">사이버감사실</a>
+
+
+
+
+
+
+					<a href="/ko/utility/sitemap">사이트맵</a>
+
+
+
+
+					<!-- box-snsShare -->
+					<div class="box-snsShare">
+						<span>Follow Us</span>
+						<a href="https://www.facebook.com/CJLogisticsglobal/" target="_blank" class="btn-facebook"
+							title="새창"><img src="/static/pc/global/template/images/btn/btn_sns_facebook.png" alt="Facebook" /></a>
+							<a href="https://www.youtube.com/cjlogistics" target="_blank" class="btn-youtube"
+								title="새창"><img src="/static/pc/global/template/images/btn/btn_sns_youtube.png" alt="Youtube" /></a>
+								<a href="https://www.instagram.com/cjlogistics.official/?hl=ko" target="_blank"
+									class="btn-instagram"
+									title="새창"><img src="/static/pc/global/template/images/btn/btn_sns_instagram.png" alt="Instagram" /></a>
+					</div>
+					<!-- //box-snsShare -->
+
+
+					<!-- box-familySite -->
+					<div class="box-familySite" data-control="btnFamilySite">
+						<a href="#none" class="btn" data-accessibilityopen="레이어 열기" data-accessibilityclose="레이어 닫기"
+							title="">그룹 계열사 바로가기 <span class="icon"></span></a>
+						<div class="list-family">
+							<!-- 20171015 -->
+							<ul>
+
+								<li>
+									<span class="tt-1">CJ그룹</span>
+									<ul style="margin-top: 0px; margin-bottom: 0px;">
+
+										<li>
+											<a href="http://www.cj.net/" target="_blank" title="새창">CJ주식회사</a>
+										</li>
+
+									</ul>
+								</li>
+
+								<li>
+									<span class="tt-1">식품&식품 서비스</span>
+									<ul style="margin-top: 0px; margin-bottom: 0px;">
+
+										<li>
+											<a href="http://www.cj.co.kr/cj-kr/" target="_blank"
+												title="새창">CJ제일제당(식품)</a>
+										</li>
+
+										<li>
+											<a href="http://www.cjfreshway.com" target="_blank" title="새창">CJ프레시웨이</a>
+										</li>
+
+										<li>
+											<a href="https://www.cjfoodville.co.kr" target="_blank" title="새창">CJ푸드빌</a>
+										</li>
+
+										<li>
+											<a href="http://www.md1.co.kr" target="_blank" title="새창">CJ엠디원</a>
+										</li>
+
+									</ul>
+								</li>
+
+								<li>
+									<span class="tt-1">생명공학</span>
+									<ul style="margin-top: 0px; margin-bottom: 0px;">
+
+										<li>
+											<a href="https://www.cj.co.kr/kr/about/business/bio" target="_blank"
+												title="새창">CJ제일제당(바이오)</a>
+										</li>
+
+									</ul>
+								</li>
+
+								<li>
+									<span class="tt-1">신유통</span>
+									<ul style="margin-top: 0px; margin-bottom: 0px;">
+
+										<li>
+											<a href="http://www.cjoshopping.com" target="_blank" title="새창">CJ
+												ENM(오쇼핑)</a>
+										</li>
+
+										<li>
+											<a href="http://www.cjlogistics.com/ko/main" target="_blank"
+												title="새창">CJ대한통운</a>
+										</li>
+
+										<li>
+											<a href="http://www.cjtelenix.com" target="_blank" title="새창">CJ텔레닉스</a>
+										</li>
+
+										<li>
+											<a href="http://www.oliveyoung.co.kr" target="_blank" title="새창">CJ올리브영</a>
+										</li>
+
+									</ul>
+								</li>
+
+								<li>
+									<span class="tt-1">엔터테인먼트&미디어</span>
+									<ul style="margin-top: 0px; margin-bottom: 0px;">
+
+										<li>
+											<a href="http://www.cjenm.com" target="_blank" title="새창">CJ ENM(E&M)</a>
+										</li>
+
+										<li>
+											<a href="http://www.cgv.co.kr" target="_blank" title="새창">CJ CGV</a>
+										</li>
+
+										<li>
+											<a href="http://www.cjpowercast.com" target="_blank" title="새창">CJ파워캐스트</a>
+										</li>
+
+									</ul>
+								</li>
+
+								<li>
+									<span class="tt-1">인프라</span>
+									<ul style="margin-top: 0px; margin-bottom: 0px;">
+
+										<li>
+											<a href="http://www.cjenc.co.kr" target="_blank" title="새창">CJ대한통운(건설)</a>
+										</li>
+
+										<li>
+											<a href="http://www.cjolivenetworks.co.kr/itbusiness/ " target="_blank"
+												title="새창">CJ올리브네트웍스</a>
+										</li>
+
+									</ul>
+								</li>
+
+							</ul>
+							<!-- //20171015 -->
+						</div>
+					</div>
+					<!-- //box-familySite -->
+
+				</div>
+			</div>
+			<!-- //box-menu-2 -->
+			<!-- box-menu-3 -->
+			<div class="box-menu-3">
+				<div class="inner">
+					<a href="/ko/main" class="logo"><span>
+					CJ대한통운
+					
+				</span></a>
+					<div class="box-txt">
+						<p class="txt-1">CJ대한통운(주)사업자등록번호 : 110-81-05034 대표자:
+							박근희<br>주소 : 서울특별시 중구 세종대로 9길 53   택배고객센터 : 1588-1255 (월~금 09:00 ~ 18:00 / 토 09:00 ~ 13:00) </p>
+							<p class="txt-2">COPYRIGHT 2017 BY CJ Logistics Corporation ALL RIGHT RESERVED. </p>
+
+					</div>
+
+				</div>
+			</div>
+			<!-- //box-menu-3 -->
+		</div>
+
+
+		<!-- 퍼블 통합검색(HTML) -->
+		<div class="search-total-dim"></div>
+		<!-- //퍼블 통합검색(HTML) -->
+
+		<!-- //공통 : footer -->
+
+		<script type="text/javascript">
+			select.initialize();
+			check.initialize();
+		
+		
+		
+			$("#btnSubmit").on('click', function (e) {
+				fncValidate();
+			});
+		
+			$('#paramInvcNo').keydown(function (e) {
+				if(e.keyCode == 13){
+					fncValidate();
+				}
+			});
+		
+			function fncValidate(){
+				var paramInvcNo = $('#paramInvcNo').val();
+				
+				if (paramInvcNo != null && paramInvcNo != "") {
+					if (paramInvcNo.byte() != 10 && paramInvcNo.byte() != 12) {
+						alert("운송장 번호는 12자리 또는 10자리입니다.");
+						$('#paramInvcNo').focus();
+						return false;
+					}
+				}else{
+					alert("운송장번호를 입력하세요");
+					$('#paramInvcNo').focus();
+					return false;
+				}
+			
+				$.ajax({
+					url: '/ko/tool/parcel/tracking-detail',
+					type: 'POST',
+					dataType: 'json',
+					data: GLOBAL_CSRF_NAME + '=' + GLOBAL_CSRF_VALUE + '&paramInvcNo=' + paramInvcNo,
+					timeout: 1000,
+					async: false,
+					error: function(xhr){
+						if(xhr.status == "403"){
+							location.href = location.href;
+						}
+					},
+					success: fncCreateResult
+				});
+			}
+		
+			function fncCreateResult(responseText){
+				if(responseText != null && responseText.parcelResultMap != null && responseText.parcelDetailResultMap != null){
+					var parcelResultMap = responseText.parcelResultMap.resultList;
+					var parcelDetailResultMap = responseText.parcelDetailResultMap.resultList;
+		
+					var paramInvcNo = responseText.parcelResultMap.paramInvcNo;
+		
+					var imageStatus = 1;
+					var imageAlt = "";
+					var statusDetail = "";
+		
+					var deliveryStatus = 0;
+					var tmpInfo = "";
+		
+					var empName = "";
+					var empPhone = "";
+		
+					var paramBranchCd = "";
+					var paramEmpId = "";
+		
+					if (typeof responseText == 'undefined' || responseText == ''){
+						alert('배송정보 조회 요청이 실패하였습니다.');
+						return false;
+					}else if((typeof parcelResultMap == 'undefined' || parcelResultMap == '') && (typeof parcelDetailResultMap == 'undefined' || parcelDetailResultMap == '')){
+						$('#isResult').css('display','none');
+						$('#deliveryDetail').css('display','none');
+						$('#notResult').css('display','block');
+		
+					}else{
+						$("#invcNo").text('-');
+						$("#sendrNm").text('-');
+						$("#rcvrNm").text('-');
+						$("#itemNm").text('-');
+						$("#qty").text('-');
+						if(parcelResultMap.length > 0){
+							var sendrNm = parcelResultMap[0].sendrNm;
+							var rcvrNm = parcelResultMap[0].rcvrNm;
+							var rgmailNo = parcelResultMap[0].rgmailNo;
+							var rtnTrspbillnum = parcelResultMap[0].rtnTrspbillnum;
+							var oriTrspbillnum = parcelResultMap[0].oriTrspbillnum;
+		
+							if(sendrNm.length > 1){
+								sendrNm = sendrNm.substring(0, 1) + "*";
+							}
+							if(rcvrNm.length > 1){
+								rcvrNm = rcvrNm.substring(0, 1) + "*";
+							}
+							if (rgmailNo != null && rgmailNo != '' && rgmailNo !='&nbsp;'){
+								$("#invcNo").html(parcelResultMap[0].invcNo + '<br><br>(우체국위탁배송)<br><a href="http://service.epost.go.kr/trace.RetrieveRegiPrclDeliv.postal?sid1=' + rgmailNo + '" title="우체국 등기번호 조회" target="_blank" onclick=" window.open(this.href,\'popup\',\'left=0,top=0,width=1024,height=900,resizable=yes,status=yes,toolbar=no,menubar=no,scrollbars=yes\'); return false;"> <b><ins><font color=\"#007ac3\">우체국조회(' + rgmailNo + ')');
+							}else{
+								$("#invcNo").text(parcelResultMap[0].invcNo);
+							}
+		
+							if(rtnTrspbillnum != null && rtnTrspbillnum != ''){
+								$("#invcNo").append('</br></br>반품:' + rtnTrspbillnum + '</br>');
+							}
+							if(oriTrspbillnum != null && oriTrspbillnum != ''){
+								$("#invcNo").append('</br></br>원운송장:' + oriTrspbillnum + '</br>');
+							}
+		
+							$("#sendrNm").text(sendrNm);
+							$("#rcvrNm").text(rcvrNm);
+							$("#itemNm").text(parcelResultMap[0].itemNm);
+							$("#qty").text(parcelResultMap[0].qty);
+						}
+		
+						if(parcelDetailResultMap.length > 0){
+							var langth = parcelDetailResultMap.length - 1;
+							if(typeof parcelDetailResultMap[langth].crgSt == 'undefined' || parcelDetailResultMap[0].crgSt == ''){
+								imageStatus = 1;
+								imageAlt = '01. 상품준비';
+							}else if(parcelDetailResultMap[langth].crgSt == '11'){
+								imageStatus = 3;
+								imageAlt = '03. 상품인수';
+							}else if(parcelDetailResultMap[langth].crgSt == '41'){
+								imageStatus = 4;
+								imageAlt = '04. 상품이동중';
+							}else if(parcelDetailResultMap[langth].crgSt == '42'){
+								imageStatus = 5;
+								imageAlt = '05. 배송지도착';
+							}else if(parcelDetailResultMap[langth].crgSt == '44'){
+								imageStatus = 4;
+								imageAlt = '04. 상품이동중';
+							}else if(parcelDetailResultMap[langth].crgSt == '82'){
+								imageStatus = 6;
+								imageAlt = '06. 배송출발';
+							}else if(parcelDetailResultMap[langth].crgSt == '91'){
+								imageStatus = 7;
+								imageAlt = '07. 배달완료';
+							}
+							
+							$("#statusImage").attr('src','/static/pc/global/template/images/img/img_step_info_' + imageStatus + '.jpg');
+							$("#statusImage").attr('alt','상품 상태 확인 단계 - ' + imageAlt);
+		
+							for(i=0; i<parcelDetailResultMap.length; i++){
+								var stautsName = "";
+								if(parcelDetailResultMap[i].crgSt == '91'){
+									statusDetail += "<tr class='end'>";
+								}else{
+									statusDetail += "<tr>";
+								}
+								if(parcelDetailResultMap[i].crgSt == '11'){
+									stautsName = '상품인수';
+								}else if(parcelDetailResultMap[i].crgSt == '41'){
+									stautsName = '상품이동중';
+								}else if(parcelDetailResultMap[i].crgSt == '42'){
+									stautsName = '배송지도착';
+								}else if(parcelDetailResultMap[i].crgSt == '44'){
+									stautsName = '상품이동중';
+								}else if(parcelDetailResultMap[i].crgSt == '82'){
+									paramBranchCd = parcelDetailResultMap[i].regBranId;
+									paramEmpId = parcelDetailResultMap[i].empImgNm;
+		
+									tmpInfo = parcelDetailResultMap[i].crgNm.split("배송담당:");
+									if(tmpInfo.length == 2){
+										var tmpInfo2 = (tmpInfo[1].replace(")", "")).split(" ");
+										if(tmpInfo2.length == 2){
+											empName = tmpInfo2[0];
+											empPhone = tmpInfo2[1];
+										}
+									}
+									
+									stautsName = '배송출발';
+									deliveryStatus = 1;
+								}else if(parcelDetailResultMap[i].crgSt == '91'){
+									stautsName = '배달완료';
+								}
+								
+								statusDetail += "<td>" + stautsName + "</td>";
+								statusDetail += "<td>" + parcelDetailResultMap[i].dTime + "</td>";
+								statusDetail += "<td>" + parcelDetailResultMap[i].crgNm + "</td>";
+								statusDetail += "<td>" + parcelDetailResultMap[i].regBranNm + "</td>";
+								statusDetail += "<tr>";
+		
+							}
+							$("#statusDetail").html(statusDetail);
+						}else{
+							statusDetail += "<tr>";
+							statusDetail += "<td colspan='4' style='text-align:center;'>조회된 데이터가 없습니다.</td>";
+							statusDetail += "<tr>";
+							$("#statusDetail").html(statusDetail);
+		
+						}
+		
+						if(deliveryStatus == 1){
+							$("#empName").text(empName);
+							$("#empPhone").text(empPhone);
+		
+							$.ajax({
+								url: '/ko/tool/parcel/tracking-deliveryDetail',
+								type: 'POST',
+								dataType: 'json',
+								data: GLOBAL_CSRF_NAME + '=' + GLOBAL_CSRF_VALUE + '&paramBranchCd=' + paramBranchCd + '&paramEmpId=' + paramEmpId,
+								timeout: 1000,
+								async: false,
+								error: function(xhr){
+									if(xhr.status == "403"){
+										location.href = location.href;
+									}
+								},
+								success: function(responseText){
+									if(responseText.deliveryResultMap != null){
+										$("#belongName").text(responseText.deliveryResultMap.resultList[0].belongName);
+										$("#subName").text(responseText.deliveryResultMap.resultList[0].subName);
+										$("#branName").text(responseText.deliveryResultMap.resultList[0].branName);
+										if(typeof responseText.fullPath != 'undefined' && responseText.fullPath != ''){
+											$("#filepathName").attr('src', responseText.fullPath);
+										}else{
+											$("#filepathName").attr('src', '/static/pc/global/template/images/img/ko.jpg');
+										}
+									}else{
+										alert('호출에 실패하였습니다.');
+									}
+								}
+							});
+							
+							$('#deliveryDetail').css('display', 'block');
+						}else{
+							$('#deliveryDetail').css('display', 'none');
+						}
+						
+						$('#notResult').css('display', 'none');
+		
+						//PC URL
+					
+						var cashbackUrl = "https://www.logii.com/interface/delvprom/delv_click.asp?prom_code=LA01&comp_code=korex&login_yn=N&login_name=&inv_no=" + paramInvcNo;
+					
+						$("#iptCashback").attr("href", cashbackUrl);
+						$('#isResult').css('display', 'block');
+		
+					}
+				}else{
+					alert('서비스가 원활하지 않습니다.');
+				}
+			}
+		
+		</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="common-layerType-1" id="ly-notice">
+
+			<div class="common-inner-layer mt2" tabindex="0">
+				<div class="gap-3">
+					<!-- title-layerTop -->
+					<p class="title-layerTop">배송지연안내</p>
+					<!-- //title-layerTop -->
+					<p><a href="#none" class="cancle dialog-close" title="긴급공지 레이어 닫기"></a></p>
+					<p class="txt-layer-1">
+						최근 비대면 문화 확산과 함께 추석 선물 등 물량 증가로 인해 일부 배송이 지연되고 있습니다.<br />
+						<br />
+고객님께 불편을 드려 죄송합니다.<br />
+						<br />
+최대한 빠르고 안전하게 배송할 수 있도록 최선을 다하겠습니다.
+					</p>
+						<div class="btn-bottom">
+							<span class="common-btnType-1">
+							<a class="dialog-close" href="#none">닫기</a>
+							<span class="line-right"></span>
+							<span class="line-top"></span>
+							<span class="line-left"></span>
+							<span class="line-bottom"></span>
+							<span class="line-diag"></span>
+							</span>
+						</div>
+				</div>
+				<div class="bg-line-bottom"></div>
+			</div>
+			<div class="verticalAlign"></div>
+		</div>
+
+		<script>
+			$(document).ready(function(){
+		
+				//load할 영역 생성
+				$('body').prepend('<div id="virtualLayer"></div>');
+				layerNoticeOpen();
+		
+				//닫기버튼
+				$('#ly-notice').find('.dialog-close').on('click', function(){
+					layerNoticeClose();
+				});
+				
+			function layerNoticeOpen(){
+				openModalLayer('#ly-notice', '#header h1 a');
+				$('body').addClass('common-layerTypeOh-1');
+				$('.common-layerType-1').animate( { scrollTop : 0 }, 1 );
+			}
+			function layerNoticeClose(){
+				//닫기호출시 사용
+		/* 		
+				if(opener != null){
+					window.close();
+				}
+		 */		
+			}
+		});
+		</script>
+
+
+
+
+
+
+		<form method="post" id="frmPageCommon" name="frmPageCommon">
+			<input type="hidden" title="SNS Title" id="snsTitle" name="snsTitle" value="택배조회 | CJ대한통운" />
+			<input type="hidden" title="SNS Summary" id="snsSummary" name="snsSummary" value="CJ대한통운 택배조회 페이지입니다." />
+			<input type="hidden" title="SNS URL" id="snsUrl" name="snsUrl" value="http://www.cjlogistics.com/ko/tool/parcel/tracking" />
+			<input type="hidden" title="SNS Image" id="snsImage" name="snsImage" value="http://www.cjlogistics.com/static/pc/global/template/images/sns/sns_img_ko.jpg" />
+</form>
+			<form method="post" id="frmCommonLogin" name="frmCommonLogin">
+				<input type="hidden" title="인증키" name="_csrf" 	value="97869090-812a-4676-8303-c8cc9b23e3e6" />
+				<input type="hidden" title="Return URL" name="returnUrl" 	value="http://www.cjlogistics.com/ko/tool/parcel/tracking" />
+</form>
+				<script type="text/javascript">
+					/*
+	var origin = location.origin;
+	var pathname = location.pathname;
+	if(origin.indexOf("www.cjlogistics.com")<0){
+		location.href = "https://www.cjlogistics.com"+pathname;
+	}
+	*/
+	
+	var nowUrl = window.location.href;
+	var nowHostname = window.location.hostname;
+	if(nowHostname == "cjlogistics.com"){
+		var callUrl = nowUrl.replace(nowHostname, "www.cjlogistics.com");
+		//if (typeof (history.pushState) != "undefined") { //브라우저가 지원하는 경우
+		//    history.pushState({"method":"active"}, null, callUrl);
+		//}
+		//else {
+		    location.href = callUrl; //브라우저가 지원하지 않는 경우 페이지 이동처리
+		//}
+	}
+				</script>
+
+
+				<script type="text/javascript">
+					(function(w, d, a){
+	w.__beusablerumclient__ = {
+		load : function(src){
+			var b = d.createElement("script");
+			b.src = src; b.async=true; b.type = "text/javascript";
+			d.getElementsByTagName("head")[0].appendChild(b);
+		}
+	};w.__beusablerumclient__.load(a);
+})(window, document, "//rum.beusable.net/script/b200701e124559u075/ace32ecb65");
+				</script>
+</body>
+
+</html>

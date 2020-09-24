@@ -22,7 +22,7 @@ describe(tracker.COURIER.LBC.NAME, function () {
       var trackingInfo = courier.trackingInfo(deliveredNumber)
 
       prepare(courier, deliveredNumber)
-      prepareNock(trackingInfo.checkpoints(hash), [courier.CODE, deliveredNumber].join('-'))
+      prepareNock(trackingInfo.checkpoints(hash), [courier.CODE, deliveredNumber, 'checkpoints'].join('-'))
 
       done()
     })

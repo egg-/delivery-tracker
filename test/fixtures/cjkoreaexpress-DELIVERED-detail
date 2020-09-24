@@ -1,0 +1,83 @@
+{
+  "parcelResultMap": {
+    "resultList": [
+      {
+        "invcNo": "DELIVERED",
+        "sendrNm": "매**",
+        "qty": "1",
+        "itemNm": "기타",
+        "rcvrNm": "D**",
+        "rgmailNo": "",
+        "oriTrspbillnum": "",
+        "rtnTrspbillnum": "",
+        "nsDlvNm": "91"
+      }
+    ],
+    "paramInvcNo": "DELIVERED"
+  },
+  "parcelDetailResultMap": {
+    "resultList": [
+      {
+        "nsDlvNm": "",
+        "crgNm": "보내시는 고객님으로부터 상품을 인수받았습니다",
+        "crgSt": "11",
+        "dTime": "2020-08-19 17:58:12.0",
+        "empImgNm": "EMP_IMG_NM",
+        "regBranId": "8193",
+        "regBranNm": "서울역삼중앙",
+        "scanNm": "집화처리"
+      },
+      {
+        "nsDlvNm": "",
+        "crgNm": "물류터미널로 상품이 이동중입니다.",
+        "crgSt": "41",
+        "dTime": "2020-08-19 19:16:42.0",
+        "empImgNm": "EMP_IMG_NM",
+        "regBranId": "V152",
+        "regBranNm": "강남B",
+        "scanNm": "간선상차"
+      },
+      {
+        "nsDlvNm": "",
+        "crgNm": "배송지역으로 상품이 이동중입니다.",
+        "crgSt": "44",
+        "dTime": "2020-08-20 21:00:06.0",
+        "empImgNm": "EMP_IMG_NM",
+        "regBranId": "V050",
+        "regBranNm": "용인HUB",
+        "scanNm": "간선상차"
+      },
+      {
+        "nsDlvNm": "",
+        "crgNm": "고객님의 상품이 배송지에 도착하였습니다.(배송예정:박진웅 010-9290-3723)",
+        "crgSt": "42",
+        "dTime": "2020-08-21 11:59:30.0",
+        "empImgNm": "EMP_IMG_NM",
+        "regBranId": "V243",
+        "regBranNm": "수정",
+        "scanNm": "간선하차"
+      },
+      {
+        "nsDlvNm": "",
+        "crgNm": "고객님의 상품을 배송할 예정입니다.(16∼18시)(배송담당:박진웅 010-9290-3723)",
+        "crgSt": "82",
+        "dTime": "2020-08-21 12:44:02.0",
+        "empImgNm": "571132",
+        "regBranId": "6996",
+        "regBranNm": "경기수정",
+        "scanNm": "배달출발"
+      },
+      {
+        "nsDlvNm": "",
+        "crgNm": "고객님의 상품이 배송완료 되었습니다.(담당사원:박진웅 010-9290-3723)",
+        "crgSt": "91",
+        "dTime": "2020-08-21 16:34:06.0",
+        "empImgNm": "EMP_IMG_NM",
+        "regBranId": "6996",
+        "regBranNm": "경기수정",
+        "scanNm": "배달완료"
+      }
+    ],
+    "paramInvcNo": "DELIVERED"
+  }
+}
