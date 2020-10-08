@@ -1,0 +1,537 @@
+
+<!DOCTYPE html>
+    <html class="no-js" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <!--<link href="/track/assets/resources/styles/ups.apps-visibility.css" rel="stylesheet" />-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<title>Tracking | UPS - United States</title> 
+<!--grid-layout--> 
+<!--[if IE]><link rel="stylesheet" href="/assets/resources/styles/ups.binary-fonts.css" /><![endif]--> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<link rel="canonical" href="https://www.ups.com/track?loc=en_US">
+<!--ls:begin[stylesheet]-->
+<style type="text/css">
+          
+          .iw_container
+          {
+            max-width:800px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+          .iw_stretch
+          {
+            min-width: 100% !important;
+          }
+        </style> 
+<!--ls:end[stylesheet]--> 
+<!--ls:begin[meta-keywords]--> 
+<meta name="keywords" content="Tracking"> 
+<!--ls:end[meta-keywords]--> 
+<!--ls:begin[meta-description]--> 
+<meta name="description" content="Use your UPS InfoNotice® or tracking number to get the latest package status and estimated delivery date."> 
+<!--ls:end[meta-description]--> 
+<!--ls:begin[custom-meta-data]--> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<!--ls:end[custom-meta-data]--> 
+<!--ls:begin[meta-vpath]--> 
+<meta name="vpath" content=""> 
+<!--ls:end[meta-vpath]--> 
+<!--ls:begin[meta-ups-locale]--> 
+<meta name="ups-locale" content="en_US"> 
+<!--ls:end[meta-ups-locale]--> 
+<!--ls:begin[head-injection]-->
+<script type="text/javascript">var utag_data = {"page_country_code": "US","page_language":"en","page_id":"track/track-container.page","site_indicator":"Country","style_sheet":"","completion_event":"","browser_hour":"","page_type":"","page_name":"track/track-container","link_name":"","link_page_name":"","link_type":"","content_target":"","event_id":"0","article_title":"","tag_name":"","tab_name":"","page_section":"","content_title":"","article_author":"","video_id":"","video_timeplayed":"","list_title":"","journey":"","step":"","list_sort":"","page_description":"","content_group_name":"","content_sub_group_name":"","on_site_searchterm":"","on_site_search_results":"","on_site_search_noresults":"","page_load_time":"","error_code":"","user_classification":"","user_account":"","user_account_status":"","business_user_title":"","consumer_user_age":"","consumer_user_gender":"","product_id":"","product_name":"","product_description":"","segment_id":"","segment_name":"","segment_description":"","content_block_id":"","content_block_name":"","content_block_description":"","content_id":"","content_name":"","content_author":"","content_description":"","content_creation_date":"","content_expiration_date":"","content_url":"","property_id":"","property_name":"","property_description":"","campaign_id":"","campaign_name":"","campaign_type":"","campaign_description":"","asset_id":"","asset_name":"","asset_description":"","partner_id":"","partner_name":"","offer_name"  : "","offer_description" : "","channel" : "","source_id":"","source_name":"","source_description":"","placement_id":"","placement_name":"","placement_type":"","placement_wxh":"","destination_url":"","test_id":"","test_name":"","test_desc":"","test_group_name":"","creative_variant":"","creative_version":"","ad_server_name" : "","image_block_id":"","image_block_name":"","image_block_description":"","ad_wxh":"","navigation_class":"","on_site_search_type":"","on_site_search_type_super_category":"","account_no":"","product_category":"","user_log_frequency": "","referring_url": "","ad_block_location":"","ad_description":"","onsite_ad_display":"","onsite_ad_click":"","onsite_ad_position":"","ad_name":"","campaign_scenario_name":"","campaign_site_id":"","campaign_site_name":"","placement_description":"","initiative_id":"","platform_name":"","platform_description":"","bill_type":"","content_type":"","content_producer":"","fb_id":"","event_type":"","event_value":"","myups_id":"","test_value":"","affiliate_id":"","banner_type":"","channel_source_category":"","video_event":"","viewport":"","mvt_test_date":"","mvt_test_description":"","mvt_test_id":"","site_area":"","site_sub_area":"","net_revenue":"","gross_revenue":"","currency":"","journey_step_number":"","choice_revenue":"","brdcrmb":"","state":"","city":"","myups_login_state":"1","encrypted_login_id":"","campusship_state":"","preferred_shipper_status":"","business_type":"","user_type":"Consumer","product_affiliation_mychoice":"","product_affiliation_quantumview":"","product_affiliation_qvm_admin":"","product_affiliation_qvd_admin":"","product_affiliation_campusship":"","business_user_industry":"","business_user_sic":"","business_user_naics":"","business_user_company_size":"0.0","business_user_revenue":"0.0","preferred_customer":"","product_affiliation_worldship":"","wem_tdx_campaign_id":"","wem_tdx_existing_account":"","wem_tdx_national":"","product_affiliation_mychoice_basic":"","product_affiliation_mychoice_premium":"","product_affiliation_fgv":"","product_affiliation_campusship_admin":"","product_affiliation_billing_center":"","business_b2b":"false","business_b2c":"true","business_user_sub_industry":"","product_affiliation_cvuser":"","product_affiliation_cvadmin":"" };</script> 
+<script type="text/javascript" src="//tags.tiqcdn.com/utag/ups/maestro/prod/utag.sync.js"></script> 
+<script type="text/javascript">(function(a,b,c,d){a='//tags.tiqcdn.com/utag/ups/maestro/prod/utag.js'; b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);})();</script> 
+<script src="/assets/resources/scripts/vendor/modernizr.699b9a.js" type="text/javascript"></script> 
+<script src="/assets/resources/scripts/vendor/ups.vendor.7f56e3.js" type="text/javascript"></script> 
+<link type="text/css" href="/assets/resources/styles/ups.vendor.54f3c2d83b58.css" rel="stylesheet"> 
+<link type="text/css" href="/assets/resources/styles/ups.styles.bf03bcac6bc2.css" rel="stylesheet"> 
+<link type="text/css" href="/assets/resources/styles/ups.modules.c811d4043aaa.css" rel="stylesheet"> 
+<link type="text/css" href="/assets/resources/styles/ups.widgets.6611168e8d14.css" rel="stylesheet"> 
+<link type="text/css" href="/assets/resources/styles/ups.apps-utrk.720d77.css" rel="stylesheet" media="screen,print"> 
+<script src="/assets/resources/scripts/ups.cpc.min.js" type="text/javascript"></script> 
+<script src="/assets/resources/scripts/ups.cac.min.js" type="text/javascript"></script> 
+<script src="/assets/resources/scripts/UPS_Smart_Banner.1.2.0.js" type="text/javascript"></script>
+<!--ls:end[head-injection]-->
+<!--ls:begin[tracker-injection]-->
+<!--ls:end[tracker-injection]-->
+<!--ls:begin[script]-->
+<!--ls:end[script]-->
+<!--ls:begin[script]-->
+<!--ls:end[script]-->
+    
+  <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="TADEN-6MDCS-UHH5M-YHPKQ-2GBH3",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"TADEN-6MDCS-UHH5M-YHPKQ-2GBH3",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="v7i2fryxepoz6x36uzfq-f-1a318b83e-clientnsv4-s.akamaihd.net",i={"ak.v":"29","ak.cp":"14334","ak.ai":parseInt("265833",10),"ak.ol":"0","ak.cr":5,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"154468c7","ak.r":31195,"ak.a2":e,"ak.m":"a","ak.n":"essl","ak.bpcip":"175.209.162.0","ak.cport":57096,"ak.gh":"23.35.218.92","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1602135627","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==QqbJmfayTjsod44QEoyFynPW2rzZL+tAjOcRVP5Qkm7Grm07YfXDHoB0sGT8UHGz9XYmF9N0LjL5JXx+dbASA3N5EqQO7KD0q8T/K8RV32x7wBdCLh/cKlTJaCmSpJpUvk8fUB4SEF3viAuTJSZKXDl53t9Ce3nMQ/Qkv/QzMTbU2JPxg9Ye/G0ql8Jq/yDVZGgsgoC8OiznAqS4eXHG6/GF5Bl16Eo1o5xmQHw0z++mS1gF82Z25CLUDjJJxPBeonyURvTEgCsP/dUxFma58pRFavaDSo8Kc8BuTXMRJYJM8YvksqsCW8nlGr67fTx+yvoAqBBdHmUa82a4eiPKN722CeQdKeqh5kazkBmjM87cQaRfv9OE6iWXw+vV55nyee/nRjKYmBcKek9rw3/n3y58PDi1JoxBh4fJorqFF4Q=","ak.pv":"153","ak.dpoabenc":""};if(""!==t)i["ak.ruds"]=t;var _={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))i["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:n,init:function(){if(!_.i){var a=BOOMR.subscribe;a("before_beacon",_.av,null,null),a("onbeacon",_.rv,null,null),_.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+    <body>
+        <div class="iw_viewport-wrapper"><div class="container-fluid iw_section" id="sectionisswf4to"> 
+ <div class="row iw_row iw_stretch" id="rowisswf4tp"> 
+  <div class="iw_columns col-lg-12" id="colisswf4tq"> 
+   <div class="iw_placeholder" id="iw_placeholder1473252365867"> 
+    <div class="iw_component" id="iw_comp1503485494999"> 
+     <div id="ups-navContainer" class="hpps-dynamic ups-analytics-render" data-content-block-id="M1" data-content-id="templatedata/navigation/header-config/data/en_US/header-full-us.dcr" data-home=""> 
+      <div id="ups-alertsWrap" role="group" aria-label="Time Sensitive Information from UPS"> 
+       <div id="ups-alerts" data-link="/" data-linktxt="Alerts" data-prevtxt="Previous" data-nexttxt="Next" data-alerthide="false"> 
+        <div class="ups-alerts_controls">
+         <span class="ups-alert_index"></span> of 
+         <span class="ups-alert_size"></span>
+        </div> 
+        <ul class="ups-alerts_list"> 
+         <li class="ups-alert_msg" tabindex="0" data-position="alert1"><span>UPS is open for business: Service impacts related to Coronavirus</span><a class="ups-analytics ups-alerts_link" data-content-block-id="M1" data-event-id="21" href="/us/en/service-alerts.page?id=alert1">...More</a></li> 
+         <li class="ups-alert_msg" tabindex="0" data-position="alert2"><span>Severe Weather Impacting Areas of Louisiana</span><a class="ups-analytics ups-alerts_link" data-content-block-id="M1" data-event-id="21" href="/us/en/service-alerts.page?id=alert2">...More</a></li> 
+         <li class="ups-alert_msg" tabindex="0" data-position="alert3"><span>Wild Fires Impacting Areas in California</span><a class="ups-analytics ups-alerts_link" data-content-block-id="M1" data-event-id="21" href="/us/en/service-alerts.page?id=alert3">...More</a></li> 
+        </ul>
+        <button class="ups-alerts_close"><i class="ups-icon ups-iconAlone ups-icon-x" aria-hidden="true"></i><span class="ups-readerTxt">Close</span></button>
+       </div> 
+      </div>
+      <a class="ups-analytics" id="ups-skipNav" href="#" tabindex="0" data-content-block-id="M1" data-event-id="21">Skip To Main Content</a>
+      <header id="ups-headerWrap"> 
+       <div class="ups-wrap ups-wrap_header"> 
+        <div id="ups-header" class="ups-wrap_inner" data-upstoken="ddf31b6d319a7c6abcd53323c7fd591e2d3ade67e5bec10a958adee31b984a6f8331ccf843ccd9c864e70afd4adf9b015d9140fa2f93be90010a8209aa458969" data-islogged="false">
+         <a id="ups-header_logo" href="https://www.ups.com/us/en/Home.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21" title="UPS Home"><img src="/assets/resources/images/UPS_logo.svg" alt="UPS Home"></a>
+         <div id="ups-touchNav" class="ups-med_show"> 
+          <ul class="ups-mob_links clearfix ups-header_mob_utils"> 
+           <li class="ups-menu ups-account "><a class="ups-profileBtn ups-toucNav-buttons ups-analytics" id="ups-profileBtn" aria-expanded="false" data-content-block-id="M1" data-event-id="21" href="https://www.ups.com/doapp/SignUp?loc=en_US&amp;ClientId=18&amp;returnto=https%3A%2F%2Fwww.ups.com%2Ftrack%3Floc%3Den_US%26Requester%3Dlasso"><span class="ups-iconAlone ups-icon-user-solid" aria-hidden="true"></span><span class="ups-icon_text">Sign up / Log in</span></a></li> 
+           <li class="ups-menu ups-account hidden"><a class="ups-profileBtn ups-toucNav-buttons ups-analytics" id="ups-profileBtn" aria-expanded="false" data-content-block-id="M1" data-event-id="21" href="https://www.ups.com/lasso/login?loc=en_US&amp;returnto=https%3A%2F%2Fwww.ups.com%2Ftrack%3Floc%3Den_US%26Requester%3Dlasso"><span class="ups-iconAlone ups-icon-user-solid" aria-hidden="true"></span><span class="ups-icon_text">Log In</span></a></li> 
+           <li><button id="ups-mobSearch_btn" class="ups-searchBtn ups-toucNav-buttons ups-analytics" aria-expanded="false" aria-controls="ups-header_search-mob" data-content-block-id="M1" data-event-id="21"><span class="ups-iconAlone ups-icon-search" aria-hidden="true"></span><span class="ups-icon_text">Search or Track</span><span class="ups-readerTxt">Search or Track</span></button></li> 
+           <li><button class="ups-menuToggle ups-toucNav-buttons ups-analytics" data-content-block-id="M1" data-event-id="22"><span class="ups-iconAlone ups-icon-menu" aria-hidden="true"></span><span class="ups-readerTxt">Menu</span></button><button class="ups-mobmenu-close ups-toucNav-buttons"><span class="ups-iconAlone ups-icon-x" aria-hidden="true"></span><span class="ups-readerTxt">Close</span></button></li> 
+          </ul> 
+         </div> 
+         <form id="ups-header_search-mob" method="get" data-action="/us/en/SearchResults.page" action="/us/en/SearchResults.page" role="search" aria-labelledby="ups-mobSearch_btn" class="hide" data-track="https://wwwapps.ups.com/WebTracking/track?loc=en_US" data-svp-track="/mobile/track?loc=en_US#Track"> 
+          <div class="ups-input_wrap">
+           <label for="ups-search-mob" class="ups-readerTxt">Search or Track</label>
+           <input type="search" name="ups-search-mob" id="ups-search-mob" placeholder="Search or Track">
+           <input type="hidden" name="HTMLVersion" value="5.0">
+           <input type="hidden" name="loc" value="en_US">
+           <input type="hidden" name="trackNums" class="ups-trackSearch_header">
+           <input value="Track" name="track.x" type="hidden">
+           <button class="ups-cta" type="submit" id="ups-mainNav_search_mob"><span class="icon" aria-hidden="true"></span><span class="ups-readerTxt"></span>Go</button>
+           <button class="ups-cta close" type="button"><span class="icon" aria-hidden="true"><span class="ups-readerTxt">Close</span></span>x</button>
+          </div> 
+         </form> 
+         <ul class="ups-topNav"> 
+          <li class="ups-utilities_menu" aria-label="Utilities Menu"> 
+           <ul class="ups-header_utils"> 
+            <li class="ups-locations ups-firstnav"><a href="https://www.ups.com/dropoff?loc=en_US" data-event-id=""><span aria-hidden="true" class="icon ups-icon-locationsemifull"></span>Locations</a></li> 
+            <li class="ups-language ups-menu ups-firstnav ups-icon-globe-filled" aria-label="Main" data-apps="true"><a href="javascript:void(0)" class="ups-menu_toggle ups-analytics" id="ups-language-toggle" aria-expanded="false" aria-controls="ups-language-panel" role="button" data-content-block-id="M1" data-event-id="22"><span aria-hidden="true" class="icon ups-icon-globe-filled"></span><span class="ups-language-text">United States - English</span><span class="icon ups-icon-chevrondown" aria-hidden="true"></span><span class="ups-mobnav-arrow" aria-hidden="true"></span></a>
+             <div class="ups-menu_list" id="ups-language-panel" aria-labelledby="ups-language-toggle" role="region"> 
+              <ul> 
+               <li lang="es" data-code="es"><a href="https://es-us.ups.com/us/es/Home.page?loc=es_US" class="ups-analytics" data-content-block-id="M1" data-event-id="21" data-country-language-name="Estados Unidos - Español">Estados Unidos - Español</a></li> 
+               <li lang="en" data-code="en"><a href="https://www.ups.com/us/en/Home.page?loc=en_US" class="ups-analytics" data-content-block-id="M1" data-event-id="21" data-country-language-name="United States - English">United States - English</a></li> 
+              </ul> 
+              <div class="ups-more">
+               <a class="ups-analytics" data-content-block-id="M1" data-event-id="21" href="/us/en/global.page?">Select Another Country or Territory</a>
+              </div> 
+             </div> </li> 
+            <li class="ups-loginsignup ups-firstnav "><a class="ups-analytics" data-content-block-id="M1" data-event-id="21" href="https://www.ups.com/doapp/SignUp?loc=en_US&amp;ClientId=18&amp;returnto=https%3A%2F%2Fwww.ups.com%2Ftrack%3Floc%3Den_US%26Requester%3Dlasso"><span class="icon ups-icon-user-solid" aria-hidden="true"></span>Sign up / Log in</a></li> 
+            <li class="ups-loginsignup ups-firstnav hidden"><a class="ups-analytics" data-content-block-id="M1" data-event-id="21" href="https://www.ups.com/lasso/login?loc=en_US&amp;returnto=https%3A%2F%2Fwww.ups.com%2Ftrack%3Floc%3Den_US%26Requester%3Dlasso"><span class="icon ups-icon-user-solid" aria-hidden="true"></span>Log In</a></li> 
+            <li class="ups-searchbar"> 
+             <form id="ups-header_search" method="get" action="/us/en/SearchResults.page" data-action="/us/en/SearchResults.page" role="search" data-track="https://wwwapps.ups.com/WebTracking/track?loc=en_US" data-svp-track="/mobile/track?loc=en_US#Track">
+              <i class="ups-icon-search ups-firstnav" aria-hidden="true"></i>
+              <span class="ups-readerTxt ups-firstnav">Search or Track</span>
+              <button class="ups-header_search_track ups-firstnav" type="button">Search or Track<span class="ups-readerTxt">Search or Track</span></button>
+              <label for="ups-mainNav-search" class="ups-readerTxt">Search or Track</label>
+              <input id="ups-mainNav-search" type="search" name="ups-search" class="ups-hide_nav" placeholder="Search or Track">
+              <input type="hidden" name="HTMLVersion" value="5.0">
+              <input type="hidden" name="loc" value="en_US">
+              <input type="hidden" name="trackNums" class="ups-trackSearch_header">
+              <input value="Track" name="track.x" type="hidden">
+              <button id="ups-mainNav_search_submit" class="ups-hide_nav ups-header_search_submit" type="submit" data-content-block-id="M1" data-event-id="21"><i class="ups-icon-search" aria-hidden="true"></i><span class="ups-readerTxt">Go</span></button>
+             </form><button id="ups-mainNav_close_search" class="ups-header_close_search ups-hide_nav" type="submit"><i class="icon ups-icon-x" aria-hidden="true"></i><span class="ups-readerTxt">Close</span></button></li> 
+           </ul> </li> 
+          <li class="ups-container ups-primary_nav" id="ups-navItems"> 
+           <div class="ups-wrap"> 
+            <div class="ups-wrap_inner ups-navItems_primary"> 
+             <ul class="ups-navItems_mainUL ups-menu-flexible-width"> 
+              <div id="ups-headerTools" role="navigation" aria-label="Quick Start">
+               <a href="javascript:void(0)" aria-controls="ups-quickStartPanel" role="button" id="ups-quickStartMenu" aria-expanded="false" class="ups-analytics ups-toolsToggle" data-content-block-id="M1" data-event-id="22">Quick Start<span class="icon" aria-hidden="true"></span></a>
+               <div id="ups-quickStartPanel" class="ups-headerTools_list" aria-hidden="true" aria-labelledby="ups-quickStartMenu" role="region"> 
+                <div class="ups-headerTools_msg"> 
+                 <h3>Hello. <a href="/us/en/help-center/get-started-with-ups.page" data-link-name="RTE: " data-event-id="21" data-isrte="true" duphref="/us/en/help-center/get-started-with-ups.page">Get Started with UPS</a>.</h3> 
+                </div> 
+                <ul class="ups-headerTools_widgets"> 
+                 <li class="ups-headerTools_track"> 
+                  <div class="ups-wrap ups-simpleTrack_wrap"> 
+                   <div class="ups-wrap_inner"> 
+                    <div class="ups-simpleTrack ups-widget "> 
+                     <div class="ups-widget_header"> 
+                      <h2 id="ups-quote-head-qs"><span class="icon" aria-hidden="true"></span>Track </h2> 
+                     </div> 
+                     <div class="ups-widget_panel" aria-labelledby="ups-quote-head-qs" role="group"> 
+                      <form method="post" name="trackMod" action="https://wwwapps.ups.com/WebTracking/track?loc=en_US" data-svp-track="/mobile/track?loc=en_US#Track">
+                       <input type="hidden" name="HTMLVersion" value="5.0">
+                       <input type="hidden" name="loc" value="en_US">
+                       <label for="ups-track--qs" class="ups-readerTxt">Tracking Numbers</label>
+                       <div class="ups-simpleTrack_input_wrap">
+                        <textarea rows="1" cols="2" name="trackNums" id="ups-track--qs" class="ups-simpleTrack_input ups-form_input" placeholder="Tracking Numbers"></textarea>
+                       </div>
+                       <input value="Track" name="track.x" type="hidden">
+                       <button id="ups-tracking-submit" type="submit" data-event-id="21" data-content-block-id="M1" class="ups-simpleTrack_btn ups-cta ups-analytics"><i aria-hidden="true"></i><span class="ups-readerTxt">Go</span></button>
+                      </form> 
+                     </div> 
+                    </div> 
+                   </div> 
+                  </div> </li> 
+                 <li id="Shipping" data-key="Ship" class="ups-ship" data-url="https://www.ups.com/ship?loc=en_US" data-svp="http://www.ups.com"><a href="https://www.ups.com/ship?loc=en_US" class="ups-analytics ups-headerTools_widgetToggle" data-content-block-id="M1" data-event-id="22" role="button" id="ups-quickStartShip">Ship<span aria-hidden="true" class="icon"></span></a>
+                  <div class="ups-toolWrap" aria-hidden="true" id="ups-quickstartShipPanel" aria-labelledby="ups-quickStartShip"> 
+                   <div class="ups-tool">
+                    <button class="ups-headerTools_widgetClose"><span class="icon" aria-hidden="true"></span><span class="ups-readerTxt">Close</span></button>
+                   </div> 
+                  </div> </li> 
+                 <li class="ups-qs_customNode" data-key="Shipping_Selector_Quick_Start" data-url="https://www.ups.com/service-selector?loc=en_US"><a href="https://www.ups.com/service-selector?loc=en_US" class="ups-analytics ups-headerTools_widgetToggle" data-content-block-id="M1" data-event-id="22">Find a Service<span aria-hidden="true" class="icon"></span></a>
+                  <div class="ups-toolWrap"> 
+                   <div class="ups-tool">
+                    <button class="ups-headerTools_widgetClose"><span class="icon" aria-hidden="true"></span><span class="ups-readerTxt">Close</span></button>
+                   </div> 
+                  </div> </li> 
+                 <li id="CTC" data-key="Quote" class="ups-quote" data-url="https://wwwapps.ups.com/ctc/request?loc=en_US" data-svp="https://www.ups.com/mobile/ratetnthome?loc=en_US"><a href="https://wwwapps.ups.com/ctc/request?loc=en_US" class="ups-analytics ups-headerTools_widgetToggle" data-content-block-id="M1" data-event-id="22" role="button" id="ups-quickStartQuote">Quote<span aria-hidden="true" class="icon"></span></a>
+                  <div class="ups-toolWrap" aria-hidden="true" id="ups-quickstartQuotePanel" aria-labelledby="ups-quickStartQuote" role="region"> 
+                   <div class="ups-tool">
+                    <button class="ups-headerTools_widgetClose"><span class="icon" aria-hidden="true"></span><span class="ups-readerTxt">Close</span></button>
+                   </div> 
+                  </div> </li> 
+                 <li data-widget-source="locator-1" data-ajax-source="Locator" data-key="Locations" class="ups-locations ups-toolCont" data-url="/us/en/w1-location-finder-page.page?quickStart=true&amp;widget=locationFinder" data-svp="https://www.ups.com/dropoff?loc=en_US"><a href="/us/en/w1-location-finder-page.page?quickStart=true&amp;widget=locationFinder" class="ups-analytics ups-headerTools_widgetToggle" data-content-block-id="M1" data-event-id="22" role="button" id="ups-quickStartLocation">Locations<span aria-hidden="true" class="icon"></span></a>
+                  <div class="ups-toolWrap" aria-hidden="true" id="ups-quickStartLocationPanel" aria-labelledby="ups-quickStartLocation" role="region"> 
+                   <div class="ups-tool">
+                    <button class="ups-headerTools_widgetClose"><span class="icon" aria-hidden="true"></span><span class="ups-readerTxt">Close</span></button>
+                   </div> 
+                  </div> </li> 
+                 <li class="ups-billing" data-key="View__Pay_Bill_Quick_Start" data-url="/us/en/help-center/billing-payment.page?"><a href="/us/en/help-center/billing-payment.page?" class="ups-analytics ups-headerTools_widgetToggle" data-content-block-id="M1" data-event-id="22">View &amp; Pay Bill<span aria-hidden="true" class="icon"></span></a>
+                  <div class="ups-toolWrap"> 
+                   <div class="ups-tool">
+                    <button class="ups-headerTools_widgetClose"><span class="icon" aria-hidden="true"></span><span class="ups-readerTxt">Close</span></button>
+                   </div> 
+                  </div> </li> 
+                </ul> 
+               </div> 
+              </div> 
+              <li class="ups-navMenu ups-menu"><a href="#" class="ups-analytics ups-menu_toggle" role="button" id="ups-menuLinks1" aria-controls="ups-menuPanel1" data-content-block-id="M1" data-event-id="22" aria-expanded="false">Tracking<span class="icon ups-icon-plus" aria-hidden="true"></span><span class="icon ups-icon-minus" aria-hidden="true"></span></a>
+               <div class="ups-wrap"> 
+                <div class="ups-wrap_inner"> 
+                 <div class="ups-menu_list ups-cols-3" id="ups-menuPanel1" aria-hidden="true" aria-labelledby="ups-menuLinks1" role="region"> 
+                  <div class="ups-menu_listCols"> 
+                   <div class="ups-menu_column"> 
+                    <h3 class="ups-menu_subheading">Quick Links to Track</h3> 
+                    <ul class="ups-menu_links"> 
+                     <li><a href="https://www.ups.com/track?loc=en_US" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Track &amp; Track History<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="/us/en/help-center/sri/tracking/change-delivery.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Change Delivery<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="/us/en/tracking/quantum-view.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Manage Inbound/Outbound Deliveries:<br><i>Quantum View - for Large Enterprise Businesses</i><span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="/us/en/services/tracking.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Explore All Tracking<span aria-hidden="true" class="icon"></span></a></li> 
+                    </ul> 
+                   </div> 
+                   <div class="ups-menu_column"> 
+                    <h3 class="ups-menu_subheading">UPS My Choice</h3> 
+                    <ul class="ups-menu_links"> 
+                     <li><a href="/us/en/services/tracking/mychoice.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Explore Managing Home Deliveries<span aria-hidden="true" class="icon"></span></a></li> 
+                    </ul> 
+                   </div> 
+                   <div class="ups-menu_column"> 
+                    <h3 class="ups-menu_subheading">UPS My Choice for Business</h3> 
+                    <ul class="ups-menu_links"> 
+                     <li><a href="/us/en/services/tracking/my-choice-for-business.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Explore Managing Business Deliveries<span aria-hidden="true" class="icon"></span></a></li> 
+                    </ul> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> 
+               </div> </li> 
+              <li class="ups-navMenu ups-menu"><a href="#" class="ups-analytics ups-menu_toggle" role="button" id="ups-menuLinks2" aria-controls="ups-menuPanel2" data-content-block-id="M1" data-event-id="22" aria-expanded="false">Shipping<span class="icon ups-icon-plus" aria-hidden="true"></span><span class="icon ups-icon-minus" aria-hidden="true"></span></a>
+               <div class="ups-wrap"> 
+                <div class="ups-wrap_inner"> 
+                 <div class="ups-menu_list ups-cols-3" id="ups-menuPanel2" aria-hidden="true" aria-labelledby="ups-menuLinks2" role="region"> 
+                  <div class="ups-menu_listCols"> 
+                   <div class="ups-menu_column"> 
+                    <h3 class="ups-menu_subheading">New Shipments</h3> 
+                    <ul class="ups-menu_links"> 
+                     <li><a href="https://www.ups.com/ship?loc=en_US" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Create a Shipment:<br><em>Package &amp; Freight</em><span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="https://www.ups.com/service-selector?loc=en_US" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Find a Shipping Service<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="https://wwwapps.ups.com/ctc/request?loc=en_US" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Calculate Time &amp; Cost<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="https://wwwapps.ups.com/pickup/schedule?loc=en_US" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Schedule a Pickup<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="https://www.ups.com/marketplaceshipping/order?loc=en_US" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Manage Online Orders: <br><em>Marketplace Shipping</em><span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="https://www.ups.com/uis/create?ActionOriginPair=CreateAReturn___StartSession&amp;loc=en_US" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Create a Return<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="/us/en/shipping.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Explore All Shipping<span aria-hidden="true" class="icon"></span></a></li> 
+                    </ul> 
+                   </div> 
+                   <div class="ups-menu_column"> 
+                    <h3 class="ups-menu_subheading">Existing Shipments</h3> 
+                    <ul class="ups-menu_links"> 
+                     <li><a href="https://www.ups.com/ship/history?loc=en_US" class="ups-analytics" data-content-block-id="M1" data-event-id="21">View Shipping History<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="https://www.ups.com/ship/history?loc=en_US" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Void Shipment<span aria-hidden="true" class="icon"></span></a></li> 
+                    </ul> 
+                   </div> 
+                   <div class="ups-menu_column"> 
+                    <h3 class="ups-menu_subheading">More Shipping Options</h3> 
+                    <ul class="ups-menu_links"> 
+                     <li><a href="https://www.ups.com/uis/create?ActionOriginPair=BatchImportPage___StartSession&amp;loc=en_US&amp;WT.svl=SubNav" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Batch File Shipping<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="https://www.ups.com/uis/create?ActionOriginPair=CreateAnImport___StartSession&amp;loc=en_US" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Create Import:<br><i>UPS Import Control</i><span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="https://wwwapps.ups.com/tradeability?loc=en_US" class="ups-analytics" data-content-block-id="M1" data-event-id="21">International Toolset:<br><em>UPS TradeAbility</em><span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="/us/en/help-center/packaging-and-supplies.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Order Supplies<span aria-hidden="true" class="icon"></span></a></li> 
+                    </ul> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> 
+               </div> </li> 
+              <li class="ups-navMenu ups-menu"><a href="#" class="ups-analytics ups-menu_toggle" role="button" id="ups-menuLinks3" aria-controls="ups-menuPanel3" data-content-block-id="M1" data-event-id="22" aria-expanded="false">Services<span class="icon ups-icon-plus" aria-hidden="true"></span><span class="icon ups-icon-minus" aria-hidden="true"></span></a>
+               <div class="ups-wrap"> 
+                <div class="ups-wrap_inner"> 
+                 <div class="ups-menu_list ups-cols-3" id="ups-menuPanel3" aria-hidden="true" aria-labelledby="ups-menuLinks3" role="region"> 
+                  <div class="ups-menu_listCols"> 
+                   <div class="ups-menu_column"> 
+                    <h3 class="ups-menu_subheading">By Type</h3> 
+                    <ul class="ups-menu_links"> 
+                     <li><a href="/us/en/services/shipping-services.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Shipping Services<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="/us/en/services/shipping.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Shipping Tools<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="/us/en/services/tracking.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Tracking Services<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="/us/en/services/billing.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Billing<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="/us/en/services/international-shipping.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">International Shipping<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="/us/en/services/contract-logistics.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Contract Logistics<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="/us/en/services/technology-integration.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Integrating UPS Technology<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="/us/en/services.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Explore All Services<span aria-hidden="true" class="icon"></span></a></li> 
+                    </ul> 
+                   </div> 
+                   <div class="ups-menu_column"> 
+                    <h3 class="ups-menu_subheading">By Size</h3> 
+                    <ul class="ups-menu_links"> 
+                     <li><a href="/us/en/services/individual-shipper.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Individual Shipper<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="/us/en/services/small-business.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Small Business<span aria-hidden="true" class="icon"></span></a></li> 
+                    </ul> 
+                   </div> 
+                   <div class="ups-menu_column"> 
+                    <h3 class="ups-menu_subheading">Knowledge Center</h3> 
+                    <ul class="ups-menu_links"> 
+                     <li><a href="/us/en/services/knowledge-center/optimizing-operations.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Optimizing Operations<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="/us/en/services/knowledge-center/articlelist.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Most Recent Articles<span aria-hidden="true" class="icon"></span></a></li> 
+                     <li><a href="/us/en/services/knowledge-center/expanding-globally.page?" class="ups-analytics" data-content-block-id="M1" data-event-id="21">Expanding Globally<span aria-hidden="true" class="icon"></span></a></li> 
+                    </ul> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> 
+               </div> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="ups-container ups-container-customer-service"> 
+           <div class="ups-menu col-md-3 ups-menu-customer-service" role="navigation" id="ups-header_custServ" aria-label="Customer Support">
+            <a id="ups-custServe-toggle" class="ups-analytics ups-cta ups-cta_primary ups-cta-customer-service" data-content-block-id="M1" data-event-id="22" href="/us/en/help-support-center.page?">Customer Support<span class="ups-mobnav-arrow" aria-hidden="true"></span></a>
+           </div> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </header> 
+     </div>
+     <script type="text/javascript">
+			var expand='expand';
+			var collapse='Collapse';
+			var wems_country='US';
+			var wems_locale='en_US';
+			var wems_ext_locale='en_US';
+			var wems_ts='';
+			var $location;
+			var obj_live_chat= {
+				'spa_app_id':'com.ups.stapp',
+				'live_chat':'https://ups6.custhelp.com/app/home/p_data/'
+			};
+			var alertsUrl='/master/track/track-container/1503485494999.ajax?';
+			var rightRailLabel='Related information';
+		</script> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+</div>
+        <div class="container-fluid iw_section" id="sectionisswf4ts"> 
+ <div class="row iw_row iw_stretch" id="rowisswf4tt"> 
+  <div class="iw_columns col-lg-12" id="colisswf4tu"> 
+   <div class="iw_placeholder" id="iw_placeholder1473252365879"> 
+    <div class="iw_component" id="iw_comp1503485495000"> 
+    </div> 
+   </div> 
+   <div class="iw_placeholder" id="iw_placeholder1473252365871"> 
+    <div class="iw_component" id="iw_comp1503485495013"> 
+     <!--ls:begin[component-1503485495013]-->
+     <!--ls:end[component-1503485495013]--> 
+    </div> 
+   </div> 
+   <div class="iw_placeholder" id="iw_placeholder1473252365886"> 
+    <div class="iw_component" id="iw_comp1503485495014"> 
+     <div class="ups-page-title ups-wrap hpps-basic ups-analytics-render" data-content-block-id="M7" data-content-id=""> 
+      <div class="ups-wrap_inner"> 
+       <div class="ups-page-title_table"> 
+        <div class="ups-page-title_cell"> 
+         <h1><span>Tracking</span></h1> 
+         <p></p> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="iw_placeholder" id="iw_placeholder1473252365890"> 
+    <div class="iw_component" id="iw_comp1550746180337"> 
+    </div> 
+   </div>  
+  </div> 
+ </div> 
+</div><!-- begin body wrapper --> <div class="container-fluid iw_section"> <div class="row iw_row iw_stretch"> <div class="iw_columns col-lg-12"> <div class="iw_component"> <div id="ups-fw_legacy_app_wrap"> <div class="ups-fw_legacy_app_inner">
+        <main id="ups-main">
+            <div class="ups-form_wrap ups-formStrict ups-application_wrapper">
+
+                <!--Simplified Tracking Client Application.-->
+                <app-root stApp_locale=en_US
+                          stApp_clientmapKey=ArLnEIjcDlh0S0C8WC-BO95tEcxGiTmXGBi1kjAjBZn8Q7Q0Hv8scCmtVnL_xORR
+                          isUserLoggedIn=False
+                          isLoggedInAvailable=True
+                          loginSignupReturnToLink=https%3A%2F%2Fwww.ups.com%2Ftrack%3Floc%3Den_US%2Fredirect
+                          myChSignupLink=/doapp/SignUpMyChoice?loc=en_US&returnto=http%3A%2F%2Fwww.ups.com%2Ftrack%3Floc%3Den_US%2Fredirect
+                          qvmLink=//www.ups.com/content/us/en/tracking/quantumview/index.html
+                          myChTermLink=//www.ups.com/us/en/help-center/legal-terms-conditions/my-choice.page
+                          flexLink=//www.ups.com/content/us/en/tracking/fgv/index.html
+                          userEmail=>
+                    <div class="text-center" style="min-height:65%;">
+                        <br />
+                        <br />
+                        <img src="/track/assets/resources/images/ajax-loader.gif" alt="Loading..." />
+                        <h2 class="text-center ups-section_heading ups-centered_header">
+                            <span id="toTitle">Loading</span>
+                        </h2>
+                    </div>
+                </app-root>
+
+                <!--Identity Verification User Interface.-->
+                <identity></identity>
+                <input type="hidden" value="TRK" id="mnmAppID" name="mnmAppID">
+                <input type="hidden" value="TRACK" id="qvMnmAppID" name="qvMnmAppID">
+                <input type="hidden" value="ALERT" id="mnmMobileProgramType" name="mnmMobileProgramType">
+                <input type="hidden" value="OPTIN" id="mnmServiceType" name="mnmServiceType">
+                <input type="hidden" value="false" id="mnmRememberMe" name="mnmRememberMe">
+                <input type="hidden" value="false" id="termsValueId" name="termsValueId">
+                <input type="hidden" id="allowedCountries" value="AI,AG,AR,AW,AU,AT,BS,BH,BB,
+             BE,BM,BO,BR,BG,CA,CA,KY,CL,CN,CO,CR,HR,CB,CY,CZ,DK,DM,DO,EC,SV,EE,FI,FR,DE,GH,GR,GD,GP,GT,GY,HT,HN,HK,HU,IN,ID,IE,IL,IT,CI,JM,JP,KE,KW,LV,LB,LT,LU,MO,MY,MT,MX,MS,MA,NL,NZ,NI,NG,NO,PA,PY,PE,PH,PL,PT,PR,QA,RE,RO,RU,SA,SG,SK,SI,ZA,KR,ES,EU,KN,LC,VC,SR,SE,CH,TW,TH,TR,UA,AE,GB,US,UY,VI,VE,VN,VG,ZW">
+
+            </div>
+        </main>
+        <input id="localeValue" name="localeValue" type="hidden" value="en_US" />
+        </div> </div> </div> </div> </div> </div> <!-- end body wrapper -->
+        <div class="container-fluid iw_section" id="sectionj9rfozjs"> 
+ <div class="row iw_row iw_stretch" id="rowj9rfozjt"> 
+  <div class="iw_columns col-lg-12" id="colj9rfozju"> 
+   <div class="iw_placeholder" id="iw_placeholder1510169105655"> 
+    <div class="iw_component" id="iw_comp1516702281633"> 
+     <footer id="ups-footerWrap" class="ups-wrap hpps-basic" role="contentinfo"> 
+      <div id="ups-footer" class="ups-wrap_inner ups-analytics-render" data-content-block-id="M2" data-content-id="templatedata/navigation/footer-config/data/en_US/footer-full-us.dcr"> 
+       <div class="ups-footer_colsCont ups-container"> 
+        <div class="ups-footer_custserv col-md-3"> 
+         <div class="ups-footer_links"> 
+          <h2 class="ups-footer_toggle" id="ups-footer_custServe"><span class="icon" aria-hidden="true"></span><span id="ups-footer_custServe2">Customer Service</span><button class="ups-med_show" aria-controls="ups-footer_custServeLinks ups-footer_custServeConacts" aria-labelledby="ups-footer_custServe2" aria-expanded="false"><span class="ups-icon-plus ups-iconAlone" aria-hidden="true"></span></button></h2> 
+          <ul class="ups-footer_expand" aria-labelledby="ups-footer_custServe" id="ups-footer_custServeLinks"> 
+           <li><a href="/us/en/help-support-center.page?" class=" ups-analytics" data-content-block-id="M2" data-event-id="21">Help and Support Center<span class="" aria-hidden="true"></span></a></li> 
+           <li><a href="/us/en/help-center/get-started-with-ups.page?" class=" ups-analytics" data-content-block-id="M2" data-event-id="21">Get Started with UPS<span class="" aria-hidden="true"></span></a></li> 
+           <li><a href="/us/en/help-center/sri/tracking/change-delivery.page?" class=" ups-analytics" data-content-block-id="M2" data-event-id="21">Change Delivery<span class="" aria-hidden="true"></span></a></li> 
+           <li><a href="/us/en/help-center/claims-support.page?" class=" ups-analytics" data-content-block-id="M2" data-event-id="21">Claims Support<span class="" aria-hidden="true"></span></a></li> 
+          </ul> 
+          <ul class="ups-footer_contact ups-footer_expand" aria-labelledby="ups-footer_custServe" id="ups-footer_custServeConacts"></ul> 
+         </div> 
+        </div> 
+        <div class="ups-footer_col col-md-3 ups-left-md"> 
+         <div class="ups-footer_links"> 
+          <h2 class="ups-footer_toggle" id="ups-footer_thisSite"><span id="ups-footer_thisSite2">This Site</span><button class="ups-med_show" aria-controls="ups-footer_thisSiteLinks" aria-expanded="false" aria-labelledby="ups-footer_thisSite2"><span class="ups-icon-plus ups-iconAlone" aria-hidden="true"></span></button></h2> 
+          <ul class="ups-footer_expand" aria-labelledby="ups-footer_thisSite" id="ups-footer_thisSiteLinks"> 
+           <li><a href="/us/en/services/tracking.page?" class=" ups-analytics" data-content-block-id="M2" data-event-id="21">Tracking</a></li> 
+           <li><a href="/us/en/shipping.page?" class=" ups-analytics" data-content-block-id="M2" data-event-id="21">Shipping</a></li> 
+           <li><a href="/us/en/services.page?" class=" ups-analytics" data-content-block-id="M2" data-event-id="21">Services</a></li> 
+           <li><a href="https://www.ups.com/dropoff?loc=en_US" class=" ups-analytics" data-content-block-id="M2" data-event-id="21">Locations</a></li> 
+           <li><a href="https://wwwapps.ups.com/ppc/ppc.html?loc=en_US#/profilePage" class=" ups-analytics" data-content-block-id="M2" data-event-id="21">My Profile</a></li> 
+          </ul> 
+         </div> 
+        </div> 
+        <div class="ups-footer_col col-md-3 ups-left-md"> 
+         <div class="ups-footer_info ups-footer_links"> 
+          <h2 class="ups-footer_toggle" id="ups-footer_companyInfo"><span id="ups-footer_companyInfo2">Company Info</span><button class="ups-med_show" aria-labelledby="ups-footer_companyInfo2" aria-expanded="false" aria-controls="ups-footer_companyInfoLinks"><span class="ups-icon-plus ups-iconAlone" aria-hidden="true"></span></button></h2> 
+          <ul class="ups-footer_expand" aria-labelledby="ups-footer_companyInfo" id="ups-footer_companyInfoLinks"> 
+           <li><a href="/us/en/about.page?" class=" ups-analytics" data-content-block-id="M2" data-event-id="21">About UPS<span class="" aria-hidden="true"></span></a></li> 
+           <li><a href="https://www.pressroom.ups.com" target="_blank" rel="noopener noreferrer" class=" ups-analytics" data-content-block-id="M2" data-event-id="21">Media Relations<span class="" aria-hidden="true"></span><span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Open the link in a new window</span></a></li> 
+           <li><a href="http://www.investors.ups.com" target="_blank" rel="noopener noreferrer" class=" ups-analytics" data-content-block-id="M2" data-event-id="21">Investor Relations<span class="" aria-hidden="true"></span><span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Open the link in a new window</span></a></li> 
+           <li><a href="https://www.jobs-ups.com/location" target="_blank" rel="noopener noreferrer" class=" ups-analytics" data-content-block-id="M2" data-event-id="21">Careers<span class="" aria-hidden="true"></span><span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Open the link in a new window</span></a></li> 
+           <li><a href="https://sustainability.ups.com" target="_blank" rel="noopener noreferrer" class=" ups-analytics" data-content-block-id="M2" data-event-id="21">Sustainability &amp; Community Involvement<span class="" aria-hidden="true"></span><span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Open the link in a new window</span></a></li> 
+          </ul> 
+         </div> 
+         <div class="ups-footer_sites ups-footer_links"> 
+          <h2 class="ups-footer_toggle" id="ups-footer_otherSites"><span id="ups-footer_otherSites2">Other UPS Sites</span><button class="ups-med_show" aria-labelledby="ups-footer_otherSites2" aria-expanded="false" aria-controls="ups-footer_otherSitesLinks"><span class="ups-icon-plus ups-iconAlone" aria-hidden="true"></span></button></h2> 
+          <ul class="ups-footer_expand" aria-labelledby="ups-footer_otherSites" id="ups-footer_otherSitesLinks"> 
+           <li><a href="https://www.theupsstore.com?loc=en_US" target="_blank" rel="noopener noreferrer" data-content-block-id="M2" data-event-id="24">The UPS Store<span class="" aria-hidden="true"></span><span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Open the link in a new window</span></a></li> 
+           <li><a href="https://upscapital.com" target="_blank" rel="noopener noreferrer" data-content-block-id="M2" data-event-id="24">UPS Capital<span class="" aria-hidden="true"></span><span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Open the link in a new window</span></a></li> 
+           <li><a href="/us/en/about/sites.page?" target="_blank" rel="noopener noreferrer" data-content-block-id="M2" data-event-id="24"><b>See All</b><span class="" aria-hidden="true"></span><span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Open the link in a new window</span></a></li> 
+          </ul> 
+         </div> 
+        </div> 
+        <div class="ups-footer_col col-md-3 ups-left-md"> 
+         <div class="ups-footer_links"> 
+          <h2 class="ups-footer_toggle" id="ups-footer_connect"><span id="ups-footer_connect2">Connect with Us</span><button class="ups-med_show" aria-labelledby="ups-footer_connect2" aria-expanded="false" aria-controls="ups-footer_connectLinks"><span class="ups-icon-plus ups-iconAlone" aria-hidden="true"></span></button></h2> 
+          <ul class="ups-footer_expand" aria-labelledby="ups-footer_connect" id="ups-footer_connectLinks"> 
+           <li><a href="http://www.facebook.com/ups" target="_blank" rel="noopener noreferrer" class="ups-footer_social-facebook" data-content-block-id="M2" data-event-id="24">Facebook<span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Open the link in a new window</span></a></li> 
+           <li><a href="https://twitter.com/UPS" target="_blank" rel="noopener noreferrer" class="ups-footer_social-twitter" data-content-block-id="M2" data-event-id="24">Twitter<span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Open the link in a new window</span></a></li> 
+           <li><a href="https://www.linkedin.com/company/ups" target="_blank" rel="noopener noreferrer" class="ups-footer_social-linkedin" data-content-block-id="M2" data-event-id="24">LinkedIn<span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Open the link in a new window</span></a></li> 
+           <li><a href="https://www.youtube.com/ups" target="_blank" rel="noopener noreferrer" class="ups-footer_social-youtube" data-content-block-id="M2" data-event-id="24">YouTube<span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Open the link in a new window</span></a></li> 
+           <li><a href="https://www.ups.com/us/en/services/knowledge-center/longitudes-landing.page?articlesource=longitudes" data-content-block-id="M2" data-event-id="24">UPS Blog: <i>Longitudes</i></a></li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="ups-footer_legal"> 
+        <div class="ups-footer_links"> 
+         <h2 class="ups-med_show ups-footer_toggle" id="ups-footer_legal"><span id="ups-footer_legal2">Legal</span><button class="ups-med_show" aria-labelledby="ups-footer_legal2" aria-expanded="false" aria-controls="ups-footer_legalLinks"><span class="ups-icon-plus ups-iconAlone" aria-hidden="true"></span></button></h2> 
+         <ul class="ups-footer_expand" aria-labelledby="ups-footer_legal" id="ups-footer_legalLinks"> 
+          <li><a href="/us/en/global.page?" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Global Home<span class="" aria-hidden="true"></span></a></li> 
+          <li><a href="/us/en/help-center/legal-terms-conditions/fight-fraud.page?" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Protect Against Fraud<span class="" aria-hidden="true"></span></a></li> 
+          <li><a href="/us/en/help-center/legal-terms-conditions/service.page?" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Service Terms and Conditions<span class="" aria-hidden="true"></span></a></li> 
+          <li><a href="/us/en/help-center/legal-terms-conditions/website.page?" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Website Terms of Use<span class="" aria-hidden="true"></span></a></li> 
+          <li><a href="/us/en/help-center/legal-terms-conditions/california-privacy.page?" target="_blank" rel="noopener noreferrer" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Your California Privacy Rights<span class="" aria-hidden="true"></span><span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Open the link in a new window</span></a></li> 
+          <li><a href="/us/en/help-center/legal-terms-conditions/privacy-notice.page?" target="_blank" rel="noopener noreferrer" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Privacy Notice<span class="" aria-hidden="true"></span><span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Open the link in a new window</span></a></li> 
+          <li><a href="javascript:utag.gdpr.showConsentPreferences();window(scrollTo(0,0));" role="button" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Cookie Settings<span class="" aria-hidden="true"></span></a></li> 
+          <li><a href="https://www.ups.com/ppwa/doWork?loc=en_US" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Do Not Sell My Info<span class="" aria-hidden="true"></span></a></li> 
+         </ul>
+         <br>
+         <p class="ups-footer_disclaimer">Copyright ©1994- 2020&nbsp;United Parcel Service of America, Inc. All rights reserved. </p> 
+        </div> 
+       </div> 
+      </div>
+      <img alt="" border="0" src="/img/icp.gif">
+     </footer>
+     <script type="text/javascript" src="https://ups.inq.com/chatskins/launch/inqChatLaunch10005649.js" charset="utf-8" defer></script> 
+    </div> 
+   </div> 
+   <div class="iw_placeholder" id="iw_placeholder1510655492385"> 
+    <div class="iw_component" id="iw_comp1523527923322"> 
+     <!--ls:begin[component-1523527923322]--> 
+     <!--ls:end[component-1523527923322]--> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+</div><script src="/assets/resources/scripts/ups.scripts.52d97c.js" type="text/javascript"></script></div>
+        <script type="text/javascript">
+            var dcrDialog;
+            var siiDialog;
+            var cdwDialog;
+            var srCancelDialog;
+            var diDialog;
+        </script>
+        <script type="text/javascript" src="/assets/mcdiJs/mcdi-01.01.15.js"></script>
+        <script type="text/javascript" src="/assets/mnm/mnm.js"></script>
+        <script type="text/javascript" src="/track/assets/mnmAlerts/mnmCompleted.js"></script>
+        <script type="text/javascript" src="/track/client/inline.318b50c57b4eba3d437b.bundle.js"></script>
+        <script type="text/javascript" src="/track/client/polyfills.c3bda3f66fdf1a109141.bundle.js"></script>
+        
+        <link rel="stylesheet" href="/track/client/styles.7d4255341a2c49ba8357.bundle.css" />
+        
+        <script type="text/javascript" src="/track/client/main.b1da635f9f0fab5a469a.bundle.js"></script>
+        <script type="text/javascript" src="/track/assets/sii/sii.js" defer></script>
+        <script type="text/javascript" src="/track/assets/sii/print.js" defer></script>
+
+    <script type="text/javascript" >var _cf = _cf || []; _cf.push(['_setFsp', true]);  _cf.push(['_setBm', true]);  _cf.push(['_setAu', '/assets/750b3c68ui228ea333b9052029f5a5']); </script><script type="text/javascript"  src="/assets/750b3c68ui228ea333b9052029f5a5"></script></body>
+</html>
+

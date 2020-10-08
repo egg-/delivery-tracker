@@ -11,13 +11,13 @@ var courier = tracker.courier(tracker.COURIER.PANTOS.CODE)
 
 describe(tracker.COURIER.PANTOS.NAME, function () {
   var deliveredNum = 'DELIVEREDN'
-  var exceptionUPSNum = 'EXCEPTIONUPS'
+  var deliveredUPSNum = 'DELIVEREDUPS'
 
   before(function () {
     // @TODO add nock
     prepare(courier, deliveredNum)
-    prepare(courier, exceptionUPSNum)
-    prepare(tracker.courier(tracker.COURIER.UPS.CODE), exceptionUPSNum)
+    prepare(courier, deliveredUPSNum)
+    prepare(tracker.courier(tracker.COURIER.UPS.CODE), deliveredUPSNum)
   })
 
   it('delivered number', function (done) {
@@ -33,12 +33,12 @@ describe(tracker.COURIER.PANTOS.NAME, function () {
   })
 
   it('ups number', function (done) {
-    courier.trace(exceptionUPSNum, function (err, result) {
+    courier.trace(deliveredUPSNum, function (err, result) {
       assert.equal(err, null)
 
-      assert.equal(exceptionUPSNum, result.number)
+      assert.equal(deliveredUPSNum, result.number)
       assert.equal(tracker.COURIER.PANTOS.CODE, result.courier.code)
-      assert.equal(tracker.STATUS.EXCEPTION, result.status)
+      assert.equal(tracker.STATUS.DELIVERED, result.status)
 
       done()
     })

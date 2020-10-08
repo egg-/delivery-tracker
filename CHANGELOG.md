@@ -1,3 +1,6 @@
+# 2.4.5
+* fixed an issue in UPS is not working.
+
 # 2.4.4
 * fixed an issue in CJKOREAEXPRESS is not working.
 
