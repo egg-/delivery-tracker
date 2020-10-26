@@ -63,7 +63,7 @@
     "matchdep": "^1.0.1",
     "mocha": "^3.2.0",
     "nock": "^9.0.2",
-    "standard": "8.6.0"
+    "standard": "15.0.0"
   },
   "dependencies": {
     "async": "^2.1.4",
