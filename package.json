@@ -62,7 +62,7 @@
     "grunt-mocha-test": "^0.13.2",
     "matchdep": "^1.0.1",
     "mocha": "^8.2.0",
-    "nock": "^9.0.2",
+    "nock": "^13.0.4",
     "standard": "15.0.0"
   },
   "dependencies": {
