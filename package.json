@@ -61,7 +61,7 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-mocha-test": "^0.13.2",
     "matchdep": "^1.0.1",
-    "mocha": "^3.2.0",
+    "mocha": "^8.2.0",
     "nock": "^9.0.2",
     "standard": "15.0.0"
   },
