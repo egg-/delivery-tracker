@@ -1,3 +1,6 @@
+# 2.5.0
+* add j&t express
+
 # 2.4.5
 * fixed an issue in UPS is not working.
 

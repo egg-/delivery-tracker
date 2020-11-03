@@ -32,6 +32,7 @@ SICEPAT | @egg- | http://sicepat.com/
 XIOExpress | @egg- | https://xioexpress.com/
 eParcel | @egg- | https://eparcel.kr/
 LBC | @egg- | https://www.lbcexpress.com/
+J&T (PH) | @egg- | https://www.jtexpress.ph/
 
 ## Installation
 
@@ -123,6 +124,7 @@ SICEPAT | sicepat | SICEPAT
 XIOEXPRESS | xioexpress | XIOExpress
 EPARCEL | eparcel | eParcel
 LBC | lbc | LBC
+JNT | jnt | J&T
 
 ### STATUS
 
