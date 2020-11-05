@@ -1,3 +1,6 @@
+# 2.5.1
+* change the error type when an unexpected error occurs. (string -> object)
+
 # 2.5.0
 * add j&t express
 
