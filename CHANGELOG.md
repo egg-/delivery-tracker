@@ -1,3 +1,6 @@
+# 2.5.3
+* fixed an issue in EPARCEL is not working.
+
 # 2.5.2
 * updating dependencies
 
