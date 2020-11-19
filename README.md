@@ -136,6 +136,7 @@ INFO_RECEIVED | InfoReceived | The carrier received a request from the shipper a
 PENDING | Pending | New pending shipment to track or a new shipment without tracking information added.
 IN_TRANSIT | InTransit | The carrier has received or received the carrier. Shipment is in progress.
 DELIVERED | Delivered | The shipment was successfully delivered.
+RETURNED | Returned | The shipment was returned.
 EXCEPTION | Exception | Custom hold, undeliverable, shipper has shipped or shipped an exception.
 FAIL_ATTEMPT | FailAttempt | The courier tried to send but failed, but usually reminds and tries again.
 

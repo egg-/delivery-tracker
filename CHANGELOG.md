@@ -1,3 +1,6 @@
+# 2.5.4
+* fixed RTS issue in JNT.
+
 # 2.5.3
 * fixed an issue in EPARCEL is not working.
 
