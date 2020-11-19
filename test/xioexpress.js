@@ -9,7 +9,7 @@ var tracker = require('../')
 
 var courier = tracker.courier(tracker.COURIER.XIOEXPRESS.CODE)
 
-describe(tracker.COURIER.SICEPAT.NAME, function () {
+describe(tracker.COURIER.XIOEXPRESS.NAME, function () {
   var deliveredNumber = 'DELIVERED'
   var exceptionNumber = 'EXCEPTION'
 
