@@ -1,3 +1,6 @@
+# 2.5.6
+* add an exception logic in SICEPAT.
+
 # 2.5.5
 * fixed an issue in SICEPAT is not working.
 
