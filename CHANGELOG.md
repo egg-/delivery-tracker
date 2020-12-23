@@ -1,3 +1,6 @@
+# 2.5.7
+* add an exception logic for internal server error in SICEPAT.
+
 # 2.5.6
 * add an exception logic in SICEPAT.
 
