@@ -1,7 +1,7 @@
 # delivery-tracker
 
 [![version](https://img.shields.io/npm/v/delivery-tracker.svg)](https://www.npmjs.com/package/delivery-tracker) [![download](https://img.shields.io/npm/dm/delivery-tracker.svg)](https://www.npmjs.com/package/delivery-tracker)
-[![status status](https://travis-ci.org/egg-/delivery-tracker.svg?branch=master)](https://travis-ci.org/egg-/delivery-tracker)
+[![status status](https://github.com/egg-/delivery-tracker/workflows/Node.js%20CI/badge.svg)](https://github.com/egg-/delivery-tracker/actions)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 delivery-tracker is delivery tracking library for Node.js
