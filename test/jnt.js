@@ -17,7 +17,7 @@ describe(tracker.COURIER.JNT.NAME, function () {
     prepare(courier, deliveredNumber)
   })
 
-  it('info received number', function (done) {
+  it('delivered number', function (done) {
     courier.trace(deliveredNumber, function (err, result) {
       assert.equal(err, null)
 

@@ -1,3 +1,6 @@
+# 2.5.8
+* add an exception logic for internal server error in JNT.
+
 # 2.5.7
 * add an exception logic for internal server error in SICEPAT.
 
