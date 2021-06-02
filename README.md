@@ -126,6 +126,7 @@ XIOEXPRESS | xioexpress | XIOExpress
 EPARCEL | eparcel | eParcel
 LBC | lbc | LBC
 JNT | jnt | J&T
+DHL | dhl | DHL
 
 ### STATUS
 

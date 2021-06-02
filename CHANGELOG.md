@@ -1,3 +1,6 @@
+# 2.6.1
+* add courier namespace for DHL.
+
 # 2.6.0
 * add DHL.
 
