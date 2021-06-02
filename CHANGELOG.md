@@ -1,3 +1,6 @@
+# 2.6.0
+* add DHL.
+
 # 2.5.8
 * add an exception logic for internal server error in JNT.
 
