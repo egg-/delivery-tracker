@@ -1,6 +1,6 @@
 {
   "name": "delivery-tracker",
-  "version": "2.6.1",
+  "version": "2.7.0",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -52,7 +52,8 @@
     "lbc",
     "j&t",
     "jnt",
-    "dhl"
+    "dhl",
+    "canada post"
   ],
   "license": "MIT",
   "bugs": {

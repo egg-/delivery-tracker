@@ -34,6 +34,7 @@ eParcel | @egg- | https://eparcel.kr/
 LBC | @egg- | https://www.lbcexpress.com/
 J&T (PH) | @egg- | https://www.jtexpress.ph/
 DHL | @carstenschwede | https://www.dhl.com/
+Canada Post | @egg- | https://www.canadapost-postescanada.ca/
 
 ## Installation
 
@@ -127,6 +128,7 @@ EPARCEL | eparcel | eParcel
 LBC | lbc | LBC
 JNT | jnt | J&T
 DHL | dhl | DHL
+CANADAPOST | canadapost | Canada Post
 
 ### STATUS
 
