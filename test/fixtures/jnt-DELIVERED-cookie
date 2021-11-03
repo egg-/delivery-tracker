@@ -1,0 +1,1838 @@
+
+<!--引入文件部分-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Trace &amp; Track-J&T Express Philippines</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+
+    <link href="/static/favicon.ico" rel="bookmark" type="image/x-icon"/>
+    <link href="/static/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/static/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+
+    <script>
+        document.write("<link"+" type='text/css' rel='stylesheet' href='/static/css/jtcss.css?t=v13'/>");
+        document.write("<link"+" type='text/css' rel='stylesheet' href='/static/css/boots.css?t=v12'/>");
+    </script>
+    <!--    <link href="/static/css/jtcss.css?t=" rel="stylesheet" type="text/css"/>-->
+    <!--    <link href="/static/css/boots.css" rel="stylesheet" type="text/css"/>-->
+    <link href="/static/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/swiper/css/animate.min.css" rel="stylesheet" type="text/css"/>
+    
+<link href="/static/selectFilter.css" rel="stylesheet" type="text/css"/>
+
+
+    <script src="/static/jquery-1.12.0.min.js"></script>
+    <script src="/static/jquery.cookie.js"></script>
+    <script src="/static/swiper/js/swiper.animate.min.js"></script>
+    <script src="/static/swiper/js/swiper.min.js"></script>
+    <script src="/static/service.js"></script>
+    <script src="/static/webservice.js?v=6"></script>
+    <script src="/static/aui-toast.js"></script>
+    <script src="/static/layer/layer.js"></script>
+    <script src="/static/json2.js"></script>
+    <script src="/static/des/tripledes.js"></script>
+    <script src="/static/md5_1.js"></script>
+    <script src="/static/des/mode-ecb.js"></script>
+    
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaE5llIONOe5In7S0p_vy0Rk4lFzWMWDU&sensor=false">
+</script>
+<script src="/static/index_h.js"></script>
+<script src="/static/selectFilter.js"></script>
+<!--<script src="https://www.google.com/recaptcha/api.js" async defer></script>-->
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJW4jsPlNKgv6jFm3B5Edp5ywgdqLWdmc&callback=initMap" async defer></script>-->
+
+
+    <!--[if lt IE 9]>
+    <script src="/static/html5shiv.min.js"></script>
+    <script src="/static/respond.min.js"></script>
+    <![endif]-->
+
+    
+<style>
+    html,body,.content_box{
+        /*height: auto;*/
+        background-color: #f5f5f5;
+        overflow-y: inherit;
+        overflow-x: hidden;
+    }
+    button.gm-control-active.gm-fullscreen-control{
+        display: none;
+    }
+    .test{
+
+    }
+</style>
+
+
+</head>
+<body>
+<!--[if lt IE 9]>
+<script type="text/javascript">
+    var str = "本系统的后台仅支持<span style='color:red'>IE9以上</span>的浏览器，您的<span style='color:red'>浏览器版本过低</span>，请进行升级 :(";
+    var str2 = "推荐使用:<a href='https://www.baidu.com/s?ie=UTF-8&wd=%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8' target='_blank' style='color:blue;'>谷歌</a>,"
+            + "<a href='https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd=360%E6%9E%81%E9%80%9F%E6%B5%8F%E8%A7%88%E5%99%A8&oq=%2526lt%253B60%25E6%259E%2581%25E9%2580%259F%25E6%25B5%258F%25E8%25A7%2588%25E5%2599%25A8%25E4%25B8%258B%25E8%25BD%25BD&rsv_pq=a0a9545c0002ec94&rsv_t=21c1bxsM01qDVYYQbbuL9nS8IjYIDZxvvEVWKjP5Q6RkbW7u5qjH64BPgTE&rqlang=cn&rsv_enter=1&inputT=250&rsv_sug3=6&rsv_sug1=6&rsv_sug7=100&rsv_sug2=0&rsv_sug4=704&rsv_sug=1' target='_blank' style='color:blue;'>360极速浏览器</a>,"
+            + "其他双核极速模式";
+    document.writeln("<pre style='text-align:center;color:#fff;background-color:#0cc; height:100%;border:0;position:fixed;top:0;left:0;width:100%;z-index:1234'>" +
+            "<h2 style='padding-top:200px;margin:0'><strong>" + str + "<br/></strong></h2><h2>" +
+            str2 + "</h2><h2 style='margin:0'><strong>如果你的使用的是双核浏览器,请切换到极速模式访问<br/></strong></h2></pre>");
+    document.execCommand("Stop");
+</script>
+<![endif]-->
+
+
+<div class="index_top">
+    <a class="logo_line" href="/">
+        <img src="/static/images/logo.png">
+    </a>
+    <ul class="nav_list">
+        <li class="nav_item nav_hover ">
+            <div class="pernav"><img src="/static/images/header_icon2.png" /><span class="flex_1" style="white-space:nowrap;">Search</span><span class="nav_jiao"></span></div>
+            <ul class="nav_item_sonlist">
+                <li class="nav_item_sonitem">
+                    <a href="/index/query/gzquery.html">Trace & Track</a>
+                </li>
+                <li class="nav_item_sonitem">
+                    <a href="/index/query/query.html">Shipping Rates</a>
+                </li>
+                <li class="nav_item_sonitem">
+                    <a href="/index/query/xzwd.html">Find Branches</a>
+                </li>
+            </ul>
+        </li>
+        <li class="nav_item nav_hover ">
+            <div class="pernav"><img src="/static/images/header_icon3.png" /><span class="flex_1" style="white-space:nowrap;">Services</span><span class="nav_jiao"></span></div>
+            <ul class="nav_item_sonlist">
+                <li class="nav_item_sonitem">
+                    <a href="/index/index/fuwu.html">Product Service</a>
+                </li>
+            </ul>
+        </li>
+        <li class="nav_item nav_hover ">
+            <div class="pernav"><img src="/static/images/header_icon4.png" /><span class="flex_1" style="white-space:nowrap;">Information</span><span class="nav_jiao"></span></div>
+            <ul class="nav_item_sonlist">
+                <li class="nav_item_sonitem">
+                    <a href="/index/message/message.html?type=FAQ">FAQ</a>
+                </li>
+                <li class="nav_item_sonitem">
+                    <a href="/index/message/message.html?type=Information">Packages Information</a>
+                </li>
+                <li class="nav_item_sonitem">
+                    <a href="/index/message/message.html?type=Terms">Terms</a>
+                </li>
+            </ul>
+        </li>
+        <li class="nav_item nav_hover ">
+            <div class="pernav"><img src="/static/images/header_icon5.png" /><span class="flex_1" style="white-space:nowrap;">About Us</span><span class="nav_jiao"></span></div>
+            <ul class="nav_item_sonlist">
+                <li class="nav_item_sonitem">
+                    <a href="/index/about/introduction.html" style="white-space:nowrap;">Company Profile</a>
+                </li>
+                <!--                <li class="nav_item_sonitem">-->
+                <!--                    <a>Contact Us</a>-->
+                <!--                </li>-->
+                <li class="nav_item_sonitem">
+                    <a href="/index/about/recruit.html">Career</a>
+                </li>
+            </ul>
+        </li>
+        <li class="nav_item nav_hover nav_fuwu " style="cursor: pointer;padding-right: 13px">
+            <div><a href="/servicepartner"><img style="height:22px" src="/static/images/header_icon6.png" /><span class="flex_1">Service Partner</span></a></div>
+        </li>
+        <li class="nav_item nav_hover ">
+            <div class="pernav"><img src="/static/images/header_icon7.png" /><span class="flex_1" style="white-space:nowrap;">Book an Order</span><span class="nav_jiao"></span></div>
+            <ul class="nav_item_sonlist">
+                <li class="nav_item_sonitem">
+                    <a href="javascript:void (0);" onclick="jumpOrder('/index/index/ordernew.html')">I want to place an order</a>
+                </li>
+                <li class="nav_item_sonitem">
+                    <a href="javascript:void (0);"  onclick="jumpOrder('/index/order/myorder.html')">My Order</a>
+                </li>
+            </ul>
+        </li>
+        <li class="nav_item nav_hover personal_item">
+            <div class="pernav nologin"><img src="/static/images/person.png" />
+                                    Login/Register            </div>
+                    </li>
+    </ul>
+    <div class="index_top_r">
+        <div class="person_box">
+            <img class="person_img" src="/static/images/person.png"/>
+            <div class="person_dlzc">
+                                    <span class="denglu">Login/Register</span>
+                            </div>
+
+                    </div>
+        <div class="lang_sel" id="thislang">
+            <img class="lang_sel_img" src="/static/images/lang.png"/>
+            <span class="lang_sel_name">English</span>
+            <div class="index_lang_list">
+                                        <div class="index_lang_item">
+                            <a href="/index/index/lang/lang/zh-cn.html">简体中文</a></div>
+                                                                    <!--                <div class="index_lang_item">-->
+                <!--                    <a href="--><?//=url('guoji/index')?><!--">选择其他国家</a></div>-->
+            </div>
+        </div>
+    </div>
+    <div class="tel_manu">
+        <img width="28" src="/static/images/menu.png" />
+        <!--        <span></span>-->
+        <!--        <span></span>-->
+        <!--        <span></span>-->
+    </div>
+</div>
+    <div class="index_login" onkeydown="keyLogin();">
+        <div class="login_head_text pos_r">Login            <!--            <img class="close" src="/static/images/cha.png" onclick="cancellogin()" style="top: -10px;right: 10px" />-->
+        </div>
+        <div style="padding: 20px 10px;">
+            <div class="login_title clear_b">
+                <div class="on">Phone</div>
+                <div>Name/Email</div>
+            </div>
+            <form id="form_login">
+                <div class="form_item" id="phone_box">
+                    <!--                    <p class="form_item_lable">Phone（+63xxxxxxxxxx）</p>-->
+                    <input type="text" id="flog_phone" placeholder="Phone（09xxxxxxxxx）" name="flog_phone"/>
+                </div>
+                <div class="form_item" id="namemail_box" style="display: none">
+                    <!--                    <p class="form_item_lable">Name/Email</p>-->
+                    <input type="text" id="flog_name" placeholder="Name/Email" name="flog_name"/>
+                </div>
+                <div class="form_item">
+                    <!--                    <p class="form_item_lable">Password</p>-->
+                    <input type="password" id="fpwd" placeholder="Password" name="fpwd" class="isisee"/>
+                    <img src="/static/images/close_isee.png" class="isee open" />
+                </div>
+                <div class="login_jzmm">
+                    <span id="forgot_no" style="cursor: pointer;color: #00a0e9;float: left">Forgot Password ?</span>
+                    <label for="remember" style="margin-left: 10px">
+                        <input type="checkbox" id="remember" style="vertical-align: middle;" />
+                        Forgot Password ?                    </label>
+                </div>
+                <div class="lg_box" style="margin-top: 30px">
+                    <button id="Login" type="button" class="index_login_btn lg_btn" style="margin-right: 30px">Login</button>
+                    <button id="DropOut" onclick="cancellogin();" type="button" class="index_login_btn lg_btn" style="background: #ddd;margin-right: 0">Drop Out</button>
+                </div>
+                <div style="margin-top: 30px" class="text_center">
+                    <span class="login_typebtn" id="customBtn"><img src="/static/images/G+.png" /><b class="v-m">Google</b></span>
+                    <span class="login_typebtn" style="margin-left: 30px" onclick="login()"><img src="/static/images/f.png" /><b class="v-m">Facebook</b></span>
+                </div>
+                <div class="not_zh">Don't have an account ?<a style="vertical-align: baseline;color: #dc3232;"
+                                                      href=" javascript:void(0);" class="letter_text" id="register_no">Register Now</a></div>
+            </form>
+            <!--            <div style="margin-top: 10px" class="text_center">-->
+            <!--                <span class="login_typebtn" id="customBtn"><img src="/static/images/G+.png" />Google</span>-->
+            <!--                <span class="login_typebtn" style="margin-left: 20px;" onclick="login()"><img src="/static/images/f.png" />Facebook</span>-->
+            <!--            </div>-->
+        </div>
+    </div>
+<div class="index_top_zwf"></div>
+
+    <div class="fixed_register">
+        <div class="register_box clear_b" style="margin: 0 auto;">
+            <img class="close_reg" src="/static/images/cha.png" style="top: 5px;right: 10px" />
+            <img class="login_left" src="/static/images/left.png" onclick="cancellogin()" />
+            <form class="register_cont" id="register">
+                <div class="reg_title" style="margin-top: 10px">Register</div>
+                <div class="myreg_content">
+                    <div class="reg_inp">
+                        <p class="form_item_lable">Name</p>
+                        <input type="text" name="userName" id="userName">
+                    </div>
+                    <div class="reg_inp">
+                        <p class="form_item_lable">Phone（09xxxxxxxxx）</p>
+                        <input type="text" name="phonenumber" id="phonenumber">
+                    </div>
+                    <div class="reg_inp">
+                        <p class="form_item_lable">Email</p>
+                        <input type="text" name="mailbox" id="mailbox">
+                    </div>
+                    <div class="reg_inp">
+                        <p class="form_item_lable">Password</p>
+                        <input type="password" name="password" id="password" class="isisee">
+                        <img src="/static/images/close_isee.png" class="isee open" />
+                    </div>
+                    <div class="reg_inp">
+                        <p class="form_item_lable">Confirm Password</p>
+                        <input type="password" name="frenewpwd" id="frenewpwd" class="isisee">
+                        <img src="/static/images/close_isee.png" class="isee open" />
+                    </div>
+                    <div class="reg_xy">
+                        <input type="checkbox" id="checkxy" style="vertical-align: middle;" />
+                        <p>
+                            I have read,understand and agreed to the <a href="/index/message/message/type/Conditions.html" style="cursor: pointer;color: #f00;" target="_blank" id="xyshow">I agree to the J&T User Agreement</a>
+                            Also understand how J&T intends to use my Information <a href="/privacy.html" target="_blank" style="cursor: pointer;color: #f00;">【Privacy Policy】</a>
+                        </p>
+                    </div>
+                    <div class="text_center">
+                        <button type="button" id="submit1" class="reg_btn">Confirm Registration</button>
+                    </div>
+                </div>
+                <div class="my_reg_yzm"></div>
+            </form>
+        </div>
+    </div>
+    <div class="fixed_forgot">
+        <div class="register_box clear_b" style="margin: 0 auto;">
+            <div class="login_head_text pos_r" style="padding-top: 15px;">Retrieve password</div>
+            <!--        <img class="upclose" src="/static/images/cha.png" style="top: 5px;right: 10px" />-->
+            <img class="login_left" src="/static/images/left.png" />
+            <div style="padding: 0 22px;">
+                <div class="reg_title forgot_title">
+                    <div class="on">PHONE</div>
+                    <div>Mail</div>
+                </div>
+                <form class="register_cont" onkeydown="keydel()" id="jycode" style="padding: 0;">
+                </form>
+                <form class="register_cont" id="gmail" style="padding: 0;display: none;">
+                    <div class="reg_inp">
+                        <p class="form_item_lable">Email</p>
+                        <input type="text" name="for_mailbox" id="for_mailbox">
+                    </div>
+                    <p class='wjmm_tip'><span class="col_them">*</span> Reset link has been sent to your email</p>
+                    <button type="button" id="UPMail" class="reg_btn">OK</button>
+                    <button type="button" class="reg_btn btn_upclose"  style="background: #ddd;float: right">Drop Out</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="protocol_box">
+        <div class="protocol_title">User Agreement</div>
+        <div class="protocol_desc">
+            User Agreement        </div>
+        <button class="protocol_btn" type="button">Got it</button>
+    </div>
+<div class="login_bg"></div>
+<script>
+    $.getScript("https://apis.google.com/js/api:client.js",function (res) {
+        startApp();
+    });
+    var googleUser = {};
+    var startApp = function () {
+        gapi.load('auth2', function () {
+            auth2 = gapi.auth2.init({
+                //726009858027-1fuqkvl234ehdode55mhr90msp9ovuvt.apps.googleusercontent.com
+                client_id: '1697724314-34c20htv4udm9q14sl6pa6umpah4kpv9.apps.googleusercontent.com', //客户端ID
+                cookiepolicy: 'single_host_origin',
+                scope: 'profile' //可以请求除了默认的'profile' and 'email'之外的数据
+            });
+            if(document.getElementById('customBtn')){
+                attachSignin(document.getElementById('customBtn'));
+            }
+        });
+    };
+    function attachSignin(element) {
+        auth2.attachClickHandler(element, {},
+            function (googleUser) {
+                toast.loading({
+                    title:"Login",
+                    duration:2000
+                });
+                var profile = auth2.currentUser.get().getBasicProfile();
+                var id_token = googleUser.getAuthResponse().id_token;
+                console.log(googleUser.getAuthResponse())
+                var userId = profile.getId();
+                var FullName = profile.getName();
+                var GivenName = profile.getGivenName();
+                var FamilyName = profile.getFamilyName();
+                var Email = profile.getEmail();
+                var ImageURL = profile.getImageUrl();
+                var data = {
+                    userId: userId,
+                    Headpic: ImageURL,
+                    FullName: FullName,
+                    GivenName: GivenName,
+                    FamilyName: FamilyName,
+                    Email: Email,
+                    loginTye: 'google+'
+                };
+                if (userId > 0) {
+                    console.log(profile,data)
+                    clientR.invoke({
+                        method: 'third.googleWebLogin',
+                        data: {
+                            id_token: id_token,
+                            code: userId,
+                            userName: FullName
+                        }
+                    }).then(function (ret0,err) {
+                        toast.hide();
+                        if(ret0.code==200){
+                            login_ok(ret0)
+                        }else{
+                            layer.msg(ret0.code+" Login failed", {icon: 5,time:layuimsgtime});
+                        }
+                    })
+                }else{
+                    toast.hide();
+                    layer.msg("Login failed", {icon: 5,time:layuimsgtime});
+                }
+            },
+            function (error) {
+                console.log(JSON.stringify(error, undefined, 2));
+            });
+    }
+
+    //注销
+    function signOut() {
+        var auth2 = gapi.auth2.getAuthInstance();
+        auth2.signOut().then(function () {
+            alert('用户注销成功');
+        });
+    }
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=518271038924738&autoLogAppEvents=1"></script>
+<script>
+    // window.fbAsyncInit = function() {
+    //     FB.init({
+    //         appId      : '815391242395596',
+    //         cookie     : false,
+    //         xfbml      : false,
+    //         version    : 'v10.0'
+    //     });
+    //
+    //     FB.AppEvents.logPageView();
+    //
+    // };
+    //
+    // (function(d, s, id){
+    //     var js, fjs = d.getElementsByTagName(s)[0];
+    //     if (d.getElementById(id)) {return;}
+    //     js = d.createElement(s); js.id = id;
+    //     js.src = "https://connect.facebook.net/en_US/sdk.js";
+    //     fjs.parentNode.insertBefore(js, fjs);
+    // }(document, 'script', 'facebook-jssdk'));
+
+    function login() {
+        FB.login(function(response){
+            console.log(response);
+            if(response.status=="connected"){
+                clientR.invoke({
+                    method: 'third.facebookLogin',
+                    data: {
+                        userToken: response.authResponse.accessToken,
+                        userId: response.authResponse.userID
+                    }
+                }).then(function (ret0,err) {
+                    if(ret0.code==200){
+                        login_ok(ret0)
+                    }else{
+                        layer.msg(ret0.code+" Login failed", {icon: 5,time:layuimsgtime});
+                    }
+                })
+            }else{
+                layer.msg(response.status+" Login failed", {icon: 5,time:layuimsgtime});
+            }
+        });
+    }
+</script>
+<script>
+    var clientPC = RpcService('https://www.jtexpress.ph/admin/rpcser/index');
+    var clientR = RouterService("/index/router/index.html");
+    var layuimsgtime = 1500;
+
+    var inpyzm = "<div class=\"reg_inp flex\">"+
+        //        "<p class=\"form_item_lable\">Verification code</p>"+
+        "<div class='yzm_item'><span></span><input type=\"text\" data-num='1' name=\"for_yzmbox_1\" id=\"for_yzmbox_1\"></div>"+
+        "<div class='yzm_item'><span></span><input type=\"text\" disabled data-num='2' name=\"for_yzmbox_2\" id=\"for_yzmbox_2\"></div>"+
+        "<div class='yzm_item'><span></span><input type=\"text\" disabled data-num='3' name=\"for_yzmbox_3\" id=\"for_yzmbox_3\"></div>"+
+        "<div class='yzm_item'><span></span><input type=\"text\" disabled data-num='4' name=\"for_yzmbox_4\" id=\"for_yzmbox_4\"></div>"+
+        "<div class='yzm_item'><span></span><input type=\"text\" disabled data-num='5' name=\"for_yzmbox_5\" id=\"for_yzmbox_5\"></div>"+
+        "<div class='yzm_item'><span></span><input type=\"text\" disabled data-num='6' name=\"for_yzmbox_6\" id=\"for_yzmbox_6\"></div>"+
+        "</div>";
+    var htmluppwd = "<div class=\"reg_inp\">" +
+        // "<p class=\"form_item_lable\">New Password</p>"+
+        "<input type=\"password\" name=\"for_password\" id=\"for_password\" placeholder=\"New Password\" class=\"isisee\">"+
+        "<img src=\"/static/images/close_isee.png\" class=\"isee open\" />"+
+        "</div>"+
+        "<div class=\"reg_inp\">"+
+        // "<p class=\"form_item_lable\">Reinput New Password</p>"+
+        "<input type=\"password\" name=\"for_renewpwd\" id=\"for_renewpwd\" placeholder=\"Reinput New Password\" class=\"isisee\">"+
+        "<img src=\"/static/images/close_isee.png\" class=\"isee open\" />"+
+        "</div>"+
+        "<button type=\"button\" id=\"UPpwd\" class=\"reg_btn\">"+"OK"+"</button>"+
+        "<button type=\"button\" class=\"reg_btn btn_upclose\"  style=\"background: #ddd;float: right\">Drop Out</button>";
+    var htmlyzm = "<div class=\"reg_inp\" id='sjyz'>" +
+        // "<p class=\"form_item_lable\">Phone（09xxxxxxxxxx）</p>"+
+        "<input type=\"text\" name=\"for_phonenumber\" placeholder=\"Phone（09xxxxxxxxxx）\" id=\"for_phonenumber\">"+
+        "<span class=\"get_yzm\">"+"get code"+"</span></div>"+
+        inpyzm+htmluppwd+
+        "<p class='wjmm_tip'><span class=\"col_them\">*</span> The password must be a combination of letters or numbers and cannot be less than 6-20 digits</p>";
+    //        "<button type=\"button\" id=\"JYcode\" class=\"reg_btn\">"+"OK"+"</button>";
+
+    var toast = new auiToast();
+    $(document).on('focus','.form_item input,.reg_inp input',function(){
+        $(this).parent().addClass('on');
+    });
+    $(document).on('blur','.form_item input,.reg_inp input',function(){
+        if($(this).val()==''){
+            $(this).parent().removeClass('on')
+        }
+    });
+    $(document).on('input','.reg_inp input',function(){
+        $(this).parent('.reg_inp').removeClass('error_b').find('.error_desc').remove();
+        var vals = $(this).val();
+        var deschtml = '',isEmail='';
+        switch ($(this).attr('id')){
+            case ('userName'):
+                if(!vals){
+                    deschtml = "<span class='error_desc'>"+"Username can not be empty"+"</span>";
+                    $('#userName').parent().append(deschtml).addClass('error_b');
+                }else{
+                    if(vals.length>30||vals.length<3){
+                        deschtml = "<span class='error_desc'>"+"Must enter 3-30 characters"+"</span>";
+                        $('#userName').parent().append(deschtml).addClass('error_b');
+                    }
+                }
+                break;
+            case ('phonenumber'):
+                if(!vals){
+                    deschtml = "<span class='error_desc'>"+"Phone number can't be empty"+"</span>";
+                    $('#phonenumber').parent().append(deschtml).addClass('error_b');
+                }else{
+                    isEmail = /^[\+\d]{10,15}/;
+                    if(!(isEmail.test(vals))){
+                        deschtml = "<span class='error_desc'>"+"Must enter 10-15 digits"+"</span>";
+                        $('#phonenumber').parent().append(deschtml).addClass('error_b');
+                    }
+                }
+                break;
+            case ('mailbox'):
+                if(!vals){
+                    deschtml = "<span class='error_desc'>"+"Mailbox can not be empty"+"</span>";
+                    $('#mailbox').parent().append(deschtml).addClass('error_b');
+                }else{
+                    isEmail = /^([a-zA-Z0-9\._-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
+                    if(!(isEmail.test(vals))){
+                        deschtml = "<span class='error_desc'>"+"E-mail format is incorrect"+"</span>";
+                        $('#mailbox').parent().append(deschtml).addClass('error_b');
+                    }
+                }
+                break;
+            case ('password'):
+                if(!vals){
+                    deschtml = "<span class='error_desc'>"+"Password Require"+"</span>";
+                    $('#password').parent().append(deschtml).addClass('error_b');
+                }else{
+                    if(vals.length>20||vals.length<6){
+                        deschtml = "<span class='error_desc'>"+"6-20 characters must be entered"+"</span>";
+                        $('#password').parent().append(deschtml).addClass('error_b');
+                    }
+                }
+                break;
+            case ('frenewpwd'):
+                if($('#password').val()!=vals){
+                    deschtml = "<span class='error_desc'>"+"The passwords must be the same twice"+"</span>";
+                    $('#frenewpwd').parent().append(deschtml).addClass('error_b');
+                }
+                break;
+            case ('for_mailbox'):
+                if(!vals){
+                    deschtml = "<span class='error_desc'>"+"Mailbox can not be empty"+"</span>";
+                    $('#for_mailbox').parent().append(deschtml).addClass('error_b');
+                }else{
+                    isEmail = /^([a-zA-Z0-9\._-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
+                    if(!(isEmail.test(vals))){
+                        deschtml = "<span class='error_desc'>"+"E-mail format is incorrect"+"</span>";
+                        $('#for_mailbox').parent().append(deschtml).addClass('error_b');
+                    }
+                }
+                break;
+        }
+    })
+    $(document).on('focus','.yzm_item input',function(){
+        $(this).parent().addClass('on');
+    })
+    $(document).on('blur','.yzm_item.on input',function(){
+        $(this).parent().removeClass('on');
+    })
+    $(document).on('input','.yzm_item input',function(){
+        var val = $(this).val();
+        var inptext = val.substr(val.length-1,1);
+        var num = $(this).attr('data-num');
+        if(inptext){
+            $(this).val(inptext);
+            $(this).prev().text(inptext);
+            if(num==6){
+                var user_yzmbox = $(this).parents(".reg_inp").attr("data-name");
+                if(user_yzmbox=="user_yzmbox"){
+                    JYcode_info();
+                }else{
+                    JYcode();
+                }
+            }else{
+                $('.yzm_item').removeClass('on').find('input').attr('disabled','disabled');
+                $(this).parent().next().addClass('on').find('input').removeAttr('disabled').focus();
+            }
+        }else{
+            if(num==6) true;
+            $(this).val(inptext);
+            $(this).prev().text(inptext);
+        }
+    })
+    $(document).on('click','.btn_upclose',function(){
+        $('.fixed_forgot').removeClass('reg_show');
+        $(".login_bg").hide();
+    })
+    function keydel(){
+        if (event.keyCode==8){
+            if($('.yzm_item').hasClass('on')){
+                var inptext = $('.yzm_item.on input').val();
+                var num = $('.yzm_item.on input').attr('data-num');
+                if(!inptext&&num>1){
+                    $('.yzm_item.on').prev().addClass('on').find('input').val('').removeAttr('disabled').focus();
+                    $('.yzm_item.on').find('span').text('');
+                    $('.yzm_item').not('.on').removeClass('on').find('input').attr('disabled','disabled');
+                }
+            }
+        }
+    }
+    function jumpOrder(url){
+        var islogin = '';
+        if(!islogin){
+            $('.nav_list').removeClass('on');
+            if($('.index_login').hasClass('login_show')){
+                $('.register_box .close').trigger("click");
+            }else{
+                $('.index_login').addClass('login_show');
+                $('.login_bg').show();
+                $('.fixed_register').removeClass('reg_show');
+                $('.protocol_box').removeClass('on');
+                $('.fixed_forgot').removeClass('reg_show');
+            }
+            layer.msg("please log in first",{time:layuimsgtime});
+            return;
+        }
+        window.location.href = url;
+    }
+    var loginType = '1';//1，手机号登录，2：用户名邮箱登录
+    $('#Login').click(function(){
+        $('.form_item').removeClass('error_b').find('.error_desc').remove();
+        var formData = {},fnama,loginmode;
+        var deschtml = '';
+        var f = $('form#form_login').serializeArray();
+        $.each(f, function() {
+            formData[this.name] = this.value;
+        });
+        loginTo(loginType,formData);
+    })
+
+    //sessionid获取成功，查询用户信息
+    function login_ok(ret0,formData){
+        if(ret0.code==200){
+            ret0.data = JSON.parse(ret0.data);
+            clientR.invoke({
+                method: 'cus.getUserProfile',
+                data: "",
+                sessionid: ret0.data.sessionid
+            }).then(function (ret,err) {
+                switch (ret.code){
+                    case 200:
+                        if(formData){
+                            if($('#remember').is(':checked')){
+                                var rememberData={
+                                    name: formData.flog_name,
+                                    phone: formData.flog_phone,
+                                    password: formData.fpwd
+                                }
+                                localStorage.setItem("rememberData",JSON.stringify(rememberData));
+                            }else{
+                                localStorage.removeItem("rememberData");
+                            }
+                        }
+                        ret.data = JSON.parse(ret.data);
+                        if(!ret.data.username){
+                            ret.data.username = ret.data.name;
+                        }
+                        ret.data.usernickname = ret.data.name;
+                        ret.data.phonenumber = ret.data.phoneNumber?ret.data.phoneNumber:"";
+                        ret.data.cuscity = ret.data.city?ret.data.city:"";
+                        ret.data.mailbox = ret.data.email?ret.data.email:'';
+                        ret.data.userName = ret.data.username;
+                        ret.data.cusaddress = ret.data.address?ret.data.address:"";
+                        ret.data.userCode = ret.data.id;
+                        ret.data.cuspostcode = ret.data.postcode?ret.data.postcode:'';
+                        ret.data.sessionid = ret0.data.sessionid;
+                        clientPC.invoke('user_sessionInfo', [ret.data]).then(function (ret) {
+                            window.location.href = "/index/order/myorder.html";
+                        });
+                        break;
+                    case 4170:
+                        layer.msg("授权令牌无效", {icon: 5,time:layuimsgtime});
+                        break;
+                    default :
+                        layer.msg("System Error", {icon: 5,time:layuimsgtime});
+                        break;
+                }
+            })
+        }else if(ret0.code==414){
+            layer.msg("Incorrect username or password", {icon: 5,time:layuimsgtime});
+        }else{
+            layer.msg("System Error", {icon: 5,time:layuimsgtime});
+        }
+    }
+    function keyLogin(){
+        if (event.keyCode==13)  //回车键的键值为13
+            $("#Login").click(); //调用登录按钮的登录事件
+    }
+    //执行登录接口获取sessionid
+    function loginTo(ltype,formData){
+        var fnama,loginmode;
+        toast.loading({
+            title:"Login",
+            duration:2000
+        });
+        if(ltype=='1'){
+            fnama = formData.flog_phone.replace(/^(63\-|63|\+63|0)/,"");
+            loginmode = '1';
+        }else{
+            var isEmail = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
+            if(!(isEmail.test(formData.mailbox))){
+                loginmode = '2'
+            }else{
+                loginmode = '3'
+            }
+            fnama = formData.flog_name;
+        }
+        if(!fnama||!formData.fpwd){
+            layer.msg("Please enter account and password",{time:layuimsgtime});
+            toast.hide()
+            return;
+        }
+        clientR.invoke({
+            method: 'cus.login',
+            data: {
+                account: fnama,
+                areaCode: '63',
+                password: formData.fpwd,
+                loginType: loginmode
+            }
+        }).then(function (ret0,err) {
+            login_ok(ret0,formData)
+        })
+    }
+    $('.logout').click(function(){
+        clientPC.invoke('user_sessionOut', []).then(function (ret) {
+            location.reload();
+        });
+    })
+    $('.login_title>div').click(function(){
+        var index = $(this).index();
+        $('.login_title>div').removeClass('on').eq(index).addClass('on');
+        if(index==0){
+            loginType = 1;
+            $('#namemail_box').hide();
+            $('#phone_box').show();
+        }else{
+            loginType = 2;
+            $('#namemail_box').show();
+            $('#phone_box').hide();
+        }
+    })
+
+    var regData = {},djs ='',djs_reg ='',times = 120,times_reg = 120,getok=false,getok_reg=false,for_phonenumber='',for_yzmbox='',for_phoneqh='';
+    $('#submit1').click(function(){
+        var btnnum = $(this).attr('id');
+        if(!$('#checkxy').is(':checked')){
+            layer.alert("Please read the User Agreement carefully and agree to it", {icon: 2,closeBtn:0,title:"",btn:["Got it"]});
+            return;
+        }
+        $('.reg_inp').removeClass('error_b').find('.error_desc').remove();
+        var deschtml = '';
+        var formData = {};
+        var f = $('.fixed_register form.register_cont').serializeArray();
+        $.each(f, function() {
+            formData[this.name] = this.value;
+        });
+        if(!formData.userName){
+            deschtml = "<span class='error_desc'>"+"Username can not be empty"+"</span>";
+            $('#userName').parent().append(deschtml).addClass('error_b');
+            return;
+        }
+        if(!formData.phonenumber){
+            deschtml = "<span class='error_desc'>"+"Phone number can't be empty"+"</span>";
+            $('#phonenumber').parent().append(deschtml).addClass('error_b');
+            return;
+        }else{
+            var pnum = /^(09)[\d]{9}$/;
+            if(!(pnum.test(formData.phonenumber))){
+                layer.msg("The number format is not correct", {icon: 5,time:layuimsgtime});
+                return;
+            }
+        }
+        if(!formData.mailbox){
+            deschtml = "<span class='error_desc'>"+"Mailbox can not be empty"+"</span>";
+            $('#mailbox').parent().append(deschtml).addClass('error_b');
+            return;
+        }else{
+            var isEmail = /^([a-zA-Z0-9\._-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
+            if(!(isEmail.test(formData.mailbox))){
+                deschtml = "<span class='error_desc'>"+"E-mail format is incorrect"+"</span>";
+                $('#mailbox').parent().append(deschtml).addClass('error_b');
+                return;
+            }
+        }
+        var ispwd = /^[a-zA-Z0-9]{6,20}$/;
+        if(!(ispwd.test(formData.password))){
+            deschtml = "<span class='error_desc'>"+"The password must be a combination of letters or numbers and cannot be less than 6-20 digits"+"</span>";
+            $('#password').parent().append(deschtml).addClass('error_b');
+            return;
+        }
+        if(!formData.password){
+            deschtml = "<span class='error_desc'>"+"Password Require"+"</span>";
+            $('#password').parent().append(deschtml).addClass('error_b');
+            return;
+        }
+        if(formData.password!=formData.frenewpwd){
+            deschtml = "<span class='error_desc'>"+"The passwords must be the same twice"+"</span>";
+            $('#frenewpwd').parent().append(deschtml).addClass('error_b');
+            return;
+        }
+        var phonenum = formData.phonenumber.replace(/^(0|63|\+63)/,"");
+        regData = {
+            username: formData.userName,
+            areaCode: "63",
+            securityCode: "",
+            phoneNumber: phonenum,
+            email: formData.mailbox,
+            password: formData.password,
+            name: formData.userName,
+            city: "",
+            address: "",
+            postcode: ""
+        }
+        toast.loading({
+            title:"get code",
+            duration:2000
+        });
+        var method,dataparameter;
+        method = 'securityCode.register';
+        dataparameter = {
+            phoneNumber: phonenum,
+            areaCode: "63",
+            lang: "en"
+        }
+        clientR.invoke({
+            method: method,
+            data: dataparameter
+        }).then(function (ret,err) {
+            switch (ret.code){
+                case 200:
+                    ret.data = JSON.parse(ret.data);
+                    getok_reg = true;
+                    times_reg = ret.data.timeDiff*1;
+                    clearInterval(djs_reg);
+                    djs_reg = setInterval(function(){
+                        times_reg--;
+                        if(times_reg>=0){
+                            $('.get_yzm_reg').text(times_reg+'s')
+                        }else{
+                            getok_reg = false;
+                            clearInterval(djs_reg);
+                            $('.get_yzm_reg').text("get code")
+                        }
+                    },1000);
+                    $('.my_reg_yzm').show().html(inpyzm+"<div style='text-align: center;font-size: 14px; margin-top: 20px;'>请输入验证码后自动注册</div><div class='get_yzm_reg text_center aui-font-size-16 col_them'></div>");
+                    $('.myreg_content').hide();
+                    break;
+                case 410:
+                    layer.msg("Cell phone number already exists", {icon: 5,time:layuimsgtime});
+                    break;
+            }
+        },function(err){
+            layer.msg("获取失败", {icon: 5,time:layuimsgtime});
+        });
+    })
+    $('#xyshow').click(function(){
+//        window.open("<?//=url('../index/mailpwd/agreement', '',false,true)?>//","_blank");
+//        $('.protocol_box').addClass('on');
+    })
+    $('.protocol_btn').click(function(){
+        $('.protocol_box').removeClass('on');
+    })
+
+    $('.reg_title>div').click(function(){
+        var index = $(this).index();
+        $('.reg_title>div').removeClass('on').eq(index).addClass('on');
+        $('.fixed_forgot .register_cont').hide().eq(index).show();
+    })
+    function JYcode()
+    {
+        if($('.fixed_register').hasClass('reg_show')){
+            var textyzm = $('#register #for_yzmbox_1').val()+$('#register #for_yzmbox_2').val()+$('#register #for_yzmbox_3').val()+$('#register #for_yzmbox_4').val()+$('#register #for_yzmbox_5').val()+$('#register #for_yzmbox_6').val();
+            toast.loading({
+                title:"Register",
+                duration:2000
+            });
+            clientR.invoke({
+                method: 'cus.verifySecurityCode',
+                data: {
+                    phoneNumber: regData.phoneNumber,
+                    areaCode: "63",
+                    securityCode: textyzm
+                }
+            }).then(function (ret,err) {
+                switch (ret.code){
+                    case 200:
+                        toast.loading({
+                            title:"Register",
+                            duration:2000
+                        });
+                        regData.securityCode = textyzm;
+                        clientR.invoke({
+                            method: 'cus.register',
+                            data: regData
+                        }).then(function (ret,err) {
+                            switch (ret.code){
+                                case 200:
+                                    loginTo('1',{
+                                        flog_phone: regData.phoneNumber,
+                                        fpwd: regData.password
+                                    })
+                                    break;
+                                case 410:
+                                    deschtml = "<span class='error_desc'>"+"Cell phone number already exists"+"</span>";
+                                    $('#phonenumber').parent().append(deschtml);
+                                    break;
+                                case 411:
+                                    layer.msg("Verification failed", {icon: 5,time:layuimsgtime});
+                                    break;
+                                case 412:
+                                    deschtml = "<span class='error_desc'>"+"Username already exists"+"</span>";
+                                    $('#userName').parent().append(deschtml);
+                                    break;
+                                case 413:
+                                    deschtml = "<span class='error_desc'>"+"Mailbox already exists"+"</span>";
+                                    $('#mailbox').parent().append(deschtml);
+                                    break;
+                            }
+                            $('.my_reg_yzm').html("");
+                            $('.myreg_content').show();
+                            regData = {};
+                        },function(err){
+                            layer.msg("Registration failed", {icon: 5,time:layuimsgtime});
+                            $('.my_reg_yzm').html("");
+                            $('.myreg_content').show();
+                            regData = {};
+                        });
+                        break;
+                    default:
+                        layer.msg("Verification failed", {icon: 5,time:layuimsgtime});
+                }
+            },function(err){
+                layer.msg("Verification failed", {icon: 5,time:layuimsgtime});
+            });
+        }
+    }
+    $(document).on('click','#UPpwd',function(){
+        $('.error_desc').remove();
+        var formData = {},deschtml='';
+        var f = $('.fixed_forgot form#jycode').serializeArray();
+        var phonenumber = $('#for_phonenumber').val();
+        $.each(f, function() {
+            formData[this.name] = this.value;
+        });
+        var ispwd = /^[a-zA-Z0-9]{6,20}$/;
+        if(!(ispwd.test(formData.for_password))){
+            layer.msg("The password must be a combination of letters or numbers and cannot be less than 6-20 digits", {icon: 5,time:layuimsgtime});
+            return;
+        }
+        if(!formData.for_password){
+            layer.msg("Password Require", {icon: 5,time:layuimsgtime});
+            return;
+        }
+        if(formData.for_password!=formData.for_renewpwd){
+            layer.msg("The passwords must be the same twice", {icon: 5,time:layuimsgtime});
+            return;
+        }
+        var pnum = /^(09)[\d]{9}$/;
+        if(!pnum.test(phonenumber)){
+            layer.msg("The number format is not correct", {icon: 5,time:layuimsgtime});
+            return;
+        }
+        var textyzm = $('#jycode #for_yzmbox_1').val()+$('#jycode #for_yzmbox_2').val()+$('#jycode #for_yzmbox_3').val()+$('#jycode #for_yzmbox_4').val()+$('#jycode #for_yzmbox_5').val()+$('#jycode #for_yzmbox_6').val();
+        toast.loading({
+            title:"Change Password",
+            duration:2000
+        });
+        clientR.invoke({
+            method: 'cus.changePasswordByMsg',
+            data: {
+                phoneNumber: phonenumber.replace(/^(0|63|\+63)/,""),
+                areaCode: "63",
+                password: formData.for_password,
+                securityCode: textyzm
+            }
+        }).then(function (ret,err) {
+            switch (ret.code){
+                case 200:
+                    $('.fixed_forgot').removeClass('reg_show');
+                    $('.login_bg').hide();
+                    $('.person_box,.personal_item').trigger('click');
+                    layer.msg("Reset password successfully", {icon: 6,time:layuimsgtime});
+                    break;
+                default:
+                    layer.msg("Vercode Incorrect", {icon: 5,time:layuimsgtime});
+                    break;
+            }
+        },function(err){
+            layer.msg("Failed to reset password", {icon: 5,time:layuimsgtime});
+        });
+    })
+    //忘记密码重新获取验证码
+    $(document).on('click','.get_yzm',function(){
+        if(getok) return;
+        $('.error_desc').remove();
+        var deschtml = '';
+        var phonenumber = $('#for_phonenumber').val();
+        var phoneqh = $('#for_phoneqh').val();
+        if(!phonenumber){
+            layer.msg("Phone number can't be empty", {icon: 5,time:layuimsgtime});
+            return;
+        }else{
+            var pnum = /^(09)[\d]{9}$/;
+            if(!(pnum.test(phonenumber))){
+                layer.msg("The number format is not correct", {icon: 5,time:layuimsgtime});
+                return;
+            }
+        }
+        toast.loading({
+            title:"get code",
+            duration:2000
+        });
+        var phonenum = phonenumber.replace(/^(0|63|\+63)/,"");
+        clientR.invoke({
+            method: 'securityCode.updtePassword',
+            data: {
+                lang: "en",
+                areaCode: "63",
+                phoneNumber: phonenum
+            }
+        }).then(function (ret,err) {
+            switch (ret.code){
+                case 200:
+                    ret.data = JSON.parse(ret.data);
+                    getok = true;
+                    times = ret.data.timeDiff;
+                    clearInterval(djs);
+                    djs = setInterval(function(){
+                        times--;
+                        if(times>=0){
+                            $('.get_yzm').text(times+'s')
+                        }else{
+                            getok = false;
+                            clearInterval(djs);
+                            $('.get_yzm').text("get code")
+                        }
+                    },1000);
+                    break;
+                case 415:
+                    layer.msg("Mobile number does not exist", {icon: 5,time:layuimsgtime});
+                    break;
+                case 420:
+                    ret.data = JSON.parse(ret.data);
+                    getok = true;
+                    times = ret.data.timeDiff;
+                    clearInterval(djs);
+                    djs = setInterval(function(){
+                        times--;
+                        if(times>=0){
+                            $('.get_yzm').text(times+'s')
+                        }else{
+                            getok = false;
+                            clearInterval(djs);
+                            $('.get_yzm').text("get code")
+                        }
+                    },1000);
+                    layer.msg("Too often", {icon: 5,time:layuimsgtime});
+                    break;
+                default:
+                    layer.msg("获取失败", {icon: 5,time:layuimsgtime});
+                    break;
+            }
+        },function(err){
+            layer.msg("获取失败", {icon: 5,time:layuimsgtime});
+        });
+    })
+    //注册重新获取验证码
+    $(document).on('click','.get_yzm_reg',function(){
+        if(getok_reg) return;
+        $('#submit1').click();
+        return;
+        toast.loading({
+            title:"get code",
+            duration:2000
+        });
+        clientR.invoke({
+            method: 'website.getVerifyCode',
+            data: {
+                lang: "en",
+                areaCode: "63",
+                phoneNumber: regData.phoneNumber
+            }
+        }).then(function (ret,err) {
+            switch (ret.code){
+                case 200:
+                    ret.data = JSON.parse(ret.data);
+                    getok_reg = true;
+                    times_reg = ret.data.timeDiff*1;
+                    clearInterval(djs_reg);
+                    djs_reg = setInterval(function(){
+                        times_reg--;
+                        if(times_reg>=0){
+                            $('.get_yzm_reg').text(times_reg+'s')
+                        }else{
+                            getok_reg = false;
+                            clearInterval(djs_reg);
+                            $('.get_yzm_reg').text("get code")
+                        }
+                    },1000);
+                    $('.my_reg_yzm').show().html(inpyzm+"<div style='text-align: center;font-size: 14px; margin-top: 20px;'>请输入验证码后自动注册</div><div class='get_yzm_reg text_center aui-font-size-16 col_them'></div>");
+                    $('.myreg_content').hide();
+                    break;
+                case 410:
+                    layer.msg("Cell phone number already exists", {icon: 5,time:layuimsgtime});
+                    break;
+            }
+        },function(err){
+            layer.msg("获取失败", {icon: 5,time:layuimsgtime});
+        });
+    })
+    /*邮箱修改密码*/
+    $('#UPMail').click(function(){
+        var mailval = $('#for_mailbox').val();
+        if(!mailval){
+            layer.msg("Mailbox can not be empty", {icon: 5,time:layuimsgtime});
+            return;
+        }else{
+            var isEmail = /^([a-zA-Z0-9\._-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
+            if(!(isEmail.test(mailval))){
+                layer.msg("E-mail format is incorrect", {icon: 5,time:layuimsgtime});
+                return;
+            }
+        }
+        toast.loading({
+            title:"Sending",
+            duration:2000
+        });
+        clientR.invoke({
+            method: 'email.sendEmail',
+            data: {
+                emailAddress: mailval,
+                lang: "en"
+            }
+        }).then(function (ret,err) {
+            switch (ret.code){
+                case 200:
+//                    clientPC.invoke('mailpwd_add', [{mail: mailval}]).then(function (ret) {});
+                    $('.fixed_forgot').removeClass('reg_show');
+                    $('.login_bg').hide();
+                    $('#for_mailbox').val('');
+                    layer.msg("Please check your emails", {icon: 6,time:layuimsgtime});
+                    break;
+                case 415:
+                    layer.msg("Mailbox does not exist", {icon: 5,time:layuimsgtime});
+                    break;
+                default :
+                    layer.msg("Failed to send", {icon: 5,time:layuimsgtime});
+                    break;
+            }
+        },function(err){
+            layer.msg("Failed to send", {icon: 5,time:layuimsgtime});
+        });
+    })
+    $(document).on('click','.isee',function(){
+        if($(this).hasClass('open')){
+            $(this).removeClass('open').attr('src','/static/images/open_isee.png');
+            $(this).prev('.isisee').attr('type','text');
+        }else{
+            $(this).addClass('open').attr('src','/static/images/close_isee.png');
+            $(this).prev('.isisee').attr('type','password');
+        }
+    })
+    window.onload = function(){
+        $('.index_login input,.fixed_register input,.fixed_forgot input').val('');
+    }
+</script>
+
+
+
+<div class="content_box">
+    <div class="page_timg"><img class="rczp order_head_img" src="/indexUploads/images/20210601/b883171bf3eaa9f9356eac5053e472c3.jpg" /></div>
+    <div class="querypage_box">
+        <div class="querypage_content">
+            <div class="query_nav_list flex">
+                <div class="query_nav_item flex_1 on">
+                    Trace & Track                </div>
+                <div class="query_nav_item flex_1" onclick="location.href='/index/query/query.html'">
+                    Shipping Rates                </div>
+                <div class="query_nav_item flex_1" onclick="location.href='/index/query/xzwd.html'">
+                    Find Branches                </div>
+            </div>
+            <div class="gzcx_box" onkeydown="keyEnter();">
+<!--                <div class="gzcx_title">Trace & Track</div>-->
+                <div class="gzcx_info_form pos_r" onkeydown="billdel()" style="margin-bottom: 10px;">
+                    <div class="bill_inp">
+                        <input type="text" id="billcode_list" oninput="inputbill(value)" placeholder=" Please enter your waybill number. Available up to 10 waybills." />
+                        <img class="cx_del_img inp_val_list" src="/static/images/icon-delete-black.png" />
+                    </div>
+                    <button type="button" onclick="searchGZ()">Search</button>
+                </div>
+                <div class="recaptcha_box" style="display: none;overflow: hidden">
+                    <div class="layui-form-item pos_r">
+                        <img src="/captcha.html" id="imgVercode" style="width: 100%;padding-right: 40px;box-sizing: border-box"
+                             class="layadmin-user-login-codeimg">
+                        <img src="/static/images/shuaxing.png" class="shuaxing_btn" />
+                    </div>
+                    <div class="pos_r" onkeydown="keyyz()">
+                        <input type="text" id="webyzm" name="webyzm">
+                        <button type="button" onclick="robotVerified()" class="webyzm_btn">Verification</button>
+                    </div>
+<!--                    <div class="recaptcha_tip">请进行人机身份验证</div>-->
+<!--                    <div class="g-recaptcha" data-callback="robotVerified" data-expired-callback="expVerified"-->
+<!--                         data-sitekey="6LehO54UAAAAAEUILdD4_EZUaPxt2Zx36-zkpNNM"></div>-->
+                </div>
+            </div>
+            <div class="bill_state_box">
+<!--                <div class="bill_state_title">-->
+<!--                    Waybill Status-->
+<!--                </div>-->
+                <div class="search_bill_list flex" style="display: none">
+                    <span class="search_billtext"></span>
+                    <div class="select_text pos_r flex_1">
+                        <span class="text"></span><span class="sanjiao"></span>
+                        <ul class="bill_list" style="display: none">
+                        </ul>
+                    </div>
+                </div>
+                <div class="bill_state_has" style="display: none;">
+                    <div class="bill_state_img_box">
+                        <div class="bill_state_listimg">
+                            <!--                    <span class="bill_state_img">-->
+                            <!--                        <img src="/static/images/Order-a-1.png" />-->
+                            <!--                        <span class="on">Pick up</span>-->
+                            <!--                    </span>-->
+                            <!--                        <div class="disn_line">-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                        </div>-->
+                            <!--                    <span class="bill_state_img">-->
+                            <!--                        <img src="/static/images/Order-b-2.png" />-->
+                            <!--                        <span>On Progress</span>-->
+                            <!--                    </span>-->
+                            <!--                        <div class="disn_line">-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                        </div>-->
+                            <!--                    <span class="bill_state_img">-->
+                            <!--                        <img src="/static/images/Order-c-2.png" />-->
+                            <!--                        <span>On Delivery</span>-->
+                            <!--                    </span>-->
+                            <!--                        <div class="disn_line">-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                            <span></span>-->
+                            <!--                        </div>-->
+                            <!--                    <span class="bill_state_img">-->
+                            <!--                        <img src="/static/images/Order-d-2.png" />-->
+                            <!--                        <span>Delivered</span>-->
+                            <!--                    </span>-->
+                        </div>
+                    </div>
+                    <div class="tap_box">
+<!--                        <div class="cx_tap">-->
+<!--                            <div class="cx_tap_btn1 on">Detail</div>-->
+<!--                            <div class="cx_tap_btn2">Maps</div>-->
+<!--                        </div>-->
+                    </div>
+                    <div class="bill_state_list">
+                        <!--                    <div class="bill_state_item">-->
+                        <!--                        <div class="bill_state_day">-->
+                        <!--                            <p>2018-10-25 09:16:26</p>-->
+                        <!--                        </div>-->
+                        <!--                        <div class="bill_state_text">-->
+                        <!--                            <p>Drop Point TANJUNG DUREN</p>-->
+                        <!--                            <p>City：Jakarta</p>-->
+                        <!--                            <p>Delivered</p>-->
+                        <!--                            <p>Consignee：Budi</p>-->
+                        <!--                        </div>-->
+                        <!--                    </div>-->
+                        <!--                    <div class="bill_state_item">-->
+                        <!--                        <div class="bill_state_day">-->
+                        <!--                            <p>2018-10-25</p>-->
+                        <!--                            <p>09:16:26</p>-->
+                        <!--                        </div>-->
+                        <!--                        <div class="bill_state_text">-->
+                        <!--                            <p>Drop Point TANJUNG DUREN</p>-->
+                        <!--                            <p>City：Jakarta</p>-->
+                        <!--                            <p>Delivered</p>-->
+                        <!--                            <p>Consignee：Budi</p>-->
+                        <!--                        </div>-->
+                        <!--                    </div>-->
+                        <!--                    <div class="bill_state_item">-->
+                        <!--                        <div class="bill_state_day">-->
+                        <!--                            <p>2018-10-25</p>-->
+                        <!--                            <p>09:16:26</p>-->
+                        <!--                        </div>-->
+                        <!--                        <div class="bill_state_text">-->
+                        <!--                            <p>Drop Point TANJUNG DUREN</p>-->
+                        <!--                            <p>City：Jakarta</p>-->
+                        <!--                            <p>Delivered</p>-->
+                        <!--                            <p>Consignee：Budi</p>-->
+                        <!--                        </div>-->
+                        <!--                    </div>-->
+                        <!--                    <div class="bill_state_item">-->
+                        <!--                        <div class="bill_state_day">-->
+                        <!--                            <p>2018-10-25</p>-->
+                        <!--                            <p>09:16:26</p>-->
+                        <!--                        </div>-->
+                        <!--                        <div class="bill_state_text">-->
+                        <!--                            <p>Drop Point TANJUNG DUREN</p>-->
+                        <!--                            <p>City：Jakarta</p>-->
+                        <!--                            <p>Delivered</p>-->
+                        <!--                            <p>Consignee：Budi</p>-->
+                        <!--                        </div>-->
+                        <!--                    </div>-->
+                        <!--                    <div class="bill_state_item">-->
+                        <!--                        <div class="bill_state_day">-->
+                        <!--                            <p>2018-10-25</p>-->
+                        <!--                            <p>09:16:26</p>-->
+                        <!--                        </div>-->
+                        <!--                        <div class="bill_state_text">-->
+                        <!--                            <p>Drop Point TANJUNG DUREN</p>-->
+                        <!--                            <p>City：Jakarta</p>-->
+                        <!--                            <p>Delivered</p>-->
+                        <!--                            <p>Consignee：Budi</p>-->
+                        <!--                        </div>-->
+                        <!--                    </div>-->
+                        <!--                    <div class="bill_state_item">-->
+                        <!--                        <div class="bill_state_day">-->
+                        <!--                            <p>2018-10-25</p>-->
+                        <!--                            <p>09:16:26</p>-->
+                        <!--                        </div>-->
+                        <!--                        <div class="bill_state_text">-->
+                        <!--                            <p>Drop Point TANJUNG DUREN</p>-->
+                        <!--                            <p>City：Jakarta</p>-->
+                        <!--                            <p>Delivered</p>-->
+                        <!--                            <p>Consignee：Budi</p>-->
+                        <!--                        </div>-->
+                        <!--                    </div>-->
+                    </div>
+                    <div class="googleMap" id="googleMap" style="display: none;">
+                    </div>
+                </div>
+                <div class="bill_state_null">
+                    <div class="null_tis">
+                        <img src="/static/images/nogzcx.jpg" style="width: 100%;" />
+                        <div class="nogzcx_tip" style="display: none;">No records found</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="index4_footer" style="position: relative;margin-top: 40px;">
+    <div class="index_db_icon">
+        <a target="_blank" href="https://www.facebook.com/jntexpressphilippines"><img src="/static/images/bottom-icon-1.png"/></a>
+        <a target="_blank" href="https://twitter.com/jntexpressph"><img src="/static/images/bottom-icon-2.png"/></a>
+        <a target="_blank" href="https://www.instagram.com/jntexpressph"><img src="/static/images/bottom-icon-3.png"/></a>
+        <a target="_blank" href="https://www.youtube.com/jtexpressphilippines"><img src="/static/images/bottom-icon-4.png"/></a>
+    </div>
+    <div class="index_db_awards">
+            </div>
+    <div class="index4_footer_l">
+        <p>
+            © 2015-2021 PH GLOBAL JET EXPRESS INC.
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180466990-1"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-180466990-1');
+            </script>
+        </p>
+    </div>
+</div>
+<script>
+    $('.index_db_icon a').mouseover(function(){
+        $(this).find('img').attr("src","/static/images/bottom-icon-"+($(this).index()+1)+"-1.png");
+    }).mouseout(function(){
+        $(this).find('img').attr("src","/static/images/bottom-icon-"+($(this).index()+1)+".png");
+    });
+</script>
+
+
+
+<script>
+    var notrobot = false;
+    function robotVerified(){
+        clientPC.invoke('user_yzCode', [{fyzm:$('#webyzm').val()}]).then(function (ret) {
+            if(ret){
+                notrobot = true;
+                searchGZ();
+                layer.closeAll();
+            }else{
+                layer.msg("Vercode Incorrect", {icon: 5,time:layuimsgtime});
+            }
+        })
+    }
+    function expVerified(){
+        notrobot = false;
+        $('#imgVercode').attr('src', '/captcha.html');
+        $("input[name='webyzm']").val('');
+    }
+    function showrecaptcha(){
+        $('.recaptcha_box').show();
+        layer.open({
+            type: 1,
+            title: false, //不显示标题
+            closeBtn: false,
+            shadeClose: true,
+            content: $('.recaptcha_box'), //捕获的元素，注意：最好该指定的元素要存放在body最外层，否则可能被其它的相对元素所影响
+            cancel: function(){
+                $('.recaptcha_box').hide();
+            },
+            end: function(){
+                $('.recaptcha_box').hide();
+            }
+        })
+    }
+    var map,marker,marker1;
+    var bill_inp_list = [];/*将要查询的运单号*/
+    var thisLang = 'en-us'.split("-")[0];
+    scrolltop('querypage_content');
+
+    function func_search(billcode){
+        toast.loading({
+            title:"Loading",
+            duration:2000
+        });
+        clientR.invoke({
+            method: 'app.findTrack',
+            data: {
+                billcode: billcode,
+                lang: thisLang,
+                source: 3
+            }
+        }).then(function (ret,err) {
+            ret = JSON.parse(ret);
+            console.log(ret);
+            $('.nogzcx_tip').show();
+            if(!ret) return;
+            if(ret.details.length>0){
+                ret.details = ret.details.reverse();
+                var html = '';
+                var scantype = 0;
+                var desctip = "";
+                for(var i=0;i<ret.details.length;i++){
+                    desctip = "";
+                    var line1 = "Drop Point "+ ret.details[i].siteName;
+                    var line3 = ret.details[i].scanstatus;
+                    if(['2','3','4'].indexOf(ret.details[i].scanscode)>=0){
+                        desctip = '<p>'+ret.details[i].desc+'</p>'
+                    }
+                    switch (ret.details[i].scanscode){
+                        case '1':
+                        case '4':
+                            line3 = ret.details[i].scanstatus+" by " + ret.details[i].deliveryName;
+                            break;
+                        case '6':
+                            line3 = line3+" "+ret.details[i].desc;
+                            break;
+                        case '5':
+                        case '9':
+                            line3 = ret.details[i].scanstatus+" to " + ret.details[i].signer;
+                            break;
+                        case '2':
+                            if(ret.details[i].siteType=='网点'){
+                                line1 = "Drop Point "+ ret.details[i].siteName;
+                            }else{
+                                line1 = "Transit Center";
+                            }
+                            line3 = "Departed to " + ret.details[i].nextSite;
+                            break;
+                        case '3':
+                            if(ret.details[i].siteType=='网点'){
+                                line1 = "Drop Point "+ ret.details[i].siteName;
+                            }else{
+                                line1 = "Transit Center";
+                            }
+                            break;
+                        default :
+                            break;
+                    }
+                    html += '<div class=\"bill_state_item\">'+
+                    '<div class=\"bill_state_day\">'+
+                    '<p>'+ret.details[i].scantime+'</p>'+
+                    '</div>'+
+                    '<div class=\"bill_state_text\">'+
+                    '<p>'+line1+'</p>'+
+                    "<p>City："+ret.details[i].city+"</p>"+
+                        desctip+
+                    '<p>'+line3+'</p>'+
+                    '</div>'+
+                    '</div>'
+                }
+                $('.bill_state_list').html(html);
+                var sj = "Pick Up";
+                var zc = "On Process";
+                var pj = "On Delivery";
+                var qs = "Delivered";
+                switch (ret.details[ret.details.length-1].scanscode){
+                    case '2':
+                    case '3':
+                        scantype = 1;
+                        break;
+                    case '4':
+                        scantype = 2;
+                        break;
+                    case '6':
+                    case '7':
+                        scantype = 1;
+                        var issj = false;
+                        var istq = false;
+                        for(var j=0;j<ret.details.length;j++){
+                            if(ret.details[j].scanscode=='4'){
+                                scantype = 2;
+                            }else if(ret.details[j].scanscode=='2'){
+                                issj = true;
+                            }else if(ret.details[j].scanscode=='8'&&j==1){
+                                istq = true;
+                            }
+                        }
+                        scantype = issj?scantype:0;
+                        scantype = istq?3:scantype;
+                        if(scantype==2){
+                            pj = "Difficulties";
+                        }else if(scantype==1){
+                            zc = "Difficulties";
+                        }else if(scantype==3){
+                            qs = "Difficulties";
+                        }else{
+                            sj = "Difficulties";
+                        }
+                        break;
+                    case '5':
+                        scantype = 3;
+                        qs = ret.details[0].scantype;
+                        break;
+                    case '8':
+                    case '9':
+                        scantype = 3;
+                        qs = ret.details[0].scanstatus;
+                        break;
+                    default :
+                        scantype = 0;
+                        break;
+                }
+                var htmlimg = '',showcalss;
+                var dianhtml = '<div class=\"disn_line\"></div>';
+                var showimg = (scantype==0&&(ret.details[0].scanscode=='6'||ret.details[0].scanscode=='7'))?'/static/images/on-hold.gif':'/static/images/pick-up.gif';
+                htmlimg += '<span class=\"bill_state_img on\"> <img src='+showimg+' /> <span>'+sj+'</span> </span>';
+                htmlimg += dianhtml;
+                var showimg = (scantype==1&&(ret.details[0].scanscode=='6'||ret.details[0].scanscode=='7'))?'/static/images/on-hold.gif':'/static/images/on-progress.gif';
+                if(scantype>=1){
+                    showcalss = 'on';
+                }else{
+                    showimg ='/static/images/state1_back.png';
+                }
+                htmlimg += '<span class=\"bill_state_img '+showcalss+'\"> <img src='+showimg+' /> <span>'+zc+'</span> </span>';
+                htmlimg += dianhtml;
+                showimg = (scantype==2&&(ret.details[0].scanscode=='6'||ret.details[0].scanscode=='7'))?'/static/images/on-hold.gif':'/static/images/on-delivery.gif';
+                if(scantype>=2){
+                    showcalss = 'on';
+                }else{
+                    showimg ='/static/images/state2_back.png';
+                }
+                htmlimg += '<span class=\"bill_state_img '+showcalss+'\"> <img src='+showimg+' /> <span>'+pj+'</span> </span>';
+                htmlimg += dianhtml;
+                showimg = (scantype==3&&(ret.details[0].scanscode=='6'||ret.details[0].scanscode=='7'))?'/static/images/on-hold.gif':'/static/images/delivered.gif';
+                if(scantype>=3){
+                    showcalss = 'on';
+                    if(ret.details[0].scanscode==8){
+                        showimg = '/static/images/on_return.gif';
+                    }else if(ret.details[0].scanscode==9){
+                        showimg = '/static/images/returned.gif';
+                    }
+                }else{
+                    showimg ='/static/images/state3_back.png';
+                }
+                htmlimg += '<span class=\"bill_state_img '+showcalss+'\"> <img src='+showimg+' /> <span>'+qs+'</span> </span>';
+                $('.bill_state_listimg').html(htmlimg);
+                $('.bill_state_has').show();
+                $('.bill_state_null').hide();
+                initialize(ret.details);
+                scrolltop('bill_state_box');
+            }else{
+                layer.msg("Records not found", {icon: 5,time:layuimsgtime});
+                $('.bill_state_has').hide();
+                $('.bill_state_null').show();
+            }
+        },function(err){
+            layer.msg("Query Failed", {icon: 5,time:layuimsgtime});
+            $('.bill_state_has').hide();
+            $('.bill_state_null').show();
+            $('.nogzcx_tip').show();
+        })
+    }
+    function searchGZ(state){
+        var billthis = $('#billcode_list').val().toUpperCase().replace(/(^\s*)|(\s*$)/g,"");
+        if((billthis.length>12||billthis.length<10)&&billthis){
+            layer.msg("Maximum input 12 characters", {icon: 5,time:layuimsgtime});
+            return;
+        }
+        if(bill_inp_list.length>0||billthis){
+            if(notrobot&&!state){
+                showrecaptcha();
+            }else{
+                expVerified();
+                var billcode = billthis.replace(/\s|\,/g," ").split(" ");
+                if(!billthis&&bill_inp_list.length<=0) return;
+                billcode = billthis?bill_inp_list.concat(billcode):bill_inp_list;
+                if(billcode.length>10){
+                    layer.msg("Only ten data can be entered", {icon: 5,time:layuimsgtime});
+                    return;
+                }
+                func_search(billcode[0]);
+
+                $('.select_text span.text').text(billcode[0]);
+                var billhtml = '';
+                for(var j=0;j<billcode.length;j++){
+                    billhtml += '<li>'+billcode[j]+'</li>'
+                }
+                $('.bill_list').html(billhtml);
+                if(billthis==""&&bill_inp_list.length<=0){
+                    $('.search_bill_list').hide();
+                }else{
+                    $('.search_bill_list').show();
+                }
+            }
+        }else{
+            layer.msg("Search content cannot be empty",{icon: 5,time:layuimsgtime});
+        }
+    }
+    function inputbill(val,type){
+        $('#billcode_list').val((val.match(/[a-zA-Z0-9]*/g)[0])||null);
+        //监听文本框填写的内容
+        if(bill_inp_list.length>=10){
+            $('#billcode_list').val('');
+            if(val!=" ") {
+                layer.msg("Only ten data can be entered", {icon: 5,time:layuimsgtime});
+            }
+            return;
+        }
+        if(/\s|\,/g.test(val)){
+            if((val.length>13||val.length<11)&&!type){
+                layer.msg("Maximum input 12 characters", {icon: 5,time:layuimsgtime});
+                $('#billcode_list').val(val.replace(/\s|\,/g,""));
+                return;
+            }
+            var lslist = val.replace(/\s|\,/g," ").split(" ");
+            for(var i=0;i<lslist.length;i++){
+                if(lslist[i]){
+                    var arritem = lslist[i].toUpperCase();
+                    bill_inp_list.push(arritem);
+                    var bhtml = '<span class="inp_bill_item">'+arritem+' <i class="iconfont icon-fork"></i></span>';
+                    $('#billcode_list').width('250').attr('placeholder',"Please enter the waybill number").before(bhtml);
+                }
+            }
+            $('#billcode_list').val('').focus();
+        }
+    }
+    var bills = "";
+    if(bills){
+        inputbill(bills,true);
+        searchGZ(true);
+    }
+
+/*切换明细与地图*/
+    $('.cx_tap_btn1').click(function(){
+        $('.bill_state_list').show();
+        $('.cx_tap_btn1').addClass('on');
+        $('.googleMap').hide();
+        $('.cx_tap_btn2').removeClass('on');
+    });
+    $('.cx_tap_btn2').click(function(){
+        $('.bill_state_list').hide();
+        $('.cx_tap_btn2').addClass('on');
+        $('.googleMap').show();
+        $('.cx_tap_btn1').removeClass('on');
+    });
+/*切换明细与地图end*/
+
+/*切换查询的运单号*/
+    $(document).on('click','.search_bill_item',function(){
+        var bill = $(this).text();
+        $('.search_bill_item').removeClass('on');
+        $(this).addClass('on');
+        func_search(bill);
+    })
+/*切换查询的运单号end*/
+    $('.inp_val_list').click(function(){
+        /*清空文本框*/
+        $('#billcode_list').val('');
+        $('.inp_bill_item').remove();
+        bill_inp_list = [];
+        $('#billcode_list').width('').attr('placeholder'," Please enter your waybill number. Available up to 10 waybills.");
+    })
+    $('.bill_inp').on('click','.inp_bill_item .icon-fork',function(){
+        /*删除单条文本数据*/
+        $(this).parent().remove();
+        bill_inp_list.splice($(this).parent().index(),1);
+        if(bill_inp_list.length<=0){
+            $('#billcode_list').width('').attr('placeholder'," Please enter your waybill number. Available up to 10 waybills.");
+        }
+    })
+
+/*运单选择的下拉框打开与关闭*/
+$('.select_text').on('click',function(){
+    $('.bill_list').slideToggle();
+    $('.select_text').toggleClass('on');
+})
+$(document).on('click','.bill_list li',function(){
+    var txt = $(this).text();
+    $('.select_text span.text').text(txt);
+    $('.bill_list').slideUp();
+    $('.select_text').removeClass('on');
+    func_search(txt);
+})
+//其他元素被点击则收起选择
+$(document).on('mousedown', function(e){
+    closeSelect(e);
+});
+$(document).on('touchstart', function(e){
+    closeSelect(e);
+});
+
+function closeSelect(e) {
+    var bill_list = $('.search_bill_list');
+    var filter = bill_list.find('.bill_list'),
+        filterEl = bill_list.find('.bill_list')[0];
+    var filterBoxEl = bill_list[0];
+    var target = e.target;
+    if(filterEl !== target && !$.contains(filterEl, target) && !$.contains(filterBoxEl, target)) {
+        $('.bill_list').slideUp();
+        $('.select_text').removeClass('on');
+    }
+}
+/*运单选择的下拉框打开与关闭end*/
+
+    function initialize(data)
+    {
+        return;
+        var lat = data[0].latitude?data[0].latitude:'14.32585';
+        var lon = data[0].longitude?data[0].longitude:'121.02448';
+        var lat1 = data[data.length-1].latitude?data[data.length-1].latitude:'14.32585';
+        var lon1 = data[data.length-1].longitude?data[data.length-1].longitude:'121.02448';
+        var Center = new google.maps.LatLng(lat,lon);
+        var Destination = new google.maps.LatLng(lat1,lon1);
+        var mapProp = {
+            center:Center,
+            zoom:9,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        marker = new google.maps.Marker({
+            position: Center,
+            map: map
+        });
+        if(data[0].latitude=="") return;
+        var mapstis = "<div>"+data[0].city+"</div>";
+        var infowindow = new google.maps.InfoWindow({content:mapstis});
+        infowindow.open(map,marker);
+
+        if(data.length<=1||data[data.length-1].latitude=="") return;
+        marker1 = new google.maps.Marker({
+            position: Destination,
+            map: map
+        });
+        var mapstis1 = "<div>"+data[data.length-1].city+"</div>";
+        var infowindow1 = new google.maps.InfoWindow({content:mapstis1});
+        infowindow1.open(map,marker1);
+
+        var flightPath = new google.maps.Polyline({
+            path: [Center,Destination],
+            geodesic: true,
+            strokeColor: '#dc3232',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
+        flightPath.setMap(map);
+
+        marker.addListener('click', function() {
+            infowindow.open(map, marker);
+        });
+        marker1.addListener('click', function() {
+            infowindow1.open(map, marker1);
+        });
+        markershow = true;
+    }
+
+    function keyEnter(){
+        if (event.keyCode==13){
+            var billtext = $('#billcode_list').val();
+            if(billtext){
+                inputbill(billtext+' ')
+            }
+        }  //回车键的键值为13
+    }
+    function billdel(){
+        if (event.keyCode==8){
+            if($('#billcode_list').is(':focus')&&$('#billcode_list').val()==""){
+                /*删除单条文本数据*/
+                if(bill_inp_list.length>0){
+                    $('#billcode_list').prev().remove();
+                    bill_inp_list.splice(bill_inp_list.length-1,1);
+                }
+            }
+        }
+    }
+
+    //切换验证码
+    $('#imgVercode,.shuaxing_btn').click(function () {
+        $('#imgVercode').attr('src', '/captcha.html');
+        $("input[name='webyzm']").val('');
+    });
+
+    function keyyz(){
+        if (event.keyCode==13)  //回车键的键值为13
+            robotVerified()
+    }
+//    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+
+
+
+</body>
+</html>

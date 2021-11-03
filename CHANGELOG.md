@@ -1,3 +1,9 @@
+# 2.7.1
+* fixed an issue in JNT is not working
+
+# 2.7.0
+* add canada post
+
 # 2.6.1
 * add courier namespace for DHL.
 
