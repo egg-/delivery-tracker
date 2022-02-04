@@ -35,6 +35,7 @@ LBC | @egg- | https://www.lbcexpress.com/
 J&T (PH) | @egg- | https://www.jtexpress.ph/
 DHL | @carstenschwede | https://www.dhl.com/
 Canada Post | @egg- | https://www.canadapost-postescanada.ca/
+Track Courier | @egg- | https://trackscourier.com/
 
 ## Installation
 
