@@ -1,3 +1,6 @@
+# 2.7.2
+* fixed an issue in JNT is not working
+
 # 2.7.1
 * fixed an issue in JNT is not working
 
