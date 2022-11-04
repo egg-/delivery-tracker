@@ -1,3 +1,6 @@
+# 2.7.3
+* fixed an issue in USPS is not working
+
 # 2.7.2
 * fixed an issue in JNT is not working
 
