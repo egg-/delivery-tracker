@@ -6,35 +6,35 @@
 
 delivery-tracker is delivery tracking library for Node.js
 
-
 ## Courier List
 
-Name | Contributor | Link
----- | ---- | ----
-Korea Post | @egg- | http://www.koreapost.go.kr/
-Ecargo | @egg- | http://ecargo.asia/script/users/main.php
-FedEx | @egg- | https://www.fedex.com/
-Australia Post | @egg- | https://auspost.com.au/
-Pantos | @egg- | http://www.epantos.com/
-Rincos | @egg- | http://www.rincos.co.kr/
-Royal Mail | @egg- | http://www.royalmail.com/
-USPS | @egg- | https://www.usps.com/
-CJ Korea Express (Korea) | @egg- | http://cjkoreaexpress.co.kr/ (https://www.doortodoor.co.kr)
-POS Laju | @egg- | http://www.poslaju.com.my
-Yello Express | @egg- | https://www.yello-express.com
-EFS | @egg- | http://efs.asia/
-UPS | @egg- | https://www.ups.com
-TNT | @egg- | https://www.tnt.com
-CESCO | @egg- | https://www.cesco-logistics.com/
-XPOST | @egg- | https://www.xpost.ph/
-KERRYTHAI | @egg- | https://th.kerryexpress.com
-SICEPAT | @egg- | http://sicepat.com/
-XIOExpress | @egg- | https://xioexpress.com/
-eParcel | @egg- | https://eparcel.kr/
-LBC | @egg- | https://www.lbcexpress.com/
-J&T (PH) | @egg- | https://www.jtexpress.ph/
-DHL | @carstenschwede | https://www.dhl.com/
-Canada Post | @egg- | https://www.canadapost-postescanada.ca/
+| Name                     | Contributor     | Link                                                        |
+| ------------------------ | --------------- | ----------------------------------------------------------- |
+| Korea Post               | @egg-           | http://www.koreapost.go.kr/                                 |
+| Ecargo                   | @egg-           | http://ecargo.asia/script/users/main.php                    |
+| FedEx                    | @egg-           | https://www.fedex.com/                                      |
+| Australia Post           | @egg-           | https://auspost.com.au/                                     |
+| Pantos                   | @egg-           | http://www.epantos.com/                                     |
+| Rincos                   | @egg-           | http://www.rincos.co.kr/                                    |
+| Royal Mail               | @egg-           | http://www.royalmail.com/                                   |
+| USPS                     | @egg-           | https://www.usps.com/                                       |
+| CJ Korea Express (Korea) | @egg-           | http://cjkoreaexpress.co.kr/ (https://www.doortodoor.co.kr) |
+| POS Laju                 | @egg-           | http://www.poslaju.com.my                                   |
+| Yello Express            | @egg-           | https://www.yello-express.com                               |
+| EFS                      | @egg-           | http://efs.asia/                                            |
+| UPS                      | @egg-           | https://www.ups.com                                         |
+| TNT                      | @egg-           | https://www.tnt.com                                         |
+| CESCO                    | @egg-           | https://www.cesco-logistics.com/                            |
+| XPOST                    | @egg-           | https://www.xpost.ph/                                       |
+| KERRYTHAI                | @egg-           | https://th.kerryexpress.com                                 |
+| SICEPAT                  | @egg-           | http://sicepat.com/                                         |
+| XIOExpress               | @egg-           | https://xioexpress.com/                                     |
+| eParcel                  | @egg-           | https://eparcel.kr/                                         |
+| LBC                      | @egg-           | https://www.lbcexpress.com/                                 |
+| J&T (PH)                 | @egg-           | https://www.jtexpress.ph/                                   |
+| DHL                      | @carstenschwede | https://www.dhl.com/                                        |
+| Canada Post              | @egg-           | https://www.canadapost-postescanada.ca/                     |
+| PAXEL                    | @egg-           | https://paxel.co/                                           |
 
 ## Installation
 
@@ -70,32 +70,30 @@ Usage: index [options] <tracecode>
 $ delivery-tracker -c EMS EBXXXXXXXXXKR
 ```
 
-
 ## Response
 
-Attribute | Type | Description
----- | ---- | ----
-courier | Courier Object | courier information
-number | String | tracking number
-status | String | delivery status
-checkpoints | Array of Checkpoint Object | Array of the checkpoint information.
+| Attribute   | Type                       | Description                          |
+| ----------- | -------------------------- | ------------------------------------ |
+| courier     | Courier Object             | courier information                  |
+| number      | String                     | tracking number                      |
+| status      | String                     | delivery status                      |
+| checkpoints | Array of Checkpoint Object | Array of the checkpoint information. |
 
 ### Courier Object
 
-Attribute | Type | Description
----- | ---- | ----
-code | String | Unique code of courier.
-name | String | Courier name
+| Attribute | Type   | Description             |
+| --------- | ------ | ----------------------- |
+| code      | String | Unique code of courier. |
+| name      | String | Courier name            |
 
 ### Checkpoint Object
 
-Attribute | Type | Description
----- | ---- | ----
-courier | Courier Object | courier information
-location | String | Location info of the checkpoint provided by the courier.
-message | String | Checkpoint message
-time | String | The date and time of the checkpoint provided by the courier. The values can be:<br>Empty string,<br> YYYY-MM-DD,<br> YYYY-MM-DDTHH:mm:ss <br> YYYY-MM-DDTHH:mm:ss+Timezone
-
+| Attribute | Type           | Description                                                                                                                                                                |
+| --------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| courier   | Courier Object | courier information                                                                                                                                                        |
+| location  | String         | Location info of the checkpoint provided by the courier.                                                                                                                   |
+| message   | String         | Checkpoint message                                                                                                                                                         |
+| time      | String         | The date and time of the checkpoint provided by the courier. The values can be:<br>Empty string,<br> YYYY-MM-DD,<br> YYYY-MM-DDTHH:mm:ss <br> YYYY-MM-DDTHH:mm:ss+Timezone |
 
 ## CODE
 
@@ -103,59 +101,60 @@ time | String | The date and time of the checkpoint provided by the courier. The
 
 `tracker.COURIER.{NAMESPACE}`
 
-NAMESPACE | CODE | NAME
----- | ---- | ----
-KOREAPOST | koreapost | Korea Post
-ECARGO | ecargo | Ecargo
-FEDEX | fedex | FedEx
-AUSPOST | auspost | Australia Post
-PANTOS | pantos | Pantos
-RINCOS | rincos | Rincos
-ROYALMAIL | royalmail | Royal Mail
-USPS | usps | USPS
-CJKOREAEXPRESS | cjkoreaexpress | CJ Korea Express
-POSLAJU | poslaju | POS Laju
-YELLOEXPRESS | yelloexpress | Yello Express
-EFS | efs | EFS
-UPS | ups | UPS
-TNT | tnt | TNT
-CESCO | cesco | CESCO
-XPOST | xpost | XPOST
-KERRYTHAI | kerrythai | KERRYTHAI
-SICEPAT | sicepat | SICEPAT
-XIOEXPRESS | xioexpress | XIOExpress
-EPARCEL | eparcel | eParcel
-LBC | lbc | LBC
-JNT | jnt | J&T
-DHL | dhl | DHL
-CANADAPOST | canadapost | Canada Post
+| NAMESPACE      | CODE           | NAME             |
+| -------------- | -------------- | ---------------- |
+| KOREAPOST      | koreapost      | Korea Post       |
+| ECARGO         | ecargo         | Ecargo           |
+| FEDEX          | fedex          | FedEx            |
+| AUSPOST        | auspost        | Australia Post   |
+| PANTOS         | pantos         | Pantos           |
+| RINCOS         | rincos         | Rincos           |
+| ROYALMAIL      | royalmail      | Royal Mail       |
+| USPS           | usps           | USPS             |
+| CJKOREAEXPRESS | cjkoreaexpress | CJ Korea Express |
+| POSLAJU        | poslaju        | POS Laju         |
+| YELLOEXPRESS   | yelloexpress   | Yello Express    |
+| EFS            | efs            | EFS              |
+| UPS            | ups            | UPS              |
+| TNT            | tnt            | TNT              |
+| CESCO          | cesco          | CESCO            |
+| XPOST          | xpost          | XPOST            |
+| KERRYTHAI      | kerrythai      | KERRYTHAI        |
+| SICEPAT        | sicepat        | SICEPAT          |
+| XIOEXPRESS     | xioexpress     | XIOExpress       |
+| EPARCEL        | eparcel        | eParcel          |
+| LBC            | lbc            | LBC              |
+| JNT            | jnt            | J&T              |
+| DHL            | dhl            | DHL              |
+| CANADAPOST     | canadapost     | Canada Post      |
+| PAXEL          | paxel          | Paxel            |
 
 ### STATUS
 
 `tracker.STATUS.{CODE}`
 
-Code | Value | Description
----- | ---- | ----
-INFO_RECEIVED | InfoReceived | The carrier received a request from the shipper and wants to start shipping.
-PENDING | Pending | New pending shipment to track or a new shipment without tracking information added.
-IN_TRANSIT | InTransit | The carrier has received or received the carrier. Shipment is in progress.
-DELIVERED | Delivered | The shipment was successfully delivered.
-RETURNED | Returned | The shipment was returned.
-EXCEPTION | Exception | Custom hold, undeliverable, shipper has shipped or shipped an exception.
-FAIL_ATTEMPT | FailAttempt | The courier tried to send but failed, but usually reminds and tries again.
+| Code          | Value        | Description                                                                         |
+| ------------- | ------------ | ----------------------------------------------------------------------------------- |
+| INFO_RECEIVED | InfoReceived | The carrier received a request from the shipper and wants to start shipping.        |
+| PENDING       | Pending      | New pending shipment to track or a new shipment without tracking information added. |
+| IN_TRANSIT    | InTransit    | The carrier has received or received the carrier. Shipment is in progress.          |
+| DELIVERED     | Delivered    | The shipment was successfully delivered.                                            |
+| RETURNED      | Returned     | The shipment was returned.                                                          |
+| EXCEPTION     | Exception    | Custom hold, undeliverable, shipper has shipped or shipped an exception.            |
+| FAIL_ATTEMPT  | FailAttempt  | The courier tried to send but failed, but usually reminds and tries again.          |
 
 ### ERROR
 
 `tracker.STATUS.{CODE}`
 
-Code | Value | Description
----- | ---- | ----
-UNKNOWN | -1 | Unknow error
-NOT_SUPPORT_SHIPMENT | 20 | shipment does not support.
-INVALID_NUMBER | 10 | invalid trace number.
-INVALID_NUMBER_LENGTH | 11 | invalid trace number.
-INVALID_NUMBER_HEADER | 12 | invalid trace number.
-INVALID_NUMBER_COUNTRY | 13 | invalid trace number.
+| Code                   | Value | Description                |
+| ---------------------- | ----- | -------------------------- |
+| UNKNOWN                | -1    | Unknow error               |
+| NOT_SUPPORT_SHIPMENT   | 20    | shipment does not support. |
+| INVALID_NUMBER         | 10    | invalid trace number.      |
+| INVALID_NUMBER_LENGTH  | 11    | invalid trace number.      |
+| INVALID_NUMBER_HEADER  | 12    | invalid trace number.      |
+| INVALID_NUMBER_COUNTRY | 13    | invalid trace number.      |
 
 ### Sample
 

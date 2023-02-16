@@ -1,3 +1,6 @@
+# 2.8.0
+* add paxel
+
 # 2.7.3
 * fixed an issue in USPS is not working
 

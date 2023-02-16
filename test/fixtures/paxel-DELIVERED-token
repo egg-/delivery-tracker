@@ -1,0 +1,4107 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="csrf-token" content="el2lAr5t1mlrWYQ5WbNCAYNYPadns7kJcG6YyKiu">
+
+
+
+    <link rel="icon" href="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/images/icon/favicon.png">
+
+
+
+    <title>Kirim Paket Sameday Delivery hingga Kirim Paket Berat - Paxel
+
+  </title>
+
+
+
+    <!-- META -->
+
+    <link rel="canonical" href="https://paxel.co" />
+
+
+
+    <meta name="image" content="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/images/content/thumb_paxel.jpg">
+
+
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:url" content="https://paxel.co">
+
+    <meta property="og:site_name" content="paxel.co" />
+
+
+
+
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="twitter:site" content="@paxel_co">
+
+
+
+
+
+    <!-- Google / Search Engine Tags -->
+
+  <meta name="description" content="Kirim Sameday Delivery antarkota dengan ongkir FLAT s/d 5 kg hingga kirim paket berat s/d 20kg pakai PaxelBig. Ada Jaminan Makanan Aman bahkan untuk Frozen Food">
+
+
+
+  <!-- Facebook Meta Tags -->
+
+  <meta property="og:title" content="Kirim Paket Sameday Delivery hingga Kirim Paket Berat - Paxel">
+
+  <meta property="og:description" content="Kirim Sameday Delivery antarkota dengan ongkir FLAT s/d 5 kg hingga kirim paket berat s/d 20kg pakai PaxelBig. Ada Jaminan Makanan Aman bahkan untuk Frozen Food">
+
+  <meta property="og:image" content="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/images/content/thumb_paxel.jpg">
+
+
+
+  <!-- Twitter Meta Tags -->
+
+  <meta name="twitter:title" content="Kirim Paket Sameday Delivery hingga Kirim Paket Berat - Paxel">
+
+  <meta name="twitter:description" content="Kirim Sameday Delivery antarkota dengan ongkir FLAT s/d 5 kg hingga kirim paket berat s/d 20kg pakai PaxelBig. Ada Jaminan Makanan Aman bahkan untuk Frozen Food">
+
+  <meta name="twitter:image" content="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/images/content/thumb_paxel.jpg">
+
+
+
+    <meta name="apple-itunes-app" content="app-id=1372668166, app-argument=https://www.paxel.co/">
+
+    <!-- FAVICON -->
+
+    <link rel="shortcut icon" href="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/images/icon/favicon.png">
+
+
+
+    <!-- Font Awesome core CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  />
+
+
+
+    <!-- Font Awesome min CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css"  />
+
+
+
+    <!-- Bootstrap core CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"  />
+
+
+
+    <!-- OwlCarousel2 core CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"  />
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+    <!-- App CSS -->
+
+    <link defer="" href="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/css/app.css?version=1.2.2" rel="stylesheet">
+
+
+
+
+
+    <link rel="preload" as="font" href="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/fonts/gotham-medium-webfont.woff2" type="font/woff2">
+
+    <link rel="preload" as="font" href="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/fonts/gotham-bold-webfont.woff2" type="font/woff2">
+
+    <link rel="preload" as="font" href="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/fonts/gotham-book-webfont.woff2" type="font/woff2">
+
+
+
+    <!-- Responsive CSS -->
+
+    <link defer href="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/css/responsive.css?version=1.2.2" rel="stylesheet">
+
+
+
+    <link href="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/css/slidercaptcha.min.css" rel="stylesheet" />
+
+      <style>
+
+
+
+          .slidercaptcha {
+
+              margin: 0 auto;
+
+              width: 314px;
+
+              height: 286px;
+
+              border-radius: 4px;
+
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
+
+              margin-top: 40px;
+
+          }
+
+
+
+              .slidercaptcha .card-body {
+
+                  padding: 1rem;
+
+              }
+
+
+
+              .slidercaptcha canvas:first-child {
+
+                  border-radius: 4px;
+
+                  border: 1px solid #e6e8eb;
+
+              }
+
+
+
+              .slidercaptcha.card .card-header {
+
+                  background-image: none;
+
+                  background-color: rgba(0, 0, 0, 0.03);
+
+              }
+
+
+
+          .refreshIcon {
+
+              top: -54px;
+
+          }
+
+      </style>
+
+      <!-- Yellow AI Style -->
+      <style>
+        @media screen and (max-width: 768px) {
+            #ymDivBar {
+                bottom: 65px !important;
+            }
+        }
+      </style>
+      <!-- End of Yellow AI Style -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-165579561-1"></script>
+
+    <script defer>
+
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag(){dataLayer.push(arguments);}
+
+    gtag('js', new Date());
+
+
+
+    gtag('config', 'UA-165579561-1');
+
+    </script>
+    <style>
+      .search-form {
+        right: 200px;
+        top: 200px;
+      }
+
+      .search-field {
+        background-color: transparent;
+        background-image: url(/images/icon/search.svg);
+        background-position: 5px center;
+        background-repeat: no-repeat;
+        background-size: 24px 24px;
+        border: none;
+        height: 40px;
+        margin: 3px 0;
+        padding: 0 0 0 34px;
+        position: relative;
+        -webkit-transition: width 400ms ease, background 400ms ease;
+        transition: width 400ms ease, background 400ms ease;
+        width: 0;
+        cursor: pointer;
+        -webkit-appearance: searchfield-cancel-button;
+      }
+
+      .search-field:focus {
+        /*background-color: #000;*/
+        border-radius: 8px;
+        border: 2px solid #5E50A1;
+        cursor: text;
+        outline: 0;
+        width: 250px;
+        /*color:#fff;*/
+      }
+
+      .search-form .search-submit {
+        display: none;
+      }
+
+      .ui-front {
+        z-index: 1050;
+        border-radius: 8px;
+      }
+
+      .ui-menu-item:hover,
+      .ui-menu-item:active,
+      .ui-menu-item:active,
+      .ui-menu-item-wrapper.ui-state-active {
+        border-color: #EFF1F3;
+        background: #EFF1F3;
+        color: #424143;
+        border-radius: 6px;
+        margin: 5px;
+        border-width: 0;
+      }
+
+      .ui-menu-item-wrapper {
+        margin: 5px;
+        border-width: 0;
+      }
+
+      @media screen and (min-device-width: 1200px) {
+        #cancel-search-button {
+          display: none;
+        }
+      }
+
+      @media screen and (min-device-width: 1200px) and (max-device-width: 1439px) {
+        ul#ui-id-1 {
+          zoom: 83%;
+        }
+
+        nav {
+          zoom: 83%;
+        }
+      }
+
+      @media screen and (min-device-width: 1440px) and (max-device-width: 1560px) {
+        ul#ui-id-1 {
+          zoom: 93%;
+        }
+
+        nav {
+          zoom: 93%;
+        }
+      }
+    </style>
+
+
+
+
+
+
+  </head>
+
+
+
+  <body>
+
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-ease-out">
+      <div class="container-fluid navbar-site">
+        <a class="navbar-brand" href="https://paxel.co/id/home">
+          <img src="https://paxel.co/images/icon/paxel_logo_whitetext.png" alt="Paxel">
+        </a>
+        <button class="navbar-toggler main-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="font-size: 1.25rem;"></span>
+        </button>
+        <div class="main-menu collapse navbar-collapse bg-ease-out" id="navbarCollapse">
+          <div class="navbar-inner">
+            <a class="navbar-brand" href="https://paxel.co/id/home">
+              <img src="https://paxel.co/images/icon/paxel_logo_whitetext.png" alt="Paxel">
+            </a>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown partnership-menu-container">
+                <a id="button-search" class="nav-link partnership-menu">
+                  <span class="fa fa-search" style=""></span> Cari </a>
+                <form id="form-search" role="search" method="get" class="search-form" action="https://paxel.co/id/cari" style="display: none; padding-left: 20px">
+                  <label>
+                    <input type="search" id="search-input" class="search-field" placeholder="Cari di Paxel..." value="" name="keyword" title="Search for:" autocomplete="off">
+                  </label>
+                  <input type="submit" class="search-submit" value="Search">
+                  <a id="cancel-search-button" class="pull-right" style="margin-left: 8px; color: #5E50A1; font-weight: bold">Batal</a>
+                </form>
+              </li>
+              <li class="nav-item dropdown partnership-menu-container">
+                <a class="nav-link dropdown-toggle partnership-menu " href="#" id="partnership-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tentang Paxel</a>
+                <ul class="dropdown-menu" aria-labelledby="partnership-menu">
+                  <li>
+                    <a class="dropdown-item" href="https://paxel.co/id/tentang-kami">Tentang Kami</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://paxel.co/id/berita-dan-promo">Berita & Promo</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://paxel.co/id/antarkan-kebaikan">#AntarkanKebaikan</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://paxel.co/id/pejuang-online">#PejuangOnline</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown partnership-menu-container">
+                <a class="nav-link dropdown-toggle partnership-menu " href="#" id="partnership-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layanan Kami</a>
+                <ul class="dropdown-menu" aria-labelledby="partnership-menu">
+                  <li>
+                    <a class="dropdown-item" href="https://paxel.co/id/layanan-kami">Layanan Kami</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://paxel.co/id/home">Sameday Delivery</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://paxelbox.paxel.co">PaxelBox</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://paxelmarket.co">PaxelMarket</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://paxelbig.paxel.co">PaxelBig</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://paxel.co/id/home">Instant Delivery</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://paxel.co/id/home">Instant Multidrop</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://paxel.co/id/paxel-recycle">PaxelRecycle</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://paxel.co/id/home">Lew@tBox</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://paxel.co/id/layanan-kami#paxelamplop">PaxelAmplop</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="https://paxel.co/id/layanan-kami#ppob">PPOB</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown partnership-menu-container">
+                <a class="nav-link dropdown-toggle partnership-menu" href="#" id="partnership-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kemitraan</a>
+                <ul class="dropdown-menu" aria-labelledby="partnership-menu">
+                  <li><a class="dropdown-item" href="https://paxel.co/id/kemitraan">Tentang Kemitraan</a></li>
+                  <li><a class="dropdown-item" href="https://customer.paxel.co">Corporate</a></li>
+                  <li><a class="dropdown-item" style="padding-top: 7.5px;" href="https://paxel.co/id/mitrapaxel">Mitra PaxelCo</a></li>
+                  <li><a class="dropdown-item" href="https://paxelbig.paxel.co">PaxelBig</a></li>
+                  <li><a class="dropdown-item" href="https://paxelbox.paxel.co">PaxelBox</a></li>
+                </ul>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link tx-transform-none" href="https://paxel.co/id/download">Download</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="https://paxel.co/id/lacak-pengiriman">Lacak Pengiriman</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link nav-login tx-transform-none" href="#"><span class="login">Masuk</span></a>
+              </li> -->
+              <li class="nav-item dropdown lang-container">
+                <a class="nav-link dropdown-toggle" href="#" id="lang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                  <span class="locale-focus"><img src="/images/icon/ic_translate.svg" alt="Paxel Translate SVG Icon" style="margin-top: -5px;"> ID</span>
+                                              </a>
+                <ul class="dropdown-menu" aria-labelledby="lang">
+
+
+                  <li>
+                    <a class="dropdown-item articles-flag-indo" href="https://paxel.co/id/home">
+                      <span class="flag-icon flag-icon-id flag-label"></span><span class="flag-title">Bahasa</span>
+                    </a></li>
+                  <li>
+                    <a class="dropdown-item articles-flag-english" href="https://paxel.co/en/home">
+                      <span class="flag-icon flag-icon-en flag-label"></span><span class="flag-title">English</span>
+                    </a></li>
+
+                </ul>
+              </li>
+                        <li class="create-button-handle nav-item ">
+                <a class="btn btn-create-shipment" style="padding: 12px 26px;" href="https://paxel.co/id/guest-app/sender">KIRIM SEKARANG</a>
+              </li>
+                      </ul>
+          </div>
+          <button class="navbar-toggler additional-toggler bg-ease-out" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span style="font-size: 48px;">
+              <svg
+                viewBox="0 0 16 16"
+                width="1em"
+                height="1em"
+                focusable="false"
+                role="img"
+                aria-label="x"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#5f51a1"
+                class="bi-x b-icon bi"
+              >
+                <g>
+                  <path
+                    stroke='rgba(94, 80, 161, 1)'
+                    stroke-width='0.0005'
+                    fill-rule="evenodd"
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1
+                    .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646
+                    2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  ></path>
+                </g>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="home page-main-slide">
+      <!-- Begin Main Slide -->
+  <section id="banner" class="main-slide">
+    <div id="mainSlideCarousel" class="carousel slide carousel-fade main-slide-carousel" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#mainSlideCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#mainSlideCarousel" data-slide-to="1" class=""></li>
+        <li data-target="#mainSlideCarousel" data-slide-to="2" class=""></li>
+        <li data-target="#mainSlideCarousel" data-slide-to="3" class=""></li>
+        <li data-target="#mainSlideCarousel" data-slide-to="4" class=""></li>
+        <li data-target="#mainSlideCarousel" data-slide-to="5" class=""></li>
+        <li data-target="#mainSlideCarousel" data-slide-to="6" class=""></li>
+        <li data-target="#mainSlideCarousel" data-slide-to="7" class=""></li>
+        <li data-target="#mainSlideCarousel" data-slide-to="8" class=""></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-image-container container-fluid">
+            <div class="carousel-image-wrapper align-items-center">
+              <picture>
+                <!-- WEBP DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-IY0MPGR-YYUAPAC-JPUEI1U-1KRX88Y.webp" type="image/webp">
+                <!-- JPEG DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-jpg-IY0MPGR-YYUAPAC-JPUEI1U-1KRX88Y.png" type="image/jpeg">
+                <!-- DEFAULT DESKTOP -->
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-IY0MPGR-YYUAPAC-JPUEI1U-1KRX88Y.webp" class="homepage-banner banner-desktop" alt="Kirim Paket Nextday dengan Ongkir Lebih Hemat!">
+              </picture>
+            </div>
+          </div>
+          <picture>
+            <!-- WEBP MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-IY0MPGR-YYUAPAC-JPUEI1U-1KRX88Y.webp" type="image/webp">
+            <!-- JPEG MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-jpg-IY0MPGR-YYUAPAC-JPUEI1U-1KRX88Y.png" type="image/jpeg">
+            <!-- DEFAULT MOBILE -->
+            <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-IY0MPGR-YYUAPAC-JPUEI1U-1KRX88Y.webp" class="homepage-banner banner-mobile" alt="Kirim Paket Nextday dengan Ongkir Lebih Hemat!">
+          </picture>
+          <div class="container">
+            <div class="carousel-caption align-items-center">
+              <h5>Kirim Paket Nextday dengan Ongkir Lebih Hemat!</h5>
+              <p>Kirim paket Next day antar Jabodetabek lewat Paxel dengan ongkir lebih hemat mulai dari 13rb saja!</p>
+              <a href="https://paxel.co/id/berita-dan-promo/kirim-paket-nextday-lewat-paxel-ongkir-lebih-hemat?date=2023-02-02" class="btn bg-white btn-primary-paxel text-black"> Kirim Sekarang! <i class="fa fa-long-arrow-right tx-black"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="carousel-image-container container-fluid">
+            <div class="carousel-image-wrapper align-items-center">
+              <picture>
+                <!-- WEBP DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-E4RRRO1-3UKISHW-BDTWSY1-KYGANY2.webp" type="image/webp">
+                <!-- JPEG DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-jpg-E4RRRO1-3UKISHW-BDTWSY1-KYGANY2.png" type="image/jpeg">
+                <!-- DEFAULT DESKTOP -->
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-E4RRRO1-3UKISHW-BDTWSY1-KYGANY2.webp" class="homepage-banner banner-desktop" alt="Join Menjadi Member Paxelin Club 2.0!">
+              </picture>
+            </div>
+          </div>
+          <picture>
+            <!-- WEBP MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-E4RRRO1-3UKISHW-BDTWSY1-KYGANY2.webp" type="image/webp">
+            <!-- JPEG MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-jpg-E4RRRO1-3UKISHW-BDTWSY1-KYGANY2.png" type="image/jpeg">
+            <!-- DEFAULT MOBILE -->
+            <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-E4RRRO1-3UKISHW-BDTWSY1-KYGANY2.webp" class="homepage-banner banner-mobile" alt="Join Menjadi Member Paxelin Club 2.0!">
+          </picture>
+          <div class="container">
+            <div class="carousel-caption align-items-center">
+              <h5>Join Menjadi Member Paxelin Club 2.0!</h5>
+              <p>Kembangkan bisnismu dengan join menjadi Member Paxelin Club! Dapatkan beragam benefit yang meroketkan bisnismu!</p>
+              <a href="https://paxel.co/id/berita-dan-promo/roketkan-bisnismu-dengan-join-menjadi-member-paxelin-club" class="btn bg-white btn-primary-paxel text-black"> Yuk, cek selengkapnya! <i class="fa fa-long-arrow-right tx-black"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="carousel-image-container container-fluid">
+            <div class="carousel-image-wrapper align-items-center">
+              <picture>
+                <!-- WEBP DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-73D5GAT-88W4WHQ-8SVY1QV-YPBOCGI.webp" type="image/webp">
+                <!-- JPEG DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-jpg-73D5GAT-88W4WHQ-8SVY1QV-YPBOCGI.png" type="image/jpeg">
+                <!-- DEFAULT DESKTOP -->
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-73D5GAT-88W4WHQ-8SVY1QV-YPBOCGI.webp" class="homepage-banner banner-desktop" alt="Cobain Kirim dari/ke Area Baru dengan Diskon Ongkir 50%!">
+              </picture>
+            </div>
+          </div>
+          <picture>
+            <!-- WEBP MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-73D5GAT-88W4WHQ-8SVY1QV-YPBOCGI.webp" type="image/webp">
+            <!-- JPEG MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-jpg-73D5GAT-88W4WHQ-8SVY1QV-YPBOCGI.png" type="image/jpeg">
+            <!-- DEFAULT MOBILE -->
+            <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-73D5GAT-88W4WHQ-8SVY1QV-YPBOCGI.webp" class="homepage-banner banner-mobile" alt="Cobain Kirim dari/ke Area Baru dengan Diskon Ongkir 50%!">
+          </picture>
+          <div class="container">
+            <div class="carousel-caption align-items-center">
+              <h5>Cobain Kirim dari/ke Area Baru dengan Diskon Ongkir 50%!</h5>
+              <p>Nikmati promo Diskon Ongkir 50% (Maksimal 10rb) saat kirim paket dari/ke area baru Paxel Agent!</p>
+              <a href="https://paxel.co/id/berita-dan-promo/nikmati-promo-voucher-diskon-ongkir-50-khusus-buat-kamu" class="btn bg-white btn-primary-paxel text-black"> Cek Selengkapnya di Sini! <i class="fa fa-long-arrow-right tx-black"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="carousel-image-container container-fluid">
+            <div class="carousel-image-wrapper align-items-center">
+              <picture>
+                <!-- WEBP DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-2I3LRQ5-X1TGUFQ-0RTINFY-7OT2VFB.webp" type="image/webp">
+                <!-- JPEG DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-jpg-2I3LRQ5-X1TGUFQ-0RTINFY-7OT2VFB.png" type="image/jpeg">
+                <!-- DEFAULT DESKTOP -->
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-2I3LRQ5-X1TGUFQ-0RTINFY-7OT2VFB.webp" class="homepage-banner banner-desktop" alt="Dapetin Cashback 100%!">
+              </picture>
+            </div>
+          </div>
+          <picture>
+            <!-- WEBP MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-2I3LRQ5-X1TGUFQ-0RTINFY-7OT2VFB.webp" type="image/webp">
+            <!-- JPEG MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-jpg-2I3LRQ5-X1TGUFQ-0RTINFY-7OT2VFB.png" type="image/jpeg">
+            <!-- DEFAULT MOBILE -->
+            <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-2I3LRQ5-X1TGUFQ-0RTINFY-7OT2VFB.webp" class="homepage-banner banner-mobile" alt="Dapetin Cashback 100%!">
+          </picture>
+          <div class="container">
+            <div class="carousel-caption align-items-center">
+              <h5>Dapetin Cashback 100%!</h5>
+              <p>Kirim paket #PaxelinAja dengan pembayaran AstraPay dan dapatkan Cashback 100% (Maksimal 20rb)! (*S&amp;K Berlaku)</p>
+              <a href="https://paxel.co/id/berita-dan-promo/dapatkan-cashback-100-dengan-kirim-paket-paxelinaja-bayar-pakai-astrapay?date=2023-02-03" class="btn bg-white btn-primary-paxel text-black"> Cek Selengkapnya di Sini! <i class="fa fa-long-arrow-right tx-black"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="carousel-image-container container-fluid">
+            <div class="carousel-image-wrapper align-items-center">
+              <picture>
+                <!-- WEBP DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-6CHJ46A-DHG5535-0F0UX8G-O87P2QM.webp" type="image/webp">
+                <!-- JPEG DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-jpg-6CHJ46A-DHG5535-0F0UX8G-O87P2QM.png" type="image/jpeg">
+                <!-- DEFAULT DESKTOP -->
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-6CHJ46A-DHG5535-0F0UX8G-O87P2QM.webp" class="homepage-banner banner-desktop" alt="Ada Diskon 50%">
+              </picture>
+            </div>
+          </div>
+          <picture>
+            <!-- WEBP MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-6CHJ46A-DHG5535-0F0UX8G-O87P2QM.webp" type="image/webp">
+            <!-- JPEG MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-jpg-6CHJ46A-DHG5535-0F0UX8G-O87P2QM.png" type="image/jpeg">
+            <!-- DEFAULT MOBILE -->
+            <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-6CHJ46A-DHG5535-0F0UX8G-O87P2QM.webp" class="homepage-banner banner-mobile" alt="Ada Diskon 50%">
+          </picture>
+          <div class="container">
+            <div class="carousel-caption align-items-center">
+              <h5>Ada Diskon 50%</h5>
+              <p>Nikmati Diskon 50% saat kirim dengan layanan yang belum pernah Kamu coba sejak 15 Desember 2022. Diskon berlaku untuk layanan PaxelBig, Instant, PaxelAmplop dan PaxelRecycle. *S&amp;K Berlaku</p>
+              <a href="https://paxel.co/id/berita-dan-promo/promo-paxel-kirim-paket-awal-tahun-spesial-diskon-50" class="btn bg-white btn-primary-paxel text-black"> Cek Selengkapnya di Sini! <i class="fa fa-long-arrow-right tx-black"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="carousel-image-container container-fluid">
+            <div class="carousel-image-wrapper align-items-center">
+              <picture>
+                <!-- WEBP DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-LB6FXOR-5O48GSP-SGAQHII-TIP73JA.webp" type="image/webp">
+                <!-- JPEG DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-jpg-LB6FXOR-5O48GSP-SGAQHII-TIP73JA.png" type="image/jpeg">
+                <!-- DEFAULT DESKTOP -->
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-LB6FXOR-5O48GSP-SGAQHII-TIP73JA.webp" class="homepage-banner banner-desktop" alt="Dapetin BONUS Paxel Credit &amp; Cashback Ongkir!">
+              </picture>
+            </div>
+          </div>
+          <picture>
+            <!-- WEBP MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-LB6FXOR-5O48GSP-SGAQHII-TIP73JA.webp" type="image/webp">
+            <!-- JPEG MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-jpg-E4GUDN8-V0OJQMX-3GVPCK0-767HYRD.png" type="image/jpeg">
+            <!-- DEFAULT MOBILE -->
+            <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-LB6FXOR-5O48GSP-SGAQHII-TIP73JA.webp" class="homepage-banner banner-mobile" alt="Dapetin BONUS Paxel Credit &amp; Cashback Ongkir!">
+          </picture>
+          <div class="container">
+            <div class="carousel-caption align-items-center">
+              <h5>Dapetin BONUS Paxel Credit &amp; Cashback Ongkir!</h5>
+              <p>Yuk, download aplikasi Paxel dan buat akun Paxel-mu sekarang! Dapetin BONUS Paxel Credit 10K dan Cashback Ongkir 50%. (*S&amp;K Berlaku)</p>
+              <a href="https://paxel.co/id/berita-dan-promo/bonus-paxel-credit-hingga-cashback-ongkir-50-buat-pengguna-baru" class="btn bg-white btn-primary-paxel text-black"> Cek Info Detailnya di Sini! <i class="fa fa-long-arrow-right tx-black"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="carousel-image-container container-fluid">
+            <div class="carousel-image-wrapper align-items-center">
+              <picture>
+                <!-- WEBP DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-48DB0U6-EQYT58X-O8PQO3I-MGBCMSU.webp" type="image/webp">
+                <!-- JPEG DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-jpg-48DB0U6-EQYT58X-O8PQO3I-MGBCMSU.png" type="image/jpeg">
+                <!-- DEFAULT DESKTOP -->
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-48DB0U6-EQYT58X-O8PQO3I-MGBCMSU.webp" class="homepage-banner banner-desktop" alt="Berikan Hadiah ke yang Tersayang di Bulan Kasih Sayang">
+              </picture>
+            </div>
+          </div>
+          <picture>
+            <!-- WEBP MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-48DB0U6-EQYT58X-O8PQO3I-MGBCMSU.webp" type="image/webp">
+            <!-- JPEG MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-jpg-48DB0U6-EQYT58X-O8PQO3I-MGBCMSU.png" type="image/jpeg">
+            <!-- DEFAULT MOBILE -->
+            <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-48DB0U6-EQYT58X-O8PQO3I-MGBCMSU.webp" class="homepage-banner banner-mobile" alt="Berikan Hadiah ke yang Tersayang di Bulan Kasih Sayang">
+          </picture>
+          <div class="container">
+            <div class="carousel-caption align-items-center">
+              <h5>Berikan Hadiah ke yang Tersayang di Bulan Kasih Sayang</h5>
+              <p>Kirim hadiahmu untuk orang tersayang dengan #PaxelinAja, ada Sameday delivery, Nextday, Regular, Instant, hingga PaxelBig yang bisa Kamu pilih sesuai keinginanmu.</p>
+              <a href="https://paxel.app.link/kirimsekarangyukk" class="btn bg-white btn-primary-paxel text-black"> Kirim di Sini! <i class="fa fa-long-arrow-right tx-black"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="carousel-image-container container-fluid">
+            <div class="carousel-image-wrapper align-items-center">
+              <picture>
+                <!-- WEBP DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-1SKOJGC-J8PLO1B-DA4TNJU-5UKMAMJ.webp" type="image/webp">
+                <!-- JPEG DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-jpg-1SKOJGC-J8PLO1B-DA4TNJU-5UKMAMJ.png" type="image/jpeg">
+                <!-- DEFAULT DESKTOP -->
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-1SKOJGC-J8PLO1B-DA4TNJU-5UKMAMJ.webp" class="homepage-banner banner-desktop" alt="Rasakan Pengalaman Baru dengan Tampilan Baru PaxelMarket">
+              </picture>
+            </div>
+          </div>
+          <picture>
+            <!-- WEBP MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-1SKOJGC-J8PLO1B-DA4TNJU-5UKMAMJ.webp" type="image/webp">
+            <!-- JPEG MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-jpg-1SKOJGC-J8PLO1B-DA4TNJU-5UKMAMJ.png" type="image/jpeg">
+            <!-- DEFAULT MOBILE -->
+            <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-1SKOJGC-J8PLO1B-DA4TNJU-5UKMAMJ.webp" class="homepage-banner banner-mobile" alt="Rasakan Pengalaman Baru dengan Tampilan Baru PaxelMarket">
+          </picture>
+          <div class="container">
+            <div class="carousel-caption align-items-center">
+              <h5>Rasakan Pengalaman Baru dengan Tampilan Baru PaxelMarket</h5>
+              <p>Yuk, nikmati #JajanBedaKota maupun jualan di PaxelMarket lebih mudah dan cepat langsung dari aplikasi Paxel! </p>
+              <div class="banner-app-download">
+                <a class="banner-app-download-link" href="https://paxel.app.link/DownloadDisiniSekarang" target="_blank">
+                  <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/homepage-play-store-iconHI47JBI-UT22FQI-2YK2I31-G3NNXD5.png" alt="android paxel app">
+                </a>
+                <a class="banner-app-download-link" href="https://paxel.app.link/DownloadDisiniSekarang" target="_blank">
+                  <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/homepage-app-store-icon0ISS8I4-QUKUTFX-61DUE6R-8FLNKLQ.png" alt="ios paxel app">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="carousel-image-container container-fluid">
+            <div class="carousel-image-wrapper align-items-center">
+              <picture>
+                <!-- WEBP DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-B4KATXA-RQ5BY1Y-BWFN73B-8SVRO08.webp" type="image/webp">
+                <!-- JPEG DESKTOP -->
+                <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-jpg-B4KATXA-RQ5BY1Y-BWFN73B-8SVRO08.jpg" type="image/jpeg">
+                <!-- DEFAULT DESKTOP -->
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/desktop-webp-B4KATXA-RQ5BY1Y-BWFN73B-8SVRO08.webp" class="homepage-banner banner-desktop" alt="Jangkauan Luas">
+              </picture>
+            </div>
+          </div>
+          <picture>
+            <!-- WEBP MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-B4KATXA-RQ5BY1Y-BWFN73B-8SVRO08.webp" type="image/webp">
+            <!-- JPEG MOBILE -->
+            <source srcset="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-jpg-B4KATXA-RQ5BY1Y-BWFN73B-8SVRO08.jpg" type="image/jpeg">
+            <!-- DEFAULT MOBILE -->
+            <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/mobile-webp-B4KATXA-RQ5BY1Y-BWFN73B-8SVRO08.webp" class="homepage-banner banner-mobile" alt="Jangkauan Luas">
+          </picture>
+          <div class="container">
+            <div class="carousel-caption align-items-center">
+              <h5>Jangkauan Luas</h5>
+              <p>Paxel sudah menjangkau 12 Provinsi, 82 Kabupaten/Kota, 605 Kecamatan dan 4.447 Desa.</p>
+              <a href="https://paxel.co/id/news-and-promos/area-jangkauan-paxel" class="btn bg-white btn-primary-paxel text-black"> Cek Lokasimu <i class="fa fa-long-arrow-right tx-black"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#mainSlideCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#mainSlideCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!-- End Main Slide -->
+
+
+
+  <!-- Begin Track and Check Rates -->
+
+  <section id="track-check-rates-shipment" class="track-check-rates-shipment">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-5 page-content-adjust" id="track-shipment">
+
+            <div class="card track-shipment-card" style="box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);border-radius: 20px;">
+
+              <h3 class="header-track-shipment-title tx-purple">
+
+                Lacak Pengiriman            </h3>
+
+              <form id="trackshipment-form" class="repeater" data-limit="20" method="POST" action="https://paxel.co/id/lacak-pengiriman">
+
+                <input type="hidden" name="_token" value="GbJsExRw6WfpymANRuKqZC2bxFrRlsdrCpKSN376">              <div class="form-group">
+
+                  <label class="track-shipment-label">
+
+                    <img loading="lazy" src="https://paxel.co/images/icon/two-colored-airway-bill.svg" alt="paxel awb">
+
+                    <span>Kode Pengiriman:</span>
+
+                  </label>
+
+                  <textarea id="awb-text-area" class="form-control airwaybill-code pt-0" style="height:72px" placeholder="EM.XXXXXXXXXX-20XXXXXX-X-XXXXXX
+EM.XXXXXXXXXX-20XXXXXX-X-XXXXXX" name="shipment_code" required="" rows="10"></textarea>
+
+                  <div class="trackship_est_tooltip_home hide-component" id="tooltip-form-validation-awb-field">
+
+                    <p class="title">Tolong Isi Field</p>
+
+                  </div>
+
+                </div>
+
+                <div class="col-md-12 mt-3 track-center pl-0 pr-0">
+
+                  <button id="trackshipment-button" type="submit" name="button" class="hide-component">
+
+                  </button>
+
+                  <a id="track-captcha" class="btn bg-purple btn-primary-paxel text-white disabled" style="cursor:pointer;width: 100%;text-transform: uppercase;">
+
+                  Lacak Pengiriman                </a>
+
+                </div>
+
+                <div class="track-shipment-description">Kamu bisa masukkan maksimal sampai dengan 20 Kode Pengiriman</div>
+
+                <div class="col-12 text-center hide-captcha-track hide-component p-0" style="position: absolute;z-index: 2;left:5%;">
+
+                    <div class="slidercaptcha card margin-captcha-slider-track">
+
+                        <div class="card-header text-left">
+
+                          <div class="row">
+
+                            <div class="col-9 py-2 ml-3 mr-2">Prove you are human :)</div>
+
+                            <div class="col-1 py-2">
+
+                              <i id="refresh-captcha-track" class="fas fa-redo-alt text-right"></i>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                        <div class="card-body">
+
+                            <div id="captcha-track"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+              </form>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-7 page-content-adjust" id="check-rates">
+
+            <div class="card check-rates-shipment-card" style="box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);border-radius: 20px;">
+
+              <h3 class="header-check-rates-shipment-title tx-purple">
+
+                Biaya Pengiriman            </h3>
+
+              <form id="checkrates-form" method="POST" action="https://paxel.co/id/check-rates?#check-rates-result" onsubmit="return validationCheckRates();">
+
+              <input type="hidden" name="_token" value="GbJsExRw6WfpymANRuKqZC2bxFrRlsdrCpKSN376">              <div class="row check-rates-field">
+
+                  <div class="col-md-3 check-rates-field">
+
+                    <div class="form-group">
+
+                      <label class="check-rates-shipment-label">
+
+                        <span>Berat (KG)</span>
+
+                      </label>
+
+                      <div class="input-group">
+
+                        <div class="input-group-prepend">
+
+                          <span class="input-group-text">
+
+                            <img loading="lazy" src="https://paxel.co/images/icon/paxel_icon_parcelbox_small.png" alt="page.wight">
+
+                          </span>
+
+                        </div>
+
+                        <input id="weight" type="number" min="0" max="25" class="form-control no-append" name="weight" aria-label="Enter Weight" placeholder="0">
+
+                        <input type="hidden" id="validation-value" name="validation_value" class="form-control no-spin">
+
+                        <div class="trackship_est_tooltip_home hide-component" id="tooltip-form-validation-weight">
+
+                          <p class="title">Tolong Isi Field</p>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md check-rates-field">
+
+                    <div class="form-group">
+
+                      <label class="check-rates-shipment-label">
+
+                        <span>Lokasi Penjemputan</span>
+
+                      </label>
+
+                      <div class="input-group">
+
+                        <div class="input-group-prepend">
+
+                          <span class="input-group-text">
+
+                            <img loading="lazy" src="https://paxel.co/images/icon/oval_blue.png" alt="Lokasi Penjemputan">
+
+                          </span>
+
+                        </div>
+
+                        <input id="pickup" type="text" class="form-control pac-target-input" name="pickup" aria-label="Enter Pickup Address" placeholder="Penjemputan" autocomplete="off">
+
+                        <input type="hidden" id="zipcode-pickup" name="zipcode_pickup" class="form-control no-spin" value="" placeholder="Enter Zip Code Pickup">
+
+                        <div class="input-group-append">
+
+                          <span class="input-group-text">
+
+                            <img loading="lazy" src="https://paxel.co/images/icon/track.png" alt="Lokasi Penjemputan">
+
+                          </span>
+
+                        </div>
+
+                        <div class="trackship_est_tooltip_home hide-component" id="trackest-tooltip-pickup">
+
+                          <p class="title">Lokasi Diluar Jangkauan</p>
+
+                        </div>
+
+                        <div class="trackship_est_tooltip_home hide-component" id="tooltip-form-validation-pickup">
+
+                          <p class="title">Tolong Isi Field</p>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md check-rates-field">
+
+                    <div class="form-group mb-1">
+
+                      <label class="check-rates-shipment-label">
+
+                        <span>Tujuan</span>
+
+                      </label>
+
+                      <div class="input-group">
+
+                        <div class="input-group-prepend">
+
+                          <span class="input-group-text">
+
+                            <img loading="lazy" src="https://paxel.co/images/icon/oval_red.png" alt="Lokasi Tujuan">
+
+                          </span>
+
+                        </div>
+
+                        <input id="destination" type="text" class="form-control pac-target-input" name="destination" placeholder="Tujuan" aria-label="Enter Destination" aria-describedby="basic-addon1" autocomplete="off">
+
+                        <input type="hidden" id="zipcode-destination" name="zipcode_destination" class="form-control no-spin" value="" placeholder="Enter Zip Code Destination">
+
+                        <div class="input-group-append">
+
+                          <span class="input-group-text">
+
+                            <img loading="lazy" src="https://paxel.co/images/icon/track.png" alt="Lokasi Tujuan">
+
+                          </span>
+
+                        </div>
+
+                        <div class="trackship_est_tooltip_home hide-component" id="trackest-tooltip-destination">
+
+                          <p class="title">Lokasi Diluar Jangkauan</p>
+
+                        </div>
+
+                        <div class="trackship_est_tooltip_home hide-component" id="tooltip-form-validation-destination">
+
+                          <p class="title">Tolong Isi Field</p>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <div id="destination-wrapper" class="form-group mb-1">
+
+                    </div>
+
+                    <input id="destination-counter" autocomplete="false" type="hidden" class="form-control" name="destination_counter" value="0">
+
+                    <a id="add-destination" class="btn add-destination mb-1" style="cursor:pointer;">
+
+                      <span class="add-destination-label">
+
+                        <img loading="lazy" src="https://paxel.co/images/icon/add-new-destination.png" alt="Tambah tujuan">
+
+                        <span>Tambah tujuan</span>
+
+                      </span>
+
+                    </a>
+
+                  </div>
+
+                </div>
+
+                <button id="check-rates-button" type="submit" name="button" class="hide-component">
+
+                </button>
+
+                <a id="check-rates-captcha" class="btn bg-purple btn-primary-paxel text-white mt-3 disabled" style="cursor:pointer;width: 100%;text-transform: uppercase;">
+
+                    Cek Ongkir              </a>
+
+                <div class="check-rates-shipment-description">Kamu bisa masukkan maksimal sampai dengan 3 tujuan</div>
+
+                <div class="col-12 text-center hide-captcha-check-rates hide-component" style="position: absolute;z-index: 2;left:-12%;">
+
+                  <div class="slidercaptcha card margin-captcha-slider-estimate">
+
+                      <div class="card-header text-left">
+
+                        <div class="row">
+
+                          <div class="col-9 py-2 ml-3 mr-2">Prove you are human :)</div>
+
+                            <div class="col-1 py-2">
+
+                              <i id="refresh-captcha-check-rates" class="fas fa-redo-alt text-right"></i>
+
+                            </div>
+
+
+
+                        </div>
+
+                      </div>
+
+                      <div class="card-body">
+
+                          <div id="captcha-check-rates"></div>
+
+                      </div>
+
+                  </div>
+
+                </div>
+
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  <!-- End Track and Check Rates -->
+
+  <!-- Begin Dashboard Paxel -->
+  <section id="infograpic" class="dashboard">
+    <div class="dashboard-counter container">
+      <div class="row h-100 align-items-center">
+        <div class="card dashboard-card align-items-center col-md-12 col-sm-12" style="box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);border-radius: 40px;">
+            <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row align-items-center">
+                  <div class="dashboard-item col-md-12 col-sm-12">
+                    <div class="row">
+                      <div class="col-4 dashboard-col-icon">
+                          <img loading="lazy" src="https://paxel.co/images/content/ic-users.svg" class="dashboard-icon" alt="users">
+                      </div>
+                      <div class="col-8 dashboard-text">
+                        <h4 class="dashboard-heading">Users:</h4>
+                        <h3 class="dashboard-sub-heading tx-purple">2.200.000++</h3>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="dashboard-item col-md-12 col-sm-12">
+                  <div class="row">
+                        <div class="col-4 dashboard-col-icon">
+                        <img loading="lazy" src="https://paxel.co/images/content/ic-shipments.svg" class="dashboard-icon" alt="Pengiriman">
+                        </div>
+                        <div class="col-8 dashboard-text">
+                        <h4 class="dashboard-heading">Pengiriman:</h4>
+                        <h3 class="dashboard-sub-heading tx-purple">18.800.000++</h3>
+                        </div>
+                  </div>
+                  </div>
+                </div>
+                <div class="row align-items-center mb-3">
+                  <div class="dashboard-item col-md-12 col-sm-12">
+                  <div class="row">
+                        <div class="col-4 dashboard-col-icon">
+                        <img loading="lazy" src="https://paxel.co/images/content/ic-ontimedelivery.svg" class="dashboard-icon" alt="Pengiriman Tepat Waktu">
+                        </div>
+                        <div class="col-8 dashboard-text">
+                        <h4 class="dashboard-heading">Pengiriman Tepat Waktu:</h4>
+                    <h3 class="dashboard-sub-heading tx-purple">99,5%</h3>
+                        </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="container">
+                  <div class="dashboard-coverage-content row align-items-center mb-5">
+                    <div class="dashboard-coverage-content-map col-md-12 col-sm-12 text-center p-0">
+                      <img loading="lazy" src="https://paxel.co/images/content/indonesia-map.svg" class="map-image" alt="paxel coverage area">
+                    </div>
+                  </div>
+                  <div class="dashboard-coverage-content row align-items-center">
+                    <div class="dashboard-coverage-content-city col-md-12 col-sm-12 coverage-text">
+                      <h3 class="dashboard-coverage-city-title">Area jangkauan:</h3>
+                      <div class="dashboard-coverage-city tx-purple"> 
+                        <p>
+                          Jakarta - Bogor - Depok - Tangerang - Tangerang Selatan - Ciamis - Pandeglang - Cilegon - Serang - Bekasi - Cikarang - Sukabumi - Garut - Cirebon - Bandung - Bandung Barat - Cimahi - Tasikmalaya - Kuningan - Majalengka - Purwakarta - Subang - Indramayu - Karawang - Semarang - Surakarta - Yogyakarta - Bantul - Sleman - Klaten - Sukoharjo - Solo - Magelang - Purbalingga - Purwokerto - Cilacap - Karanganyar - Tegal - Blora - Pekalongan - Tulungagung - Surabaya - Sidoarjo - Pasuruan - Malang - Jombang - Jember - Ngawi - Gresik - Madiun - Malang -Situbondo - Pare - Kediri - Banyuwangi - Batu - Lumajang - Blitar - Mojokerto - Bondowoso - Banjarnegara - Banyumas - Ponorogo - Mojokerto - Denpasar - Badung - Gianyar - Makassar - Medan - Deli Serdang - Palembang - Lampung - Gowa - Sorong - Batam dan segera di kota lainnya!
+                        </p>
+                      </div>
+                      <a href="https://paxel.co/id/berita-dan-promo/area-jangkauan-paxel" class="btn btn-primary text-center" style="width: 100%; height: 40px; background-color: #5F51A1;">Cek Selengkapnya di Sini</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- End Dashboard Paxel -->
+
+
+
+
+  <!-- Begin Homepage - Our Services -->
+  <section id="our-services" class="header-our-service">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 page-content-adjust">
+          <h3 class="header-our-service-title tx-purple">
+            Layanan Kami          </h3>
+          <p class="masthead-description my-4">Kami akan menambahkan lebih banyak layanan yang lebih sesuai untuk kebutuhanmu</p>
+          <a href="https://paxel.co/id/layanan-kami" target="_blank" class="btn bg-purple btn-primary-paxel">Info lengkap &nbsp;
+          <img loading="lazy" class="icon-arrow" src="https://paxel.co/images/icon/arrow-right-white.svg" alt="Info lengkap">
+          </a>
+        </div>
+        <div class="col-md-8 card-content-ourservice">
+          <div class="row">
+            <div class="col-md-6">
+                          <a href="https://paxel.app.link/CreateShipment" class="text-black-paxel" target="_blank" style="text-decoration: none;">
+                <div class="card ourservice-card col-md-12 col-sm-12 mb-4" style="box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);border-radius: 20px;">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                          <div class="col-3" style="align-self:center;">
+                            <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-KORRTMK-F6044JE-FUFY6DW-UDBQSAJ.png" width="56px" alt="">
+                          </div>
+                          <div class="col-9 mt-2" style="align-self:center;">
+                            <h1 style="font-size: 24px;font-family: unset;font-weight: bold;">
+                            Pengiriman Sameday
+                            </h1>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <p>
+                  Kirim dan terima paket Kamu di hari yang sama, dalam dan luar kota
+                  </p>
+                </div>
+              </a>
+                          <a href="https://paxel.app.link/paxelmarketco" class="text-black-paxel" target="_blank" style="text-decoration: none;">
+                <div class="card ourservice-card col-md-12 col-sm-12 mb-4" style="box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);border-radius: 20px;">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                          <div class="col-3" style="align-self:center;">
+                            <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-8YFO3F0-LJPXCCL-ENY16M6-JLIKB08.png" width="56px" alt="">
+                          </div>
+                          <div class="col-9 mt-2" style="align-self:center;">
+                            <h1 style="font-size: 24px;font-family: unset;font-weight: bold;">
+                            PaxelMarket
+                            </h1>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <p>
+                  Mau jajanan se-Nusantara? Gak perlu keluar rumah, beli aja di aplikasi Paxel
+                  </p>
+                </div>
+              </a>
+                          <a href="https://paxel.app.link/InstantShipment" class="text-black-paxel" target="_blank" style="text-decoration: none;">
+                <div class="card ourservice-card col-md-12 col-sm-12 mb-4" style="box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);border-radius: 20px;">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                          <div class="col-3" style="align-self:center;">
+                            <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-our-service-C3NIA4C-1C27R1L-Y7GV7BH-N142VBG.png" width="56px" alt="">
+                          </div>
+                          <div class="col-9 mt-2" style="align-self:center;">
+                            <h1 style="font-size: 24px;font-family: unset;font-weight: bold;">
+                            Pengiriman Instant
+                            </h1>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <p>
+                  Kirim Paket lebih Gercep hanya dengan estimasi waktu 2 Jam
+                  </p>
+                </div>
+              </a>
+                          <a href="https://paxel.app.link/Recycle" class="text-black-paxel" target="_blank" style="text-decoration: none;">
+                <div class="card ourservice-card col-md-12 col-sm-12 mb-4" style="box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);border-radius: 20px;">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                          <div class="col-3" style="align-self:center;">
+                            <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-our-service-HO6R13F-XX476W4-M36FGY6-DUUDMPS.png" width="56px" alt="">
+                          </div>
+                          <div class="col-9 mt-2" style="align-self:center;">
+                            <h1 style="font-size: 24px;font-family: unset;font-weight: bold;">
+                            PaxelRecycle
+                            </h1>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <p>
+                  Kelola sampah belanja Kamu dengan fitur PaxelRecycle
+                  </p>
+                </div>
+              </a>
+                          <a href="https://paxel.co/id/berita-dan-promo/kenalin-layanan-paxelamplop-untuk-kirim-paket-yang-lebih-hemat" class="text-black-paxel" target="_blank" style="text-decoration: none;">
+                <div class="card ourservice-card col-md-12 col-sm-12 mb-4" style="box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);border-radius: 20px;">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                          <div class="col-3" style="align-self:center;">
+                            <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-our-service-XAEXNN6-KQM6RH7-IGP0QQC-VCQ175U.png" width="56px" alt="">
+                          </div>
+                          <div class="col-9 mt-2" style="align-self:center;">
+                            <h1 style="font-size: 24px;font-family: unset;font-weight: bold;">
+                            PaxelAmplop
+                            </h1>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <p>
+                  Kirim paket maksimal ukuran A4 lebih hemat ke seluruh Pulau Jawa
+                  </p>
+                </div>
+              </a>
+                        </div>
+            <div class="col-md-6">
+                        <a href="https://paxel.app.link/PaxelBox" class="text-black-paxel" target="_blank" style="text-decoration: none;">
+              <div class="card ourservice-card col-md-12 col-sm-12 mb-4" style="box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);border-radius: 20px;">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-3" style="align-self:center;">
+                          <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-AW42IM7-2OCNSTN-FY8C04V-S6BJKLV.png" width="56px" alt="">
+                        </div>
+                        <div class="col-9 mt-2" style="align-self:center;">
+                          <h1 style="font-size: 24px;font-family: unset;font-weight: bold;">
+                          PaxelBox
+                          </h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                  Smart loker untuk simpan/titip barang dan untuk pick-up atau drop-off kiriman
+                  </p>
+                </div>
+              </a>
+                          <a href="https://paxel.app.link/PaxelBigShipment" class="text-black-paxel" target="_blank" style="text-decoration: none;">
+              <div class="card ourservice-card col-md-12 col-sm-12 mb-4" style="box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);border-radius: 20px;">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-3" style="align-self:center;">
+                          <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-0T16TST-SFUMPI6-FPPTADM-OTI6M5B.png" width="56px" alt="">
+                        </div>
+                        <div class="col-9 mt-2" style="align-self:center;">
+                          <h1 style="font-size: 24px;font-family: unset;font-weight: bold;">
+                          PaxelBig
+                          </h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                  Kirim paket hingga berat 20kg dan dimensi hingga 50x50x80 cm? PaxelBig aja
+                  </p>
+                </div>
+              </a>
+                          <a href="https://paxel.app.link/InstantMultidropShipment" class="text-black-paxel" target="_blank" style="text-decoration: none;">
+              <div class="card ourservice-card col-md-12 col-sm-12 mb-4" style="box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);border-radius: 20px;">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-3" style="align-self:center;">
+                          <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-P6KAGQU-QWHLP0T-UKVSFVO-X7YKIBW.png" width="56px" alt="">
+                        </div>
+                        <div class="col-9 mt-2" style="align-self:center;">
+                          <h1 style="font-size: 24px;font-family: unset;font-weight: bold;">
+                          Instant Multidrop
+                          </h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                  Kirim banyak instant paket sekaligus cuma sekali klik
+                  </p>
+                </div>
+              </a>
+                          <a href="https://paxel.app.link/lewatboxarticles" class="text-black-paxel" target="_blank" style="text-decoration: none;">
+              <div class="card ourservice-card col-md-12 col-sm-12 mb-4" style="box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);border-radius: 20px;">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-3" style="align-self:center;">
+                          <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-our-service-FTHD8IX-8IJQ47F-NDFSB31-5NEJ4CJ.png" width="56px" alt="">
+                        </div>
+                        <div class="col-9 mt-2" style="align-self:center;">
+                          <h1 style="font-size: 24px;font-family: unset;font-weight: bold;">
+                          Lew@tBox
+                          </h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                  Cobain cara baru kirim paket tanpa perlu kontak fisik
+                  </p>
+                </div>
+              </a>
+              <a href="https://paxel.co/id/berita-dan-promo/kini-bisa-beli-pulsa-dan-paket-data-di-aplikasi-paxel?date=2022-10-06" class="text-black-paxel" target="_blank" style="text-decoration: none;">
+              <div class="card ourservice-card col-md-12 col-sm-12 mb-4" style="box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);border-radius: 20px;">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-3" style="align-self:center;">
+                          <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-our-service-KNXB01S-LOYS7UP-WSVHH46-1VPRTP8.jpg" width="56px" alt="">
+                        </div>
+                        <div class="col-9 mt-2" style="align-self:center;">
+                          <h1 style="font-size: 24px;font-family: unset;font-weight: bold;">
+                          PPOB
+                          </h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                  Beli pulsa dan paket data gak pake ribet, beli aja di aplikasi Paxel
+                  </p>
+                </div>
+              </a>
+                          </div>
+          </div>
+
+
+        </div>
+        <!-- <div class="col-md-8">
+          <ul class="nav nav-tabs">
+                        <li class="col-4 text-center">
+              <a href="#our-service-0" aria-controls="our-service-0" class="nav-link active" data-toggle="tab" role="tab" aria-selected="true">
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-KORRTMK-F6044JE-FUFY6DW-UDBQSAJ.png" alt="Pengiriman Sameday ">
+                <span class="nav-text">
+                  Pengiriman Sameday
+                </span>
+              </a>
+            </li>
+                        <li class="col-4 text-center">
+              <a href="#our-service-1" aria-controls="our-service-1" class="nav-link " data-toggle="tab" role="tab" aria-selected="true">
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-AW42IM7-2OCNSTN-FY8C04V-S6BJKLV.png" alt="PaxelBox">
+                <span class="nav-text">
+                  PaxelBox
+                </span>
+              </a>
+            </li>
+                        <li class="col-4 text-center">
+              <a href="#our-service-2" aria-controls="our-service-2" class="nav-link " data-toggle="tab" role="tab" aria-selected="true">
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-8YFO3F0-LJPXCCL-ENY16M6-JLIKB08.png" alt="PaxelMarket">
+                <span class="nav-text">
+                  PaxelMarket
+                </span>
+              </a>
+            </li>
+                        <li class="col-4 text-center">
+              <a href="#our-service-3" aria-controls="our-service-3" class="nav-link " data-toggle="tab" role="tab" aria-selected="true">
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-0T16TST-SFUMPI6-FPPTADM-OTI6M5B.png" alt="PaxelBig">
+                <span class="nav-text">
+                  PaxelBig
+                </span>
+              </a>
+            </li>
+                        <li class="col-4 text-center">
+              <a href="#our-service-4" aria-controls="our-service-4" class="nav-link " data-toggle="tab" role="tab" aria-selected="true">
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-our-service-C3NIA4C-1C27R1L-Y7GV7BH-N142VBG.png" alt="Pengiriman Instant">
+                <span class="nav-text">
+                  Pengiriman Instant
+                </span>
+              </a>
+            </li>
+                        <li class="col-4 text-center">
+              <a href="#our-service-5" aria-controls="our-service-5" class="nav-link " data-toggle="tab" role="tab" aria-selected="true">
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-P6KAGQU-QWHLP0T-UKVSFVO-X7YKIBW.png" alt="Instant Multidrop">
+                <span class="nav-text">
+                  Instant Multidrop
+                </span>
+              </a>
+            </li>
+                        <li class="col-4 text-center">
+              <a href="#our-service-6" aria-controls="our-service-6" class="nav-link " data-toggle="tab" role="tab" aria-selected="true">
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-our-service-HO6R13F-XX476W4-M36FGY6-DUUDMPS.png" alt="PaxelRecycle">
+                <span class="nav-text">
+                  PaxelRecycle
+                </span>
+              </a>
+            </li>
+                        <li class="col-4 text-center">
+              <a href="#our-service-7" aria-controls="our-service-7" class="nav-link " data-toggle="tab" role="tab" aria-selected="true">
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-our-service-FTHD8IX-8IJQ47F-NDFSB31-5NEJ4CJ.png" alt="Lew@tBox">
+                <span class="nav-text">
+                  Lew@tBox
+                </span>
+              </a>
+            </li>
+                        <li class="col-4 text-center">
+              <a href="#our-service-8" aria-controls="our-service-8" class="nav-link " data-toggle="tab" role="tab" aria-selected="true">
+                <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/icon-our-service-XAEXNN6-KQM6RH7-IGP0QQC-VCQ175U.png" alt="PaxelAmplop">
+                <span class="nav-text">
+                  PaxelAmplop
+                </span>
+              </a>
+            </li>
+                      </ul>
+        </div> -->
+      </div>
+    </div>
+  </section>
+  <!-- End Homepage - Our Services -->
+
+</section>
+
+<!-- Begin Calculate the price -->
+
+<!-- Articles Homepage Section -->
+<section id="articles-update" class="articles-update">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h3 class="articles-title-banner-homepage"> Pembaruan </h3>
+        <p class="articles-desc-banner-homepage">Temukan update terbaru dari tim kami</p>
+        <a href="https://paxel.co/id/berita-dan-promo" class="articles-button-banner-homepage btn bg-purple btn-primary-paxel">
+          <span class="articles-button-desc-banner-homepage"> Lebih Banyak <img loading="lazy" class="articles-button-desc-arrow-banner-homepage" src="/images/icon/arrow-right-white.svg" alt="arrow-right-white" style="margin-bottom: 6px;">
+          </span>
+        </a>
+      </div>
+      <div class="col-md-9">
+        <a href="https://paxel.co/id/berita-dan-promo/info-pengiriman-ke-sidoarjo-dan-sebaliknya-pada-masa-kegiatan-acara-puncak-1-abad-nu" style="color: inherit; text-decoration:none;">
+          <div class="card" style="margin-bottom: 10px; padding: 12px 20px; border-radius: 8px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06); background-color: #ffffff;">
+            <div class="card-body" style="">
+              <div class="row">
+                <div class="col-md-2 col-4">
+                  <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/article-RB5X1LM-B4RLBOB-I0R2A54-W44S1J5.png" alt="Info Pengiriman ke Sidoarjo dan Sebaliknya pada Masa Kegiatan Acara Puncak 1 Abad NU" onerror="this.onerror=null;this.src='/images/content/no-data.png';" class="img-articles-homepage">
+                </div>
+                <div class="col-md-8 col-8">
+                  <h5 class="articles-homepage-title">Info Pengiriman ke Sidoarjo dan Sebaliknya pada Masa Kegiatan Acara Puncak 1 Abad NU</h5>
+                  <div class="articles-homepage-desc">Buat #SahabatPaxel yang mau kirim paket dari atau ke Sidoarjo, wajib simak info penting satu ini. Terkait dengan adanya kegiatan acara Puncak Satu Abad Nahdlatul Ulama (NU) di Sidoarjo, pengiriman paketmu dari/ke Sidoarjo pada 7 Februari 2023 berpotensi mengalami keterlambatan hingga H+1. Di mana acara Puncak Satu Abad Nahdlatul Ulama (NU) akan dilaksanakan pada 7 Februari 2023 yang berlangsung selama hampir 24 jam mulai pukul 00:00-23:45 WIB. Melansir dari detikJatim, guna memperlancar acara tersebut polisi akan menerapkan rekayasa lalu lintas dengan cara melakukan pengalihan arus kendaraan di 8 titik dan melakukan penutupan dua jalan, yakni Jalan Ponti dan Jalan Pahlawan. Paxel tentu akan selalu berusaha semaksimal mungkin dalam memberikan pelayanan yang terbaik kepada seluruh #SahabatPaxel. Yuk, tetap semangat kirim paket ke orang tersayang dengan #PaxelinAja! Jika Kamu memiliki pertanyaan seputar pengiriman paket bisa menghubungi Hera (Asisten Chat Paxel) dengan mudah melalui aplikasi Paxel pada menu “Contact Us/Hubungi Kami”, website Paxel.co atau WebApp sahabat.paxel.co pada pukul 08:30-22:00 WIB. Baca Juga: Jam Pick-up Pengiriman Sameday Makin Panjang pada Rute Ini! </div>
+                </div>
+                <div class="col-md d-none d-sm-block">
+                  <div class="text-right articles-homepage-date"> 06 Feb 2023 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="https://paxel.co/id/berita-dan-promo/area-jangkauan-paxel" style="color: inherit; text-decoration:none;">
+          <div class="card" style="margin-bottom: 10px; padding: 12px 20px; border-radius: 8px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06); background-color: #ffffff;">
+            <div class="card-body" style="">
+              <div class="row">
+                <div class="col-md-2 col-4">
+                  <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/article-GLJ6YYU-K4NNY78-IG0X456-XPVBF5X.jpg" alt="Area Jangkauan Paxel Sameday" onerror="this.onerror=null;this.src='/images/content/no-data.png';" class="img-articles-homepage">
+                </div>
+                <div class="col-md-8 col-8">
+                  <h5 class="articles-homepage-title">Area Jangkauan Paxel</h5>
+                  <div class="articles-homepage-desc">Kamu yang suka kirim-kirim paket lewat Paxel, yuk kepoin coverage Paxel di 12 Provinsi, 82 Kabupaten/Kota, 605 Kecamatan dan 4.447 Desa di Jawa - Bali - Sulawesi - Sumatera berikut!Untuk lebih lengkapnya, langsung cek alamat kirim dan tujuanmu lewat aplikasi Paxel di sini ya.Kabupaten/KotaKecamatanKota Jakarta UtaraCilincing Danau Sunter Dll Kelapa Gading Koja Pademangan Penjaringan Tanjung PriokKota Jakarta TimurCakung Cipayung Ciracas Duren Sawit Jatinegara Kramatjati Makasar Matraman Pasar Rebo PulogadungKota Jakarta SelatanCilandak Jagakarsa Kebayoran Baru Kebayoran Lama Mampang Prapatan Pancoran Pasar Minggu Pesanggrahan Setiabudi TebetKota Jakarta PusatCempaka Putih Gambir Johar Baru Kemayoran Menteng Sawah Besar Senen Tanah AbangKota Jakarta BaratCengkareng Grogol Petamburan Kalideres Kebon Jeruk Kembangan Pal Merah Taman Sari TamboraKota BogorBogor Barat Bogor Selatan Bogor Tengah Bogor Timur Bogor Utara Tamansari Tanah SarealKab. BogorBabakan Madang Bojong Gede Caringin Ciampea Ciawi Cibinong Cigombong Cijeruk Cileungsi Ciomas Citeureup Dramaga Gunung Putri Megamendung SukarajaKota DepokBeji Bojongsari Cilodong Cimanggis Cinere Cipayung Limo Pancoran Mas Sawangan Sukmajaya TaposKota TangerangBatuceper Benda Cibodas Ciledug Cipondoh Jatiuwung Karang Tengah Karawaci Larangan Neglasari Periuk Pinang TangerangKab. TangerangCikupa Cisauk Curug Kelapa Dua Pagedangan Pasar Kemis Sindang JayakosambiRajegPanonganTigaraksaSepatanSepatan TimurLegok Kota Tangerang SelatanCiputat Ciputat Timur Pamulang Pondok Aren Serpong Serpong Utara SetuKota BekasiBantar Gebang Bekasi Barat Bekasi Selatan Bekasi Timur Bekasi Utara Jati Sempurna Jatiasih Medan Satria Mustika Jaya Pondok Gede Pondok Melati Rawa LumbuKab. BekasiBabelan Cikarang Barat Cikarang Pusat Cikarang Selatan Cikarang Timur Cikarang Utara Serang Baru Setu Sukatani Tambun Selatan Tambun Utara TarumajayaKota BandungAndir Antapani Arcamanik Astana Anyar Babakan Ciparay Bandung Kidul Bandung Kulon Bandung Wetan Batununggal Bojongloa Kaler Bojongloa Kidul Buahbatu Cibeunying Kaler Cibeunying Kidul Cibiru Cicendo Cidadap Cinambo Coblong Gedebage Kiaracondong Lengkong Mandalajati Panyileukan Rancasari Regol Sukajadi Sukasari Sumur Bandung Ujung BerungBandungBaleendah Bojongsoang Cilengkrang Cileunyi Cimenyan Dayeuhkolot Margaasih MargahayuSoreangBandung BaratCisarua Lembang Ngamprah Padalarang ParongpongKabupaten Bandung BaratParongpongKabupaten BandungBaleendah Dayeuhkolot MargaasihKota CimahiCimahi Selatan Cimahi Tengah Cimahi UtaraKota CirebonHarjamukti Kejaksan Kesambi Lemah Wungkuk PekalipanKota SukabumiBaros Cibeureum Cikole Citamiang Gunung Puyuh Lembursitu WarudoyongKab. SukabumiCisaatSukabumiSukarajaKota TasikmalayaBungursari Cibeureum Cihideung Cipedes Indihiang Kawalu Mangkubumi Purbaratu Tamansari TawangSingaparnaCiamisCiamisGarutBanyuresmiCilawuKarangpawitanPurwakarta (belum bisa kirim makanan)PurwakartaBabakancikaoBungursariSubang (belum bisa kirim makanan)SubangIndramayuIndramayuMajalengkaMajalengkaKuningan CiawigebangCigugurCilimusCiniruCipicungGarawangiHantaraJalaksanaJaparaKadugedeKramatmulyaKuninganLebakwangiNusaherangSindang AgungKota SerangSerangCilegonCilegonPandeglangPandeglangKarawangKarawangCianjur (belum bisa kirim makanan)CianjurCibeberCilacapCilacap SelatanCilacap TengahCilacap UtaraJeruklegiKesugihanKota SemarangBanyumanik Candisari Gajahmungkur Gayamsari Genuk Gunungpati Mijen Ngaliyan Pedurungan Semarang Barat Semarang Selatan Semarang Tengah Semarang Timur Semarang Utara Tembalang TuguPurworejoBenerPurworejoKota Tegal MargadanaTegal BaratTegal SelatanTegal Timur TegalSlawiKota SoloBanjarsari Jebres Laweyan Pasar Kliwon SerenganKota YogyakartaDanurejan Gedongtengen Gondokusuman Gondomanan Jetis Kotagede Kraton Mantrijeron Mergangsan Ngampilan Pakualaman Tegalrejo Umbulharjo WirobrajanSlemanBerbah Depok Gamping Godean Kalasan Mlati Ngaglik NgemplakKota MagelangMagelang Selatan Magelang Tengah Magelang UtaraMagelangBandongan Borobudur Candimulyo Grabag Mertoyudan Mungkid Muntilan Salaman Sawangan Secang Tegalrejo TempuranKajoranKaliangkrikKlatenPrambananBloraBloraPekalonganPekalonganTemanggungKandangan KeduKrangganParakanTemanggungKaranganyarColomaduBanyumasKembaran Purwokerto Barat Purwokerto Selatan Purwokerto Timur Purwokerto Utara Sokaraja Ledug DukuwaluhBantulBanguntapan Kasihan SewonSukoharjoBaki Grogol Kartasura MojolabanKota SurakartaBanjarsariJebresLaweyanPasar KliwonSerenganBondowosoBondowoso Grujugan Jambesari Darus Sholah Maesan TamananMojokerto Gedeg JetisMojoanyarPuriSookoKota MojokertoKrangganMagersariPrajurit KulonMojosariBlitarBlitarPurbalinggaKalimanahBojongsariKaligondangPurbalinggaBanjarnegara BanjarmanguBanjarnegaraBawangMadukaraPagedonganSidoarjoBalongbendo Buduran Candi Gedangan Krian Porong Sedati Sidoarjo Sukodono Taman Tanggulangin Tulangan Waru WonoayuSitubondoSitubondoKota PasuruanBugul Kidul GadingrejoPanggungrejoPurworejoPasuruanBangil Beji PandaanGempolNgawiGenengKedunggalarNgawiMantinganParonPituWidodarenMadiunDolopo Geger Jiwan Kebon Sari Madiun Sawahan WunguKota MadiunKartoharjo Manguharjo TamanPonorogoPonorogoSimanSukorejoTulungagungboyolangu kedungwaru tulungagungKota Kediri Mojoroto PesantrenKediriGampengrejo Ngadiluwih NgasemParePareJemberAjung Ambulu Arjasa Balung Bangsalsari Gumukmas Jelbuk Jenggawah Kalisat Kaliwates Pakusari Patrang Puger Rambipuji Semboro Sukorambi Sukowono Sumbersari Tanggul WuluhanLumajangLumajangJombangJombang Kota MalangBlimbing Kedungkandang Klojen Lowokwaru SukunMalangKepanjen Lawang Pakis Pakisaji SingosariKota BatuBatuKota SurabayaAsem Rowo Asemrowo Benowo Bubutan Bulak Dukuhpakis Gayungan Genteng Gubeng Gunung Anyar Jambangan Karangpilang Kenjeran Krembangan Lakarsantri Mulyorejo Pabean Cantikan Pakal Rungkut Sambikerep Sawahan Semampir Simokerto Sukolilo Sukomanunggal Tambaksari Tandes Tegalsari Tenggilis Mejoyo Wiyung Wonocolo WonokromoGresikGresikKebomasManyarBanyuwangiBanyuwangiGiriGlagahKabatKalipuroRogojampiCluringGambiranGenteng SempuMuncarKota Denpasar Denpasar Barat Denpasar Selatan Denpasar TimurDenpasar UtaraDenpasarBadungKuta Kuta Selatan Kuta Utara MengwiAbiansemalGianyarUbudKota MakassarBiringkanaya Bontoala Makasar Mamajang Manggala Mariso Panakukkang Rappocini Tallo Tamalanrea Tamalate Ujung Pandang Ujung Tanah WajoGowaSomba Opu (Upu)Kota MedanMedan Amplas Medan Area Medan BaratMedan Deli Medan Baru Medan DenaiMedan Helvetia Medan Johor Medan Kota Medan Maimun Medan Perjuangan Medan Petisah Medan Polonia Medan Selayang Medan Sunggal Medan TimurMedan TuntunganDeli SerdangPercut Sei TuanSunggalKota Bandar Lampung PanjangRajabasaTajung Senang Tanjungkarang BaratTanjungkarang PusatTanjungkarang TimurTelukbetung BaratTelukbetung SelatanTelukbetung TimurTelukbetung UtaraBumi warasEnggalKedamaianKedatonKemilingLabuhan RatuLangkapuraSukabumiSukarameWay Halim Kota PalembangAlang-Alang LebarBukit KecilGandusIlir Barat IIlir Barat IIIlir Timur IIlir Timur IISeberang Ulu I Seberang Ulu IIKalidoniKemuningKertapatiPlajuSakoSematang Borang SukaramiSorong Sorong </div>
+                </div>
+                <div class="col-md d-none d-sm-block">
+                  <div class="text-right articles-homepage-date"> 06 Feb 2023 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="https://paxel.co/id/pejuang-online/combro-maknyusss-dengan-kemasan-frozen-yang-selalu-dibuat-fresh" style="color: inherit; text-decoration:none;">
+          <div class="card" style="margin-bottom: 10px; padding: 12px 20px; border-radius: 8px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06); background-color: #ffffff;">
+            <div class="card-body" style="">
+              <div class="row">
+                <div class="col-md-2 col-4">
+                  <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/article-1B7VOMT-22GLXKQ-67G56FQ-VP1IB4G.jpg" alt="Combro Maknyusss dengan Kemasan Frozen yang Selalu Dibuat Fresh" onerror="this.onerror=null;this.src='/images/content/no-data.png';" class="img-articles-homepage">
+                </div>
+                <div class="col-md-8 col-8">
+                  <h5 class="articles-homepage-title">Combro Maknyusss dengan Kemasan Frozen yang Selalu Dibuat Fresh</h5>
+                  <div class="articles-homepage-desc">Mana nih #SahabatPaxel penggemar jajanan Combro? Jajanan tradisional khas Sunda yang punya rasa gurih dan juga pedas. Kini jajanan combro bisa Kamu nikmati di mana dan kapan saja lho dengan tersedia dalam bentuk frozen. Seperti Combro Maknyusss yang selain menyajikan dalam bentuk matang juga berinovasi merilis combro kemasan frozen yang tetap fresh saat dinikmati. Yuk, ikuti kisah perjalanan Chelsia dalam membangun dan mengembangkan bisnis Combro Maknyusss berikut ini. 1. Awal Mula Berdirinya Combro Maknyusss Didirikan pada masa pandemi di tahun 2020, Combro Maknyusss berawal dengan menawarkan combro buatan orang tua Chelsia kepada teman-temannya. “Orang tua saya gemar membuat cemilan di rumah, salah satunya combro. Kami mencoba menawarkan dari teman ke teman produk combro kami ternyata cukup digemari,” ucap Chelsia, pemilik Combro Maknyusss. Lalu, Chelsia mulai menawarkan produknya secara online melalui marketplace, salah satunya PaxelMarket. Saat ini Combro Maknyusss telah memiliki online outlet di beberapa area Jakarta. “Kami memiliki 3 online outlet, di Kelapa Gading, Gandaria &amp;amp; Kemang (coming soon). Lokasi produksi kami masih di Kelapa Gading,” jelasnya. Baca Juga: Cumi Hitam Madura Pak Kris, Dari Pre-Order hingga Punya Banyak Cabang2. Asal Usul Nama Combro Maknyusss Nama combro Maknyusss ditemukan oleh sang owner yang sesuai dengan produknya dan tetap menarik. “dimana waktu mencari nama yang sesuai untuk produk dan brand, kami usahakan tetap menarik, namun tetap mempertahankan aspek tradisional dan cita rasa yang enak. Oleh karena itu nama Maknyusss muncul,” terang Chelsia. Berbeda dengan penjual combro pada umumnya, Chelsia merintis produk combro dengan dikemas spesial dan memliki varian produk dalam bentuk frozen sehingga dapat dinikmati di mana dan kapan saja. “Combro ini cemilan tradisional yang khas berasal dari Jawa Barat. Hanya saja combro yang ada di pasaran pada saat ini belum secara spesial dikemas dan diproduksi oleh penjual2 lainnya. Kami juga merintis produk combro frozen yang pada awalnya belum dijual di pasaran,” terangnya. 3. Awal Mula Menemukan Resep Produk Resep combro Maknyusss berawal dari camilan yang dibuat oleh orang tua Chelsia, lalu Chelsia mencoba menemukan resep yang pas untuk diproduksi berdasarkan feedback dari orang terdekatnya dan juga pelanggannya. “Lalu, owner mencoba trial and error beberapa kali berdasarkan feedback dari keluarga, teman maupun customer pada awalnya hingga kami mendapatkan resep yang kami anggap sudah ok untuk dijadikan patokan produksi,” jelasnya. 4. Rahasia Dalam Mempertahankan Kualitas Produk Dalam mempertahankan kualitas produk, Chelsia memilih bahan baku yang berkualitas, menjaga kebersihan area produksi hingga terjun langsung mengawasi proses produksi. “Dimulai dari pemilihan bahan baku yang berkualitas, yang fresh dan langsung diproduksi. Kebersihan area produksi juga harus selalu terjaga. Owner hingga saat ini masih terus terjun untuk mengawasi proses produksi,” terangnya. 5. Tips Menghadapi Tantangan selama Berbisnis Konsisten dan berusaha untuk terus berkembang menjadi kunci bagi Chelsia dalam menghadapi tantangan selama berbisnis. “Segala usaha harus terus menerus ditekuni, tetap dijalankan dengan konsisten dan berupaya untuk terus berkembang lebih dan lebih,” ucapnya. Dalam mengembangkan usaha Combro Maknyusss, Chelsia mengatakan ingin memperluas penjualan produknya di Jabodetabek dan luar Indonesia (khususnya Pulau Jawa). “Kemudian kami sedang dalam tahap meningkatkan packaging produk frozen kami agar lebih baik lagi,” lanjutnya. Baca Juga: Roketkan Bisnismu dengan Join Menjadi Member Paxelin Club 6. Cara Mengemas dan Menyimpan Stok Produk Combro maknyusss menyajikan produk yang siap santap dan juga dalam bentuk kemasan frozen yang selalu fresh dengan memperhitungkan produksi harian. “Kebanyakan produk kami dibuat fresh baru dibekukan sehingga kami selalu berusaha memberikan produk yang terbaru walaupun sudah dikemas frozen. Pada dasarnya kami selalu ada perhitungan produksi harian sehingga produk frozen kami pun selalu fresh dan tidak pernah tersimpan lama dalam freezer,” ucapnya. Baca Juga: Penanganan Khusus Pengiriman Paket Frozen Food Dalam menjaga pelanggan tetap setia, meningkatkan packaging dan kemasan produk menjadi salah satu cara yang perlu dilakukan. “Kualitas dan rasa harus diperhatikan agar tetap konsisten disamping juga meningkatkan packaging dan kemasan produk,” jelasnya. Selain combro, Combro Maknyusss memiliki beragam produk mulai dari misro, yambro, yambro mala, arem-arem, pepes, teri kacang, nasi bakar dan krupuk amplang. 7. Cara Mempromosikan Produk Combro Maknyusss Chelsia mengatakan bahwa produknya lebih banyak dipromosikan melalui media sosial seperti Instagram dan juga berbagai Marketplace maupun Layanan pesan antar makanan. Disamping itu, ia juga memasarkan produknya dengan membuka cabang online outlet dan memiliki Reseller. “Kami hanya memiliki cabang outlet di Gandaria dan Tanjung Duren (akan pindah ke Kemang soon). Untuk Reseller kami juga ada di Surabaya,” jawabnya. Baca Juga: Kue Keranjang Sin Phing yang Eksis Lebih dari Dua Dekade 8. Suka dan Duka dalam Menjalankan Bisnis Produk yang disukai pelanggan dan mendapatkan feedback positif merupakan kepuasan tersendiri bagi Chelsia dalam menjalankan bisnisnya. “Owner selalu giat berusaha untuk belajar dan mencoba mengembangkan usaha dari nol untuk dapat berjalan lebih pesat lagi ke depannya.Merupakan kepuasan bagi kami apabila produk kami mendapatkan feedback yang positif dari para customer kami,” jelasnya. Tak semata-mata hanya mencari keuntungan, proses menjadi lebih baik selama menjalankan bisnis adalah hal terpenting bagi Chelsia selama menjalankan bisnis. “Berbisnis tidak hanya semata-mata untuk mencari keuntungan semaksimal mungkin, tapi bagaimana kami belajar dan berkembang untuk menjadi lebih baik lagi hari demi hari. Tidak semua outlet yang kami buka juga selalu ramai dibeli pengunjung, tidak semua juga memberikan feedback yang baik, namun juga ada banyak customer yang terus menjadi pelanggan dan terus memberikan feedback yang baik,” jelasnya. Itulah perjalanan kisah Combro Maknyusss dalam membangun dan mengembangkan bisnisnya yang dimulai sejak masa pandemi lalu. Kamu bisa nikmati Combro Maknyusss dengan order online di PaxelMarket pada aplikasi Paxel. Nikmati ongkir FLAT 10rb sampai berat 5 kg se-Jawa dan Bali. Ikuti juga perjalanan Seller #PejuangOnline lainnya dalam membangun dan mengembangkan bisnisnya. Baca Juga: Nambah Cuan dari Rumah dengan Join Program Dropshipper JUARA PaxelMarket</div>
+                </div>
+                <div class="col-md d-none d-sm-block">
+                  <div class="text-right articles-homepage-date"> 05 Feb 2023 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="https://paxel.co/id/berita-dan-promo/panduan-upload-produk-di-paxelmarket" style="color: inherit; text-decoration:none;">
+          <div class="card" style="margin-bottom: 10px; padding: 12px 20px; border-radius: 8px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06); background-color: #ffffff;">
+            <div class="card-body" style="">
+              <div class="row">
+                <div class="col-md-2 col-4">
+                  <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/article-XHBBEMW-VMV0VMX-WRJ5L62-T6MKGLL.jpg" alt="Panduan Upload Produk di PaxelMarket" onerror="this.onerror=null;this.src='/images/content/no-data.png';" class="img-articles-homepage">
+                </div>
+                <div class="col-md-8 col-8">
+                  <h5 class="articles-homepage-title">Panduan Upload Produk di PaxelMarket</h5>
+                  <div class="articles-homepage-desc">Hai Seller! Untuk bisa berjualan lebih cuan dan mempermudah pembeli untuk segera order produk di tokomu, yuk ikuti langkah-langkah beserta penjelasan mengenai panduan upload produk di PaxelMarket yang baik dan benar.CARA BUAT PRODUK BARU1. Buka aplikasi Paxel, klik menu PaxelMarket2. Klik Profil3. Klik Ke Akun Toko4. Klik Produk5. Klik Buat Produk Baru6. Klik icon + pada Foto Produk untuk upload foto produkKetentuan foto produk yang baik dan benar:Ukuran foto produk adalah adalah 1:1 (square). Dengan size minimum 400x400 pixel dan 50 kB, dan size maksimum 100 kBPanduan pemilihan foto produk:1. Resolusi dan ukuran foto produk harus proporsional dan tidak stretched secara horizontal ataupun vertikal2. Foto produk harus jelas dan tidak terlihat pudar / kabur3. Jika ingin menampilkan logo toko, maka tampilkan di pojok kanan / kiri di atas / bawah dengan ukuran yang kecil dan tidak menutup tampilan produk4. Tidak diperkenankan untuk menampilkan logo lainnya pada foto produk5. Tidak diperkenankan untuk menampilkan nomor telepon merchant pada gambar produk6. Warna pada produk harus terlihat jelas (tidak ada bayangan)7. Edit Nama ProdukKetentuan penamaan produk yang baik dan benar:Penamaan produk mengandung: merek produk + kategori / tipe produk + khas / asal daerah + nama tokoMaksimal penamaan adalah 80 karakter termasuk spasi. Jika ada penamaan yang melebihi limit, prioritaskan merek produk, kategori / tipe produk, dan nama tokoPenamaan item tidak boleh disingkat (Spikoe Resep Kuno menjadi Spkoe, Kartika Sari menjadi KS). Untuk khas / asal daerah bisa menggunakan kata ganti Asli, Dari, Khas Contoh penamaan produk yang salah:1. Spikoe Resep Kuno2. KS Brownies Panggang OriContoh penamaan produk yang benar:1. Spikoe Resep Kuno Bolu Lapis Reguler Asli Surabaya Jastip Kuliner Nusantara2. Kartika Sari Brownies Panggang Original Asli Bandung Jastip Kuliner NusantaraUntuk produk non-halal, maka template penulisan nama produk menjadi: [Non-Halal] merek produk + kategori / tipe produk + khas / asal daerah + nama toko. Contoh: [Non-Halal] Babi Guling Karya Rebo Panggang Khas Bali Babi Guling Karya Rebo8. Edit Deskripsi ProdukDeskripsi produk perlu ditulis dengan baik dan benar supaya pembeli tidak bingung dan jelas saat ingin order produk. Berikut untuk template penulisan deskripsi produk yang baik dan benar:Deskripsi singkat produk, contoh: Cookies bar yang diproses dengan cara dipanggang. Memiliki rasa khas coklat bertekstur lembut, padat, disertai potongan almond. Barang dijamin freshMasa layak konsumsi, contoh: Masa layak konsumsi 7 hari suhu ruang sejak diproduksi atau dikirimDetail ukuran atau jumlah produk, contoh: 1 box berbentuk persegi panjang berukuran 33x14x7 cmKemasan, contoh: Kemasan menggunakan mika makanan, berlapis bubble wrap, dan kardus.9. Tentukan Kategori Produk dengan klik Pilih Kategori10. Pilih kategori yang paling sesuai dengan produk Kamu, contoh dalam hal ini “Makanan Segar”11. Pilih sub kategori yang paling sesuai, contoh dalam hal ini “Buah”12. Klik Gunakan Kategori13. Jika produk Kamu tidak memiliki varian, maka kosongi / lewati pengisian Varian Produk. Lalu langsung masukkan Harga, Harga Setelah Diskon (opsional), dan Stok14. Jika produk Kamu memiliki varian, maka klik Tambah Varian15. Edit Varian Produk, lalu klik tombol + Untuk produk varian, penamaan pada Varian Produk mengandung maksimal 20 karakter. Misal: Paket A, Paket B, Paket C, dst. Atau, Keju, Coklat, Mocha, Nanas, dst16. Lengkapi Stok, Harga, dan Harga Setelah Diskon (opsional)17. Ulangi cara 15 dan 16 untuk menambah varian produk lainnya17. Klik Simpan Varian18. Klik Atur untuk memasukkan Berat &amp;amp; Dimensi produk19. Lengkapi Berat, Panjang, Lebar, dan Tinggi produk, lalu klik Simpan20. Klik Tampilkan Produk untuk menayangkan produk di PaxelMarket. Jika produk ingin di-draft lebih dulu, maka klik Simpan21. Selasai! Produk tokomu berhasil dipasang dan bisa ditemukan oleh pembeli di PaxelMarket aplikasiUBAH PRODUK DIPASANG MENJADI DISIMPANJika Kamu ingin mengubah status produk yang Dipasang menjadi Disimpan, maka yang perlu dilakukan adalah:1. Lakukan cara 1, 2, 3, dan 4 seperti yang sudah dijelaskan pada CARA BUAT PRODUK BARU2. Pada bagian Dipasang, klik icon titik tiga pada produk yang ingin diubah status menjadi Disimpan3. Klik Arsipkan4. Yeay! Status produk berhasil diubah menjadi DisimpanUBAH PRODUK DISIMPAN MENJADI DIPASANGJika Kamu ingin mengubah status produk yang Disimpan menjadi Dipasang, maka yang perlu dilakukan adalah:1. Lakukan cara 1, 2, 3, dan 4 seperti yang sudah dijelaskan pada CARA BUAT PRODUK BARU2. Pada bagian Disimpan, klik tombol Pasang pada produk yang ingin diubah status menjadi Dipasang3. Yeay! Status produk berhasil diubah menjadi DipasangCARA EDIT DETAIL PRODUK YANG SUDAH DIUPLOAD1. Lakukan cara 1, 2, 3, dan 4 seperti yang sudah dijelaskan pada CARA BUAT PRODUK BARU2. Klik produk yang ingin diedit informasinya3. Ubah informasi produk yang Kamu inginkan dengan langkah seperti CARA BUAT PRODUK BARU. Jika sudah, klik Simpan ProdukCARA UBAH HARGA &amp;amp; STOK PRODUK DENGAN CEPAT1. Lakukan cara 1, 2, 3, dan 4 seperti yang sudah dijelaskan pada CARA BUAT PRODUK BARU2. Klik tombol Edit Harga &amp;amp; Stock pada produk yang Kamu ingin ubah3. Update Stok, Harga, dan Harga Setelah Diskon (opsional). Lalu klik Simpan VarianNah, demikian langkah-langkah dan penjelasan terkait panduan upload produk di PaxelMarket via aplikasi Paxel. Buat Kamu yang sebelumnya sudah upload produk, yuk segera cek kembali mengenai foto, penamaan, hingga deskripsi, dan informasi lainnya dari produk di tokomu sesuai dengan panduan di atas supaya mudah ditemukan di pencarian produk PaxelMarket dan membantu pembeli untuk segera menentukan produk di keranjang belanjanya!</div>
+                </div>
+                <div class="col-md d-none d-sm-block">
+                  <div class="text-right articles-homepage-date"> 05 Feb 2023 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="https://paxel.co/id/berita-dan-promo/roketkan-bisnismu-dengan-join-menjadi-member-paxelin-club" style="color: inherit; text-decoration:none;">
+          <div class="card" style="margin-bottom: 10px; padding: 12px 20px; border-radius: 8px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06); background-color: #ffffff;">
+            <div class="card-body" style="">
+              <div class="row">
+                <div class="col-md-2 col-4">
+                  <img loading="lazy" src="https://s3-ap-southeast-1.amazonaws.com/paxelbucket/revamp/article-DYQHXEA-R6OX4AH-3ULKSN5-2RSCIA6.jpg" alt="Roketkan Bisnismu dengan Join Menjadi Member Paxelin Club 2.0" onerror="this.onerror=null;this.src='/images/content/no-data.png';" class="img-articles-homepage">
+                </div>
+                <div class="col-md-8 col-8">
+                  <h5 class="articles-homepage-title">Roketkan Bisnismu dengan Join Menjadi Member Paxelin Club</h5>
+                  <div class="articles-homepage-desc">[Update] Online Seller yang ingin bisnisnya semakin meroket wajib merapat buat tau info satu ini! Paxelin Club 2.0 akan segera hadir dengan berbagai benefit yang membantu mengembangkan bisnis UMKM. Paxelin Club 2.0 sendiri adalah loyalty program yang diperuntukkan bagi seluruh UMKM pengguna Paxel. Baca Juga: Ketahui 5 Ciri-ciri Peluang Usaha yang Baik dan Potensial Sebelum Memulai Bisnis Kamu bisa melakukan pembelian membership Paxelin Club 2.0 mulai dari 28 Januari 2023. Saat ingin melakukan pembelian membership, pastikan aplikasi Paxel-mu sudah terupdate ke versi terbaru 2.16. Penawaran diperpanjang, beli paket membership Paxelin Club 2.0 di tanggal 4-12 Februari 2023, dapatkan Cashback 15% dan GRATIS Asuransi Kesehatan. Sama seperti versi sebelumnya, Paxelin Club 2.0 memiliki dua pilihan paket member yang dapat Kamu pilih, yaitu paket Member Gold dan Silver. Masing-masing paket member tersebut memiliki biaya berlangganan yang berbeda dengan rangkaian benefit yang tentunya menguntungkan bisnismu. Kamu bisa membeli paket Silver seharga Rp 300.000 atau paket Gold seharga Rp 900.000 dengan keduanya memiliki masa aktif 12 bulan. Berikut ini beragam benefit yang bisa Kamu dapatkan saat menjadi member Paxelin Club. Benefit Paxelin Club 2.0 Silver Untuk Bisnismu Exclusive Welcome Kit Foto produk profesional Harga spesial peralatan bisnis Harga spesial bahan baku Diskon 7% (khusus pembayaran dengan Paxel Credit dan untuk servis Sameday, Next Day, atau Regular) Benefit Paxelin Club 2.0 Gold Untuk Bisnismu Exclusive Welcome Kit Exclusive video &amp;amp; foto produk profesionalHarga spesial peralatan bisnisHarga spesial bahan bakuMenjadi merchant PaxelMarketJoin dalam event #AntarkanKebaikanCustomer service pribadiHero khususDiskon 15% (khusus pembayaran dengan Paxel Credit dan untuk servis Sameday, Next Day, atau Regular) Menarik banget, bukan, buat bisnismu saat menjadi Member Paxelin Club? Yuk, gabung menjadi member Paxelin Club untuk bisnismu semakin meroket dengan beragam benefit yang menguntungkan bisnis. Kamu bisa cek info Paxelin Club 2.0 lebih lengkap di FAQ Paxelin Club di sini, ya.Baca Juga: 5 Cara Menarik Pelanggan Untuk Membeli Produk Bisnis Online-mu</div>
+                </div>
+                <div class="col-md d-none d-sm-block">
+                  <div class="text-right articles-homepage-date"> 04 Feb 2023 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Articles Homepage Section -->
+
+
+
+<!-- <img loading="lazy" class="chat-btn" src="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/images/icon/ic-intercom.png" alt="paxel intercom icon" > -->
+
+</div>
+
+  <div class="bg-dark-purple">
+
+    <div class="container">
+
+       <div class="row">
+
+          <div class="col-md-12 text-center">
+
+          <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+              <i style="color:#555456" class="fas fa-chevron-down"></i>
+
+              </a>
+
+              <div class="collapse" id="collapseExample">
+
+                <div class="card card-body bg-dark-purple text-white text-left text-title-medium" style="font-size:12px">
+                  <p style="text-align: justify; ">
+                    <font color="#ffffff">Paxel adalah jasa pengiriman berbasis teknologi yang berkomitmen menyelesaikan tantangan pengiriman jarak jauh di Indonesia. </font>
+                  </p>
+                  <h5 style="text-align: justify; ">
+                    <b>
+                      <font color="#ffffff">Berbagai Layanan Pengiriman Paxel </font>
+                    </b>
+                  </h5>
+                  <p style="text-align: justify; ">
+                    <font color="#ffffff">Kirim paket dengan beragam Layanan Pengiriman Paxel dalam satu aplikasi Paxel mulai dari layanan pengiriman same day atau <a href="https://paxel.app.link/kirimsekarangyukk" target="_blank">Sameday Delivery</a> antarkota dari Jawa-Bali-Sulawesi-Sumatera dengan ongkir FLAT hingga 5 kg, Pengiriman <a href="https://paxel.app.link/kiriminstantpaxel" target="_blank">Paxel Instant</a> dan <a href="https://paxel.app.link/kirimbanyakdisini" target="_blank">Instant Multidrop</a> untuk kirim paket dalam kota lebih cepat dengan ongkir yang tetap hemat. Serta, layanan pengiriman Nextday dan Regular, <a href="https://paxel.co/id/berita-dan-promo/mengenal-fitur-lewattbox-kirim-paket-dari-paxelbox" target="_blank">Lew@tBox</a> hingga layanan <a href="https://paxel.app.link/kirimbesardanberat" target="_blank">pengiriman PaxelBig</a> untuk pengiriman paket besar sampai berat 20 kg dan maksimal ukuran 80cm (salah satu sisi). </font>
+                  </p>
+                  <p style="text-align: justify; ">
+                    <font color="#ffffff">Kamu juga bisa nikmati layanan pengiriman baru lebih hemat, <a href="https://paxel.co/id/berita-dan-promo/kenalin-layanan-paxelamplop-untuk-kirim-paket-yang-lebih-hemat" target="_blank">PaxelAmplop</a>! Layanan pengiriman paket hingga 1.5 kg dan dimensi maksimal ukuran amplop A4 dengan ongkir FLAT 10rb ke <a href="https://paxel.co/id/berita-dan-promo/seputar-layanan-paxelamplop-cek-jenis-paket-hingga-rutenya" target="_blank"> seluruh Pulau Jawa</a>.&nbsp; </font>
+                  </p>
+                  <p style="text-align: justify;">
+                    <font color="#ffffff"> Jasa pengiriman antar kota Paxel dilengkapi dengan berbagai fitur ciamik, di antaranya fitur <a href="https://paxel.co/id/berita-dan-promo/kirim-makanan-makin-nyaman-dengan-fitur-jaminan-makanan-aman" target="_blank">Jaminan Makanan Aman</a> dan <a href="https://paxel.co/id/berita-dan-promo/penanganan-khusus-pengiriman-paket-frozen-food" target="_blank">penanganan khusus bagi pengiriman Frozen Food</a>, Tracking paket atau lacak paket secara Real Time, <a href="https://paxel.co/id/berita-dan-promo/biaya-pengiriman-flat-paxel-sameday" target="_blank">cek ongkir Paxel</a> atau Same day Delivery dan <a href="https://paxel.co/id/track-shipments" target="_blank">cek resi</a> atau awb. Serta, proses pengiriman yang fleksibel di mana Kamu bisa mengatur waktu pick up dan pengantaran sesuai kebutuhanmu.&nbsp; </font>
+                  </p>
+                  <p style="text-align: justify;">
+                    <font color="#ffffff">Selain membuat pengiriman di aplikasi Paxel, Kamu juga bisa mengunjungi <a href="https://paxel.co/id/berita-dan-promo/cek-paxel-terdekat-ini-daftar-lokasi-paxel-counter-untuk-pengiriman-paket" target="_blank">ekspedisi terdekat (Paxel Counter terdekat)</a> dari lokasimu untuk kirim paket secara langsung. <br>
+                    </font>
+                  </p>
+                  <h5 style="text-align: justify;">
+                    <b>
+                      <font color="#ffffff"> Nikmati Layanan Paxel Lainnya dalam Satu Aplikasi </font>
+                    </b>
+                  </h5>
+                  <p style="text-align: justify;">
+                    <font color="#ffffff"> Nikmati juga beragam layanan Paxel lainnya dalam aplikasi Paxel, seperti smart locker <a href="https://paxel.app.link/PaxelBox" target="_blank">PaxelBox</a> untuk titip dan simpan barang atau paket, <a href="https://paxel.app.link/paxelmarketco" target="_blank">PaxelMarket</a> untuk Wisata Kuliner Indonesia secara online, <a href="https://paxel.co/id/berita-dan-promo/bijak-kelola-sampah-dengan-paxelrecycle-bersama-waste4change" target="_blank">PaxelRecycle</a> yang merupakan layanan penjemputan sampah belanja online untuk dikelola secara maksimal oleh mitra Paxel. Serta, Kini Kamu bisa <a href="https://paxel.co/id/berita-dan-promo/kini-bisa-beli-pulsa-dan-paket-data-di-aplikasi-paxel" target="_blank"> beli pulsa dan paket data</a> dari provider Telkomsel di aplikasi Paxel yang mudah dan banyak promonya!&nbsp;&nbsp; </font>
+                  </p>
+                  <h5>
+                    <b>
+                      <font color="#ffffff"> Nikmati Promo Paxel </font>
+                    </b>
+                  </h5>
+                  <p></p>
+                  <ul>
+                    <li>
+                      <span style="font-size: 11.2px;">
+                        <font color="#ffffff">
+                          <a href="https://paxel.co/id/berita-dan-promo/nikmati-promo-cashback-100-hingga-hadiah-total-25-juta-dengan-astrapay" target="_blank">Dapetin Cashback 100%</a> saat kirim paket pakai Jasa pengiriman Paxel bayar pakai AstraPay hingga <b> Hadiah total 25 Juta</b> khusus pengguna baru AstraPay pada bulan Januari 2023
+                        </font>
+                      </span>
+                    </li>
+                    <li>
+                      <span style="font-size: 11.2px;">
+                        <font color="#ffffff">
+                          <a href="https://paxel.co/id/berita-dan-promo/promo-paxel-kirim-paket-awal-tahun-spesial-diskon-50" target="_blank">Nikmati Diskon 50%</a> saat kirim dengan layanan yang belum pernah Kamu coba sejak 15 Desember 2022
+                        </font>
+                      </span>
+                    </li>
+                    <li>
+                      <span style="font-size: 11.2px;">
+                        <font color="#ffffff">
+                          <a href="https://paxel.co/id/berita-dan-promo/dapetin-bonus-reward-cashback-hingga-165rb-dengan-selesaikan-tantangannya" target="_blank">Dapetin Cashback hingga Rp 165rb</a> dengan selesaikan tantangan pada menu "My Rewards/Hadiah Saya" di aplikasi Paxel&nbsp;
+                        </font>
+                      </span>
+                    </li>
+                    <li>
+                      <font color="#ffffff">Dapetin&nbsp; <font style="">
+                          <a href="https://paxel.co/id/berita-dan-promo/bonus-paxel-credit-hingga-cashback-ongkir-50-buat-pengguna-baru" target="_blank" style="">BONUS Paxel Credit 10K hingga Cashback Ongkir 50%</a>&nbsp;de
+                        </font>ngan install dan login aplikasi Paxe <span style="font-size: 11.2px;">
+                          <br>
+                        </span>
+                      </font>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+          </div>
+
+       </div>
+
+    </div>
+
+  </div>
+
+
+
+  <footer class="bg-dark-purple">
+
+<div class="container">
+
+<div class="footer-menu-wrapper">
+
+  <div class="footer-menu">
+
+    <div class="link-container caption-link-bold">
+
+      <a href="https://paxel.co/id/tentang-kami">Tentang Paxel</a>
+
+    </div>
+
+    <div class="link-container caption-link-bold">
+
+      <a href="https://paxel.co/id/layanan-kami">Layanan Kami</a>
+
+    </div>
+
+    <div class="link-container caption-link-bold">
+
+      <a href="https://paxel.co/id/berita-dan-promo">Berita & Promo</a>
+
+    </div>
+
+    <div class="link-container caption-link-bold">
+
+      <a href="https://paxel.co/id/antarkan-kebaikan">#AntarkanKebaikan</a>
+
+    </div>
+
+  </div>
+
+  <div class="footer-menu">
+
+    <div class="link-container caption-link-bold">
+
+      <a href="https://paxel.co/id/kemitraan">Tentang Kemitraan</a>
+
+    </div>
+
+              <div class="link-container">
+
+                    <a href="https://customer.paxel.co" target="_blank" class="text-capitalize">Corporate</a>
+
+                  </div>
+
+              <div class="link-container">
+
+                    <a href="https://paxel.co/id/mitrapaxel" class="text-capitalize">Mitra PaxelCo</a>
+
+                  </div>
+
+              <div class="link-container">
+
+                    <a href="https://paxelbig.paxel.co" target="_blank" class="text-capitalize">PaxelBig</a>
+
+                  </div>
+
+              <div class="link-container">
+
+                    <a href="https://paxelbox.paxel.co" target="_blank" class="text-capitalize">PaxelBox</a>
+
+                  </div>
+
+          </div>
+
+  <div class="footer-menu">
+
+    <div class="link-container caption-link-bold">
+
+      <a href="https://paxel.co/id/layanan-dan-bantuan">Bantuan</a>
+
+    </div>
+
+    <div class="link-container caption-link">
+
+      <a href="https://paxel.co/id/home?cek_ongkir=true">Cek Ongkir</a>
+
+    </div>
+
+    <div class="link-container caption-link">
+
+      <a href="https://paxel.co/id/lacak-pengiriman">Cek Resi</a>
+
+    </div>
+
+  </div>
+
+  <div class="footer-menu">
+
+    <div class="link-container caption-link-bold">
+
+      <a href="https://paxel.co/id/syarat-dan-ketentuan">Syarat & Ketentuan</a>
+
+    </div>
+
+    <div class="link-container caption-link-bold">
+
+      <a href="https://paxel.co/id/kebijakan-privasi">Kebijakan Privasi</a>
+
+    </div>
+
+  </div>
+
+  <div class="footer-menu social-container footer-menu-100">
+
+    <div>Ikuti Kami</div>
+
+    <div class="social-wrapper mt-2">
+
+      <div class="social-link">
+
+        <a target="_blank" href="http://www.facebook.com/paxel.co">
+
+        <i class="fab fa-facebook-f"></i>
+
+        </a>
+
+      </div>
+
+      <div class="social-link"><a target="_blank" href="https://www.instagram.com/paxel.co"><i class="fab fa-instagram"></i></a></div>
+
+      <div class="social-link"><a target="_blank" href="https://www.youtube.com/channel/UCGSnDYGVE6dL2U-AX5tLEkg"><i class="fab fa-youtube"></i></a></div>
+
+      <div class="social-link"><a target="_blank" href="http://www.twitter.com/paxelco_"><i class="fab fa-twitter"></i></a></div>
+
+      <div class="social-link"><a target="_blank" href="http://www.tiktok.com/@paxel.co"><i class="fab fa-tiktok"></i></a></div>
+
+    </div>
+
+    <div class="link-container caption-link-bold mt-3 desktop-footer">
+
+      <div>Unduh Aplikasi Paxel</div>
+
+      <div class="footer-download-image">
+
+        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.paxel&referrer=utm_source%3Dwebrevamp%26utm_medium%3Dbadge">
+
+          <img src="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/images/content/download-playstore.png" width="180" class="img-fluid mt-2 app-logo" alt="android paxel app">
+
+        </a>
+
+        <a target="_blank" href="https://apps.apple.com/app/apple-store/id1372668166?pt=118967865&ct=webrevamp&mt=8">
+
+          <img src="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/images/content/download-appstore.png" width="180" class="img-fluid mt-2 app-logo" alt="ios paxel app">
+
+        </a>
+
+      </div>
+
+  </div>
+
+  </div>
+
+  <div class="footer-menu mobile-footer">
+
+  <div class="link-container caption-link-bold">
+
+      <div>Unduh Aplikasi Paxel</div>
+
+      <div class="footer-download-image">
+
+        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.paxel&referrer=utm_source%3Dwebrevamp%26utm_medium%3Dbadge">
+
+          <img src="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/images/content/download-playstore.png" width="160" class="img-fluid mt-2 app-logo" alt="android paxel app">
+
+        </a>
+
+      </div>
+
+      <div class="footer-download-image">
+
+        <a target="_blank" href="https://apps.apple.com/app/apple-store/id1372668166?pt=118967865&ct=webrevamp&mt=8">
+
+          <img src="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/images/content/download-appstore.png" width="160" class="img-fluid mt-2 app-logo" alt="ios paxel app">
+
+        </a>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="logo-social-container clearfix">
+
+    <div class="footer-logo-container mt-3">
+
+      <img src="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/images/icon/logo-white.svg" alt="Paxel">
+
+    </div>
+
+    <div class="copyright align-self-end tx-grey tx-10">&copy; 2021 Paxel</div>
+
+</div>
+
+</div>
+
+</footer>
+
+
+
+
+
+  <div id="gateway-error" class="modal" tabindex="-1" role="dialog">
+
+    <div class="modal-dialog modal-dialog-centered" role="document">
+
+      <div class="modal-content">
+
+        <div class="modal-body">
+
+          <p>Gateway API Server Is Down.</p>
+
+          <p>Message: </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="fly-banner-mobile" id="fly-banner-mobile">
+
+    <div class="fly-banner-content container">
+
+      <span class="fly-banner-head">
+
+        <span class="fly-banner-close"><i class="fas fa-times" id="fly-banner-close"></i></span>
+
+        <a href="https://bit.ly/web-kirim" class="">
+
+          <img src="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/images/icon/logo-purple.svg" class="fly-banner-image" alt="Paxel">
+
+        </a>
+
+      </span>
+
+      <span><a href="https://bit.ly/web-kirim" class="fly-banner-cta">Buka</a></span>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- Bootstrap core JavaScript
+
+  ================================================== -->
+
+  <!-- Placed at the end of the document so the pages load faster -->
+
+
+
+    <script>
+
+
+
+    </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" defer></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" defer></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+      $('#form-search').hide()
+      $('#button-search').on('click', () => {
+        $('#button-search').hide()
+        $('#form-search').show()
+        $('#search-input').focus()
+      })
+      $('#search-input').focusout(() => {
+        $('#button-search').show()
+        $('#form-search').hide()
+      })
+      const lang = `id`
+      $( "#search-input" ).autocomplete({
+        source: function( request, response ) {
+          $.ajax({
+            url: "/api/v1/search/keyword",
+            dataType: "json",
+            data: {
+              search: request.term
+            },
+            success: function( data ) {
+              response( data );
+            }
+          });
+        },
+        minLength: 0,
+        select: function( event, ui ) {
+          window.open(`/${lang}/search?keyword=${ui.item.value}`, '_self')
+        },
+        open: function() {
+          $( this ).removeClass( "ui-corner-all" ).addClass( "ui-corner-top" );
+        },
+        close: function() {
+          $( this ).removeClass( "ui-corner-top" ).addClass( "ui-corner-all" );
+        }
+      }).focus(function(){
+        setTimeout(() => {
+          $(this).autocomplete("search");
+        }, 200)
+      }).data("ui-autocomplete")._renderItem = function (ul, item) {
+        return $("<li></li>")
+        .data("item.autocomplete", item)
+        .append(`<div class="ui-menu-item-wrapper">${item.label}</div>`)
+        .appendTo(ul);
+      };
+    </script>
+
+
+
+
+  <!-- <script src="https://paxel.co/plugins/embedly.js"></script> -->
+
+  <script>
+
+    document.querySelectorAll( 'oembed[url]' ).forEach( element => {
+
+        // const anchor = document.createElement( 'a' );
+
+        // anchor.setAttribute( 'href', element.getAttribute( 'url' ) );
+
+        // anchor.className = 'embedly-card';
+
+        // element.appendChild( anchor );
+
+
+
+        url = element.getAttribute( 'url' );
+
+
+
+        if (url.includes("youtube")) {
+
+          url = url.replace("watch?v=", "embed/").replace("&feature=youtu.be","");
+
+        } else if(url.includes("youtu.be")) {
+
+          url = url.replace("youtu.be","youtube.com/embed")
+
+        }
+
+        iframe = '<iframe class="embedded-iframe"src= "' + url + '" frameborder="0" allowfullscreen></iframe>';
+
+        wrapperiframe = '<div class="embedded-videos">' + iframe + '</div>'
+
+				element.parentElement.insertAdjacentHTML('afterend', wrapperiframe);
+
+
+
+    } );
+
+
+
+    $("#fly-banner-close").click(function() {
+
+      $("#fly-banner-mobile").addClass("d-none");
+      const ymDivBar = document.getElementById('ymDivBar');
+      if (ymDivBar) {
+        ymDivBar.style.setProperty('bottom', '20px', 'important');
+      }
+
+    });
+
+  </script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.repeater/1.2.1/jquery.repeater.min.js" ></script>
+
+
+
+<script src="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/js/resize.js"></script>
+
+<script src="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/js/initial-data.js"></script>
+
+<!-- <script src="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/js/longbow.slidercaptcha.min.js"></script> -->
+
+<!-- <script src="./static_page_files/js/longbow.slidercaptcha.min.js"></script> -->
+
+<script>
+
+(function() {
+
+	"use strict";
+
+
+
+	function u(n) {
+
+		var i = document.getElementById(n.id),
+
+			r = typeof n == "object" && n;
+
+		return new t(i, r)
+
+	}
+
+	var r = function() {
+
+			var u = arguments.length,
+
+				n = arguments[0] || {},
+
+				t, i, r;
+
+			for (typeof n != "object" && typeof n != "function" && (n = {}), u == 1 && (n = this, t--), t = 1; t < u; t++) {
+
+				i = arguments[t];
+
+				for (r in i) Object.prototype.hasOwnProperty.call(i, r) && (n[r] = i[r])
+
+			}
+
+			return n
+
+		},
+
+		i = function(n) {
+
+			return typeof n == "function" && typeof n.nodeType != "number"
+
+		},
+
+		t = function(n, i) {
+
+			this.$element = n;
+
+			this.options = r({}, t.DEFAULTS, i);
+
+			this.$element.style.position = "relative";
+
+			this.$element.style.width = this.options.width + "px";
+
+			this.$element.style.margin = "0 auto";
+
+			this.init()
+
+		},
+
+		n;
+
+	t.VERSION = "1.0";
+
+	t.Author = "argo@163.com";
+
+	t.DEFAULTS = {
+
+		width: 280,
+
+		height: 155,
+
+		PI: Math.PI,
+
+		sliderL: 42,
+
+		sliderR: 9,
+
+		offset: 5,
+
+		loadingText: "Loading...",
+
+		failedText: "Try It Again",
+
+		barText: "Slide The Puzzle",
+
+		repeatIcon: "fa fa-repeat",
+
+		maxLoadCount: 3,
+
+		localImages: function() {
+
+			return "images/captcha/Img_" + Math.round(Math.random() * 10) + ".png"
+
+		},
+
+		verify: function(n, t) {
+
+			var i = !1;
+
+			return $.ajax({
+
+				url: t,
+
+				data: {
+
+					datas: JSON.stringify(n)
+
+				},
+
+				dataType: "json",
+
+				type: "post",
+
+				async: !1,
+
+				success: function(n) {
+
+					i = JSON.stringify(n);
+
+					console.log("返回结果：" + i)
+
+				}
+
+			}), i
+
+		},
+
+		remoteUrl: null
+
+	};
+
+	window.sliderCaptcha = u;
+
+	window.sliderCaptcha.Constructor = t;
+
+	n = t.prototype;
+
+	n.init = function() {
+
+		this.initDOM();
+
+		this.initImg();
+
+		this.bindEvents()
+
+	};
+
+	n.initDOM = function() {
+
+		var n = function(n, t) {
+
+				var i = document.createElement(n);
+
+				return i.className = t, i
+
+			},
+
+			v = function(n, t) {
+
+				var i = document.createElement("canvas");
+
+				return i.width = n, i.height = t, i
+
+			},
+
+			f = v(this.options.width - 2, this.options.height),
+
+			e = f.cloneNode(!0),
+
+			t = n("div", "sliderContainer"),
+
+			l = n("i", "refreshIcon " + this.options.repeatIcon),
+
+			o = n("div", "sliderMask"),
+
+			y = n("div", "sliderbg"),
+
+			s = n("div", "slider"),
+
+			a = n("i", "fa fa-arrow-right sliderIcon text-white"),
+
+			h = n("span", "sliderText"),
+
+			u, c;
+
+		e.className = "block";
+
+		h.innerHTML = this.options.barText;
+
+		u = this.$element;
+
+		u.appendChild(f);
+
+		u.appendChild(l);
+
+		u.appendChild(e);
+
+		s.appendChild(a);
+
+		o.appendChild(s);
+
+		t.appendChild(y);
+
+		t.appendChild(o);
+
+		t.appendChild(h);
+
+		u.appendChild(t);
+
+		c = {
+
+			canvas: f,
+
+			block: e,
+
+			sliderContainer: t,
+
+			refreshIcon: l,
+
+			slider: s,
+
+			sliderMask: o,
+
+			sliderIcon: a,
+
+			text: h,
+
+			canvasCtx: f.getContext("2d"),
+
+			blockCtx: e.getContext("2d")
+
+		};
+
+		i(Object.assign) ? Object.assign(this, c) : r(this, c)
+
+	};
+
+	n.initImg = function() {
+
+		var n = this,
+
+			f = window.navigator.userAgent.indexOf("Trident") > -1,
+
+			r = this.options.sliderL + this.options.sliderR * 2 + 3,
+
+			e = function(t, i) {
+
+				var r = n.options.sliderL,
+
+					o = n.options.sliderR,
+
+					s = n.options.PI,
+
+					u = n.x,
+
+					e = n.y;
+
+				t.beginPath();
+
+				t.moveTo(u, e);
+
+				t.arc(u + r / 2, e - o + 2, o, .72 * s, 2.26 * s);
+
+				t.lineTo(u + r, e);
+
+				t.arc(u + r + o - 2, e + r / 2, o, 1.21 * s, 2.78 * s);
+
+				t.lineTo(u + r, e + r);
+
+				t.lineTo(u, e + r);
+
+				t.arc(u + o - 2, e + r / 2, o + .4, 2.76 * s, 1.24 * s, !0);
+
+				t.lineTo(u, e);
+
+				t.lineWidth = 2;
+
+				t.fillStyle = "rgba(255, 255, 255, 0.7)";
+
+				t.strokeStyle = "rgba(255, 255, 255, 0.7)";
+
+				t.stroke();
+
+				t[i]();
+
+				t.globalCompositeOperation = f ? "xor" : "destination-over"
+
+			},
+
+			o = function(n, t) {
+
+				return Math.round(Math.random() * (t - n) + n)
+
+			},
+
+			t = new Image,
+
+			u;
+
+		//t.crossOrigin = "Anonymous";
+
+		u = 0;
+
+		t.onload = function() {
+
+			n.x = o(r + 10, n.options.width - (r + 10));
+
+			n.y = o(10 + n.options.sliderR * 2, n.options.height - (r + 10));
+
+			e(n.canvasCtx, "fill");
+
+			e(n.blockCtx, "clip");
+
+			n.canvasCtx.drawImage(t, 0, 0, n.options.width - 2, n.options.height);
+
+			n.blockCtx.drawImage(t, 0, 0, n.options.width - 2, n.options.height);
+
+			var i = n.y - n.options.sliderR * 2 - 1,
+
+				u = n.blockCtx.getImageData(n.x - 3, i, r, r);
+
+			n.block.width = r;
+
+			n.blockCtx.putImageData(u, 0, i + 1);
+
+			n.text.textContent = n.text.getAttribute("data-text")
+
+		};
+
+		t.onerror = function() {
+
+			if (u++, window.location.protocol === "file:" && (u = n.options.maxLoadCount, console.error("can't load pic resource file from File protocal. Please try http or https")), u >= n.options.maxLoadCount) {
+
+				n.text.textContent = "Data Not Found";
+
+				n.classList.add("text-danger");
+
+				return
+
+			}
+
+			t.src = n.options.localImages()
+
+		};
+
+		t.setSrc = function() {
+
+			var r = "",
+
+				e;
+
+			u = 0;
+
+			n.text.classList.remove("text-danger");
+
+			i(n.options.setSrc) && (r = n.options.setSrc());
+
+			f ? (e = new XMLHttpRequest, e.onloadend = function(n) {
+
+				var i = new FileReader;
+
+				i.readAsDataURL(n.target.response);
+
+				i.onloadend = function(n) {
+
+					t.src = n.target.result
+
+				}
+
+			}, e.open("GET", r), e.responseType = "blob", e.send()) : t.src = r
+
+		};
+
+		t.setSrc();
+
+		this.text.setAttribute("data-text", this.options.barText);
+
+		this.text.textContent = this.options.loadingText;
+
+		this.img = t
+
+	};
+
+	n.clean = function() {
+
+		this.canvasCtx.clearRect(0, 0, this.options.width, this.options.height);
+
+		this.blockCtx.clearRect(0, 0, this.options.width, this.options.height);
+
+		this.block.width = this.options.width
+
+	};
+
+	n.bindEvents = function() {
+
+		var n = this;
+
+		this.$element.addEventListener("selectstart", function() {
+
+			return !1
+
+		});
+
+		this.refreshIcon.addEventListener("click", function() {
+
+			n.text.textContent = n.options.barText;
+
+			n.reset();
+
+			i(n.options.onRefresh) && n.options.onRefresh.call(n.$element)
+
+		});
+
+		var r, u, f = [],
+
+			t = !1,
+
+			e = function(i) {
+
+				n.text.classList.contains("text-danger") || (r = i.clientX || i.touches[0].clientX, u = i.clientY || i.touches[0].clientY, t = !0)
+
+			},
+
+			o = function(i) {
+
+				var o;
+
+				if (!t) return !1;
+
+				var s = i.clientX || i.touches[0].clientX,
+
+					h = i.clientY || i.touches[0].clientY,
+
+					e = s - r,
+
+					c = h - u;
+
+				if (e < 0 || e + 40 > n.options.width) return !1;
+
+				n.slider.style.left = e - 1 + "px";
+
+				o = (n.options.width - 60) / (n.options.width - 40) * e;
+
+				n.block.style.left = o + "px";
+
+				n.sliderContainer.classList.add("sliderContainer_active");
+
+				n.sliderMask.style.width = e + 4 + "px";
+
+				f.push(Math.round(c))
+
+			},
+
+			s = function(u) {
+
+				var o, e;
+
+				if (!t || (t = !1, o = u.clientX || u.changedTouches[0].clientX, o === r)) return !1;
+
+				n.sliderContainer.classList.remove("sliderContainer_active");
+
+				n.trail = f;
+
+				e = n.verify();
+
+				e.spliced && e.verified ? (n.sliderContainer.classList.add("sliderContainer_success"), i(n.options.onSuccess) && n.options.onSuccess.call(n.$element)) : (n.sliderContainer.classList.add("sliderContainer_fail"), i(n.options.onFail) && n.options.onFail.call(n.$element), setTimeout(function() {
+
+					n.text.innerHTML = n.options.failedText;
+
+					n.reset()
+
+				}, 1e3))
+
+			};
+
+		this.slider.addEventListener("mousedown", e);
+
+		this.slider.addEventListener("touchstart", e);
+
+		document.addEventListener("mousemove", o);
+
+		document.addEventListener("touchmove", o);
+
+		document.addEventListener("mouseup", s);
+
+		document.addEventListener("touchend", s);
+
+		document.addEventListener("mousedown", function() {
+
+			return !1
+
+		});
+
+		document.addEventListener("touchstart", function() {
+
+			return !1
+
+		});
+
+		document.addEventListener("swipe", function() {
+
+			return !1
+
+		})
+
+	};
+
+	n.verify = function() {
+
+		var n = this.trail,
+
+			r = parseInt(this.block.style.left),
+
+			t = !1;
+
+		if (this.options.remoteUrl !== null) t = this.options.verify(n, this.options.remoteUrl);
+
+		else {
+
+			var i = function(n, t) {
+
+					return n + t
+
+				},
+
+				u = function(n) {
+
+					return n * n
+
+				},
+
+				f = n.reduce(i) / n.length,
+
+				e = n.map(function(n) {
+
+					return n - f
+
+				}),
+
+				o = Math.sqrt(e.map(u).reduce(i) / n.length);
+
+			t = o !== 0
+
+		}
+
+		return {
+
+			spliced: Math.abs(r - this.x) < this.options.offset,
+
+			verified: t
+
+		}
+
+	};
+
+	n.reset = function() {
+
+		this.sliderContainer.classList.remove("sliderContainer_fail");
+
+		this.sliderContainer.classList.remove("sliderContainer_success");
+
+		this.slider.style.left = 0;
+
+		this.block.style.left = 0;
+
+		this.sliderMask.style.width = 0;
+
+		this.clean();
+
+		this.text.setAttribute("data-text", this.text.textContent);
+
+		this.text.textContent = this.options.loadingText;
+
+		this.img.setSrc()
+
+	}
+
+})();
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByJ_jPnqx7lNuQ_ISWEC8s4FHPMmbIYvw&language=id&region=ID&libraries=places&callback=initAutocomplete" async defer></script>
+
+<script>
+
+var autocompletePickup, autocompleteDestination;
+
+function currencyFormat(num) {
+
+    return 'Rp ' + num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.')
+
+  }
+
+
+
+var captcha_check_rates = sliderCaptcha({
+
+            id: 'captcha-check-rates',
+
+            setSrc: function () {
+
+              var randomInt = setInterval(function () {
+
+                    var randomNumber = "3";
+
+                }, 100);
+
+                return "https://paxel.co/images/captcha/Img_3.png";
+
+            },
+
+            onSuccess: function () {
+
+              var handler = setTimeout(function () {
+
+                    window.clearTimeout(handler);
+
+                    captcha_check_rates.reset();
+
+                    $(".hide-captcha-check-rates").slideUp(500);
+
+                    $("#validation-value").val("pass");
+
+                    $("#check-rates-button").click();
+
+                }, 500);
+
+            }
+
+        });
+
+var captcha_track = sliderCaptcha({
+
+            id: 'captcha-track',
+
+            setSrc: function () {
+
+              var randomInt = setInterval(function () {
+
+                    var randomNumber = "5";
+
+                }, 100);
+
+                return "https://paxel.co/images/captcha/Img_5.png";
+
+            },
+
+            onSuccess: function () {
+
+                var handler = setTimeout(function () {
+
+                    window.clearTimeout(handler);
+
+                    captcha_track.reset();
+
+                    $(".hide-captcha-track").slideUp(500);
+
+                    $("#trackshipment-button").click();
+
+                }, 500);
+
+            }
+
+        });
+
+
+
+function validationCheckRates() {
+
+  if ($("#validation-value").val() == "pass") {
+
+    return true
+
+  }
+
+  return false;
+
+}
+
+
+
+function initAutocomplete() {
+
+
+
+  var options = {
+
+    componentRestrictions: {
+
+      country: 'id'
+
+    }
+
+  };
+
+
+
+  var inputPickup = document.getElementById('pickup');
+
+  autocompletePickup = new google.maps.places.Autocomplete(inputPickup, options);
+
+
+
+  var inputDestination = document.getElementById('destination');
+
+  autocompleteDestination = new google.maps.places.Autocomplete(inputDestination, options);
+
+
+
+  autocompletePickup.addListener('place_changed', fillInAddressPickup);
+
+  autocompleteDestination.addListener('place_changed', fillInAddressDestination);
+
+
+
+  selectFirstWithoutPickedAddress(inputPickup);
+
+  selectFirstWithoutPickedAddress(inputDestination);
+
+
+
+  function selectFirstWithoutPickedAddress(input) {
+
+    var _addEventListener = (input.addEventListener) ? input.addEventListener : input.attachEvent;
+
+    function addEventListenerWrapper(type, listener) {
+
+      if (type == "keydown") {
+
+        var orig_listener = listener;
+
+        listener = function (event) {
+
+          var suggestion_selected = $(".pac-item-selected").length > 0;
+
+          if ((event.which == 13 || event.which == 9 || event.which == 0) && !suggestion_selected) {
+
+            var simulated_downarrow = $.Event("keydown", { keyCode:40, which:40 });
+
+            orig_listener.apply(input, [simulated_downarrow]);
+
+          }
+
+          orig_listener.apply(input, [event]);
+
+        };
+
+      }
+
+      _addEventListener.apply(input, [type, listener]);
+
+    }
+
+    if (input.addEventListener) {
+
+      input.addEventListener = addEventListenerWrapper;
+
+    } else if (input.attachEvent) {
+
+      input.attachEvent = addEventListenerWrapper;
+
+    }
+
+  }
+
+
+
+  function fillInAddressPickup() {
+
+    var place = autocompletePickup.getPlace();
+
+    var addressPickup = '';
+
+    var zipCodePickup = '';
+
+    var addressPickupName = '';
+
+    var formatedAddressPickup = '';
+
+    var cityPickup = '';
+
+    var provincePickup = '';
+
+    var kecamatanPickup = '';
+
+    var kelurahanPickup = '';
+
+    var latPickup = place.geometry.location.lat();
+
+    var lngPickup = place.geometry.location.lng();
+
+    var status = '';
+
+
+
+    for (var i = 0; i < place.address_components.length; i++) {
+
+
+
+      if(place.name){
+
+        addressPickupName = place.name;
+
+      }
+
+      if(place.formatted_address){
+
+        formatedAddressPickup = place.formatted_address;
+
+      }
+
+      if (place.address_components[i].types[0] == 'administrative_area_level_1') {
+
+        provincePickup = place.address_components[i].long_name;
+
+      }
+
+      if (place.address_components[i].types[0] == 'route') {
+
+        addressPickup = place.address_components[i].long_name;
+
+      }
+
+      if (place.address_components[i].types[0] == 'administrative_area_level_2') {
+
+        cityPickup = place.address_components[i].long_name;
+
+      }
+
+      if (place.address_components[i].types[0] == 'administrative_area_level_4') {
+
+        kelurahanPickup = place.address_components[i].long_name;
+
+      }
+
+      if (place.address_components[i].types[0] == 'administrative_area_level_3') {
+
+        kecamatanPickup = place.address_components[i].long_name;
+
+      }
+
+      if (place.address_components[i].types[0] == 'postal_code') {
+
+        zipCodePickup = place.address_components[i].long_name;
+
+      }
+
+    }
+
+
+
+    var pickupData = {
+
+      "address": addressPickup,
+
+      "city": cityPickup,
+
+      "kecamatan": kecamatanPickup,
+
+      "kelurahan": kelurahanPickup,
+
+      "postal_code": zipCodePickup,
+
+      "lng": lngPickup.toString(),
+
+      "lat": latPickup.toString()
+
+    }
+
+
+
+    $('#tooltip-form-validation-pickup').removeClass('show-component');
+
+    $('#tooltip-form-validation-pickup').addClass('hide-component');
+
+    $("#pickup-field").removeClass('has--incomplete');
+
+
+
+    $.ajaxSetup({
+
+        headers: {
+
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+
+        }
+
+    });
+
+    $.ajax({
+
+      url: "https://paxel.co/api/v1/zipcode-by-address",
+
+      type: "POST",
+
+      dataType: "json",
+
+      data: pickupData,
+
+      success: function(data) {
+
+        if (data.status) {
+
+          $("#zipcode-pickup").val(data.zipcode);
+
+          $('#trackest-tooltip-pickup').removeClass('show-component');
+
+          $('#trackest-tooltip-pickup').addClass('hide-component');
+
+          $("#pickup-field").removeClass('has--incomplete');
+
+          senderInformation.sender_address.label = addressPickupName;
+
+          senderInformation.sender_address.name = formatedAddressPickup;
+
+          senderInformation.sender_address.longitude = lngPickup.toString();
+
+          senderInformation.sender_address.latitude = latPickup.toString();
+
+          senderInformation.sender_address.province = provincePickup;
+
+          senderInformation.sender_address.regency = kecamatanPickup;
+
+          senderInformation.sender_address.district = kelurahanPickup;
+
+          senderInformation.sender_address.zip_code = data.zipcode;
+
+          senderInformation.sender_address.status = data.status;
+
+        } else {
+
+          $('#trackest-tooltip-pickup').removeClass('hide-component');
+
+          $('#trackest-tooltip-pickup').addClass('show-component');
+
+          $('#pickup').val('');
+
+          $('#pickup').focus();
+
+          $("#pickup-field").addClass('has--incomplete');
+
+        }
+
+      },
+
+      error: function(err) {
+
+        console.log("cannot to validate ", err);
+
+      }
+
+    });
+
+  }
+
+
+
+  function fillInAddressDestination() {
+
+    var place = autocompleteDestination.getPlace();
+
+    var addressDestination = '';
+
+    var zipCodeDestination = '';
+
+    var formatedAddressDestination = '';
+
+    var addressDestinationName = '';
+
+    var provinceDestination= '';
+
+    var cityDestination = '';
+
+    var kecamatanDestination = '';
+
+    var kelurahanDestination = '';
+
+    var latDestination = place.geometry.location.lat();
+
+    var lngDestination = place.geometry.location.lng();
+
+    var status = '';
+
+    var zipCodeDestination = '';
+
+
+
+    for (var i = 0; i < place.address_components.length; i++) {
+
+      if(place.name){
+
+        addressDestinationName = place.name;
+
+      }
+
+      if(place.formatted_address){
+
+        formatedAddressDestination = place.formatted_address;
+
+      }
+
+      if (place.address_components[i].types[0] == 'route') {
+
+        addressDestination = place.address_components[i].long_name;
+
+      }
+
+      if (place.address_components[i].types[0] == 'administrative_area_level_1') {
+
+         provinceDestination = place.address_components[i].long_name;
+
+      }
+
+      if (place.address_components[i].types[0] == 'administrative_area_level_2') {
+
+        cityDestination = place.address_components[i].long_name;
+
+      }
+
+      if (place.address_components[i].types[0] == 'administrative_area_level_3') {
+
+        kecamatanDestination = place.address_components[i].long_name;
+
+      }
+
+      if (place.address_components[i].types[0] == 'administrative_area_level_4') {
+
+        kelurahanDestination = place.address_components[i].long_name;
+
+      }
+
+      if (place.address_components[i].types[0] == 'postal_code') {
+
+        zipCodeDestination = place.address_components[i].long_name;
+
+      }
+
+    }
+
+
+
+    var destinationData = {
+
+      "address": addressDestination,
+
+      "city": cityDestination,
+
+      "kecamatan": kecamatanDestination,
+
+      "kelurahan": kelurahanDestination,
+
+      "postalCode": zipCodeDestination,
+
+      "lng": lngDestination.toString(),
+
+      "lat": latDestination.toString()
+
+    }
+
+
+
+    $('#tooltip-form-validation-destination').removeClass('show-component');
+
+    $('#tooltip-form-validation-destination').addClass('hide-component');
+
+    $("#destination-field").removeClass('has--incomplete');
+
+
+
+    $.ajaxSetup({
+
+        headers: {
+
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+
+        }
+
+    });
+
+    $.ajax({
+
+      url: "https://paxel.co/api/v1/zipcode-by-address",
+
+      type: "POST",
+
+      dataType: "json",
+
+      data: destinationData,
+
+      success: function(data) {
+
+        if (data.status) {
+
+          $("#zipcode-destination").val(data.zipcode);
+
+          $('#trackest-tooltip-destination').removeClass('show-component');
+
+          $('#trackest-tooltip-destination').addClass('hide-component');
+
+          $("#destination-field").removeClass('has--incomplete');
+
+          receiverInformation.receiver_address.label = addressDestinationName;
+
+          receiverInformation.receiver_address.name = formatedAddressDestination;
+
+          receiverInformation.receiver_address.longitude = lngDestination.toString();
+
+          receiverInformation.receiver_address.latitude = latDestination.toString();
+
+          receiverInformation.receiver_address.province = provinceDestination;
+
+          receiverInformation.receiver_address.regency = kecamatanDestination;
+
+          receiverInformation.receiver_address.district = kelurahanDestination;
+
+          receiverInformation.receiver_address.status = data.status;
+
+          receiverInformation.receiver_address.zip_code = data.zipcode;
+
+        } else {
+
+          $('#trackest-tooltip-destination').removeClass('hide-component');
+
+          $('#trackest-tooltip-destination').addClass('show-component');
+
+          $('#destination').val('');
+
+          $('#destination').focus();
+
+          $("#destination-field").addClass('has--incomplete');
+
+        }
+
+      },
+
+      error: function(err) {
+
+        console.log("cannot to validate ");
+
+      }
+
+    });
+
+  }
+
+}
+
+
+
+$(document).ready(function () {
+
+
+
+  var currentHash = "#main-slide"
+
+    $(document).scroll(function () {
+
+        $('section').each(function () {
+
+            var top = window.pageYOffset;
+
+            var distance = top - $(this).offset().top;
+
+            var hash = $(this).attr('id');
+
+
+
+            if (distance < 50 && distance > -50 && currentHash != hash) {
+
+              if(history.pushState) { history.pushState(null, null, "#"+hash); } else { window.location.hash = "#"+hash; }
+
+
+
+                currentHash = hash;
+
+            }
+
+        });
+
+    });
+
+
+
+
+
+
+
+  if(""){
+
+    var shipment = $('#track-shipment');
+
+    $('html').scrollTop(shipment.offset().top) ;
+
+  }
+
+
+
+  if(""){
+
+    var result = $('#check-rates');
+
+    $('html').scrollTop(result.offset().top) ;
+
+  }
+
+
+
+  if(""){
+
+    var shipment = $('#track-shipment');
+
+    $('html').scrollTop(shipment.offset().top) ;
+
+  }
+
+
+
+  if(""){
+
+    var result = $('#check-rates');
+
+    $('html').scrollTop(result.offset().top) ;
+
+  }
+
+
+
+  var headersLength = 4;
+
+  if (headersLength == 0) {
+
+    $("#navbar").removeClass("has-main-slide");
+
+    $("#navbar").addClass("no-main-slide");
+
+  }
+
+
+
+  $(".opt-toggle").click(function(){
+
+    $(".opt").slideToggle('fast');
+
+  })
+
+
+
+  $(".opt tr").click(function(){
+
+    var sizeType = $(this).find("span").text();
+
+    $(".opt").slideToggle('fast');
+
+    if($.trim(sizeType) != "Custom"){
+
+      var sizeType = sizeType + " " + $(this).find("note").text();
+
+    }
+
+
+
+    var sizeValue = $(this).data("value");
+
+    $("#parcel-size").val(sizeValue);
+
+    $(".opt-toggle .selected").html(sizeType);
+
+    $("#tooltip-form-validation-parcel-size").removeClass('show-component');
+
+    $("#tooltip-form-validation-parcel-size").addClass('hide-component');
+
+    $("#parcel-size-field").removeClass('has--incomplete');
+
+  });
+
+
+
+  $("#refresh-captcha-check-rates").click(function() {
+
+    captcha_check_rates.reset();
+
+  });
+
+  $("#refresh-captcha-track").click(function() {
+
+    captcha_track.reset();
+
+  });
+
+  $("#track-captcha").click(function() {
+
+    var awb = $('#awb-text-area').val();
+
+    if (awb == "") {
+
+      $('#tooltip-form-validation-awb-field').removeClass('hide-component');
+
+      $('#tooltip-form-validation-awb-field').addClass('show-component');
+
+      $("#awb-text-area-card").addClass('error-text-awb');
+
+      return;
+
+    }
+
+    $('#tooltip-form-validation-awb-field').addClass('hide-component');
+
+    $('#tooltip-form-validation-awb-field').removeClass('show-component');
+
+    $("#awb-text-area-card").removeClass('error-text-awb');
+
+    $(".hide-captcha-track").slideDown(500);
+
+  });
+
+  $("#check-rates-captcha").click(function() {
+
+    var pickup = $('#pickup').val();
+
+    var destination = $('#destination').val();
+
+    var weight = $("#weight").val();
+
+    if (pickup == "" && destination =="" && (weight == "" || weight <= 0)) {
+
+      $('#tooltip-form-validation-pickup').removeClass('hide-component');
+
+      $('#tooltip-form-validation-pickup').addClass('show-component');
+
+      $("#pickup-field").addClass('has--incomplete');
+
+      $('#tooltip-form-validation-destination').removeClass('hide-component');
+
+      $('#tooltip-form-validation-destination').addClass('show-component');
+
+      $("#destination-field").addClass('has--incomplete');
+
+      $('#tooltip-form-validation-weight').removeClass('hide-component');
+
+      $('#tooltip-form-validation-weight').addClass('show-component');
+
+      $("#weight-field").addClass('has--incomplete');
+
+      return;
+
+    }
+
+
+
+    if (pickup == "" && destination =="") {
+
+      $('#tooltip-form-validation-pickup').removeClass('hide-component');
+
+      $('#tooltip-form-validation-pickup').addClass('show-component');
+
+      $("#pickup-field").addClass('has--incomplete');
+
+      $('#tooltip-form-validation-destination').removeClass('hide-component');
+
+      $('#tooltip-form-validation-destination').addClass('show-component');
+
+      $("#destination-field").addClass('has--incomplete');
+
+      return;
+
+    }
+
+    if (pickup == "" && (weight == "" || weight <= 0)) {
+
+      $('#tooltip-form-validation-pickup').removeClass('hide-component');
+
+      $('#tooltip-form-validation-pickup').addClass('show-component');
+
+      $("#pickup-field").addClass('has--incomplete');
+
+      $('#tooltip-form-validation-weight').removeClass('hide-component');
+
+      $('#tooltip-form-validation-weight').addClass('show-component');
+
+      $("#weight-field").addClass('has--incomplete');
+
+      return;
+
+    }
+
+
+
+    if (destination == "") {
+
+      $('#tooltip-form-validation-destination').removeClass('hide-component');
+
+      $('#tooltip-form-validation-destination').addClass('show-component');
+
+      $("#destination-field").addClass('has--incomplete');
+
+      return;
+
+    }
+
+
+
+    if (weight == "" || weight <= 0) {
+
+      $('#tooltip-form-validation-weight').removeClass('hide-component');
+
+      $('#tooltip-form-validation-weight').addClass('show-component');
+
+      $("#weight-field").addClass('has--incomplete');
+
+      return;
+
+    }
+
+    $(".hide-captcha-check-rates").slideDown(500);
+
+  });
+
+
+
+  $('.repeater').repeater({
+
+    isFirstItemUndeletable: true,
+
+    show: function () {
+
+      if( $(this).parents(".repeater").attr("data-limit").length > 0 ){
+
+        if( $(this).parents(".repeater").find("div[data-repeater-item]").length <= $(this).parents(".repeater").attr("data-limit") ){
+
+          $(this).slideDown();
+
+          $(this).find('input').removeAttr('required');
+
+        } else {
+
+          $(this).remove();
+
+        }
+
+      } else {
+
+        $(this).slideDown();
+
+      }
+
+    },
+
+    hide: function (deleteElement) {
+
+      $(this).slideUp(deleteElement);
+
+    }
+
+  });
+
+
+
+  function currencyFormat(num) {
+
+    return 'Rp ' + num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.')
+
+  }
+
+  $('#guest-app').click( function(e) {
+
+      window.localStorage.clear()
+
+      window.localStorage.setItem('senderInformation',JSON.stringify(senderInformation));
+
+      window.localStorage.setItem('receiverInformation',JSON.stringify(receiverInformation));
+
+      window.location.href="https://paxel.co/id/guest-app/sender";
+
+  });
+
+});
+
+</script>
+
+
+
+<script>
+
+  // add destination handler
+
+  let destinationCounter = 0;
+
+  $('#destination-counter').val(destinationCounter);
+
+  $('#add-destination').click(function () {
+
+    if (destinationCounter == 2) {
+
+      return false;
+
+    }
+
+
+
+    let rows = "";
+
+    rows += `<div class="count-${destinationCounter} input-group mb-1">`;
+
+    rows += `<div class="input-group-prepend">`;
+
+    rows += `<span class="input-group-text">`;
+
+    rows += `<img loading="lazy" src="https://paxel.co/images/icon/oval_red.png" alt="Lokasi Tujuan">`;
+
+    rows += `</span>`;
+
+    rows += `</div>`;
+
+    rows += `<input id="destination-${destinationCounter}" type="text" class="form-control" name="additional_destination[]" placeholder="Tujuan" aria-label="Enter Destination" aria-describedby="basic-addon1">`;
+
+    rows += `<input type="hidden" id="zipcode-destination-${destinationCounter}" name="additional_zipcode_destination[]" class="form-control no-spin" value="" placeholder="Enter Zip Code Destination" />`;
+
+    rows += `<div class="input-group-append">`;
+
+    rows += `<span class="input-group-text">`;
+
+    rows += `<img loading="lazy" src="https://paxel.co/images/icon/track.png" alt="Lokasi Tujuan">`;
+
+    rows += `</span>`;
+
+    rows += `</div>`;
+
+    rows += `<div class="trackship_est_tooltip_home hide-component" id="trackest-tooltip-destination-${destinationCounter}">`;
+
+    rows += `<p class="title">Lokasi Diluar Jangkauan</p>`;
+
+    rows += `</div>`;
+
+    rows += `<div class="trackship_est_tooltip_home hide-component" id="tooltip-form-validation-destination-${destinationCounter}">`;
+
+    rows += `<p class="title">Tolong Isi Field</p>`;
+
+    rows += `</div>`;
+
+    rows += `</div>`;
+
+
+
+    // append new field destination
+
+    $('#destination-wrapper').append(rows);
+
+
+
+    // init autocomplete for new field destination
+
+    initAddDestinationAutoComplete(
+
+      destinationCounter,
+
+      `destination-${destinationCounter}`,
+
+      `zipcode-destination-${destinationCounter}`,
+
+      `trackest-tooltip-destination-${destinationCounter}`,
+
+      `tooltip-form-validation-destination-${destinationCounter}`);
+
+
+
+    // increment field destination
+
+    destinationCounter++;
+
+    $('#destination-counter').val(destinationCounter);
+
+
+
+    if (destinationCounter == 2) {
+
+      if (!$('#add-destination').hasClass('hide-component')) {
+
+        $('#add-destination').addClass('hide-component')
+
+      }
+
+    }
+
+  });
+
+
+
+  // function for init autocomplete add destination
+
+  let autocompleteAddDestinationWrapper = {};
+
+  function initAddDestinationAutoComplete(counter, inputId, inputZipcodeId, toolTipOOCId, toolTipValidationId) {
+
+    autocompleteAddDestinationWrapper["options_" + counter] = {
+
+      componentRestrictions: {
+
+        country: 'id'
+
+      }
+
+    };
+
+
+
+    autocompleteAddDestinationWrapper["inputAddDestination_" + counter] = document.getElementById(inputId);
+
+    autocompleteAddDestinationWrapper["autocompleteAddDestination_" + counter] = new google.maps.places.Autocomplete(autocompleteAddDestinationWrapper["inputAddDestination_" + counter], autocompleteAddDestinationWrapper["options_" + counter]);
+
+    autocompleteAddDestinationWrapper["fillInAddressAddDestination_" + counter] = fillInAddressAddDestination;
+
+    autocompleteAddDestinationWrapper["autocompleteAddDestination_" + counter].addListener('place_changed', fillInAddressAddDestination);
+
+    selectFirstWithoutPickedAddressAddDestination(autocompleteAddDestinationWrapper["inputAddDestination_" + counter]);
+
+
+
+    function selectFirstWithoutPickedAddressAddDestination(input) {
+
+      var _addEventListener = (input.addEventListener) ? input.addEventListener : input.attachEvent;
+
+      function addEventListenerWrapper(type, listener) {
+
+        if (type == "keydown") {
+
+          var orig_listener = listener;
+
+          listener = function (event) {
+
+            var suggestion_selected = $(".pac-item-selected").length > 0;
+
+            if ((event.which == 13 || event.which == 9 || event.which == 0) && !suggestion_selected) {
+
+              var simulated_downarrow = $.Event("keydown", { keyCode:40, which:40 });
+
+              orig_listener.apply(input, [simulated_downarrow]);
+
+            }
+
+            orig_listener.apply(input, [event]);
+
+          };
+
+        }
+
+        _addEventListener.apply(input, [type, listener]);
+
+      }
+
+      if (input.addEventListener) {
+
+        input.addEventListener = addEventListenerWrapper;
+
+      } else if (input.attachEvent) {
+
+        input.attachEvent = addEventListenerWrapper;
+
+      }
+
+    }
+
+
+
+    function fillInAddressAddDestination() {
+
+      var placeAddDestination = autocompleteAddDestinationWrapper["autocompleteAddDestination_" + counter].getPlace();
+
+      var addressAddDestination = '';
+
+      var zipCodeAddDestination = '';
+
+      var formatedAddressAddDestination = '';
+
+      var addressAddDestinationName = '';
+
+      var provinceAddDestination= '';
+
+      var cityAddDestination = '';
+
+      var kecamatanAddDestination = '';
+
+      var kelurahanAddDestination = '';
+
+      var latAddDestination = placeAddDestination.geometry.location.lat();
+
+      var lngAddDestination = placeAddDestination.geometry.location.lng();
+
+      var status = '';
+
+
+
+      for (var i = 0; i < placeAddDestination.address_components.length; i++) {
+
+        if(placeAddDestination.name){
+
+          addressAddDestinationName = placeAddDestination.name;
+
+        }
+
+        if(placeAddDestination.formatted_address){
+
+          formatedAddressAddDestination = placeAddDestination.formatted_address;
+
+        }
+
+        if (placeAddDestination.address_components[i].types[0] == 'route') {
+
+          addressAddDestination = placeAddDestination.address_components[i].long_name;
+
+        }
+
+        if (placeAddDestination.address_components[i].types[0] == 'administrative_area_level_1') {
+
+          provinceAddDestination = placeAddDestination.address_components[i].long_name;
+
+        }
+
+        if (placeAddDestination.address_components[i].types[0] == 'administrative_area_level_2') {
+
+          cityAddDestination = placeAddDestination.address_components[i].long_name;
+
+        }
+
+        if (placeAddDestination.address_components[i].types[0] == 'administrative_area_level_3') {
+
+          kecamatanAddDestination = placeAddDestination.address_components[i].long_name;
+
+        }
+
+        if (placeAddDestination.address_components[i].types[0] == 'administrative_area_level_4') {
+
+          kelurahanAddDestination = placeAddDestination.address_components[i].long_name;
+
+        }
+
+        if (placeAddDestination.address_components[i].types[0] == 'postal_code') {
+
+          zipCodeAddDestination = placeAddDestination.address_components[i].long_name;
+
+        }
+
+      }
+
+
+
+      var destinationData = {
+
+        "address": addressAddDestination,
+
+        "city": cityAddDestination,
+
+        "kecamatan": kecamatanAddDestination,
+
+        "kelurahan": kelurahanAddDestination,
+
+        "postalCode": zipCodeAddDestination,
+
+        "lng": lngAddDestination.toString(),
+
+        "lat": latAddDestination.toString()
+
+      }
+
+
+
+      $("#"+toolTipValidationId).removeClass('show-component');
+
+      $('#'+toolTipValidationId).addClass('hide-component');
+
+      // $("#destination-field").removeClass('has--incomplete');
+
+
+
+      $.ajaxSetup({
+
+          headers: {
+
+              'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+
+          }
+
+      });
+
+      $.ajax({
+
+        url: "https://paxel.co/api/v1/zipcode-by-address",
+
+        type: "POST",
+
+        dataType: "json",
+
+        data: destinationData,
+
+        success: function(data) {
+
+          if (data.status) {
+
+            $("#"+inputZipcodeId).val(data.zipcode);
+
+            $('#'+toolTipOOCId).removeClass('show-component');
+
+            $('#'+toolTipOOCId).addClass('hide-component');
+
+          } else {
+
+            $('#'+toolTipOOCId).removeClass('hide-component');
+
+            $('#'+toolTipOOCId).addClass('show-component');
+
+            $('#'+inputId).val('');
+
+            $('#'+inputId).focus();
+
+          }
+
+        },
+
+        error: function(err) {
+
+          console.log("cannot to validate ");
+
+        }
+
+      });
+
+    }
+
+  }
+
+
+
+  $("#awb-text-area").on("keyup", function(){
+
+    trackSubmitButton();
+
+  });
+
+
+
+  $("#weight").on("keyup", function(){
+
+    checkRatesSubmitButton();
+
+    if ($(this).val() <= 0 || $(this).val() > 25) {
+
+      $(this).val(null);
+
+      return false;
+
+    }
+
+  });
+
+
+
+  $("#pickup").on("keyup", function(){
+
+    checkRatesSubmitButton();
+
+  });
+
+
+
+  $("#destination").on("keyup", function(){
+
+    checkRatesSubmitButton();
+
+  });
+
+
+
+  function checkField(value) {
+
+    return value != "" && value != null
+
+  }
+
+
+
+  function checkRatesSubmitButton() {
+
+    if(checkField($("#weight").val()) &&  checkField($("#pickup").val()) && checkField($("#destination").val())){
+
+      if ($("#check-rates-captcha").hasClass("disabled")) {
+
+        $("#check-rates-captcha").removeClass("disabled");
+
+      }
+
+    } else {
+
+      if (!$("#check-rates-captcha").hasClass("disabled")) {
+
+        $("#check-rates-captcha").addClass("disabled");
+
+      }
+
+    }
+
+  }
+
+
+
+  function trackSubmitButton() {
+
+    if(checkField($("#awb-text-area").val())){
+
+      if ($("#track-captcha").hasClass("disabled")) {
+
+        $("#track-captcha").removeClass("disabled");
+
+      }
+
+    } else {
+
+      if (!$("#track-captcha").hasClass("disabled")) {
+
+        $("#track-captcha").addClass("disabled");
+
+      }
+
+    }
+
+  }
+
+
+
+</script>
+
+<script src="https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/js/ymchatbot.js"></script>
+<script type="text/javascript">
+  window.YellowAIWebSetting.getWebSetting("https://api.paxel.co/apg/api/v1/settings", function(err, data) {
+    console.log("YMCHAT SETTING: ", data);
+    if (data === "enabled") {
+      const currentURLParams = new URLSearchParams(window.location.search);
+      let openChatBot = currentURLParams.get('open_chatbot');
+      let isOpenBot = false;
+      if (openChatBot == 'true') {
+        isOpenBot = true;
+      }
+      console.log("YMCHAT OPENED: ", isOpenBot);
+
+      const yellowAIBotId = "x1662714659055";
+      const yellowAIURL = "https://r2.cloud.yellow.ai";
+      // window.ymConfig = {"bot":yellowAIBotId,"host":yellowAIURL};(function () {var w=window,ic=w.YellowMessenger;if("function"===typeof ic)ic("reattach_activator"),ic("update",ymConfig);else{var d=document,i=function(){i.c(arguments)};function l(){var e=d.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js";var t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}i.q=[],i.c=function(e){i.q.push(e)},w.YellowMessenger=i,w.attachEvent?w.attachEvent("onload",l):w.addEventListener("load",l,!1)}})();
+      window.ymConfig = {"bot":yellowAIBotId,"host":yellowAIURL,"autoOpen":isOpenBot};(function () {var w=window,ic=w.YellowMessenger;if("function"===typeof ic)ic("reattach_activator"),ic("update",ymConfig);else{var d=document,i=function(){i.c(arguments)};function l(){var e=d.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js";var t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}i.q=[],i.c=function(e){i.q.push(e)},w.YellowMessenger=i,l()}})();
+
+      // initialize ymchatbot customization
+      if (!window.YMCHATBOT_CUSTOMIZE) {
+        const originURL = "https://paxel.co";
+        const styleURL = "https://storage.googleapis.com/paxel-bucket/paxelco_website/static_page_files/css/ymchatbot.css";
+        window.YellowAICustomization.init(originURL, styleURL, "right");
+        window.YMCHATBOT_CUSTOMIZE = true;
+      }
+    }
+  });
+</script>
+
+<script>
+
+  const domainUrl = "https://paxel.co"
+
+  const hashed = window.location.hash;
+
+  const urlSearchParams = new URLSearchParams(window.location.search);
+
+  const params = Object.fromEntries(urlSearchParams.entries());
+
+
+
+  let queryParams = "?";
+
+  for (const entry of urlSearchParams.entries()) {
+
+    queryParams += entry[0] + "=" + entry[1];
+
+  }
+
+  if (queryParams != "?") {
+
+    const url = domainUrl + "/id/home/" + queryParams
+
+    window.location.href = url
+
+  }
+
+  if (hashed != "") {
+
+    const url = domainUrl + "/id/home/" + hashed
+
+    window.location.href = url
+
+  }
+
+</script>
+
+
+</body>
+
+</html>

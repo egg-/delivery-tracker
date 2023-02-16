@@ -1,0 +1,1234 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="csrf-token" content="c1krFjBdxdSkWE3HOE8rSNm1Q0SvfEjRaDHwy8Bz">
+
+  <link rel="icon" href="https://paxel.co/favicon.ico">
+
+  <title>Lacak Pengiriman | Paxel
+</title>
+
+  <!-- META -->
+  <link rel="canonical" href="https://paxel.co/id/lacak-pengiriman" />
+
+  <meta name="image" content="https://paxel.co/images/content/thumb_paxel.jpg">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://paxel.co/id/lacak-pengiriman">
+  <meta property="og:site_name" content="paxel.co" />
+  
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@paxel_co">
+  
+
+  <!-- Google / Search Engine Tags -->
+<meta name="description" content="Cek Resi atau lacak paket Paxel dengan mudah dan cepat. Kamu bisa masukkan hingga 20 kode pengiriman (Resi/AWB) dengan menyalinnya (dipisah dengan spasi atau enter) dan semua otomatis terurut.">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:title" content="Lacak Pengiriman | Paxel">
+<meta property="og:description" content="Cek Resi atau lacak paket Paxel dengan mudah dan cepat. Kamu bisa masukkan hingga 20 kode pengiriman (Resi/AWB) dengan menyalinnya (dipisah dengan spasi atau enter) dan semua otomatis terurut.">
+<meta property="og:image" content="https://paxel.co/images/content/thumb_paxel.jpg">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:title" content="Lacak Pengiriman | Paxel">
+<meta name="twitter:description" content="Cek Resi atau lacak paket Paxel dengan mudah dan cepat. Kamu bisa masukkan hingga 20 kode pengiriman (Resi/AWB) dengan menyalinnya (dipisah dengan spasi atau enter) dan semua otomatis terurut.">
+<meta name="twitter:image" content="https://paxel.co/images/content/thumb_paxel.jpg">
+
+  <meta name="apple-itunes-app" content="app-id=1372668166, app-argument=https://www.paxel.co/">
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="https://paxel.co/images/icon/favicon.png">
+
+  <!-- Font Awesome core CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Font Awesome min CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css" integrity="sha512-8jdwayz5n8F2cnW26l9vpV6+yGOcRAqz6HTu+DQ3FtVIAts2gTdlFZOGpYhvBMXkWEgxPN3Y22UWyZXuDowNLA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous" />
+
+  <!-- OwlCarousel2 core CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <!-- wtfforms core CSS -->
+  <!-- <link href="https://paxel.co/plugins/wtf-forms/main.css" rel="stylesheet"> -->
+
+  <!-- App CSS -->
+  <link defer href="https://paxel.co/css/app.css?version=1.2.2" rel="stylesheet">
+
+  
+  <link rel="preload" as="font" href="https://paxel.co/fonts/gotham-medium-webfont.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="https://paxel.co/fonts/gotham-bold-webfont.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="https://paxel.co/fonts/gotham-book-webfont.woff2" type="font/woff2" crossorigin="anonymous">
+
+  <!-- Hotjar Tracking Code -->
+  <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3239236,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+
+  <!-- Responsive CSS -->
+  <link defer href="https://paxel.co/css/responsive.css?version=1.2.2" rel="stylesheet">
+  
+  <link href="https://paxel.co/css/slidercaptcha.min.css" rel="stylesheet" />
+    <style>
+
+        .slidercaptcha {
+            margin: 0 auto;
+            width: 314px;
+            height: 286px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
+            margin-top: 40px;
+        }
+
+            .slidercaptcha .card-body {
+                padding: 1rem;
+            }
+
+            .slidercaptcha canvas:first-child {
+                border-radius: 4px;
+                border: 1px solid #e6e8eb;
+            }
+
+            .slidercaptcha.card .card-header {
+                background-image: none;
+                background-color: rgba(0, 0, 0, 0.03);
+            }
+
+        .refreshIcon {
+            top: -54px;
+        }
+    </style>
+
+  <!-- Yellow AI Style -->
+  <style>
+    @media  screen and (max-width: 768px) {
+        #ymDivBar {
+            bottom: 65px !important;
+        }
+    }
+  </style>
+  <!-- End of Yellow AI Style -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-165579561-1"></script>
+  <script defer>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165579561-1');
+  </script>
+  
+  <style>
+    .search-form {
+      right: 200px;
+      top: 200px;
+    }
+
+    .search-field {
+      background-color: transparent;
+      background-image: url(/images/icon/search.svg);
+      background-position: 5px  center;
+      background-repeat: no-repeat;
+      background-size: 24px 24px;
+      border: none;
+      height: 40px;
+      margin: 3px 0;
+      padding: 0 0 0 34px;
+      position: relative;
+      -webkit-transition: width 400ms ease, background 400ms ease;
+      transition:         width 400ms ease, background 400ms ease;
+      width:0;
+      cursor: pointer;
+      -webkit-appearance: searchfield-cancel-button;
+    }
+
+    .search-field:focus {
+      /*background-color: #000;*/
+      border-radius: 8px;
+      border: 2px solid #5E50A1;
+      cursor: text;
+      outline: 0;
+      width: 250px;
+      /*color:#fff;*/
+    }
+    
+    .search-form .search-submit {
+      display:none;
+    }
+
+    .ui-front {
+      z-index: 1050;
+      border-radius: 8px;
+    }
+
+    .ui-menu-item:hover,
+    .ui-menu-item:active,
+    .ui-menu-item:active,
+    .ui-menu-item-wrapper.ui-state-active {
+      border-color: #EFF1F3;
+      background: #EFF1F3;
+      color: #424143;
+      border-radius: 6px;
+      margin: 5px;
+      border-width: 0;
+    }
+
+    .ui-menu-item-wrapper {
+      margin: 5px;
+      border-width: 0;
+    }
+
+    @media  screen and (min-device-width: 1200px) {
+      #cancel-search-button {
+        display: none;
+      }
+    }
+    
+    @media  screen and (min-device-width: 1200px) and (max-device-width: 1439px) {
+      ul#ui-id-1 {
+        zoom: 83%;
+      }
+
+      nav {
+        zoom: 83%;
+      }
+    }
+    
+    @media  screen and (min-device-width: 1440px) and (max-device-width: 1560px) {
+      ul#ui-id-1 {
+        zoom: 93%;
+      }
+
+      nav {
+        zoom: 93%;
+      }
+    }
+
+  </style>
+
+  
+
+</head>
+
+<body>
+      <nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-ease-out">
+  <div class="container-fluid navbar-site">
+    <a class="navbar-brand" href="https://paxel.co/id/home">
+      <img src="https://paxel.co/images/icon/paxel_logo_whitetext.png" alt="Paxel">
+    </a>
+    <button class="navbar-toggler main-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="font-size: 1.25rem;"></span>
+    </button>
+    <div class="main-menu collapse navbar-collapse bg-ease-out" id="navbarCollapse">
+      <div class="navbar-inner">
+        <a class="navbar-brand" href="https://paxel.co/id/home">
+          <img src="https://paxel.co/images/icon/paxel_logo_whitetext.png" alt="Paxel">
+        </a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown partnership-menu-container">
+            <a id="button-search" class="nav-link partnership-menu"><span class="fa fa-search" style=""></span> Cari</a>
+            <form id="form-search" role="search" method="get" class="search-form" action="https://paxel.co/id/cari" style="display: none; padding-left: 20px">
+              <label>
+                <input type="search" id="search-input" class="search-field" placeholder="Cari di Paxel..." value="" name="keyword" title="Search for:" autocomplete="off" />
+              </label>
+              <input type="submit" class="search-submit" value="Search" />
+              <a id="cancel-search-button" class="pull-right" style="margin-left: 8px; color: #5E50A1; font-weight: bold">Batal</a>
+            </form>
+          </li>
+          <li class="nav-item dropdown partnership-menu-container">
+            <a class="nav-link dropdown-toggle partnership-menu " href="#" id="partnership-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tentang Paxel</a>
+            <ul class="dropdown-menu" aria-labelledby="partnership-menu">
+              <li>
+                <a class="dropdown-item" href="https://paxel.co/id/tentang-kami">Tentang Kami</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://paxel.co/id/berita-dan-promo">Berita & Promo</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://paxel.co/id/antarkan-kebaikan">#AntarkanKebaikan</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://paxel.co/id/pejuang-online">#PejuangOnline</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown partnership-menu-container">
+            <a class="nav-link dropdown-toggle partnership-menu " href="#" id="partnership-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layanan Kami</a>
+            <ul class="dropdown-menu" aria-labelledby="partnership-menu">
+              <li>
+                <a class="dropdown-item" href="https://paxel.co/id/layanan-kami">Layanan Kami</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://paxel.co/id/home">Sameday Delivery</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://paxelbox.paxel.co">PaxelBox</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://paxelmarket.co">PaxelMarket</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://paxelbig.paxel.co">PaxelBig</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://paxel.co/id/home">Instant Delivery</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://paxel.co/id/home">Instant Multidrop</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://paxel.co/id/paxel-recycle">PaxelRecycle</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://paxel.co/id/home">Lew@tBox</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://paxel.co/id/layanan-kami#paxelamplop">PaxelAmplop</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://paxel.co/id/layanan-kami#ppob">PPOB</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown partnership-menu-container">
+            <a class="nav-link dropdown-toggle partnership-menu" href="#" id="partnership-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kemitraan</a>
+            <ul class="dropdown-menu" aria-labelledby="partnership-menu">
+              <li><a class="dropdown-item" href="https://paxel.co/id/kemitraan">Tentang Kemitraan</a></li>
+              <li><a class="dropdown-item" href="https://customer.paxel.co">Corporate</a></li>
+              <li><a class="dropdown-item" style="padding-top: 7.5px;" href="https://paxel.co/id/mitrapaxel">Mitra PaxelCo</a></li>
+              <li><a class="dropdown-item" href="https://paxelbig.paxel.co">PaxelBig</a></li>
+              <li><a class="dropdown-item" href="https://paxelbox.paxel.co">PaxelBox</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link tx-transform-none" href="https://paxel.co/id/download">Download</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="https://paxel.co/id/lacak-pengiriman">Lacak Pengiriman</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link nav-login tx-transform-none" href="#"><span class="login">Masuk</span></a>
+          </li> -->
+          <li class="nav-item dropdown lang-container">
+            <a class="nav-link dropdown-toggle" href="#" id="lang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              <span class="locale-focus"><img src="/images/icon/ic_translate.svg" alt="Paxel Translate SVG Icon" style="margin-top: -5px;"> ID</span>
+                                          </a>
+            <ul class="dropdown-menu" aria-labelledby="lang">
+              
+              
+              <li>
+                <a class="dropdown-item articles-flag-indo" href="https://paxel.co/id/lacak-pengiriman">
+                  <span class="flag-icon flag-icon-id flag-label"></span><span class="flag-title">Bahasa</span>
+                </a></li>
+              <li>
+                <a class="dropdown-item articles-flag-english" href="https://paxel.co/en/track-shipments">
+                  <span class="flag-icon flag-icon-en flag-label"></span><span class="flag-title">English</span>
+                </a></li>
+              
+            </ul>
+          </li>
+                    <li class="create-button-handle nav-item ">
+            <a class="btn btn-create-shipment" style="padding: 12px 26px;" href="https://paxel.co/id/guest-app/sender">KIRIM SEKARANG</a>
+          </li>
+                  </ul>
+      </div>
+      <button class="navbar-toggler additional-toggler bg-ease-out" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span style="font-size: 48px;">
+          <svg
+            viewBox="0 0 16 16"
+            width="1em"
+            height="1em"
+            focusable="false"
+            role="img"
+            aria-label="x"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#5f51a1"
+            class="bi-x b-icon bi"
+          >
+            <g>
+              <path
+                stroke='rgba(94, 80, 161, 1)'
+                stroke-width='0.0005'
+                fill-rule="evenodd"
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1
+                .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646
+                2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+              ></path>
+            </g>
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</nav>
+  
+  <div class="track-shipments page">
+                          <section>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <h4>
+                          Status Pengiriman                        </h4>
+                        <p>
+                          Hi, terima kasih atas pengiriman dengan Paxel! Berikut detil pengirimanmu.
+                        </p>
+                        <table class="table table-responsive">
+                          <thead>
+                          <tr>
+                              <th>
+                                <div class="header-row">
+                                  <span class="header-image">
+                                    <img loading="lazy" src="https://paxel.co/images/icon/paxel-icons-airway-bill.svg" alt="paxel icon" >
+                                  </span>
+                                  <span class="header-text">
+                                  Resi/AWB                                  </span>
+                                </div>
+                              </th>
+                              <th width="12%">
+                                <div class="header-row">
+                                  <span class="header-image">
+                                    <img loading="lazy" src="https://paxel.co/images/icon/paxel-icons-person.svg" alt="paxel icon" >
+                                  </span>
+                                  <span class="header-text">
+                                  Pengirim                                  </span>
+                                </div>
+                              </th>
+                              <th width="15%">
+                                <div class="header-row">
+                                  <span class="header-image">
+                                    <img loading="lazy" src="https://paxel.co/images/icon/paxel-icons-person.svg" alt="paxel icon" >
+                                  </span>
+                                  <span class="header-text">
+                                  Penerima                                  </span>
+                                </div>
+                              </th>
+                              <th width="18%">
+                                <div class="header-row">
+                                  <span class="header-image">
+                                    <img loading="lazy" src="https://paxel.co/images/icon/paxel-icons-gps-pin.svg" alt="paxel icon" >
+                                  </span>
+                                  <span class="header-text">
+                                  Tujuan                                  </span>
+                                </div>
+                              </th>
+                              <th>
+                                <div class="header-row">
+                                  <span class="header-image">
+                                    <img loading="lazy" src="https://paxel.co/images/icon/paxel-icons-history.svg" alt="paxel icon" >
+                                  </span>
+                                  <span class="header-text">
+                                    Perkiraan Pengantaran                                  </span>
+                                </div>
+                              </th>
+                              <th>
+                                <div class="header-row">
+                                  <span class="header-image">
+                                    <img loading="lazy" src="https://paxel.co/images/icon/paxel-icons-status.svg" alt="paxel icon" >
+                                  </span>
+                                  <span class="header-text">
+                                    Status Terakhir                                  </span>
+                                </div>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                                                        <tr>
+                              <td>
+                                DELIVERED
+                              </td>
+                              <td>
+                              CHARIS INDONESIA
+                              </td>
+                              <td>
+                                Novi Sietohan
+                              </td>
+                              <td>
+                                
+Kondiminium Graha...
+                              </td>
+                              <td>
+                                Feb 10
+                                |
+                                18:00
+                                -
+                                22:00
+                              </td>
+                              <td>
+                                <div class="awb-0">
+                                  <button type="button" class="shipment-detail-btn" data-toggle="modal" data-id="DELIVERED" data-target="#trackship_detail-EMS67MFJPIEM202302095LF5VVM">
+                                      <span>
+                                                                                <img loading="lazy" src="https://paxel.co/images/icon/paxel-icons-correct.svg" class="shipment-status-icon">
+                                                                              </span>
+                                      <span class="mx-2 tx-bold tx-green">Shipment Arrived</span>
+                                      <span class="shipment-status-arrow">
+                                          <i class="fa fa-angle-right"></i>
+                                      </span>
+                                  </button>
+                                </div>
+                              </td>
+                            </tr>
+                                                                                  </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                
+  <!-- Search Shipment From App -->
+  
+  <!-- Begin Track Your Shipments -->
+  <section class="track-shipment">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <img loading="lazy" class="track_icon" src="https://paxel.co/images/content/track_shipment_illustration.svg">
+        </div>
+        <div class="col-md-7 shipment_track">
+          <h4>
+                                Masih ingin lacak pengiriman lainnya?                      </h4>
+
+          <p>
+            Masukkan <b>maksimal sampai dengan 20 Kode Pengiriman (Resi/AWB)</b> hanya dengan menyalinnya ke sini (dipisah dengan spasi atau enter), semua otomatis terurut          </p>
+                    <form class="repeater" data-limit="20" method="POST" action="https://paxel.co/id/lacak-pengiriman">
+            <input type="hidden" name="_token" value="c1krFjBdxdSkWE3HOE8rSNm1Q0SvfEjRaDHwy8Bz">            <div id="awb-text-area-card" style="border:0.5px solid #dedede; padding:13px">
+            <div class="input-group">
+              <div class="input-group-prepend">
+              <img loading="lazy" style="align-self: flex-start;" src="https://paxel.co/images/icon/two-colored-airway-bill.svg" alt="paxel awb">
+              </div>
+            <textarea id="awb-text-area" class="form-control airwaybill-code pt-0" style="border:0px" placeholder="Masukkan kode AWB di sini. Contoh:
+EM.XXXXXXXXXX-20XXXXXX-X-XXXXXX
+EM.XXXXXXXXXX-20XXXXXX-X-XXXXXX
+EM.XXXXXXXXXX-20XXXXXX-X-XXXXXX" name="shipment_code" required id="exampleFormControlTextarea1" rows="10"></textarea>
+            <div class="trackship_est_tooltip hide-component" id="tooltip-form-validation-awb-field">
+                <p class="title">Tolong Isi Field</p>
+              </div>
+            </div>  
+          
+            <br>
+            </div>
+            <div class="col-md-6 mt-3 track-center pl-0">
+            <button id="trackshipment-button" type="submit" name="button" class="hide-component">
+            </button>
+            <a id="track-captcha" class="btn bg-purple btn-primary-paxel text-white" style="cursor:pointer" >
+            Lacak Pengiriman            </a>
+              <div class="col-12 text-center hide-captcha-track hide-component p-0" style="position: absolute;z-index: 2;">
+                <div class="slidercaptcha card margin-captcha-slider-track">
+                      <div class="card-header text-left">
+                        <div class="row">
+                          <div class="col-9 py-2 ml-3 mr-2">Prove you are human :)</div>
+                          <div class="col-1 py-2">
+                            <i id="refresh-captcha-track" class="fas fa-redo-alt text-right"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                          <div id="captcha-track"></div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- End Track Your Shipments -->
+  <section class="detail-container">
+        <div class="awb-detail awb-detail-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-1 order-12">
+            <a class="tx-purple close-btn" href="#">
+              X
+            </a>
+          </div>
+          <div class="col-11">
+            <h5>
+              DELIVERED
+            </h5>
+            <h6>
+              XLUA2EM-S67MFJPIEM-1675913147287
+            </h6>
+          </div>
+        </div>
+        <div class="row top">
+          <div class="col-6">
+            <div class="tx-grey">
+              <img loading="lazy" class="icon" src="https://paxel.co/images/icon/paxel-icons-status.svg" alt="Paxel icon">
+              <span class="text-uppercase">Status Terakhir</span>
+            </div>
+            <div class="tx-green add-padding">
+              <span>Shipment Arrived</span>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="tx-grey">
+              <img loading="lazy" class="icon" src="https://paxel.co/images/icon/paxel-icons-calendar.svg" alt="Paxel icon">
+              <span class="text-uppercase">Waktu Pengantaran</span>
+            </div>
+            <div class="tx-bold add-padding">
+              <span>
+                  Feb 10
+                  |
+                  18:00
+                  -
+                  22:00
+              </span>
+            </div>
+          </div>
+        </div>
+                <div class="proof-of-delivery">
+          <div class="tx-purple">
+            Bukti Pengiriman          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="tx-grey">
+                <img loading="lazy" class="icon" src="https://paxel.co/images/icon/paxel-icons-person.svg" alt="Paxel icon">
+                <span class="text-uppercase">Diterima Oleh</span>
+              </div>
+              <div class="add-padding">
+                <div class="name">
+                  
+                </div>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="tx-grey">
+                <img loading="lazy" class="icon" src="https://paxel.co/images/icon/paxel-icons-camera.svg" alt="Paxel icon">
+                <span class="text-uppercase">Foto</span>
+              </div>
+              <div class="add-padding">
+                <div class="name">
+                  <img loading="lazy" class="photo" src="">
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="tx-grey">
+                <img loading="lazy" class="icon" src="https://paxel.co/images/icon/paxel-icons-edit.svg" alt="Paxel icon">
+                <span class="text-uppercase">Tanda Tangan</span>
+              </div>
+              <div class="add-padding">
+                <div class="name">
+                  <img loading="lazy" class="photo" src="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="address">
+          <div class="tx-purple">
+            Rincian Pengiriman 
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="tx-grey">
+                <img loading="lazy" class="icon" src="https://paxel.co/images/icon/paxel-icons-person.svg" alt="Paxel icon">
+                <span class="text-uppercase">Pengirim</span>
+              </div>
+              <div class="add-padding">
+                <div class="name">
+                  CHARIS INDONESIA
+                </div>
+                <p>
+                Jl. Kh MAS Mansyur Gg. Riban No.5, RT.2/RW.9, Kb. Melati, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10230, Indonesia
+                </p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="tx-grey">
+                <img loading="lazy" class="icon" src="https://paxel.co/images/icon/paxel-icons-person.svg" alt="Paxel icon">
+                <span class="text-uppercase">Penerima</span>
+              </div>
+              <div class="add-padding">
+                <div class="name">
+                  Novi Sietohan
+                </div>
+                <p>
+                  
+Kondiminium Graha Family Regency A 502 - Dukuh Pakis Surabaya,Surabaya City, East Java, Indonesia
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="tx-grey">
+                <img loading="lazy" class="icon" src="https://paxel.co/images/icon/paxel-icons-calendar.svg" alt="Paxel icon">
+                <span class="text-uppercase">Waktu Penjemputan</span>
+              </div>
+              <div class="add-padding">
+                Feb 09
+                |
+                15:00
+                -
+                20:00
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="tx-grey">
+                <img loading="lazy" class="icon" src="https://paxel.co/images/icon/paxel-icons-calendar.svg" alt="Paxel icon">
+                <span class="text-uppercase">Perkiraan Pengantaran</span>
+              </div>
+              <div class="add-padding">
+                Feb 10
+                |
+                18:00
+                -
+                22:00
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tx-grey bottom text-uppercase">
+          Riwayat Status        </div>
+        <div class="delivery-timeline">
+                    <div class="row tx-grey">
+            <div class="col-9">
+              <span class="point"></span>
+              <div class="district">
+                DUKUHPAKIS, KOTA SURABAYA
+              </div>
+            </div>
+            <div class="col-3">
+              Feb 10 | 18:00
+            </div>
+          </div>
+          <div class="description">
+            <p>
+                              Paketmu telah berhasil diantar oleh Hero BAMBANG PURWANTO
+              <!-- Kiriman telah tiba di tujuan -->
+                          </p>
+                        <hr />
+                      </div>
+                    <div class="row tx-grey">
+            <div class="col-9">
+              <span class="point"></span>
+              <div class="district">
+                TANAH ABANG, KOTA JAKARTA PUSAT
+              </div>
+            </div>
+            <div class="col-3">
+              Feb 09 | 21:06
+            </div>
+          </div>
+          <div class="description">
+            <p>
+                              Tunggu ya, paketmu saat ini baru tiba di Paxel Point
+              <!-- page.POLXL -->
+                          </p>
+                        <hr />
+                      </div>
+                    <div class="row tx-grey">
+            <div class="col-9">
+              <span class="point"></span>
+              <div class="district">
+                TANAH ABANG, KOTA JAKARTA PUSAT
+              </div>
+            </div>
+            <div class="col-3">
+              Feb 09 | 21:06
+            </div>
+          </div>
+          <div class="description">
+            <p>
+                              Tunggu ya, paketmu saat ini baru tiba di Paxel Point
+              <!-- page.POLXL -->
+                          </p>
+                        <hr />
+                      </div>
+                    <div class="row tx-grey">
+            <div class="col-9">
+              <span class="point"></span>
+              <div class="district">
+                TANAH ABANG, KOTA JAKARTA PUSAT
+              </div>
+            </div>
+            <div class="col-3">
+              Feb 09 | 21:06
+            </div>
+          </div>
+          <div class="description">
+            <p>
+                              Tunggu ya, paketmu saat ini baru tiba di Paxel Point
+              <!-- page.POLXL -->
+                          </p>
+                        <hr />
+                      </div>
+                    <div class="row tx-grey">
+            <div class="col-9">
+              <span class="point"></span>
+              <div class="district">
+                TANAH ABANG, KOTA JAKARTA PUSAT
+              </div>
+            </div>
+            <div class="col-3">
+              Feb 09 | 21:06
+            </div>
+          </div>
+          <div class="description">
+            <p>
+                              Tunggu ya, paketmu saat ini baru tiba di Paxel Point
+              <!-- page.POLXL -->
+                          </p>
+                        <hr />
+                      </div>
+                    <div class="row tx-grey">
+            <div class="col-9">
+              <span class="point"></span>
+              <div class="district">
+                TANAH ABANG, KOTA JAKARTA PUSAT
+              </div>
+            </div>
+            <div class="col-3">
+              Feb 09 | 21:06
+            </div>
+          </div>
+          <div class="description">
+            <p>
+                              Tunggu ya, paketmu saat ini baru tiba di Paxel Point
+              <!-- page.POLXL -->
+                          </p>
+                        <hr />
+                      </div>
+                    <div class="row tx-grey">
+            <div class="col-9">
+              <span class="point"></span>
+              <div class="district">
+                TANAH ABANG, KOTA JAKARTA PUSAT
+              </div>
+            </div>
+            <div class="col-3">
+              Feb 09 | 21:06
+            </div>
+          </div>
+          <div class="description">
+            <p>
+                              Tunggu ya, paketmu saat ini baru tiba di Paxel Point
+              <!-- page.POLXL -->
+                          </p>
+                        <hr />
+                      </div>
+                    <div class="row tx-grey">
+            <div class="col-9">
+              <span class="point"></span>
+              <div class="district">
+                TANAH ABANG, KOTA JAKARTA PUSAT
+              </div>
+            </div>
+            <div class="col-3">
+              Feb 09 | 10:26
+            </div>
+          </div>
+          <div class="description">
+            <p>
+                              Terima kasih untuk ordernya! Order sudah diterima dan akan segera diproses! 
+              <!-- page.RPCXL -->
+                          </p>
+                      </div>
+                  </div>
+      </div>
+    </div>
+      </section>
+</div>
+
+      <footer class="bg-dark-purple">
+  <div class="container">
+    <div class="footer-menu-wrapper">
+      <div class="footer-menu">
+        <div class="link-container caption-link-bold">
+          <a href="https://paxel.co/id/tentang-kami">Tentang Paxel</a>
+        </div>
+        <div class="link-container caption-link-bold">
+          <a href="https://paxel.co/id/layanan-kami">Layanan Kami</a>
+        </div>
+        <div class="link-container caption-link-bold">
+          <a href="https://paxel.co/id/berita-dan-promo">Berita & Promo</a>
+        </div>
+        <div class="link-container caption-link-bold">
+          <a href="https://paxel.co/id/antarkan-kebaikan">#AntarkanKebaikan</a>
+        </div>
+      </div>
+      <div class="footer-menu">
+        <div class="link-container caption-link-bold">
+          <a href="https://paxel.co/id/kemitraan">Tentang Kemitraan</a>
+        </div>
+                  <div class="link-container">
+                        <a href="https://customer.paxel.co" target="_blank" class="text-capitalize">Corporate</a>
+                      </div>
+                  <div class="link-container">
+                        <a href="https://paxel.co/id/mitrapaxel" class="text-capitalize">Mitra PaxelCo</a>
+                      </div>
+                  <div class="link-container">
+                        <a href="https://paxelbig.paxel.co" target="_blank" class="text-capitalize">PaxelBig</a>
+                      </div>
+                  <div class="link-container">
+                        <a href="https://paxelbox.paxel.co" target="_blank" class="text-capitalize">PaxelBox</a>
+                      </div>
+              </div>
+      <div class="footer-menu">
+        <div class="link-container caption-link-bold">
+          <a href="https://paxel.co/id/layanan-dan-bantuan">Bantuan</a>
+        </div>
+        <div class="link-container caption-link">
+          <a href="https://paxel.co/id/home?cek_ongkir=true">Cek Ongkir</a>
+        </div>
+        <div class="link-container caption-link">
+          <a href="https://paxel.co/id/lacak-pengiriman">Cek Resi</a>
+        </div>
+      </div>
+      <div class="footer-menu">
+        <div class="link-container caption-link-bold">
+          <a href="https://paxel.co/id/syarat-dan-ketentuan">Syarat & Ketentuan</a>
+        </div>
+        <div class="link-container caption-link-bold">
+          <a href="https://paxel.co/id/kebijakan-privasi">Kebijakan Privasi</a>
+        </div>
+      </div>
+      <div class="footer-menu social-container footer-menu-100">
+        <div>Ikuti Kami</div>
+        <div class="social-wrapper mt-2">
+          <div class="social-link">
+            <a target="_blank" href="http://www.facebook.com/paxel.co">
+            <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+          <div class="social-link"><a target="_blank" href="http://www.instagram.com/paxelco_"><i class="fab fa-instagram"></i></a></div>
+          <div class="social-link"><a target="_blank" href="https://www.youtube.com/channel/UCGSnDYGVE6dL2U-AX5tLEkg"><i class="fab fa-youtube"></i></a></div>
+          <div class="social-link"><a target="_blank" href="http://www.twitter.com/paxelco_"><i class="fab fa-twitter"></i></a></div>
+          <div class="social-link"><a target="_blank" href="http://www.tiktok.com/@paxel.co"><i class="fab fa-tiktok"></i></a></div>
+        </div>
+        <div class="link-container caption-link-bold mt-3 desktop-footer">
+          <div>Unduh Aplikasi Paxel</div>
+          <div class="footer-download-image">
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.paxel&referrer=utm_source%3Dwebrevamp%26utm_medium%3Dbadge">
+              <img src="https://paxel.co/images/content/download-playstore.png" width="180" class="img-fluid mt-2 app-logo" alt="android paxel app">
+            </a>
+            <a target="_blank" href="https://apps.apple.com/app/apple-store/id1372668166?pt=118967865&ct=webrevamp&mt=8">
+              <img src="https://paxel.co/images/content/download-appstore.png" width="180" class="img-fluid mt-2 app-logo" alt="ios paxel app">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-menu mobile-footer">
+        <div class="link-container caption-link-bold">
+          <div>Unduh Aplikasi Paxel</div>
+          <div class="footer-download-image">
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.paxel&referrer=utm_source%3Dwebrevamp%26utm_medium%3Dbadge">
+              <img src="https://paxel.co/images/content/download-playstore.png" width="160" class="img-fluid mt-2 app-logo" alt="android paxel app">
+            </a>
+          </div>
+          <div class="footer-download-image">
+            <a target="_blank" href="https://apps.apple.com/app/apple-store/id1372668166?pt=118967865&ct=webrevamp&mt=8">
+              <img src="https://paxel.co/images/content/download-appstore.png" width="160" class="img-fluid mt-2 app-logo" alt="ios paxel app">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="logo-social-container clearfix">
+        <div class="footer-logo-container">
+          <img src="https://paxel.co/images/icon/logo-white.svg" alt="Paxel">
+        </div>
+        <div class="copyright align-self-end tx-grey tx-10">&copy; 2023 Paxel - Seluruh Hak Cipta</div>
+      </div>
+    </div>
+  </div>
+</footer>
+  
+  
+  <div id="gateway-error" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <p>Gateway API Server Is Down.</p>
+          <p>Message: </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fly-banner-mobile" id="fly-banner-mobile">
+    <div class="fly-banner-content container">
+      <span class="fly-banner-head">
+        <span class="fly-banner-close"><i class="fas fa-times" id="fly-banner-close"></i></span>
+        <a href="https://bit.ly/web-kirim" class="">
+          <img src="https://paxel.co/images/icon/logo-purple.svg" class="fly-banner-image" alt="Paxel">
+        </a>
+      </span>
+      <span><a href="https://bit.ly/web-kirim" class="fly-banner-cta">Buka</a></span>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  
+    <script>
+        
+    </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha256-CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=" crossorigin="anonymous" defer></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>    
+    $('#form-search').hide()
+    $('#button-search').on('click', () => {
+      $('#button-search').hide()
+      $('#form-search').show()
+      $('#search-input').focus()
+    })
+
+    $('#search-input').focusout(() => {
+      $('#button-search').show()
+      $('#form-search').hide()
+    })
+    
+    const lang = `id`
+    $( "#search-input" ).autocomplete({
+      source: function( request, response ) {
+        $.ajax({
+          url: "/api/v1/search/keyword",
+          dataType: "json",
+          data: {
+            search: request.term
+          },
+          success: function( data ) {
+            response( data );
+          }
+        });
+      },
+      minLength: 0,
+      select: function( event, ui ) {
+        window.open(`/${lang}/search?keyword=${ui.item.value}`, '_self')
+      },
+      open: function() {
+        $( this ).removeClass( "ui-corner-all" ).addClass( "ui-corner-top" );
+      },
+      close: function() {
+        $( this ).removeClass( "ui-corner-top" ).addClass( "ui-corner-all" );
+      }
+    }).focus(function(){
+      setTimeout(() => {
+        $(this).autocomplete("search");
+      }, 200)
+    }).data("ui-autocomplete")._renderItem = function (ul, item) {
+      return $("<li></li>")
+      .data("item.autocomplete", item)
+      .append(`<div class="ui-menu-item-wrapper">${item.label}</div>`)
+      .appendTo(ul);
+    };
+  </script>
+  
+  <script>
+      </script>
+
+  <!-- <script src="https://paxel.co/plugins/embedly.js"></script> -->
+  <script>
+    document.querySelectorAll( 'oembed[url]' ).forEach( element => {
+        // const anchor = document.createElement( 'a' );
+        // anchor.setAttribute( 'href', element.getAttribute( 'url' ) );
+        // anchor.className = 'embedly-card';
+        // element.appendChild( anchor );
+
+        url = element.getAttribute( 'url' );
+
+        if (url.includes("youtube")) {
+          url = url.replace("watch?v=", "embed/").replace("&feature=youtu.be","");
+        } else if(url.includes("youtu.be")) {
+          url = url.replace("youtu.be","youtube.com/embed")
+        }
+        iframe = '<iframe class="embedded-iframe"src= "' + url + '" frameborder="0" allowfullscreen></iframe>';
+        wrapperiframe = '<div class="embedded-videos">' + iframe + '</div>'
+				element.parentElement.insertAdjacentHTML('afterend', wrapperiframe);
+
+    } );
+
+    $("#fly-banner-close").click(function() {
+      $("#fly-banner-mobile").addClass("d-none");
+      const ymDivBar = document.getElementById('ymDivBar');
+      if (ymDivBar) {
+        ymDivBar.style.setProperty('bottom', '20px', 'important');
+      }
+    });
+  </script>
+  
+  <script src="https://paxel.co/js/ymchatbot.js"></script>
+  <script type="text/javascript">
+    window.YellowAIWebSetting.getWebSetting("https://api.paxel.co/apg/api/v1/settings", function(err, data) {
+      console.log("YMCHAT SETTING: ", data);
+      if (data === "enabled") {
+        const currentURLParams = new URLSearchParams(window.location.search);
+        let openChatBot = currentURLParams.get('open_chatbot');
+        let isOpenBot = false;
+        if (openChatBot == 'true') {
+          isOpenBot = true;
+        }
+        console.log("YMCHAT OPENED: ", isOpenBot);
+        // window.ymConfig = {"bot":"x1662714659055","host":"https://r2.cloud.yellow.ai","autoOpen":isOpenBot};(function () {var w=window,ic=w.YellowMessenger;if("function"===typeof ic)ic("reattach_activator"),ic("update",ymConfig);else{var d=document,i=function(){i.c(arguments)};function l(){var e=d.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js";var t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}i.q=[],i.c=function(e){i.q.push(e)},w.YellowMessenger=i,w.attachEvent?w.attachEvent("onload",l):w.addEventListener("load",l,!1)}})();
+        window.ymConfig = {"bot":"x1662714659055","host":"https://r2.cloud.yellow.ai","autoOpen":isOpenBot};(function () {var w=window,ic=w.YellowMessenger;if("function"===typeof ic)ic("reattach_activator"),ic("update",ymConfig);else{var d=document,i=function(){i.c(arguments)};function l(){var e=d.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js";var t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}i.q=[],i.c=function(e){i.q.push(e)},w.YellowMessenger=i,l()}})();
+        
+        // initialize ymchatbot customization
+        if (!window.YMCHATBOT_CUSTOMIZE) {
+          window.YellowAICustomization.init("https://paxel.co", "https://paxel.co/css/ymchatbot.css", "right");
+          window.YMCHATBOT_CUSTOMIZE = true;
+        }
+      }
+    });
+  </script>
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '537695651445782');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=537695651445782&ev=PageView&noscript=1"/></noscript>
+  <!-- End Meta Pixel Code -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.repeater/1.2.1/jquery.repeater.min.js" integrity="sha256-15owqJa8me4REHGJOz0YGNSSNjC/3wme7FRXaRVwxRY=" crossorigin="anonymous"></script>
+<!-- <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script> -->
+<script src="https://paxel.co/js/longbow.slidercaptcha.min.js"></script>
+<script>
+  if("" != ''){
+    $("textarea#awb-text-area").val("");
+    $("#trackshipment-button").click();
+  } else{
+    $("textarea#awb-text-area").val("");
+  }
+
+  var captcha_track = sliderCaptcha({
+            id: 'captcha-track',
+            setSrc: function () {
+                var randomInt = setInterval(function () {
+                    var randomNumber = "7";
+                }, 100);
+                return "https://paxel.co/images/captcha/Img_7.png";
+            },
+            onSuccess: function () {  
+                var handler = setTimeout(function () {
+                    window.clearTimeout(handler);
+                    captcha_track.reset();
+                    $(".hide-captcha-track").slideUp(500);
+                    $("#trackshipment-button").click();
+                }, 500);
+            }
+        });
+  var trackshipment_recaptcha;
+  // var onloadCallback = function() {
+  //     trackshipment_recaptcha = grecaptcha.render('trackshipment-recaptcha', {
+  //         'sitekey' : "6Lc8iOEUAAAAAIOOpxlMhLgSl7gLkP7SlUXmFnAH",
+  //         'callback' : function() {
+  //           return new Promise(function(resolve, reject) {
+  //             $('#tooltip-form-validation-trackshipment-recaptcha').hide();
+  //           });
+  //         }
+  //     });
+
+  // };
+
+  // function validateTrackShipmentRecaptcha() {
+  //   var trackshipment_recaptcha_response = grecaptcha.getResponse(trackshipment_recaptcha);
+  //   if (trackshipment_recaptcha_response.length == 0) {
+  //     $('#tooltip-form-validation-trackshipment-recaptcha').show();
+  //     return false;
+  //   } else {
+  //     return true;
+  //   }
+  // }
+
+    
+  $(document).ready(function(){
+    
+    $("#refresh-captcha-track").click(function() {
+      captcha_track.reset();
+    });
+
+  $("#track-captcha").click(function() {
+    var awb = $('#awb-text-area').val();
+    if (awb == "") {
+      $('#tooltip-form-validation-awb-field').removeClass('hide-component');
+      $('#tooltip-form-validation-awb-field').addClass('show-component');
+      $("#awb-text-area-card").addClass('error-text-awb');
+      return;
+    }
+    $('#tooltip-form-validation-awb-field').addClass('hide-component');
+    $('#tooltip-form-validation-awb-field').removeClass('show-component');
+    $("#awb-text-area-card").removeClass('error-text-awb');
+    $(".hide-captcha-track").slideDown(500);
+  });
+    awbList = $(".awb-detail").length;
+
+    $(".close-btn").on("click", function(){
+      $(".awb-detail").animate({right: "-50%"}, 200)
+      $(".awb-detail").fadeOut(function(){
+        $(".track-shipments .detail-container").fadeOut();
+        $("body").css("overflow-y", "auto");
+      });
+    });
+
+    for(let i = 0; i < awbList; i++){
+      $(".awb-" + i).on("click", function(){
+        $("body").css("overflow-y", "hidden");
+        $(".detail-container").fadeIn(function(){
+          $(".awb-detail-" + i).fadeIn();
+          $(".awb-detail-" + i).animate({right: "0%"}, 200);
+        });
+      });
+    }
+
+    // console.log("");
+
+    // if("" === '1'){
+    //   $(".popable-").click();
+    // }
+
+    $('.repeater').repeater({
+      isFirstItemUndeletable: true,
+      show: function () {
+        if( $(this).parents(".repeater").attr("data-limit").length > 0 ){
+          if( $(this).parents(".repeater").find("div[data-repeater-item]").length <= $(this).parents(".repeater").attr("data-limit") ){
+            $(this).slideDown();
+            $(this).find('input').removeAttr('required');
+          } else {
+            $(this).remove();
+          }
+        } else {
+          $(this).slideDown();
+        }
+      },
+      hide: function (deleteElement) {
+        $(this).slideUp(deleteElement);
+      }
+    });
+  });
+</script>
+</body>
+</html>
