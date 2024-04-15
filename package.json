@@ -62,7 +62,7 @@
   },
   "homepage": "https://github.com/egg-/delivery-tracker#readme",
   "devDependencies": {
-    "grunt": "1.3.0",
+    "grunt": "1.5.3",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-mocha-test": "^0.13.2",
     "matchdep": "^1.0.1",
