@@ -1,0 +1,89 @@
+name: Broken courier
+description: A courier returns nothing, errors, or wrong data
+labels: ['courier']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        These couriers are scraped from pages that change without notice. Without the
+        response the courier actually returned, a failure usually cannot be reproduced.
+
+        Please fill in **either** the tracking number **or** a recorded response below.
+
+  - type: dropdown
+    id: courier
+    attributes:
+      label: Courier
+      options:
+        - koreapost
+        - fedex
+        - auspost
+        - pantos
+        - rincos
+        - royalmail
+        - usps
+        - cjkoreaexpress
+        - poslaju
+        - efs
+        - ups
+        - tnt
+        - cesco
+        - xpost
+        - sicepat
+        - eparcel
+        - lbc
+        - jnt
+        - dhl
+        - canadapost
+        - paxel
+    validations:
+      required: true
+
+  - type: input
+    id: number
+    attributes:
+      label: Tracking number
+      description: >
+        Please use a shipment that is already delivered and no longer sensitive to you —
+        anyone reading this issue can look it up. Leave blank and attach a recorded
+        response instead if you would rather not share one.
+      placeholder: EB123456789KR
+
+  - type: textarea
+    id: fixture
+    attributes:
+      label: Recorded response
+      description: >
+        Drag in the saved response file, or paste it. See "Reporting a broken courier" in
+        the README for the capture snippet. Please replace the real tracking number with
+        a placeholder (inside the body too, not only the filename) and remove recipient
+        and sender names, phone numbers, full addresses and signature images.
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect, and what happened?
+      description: >
+        An error (include its `code`), an empty `checkpoints`, wrong `time` values, or a
+        wrong `status`?
+    validations:
+      required: true
+
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      placeholder: delivery-tracker 3.0.0, Node.js 22.17.1
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: >
+            I checked the courier's status in the README — some are known to be broken or
+            to have shut down.
+        - label: >
+            If I attached a recorded response, I removed personal data from it.

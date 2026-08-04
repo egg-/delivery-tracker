@@ -1,3 +1,75 @@
+# 3.0.0
+
+Rewritten in TypeScript. This release is **breaking** — see the migration notes below.
+
+## Breaking
+* **ESM only.** `require('delivery-tracker')` no longer works; use `import`.
+* **`trace()` returns a promise** instead of taking a callback.
+  * `courier.trace(number, cb)` → `await courier.trace(number)`
+  * Failures now **reject** with a `TrackerError` (an `Error` subclass with `.code`),
+    where v2 passed a plain `{ code, message }` object to the callback.
+* **Requires Node.js 20 or later.**
+* `COURIER.DEPPON` removed — it had no implementation and threw on use.
+* **Five couriers removed** because their hostname no longer resolves, so they cannot
+  work regardless of the parser: `ecargo`, `yelloexpress`, `kerrythai`, `xioexpress`,
+  `airbridge`. Their tests passed only because `nock` replayed recordings made in
+  2017–2020. The parsers and fixtures remain in git history.
+* `tracker.error()` removed; use `TrackerError` / the exported `ERROR` codes.
+* `cjkoreaexpress` checkpoints now carry `message` as a string, matching every other
+  courier. It was an array in v2.
+* DHL without an `apikey` now rejects instead of passing the error as a *result*.
+* `lbc` no longer exposes `loadHash()`.
+
+## Added
+* Type declarations ship with the package; courier codes are checked at compile time.
+* `Checkpoint`, `TraceResult`, `Courier`, `Status`, `CourierCode` and friends are exported.
+* `checkpoints[].location` is always present (DHL used to omit it).
+* CLI: `-c/--courier` is now case-insensitive, as the original validation intended.
+
+## Fixed
+* Corrected date formats that v2 got wrong. `moment` accepted them leniently and produced
+  plausible but incorrect timestamps; these are now parsed properly.
+  * `usps` — the page writes `March 16, 2024,1:55 pm` (no space after the second comma),
+    `March 7, 2024,9:15 pm` (unpadded day) and `March 13, 2024` (no time). v2 silently
+    dropped the time and reported every checkpoint at `00:00`.
+  * `royalmail` — the cells read `18/01/17` + `23:53`, but the format string said
+    `DD-MMM-YYYYHH:mm`. v2 read that as `2001-01-18T17:53`; it is `2017-01-18T23:53`.
+  * `cesco` — Indonesian month names are expanded to full English names, so the format
+    needs `MMMM` rather than `MMM`.
+* Added a sweep test asserting every courier's checkpoints carry a parseable timestamp —
+  the per-courier tests only ever checked `number` and `status`.
+
+## Notes
+* Added a "Reporting a broken courier" guide to the README and a matching GitHub issue
+  form. A report needs either a tracking number or a recorded response to be actionable;
+  since a tracking number resolves to an address, times and often a recipient name, the
+  guide offers the recorded response as an equal alternative and explains how to capture
+  and redact one.
+* Documented courier status in the README. Beyond the five removed above, an endpoint
+  probe on 2026-08-05 found ten couriers whose endpoint has moved or is blocked; they are
+  marked **broken** in the courier table and left in place, since the fix is to re-record
+  a fixture rather than to delete the parser. A passing build has never meant a courier
+  works — the tests only replay recordings. This is a pre-existing gap, not a regression
+  introduced by this release.
+
+## Changed
+* Source moved to `src/`, published output is built to `dist/`.
+* `paxel` now really subtracts a year from timestamps parsed ahead of the current date —
+  the v2 code called `.subtract()` without using its result.
+* Couriers no longer index into a shared registry to reach each other; `pantos` and
+  `airbridge` import the couriers they hand off to directly.
+
+## Dependencies
+* Dropped the deprecated `request` in favour of the built-in `fetch` (`src/http.ts`).
+* Replaced `moment` with `dayjs`; dropped `async` and the unused `xml2js`.
+* `cheerio` upgraded to 1.x, imported via `cheerio/slim` to keep the htmlparser2 parser —
+  the default parse5 parser injects `<tbody>` and breaks the existing `table > tr`
+  selectors.
+* `commander` 15.x, `mocha` 11.x, `nock` 14.x.
+* Build/lint toolchain: TypeScript + `tsx`, and **Biome** in place of `standard`
+  (whose last release was 2024-09).
+* Dropped Grunt; everything runs through npm scripts.
+
 # 2.8.0
 * add paxel
 
