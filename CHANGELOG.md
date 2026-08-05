@@ -36,8 +36,14 @@ Rewritten in TypeScript. This release is **breaking** — see the migration note
     `DD-MMM-YYYYHH:mm`. v2 read that as `2001-01-18T17:53`; it is `2017-01-18T23:53`.
   * `cesco` — Indonesian month names are expanded to full English names, so the format
     needs `MMMM` rather than `MMM`.
+* `ups` — UPS reports a 12-hour clock as `10:53 P.M.`, but the format string read it as
+  `HH:mm`, so every afternoon event was recorded twelve hours early. Reported in #35 by
+  @aldin-alagic, whose fix could not be merged once the sources moved to `src/`.
+* `usps` — whitespace inside the date cell is collapsed before parsing, so runs of spaces
+  no longer break it. Also from #35.
 * Added a sweep test asserting every courier's checkpoints carry a parseable timestamp —
-  the per-courier tests only ever checked `number` and `status`.
+  the per-courier tests only ever checked `number` and `status`. Timestamps that parse but
+  land on the wrong hour are now asserted explicitly for the couriers above.
 
 ## Notes
 * Added a "Reporting a broken courier" guide to the README and a matching GitHub issue

@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict'
+import dayjs from '../src/dayjs.js'
 import { COURIER, type CourierCode, courier } from '../src/index.js'
 import prepare from './fixtures/prepare.js'
 
@@ -71,6 +72,35 @@ describe('checkpoint timestamps', () => {
     assert.equal(result.checkpoints[8]?.time, '2024-03-13T00:00')
     // "March 7, 2024,9:15 pm" — unpadded day.
     assert.equal(result.checkpoints[12]?.time, '2024-03-07T21:15')
+  })
+
+  it('parses UPS afternoon times as PM', async () => {
+    const ups = courier(COURIER.UPS.CODE)
+    prepare(ups, 'DELIVEREDUPS')
+
+    const result = await ups.trace('DELIVEREDUPS')
+
+    // The fixture's first activity is "09/29/2020" + "12:29 P.M.". Reading the clock as
+    // 24-hour silently moved every P.M. event back twelve hours (#35).
+    assert.match(result.checkpoints[0]?.time ?? '', /T12:29/)
+
+    const evening = result.checkpoints.find((c) => c.time.includes('2020-09-28'))
+    assert.ok(evening, 'expected an activity from 28 September')
+    // "10:53 P.M." must be 22:53, not 10:53.
+    assert.match(evening.time, /T22:53/)
+  })
+
+  it('parses USPS dates padded with extra whitespace', async () => {
+    // Reported in #35: the page has shipped runs of spaces inside the date string.
+    const spaced = 'November 17,      2017,  3:08 pm'
+    assert.equal(
+      dayjs(spaced.replace(/\s+/g, ' ').trim(), [
+        'MMMM D, YYYY, h:mm a',
+        'MMMM D, YYYY,h:mm a',
+        'MMMM D, YYYY'
+      ]).format('YYYY-MM-DDTHH:mm'),
+      '2017-11-17T15:08'
+    )
   })
 
   it('parses Royal Mail day-first dates', async () => {

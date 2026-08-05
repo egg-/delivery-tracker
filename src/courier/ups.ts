@@ -74,6 +74,18 @@ function parseToken(setCookie: string | string[] | undefined): string {
   return ''
 }
 
+/**
+ * UPS reports a 12-hour clock as "10:53 P.M.". Reading it as `HH:mm` silently shifts
+ * every afternoon event back by twelve hours, so the meridiem has to be parsed — and the
+ * periods stripped first, since dayjs's `A` token only matches "PM".
+ *
+ * Reported in #35 by @aldin-alagic.
+ */
+function parseTime(date: string, time: string | undefined): string {
+  const meridiem = (time ?? '').replace(/\./g, '')
+  return dayjs(`${date} ${meridiem}`, 'MM/DD/YYYY h:mm A').format('YYYY-MM-DDTHH:mmZ')
+}
+
 function parse(detail: TrackDetail): TraceResult {
   const checkpoints: Checkpoint[] = []
 
@@ -88,9 +100,7 @@ function parse(detail: TrackDetail): TraceResult {
       location: activity.location,
       message,
       status: message.includes('DELIVERED') ? STATUS.DELIVERED : STATUS.IN_TRANSIT,
-      time: dayjs([activity.date, activity.time].join(' '), 'MM/DD/YYYY HH:mm').format(
-        'YYYY-MM-DDTHH:mmZ'
-      )
+      time: parseTime(activity.date, activity.time)
     })
   }
 
