@@ -14,7 +14,7 @@ Rewritten in TypeScript. This release is **breaking** — see the migration note
 * `COURIER.DEPPON` removed — it had no implementation and threw on use.
 * **Ten couriers removed.** Five have a hostname that no longer resolves, so they cannot
   work regardless of the parser: `ecargo`, `yelloexpress`, `kerrythai`, `xioexpress`,
-  `airbridge`. Four more explicitly refuse automated requests and are dropped rather than
+  `airbridge`. Five more explicitly refuse automated requests and are dropped rather than
   worked around: `usps` (Akamai JavaScript challenge on every tracking URL, plus tracking
   API access limited to a caller's own Mailer IDs since 2026-04-01), `fedex` and `ups`
   (Akamai `Access Denied`), `paxel` (Cloudflare challenge) and `royalmail` (the tracking
@@ -52,18 +52,18 @@ Rewritten in TypeScript. This release is **breaking** — see the migration note
   fixture recorded from the current API was added alongside the old one. Fixes #39.
 * Corrected date formats that v2 got wrong. `moment` accepted them leniently and produced
   plausible but incorrect timestamps; these are now parsed properly.
-  * `usps` — the page writes `March 16, 2024,1:55 pm` (no space after the second comma),
-    `March 7, 2024,9:15 pm` (unpadded day) and `March 13, 2024` (no time). v2 silently
-    dropped the time and reported every checkpoint at `00:00`.
-  * `royalmail` — the cells read `18/01/17` + `23:53`, but the format string said
-    `DD-MMM-YYYYHH:mm`. v2 read that as `2001-01-18T17:53`; it is `2017-01-18T23:53`.
+  * `usps` and `royalmail` were fixed before it emerged that both block automated
+    access, and were removed later in this release. Recorded here because the same class
+    of bug may exist in couriers that remain: `usps` dropped the time entirely and
+    reported every checkpoint at `00:00`, and `royalmail` read `18/01/17` + `23:53` as
+    `2001-01-18T17:53` instead of `2017-01-18T23:53`.
   * `cesco` — Indonesian month names are expanded to full English names, so the format
     needs `MMMM` rather than `MMM`.
-* `ups` — UPS reports a 12-hour clock as `10:53 P.M.`, but the format string read it as
-  `HH:mm`, so every afternoon event was recorded twelve hours early. Reported in #35 by
-  @aldin-alagic, whose fix could not be merged once the sources moved to `src/`.
-* `usps` — whitespace inside the date cell is collapsed before parsing, so runs of spaces
-  no longer break it. Also from #35.
+* `ups` and `usps` — UPS reported a 12-hour clock as `10:53 P.M.` while the format string
+  read `HH:mm`, so every afternoon event landed twelve hours early, and USPS broke on runs
+  of whitespace inside its date cell. Reported in #35 by @aldin-alagic in 2022; the fix
+  could not be merged once the sources moved to `src/`, so it was reapplied here. Both
+  couriers were removed later in this release.
 * Added a sweep test asserting every courier's checkpoints carry a parseable timestamp —
   the per-courier tests only ever checked `number` and `status`. Timestamps that parse but
   land on the wrong hour are now asserted explicitly for the couriers above.
@@ -74,19 +74,17 @@ Rewritten in TypeScript. This release is **breaking** — see the migration note
   since a tracking number resolves to an address, times and often a recipient name, the
   guide offers the recorded response as an equal alternative and explains how to capture
   and redact one.
-* Documented courier status in the README. Beyond the five removed above, an endpoint
-  probe on 2026-08-05 found ten couriers whose endpoint has moved or is blocked; they are
-  marked **broken** in the courier table and left in place, since the fix is to re-record
-  a fixture rather than to delete the parser. A passing build has never meant a courier
-  works — the tests only replay recordings. This is a pre-existing gap, not a regression
-  introduced by this release.
+* Documented courier status in the README, ordered by how much each status can be
+  trusted. Of the sixteen couriers that remain, two are verified against a real shipment,
+  two need an API key, eight answered a probe but are otherwise unproven, and four are
+  **broken** — their endpoint moved, which a re-recorded fixture fixes. A passing build
+  has never meant a courier works; the tests only replay recordings. That gap pre-dates
+  this release.
 
 ## Changed
 * Source moved to `src/`, published output is built to `dist/`.
-* `paxel` now really subtracts a year from timestamps parsed ahead of the current date —
-  the v2 code called `.subtract()` without using its result.
-* Couriers no longer index into a shared registry to reach each other; `pantos` and
-  `airbridge` import the couriers they hand off to directly.
+* Couriers no longer index into a shared registry to reach each other; `pantos` imports
+  the courier it hands off to directly.
 
 ## Dependencies
 * Dropped the deprecated `request` in favour of the built-in `fetch` (`src/http.ts`).
