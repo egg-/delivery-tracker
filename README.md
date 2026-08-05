@@ -17,7 +17,6 @@ Status reflects an endpoint probe run on **2026-08-05** — see [Courier status]
 | Australia Post           | @egg-           | https://auspost.com.au/                                     | **broken**     |
 | Pantos                   | @egg-           | http://www.epantos.com/                                     | reachable      |
 | Rincos                   | @egg-           | http://www.rincos.co.kr/                                    | **broken**     |
-| Royal Mail               | @egg-           | http://www.royalmail.com/                                   | **broken**     |
 | CJ Korea Express (Korea) | @egg-           | http://cjkoreaexpress.co.kr/ (https://www.doortodoor.co.kr) | **verified**   |
 | POS Laju                 | @egg-           | http://www.poslaju.com.my                                   | **broken**     |
 | EFS                      | @egg-           | http://efs.asia/                                            | reachable      |
@@ -38,28 +37,35 @@ The test suite replays responses recorded in `test/fixtures`, so **a green build
 parser still handles the recorded page — not that the courier still works.** Seven of the
 recordings date from 2017.
 
-An endpoint probe on 2026-08-05 — one request per courier, using a dummy tracking
-number — sorted them into:
+Statuses, most to least trustworthy:
 
-* **broken** — the host answers but the endpoint does not: `404` for `auspost`, `rincos`
-  and `xpost`; `poslaju` now redirects to the pos.com.my home page, and `royalmail` has
-  moved its tracking page behind a single-page app.
+* **verified** — traced end to end against a real shipment: `cjkoreaexpress` and
+  `canadapost`. Both were found broken this way and fixed.
 * **needs API key** — `dhl` answered `401` and `sicepat` `403` to a dummy key, which is
-  the expected response. Both look correctly wired.
-* **verified** — traced end to end against a real shipment, not just a probe:
-  `cjkoreaexpress` and `canadapost`.
-* **reachable** — the first request succeeded. For the multi-step couriers (`pantos`,
-  `ups`, `jnt`, `lbc`) that first request is only a landing page, so this is weak
-  evidence. Confirming any of these needs a real tracking number.
+  what a correctly wired client should get. Neither has been tried with a real key.
+* **reachable** — a probe with a dummy number got a response and no sign of blocking.
+  **This is weak evidence**: for the multi-step couriers (`pantos`, `jnt`, `lbc`) the
+  probe only reaches a landing page, and a page that answers `200` may still be an empty
+  shell that loads its data from somewhere else. Confirming any of these needs a real
+  tracking number.
+* **broken** — the host answers but the endpoint does not: `404` for `auspost`, `rincos`
+  and `xpost`, and `poslaju` now redirects to the pos.com.my home page. These are fixture
+  problems; re-record a live response into `test/fixtures/<code>-<number>` and adjust the
+  parser until the test passes.
 
-Nine couriers were dropped in 3.0.0. Five had a hostname that no longer resolves, and
-four — `usps`, `fedex`, `ups` and `paxel` — sit behind bot management that explicitly
-refuses automated requests. This library scrapes what a courier serves to an ordinary
-client; where a courier has decided not to serve that, the answer is its official API or
-a tracking aggregator, not a workaround. The parsers remain in git history.
+Ten couriers were dropped in 3.0.0. Five had a hostname that no longer resolves. Five —
+`usps`, `fedex`, `ups`, `paxel` and `royalmail` — refuse automated requests. This library
+scrapes what a courier serves to an ordinary client; where a courier has decided not to
+serve that, the answer is its official API or a tracking aggregator, not a workaround.
+The parsers remain in git history.
 
-Re-recording a fixture is the way to fix a **broken** courier: capture a live response
-into `test/fixtures/<code>-<number>` and adjust the parser until the test passes.
+A note on how those were told apart, because it is easy to get wrong in both directions.
+A first request returning `200` proves very little. `ups` served a normal page and then
+refused the API call behind it. `royalmail` served a 175KB page that turned out to be a
+shell, while the endpoint holding the actual data simply never answered. In the other
+direction `canadapost` returned `403` and looked blocked, but was only rejecting a
+request that did not match the shape its own page sends, and it works again. The only
+reliable test is a real tracking number.
 
 ## Installation
 
@@ -171,7 +177,6 @@ All three are named exports: `import { COURIER, STATUS, ERROR } from 'delivery-t
 | AUSPOST        | auspost        | Australia Post   |
 | PANTOS         | pantos         | Pantos           |
 | RINCOS         | rincos         | RINCOS           |
-| ROYALMAIL      | royalmail      | Royal Mail       |
 | CJKOREAEXPRESS | cjkoreaexpress | CJ Korea Express |
 | POSLAJU        | poslaju        | POS Laju         |
 | EFS            | efs            | EFS              |

@@ -20,7 +20,6 @@ import lbc from './courier/lbc.js'
 import pantos from './courier/pantos.js'
 import poslaju from './courier/poslaju.js'
 import rincos from './courier/rincos.js'
-import royalmail from './courier/royalmail.js'
 import sicepat from './courier/sicepat.js'
 import tnt from './courier/tnt.js'
 import xpost from './courier/xpost.js'
@@ -43,7 +42,6 @@ const FACTORIES = {
   [COURIER.PANTOS.CODE]: pantos,
   [COURIER.POSLAJU.CODE]: poslaju,
   [COURIER.RINCOS.CODE]: rincos,
-  [COURIER.ROYALMAIL.CODE]: royalmail,
   [COURIER.SICEPAT.CODE]: sicepat,
   [COURIER.TNT.CODE]: tnt,
   [COURIER.XPOST.CODE]: xpost
