@@ -16,6 +16,12 @@ const REF = { code: COURIER.CJKOREAEXPRESS.CODE, name: COURIER.CJKOREAEXPRESS.NA
 
 const INFO_RECEIVED_SCANS = ['집화처리', '상품인수']
 
+// CJ relabelled these at some point between 2020 and 2026: '배달완료' became '배송완료'
+// (and '배달출발' became '배송출발'). Both spellings are accepted so older recordings and
+// the current API agree — matching only one of them left delivered parcels as InTransit,
+// which then aged into Exception. See #39.
+const DELIVERED_SCANS = ['배송완료', '배달완료']
+
 interface Item {
   regBranNm: string
   crgNm: string
@@ -61,7 +67,7 @@ function parse(body: Response): TraceResult {
     let status: Checkpoint['status'] = STATUS.IN_TRANSIT
     if (item.scanNm && INFO_RECEIVED_SCANS.includes(item.scanNm)) {
       status = STATUS.INFO_RECEIVED
-    } else if (item.scanNm === '배달완료') {
+    } else if (item.scanNm && DELIVERED_SCANS.includes(item.scanNm)) {
       status = STATUS.DELIVERED
     }
 

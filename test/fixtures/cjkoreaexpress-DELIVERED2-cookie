@@ -1,0 +1,5799 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<!--  IE로 들어온 경우02 날짜 설정[변경]-->
+<!--  크롬 들어온 경우02 날짜 설정[변경]-->
+
+<html lang="ko">
+<head>
+
+
+
+<!-- Start of HubSpot Embed Code --> 
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/22573588.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+<!-- Global site tag (gtag.js) - Google Analytics --> 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9X572F5BCK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-9X572F5BCK');
+</script>
+
+<!-- web/app tech -->
+<!-- Google Tag Manager --> 
+<!-- <script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WMKLLPF');
+</script> -->
+
+
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5PPSDFT');
+</script>
+<!-- End Google Tag Manager -->
+
+
+<script type="text/javascript">
+(function(w, d, a){
+    w.__beusablerumclient__ = {
+        load : function(src){
+            var b = d.createElement("script");
+            b.src = src; b.async=true; b.type = "text/javascript";
+            d.getElementsByTagName("head")[0].appendChild(b);
+        }
+    };w.__beusablerumclient__.load(a + "?url=" + encodeURIComponent(d.URL));
+})(window, document, "//rum.beusable.net/load/b240229e104408u414");
+</script>
+
+<script>
+		var pageviewObj = new Object();
+            pageviewObj.dimension2 = 'PC WEB';						//채널 유형
+            pageviewObj.dimension3= 'ko';	//도메인_언어
+
+            dataLayergtm = [pageviewObj];
+
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		 })(window,document,'script','dataLayergtm',
+	
+		
+			'GTM-K8MWBRK'
+		
+		
+		
+	
+	);
+
+	function GA_Event(category, action, label, virtualYn) {
+		var eventCategory = '';
+		if(virtualYn == 'Y') {
+			eventCategory = 'ga_virtual_event'
+		} else {
+			eventCategory = 'ga_event'
+		}
+
+		dataLayergtm.push({
+			'event':eventCategory,
+			'category':category,
+			'action':action,
+			'label':label
+		});
+	}
+
+	function GA_Virtual(title, location) {
+		dataLayergtm.push({
+			'event':'ga_virtual',
+			'virtual_location':location,
+			'virtual_title':title
+		});
+	}
+
+	function Empty() {
+		dataLayergtm.push({
+			'virtual_title': undefined,
+			'virtual_location':undefined
+		});
+
+	}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="CJ대한통운, 대한통운택배, 택배, 운송장, 배송정보, 배송추적, 택배조회">
+	<meta name="description" content="CJ대한통운 택배조회 페이지입니다." />
+	<meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="&#91; 배송조회 | CJ대한통운 &#93;"/>
+	<meta name="twitter:site" content="CJ대한통운" />
+    <meta name="twitter:creator" content="CJ대한통운"/>
+    <meta name="twitter:image" content="/static/pc/global/template/images/sns/sns_img_ko.jpg" />
+    <meta name="twitter:description" content="CJ대한통운 택배조회 페이지입니다."/>
+	<meta property="og:title" content="&#91; 배송조회 | CJ대한통운 &#93;">
+    <meta property="og:site_name" content="CJ대한통운"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="http://www.cjlogistics.com/ko/tool/parcel/tracking"/>
+	<meta name="facebook-domain-verification" content="2n91yryxebxoy0vbo6vrds7fn25u7a" />
+
+    
+    	
+    	
+    		 <meta property="og:image" content="/static/pc/global/template/images/sns/sns_img_ko.jpg">
+    	
+    
+
+    <meta property="og:description" content="CJ대한통운 택배조회 페이지입니다."/>
+    <title>배송조회 | 배송조회/예약 | CJ대한통운</title>
+    <link rel="image_src" href="/static/pc/global/template/images/sns/sns_img_ko.jpg"/>
+	<link rel="shortcut icon" type="image/x-icon" href="/static/pc/global/template/images/logo/cj.ico" />
+	<!-- 공통 cjlgt.min.css -->
+	<link rel="stylesheet" href="/static/pc/global/template/css/cjlgt.min.css?v=2026080510">
+	<!-- 메인 main.min.css -->
+	<link rel="stylesheet" href="/static/pc/global/template/css/main.min.css?v=2026080510">
+	<!-- 서브 page.min.css -->
+	<link rel="stylesheet" href="/static/pc/global/template/css/page.min.css?v=2026080510">
+
+	
+
+	
+	
+	
+	
+
+</head>
+<body id="ko">
+
+
+
+
+
+
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMKLLPF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Tag Manager (noscript) -->
+
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PPSDFT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- 공통 : skip_nav -->
+<ul class="skip">
+	<li><a href="#skipCt">본문 바로가기</a></li>
+	<li><a href="#gnb">대 메뉴 바로가기</a></li>
+</ul>
+<!-- //공통 : skip_nav -->
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+<div id="header"  data-current="0-0">
+	<div id="inner">
+		<div class="left-motion">
+			<h1>
+				<a href="/ko/main" onclick="GA_Event('공통', 'CJ LOGISTICS LOGO', '클릭');">CJ대한통운 </a>
+			</h1>
+		</div>
+
+		<nav id="gnb" class="active">
+			<ul class="menudepth1">
+				
+				<li data-menu="1">
+					<a href="/ko/newsroom" class="anchor" onclick="GA_Event('공통', 'GNB', 'NOW')"><span>NOW</span></a>
+					<div class="submenu-wrap more-cont" data-menu="1"><!-- 바로가기 메뉴추가시 more-cont -->
+						<div class="summary">
+							<div class="cont-group">
+								<h2>NOW</h2>
+							
+							
+								<p class="comment">CJ대한통운의 최신 소식을 지금 만나보세요</p>
+								
+								<div class="aside">
+									<a href="/ko/now/newsletter" class="link-arrow">CJ대한통운 NOW 구독</a>
+								</div>
+								
+							
+							
+							
+							
+							
+							
+							
+							</div>
+						</div>
+						<div class="menus">
+							<ul class="menudepth2">
+								
+									
+		 								<li data-menu="1">
+		 								
+		 									
+		 									
+	 											<a href="/ko/newsroom/latest" class="anchor" onclick="GA_Event('공통', 'GNB', 'NOW_LATEST' )"><span>LATEST</span></a>
+		 									
+			 							
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="2">
+		 								
+		 									
+		 									
+	 											<a href="/ko/newsroom/news" class="anchor" onclick="GA_Event('공통', 'GNB', 'NOW_보도자료' )"><span>보도자료</span></a>
+		 									
+			 							
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="3">
+		 								
+		 									
+		 									
+	 											<a href="/ko/newsroom/event" class="anchor" onclick="GA_Event('공통', 'GNB', 'NOW_이벤트' )"><span>이벤트</span></a>
+		 									
+			 							
+	 									
+	 									<ul class="menudepth3">
+	 										
+	 										<li data-menu="1">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/newsroom/event" class="anchor" onclick="GA_Event('공통', 'GNB', 'NOW_이벤트_이벤트' )"><span>이벤트</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="2">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/newsroom/event/notice" class="anchor" onclick="GA_Event('공통', 'GNB', 'NOW_이벤트_당첨자발표' )"><span>당첨자발표</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="3">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/newsroom/digitalgoods" class="anchor" onclick="GA_Event('공통', 'GNB', 'NOW_이벤트_디지털 굿즈' )"><span>디지털 굿즈</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 									</ul>
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="4">
+		 								
+		 									
+		 									
+	 											<a href="/ko/newsroom/notice" class="anchor" onclick="GA_Event('공통', 'GNB', 'NOW_공지사항' )"><span>공지사항</span></a>
+		 									
+			 							
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="5">
+		 								
+		 									
+		 									
+	 											<a href="/ko/now/newsletter" class="anchor" onclick="GA_Event('공통', 'GNB', 'NOW_CJ대한통운 NOW 구독' )"><span>CJ대한통운 NOW 구독</span></a>
+		 									
+			 							
+	 									
+	 									</li>
+	 								
+								
+							</ul>
+							
+								<div class="more-view">
+								
+								
+									
+									
+									
+										
+										
+									
+									<a href="https://www.unban.ai/service" target="_blank" onclick="GA_Event('공통', 'GNB', '더운반 이벤트 배너 GNB');"><img src="/cjlwupload/bannerManage/e923c99a-42ac-4f7e-bd21-57e9018ba3c0.jpg" alt="더운반 이벤트 배너 GNB"/></a>
+								
+								
+								
+								</div>
+							
+
+							<!--  2021-08-17 추가  : 고객지원 의경우 노출 -->
+							
+							<!--//  2021-08-17 추가  -->
+						</div>
+					</div>
+				</li>
+				
+				<li data-menu="2">
+					<a href="/ko/business" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개')"><span>사업소개</span></a>
+					<div class="submenu-wrap more-cont" data-menu="2"><!-- 바로가기 메뉴추가시 more-cont -->
+						<div class="summary">
+							<div class="cont-group">
+								<h2>사업소개</h2>
+							
+							
+							
+								<p class="comment">핵심 사업을 기반으로 고객에 최적화된 SCM 솔루션을 제공합니다.</p>
+								<div class="aside">
+									<a href="/ko/support/contacts" class="link-arrow">사업문의</a>
+								</div>
+							
+							
+							
+							
+							
+							
+							</div>
+						</div>
+						<div class="menus">
+							<ul class="menudepth2">
+								
+									
+		 								<li data-menu="1">
+		 								
+		 									
+		 									
+	 											<a href="/ko/business" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_글로벌 SCM 솔루션' )"><span>글로벌 SCM 솔루션</span></a>
+		 									
+			 							
+	 									
+	 									<ul class="menudepth3">
+	 										
+	 										<li data-menu="1">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/business/fulfillment" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_글로벌 SCM 솔루션_더 풀필(Warehousing·이커머스물류)' )"><span>더 풀필(Warehousing·이커머스물류)</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="2">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/business/stevedoring" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_글로벌 SCM 솔루션_수송·항만하역' )"><span>수송·항만하역</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="3">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/business/parcel" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_글로벌 SCM 솔루션_오네(O-NE)' )"><span>오네(O-NE)</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="4">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/business/globalfreight" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_글로벌 SCM 솔루션_글로벌 프레이트' )"><span>글로벌 프레이트</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="5">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/business/theunban" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_글로벌 SCM 솔루션_the unban(더 운반)' )"><span>the unban(더 운반)</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 									</ul>
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="2">
+		 								
+		 									
+		 									
+	 											<a href="/ko/tes/story/technology" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_TES' )"><span>TES</span></a>
+		 									
+			 							
+	 									
+	 									<ul class="menudepth3">
+	 										
+	 										<li data-menu="1">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/tes/story/technology" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_TES_TES Story' )"><span>TES Story</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="2">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/tes/innovation-center" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_TES_TES Innovation Center' )"><span>TES Innovation Center</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 									</ul>
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="3">
+		 								
+		 									
+		 									
+	 											<a href="/ko/o-ne" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_브랜드' )"><span>브랜드</span></a>
+		 									
+			 							
+	 									
+	 									<ul class="menudepth3">
+	 										
+	 										<li data-menu="1">
+	 											
+													
+													
+
+													
+
+													
+													
+													
+												
+												
+													<div class="gnb-brand-logo"><a href="/ko/o-ne" onclick="GA_Event('공통', 'GNB', '사업소개_브랜드_오네(O-NE)_이미지' );"><img src="/static/pc/global/template/images/brand/img_gnb_logo_one.png" alt="오네" /></a></div>
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="2">
+	 											
+													
+													
+
+													
+
+													
+													
+													
+												
+												
+												
+												
+													<!-- 더 풀필 이미지/링크 추가 -->
+													<div class="gnb-brand-logo"><a href="/ko/thefulfill" onclick="GA_Event('공통', 'GNB', '사업소개_브랜드_더풀필_이미지' );"><img src="/static/pc/global/template/images/brand/img_gnb_logo_thefulfill.png" alt="더 풀필" /></a></div>
+												
+	 										</li>
+	 										
+	 										<li data-menu="3">
+	 											
+													
+													
+
+													
+
+													
+													
+													
+												
+												
+												
+													<!-- 더 운반 이미지/링크 추가 -->
+													<div class="gnb-brand-logo"><a href="/ko/business/theunban" onclick="GA_Event('공통', 'GNB', '사업소개_브랜드_더운반_이미지' );"><img src="/static/pc/global/template/images/brand/img_gnb_logo_theunban.png?v20250627" alt="더 운반" /></a></div>
+												
+												
+	 										</li>
+	 										
+	 									</ul>
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="4">
+		 								
+		 									
+		 									
+	 											<a href="/ko/onepager/fashion" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_Logis Tips' )"><span>Logis Tips</span></a>
+		 									
+			 							
+	 									
+	 									<ul class="menudepth3">
+	 										
+	 										<li data-menu="1">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/onepager/fashion" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_Logis Tips_패션' )"><span>패션</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="2">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/onepager/beauty" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_Logis Tips_뷰티' )"><span>뷰티</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="3">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/onepager/franchise" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_Logis Tips_프랜차이즈' )"><span>프랜차이즈</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="4">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/onepager/food" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_Logis Tips_식품' )"><span>식품</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="5">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/onepager/healthcare" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_Logis Tips_제약' )"><span>제약</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="6">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/onepager/homefurnishing" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_Logis Tips_홈퍼니싱' )"><span>홈퍼니싱</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="7">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/onepager/cpg" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_Logis Tips_생활용품' )"><span>생활용품</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="8">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/onepager/homeappliance" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_Logis Tips_전기전자' )"><span>전기전자</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="9">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/onepager/packaging" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_Logis Tips_패키징' )"><span>패키징</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 									</ul>
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="5">
+		 								
+		 									
+												<a href="#none" class="anchor" onclick="openPopup('http://www.cjenc.co.kr/','건설부문' , '');GA_Event('공통', 'GNB', '사업소개_건설부문' )"><span>건설부문</span></a>
+		 									
+		 									
+			 							
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="6">
+		 								
+		 									
+		 									
+	 											<a href="/ko/business/proudpartners" class="anchor" onclick="GA_Event('공통', 'GNB', '사업소개_고객사 소개' )"><span>고객사 소개</span></a>
+		 									
+			 							
+	 									
+	 									</li>
+	 								
+								
+							</ul>
+							
+
+							<!--  2021-08-17 추가  : 고객지원 의경우 노출 -->
+							
+							<!--//  2021-08-17 추가  -->
+						</div>
+					</div>
+				</li>
+				
+				<li data-menu="3">
+					<a href="/ko/network/country" class="anchor" onclick="GA_Event('공통', 'GNB', '글로벌 네트워크')"><span>글로벌 네트워크</span></a>
+					<div class="submenu-wrap more-cont" data-menu="3"><!-- 바로가기 메뉴추가시 more-cont -->
+						<div class="summary">
+							<div class="cont-group">
+								<h2>글로벌 네트워크</h2>
+							
+							
+							
+							
+								<p class="comment">CJ대한통운의 무대는 세계입니다.</p>
+								<div class="aside">
+									<a href="/ko/support/contacts" class="link-arrow">사업문의</a>
+								</div>
+							
+							
+							
+							
+							
+							</div>
+						</div>
+						<div class="menus">
+							<ul class="menudepth2">
+								
+									
+		 								<li data-menu="1">
+		 								
+		 									
+		 									
+	 											<a href="/ko/network/country" class="anchor" onclick="GA_Event('공통', 'GNB', '글로벌 네트워크_글로벌 현황' )"><span>글로벌 현황</span></a>
+		 									
+			 							
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="2">
+		 								
+		 									
+		 									
+	 											<a href="/ko/network/newFamily" class="anchor" onclick="GA_Event('공통', 'GNB', '글로벌 네트워크_Global Family' )"><span>Global Family</span></a>
+		 									
+			 							
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="3">
+		 								
+		 									
+		 									
+	 											<a href="/ko/network/infra" class="anchor" onclick="GA_Event('공통', 'GNB', '글로벌 네트워크_글로벌 물류 인프라' )"><span>글로벌 물류 인프라</span></a>
+		 									
+			 							
+	 									
+	 									</li>
+	 								
+								
+							</ul>
+							
+
+							<!--  2021-08-17 추가  : 고객지원 의경우 노출 -->
+							
+							<!--//  2021-08-17 추가  -->
+						</div>
+					</div>
+				</li>
+				
+				<li data-menu="4">
+					<a href="/ko/about/brand/message" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보')"><span>회사정보</span></a>
+					<div class="submenu-wrap more-cont" data-menu="4"><!-- 바로가기 메뉴추가시 more-cont -->
+						<div class="summary">
+							<div class="cont-group">
+								<h2>회사정보</h2>
+							
+							
+							
+							
+							
+								<p class="comment">CJ대한통운이 글로벌 물류산업의 혁신을 선도합니다</p>
+								<div class="aside">
+									<a href="/ko/newsroom/notice" class="link-arrow">공지사항</a>
+								</div>
+							
+							
+							
+							
+							</div>
+						</div>
+						<div class="menus">
+							<ul class="menudepth2">
+								
+									
+		 								<li data-menu="1">
+		 								
+		 									
+		 									
+	 											<a href="/ko/about/brand/message" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_회사소개' )"><span>회사소개</span></a>
+		 									
+			 							
+	 									
+	 									<ul class="menudepth3">
+	 										
+	 										<li data-menu="1">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/about/brand/message" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_회사소개_CEO 메시지' )"><span>CEO 메시지</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="2">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/about/brand/history" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_회사소개_연혁' )"><span>연혁</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="3">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/page/about/philosophy" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_회사소개_경영철학' )"><span>경영철학</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="4">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/about/brand/prize" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_회사소개_수상/인증' )"><span>수상/인증</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="5">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/about/location" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_회사소개_오시는 길' )"><span>오시는 길</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="6">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/90years" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_회사소개_90주년 기념' )"><span>90주년 기념</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 									</ul>
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="2">
+		 								
+		 									
+		 									
+	 											<a href="/ko/about/brand/story" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_라이브러리' )"><span>라이브러리</span></a>
+		 									
+			 							
+	 									
+	 									<ul class="menudepth3">
+	 										
+	 										<li data-menu="1">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/about/brand/story" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_라이브러리_브랜드 스토리' )"><span>브랜드 스토리</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="2">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/about/library/mediaroom" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_라이브러리_미디어 자료실	' )"><span>미디어 자료실	</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 									</ul>
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="3">
+		 								
+		 									
+		 									
+	 											<a href="/ko/about/sponsorship/motorsports" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_스폰서십' )"><span>스폰서십</span></a>
+		 									
+			 							
+	 									
+	 									<ul class="menudepth3">
+	 										
+	 										<li data-menu="1">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/about/sponsorship/motorsports" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_스폰서십_Motorsports' )"><span>Motorsports</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="2">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/about/sponsorship/golf" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_스폰서십_Golf' )"><span>Golf</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="3">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/about/sponsorship/k-culture" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_스폰서십_K-culture' )"><span>K-culture</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 									</ul>
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="4">
+		 								
+		 									
+		 									
+	 											<a href="/ko/page/investment/composition" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_투자정보' )"><span>투자정보</span></a>
+		 									
+			 							
+	 									
+	 									<ul class="menudepth3">
+	 										
+	 										<li data-menu="1">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/page/investment/composition" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_투자정보_경영정보' )"><span>경영정보</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="2">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/investment/disclosure-data" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_투자정보_IR 정보' )"><span>IR 정보</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="3">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/page/investment/credit-rating" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_투자정보_재무정보' )"><span>재무정보</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="4">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/page/investment/capital" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_투자정보_주가정보' )"><span>주가정보</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 									</ul>
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="5">
+		 								
+		 									
+		 									
+	 											<a href="/ko/page/about/cj-way" class="anchor" onclick="GA_Event('공통', 'GNB', '회사정보_인재채용' )"><span>인재채용</span></a>
+		 									
+			 							
+	 									
+	 									</li>
+	 								
+								
+							</ul>
+							
+
+							<!--  2021-08-17 추가  : 고객지원 의경우 노출 -->
+							
+							<!--//  2021-08-17 추가  -->
+						</div>
+					</div>
+				</li>
+				
+				<li data-menu="5">
+					<a href="/ko/sustainability" class="anchor" onclick="GA_Event('공통', 'GNB', '지속가능경영')"><span>지속가능경영</span></a>
+					<div class="submenu-wrap more-cont" data-menu="5"><!-- 바로가기 메뉴추가시 more-cont -->
+						<div class="summary">
+							<div class="cont-group">
+								<h2>지속가능경영</h2>
+							
+							
+							
+							
+							
+							
+								<p class="comment">지속가능발전목표(SDGs)달성을 위해 적극 동참하고 있습니다.</p>
+								<div class="aside">
+									<a href="/ko/sustainability/report" class="link-arrow">ESG 자료실</a>
+								</div>
+							
+							
+							
+							</div>
+						</div>
+						<div class="menus">
+							<ul class="menudepth2">
+								
+									
+		 								<li data-menu="1">
+		 								
+		 									
+		 									
+	 											<a href="/ko/page/sustainability/message" class="anchor" onclick="GA_Event('공통', 'GNB', '지속가능경영_지속가능경영' )"><span>지속가능경영</span></a>
+		 									
+			 							
+	 									
+	 									<ul class="menudepth3">
+	 										
+	 										<li data-menu="1">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/page/sustainability/message" class="anchor" onclick="GA_Event('공통', 'GNB', '지속가능경영_지속가능경영_ESG 메시지' )"><span>ESG 메시지</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="2">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/page/sustainability/goal_strategy" class="anchor" onclick="GA_Event('공통', 'GNB', '지속가능경영_지속가능경영_전략 & 거버넌스' )"><span>전략 & 거버넌스</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="3">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/page/sustainability/environmental_strategy" class="anchor" onclick="GA_Event('공통', 'GNB', '지속가능경영_지속가능경영_환경(Environmental)	' )"><span>환경(Environmental)	</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="4">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/page/sustainability/social_safetyandhealth" class="anchor" onclick="GA_Event('공통', 'GNB', '지속가능경영_지속가능경영_사회(Social)' )"><span>사회(Social)</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="5">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/page/sustainability/governance_board" class="anchor" onclick="GA_Event('공통', 'GNB', '지속가능경영_지속가능경영_지배구조(Governance)' )"><span>지배구조(Governance)</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="6">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/sustainability/report" class="anchor" onclick="GA_Event('공통', 'GNB', '지속가능경영_지속가능경영_ESG 자료실' )"><span>ESG 자료실</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="7">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/page/sustainability/recyclingcampaign" class="anchor" onclick="GA_Event('공통', 'GNB', '지속가능경영_지속가능경영_자원순환 캠페인' )"><span>자원순환 캠페인</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 									</ul>
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="2">
+		 								
+		 									
+		 									
+	 											<a href="/ko/cjl_ethics/principle" class="anchor" onclick="GA_Event('공통', 'GNB', '지속가능경영_윤리경영' )"><span>윤리경영</span></a>
+		 									
+			 							
+	 									
+	 									<ul class="menudepth3">
+	 										
+	 										<li data-menu="1">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/cjl_ethics/principle" class="anchor" onclick="GA_Event('공통', 'GNB', '지속가능경영_윤리경영_윤리경영 메시지' )"><span>윤리경영 메시지</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="2">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/cjl_ethics/system" class="anchor" onclick="GA_Event('공통', 'GNB', '지속가능경영_윤리경영_윤리경영 체계' )"><span>윤리경영 체계</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="3">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/cjl_ethics/activity" class="anchor" onclick="GA_Event('공통', 'GNB', '지속가능경영_윤리경영_윤리경영 활동' )"><span>윤리경영 활동</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="4">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/cjl_ethics/whistles" class="anchor" onclick="GA_Event('공통', 'GNB', '지속가능경영_윤리경영_그룹통합제보시스템' )"><span>그룹통합제보시스템</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 									</ul>
+	 									
+	 									</li>
+	 								
+								
+							</ul>
+							
+
+							<!--  2021-08-17 추가  : 고객지원 의경우 노출 -->
+							
+							<!--//  2021-08-17 추가  -->
+						</div>
+					</div>
+				</li>
+				
+				<li data-menu="6">
+					<a href="/ko/support/contacts" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원')"><span>고객지원</span></a>
+					<div class="submenu-wrap more-cont" data-menu="6"><!-- 바로가기 메뉴추가시 more-cont -->
+						<div class="summary">
+							<div class="cont-group">
+								<h2>고객지원</h2>
+							
+							
+							
+							
+							
+							
+							
+								<p class="comment">CJ대한통운은 최상의 서비스를 제공합니다.</p>
+								<div class="aside">
+								
+								
+									<!-- <a href="/ko/tool/parcel/tracking" class="link-arrow">택배조회</a> --><!--  2021-08-17 삭제  -->
+							
+							
+								
+							
+								
+									
+										
+									
+								
+							
+								
+									
+										
+									
+								
+							
+								
+									
+										
+									
+								
+							
+								
+									
+										
+												<a href="#" class="link-arrow"  onclick="globalBannerManager('ko', 'K1', '04', 'https://chatbotweb.cjlogistics.com/indexCj.do?media=COM','챗봇상담', 'scrollbars=yes, width=800, height=1500');GA_Event('공통','조회/예약','챗봇상담');" title="새창">챗봇상담</a>
+										
+									
+								
+							
+								
+									
+										
+									
+								
+							
+								
+									
+										
+									
+								
+							
+								
+									
+										
+									
+								
+							
+							
+								
+								
+								
+								</div>
+							
+							
+							</div>
+						</div>
+						<div class="menus">
+							<ul class="menudepth2">
+								
+									
+		 								<li data-menu="1">
+		 								
+		 									
+		 									
+	 											<a href="/ko/support/contacts" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원_사업문의' )"><span>사업문의</span></a>
+		 									
+			 							
+	 									
+	 									<ul class="menudepth3">
+	 										
+	 										<li data-menu="1">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/support/inquiry/agreement?searchContactMainCd=I001&searchContactCd=I001002" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원_사업문의_오네계약' )"><span>오네계약</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="2">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=A1" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원_사업문의_더 풀필(이커머스)' )"><span>더 풀필(이커머스)</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="3">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=B1" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원_사업문의_더 풀필(3PL·W&D)' )"><span>더 풀필(3PL·W&D)</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="4">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/support/inquiry/globalInquiry" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원_사업문의_글로벌' )"><span>글로벌</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="5">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=D1" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원_사업문의_수송·항만하역' )"><span>수송·항만하역</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="6">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=F1" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원_사업문의_TES' )"><span>TES</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="7">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/support/inquiry/packaging" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원_사업문의_패키징' )"><span>패키징</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="8">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=G1" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원_사업문의_마케팅/홍보' )"><span>마케팅/홍보</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="9">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=H1" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원_사업문의_기타' )"><span>기타</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 									</ul>
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="2">
+		 								
+		 									
+		 									
+	 											<a href="/ko/support/inquiry/agreement" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원_서비스문의' )"><span>서비스문의</span></a>
+		 									
+			 							
+	 									
+	 									<ul class="menudepth3">
+	 										
+	 										<li data-menu="1">
+	 											
+													
+													
+
+													
+
+													
+													
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="2">
+	 											
+													
+													
+
+													
+
+													
+													
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="3">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/support/inquiry/agreement?searchContactMainCd=I002&searchContactCd=I002001" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원_서비스문의_오네 서비스' )"><span>오네 서비스</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="4">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/support/inquiry/globalInquiry" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원_서비스문의_국제특송 서비스' )"><span>국제특송 서비스</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 										<li data-menu="5">
+	 											
+													
+													
+
+													
+													
+													
+														<a href="/ko/support/inquiry/agreement?searchContactMainCd=I002&searchContactCd=I002003" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원_서비스문의_국내이사 서비스' )"><span>국내이사 서비스</span></a>
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 									</ul>
+	 									
+	 									</li>
+	 								
+								
+									
+		 								<li data-menu="3">
+		 								
+		 									
+		 									
+	 											<a href="/ko/support/faq" class="anchor" onclick="GA_Event('공통', 'GNB', '고객지원_자주 묻는 질문' )"><span>자주 묻는 질문</span></a>
+		 									
+			 							
+	 									
+	 									<ul class="menudepth3">
+	 										
+	 										<li data-menu="1">
+	 											
+													
+														<a href="#none" onclick="globalBannerManager('ko', 'K1', '04', 'https://chatbotweb.cjlogistics.com/indexCj.do?media=COM','챗봇상담', 'scrollbars=yes, width=800, height=1500');" title="새창" class="anchor"><span>챗봇상담</span></a>
+													
+													
+
+													
+													
+													
+												
+												
+												
+												
+	 										</li>
+	 										
+	 									</ul>
+	 									
+	 									</li>
+	 								
+								
+							</ul>
+							
+
+							<!--  2021-08-17 추가  : 고객지원 의경우 노출 -->
+							
+							<div class="gnb-btn-area" style="max-width: 980px;min-width:900px">
+							<!-- 디지털 견적 버튼 표시 -->
+							
+							
+								
+								<a href="/ko/simpleEstimate/estimate" style="margin:0 20px 20px 0;"><span style="width:180px" onclick="GA_Event('공통', 'GNB', '고객지원_디지털 견적');">디지털 견적</span></a>
+							
+							<!-- // 디지털 견적 버튼 표시 -->
+								<a href="/ko/tool/removal/domestic-quotation" style="margin:0 20px 20px 0;"><span style="width:180px">국내이사 간편 견적</span></a>
+
+								<a href="https://www.unban.ai/contact?utm_source=cjlogistics&utm_medium=homepage&utm_campaign=tab_customer_support" style="margin:0 20px 20px 0;" target="_blank"><span style="width:180px" onclick="GA_Event('공통', 'GNB', '고객지원_the unban [더 운반]');"><strong class="tx-bodyfont-light">the unban</strong> [더 운반]</span></a>
+							</div>
+							
+							<!--//  2021-08-17 추가  -->
+						</div>
+					</div>
+				</li>
+				
+			</ul>
+		</nav>
+
+		<!-- //gnb -->
+		<div class="right-motion">
+			<!-- 디지털 견적 버튼 표시 -->
+			
+			
+				
+				<div class="box-estimate">
+					<a href="/ko/simpleEstimate/estimate"  class="btn-estimate"><span onclick="GA_Event('공통', 'GNB', '디지털 견적');">디지털 견적</span></a>
+				</div>
+			
+			<!-- // 디지털 견적 버튼 표시 -->
+			<div class="box-globalLang" data-control="btnGlobalLang">
+				
+				
+				
+					<span id="btnGlobalLang">KO</span>
+				
+				
+				
+			</div>
+
+			<div class="box-search-total">
+				<a class="btn-search-open s-open" href="#searchLink"><span>검색 레이어 열기</span></a>
+			</div>
+
+			<div class="box-siteMap">
+				<a href="#smOpen" class="btn-layer" title="사이트맵 레이어 팝업 열기" data-control="smOpen"><span>사이트맵 레이어 팝업 열기</span></a>
+			</div>
+
+			<div class="box-tool" id="btnTools">
+				<a href="#btnTools" class="btn-tool" data-accessibilityopen="조회/예약 레이어 팝업 열기" data-accessibilityclose="조회/예약 레이어 팝업 닫기" title="" data-control="btnTools">
+					<span class="gap-wrap">배송조회/예약
+						<span class="icon"></span>
+					</span>
+				</a>
+				<div class="box-toolLink">
+					<div class="tool-top">
+						<span class="tool-title">
+							<a href="/ko/tool/parcel/tracking" onclick="GA_Event('공통', '조회/예약' ,'택배조회');">배송조회</a>
+						</span>
+						<div class="ipt-1 input-control">
+							<input type="text" id="trackingNum" maxlength="20" placeholder="운송장 번호를 입력하세요" title="운송장 번호를 입력하세요" onkeyup="numberCheck(this);" onkeypress="javascript:if(event.keyCode==13){GA_Event('공통','조회/예약_택배조회','검색');fncTrackingSearch(); return false;}">
+							<button type="button" class="form-control-clear">Text Clear</button>
+						</div>
+						<div class="btn-1">
+							<span class="icon-search">
+								<input type="submit" title="검색" onclick="GA_Event('공통','조회/예약_택배조회','검색'); return fncTrackingSearch();">
+							</span>
+						</div>
+					</div>
+					<div class="tool-bottom">
+						<ul class="tool-list">
+							
+								
+							
+								
+										
+											
+											
+											
+											
+												<li class="f_blue"><!-- 배송조회 > 통합물류인 경우 class 추가  -->
+													<a href="/ko/simpleEstimate/estimate" onclick="GA_Event('공통','조회/예약','디지털 견적');">디지털 견적</a>
+												</li>
+											
+										
+								
+							
+								
+										
+											
+											
+											
+											
+												<li ><!-- 배송조회 > 통합물류인 경우 class 추가  -->
+													<a href="/ko/tool/parcel/reservation-general" onclick="GA_Event('공통','조회/예약','택배예약');">택배예약</a>
+												</li>
+											
+										
+								
+							
+								
+										
+											
+											
+											
+											
+												<li ><!-- 배송조회 > 통합물류인 경우 class 추가  -->
+													<a href="/ko/tool/parcel/reservation-return" onclick="GA_Event('공통','조회/예약','반품예약');">반품예약</a>
+												</li>
+											
+										
+								
+							
+								
+										
+											
+												<li>
+													<a href="#" onclick="globalBannerManager('ko', 'K1', '04', 'https://chatbotweb.cjlogistics.com/indexCj.do?media=COM','챗봇상담', 'scrollbars=yes, width=800, height=1500');GA_Event('공통','조회/예약','챗봇상담');" title="새창">챗봇상담</a>
+												</li>
+											
+											
+											
+											
+										
+								
+							
+								
+										
+											
+											
+											
+											
+												<li ><!-- 배송조회 > 통합물류인 경우 class 추가  -->
+													<a href="/ko/tool/international/tracking" onclick="GA_Event('공통','조회/예약','국제특송조회');">국제특송조회</a>
+												</li>
+											
+										
+								
+							
+								
+										
+											
+											
+											
+											
+												<li ><!-- 배송조회 > 통합물류인 경우 class 추가  -->
+													<a href="/ko/tool/removal/domestic-quotation" onclick="GA_Event('공통','조회/예약','국내이사 간편 견적');">국내이사 간편 견적</a>
+												</li>
+											
+										
+								
+							
+								
+										
+											
+											
+											
+												<li>
+													<a href="https://www.unban.ai/service?utm_source=cjlogistics&utm_medium=homepage&utm_campaign=tab_delivery_tracking"  target = "_blank" onclick="GA_Event('공통','조회/예약','the unban[더 운반]');" title="새창">the unban[더 운반]</a>
+												</li>
+											
+											
+										
+								
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- //inner -->
+
+	<!-- 퍼블 통합검색(HTML) -->
+	<form name = "frmUnifiedSearch" id = "frmUnifiedSearch" method="post">
+		<input type="hidden" title="인증키" name="_csrf" value="fdc5a885-5358-4072-85df-32192380e032" />
+		<div class="search-total-form" id="searchLink" style="display: none;">
+			<div class="search-total-input">
+				<div class="ipt-1 input-control">
+					<label for="inputSearch">검색어를 입력하세요.</label>
+					<input type="text" id="inputSearch" name="inputSearch" class="placeholder" title="검색어를 입력하세요." maxlength="30" onkeypress='javascript:if(event.keyCode==13){fncUnifiedSearch(); return false;}'/>
+					<input type="hidden" id="SuggestedSearch" name="SuggestedSearch"/>
+					<button type="button" class="form-control-clear">Text Clear</button>
+				</div>
+				<div class="btn-1">
+					<span class="icon-search"><input type="button" onclick="fncUnifiedSearch();" title="Search"></span>
+				</div>
+			</div>
+			
+				<div class="search-tag-group">
+					<ul class="list-tag">
+						
+						<span class="common-tagType-1"><a href="javascript:;" onclick="fncSuggestedSearch('ESG');GA_Event('공통', '통합검색', '#ESG');" title="검색">ESG</a></span>
+						
+						<span class="common-tagType-1"><a href="javascript:;" onclick="fncSuggestedSearch('그린로지스틱스');GA_Event('공통', '통합검색', '#그린로지스틱스');" title="검색">그린로지스틱스</a></span>
+						
+						<span class="common-tagType-1"><a href="javascript:;" onclick="fncSuggestedSearch('  e-풀필먼트');GA_Event('공통', '통합검색', '#  e-풀필먼트');" title="검색">  e-풀필먼트</a></span>
+						
+					</ul>
+				</div>
+			
+			<div class="search-total-etarget"></div>
+		</div>
+	</form>
+	<!-- //퍼블 통합검색 (HTML) -->
+
+	<!-- siteMap-wrap -->
+	<div class="siteMap-wrap" id="smOpen">
+		<div class="siteMap-bg">
+			<div class="sm-inner">
+				<ul class="sm-oneDepth">
+					
+						<li class="widType-1">
+							
+								
+								
+									<a href="/ko/newsroom"  onclick="GA_Event('공통', '상단 햄버거 메뉴', 'NOW');"> NOW </a>
+								
+							
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/newsroom/latest"  onclick="GA_Event('공통', '상단 햄버거 메뉴', 'LATEST');"> LATEST </a>
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/newsroom/news"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '보도자료');"> 보도자료 </a>
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/newsroom/event"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '이벤트');"> 이벤트 </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/newsroom/event" onclick="GA_Event('공통', '상단 햄버거 메뉴', '이벤트');">이벤트</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/newsroom/event/notice" onclick="GA_Event('공통', '상단 햄버거 메뉴', '당첨자발표');">당첨자발표</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/newsroom/digitalgoods" onclick="GA_Event('공통', '상단 햄버거 메뉴', '디지털 굿즈');">디지털 굿즈</a>
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/newsroom/notice"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '공지사항');"> 공지사항 </a>
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/now/newsletter"  onclick="GA_Event('공통', '상단 햄버거 메뉴', 'CJ대한통운 NOW 구독');"> CJ대한통운 NOW 구독 </a>
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+						</li>
+					
+						<li >
+							
+								
+								
+									<a href="/ko/business"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '사업소개');"> 사업소개 </a>
+								
+							
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/business"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '글로벌 SCM 솔루션');"> 글로벌 SCM 솔루션 </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/business/fulfillment" onclick="GA_Event('공통', '상단 햄버거 메뉴', '더 풀필(Warehousing·이커머스물류)');">더 풀필(Warehousing·이커머스물류)</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/business/stevedoring" onclick="GA_Event('공통', '상단 햄버거 메뉴', '수송·항만하역');">수송·항만하역</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/business/parcel" onclick="GA_Event('공통', '상단 햄버거 메뉴', '오네(O-NE)');">오네(O-NE)</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/business/globalfreight" onclick="GA_Event('공통', '상단 햄버거 메뉴', '글로벌 프레이트');">글로벌 프레이트</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/business/theunban" onclick="GA_Event('공통', '상단 햄버거 메뉴', 'the unban(더 운반)');">the unban(더 운반)</a>
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/tes/story/technology"  onclick="GA_Event('공통', '상단 햄버거 메뉴', 'TES');"> TES </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/tes/story/technology" onclick="GA_Event('공통', '상단 햄버거 메뉴', 'TES Story');">TES Story</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/tes/innovation-center" onclick="GA_Event('공통', '상단 햄버거 메뉴', 'TES Innovation Center');">TES Innovation Center</a>
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/o-ne"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '브랜드');"> 브랜드 </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/o-ne" onclick="GA_Event('공통', '상단 햄버거 메뉴', '오네(O-NE)');">오네(O-NE)</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/thefulfill" onclick="GA_Event('공통', '상단 햄버거 메뉴', '더 풀필(THE FULFILL)');">더 풀필(THE FULFILL)</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/business/theunban" onclick="GA_Event('공통', '상단 햄버거 메뉴', 'the unban(더 운반)');">the unban(더 운반)</a>
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/onepager/fashion"  onclick="GA_Event('공통', '상단 햄버거 메뉴', 'Logis Tips');"> Logis Tips </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/onepager/fashion" onclick="GA_Event('공통', '상단 햄버거 메뉴', '패션');">패션</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/onepager/beauty" onclick="GA_Event('공통', '상단 햄버거 메뉴', '뷰티');">뷰티</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/onepager/franchise" onclick="GA_Event('공통', '상단 햄버거 메뉴', '프랜차이즈');">프랜차이즈</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/onepager/food" onclick="GA_Event('공통', '상단 햄버거 메뉴', '식품');">식품</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/onepager/healthcare" onclick="GA_Event('공통', '상단 햄버거 메뉴', '제약');">제약</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/onepager/homefurnishing" onclick="GA_Event('공통', '상단 햄버거 메뉴', '홈퍼니싱');">홈퍼니싱</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/onepager/cpg" onclick="GA_Event('공통', '상단 햄버거 메뉴', '생활용품');">생활용품</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/onepager/homeappliance" onclick="GA_Event('공통', '상단 햄버거 메뉴', '전기전자');">전기전자</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/onepager/packaging" onclick="GA_Event('공통', '상단 햄버거 메뉴', '패키징');">패키징</a>
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												<!-- 페이지가 팝업 타입 일때 -->
+													<a href="#none" onclick="openPopup('http://www.cjenc.co.kr/','건설부문' , '');GA_Event('공통', '상단 햄버거 메뉴', '건설부문');" title="새창"> 건설부문 </a>
+												
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/business/proudpartners"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '고객사 소개');"> 고객사 소개 </a>
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+						</li>
+					
+						<li >
+							
+								
+								
+									<a href="/ko/network/country"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '글로벌 네트워크');"> 글로벌 네트워크 </a>
+								
+							
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/network/country"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '글로벌 현황');"> 글로벌 현황 </a>
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/network/newFamily"  onclick="GA_Event('공통', '상단 햄버거 메뉴', 'Global Family');"> Global Family </a>
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/network/infra"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '글로벌 물류 인프라');"> 글로벌 물류 인프라 </a>
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+						</li>
+					
+						<li class="widType-2">
+							
+								
+								
+									<a href="/ko/about/brand/message"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '회사정보');"> 회사정보 </a>
+								
+							
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/about/brand/message"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '회사소개');"> 회사소개 </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/about/brand/message" onclick="GA_Event('공통', '상단 햄버거 메뉴', 'CEO 메시지');">CEO 메시지</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/about/brand/history" onclick="GA_Event('공통', '상단 햄버거 메뉴', '연혁');">연혁</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/page/about/philosophy" onclick="GA_Event('공통', '상단 햄버거 메뉴', '경영철학');">경영철학</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/about/brand/prize" onclick="GA_Event('공통', '상단 햄버거 메뉴', '수상/인증');">수상/인증</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/about/location" onclick="GA_Event('공통', '상단 햄버거 메뉴', '오시는 길');">오시는 길</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/90years" onclick="GA_Event('공통', '상단 햄버거 메뉴', '90주년 기념');">90주년 기념</a>
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/about/brand/story"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '라이브러리');"> 라이브러리 </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/about/brand/story" onclick="GA_Event('공통', '상단 햄버거 메뉴', '브랜드 스토리');">브랜드 스토리</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/about/library/mediaroom" onclick="GA_Event('공통', '상단 햄버거 메뉴', '미디어 자료실	');">미디어 자료실	</a>
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/about/sponsorship/motorsports"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '스폰서십');"> 스폰서십 </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/about/sponsorship/motorsports" onclick="GA_Event('공통', '상단 햄버거 메뉴', 'Motorsports');">Motorsports</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/about/sponsorship/golf" onclick="GA_Event('공통', '상단 햄버거 메뉴', 'Golf');">Golf</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/about/sponsorship/k-culture" onclick="GA_Event('공통', '상단 햄버거 메뉴', 'K-culture');">K-culture</a>
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/page/investment/composition"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '투자정보');"> 투자정보 </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/page/investment/composition" onclick="GA_Event('공통', '상단 햄버거 메뉴', '경영정보');">경영정보</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/investment/disclosure-data" onclick="GA_Event('공통', '상단 햄버거 메뉴', 'IR 정보');">IR 정보</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/page/investment/credit-rating" onclick="GA_Event('공통', '상단 햄버거 메뉴', '재무정보');">재무정보</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/page/investment/capital" onclick="GA_Event('공통', '상단 햄버거 메뉴', '주가정보');">주가정보</a>
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/page/about/cj-way"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '인재채용');"> 인재채용 </a>
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+						</li>
+					
+						<li class="widType-1">
+							
+								
+								
+									<a href="/ko/sustainability"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '지속가능경영');"> 지속가능경영 </a>
+								
+							
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/page/sustainability/message"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '지속가능경영');"> 지속가능경영 </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/page/sustainability/message" onclick="GA_Event('공통', '상단 햄버거 메뉴', 'ESG 메시지');">ESG 메시지</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/page/sustainability/goal_strategy" onclick="GA_Event('공통', '상단 햄버거 메뉴', '전략 & 거버넌스');">전략 & 거버넌스</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/page/sustainability/environmental_strategy" onclick="GA_Event('공통', '상단 햄버거 메뉴', '환경(Environmental)	');">환경(Environmental)	</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/page/sustainability/social_safetyandhealth" onclick="GA_Event('공통', '상단 햄버거 메뉴', '사회(Social)');">사회(Social)</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/page/sustainability/governance_board" onclick="GA_Event('공통', '상단 햄버거 메뉴', '지배구조(Governance)');">지배구조(Governance)</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/sustainability/report" onclick="GA_Event('공통', '상단 햄버거 메뉴', 'ESG 자료실');">ESG 자료실</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/page/sustainability/recyclingcampaign" onclick="GA_Event('공통', '상단 햄버거 메뉴', '자원순환 캠페인');">자원순환 캠페인</a>
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/cjl_ethics/principle"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '윤리경영');"> 윤리경영 </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/cjl_ethics/principle" onclick="GA_Event('공통', '상단 햄버거 메뉴', '윤리경영 메시지');">윤리경영 메시지</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/cjl_ethics/system" onclick="GA_Event('공통', '상단 햄버거 메뉴', '윤리경영 체계');">윤리경영 체계</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/cjl_ethics/activity" onclick="GA_Event('공통', '상단 햄버거 메뉴', '윤리경영 활동');">윤리경영 활동</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/cjl_ethics/whistles" onclick="GA_Event('공통', '상단 햄버거 메뉴', '그룹통합제보시스템');">그룹통합제보시스템</a>
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+						</li>
+					
+						<li >
+							
+								
+								
+									<a href="/ko/support/contacts"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '고객지원');"> 고객지원 </a>
+								
+							
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/support/contacts"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '사업문의');"> 사업문의 </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/support/inquiry/agreement?searchContactMainCd=I001&searchContactCd=I001002" onclick="GA_Event('공통', '상단 햄버거 메뉴', '오네계약');">오네계약</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=A1" onclick="GA_Event('공통', '상단 햄버거 메뉴', '더 풀필(이커머스)');">더 풀필(이커머스)</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=B1" onclick="GA_Event('공통', '상단 햄버거 메뉴', '더 풀필(3PL·W&D)');">더 풀필(3PL·W&D)</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/support/inquiry/globalInquiry" onclick="GA_Event('공통', '상단 햄버거 메뉴', '글로벌');">글로벌</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=D1" onclick="GA_Event('공통', '상단 햄버거 메뉴', '수송·항만하역');">수송·항만하역</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=F1" onclick="GA_Event('공통', '상단 햄버거 메뉴', 'TES');">TES</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/support/inquiry/packaging" onclick="GA_Event('공통', '상단 햄버거 메뉴', '패키징');">패키징</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=G1" onclick="GA_Event('공통', '상단 햄버거 메뉴', '마케팅/홍보');">마케팅/홍보</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/support/inquiry/businessInquiry?searchBusinessInquiryCd=H1" onclick="GA_Event('공통', '상단 햄버거 메뉴', '기타');">기타</a>
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/support/inquiry/agreement"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '서비스문의');"> 서비스문의 </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																
+																
+
+																
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+
+																
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/support/inquiry/agreement?searchContactMainCd=I002&searchContactCd=I002001" onclick="GA_Event('공통', '상단 햄버거 메뉴', '오네 서비스');">오네 서비스</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/support/inquiry/globalInquiry" onclick="GA_Event('공통', '상단 햄버거 메뉴', '국제특송 서비스');">국제특송 서비스</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/support/inquiry/agreement?searchContactMainCd=I002&searchContactCd=I002003" onclick="GA_Event('공통', '상단 햄버거 메뉴', '국내이사 서비스');">국내이사 서비스</a>
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/support/faq"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '자주 묻는 질문');"> 자주 묻는 질문 </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																	<a href="#none" onclick="globalBannerManager('ko', 'K1', '04', 'https://chatbotweb.cjlogistics.com/indexCj.do?media=COM','챗봇상담', 'scrollbars=yes, width=800, height=1500');GA_Event('공통', '상단 햄버거 메뉴', '챗봇상담');" title="새창" >챗봇상담</a>
+																
+																
+																
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+						</li>
+					
+						<li >
+							
+								
+								
+									<a href="/ko/tool/parcel/tracking" class="on" onclick="GA_Event('공통', '상단 햄버거 메뉴', '배송조회/예약');"> 배송조회/예약 </a>
+								
+							
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/tool/parcel/tracking" class="on" onclick="GA_Event('공통', '상단 햄버거 메뉴', '배송조회');"> 배송조회 </a>
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/simpleEstimate/estimate"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '디지털 견적');"> 디지털 견적 </a>
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/tool/parcel/reservation-general"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '택배예약');"> 택배예약 </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/tool/parcel/reservation-general" onclick="GA_Event('공통', '상단 햄버거 메뉴', '택배 예약하기');">택배 예약하기</a>
+																
+															
+														</li>
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/tool/parcel/reservation-confirm" onclick="GA_Event('공통', '상단 햄버거 메뉴', '예약확인 및 취소');">예약확인 및 취소</a>
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/tool/parcel/reservation-return"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '반품예약');"> 반품예약 </a>
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												<!--챗봇일때 다른곳으로 넘기기-->
+													<a href="#none" onclick="globalBannerManager('ko', 'K1', '04', 'https://chatbotweb.cjlogistics.com/indexCj.do?media=COM','챗봇상담', 'scrollbars=yes, width=800, height=1500');GA_Event('공통', '상단 햄버거 메뉴', '챗봇상담');" title="새창"> 챗봇상담 </a>
+												
+												
+												
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/tool/international/tracking"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '국제특송조회');"> 국제특송조회 </a>
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+												
+												
+													<a href="/ko/tool/removal/domestic-quotation"  onclick="GA_Event('공통', '상단 햄버거 메뉴', '국내이사 간편 견적');"> 국내이사 간편 견적 </a>
+												
+											
+											
+												<ul class="sm-threeDepth">
+													
+														<li>
+				 											
+																
+																
+																
+																
+																	<a href="/ko/tool/removal/domestic-quotation" onclick="GA_Event('공통', '상단 햄버거 메뉴', '국내이사');">국내이사</a>
+																
+															
+														</li>
+													
+												</ul>
+											
+										</li>
+										
+									</ul>
+								
+							
+								
+									<ul class="sm-twoDepth">
+										<li>
+											
+												
+												
+													<a href="https://www.unban.ai/service?utm_source=cjlogistics&utm_medium=homepage&utm_campaign=tab_delivery_tracking" target="_blank">the unban[더 운반]</a>
+												
+												
+												
+											
+											
+										</li>
+										
+									</ul>
+								
+							
+						</li>
+					
+				</ul>
+			</div>
+			<a href="#none" class="btn-smClose" data-control="smClose" title="사이트맵 레이어 팝업 닫기">close</a>
+			<!-- box-bg -->
+			<div class="box-bg">
+				<!-- 좌측 상단 사선 -->
+				<div class="bg-topLeft-1_1"></div>
+				<div class="bg-topLeft-1_2"></div>
+				<div class="bg-topLeft-1_3"></div>
+<!-- 				<div class="bg-topLeft-1_4"></div> -->
+<!-- 				<div class="bg-topLeft-1_5"></div> -->
+				<div class="bg-topLeft-2"></div>
+				<div class="bg-topLeft-3"></div>
+				<!-- //좌측 상단 사선 -->
+				<!-- 우측 하단 사선 -->
+				<div class="bg-bottomRight-1_1"></div>
+				<div class="bg-bottomRight-1_2"></div>
+				<div class="bg-bottomRight-1_3"></div>
+				<div class="bg-bottomRight-2"></div>
+				<div class="bg-bottomRight-3"></div>
+				<!-- //우측 하단 사선 -->
+			</div>
+			<!-- //box-bg -->
+		</div>
+	</div>
+	<!-- //siteMap-wrap -->
+</div>
+<!-- //공통 : header -->
+<form id="frmTrackingSearch" name="frmTrackingSearch" style="display: none;">
+	
+	
+	
+		<input type="hidden" title="운송장번호1" id="WayBill_No" name="WayBill_No" value="">
+		<input type="hidden" title="운송장번호2" id="gnbInvcNo" name="gnbInvcNo" value="">
+		<input type="hidden" title="인증키" name="_csrf" value="fdc5a885-5358-4072-85df-32192380e032" />
+	
+	
+</form>
+<script type="text/javascript">
+	function fncTrackingSearch(){
+		var trackNum = "";
+		var frm = document.frmTrackingSearch;
+		trackNum = $('#trackingNum').val();
+		
+		
+		
+			
+			
+			if (trackNum != null && trackNum != "") {
+				if (trackNum.byte() != 10 && trackNum.byte() != 12) {
+					alert("운송장 번호는 12자리 또는 10자리입니다.");
+					$('#trackingNum').focus();
+					return false;
+				}
+			}else{
+				alert("운송장번호를 입력하세요");
+				$('#trackingNum').focus();
+				return false;
+			}
+
+
+			frm.gnbInvcNo.value = trackNum;
+			frm.action = '/ko/tool/parcel/tracking';
+			frm.target="_self";
+			frm.method="POST";
+			frm.submit();
+			
+			
+			
+			
+		
+		
+	};
+
+	function fncGlobalCountryList(){
+		var showYn1 = $('.box-globalLink.posi-2').hasClass('show');
+		var showYn2 = $('#globalCountryList').find('li').length;
+		if(!showYn1 && showYn2 == 0){
+			//국가정보
+			$.ajax({
+				url: '/ko/network/country-list',
+				type: 'POST',
+				dataType: 'json',
+				data: GLOBAL_CSRF_NAME+'='+GLOBAL_CSRF_VALUE,
+				timeout: 1000,
+				async: false,
+				error: function(xhr){
+					if(xhr.status=="403"){
+						location.href = location.href;
+					}
+				},
+				success: function(responseText){
+					$("#globalCountryList").find("li").remove();
+					var html = "";
+					for(i=0; i<responseText.networkResult.length; i++){
+						var detailUrl = responseText.networkResult[i].detailUrl;
+						var _target = '';
+
+						if (detailUrl.startsWith('https') || detailUrl.startsWith('http') || detailUrl.startsWith('www.')) {
+							detailUrl = detailUrl.split('/')[0] + '/' + detailUrl.split('/')[1] + '/' + detailUrl.split('/')[2];
+							_target = ' target="_blank"';
+						} else {
+							detailUrl = '/ko/'+detailUrl.split('/')[2]+"/"+detailUrl.split('/')[3];
+						}
+
+						html += '<li><a href="'+detailUrl+'"' + _target + '><img class="img-flag" src="'+responseText.networkResult[i].flagImageUrl+'" alt="'+responseText.networkResult[i].flagFileMemo+'">'+responseText.networkResult[i].countryNm+'</a></li>';
+					}
+					$('#globalCountryList').html(html);
+				}
+			})
+		}
+	};
+
+	function fncUnifiedSearch(){
+		var frm = document.frmUnifiedSearch;
+
+		var inputSearch = frm.elements["inputSearch"].value;
+		if(inputSearch.trim() == null || inputSearch.trim() == '' ){
+			alert('검색어를 입력하세요.');
+			return false;
+		}
+		GA_Event('공통', '통합검색', inputSearch);
+		frm.action = '/ko/search';
+		frm.target="_self";
+		frm.method="POST";
+		frm.submit();
+	}
+
+	function fncSuggestedSearch(_keyWord){
+		$('.placeholder').prev('label').addClass("textup");
+		var frm = document.frmUnifiedSearch;
+		frm.elements["inputSearch"].value = _keyWord;
+		frm.elements["SuggestedSearch"].value = 'Y';
+		fncUnifiedSearch();
+	}
+</script>
+
+<!-- 공통 : skipCt -->
+<div id="skipCt" class="parcel-search">
+
+
+
+
+
+
+<!-- 서브페이지 상단 -->
+<div data-control="subLocation">
+
+	
+
+
+
+
+	
+		<div id="box-common-location" class="location fixedTarget">
+			<ul>
+				<li class="home">홈</li>
+				
+				
+					
+						<li>
+							<a href="/ko/tool/parcel/tracking" class="btn-list" data-accessibilityopen="리스트 열기" data-accessibilityclose="리스트 닫기" title="">배송조회</a>
+							<div class="list-menu">
+								<ul>
+								
+									<li>
+									
+									
+									
+										<a href="/ko/tool/parcel/tracking"  onclick="GA_Event('배송조회/예약_배송조회','SUB_GNB','배송조회');" class="on" title="현재 페이지">배송조회</a>
+									
+									
+									</li>
+								
+									<li>
+									
+									
+									
+										<a href="/ko/simpleEstimate/estimate"  onclick="GA_Event('배송조회/예약_배송조회','SUB_GNB','디지털 견적');" >디지털 견적</a>
+									
+									
+									</li>
+								
+									<li>
+									
+									
+									
+										<a href="/ko/tool/parcel/reservation-general"  onclick="GA_Event('배송조회/예약_배송조회','SUB_GNB','택배예약');" >택배예약</a>
+									
+									
+									</li>
+								
+									<li>
+									
+									
+									
+										<a href="/ko/tool/parcel/reservation-return"  onclick="GA_Event('배송조회/예약_배송조회','SUB_GNB','반품예약');" >반품예약</a>
+									
+									
+									</li>
+								
+									<li>
+									
+									
+										<a href="https://chatbotweb.cjlogistics.com/indexCj.do"  onclick="GA_Event('배송조회/예약_배송조회','SUB_GNB','챗봇상담');" target="_new" >챗봇상담</a>
+									
+									
+									
+									</li>
+								
+									<li>
+									
+									
+									
+										<a href="/ko/tool/international/tracking"  onclick="GA_Event('배송조회/예약_배송조회','SUB_GNB','국제특송조회');" >국제특송조회</a>
+									
+									
+									</li>
+								
+									<li>
+									
+									
+									
+										<a href="/ko/tool/removal/domestic-quotation"  onclick="GA_Event('배송조회/예약_배송조회','SUB_GNB','국내이사 간편 견적');" >국내이사 간편 견적</a>
+									
+									
+									</li>
+								
+									<li>
+									
+									
+										<a href="https://www.unban.ai/service?utm_source=cjlogistics&utm_medium=homepage&utm_campaign=tab_delivery_tracking"  onclick="GA_Event('배송조회/예약_배송조회','SUB_GNB','the unban[더 운반]');" target="_new" >the unban[더 운반]</a>
+									
+									
+									
+									</li>
+								
+								</ul>
+							</div>
+						</li>
+					
+					
+					
+				
+				
+				
+			</ul>
+		</div>
+	
+
+
+	<!-- 서브비쥬얼영역 -->
+	
+	
+		<div class="box-subTop">
+<div class="bg">
+<div class="hide-on-pc" style="background-image:url('/static/pc/global/template/images/2020Renewal/img_subTop_parcel.jpg')"></div>
+
+<div class="hide-on-mobile" style="background-image:url('/static/m/global/template/images/2020Renewal/img_subTop_parcel.jpg')"></div>
+</div>
+
+<div class="txt-wrap">
+<div class="txt-inner">
+<h2 class="hidden">조회/예약</h2>
+
+<h3 class="title-1">배송조회</h3>
+
+<p class="txt-1">CJ대한통운은 고객님의 소중한 마음까지 전달합니다.</p>
+</div>
+</div>
+</div>
+
+	
+	
+	
+	<!-- //서브비쥬얼영역 -->
+
+</div>
+<!-- //서브페이지 상단 -->
+
+<!-- tab1 -->
+
+
+<!-- //tab1 -->
+
+	<div class="grid1080">
+		<h4 class="title-sub4depth">
+			운송장 번호로 조회
+		</h4>
+		<!-- box-numberInfo -->
+		<div class="box-numberInfo">
+			<p class="tt-1">운송장 번호</p>
+			<div class="common-srcBox-1">
+				<div class="inputSrc-1">
+					<input type="text" id="paramInvcNo" name="paramInvcNo" value="" placeholder="‘–’를 제외한 숫자만 입력해주세요" title="택배 조회 - 운송장 번호 ‘–’를 제외한 숫자만 입력해주세요" onkeyup="numberCheck(this);checkOverLength(this,12);" maxlength="12">
+					<div class="btnSrc-1">
+						<span class="icon-search"><input type="submit" id="btnSubmit" title="Search"></span>
+						<span class="border"></span>
+					</div>
+					<label for="paramInvcNo" style="display:block;height:0;text-indent:-9999px;">택배 조회 - 운송장 번호 ‘–’를 제외한 숫자만 입력해주세요"</label>
+				</div>
+			</div>
+		</div>
+		<!-- //box-numberInfo -->
+
+		<!-- 배송정보 없을때 -->
+           <div class="common-data-none type1" id="notResult" Style="display:none;">
+               <p class="txt-1">운송장이 등록되지 않았거나<br>보내는 분이 상품을 준비 중입니다.</p>
+               <p class="txt-2">보내시는 분 혹은 해당 발송업체로 문의해주시기 바랍니다.</p>
+           </div>
+		<!-- //배송정보 없을때 -->
+
+		<!-- 배송정보 있을때 -->
+		<div class="common-data-box" id="isResult" Style="display:none;">
+			<h5 class="title-sub5depth">조회 결과</h5>
+			<div class="common-hrTable-1">
+				<table>
+					<caption>조회 결과 테이블이며 운송장 번호, 보내는 분, 받는 분, 상품 정보, 수량 등의 정보로 구성되어 있음.</caption>
+					<colgroup>
+						<col style="width:20%;">
+						<col style="width:20%;">
+						<col style="width:20%;">
+						<col style="width:20%;">
+						<col style="width:20%;">
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col">운송장 번호</th>
+							<th scope="col">보내는 분</th>
+							<th scope="col">받는 분</th>
+							<th scope="col">상품 정보</th>
+							<th scope="col">수량</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="text-alignCenter" id="invcNo"></td>
+							<td class="text-alignCenter" id="sendrNm"></td>
+							<td class="text-alignCenter" id="rcvrNm"></td>
+							<td class="text-alignCenter" id="itemNm"></td>
+							<td class="text-alignCenter" id="qty"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h5 class="title-sub5depth" style="padding:52px 0 23px 0;">상품 상태 확인</h5>
+			<!--
+				**** 1~6단계에 따라 이미지 6개 있습니다. ****
+
+				images/img/img_step_info_1.jpg
+				images/img/img_step_info_2.jpg
+				images/img/img_step_info_3.jpg
+				images/img/img_step_info_4.jpg
+				images/img/img_step_info_5.jpg
+				images/img/img_step_info_6.jpg
+
+				**** 이미지 title (현재 상품 상태) 접근성 유의해 주세요. ***
+			-->
+			<p style="padding:0 0 47px 0;"><img src="" alt="" id="statusImage"></p>
+			<div class="common-hrTable-1">
+				<table>
+					<caption>상품 상태 확인 테이블이며 단계, 처리, 상품상태, 담당 점소 등의 정보로 구성되어 있음.</caption>
+					<colgroup>
+						<col style="width: 14%;">
+						<col style="width: 21%;">
+						<col style="width: 44%;">
+						<col style="width:*;">
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col">단계</th>
+							<th scope="col">처리</th>
+							<th scope="col">상품상태</th>
+							<th scope="col">담당 점소</th>
+						</tr>
+					</thead>
+					<tbody id="statusDetail">
+
+					</tbody>
+				</table>
+			</div>
+			<div class="txt-Spp">운송장 번호로 캐쉬백 포인트 적립하세요.<a id="iptCashback" href="http://www.logii.com/CashBack/TaekbaeCashBack.pm" class="btn-CnoticeType-1" style="margin-left:15px;" target="_blank" title="새창">캐쉬백 포인트 적립하기</a></div>
+
+			<div class="box-infoPP" id="deliveryDetail" style="display:none;">
+				<div class="box-polygon thick mid">
+					<div class="inner">
+						<div class="mask-photo"><img src="" alt="기사님 증명사진" class="img" id="filepathName"></div>
+						<div class="box-txt">
+							<p class="tt-1"><span id="empName"></span> 기사님</p>
+							<div class="sub-infoPP">
+								<div class="info">연락처<span id="empPhone"></span></div>
+								<div class="info">SUB터미널<span id="subName"></span></div>
+								<div class="info">소속<span id="belongName"></span></div>
+								<div class="info">지점<span id="branName"></span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- //배송정보 있을때 -->
+	</div>
+
+	<!-- 상단 배너 -->
+	
+		
+			
+				
+				
+				
+					
+					
+				
+				<a href="https://brand.naver.com/koreaeundanhc " target="_self" class="addBanner tracking-top" onclick="GA_Event('택배조회', '바_배너', '고려은단') "><img src="/cjlwupload/bannerManage/8c8a7fba-2b2b-4013-8189-49ed852ac949.png" alt="고려은단"/></a>
+			
+			
+		
+	
+	<!-- //상단 배너 -->
+	<!-- 중간 배너 -->
+	
+	
+		
+			
+			
+			
+				
+				
+			
+			<a href="https://tvn.cjenm.com/ko/20tvN-joyful-vacation/" target="_self" class="addBanner tracking-middle" onclick="GA_Event('택배조회', '바_배너', '20tvN') "><img src="/cjlwupload/bannerManage/9091cc3f-7fa2-4682-a68f-a97998fbc285.png" alt="20tvN"/></a>
+		
+		
+	
+	
+	<!-- //중간 배너 -->
+	<!-- 하단 배너 -->
+	
+	
+		
+			
+			
+			
+				
+				
+			
+			<a href="https://www.cjlogistics.com/ko/newsroom/latest/LT_00000418" target="_self" class="addBanner tracking-btm" onclick="GA_Event('택배조회', '바_배너', 'PC') "><img src="/cjlwupload/bannerManage/0409c634-b840-43cb-b38f-95079fccf76a.png" alt="PC"/></a>
+		
+		
+	
+	
+	<!-- //하단 배너 -->
+
+	<!-- 2021 renewal  -->
+	<aside class="bottom-cont">
+
+
+
+		<!-- cj대한통운 app -->
+		<section class="sub-contain parcel">
+ 
+
+
+
+
+			<div class="app-qr" id="bannerAppSearch">
+				<a href="/ko/support/guide/parcel?searchUseInfoSubCd=E001010&searchUseInfoDetailCd="><img src="/static/pc/global/template/images/2020Renewal/banner_app_qr.jpg" alt="CJ 대한통운 배송 APP - CJ대한통운 APP으로 오네 서비스 이용이 더욱 쉬워집니다."></a>
+			</div>
+ 
+		<!-- <div class="app-qr" id="bannerAppSearch">
+				<a href="/ko/o-ne" onclick="GA_Event('택배조회', 'qr_배너', '클릭');"><img src="/static/pc/global/template/images/banner/banner_app_qr_one.jpg" alt="CJ대한통운 오네(O-NE) 모두를 위한 단 하나의 배송, CJ대한통운 오네 자세히 보기"></a>
+		</div> -->
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+			<ul class="list-thumb col2 banners">
+                <!-- 고객센터 -->
+				<li class="col">
+					<div class="box">
+						<div class="inner">
+							<div class="title icon1">
+								<div class="group">
+									<span class="fc-dark fw-medium">고객센터</span>
+									<strong class="fc-point">1588-1255</strong>
+								</div>
+							</div>
+							<div class="text">
+								<p class="fc-dark">상담 운영시간</p>
+								<p class="fc-dark">평일 : 오전 9시 ~ 오후 6시 (점심시간 12시 ~ 13시)</p>
+								<p class="fc-dark">토요일/공휴일 : 오전 9시 ~ 오후 1시</p>
+								<p class="fc-dark">일요일 : 오전 9시 ~ 오후 1시 (채팅 상담)</p>
+								<p>상품의 파손, 변질에 의한 배송 사고 접수는<br> <a href="/ko/support/inquiry/agreement">1:1 문의</a>를 통해 직접 하실 수 있습니다.</p>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!-- //고객센터 -->
+				<!-- 무인락커 -->
+				<li class="col">
+					<div class="box">
+						<div class="inner">
+							<div class="title icon2">
+								<div class="group">
+									<span class="fc-dark fw-medium">24시간 연중무휴</span>
+									<strong class="fc-point">무인락커 예약 서비스</strong>
+								</div>
+							</div>
+							<div class="text">
+								<p>CJ대한통운 APP에서<br>무인락커 예약서비스를 이용하실 수 있습니다.</p>
+							</div>
+							<div class="btn-group center">
+								<a href="/ko/support/guide/parcel?searchUseInfoSubCd=E001011#tc" class="btn-underline fw-medium" onclick="GA_Event('배송조회', '무인라커예약안내', '클릭')">자세히 보기</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!-- //무인라커 -->
+			</ul>
+		
+		
+		
+		
+		
+		
+
+		</section>
+		<!-- cj대한통운 app -->
+
+
+
+
+
+	
+	
+		<!-- 자주묻는 질문 -->
+		<section class="sub-contain">
+			<header class="cont-more">
+				<h1 class="title">자주 묻는 질문</h1>
+				<a href="/ko/support/faq?searchFaqSubCd=D002001" class="btn-arrow more" title="자주 묻는 질문" onclick="GA_Event('배송조회', '자주묻는질문', '전체보기')">전체보기</a>
+			</header>
+			<div class="hrSub-2 ">
+				<div class="common-mBox-2">
+				
+					<dl class="common-notiType-1">
+						<dt><a href="#none" data-control="btnAc" data-anchor="1"><span class="txt-blue">Q.</span> 무인락커 예약 사용은 어떻게 하나요?</a></dt>
+						<dd>
+							<p class="hr-txt-1">CJ대한통운 App 설치 후, 메뉴버튼에서 &lsquo;무인락커 등록&rsquo;을 선택합니다.<br />
+사용 가능한 무인락커를 지도에서 선택, 보내는분, 받는분, 상품정보를 입력하고 상품 크기에 맞는 무인락커를 선택하시면 배송 예약이 완료됩니다.&nbsp;<br />
+&nbsp;※ 사용 가능한 무인락커란? (아파트 : 입주민 대상, 대학교 : 학생 대상, 여성안심배송 등 : 지역주민 대상)</p>
+						</dd>
+					</dl>
+				
+					<dl class="common-notiType-1">
+						<dt><a href="#none" data-control="btnAc" data-anchor="2"><span class="txt-blue">Q.</span> 배송을 보내려면 어떻게 해야 하나요?</a></dt>
+						<dd>
+							<p class="hr-txt-1">전화예약은 1588-1255번입니다.&nbsp;<br />
+<br />
+■ 인터넷 예약은 CJ대한통운 홈페이지에서 [조회/예약]-[배송예약] 메뉴를 이용하시면 됩니다.&nbsp;<br />
+■ CJ대한통운 앱으로 접속하시어 메인메뉴 상단의 [배송예약] 메뉴를 선택하여 접수하실 수 있습니다.<br />
+<br />
+[고객용 스마트폰 앱 다운 방법 및 주요 기능]<br />
+- 다운 방법:<br />
+1) 구글 플레이 스토어나 애플 앱스토어에서 &quot;CJ대한통운 &quot;을 검색하여 설치<br />
+2) CJ대한통운 홈페이지에 메인화면 우측 하단에 게시된 QR코드를 인식하여 설치<br />
+<br />
+- 주요 기능 : 빠른 예약 접수, 배송조회, 고객 편의 기능, 개인배송 접수시 CJ ONE 포인트 적립, 쇼핑몰 로그인 한 번으로 모든 배송 조회 가능<br />
+<br />
+■ 전국 약 17,000여 개의 GS25,CU 편의점을 통해 고객님께서 상품을 가져가시면 배송 접수를 하실 수 있습니다.<br />
+※ 편의점 위치/상세정보(이용 방 법 및 가능 시간) 조회 시 &quot;편의점 배송(<a href="http://www.cvsnet.co.kr" target="_blank">www.cvsnet.co.kr</a>) &quot;로 확인 가능</p>
+						</dd>
+					</dl>
+				
+					<dl class="common-notiType-1">
+						<dt><a href="#none" data-control="btnAc" data-anchor="3"><span class="txt-blue">Q.</span> 인터넷쇼핑몰, 홈쇼핑으로 구입한 상품을 반품할 땐 어떻게 하면 되나요?</a></dt>
+						<dd>
+							<p class="hr-txt-1">먼저 주문하신 물품 구입처(인터넷쇼핑몰, 홈쇼핑 등)에 반품에 대한 의사를 전달하시면 구매업체에서 직접 접수를 해주거나 배송사로 접수하시도록 안내를 받으실 수 있습니다. 배송사로 직접 반품을 원하시는 경우에는 대한통운 홈페이지, 모바일  앱 및 고객센터 1588-1255번으로 상담 원통해 접수하시거나 ARS 자동 반품 서비스를 통하여 반품 예약이 가능합니다.<br />
+※ 상품을 받으신 운송장 번호를 확인하여 이용하시면 빠른 접수 가능합니다.</p>
+						</dd>
+					</dl>
+				
+				</div>
+			</div>
+		</section>
+		<!-- //자주묻는 질문 -->
+	
+	</aside>
+	<!-- //2021 renewal -->
+
+</div>
+<!-- //공통 : skipCt -->
+
+<!-- 공통 : top 버튼 -->
+<!--
+	* body 바로 자식요소로 사용합니다.
+	* 다음에 올 요소(next()메소드 사용)에 고정되는 스크립트 넣어놨습니다.
+-->
+
+
+
+
+
+<!-- 171222 프린트 레이어 추가 -->
+<div class="common-layerType-1" id="ly-print">
+	<div class="common-inner-layer mt2" tabindex="0">
+		<div class="gap-7">
+			<!-- title-layerTop -->
+			<p class="title-layerTop">인쇄 최적화를 위한 설정</p>
+			<p class="txt-layer-1">
+				<span class="txt-innerLayer-1">* Internet Explorer는 [인쇄 미리보기]에서 아래와 같이 설정하셔야 합니다.</span><br><br>
+				1. 필수 항목<br>
+				<span class="txt-innerLayer-1">- [설정]에서 배경 및 이미지도 인쇄할 수 있도록 체크</span><br><br>
+
+				2. 선택 항목<br>
+				<span class="txt-innerLayer-1">- 여백 없음 또는 0으로 설정</span><br>
+				<span class="txt-innerLayer-1">- 화면 배율 65% 설정 (추천)</span>
+			</p>
+			<!-- //171229 phr 내용 수정 -->
+
+			<div class="btn-whWrap-2 mt-3">
+				<span class="common-btnType-1">
+					<a href="#none" id="btnPrint">프린트하기</a>
+					<span class="line-right"></span>
+					<span class="line-top"></span>
+					<span class="line-left"></span>
+					<span class="line-bottom"></span>
+					<span class="line-diag"></span>
+				</span>
+			</div>
+			<p><a href="#none" class="cancle dialog-close" title="프린트하기 레이어 닫기"><span class="hidden">프린트하기 레이어 닫기</span></a></p>
+		</div>
+		<div class="bg-line-bottom"></div>
+	</div>
+	<div class="verticalAlign"></div>
+</div>
+<!-- //171222 프린트 레이어 추가 -->
+<h2 class="common-snsTit">SNS 공유 및 프린트 영역</h2>
+<div data-control="btnTop" class="common-btnTopType-1 mainBtm"><!-- 2022-03-18 클래스 추가 -->
+	<div class="quick-menu">
+		<ul class="list-btn">
+			<li class="share-wrap">
+				<a href="#none" class="btn-share icon-2" title="공유하기 레이어 열기" data-accessibilityopen="공유하기 레이어 열기" data-accessibilityclose="공유하기 레이어 닫기"><span>공유하기</span></a>
+				<div class="list-share">
+					<ul>
+						
+						
+						
+						<li><a href="#none" onclick="fncGlobalShare('facebook');GA_Event('배송조회/예약_배송조회','SNS','facebook');" class="icon-5" title="페이스북 새창 열기"><span>페이스북</span></a></li>
+						<li><a href="#none" onclick="fncGlobalShare('kakao');GA_Event('배송조회/예약_배송조회','SNS','kakao');" class="icon-8" title="카카오톡 새창 열기"><span>카카오톡</span></a></li>
+						
+						
+						
+						<li><a href="#none" class="icon-3 btnUrlCopy" title="url복사"><span>url복사</span></a>
+							<textarea id="virtualTextarea" class="hidden" rows="1" cols="30" title="url복사" tabindex="-1" readonly aria-hidden="true"></textarea>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="btn-layer-open"><a href="#ly-print" class="icon-1 printScrollDown" title="프린트하기"><span>프린트하기</span></a></li><!-- 171229 phr class명 추가 -->
+
+		</ul>
+		<a href="#header" class="btn-top" title="페이지 상단으로 이동">
+			<span class="icon">페이지 상단으로 이동</span>
+		</a>
+	</div>
+	
+	<div class="chatbot">
+
+	
+		
+							
+			
+							
+									
+										
+									
+							
+			
+							
+									
+										
+									
+							
+			
+							
+									
+										
+									
+							
+			
+							
+									
+										
+												<a href="#" class="link-arrow"  onclick="globalBannerManager('ko', 'K1', '04', 'https://chatbotweb.cjlogistics.com/indexCj.do?media=COM','챗봇상담', 'scrollbars=yes, width=800, height=1500');GA_Event('공통','조회/예약','챗봇상담');" title="새창">
+												<span class="comment"><strong>24시간 챗봇상담</strong>으로 간편하게 문의하세요</span>
+												<button type="button" class="btn-chatbot" ><span>챗봇상담하기</span></button>
+												</a>
+										
+									
+							
+			
+							
+									
+										
+									
+							
+			
+							
+									
+										
+									
+							
+			
+							
+									
+										
+									
+							
+			
+	</div>
+	
+</div>
+
+<!-- //공통 : top 버튼 -->
+
+
+<div class="box-bannerSGap-1">
+	<div class="grid1080">
+		<!-- box-bannerType-1 -->
+		<ul class="box-bannerType-1">
+
+	
+		
+			<li class="li-1">
+				
+				
+				
+					
+					
+				
+
+				<a href="/ko/business/parcel" target="_self" onclick="GA_Event('택배조회', '사업영역안내', '오네 사업영역 안내')">
+					<img src="/cjlwupload/bannerManage/0cf64f81-c669-4105-9144-f5219b1b8fe6.jpg" alt="오네 사업영역 안내" class="bg">
+					<div class="txt">
+						<p class="tt-1">오네 사업영역 안내</p>
+						<p class="txt-1">광범위한 배송 네트워크, AI&middot;빅데이터 기반의<br />
+첨단 자동화 기술을 결합한 선도적인 배송 솔루션<br />
+오네(O-NE) 입니다.</p>
+					</div>
+				</a>
+			</li>
+		
+		
+	
+
+	
+		
+			<li class="li-2">
+				
+				
+				
+					
+					
+				
+
+				<a href="/ko/support/guide/parcel" target="_self" onclick="GA_Event('택배조회', '사업영역안내', '오네 서비스 이용안내')">
+					<img src="/cjlwupload/bannerManage/49231955-f008-4c15-9b71-940a816029d7.jpg" alt="오네 서비스 이용안내" class="bg">
+					<div class="txt">
+						<p class="tt-1">오네 서비스 이용안내</p>
+						<p class="txt-1">CJ대한통운 오네(O-NE)는 고객이 원하는<br />
+모든 배송의 실현을 위해 노력하고 있습니다</p>
+					</div>
+				</a>
+			</li>
+		
+		
+	
+
+		</ul>
+		<!-- //box-bannerType-1 -->
+	</div>
+</div>
+
+
+
+
+
+
+
+<!-- 공통 : footer -->
+<!--  2021-10-05 추가 : 슬로건 아이콘 찾기 이벤트  -->
+
+
+
+
+
+
+
+
+<!-- <form id="frmEventAnswerPV" name="frmEventAnswerPV" method="post">
+	 <input type="hidden" id="eventId" name="eventId" value="126"/>
+      <input type="hidden" id="URL" name="URL" value="/ko/tool/parcel/tracking"/>
+<div class="common-layerType-1" id="pvEvtLayer">
+	<div class="event-search-inner-layer">
+		<div class="blind-area">
+			<strong>브랜드 슬로건 아이콘 찾기 이벤트</strong>
+			<p>WE DESIGN LOGISTICS를 찾아라!</p>
+			<p>브랜드 슬로건 아이콘 쏙쏙 찾고 당첨행운 쑥쑥 키우고</p>
+		</div>
+		<div class="event-search-gift">
+			<strong>응모하는 경품을 선택하세요!</strong>
+			<ul>
+				<li>
+					<div class="event-gift-1">
+						<strong>WE 상</strong>
+						<span>CJ대한통운 굿즈</span>
+					</div>
+					<div class="common-radio-wrap type-2 ">
+						<input type="radio" id="inp-radio-gift1" name="inp-radio-gift" value="WE">
+						<label for="inp-radio-gift1">10명</label>
+					</div>
+				</li>
+				<li>
+					<div class="event-gift-2">
+						<strong>DESIGN 상</strong>
+						<span>영화예매권<br />(1장 1매)</span>
+					</div>
+					<div class="common-radio-wrap type-2 ">
+						<input type="radio" id="inp-radio-gift2" name="inp-radio-gift" value="DESIGN"><br />
+						<label for="inp-radio-gift2">100명</label>
+					</div>
+				</li>
+				<li>
+					<div class="event-gift-3">
+						<strong>LOGISTICS 상</strong>
+						<span>스타벅스 아메리카노 쿠폰<br />(1장 1매)</span>
+					</div>
+					<div class="common-radio-wrap type-2 ">
+						<input type="radio" id="inp-radio-gift3" name="inp-radio-gift" value="LOGISTICS">
+						<label for="inp-radio-gift3">300명</label>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="event-search-info">
+			<strong>이벤트 응모 정보</strong>
+			<ul class="info-list">
+				<li>
+					<label for="inp-evt-name">이름</label>
+					<input type="text"  id="eventAnswerNm"  name= "eventAnswerNm" maxlength="50"  placeholder="예)홍길동" />
+				</li>
+				<li>
+					<label for="inp-evt-email">이메일주소</label>
+					<input type="text"  id="eventAnswerEmail"  name= "eventAnswerEmail" maxlength="40"  placeholder="예) hongildong@cj.net" />
+				</li>
+			</ul>
+			<p>* 이벤트 응모 시 개인정보 수집 및 이용에 동의합니다.</p>
+			<div class="event-btn-area">
+				<a href="/ko/newsroom/event/20211008/wedesignlogistics" class="btn-event-1"><span>이벤트 자세히 보기</span></a>
+				<a href="javascript:;"  id ="btnEventAnswerPopUP" class="btn-event-2"><span>동의하고 응모하기</span></a>
+			</div>
+		</div>
+		<a href="#none" class="cancle dialog-close"><span class="blind-area">브랜드 슬로건 아이콘 찾기 이벤트 창 닫기</span></a>
+	</div>
+</div>
+	</form> -->
+<!--//  2021-10-05 추가 : 슬로건 아이콘 찾기 이벤트  -->
+
+<div id="footer">
+	<h2 class="hidden">
+		하단 영역
+		
+	</h2>
+	<!-- box-menu -->
+	<div class="box-menu">
+		<div class="inner box-contain">
+			<ul class="list-type-1">
+			
+				<li>
+					<a href="/ko/newsroom">NOW</a>
+					<ul>
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/newsroom/latest"
+										
+									>LATEST</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/newsroom/news"
+										
+									>보도자료</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/newsroom/event"
+										
+									>이벤트</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/newsroom/notice"
+										
+									>공지사항</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/now/newsletter"
+										
+									>CJ대한통운 NOW 구독</a>
+								
+							
+							</li>
+
+						
+					
+					</ul>
+				</li>
+			
+				<li>
+					<a href="/ko/business">사업소개</a>
+					<ul>
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/business"
+										
+									>글로벌 SCM 솔루션</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/tes/story/technology"
+										
+									>TES</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/o-ne"
+										
+									>브랜드</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/onepager/fashion"
+										
+									>Logis Tips</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+									<a href="#none" onclick="openPopup('http://www.cjenc.co.kr/','건설부문' , '');" title="새창"> 건설부문 </a>
+								
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/business/proudpartners"
+										
+									>고객사 소개</a>
+								
+							
+							</li>
+
+						
+					
+					</ul>
+				</li>
+			
+				<li>
+					<a href="/ko/network/country">글로벌 네트워크</a>
+					<ul>
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/network/country"
+										
+									>글로벌 현황</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/network/newFamily"
+										
+									>Global Family</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/network/infra"
+										
+									>글로벌 물류 인프라</a>
+								
+							
+							</li>
+
+						
+					
+					</ul>
+				</li>
+			
+				<li>
+					<a href="/ko/about/brand/message">회사정보</a>
+					<ul>
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/about/brand/message"
+										
+									>회사소개</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/about/brand/story"
+										
+									>라이브러리</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/about/sponsorship/motorsports"
+										
+									>스폰서십</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/page/investment/composition"
+										
+									>투자정보</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/page/about/cj-way"
+										
+									>인재채용</a>
+								
+							
+							</li>
+
+						
+					
+					</ul>
+				</li>
+			
+				<li>
+					<a href="/ko/sustainability">지속가능경영</a>
+					<ul>
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/page/sustainability/message"
+										
+									>지속가능경영</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/cjl_ethics/principle"
+										
+									>윤리경영</a>
+								
+							
+							</li>
+
+						
+					
+					</ul>
+				</li>
+			
+				<li>
+					<a href="/ko/support/contacts">고객지원</a>
+					<ul>
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/support/contacts"
+										onclick="GA_Event('공통', '박스메뉴', '고객지원_사업문의' );"
+									>사업문의</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/support/inquiry/agreement"
+										
+									>서비스문의</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/support/faq"
+										
+									>자주 묻는 질문</a>
+								
+							
+							</li>
+
+						
+					
+					</ul>
+				</li>
+			
+				<li>
+					<a href="/ko/tool/parcel/tracking">배송조회/예약</a>
+					<ul>
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/tool/parcel/tracking"
+										
+									>배송조회</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/simpleEstimate/estimate"
+										
+									>디지털 견적</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/tool/parcel/reservation-general"
+										
+									>택배예약</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/tool/parcel/reservation-return"
+										
+									>반품예약</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								 <!--  PC_00000231 : 챗봇 -->
+									<a href="#none" onclick="globalBannerManager('ko', 'K1', '04', 'https://chatbotweb.cjlogistics.com/indexCj.do?media=COM','챗봇상담', 'scrollbars=yes, width=800, height=1500');" title="새창"> 챗봇상담 </a>
+								
+								
+								
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/tool/international/tracking"
+										
+									>국제특송조회</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+								
+								<!-- PC_00000007 : 고객지원,  PC_00000083 : 사업별 문의처 -->
+									<a href="/ko/tool/removal/domestic-quotation"
+										
+									>국내이사 간편 견적</a>
+								
+							
+							</li>
+
+						
+					
+						 <!--PC_00000305 : 이커머스 간편 견적  -->
+							<li>
+							
+								
+								
+									<a href="https://www.unban.ai/service?utm_source=cjlogistics&utm_medium=homepage&utm_campaign=tab_delivery_tracking" target="_blank">the unban[더 운반]</a>
+								
+								
+								
+							
+							</li>
+
+						
+					
+					</ul>
+				</li>
+			
+			</ul>
+
+			
+			
+			<div class="box-familySite type2" data-control="btnFamilySite">
+				<a href="#none" class="btn" data-accessibilityopen="레이어 열기" data-accessibilityclose="레이어 닫기" title="레이어 열기">Global<span class="icon"></span></a>
+				<div class="list-family">
+					<ul>
+						<li>
+							<span class="tt-1 hidden">Global</span>
+							<ul style="margin-top: 0px; margin-bottom: 0px;">
+							
+								<li><a href="https://america.cjlogistics.com/" target="_blank" title="새창">CJ Logistics America </a></li>
+							
+								<li><a href="https://www.cjcentury.com/" target="_blank" title="새창">CJ Century Logistics</a></li>
+							
+								<li><a href="http://www.darcl.com/" target="_blank" title="새창">CJ Darcl Logistics</a></li>
+							
+								<li><a href="http://www.gemadeptlogistics.com.vn/" target="_blank" title="새창">CJ Gemadept Logistics</a></li>
+							
+								<li><a href=" http://www.gemadeptshipping.vn/en/Default.aspx" target="_blank" title="새창">CJ Gemadept Shipping</a></li>
+							
+								<li><a href="http://cj-icm.com/" target="_blank" title="새창">CJ ICM Logistics</a></li>
+							
+								<li><a href="http://www.cjsmartcargo.com/" target="_blank" title="새창">CJ Smart Cargo</a></li>
+							
+								<li><a href="http://www.cjspd.com/" target="_blank" title="새창">CJ Speedex Logistics</a></li>
+							
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+
+			
+			<ul class="list-type-2">
+				
+				<li>
+					<a href="http://www.cjenc.co.kr/" target="_blank" title="새창" onclick="GA_Event('공통','건설부문','클릭');">건설부문</a>
+				</li>
+<!-- 			<li>
+					<a href="https://forwarders.cjlogistics.com" target="_blank" title="새창" onclick="GA_Event('공통','LoIS 포워더스','클릭');">LoIS 포워더스</a>
+				</li> -->
+				<li>
+					<a href="https://www.unban.ai/service?utm_source=cjlogistics&utm_medium=homepage&utm_campaign=footer_cta_theunban" target="_blank" title="새창" onclick="GA_Event('공통',the unban [더 운반]','클릭');"><strong class="tx-bodyfont-regular">the unban</strong> [더 운반]</a>
+				</li>
+				
+			</ul>
+			
+			
+		</div>
+	</div>
+	<!-- //box-menu -->
+	<!-- box-menu-2 -->
+	<div class="box-menu-2">
+		
+		
+		<div class="inner ">
+		
+			<a href="/ko/page/agreement/privacy-one" class="txt-point" onclick="GA_Event('공통','하단_개인정보처리방침','클릭');">개인정보처리방침</a>
+			<a href="/ko/agreement/legal-notices" onclick="GA_Event('공통','하단_법적고지','클릭');">법적고지</a><!-- 2018-09-12 추가 -->
+		
+		
+			
+				
+				
+				
+					<a href="/ko/agreement/condition-parcel" onclick="GA_Event('공통','하단_약관 및 운영방침','클릭');">약관 및 운영방침</a>
+				
+				
+			
+		
+			
+				
+				
+				
+					<a href="/ko/cjl_ethics/whistles" onclick="GA_Event('공통','하단_그룹통합제보시스템','클릭');">그룹통합제보시스템</a>
+				
+				
+			
+		
+			
+				
+				
+				
+					<a href="/ko/utility/sitemap" onclick="GA_Event('공통','하단_사이트맵','클릭');">사이트맵</a>
+				
+				
+			
+		
+			
+		
+
+			<!-- box-snsShare -->
+			<div class="box-snsShare">
+				<span>Follow Us</span>
+				<a href="https://www.facebook.com/CJLogisticsglobal/" target="_blank" class="btn-facebook" title="새창" onclick="GA_Event('공통','하단_SNS','FACEBOOK');">Facebook</a>
+				<a href="https://www.instagram.com/cjlogistics.official/?hl=ko" target="_blank" class="btn-instagram" title="새창" onclick="GA_Event('공통','하단_SNS','INSTAGRAM');">Instagram</a>
+				<a href="https://www.youtube.com/cjlogistics" target="_blank" class="btn-youtube" title="새창" onclick="GA_Event('공통','하단_SNS','YOUTUBE');">Youtube</a>
+				<a href="https://www.linkedin.com/company/cj-logistics" target="_blank" class="btn-linkedin" title="새창" onclick="GA_Event('공통','하단_SNS','LINKEDIN');">Linkedin</a>
+				
+			</div>
+			<!-- //box-snsShare -->
+
+			
+			
+			<!-- box-familySite -->
+			<div class="box-familySite" data-control="btnFamilySite">
+				<a href="#none" class="btn" data-accessibilityopen="레이어 열기" data-accessibilityclose="레이어 닫기" title="" >그룹 계열사 바로가기  <span class="icon"></span></a>
+				<div class="list-family">
+					<ul>
+					
+						<li>
+							<span class="tt-1">CJ그룹</span>
+							<ul style="margin-top: 0px; margin-bottom: 0px;">
+							
+								<li>
+									<a href="http://www.cj.net/" onclick="GA_Event('공통','그룹 계열사 바로가기','CJ주식회사');" target="_blank" title="새창">CJ주식회사</a>
+								</li>
+							
+							</ul>
+						</li>
+					
+						<li>
+							<span class="tt-1">식품 & 식품 서비스</span>
+							<ul style="margin-top: 0px; margin-bottom: 0px;">
+							
+								<li>
+									<a href="https://www.cj.co.kr/kr/index" onclick="GA_Event('공통','그룹 계열사 바로가기','CJ제일제당');" target="_blank" title="새창">CJ제일제당</a>
+								</li>
+							
+								<li>
+									<a href="https://www.cjfoodville.co.kr" onclick="GA_Event('공통','그룹 계열사 바로가기','CJ푸드빌');" target="_blank" title="새창">CJ푸드빌</a>
+								</li>
+							
+								<li>
+									<a href="http://www.cjfreshway.com" onclick="GA_Event('공통','그룹 계열사 바로가기','CJ프레시웨이');" target="_blank" title="새창">CJ프레시웨이</a>
+								</li>
+							
+							</ul>
+						</li>
+					
+						<li>
+							<span class="tt-1">생명공학</span>
+							<ul style="margin-top: 0px; margin-bottom: 0px;">
+							
+								<li>
+									<a href="https://www.cjbio.net/kr/index.do" onclick="GA_Event('공통','그룹 계열사 바로가기','CJ제일제당 BIO사업부문');" target="_blank" title="새창">CJ제일제당 BIO사업부문</a>
+								</li>
+							
+							</ul>
+						</li>
+					
+						<li>
+							<span class="tt-1">물류 & 신유통</span>
+							<ul style="margin-top: 0px; margin-bottom: 0px;">
+							
+								<li>
+									<a href="http://www.cjlogistics.com/ko/main" onclick="GA_Event('공통','그룹 계열사 바로가기','CJ대한통운');" target="_blank" title="새창">CJ대한통운</a>
+								</li>
+							
+								<li>
+									<a href="http://www.cjenc.co.kr/kr/Default.asp" onclick="GA_Event('공통','그룹 계열사 바로가기','CJ대한통운 건설부문');" target="_blank" title="새창">CJ대한통운 건설부문</a>
+								</li>
+							
+								<li>
+									<a href="https://www.oliveyoung.co.kr/store/company/brandStory.do	" onclick="GA_Event('공통','그룹 계열사 바로가기','CJ올리브영');" target="_blank" title="새창">CJ올리브영</a>
+								</li>
+							
+								<li>
+									<a href="https://www.cjolivenetworks.co.kr" onclick="GA_Event('공통','그룹 계열사 바로가기','CJ올리브네트웍스');" target="_blank" title="새창">CJ올리브네트웍스</a>
+								</li>
+							
+								<li>
+									<a href="https://company.cjonstyle.com/index.asp" onclick="GA_Event('공통','그룹 계열사 바로가기','CJ ENM 커머스부문');" target="_blank" title="새창">CJ ENM 커머스부문</a>
+								</li>
+							
+							</ul>
+						</li>
+					
+						<li>
+							<span class="tt-1">엔터테인먼트 & 미디어</span>
+							<ul style="margin-top: 0px; margin-bottom: 0px;">
+							
+								<li>
+									<a href="https://www.cjenm.com/ko/" onclick="GA_Event('공통','그룹 계열사 바로가기','CJ ENM 엔터테인먼트부문');" target="_blank" title="새창">CJ ENM 엔터테인먼트부문</a>
+								</li>
+							
+								<li>
+									<a href="http://corp.cgv.co.kr/" onclick="GA_Event('공통','그룹 계열사 바로가기','CJ CGV');" target="_blank" title="새창">CJ CGV</a>
+								</li>
+							
+							</ul>
+						</li>
+					
+					</ul>
+				</div>
+			</div>
+			<!-- //box-familySite -->
+			
+
+		</div>
+	</div>
+	<!-- //box-menu-2 -->
+	<!-- box-menu-3 -->
+	<div class="box-menu-3">
+		
+		
+		<div class="inner ">
+			<a href="/ko/main" class="logo" onclick="GA_Event('공통','하단_CJ LOGISTICS LOGO','클릭');"><span>CJ대한통운</span></a>
+			<div class="box-txt">
+				<p class="txt-1">CJ대한통운(주)&nbsp;&nbsp;사업자등록번호 : 110-81-05034&nbsp;&nbsp;대표자 : 신영수<br>주소 : 서울특별시 종로구 종로5길 7, Tower 8 (우)03157</p>
+				
+					
+						
+					
+						
+							
+						
+					
+						
+							
+						
+					
+						
+							
+						
+					
+						
+							
+									<p>챗봇 상담 : 24시간 <a href="#none" class="fc-point"  onclick="globalBannerManager('ko', 'K1', '04', 'https://chatbotweb.cjlogistics.com/indexCj.do?media=COM','챗봇상담', 'scrollbars=yes, width=800, height=1500');" title="새창">(챗봇 상담 바로가기)</a></p>
+							
+						
+					
+						
+							
+						
+					
+						
+							
+						
+					
+						
+							
+						
+					
+					<p class="txt-1">고객센터 : 1588-1255 [평일 09:00~18:00 / 토요일, 공휴일 09:00~13:00 / 일요일 09:00~13:00 (채팅 상담)]</p>
+				
+				 
+				<p class="txt-2">COPYRIGHT 2025 BY CJ Logistics Corporation&nbsp;&nbsp;ALL RIGHTS RESERVED.</p>
+				
+			</div>
+			<!--  2022-04-04 추가 -->
+			<div class="boxAwardArea">
+				<ul>
+					<li><img src="/static/pc/global/template/images/logo/logo_award1_2022.png" alt="지디웹" /></li>
+					<li><img src="/static/pc/global/template/images/logo/logo_award2_2022.png" alt="앤어워드" /></li>
+				</ul>
+			</div>
+			<!--//  2022-04-04 추가 -->
+		</div>
+	</div>
+	<!-- //box-menu-3 -->
+</div>
+
+<!-- 퍼블 통합검색(HTML) -->
+<div class="search-total-dim"></div>
+<!-- //퍼블 통합검색(HTML) -->
+
+<!-- //공통 : footer -->
+<script src="/static/pc/global/template/js/jquery-1.12.1.min.js"></script>
+<script type="text/javascript">
+
+	//2021-10-05 추가
+	$('.event-search-gift .common-radio-wrap').find('> input').on('change', function(){
+		$(this).parents('.event-search-gift').find('.common-radio-wrap > input').each(function(){
+			$(this).siblings('label').removeClass('on');
+		});
+
+		if ($(this).prop("checked") == true) {
+			$(this).siblings('label').addClass('on');
+			$(this).siblings().addClass('on');
+		}else{
+			$(this).siblings('label').removeClass('on');
+			$(this).siblings().removeClass('on');
+		}
+
+	});
+
+
+	//2021.10.05 :: 이메일 유효성 검사
+	/*function fn_emailCheck(email){
+		//2021.10.14 이메일 명에 '_' '-' 입력제한으로 인해 특수문자 허용 유효성체크로 변경
+		//var regex = /^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i;
+		var regex =/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+	     return (email != '' && email != 'undefined' && regex.test(email));
+	}*/
+
+	//2021.10.05 이벤트 응모 이벤트
+/* 	 $("#btnEventAnswerPopUP").click(function(e) {
+		var frm = document.frmEventAnswerPV;
+
+		if($(':radio[name="inp-radio-gift"]:checked').length < 1){
+		    alert('경품을 선택해 주세요.');
+			return;
+		}
+
+		//이름 공백체크
+		if ($('#eventAnswerNm').val() == '') {
+			alert('이름을 입력해 주세요.이름을 입력해 주세요.');
+			$('#eventAnswerNm').focus();
+			return;
+		}
+		//이메일 공백체크
+		if ($('#eventAnswerEmail').val() == '') {
+			alert('이메일을 입력해 주세요.');
+			$('#eventAnswerEmail').focus();
+			return;
+		}
+
+		//이메일 형식 확인
+		var emailStr = $("#eventAnswerEmail").val();
+		if(!fn_emailCheck(emailStr)) {
+			alert('이메일형식을 확인해 주세요.');
+			$('#eventAnswerEmail').focus();
+			return;
+		}
+
+		if(confirm('응모하시겠습니까?응모하시겠습니까?')) {
+			var formData = new FormData(frm);
+
+			$.ajax({
+				url: "/ko/newsroom/event/writeEventAnswerPV",
+				type: 'POST',
+				beforeSend: function (request) {
+					request.setRequestHeader("X-CSRF-TOKEN", "fdc5a885-5358-4072-85df-32192380e032");
+				},
+				data: formData,
+				dataType: 'json',
+				processData: false,
+				contentType: false,
+				cache: false,
+				async: false,
+				success: function(data) {
+					var resultInt = data.resultInt;
+					var resultMsg = data.resultMsg;
+
+					if("isNull" == resultMsg) {
+						alert('잘못된 요청입니다.잘못된 요청입니다.');
+						location.reload();
+						return;
+					}
+
+					if(resultInt > 0) {
+						var eventAlert = "";
+						if(eventAlert != "") {
+							alert(eventAlert);
+						} else {
+							alert("응모가 완료되었습니다. \n찾으면, 찾을수록 당첨확률이 쑥!쑥! 올라갑니다.")
+						}
+						//페이지 새로고침
+						location.reload();
+						return;
+					} else {
+						alert('서버에 장애가 발생했습니다.서버에 장애가 발생했습니다.\n관리자에게 문의하세요.관리자에게 문의하세요.');
+						return;
+					}
+				},
+				error: function(xhr) {
+					if(xhr.status == "403") {
+						alert('세션이 만료되었습니다.세션이 만료되었습니다.');
+						location.href = location.href;
+					}
+				}
+			});
+		} else {
+			return;
+		}
+		// git push test
+	   });*/
+
+</script>
+<!-- 채널톡  -->
+<script>
+  (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+
+  ChannelIO('boot', {
+	  pluginKey: '1ba1685e-3307-462a-8a0b-260d9bdc11b1'
+	}, function onBoot(error, user) {
+	  if (error) {
+	    console.error(error);
+	  }
+	});
+</script>
+<!-- // 채널톡  -->
+
+<!-- WIDERPLANET  SCRIPT START 2025.5.26 -->
+<div id="wp_tg_cts" style="display:none;"></div>
+<script type="text/javascript">
+var wptg_tagscript_vars = wptg_tagscript_vars || [];
+wptg_tagscript_vars.push(
+(function() {
+	return {
+		wp_hcuid:"",
+		ti:"55759",
+		ty:"Home",
+		device:"web"
+
+	};
+}));
+</script>
+<script type="text/javascript" async src="//cdn-aitg.widerplanet.com/js/wp_astg_4.0.js"></script>
+<!-- // WIDERPLANET  SCRIPT END 2025.5.26 -->
+
+
+    <!-- 공통 : js -->
+	<script src="/static/pc/global/template/js/jquery-1.12.1.min.js"></script>
+	<script src="/static/pc/global/template/js/jquery-migrate-1.4.1.min.js"></script>
+	<script src="/static/pc/global/template/js/jquery.lazy.min.js"></script>
+	<script src="/static/pc/global/template/js/slick.min.js"></script>
+	<script src="/static/pc/global/template/js/front.js?v=2026080510"></script>
+	<script src="/static/pc/global/template/js/string.js?v=2026080510"></script>
+	<script src="/static/pc/global/template/js/common.js?v=2026080510"></script>
+	<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+	<!-- //공통 : js -->
+
+   	<script type="text/javascript">
+		var GLOBAL_SESSION_ID = "anonymousUser";
+		var GLOBAL_CSRF_NAME = "_csrf";
+		var GLOBAL_CSRF_VALUE = "fdc5a885-5358-4072-85df-32192380e032";
+		var GLOBAL_UPLOAD_URL = "/cjlwupload/";
+		var GLOBAL_DOMAIN_KOREAN = "";
+		var GLOBAL_DOMAIN_ENGLISH = "";
+		Kakao.init('76f8b27244e3c303452a0ec474b605e5');
+	</script>
+	<script type="text/javascript" src="/static/pc/global/template/js/jquery.i18n.properties-min-1.0.9.js"></script>
+    <script type="text/javascript">
+		var contextPath = '';
+		$(document).ready(function(){
+			var locale = $.i18n.prop('locale');
+
+			if( locale == 'undefined' || locale == '[locale]' || locale != 'ko' ) {
+				jsLocaleChange();
+			}
+		});
+
+		function jsLocaleChange() {
+			jQuery.i18n.properties({
+				name:'message-common',
+				path:contextPath+'/locale/',
+				mode:'map',
+				language:'ko',
+				callback: function() {
+
+				}
+			});
+		}
+
+		/**
+		 * 다국어를 위한 함수
+		 * {0},{1}.. 과 같은 와일드카드를 사용한 message 내용을 완전한 문장으로 변환하여 리턴한다.
+		 */
+		var multiLocaleMessage = function( strArray ) {
+			if ( strArray instanceof String ) {
+				return strArray;
+			}
+			if ( strArray instanceof Object ) {
+				if ( strArray.length == 1 ) {
+					return strArray[0];
+				}
+				else {
+					var message = strArray[0];
+					var i;
+					for ( i = 1 ; i < strArray.length ; i++ ) {
+						message = message.replace( '{' + (i-1) + '}' , strArray[i] );
+					}
+					return message;
+				}
+			}
+		};
+
+	</script>
+
+
+
+<!--  이벤트 팝업 영역 -->
+<style tyle="text/css">
+.event_banner_layer_ab{position:absolute;top:170px;left:100px;width:400px;height:450px;background:#fff;box-shadow:0 5px 10px rgba(0,0,0,.2);border-radius:20px;overflow:hidden;z-index:101}
+.event_banner_layer_ab .banner-image-link{display:block;position:relative;width:100%;height:400px;background:#666}
+.event_banner_layer_ab .banner-image-link > span{position:absolute;top:50%;left:0;width:100%;text-align:center;transform:translateY(-50%);color:#fff}
+.event_banner_layer_ab .event_banner_layer_btn{position:relative;height:33px;padding:17px 0 0 24px}
+.event_banner_layer_ab .event_banner_layer_btn .banner_close_btn {position:absolute;top:14px;right:24px;font-size:18px;color:#333}
+
+.event_banner_layer_ab02{position:absolute;top:170px;left:100px;width:400px;height:450px;background:#fff;box-shadow:0 5px 10px rgba(0,0,0,.2);border-radius:20px;overflow:hidden;z-index:101}
+.event_banner_layer_ab02 .banner-image-link{display:block;position:relative;width:100%;height:400px;background:#666}
+.event_banner_layer_ab02 .banner-image-link > span{position:absolute;top:50%;left:0;width:100%;text-align:center;transform:translateY(-50%);color:#fff}
+.event_banner_layer_ab02 .event_banner_layer_btn{position:relative;height:33px;padding:17px 0 0 24px}
+.event_banner_layer_ab02 .event_banner_layer_btn .banner_close_btn {position:absolute;top:14px;right:24px;font-size:18px;color:#333}
+</style>
+<!-- // 이벤트 팝업 영역 -->
+<script type="text/javascript">
+
+	
+	
+	btnTop.defaults.type = 'chatbot';
+	
+
+	btnAc.initialize();	//faq 아코디언
+	$(function(){
+
+		$('#idStoryList').slickSetting({
+			arrows: true, //default true
+			infinite: true,
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			variableWidth: true,
+		});
+
+	});
+
+	select.initialize();
+	check.initialize();
+
+
+
+	$("#btnSubmit").on('click', function (e) {
+		fncValidate();
+	});
+
+	$('#paramInvcNo').keydown(function (e) {
+		if(e.keyCode == 13){
+			fncValidate();
+		}
+	});
+
+	function fncValidate(){
+		var paramInvcNo = $('#paramInvcNo').val();
+
+		if (paramInvcNo != null && paramInvcNo != "") {
+			if (paramInvcNo.byte() != 10 && paramInvcNo.byte() != 12) {
+				alert("운송장 번호는 12자리 또는 10자리입니다.");
+				$('#paramInvcNo').focus();
+				return false;
+			}
+		}else{
+			alert("운송장번호를 입력하세요");
+			$('#paramInvcNo').focus();
+			return false;
+		}
+
+
+		$.ajax({
+			url: '/ko/tool/parcel/tracking-detail',
+			type: 'POST',
+			dataType: 'json',
+			data: GLOBAL_CSRF_NAME + '=' + GLOBAL_CSRF_VALUE + '&paramInvcNo=' + paramInvcNo,
+			timeout: 1000,
+			async: false,
+			error: function(xhr){
+				if(xhr.status == "403"){
+					location.href = location.href;
+				}
+			},
+			success: fncCreateResult
+		});
+	}
+
+	function fncCreateResult(responseText){
+		if(responseText != null && responseText.parcelResultMap != null && responseText.parcelDetailResultMap != null){
+			var parcelResultMap = responseText.parcelResultMap.resultList;
+			var parcelDetailResultMap = responseText.parcelDetailResultMap.resultList;
+
+			var paramInvcNo = responseText.parcelResultMap.paramInvcNo;
+
+			var imageStatus = 1;
+			var imageAlt = "";
+			var statusDetail = "";
+
+			var deliveryStatus = 0;
+			var tmpInfo = "";
+
+			var empName = "";
+			var empPhone = "";
+
+			var paramBranchCd = "";
+			var paramEmpId = "";
+
+			if (typeof responseText == 'undefined' || responseText == ''){
+				alert('배송정보 조회 요청이 실패하였습니다.');
+				return false;
+			}else if((typeof parcelResultMap == 'undefined' || parcelResultMap == '') && (typeof parcelDetailResultMap == 'undefined' || parcelDetailResultMap == '')){
+				$('#isResult').css('display', 'none');
+				$('#deliveryDetail').css('display', 'none');
+				$('#notResult').css('display', 'block');
+
+			}else{
+				$("#invcNo").text('-');
+				$("#sendrNm").text('-');
+				$("#rcvrNm").text('-');
+				$("#itemNm").text('-');
+				$("#qty").text('-');
+
+				if(parcelResultMap.length > 0){
+					var sendrNm = parcelResultMap[0].sendrNm;
+					var rcvrNm = parcelResultMap[0].rcvrNm;
+					var rgmailNo = parcelResultMap[0].rgmailNo;
+					var rtnTrspbillnum = parcelResultMap[0].rtnTrspbillnum;
+					var oriTrspbillnum = parcelResultMap[0].oriTrspbillnum;
+
+					if(sendrNm.length > 1){
+						sendrNm = sendrNm.substring(0, 1) + "*";
+					}
+					if(rcvrNm.length > 1){
+						rcvrNm = rcvrNm.substring(0, 1) + "*";
+					}
+					if (rgmailNo != null && rgmailNo != '' && rgmailNo !='&nbsp;'){
+						$("#invcNo").html(parcelResultMap[0].invcNo + '<br><br>(우체국위탁배송)<br><a href="http://service.epost.go.kr/trace.RetrieveRegiPrclDeliv.postal?sid1=' + rgmailNo + '" title="우체국 등기번호 조회" target="_blank" onclick=" window.open(this.href,\'popup\',\'left=0,top=0,width=1024,height=900,resizable=yes,status=yes,toolbar=no,menubar=no,scrollbars=yes\'); return false;"> <b><ins><font color=\"#007ac3\">우체국조회(' + rgmailNo + ')');
+					}else{
+						$("#invcNo").text(parcelResultMap[0].invcNo);
+					}
+
+					if(rtnTrspbillnum != null && rtnTrspbillnum != ''){
+						$("#invcNo").append('</br></br>반품:' + rtnTrspbillnum + '</br>');
+					}
+					if(oriTrspbillnum != null && oriTrspbillnum != ''){
+						$("#invcNo").append('</br></br>원운송장:' + oriTrspbillnum + '</br>');
+					}
+
+					$("#sendrNm").text(sendrNm);
+					$("#rcvrNm").text(rcvrNm);
+					$("#itemNm").text(parcelResultMap[0].itemNm);
+					$("#qty").text(parcelResultMap[0].qty);
+				}
+
+				if(parcelDetailResultMap.length > 0){
+					var langth = parcelDetailResultMap.length - 1;
+					if(typeof parcelDetailResultMap[langth].crgSt == 'undefined' || parcelDetailResultMap[0].crgSt == ''){
+						imageStatus = 1;
+						imageAlt = '01. 상품준비';
+					}else if(parcelDetailResultMap[langth].crgSt == '11'){
+						imageStatus = 3;
+						imageAlt = '03. 상품인수';
+					}else if(parcelDetailResultMap[langth].crgSt == '41' || parcelDetailResultMap[langth].crgSt == 'RMN' || parcelDetailResultMap[langth].crgSt == '21'){ // 22.08.11  코드 21('21 SM입고' 스캔)을 상품이동중 상태로 추가
+						imageStatus = 4;
+						imageAlt = '04. 상품이동중';
+					}else if(parcelDetailResultMap[langth].crgSt == '42'){
+						imageStatus = 5;
+						imageAlt = '05. 배송지도착';
+					}else if(parcelDetailResultMap[langth].crgSt == '44'){
+						imageStatus = 4;
+						imageAlt = '04. 상품이동중';
+					}else if(parcelDetailResultMap[langth].crgSt == '82'){
+						imageStatus = 6;
+						imageAlt = '06. 배송출발';
+					}else if(parcelDetailResultMap[langth].crgSt == '91'){
+						imageStatus = 7;
+						imageAlt = '07. 배달완료';
+					}
+
+					$("#statusImage").attr('src', '/static/pc/global/template/images/img/img_step_info_' + imageStatus + '.jpg');
+					$("#statusImage").attr('alt', '상품 상태 확인 단계 - ' + imageAlt);
+
+					for(i=0; i<parcelDetailResultMap.length; i++){
+						var statusName = "";
+
+						if(parcelDetailResultMap[i].crgSt == '91'){
+							statusDetail += "<tr class='end'>";
+						}else{
+							statusDetail += "<tr>";
+						}
+
+						if(parcelDetailResultMap[i].crgSt == '11'){
+							statusName = '상품인수';
+						}else if(parcelDetailResultMap[i].crgSt == '41' || parcelDetailResultMap[i].crgSt == '21' ){ // 22.08.11  코드 21('21 SM입고' 스캔)을 상품이동중 상태로 추가
+							statusName = '상품이동중';
+						}else if(parcelDetailResultMap[i].crgSt == '42'){
+							statusName = '배송지도착';
+						}else if(parcelDetailResultMap[i].crgSt == '44'){
+							statusName = '상품이동중';
+						}else if(parcelDetailResultMap[i].crgSt == '82'){
+							paramBranchCd = parcelDetailResultMap[i].regBranId;
+							paramEmpId = parcelDetailResultMap[i].empImgNm;
+
+							tmpInfo = parcelDetailResultMap[i].crgNm.split("배송담당:");
+							if(tmpInfo.length == 2){
+								var tmpInfo2 = (tmpInfo[1].replace(")", "")).split(" ");
+								if(tmpInfo2.length == 2){
+									empName = tmpInfo2[0];
+									empPhone = tmpInfo2[1];
+								}
+							}
+
+							statusName = '배송출발';
+							deliveryStatus = 1;
+						}else if(parcelDetailResultMap[i].crgSt == '91'){
+							statusName = '배달완료';
+						} else if (parcelDetailResultMap[i].crgSt == 'RMN') {
+							statusName = 'HUB 도착';
+						}
+
+						statusDetail += "<td>" + statusName + "</td>";
+						statusDetail += "<td>" + parcelDetailResultMap[i].dTime + "</td>";
+						statusDetail += "<td>" + parcelDetailResultMap[i].crgNm + "</td>";
+						statusDetail += "<td>" + parcelDetailResultMap[i].regBranNm + "</td>";
+						statusDetail += "<tr>";
+
+					}
+					$("#statusDetail").html(statusDetail);
+				}else{
+					statusDetail += "<tr>";
+					statusDetail += "<td colspan='4' style='text-align:center;'>조회된 데이터가 없습니다.</td>";
+					statusDetail += "<tr>";
+					$("#statusDetail").html(statusDetail);
+
+					// 이미지 초기화
+					$("#statusImage").attr('src', '/static/pc/global/template/images/img/img_step_info_1.jpg');
+					$("#statusImage").attr('alt', '상품 상태 확인 단계 - 01. 상품준비');
+
+				}
+
+				if(deliveryStatus == 1){
+					$("#empName").text(empName);
+					$("#empPhone").text(empPhone);
+
+					$.ajax({
+						url: '/ko/tool/parcel/tracking-deliveryDetail',
+						type: 'POST',
+						dataType: 'json',
+						data: GLOBAL_CSRF_NAME + '=' + GLOBAL_CSRF_VALUE + '&paramBranchCd=' + paramBranchCd + '&paramEmpId=' + paramEmpId,
+						timeout: 1000,
+						async: false,
+						error: function(xhr){
+							if(xhr.status == "403"){
+								location.href = location.href;
+							}
+						},
+						success: function(responseText){
+							if(responseText.deliveryResultMap != null){
+								$("#belongName").text(responseText.deliveryResultMap.resultList[0].belongName);
+								$("#subName").text(responseText.deliveryResultMap.resultList[0].subName);
+								$("#branName").text(responseText.deliveryResultMap.resultList[0].branName);
+
+								if(typeof responseText.fullPath != 'undefined' && responseText.fullPath != ''){
+									$("#filepathName").attr('src', responseText.fullPath);
+								}else{
+									$("#filepathName").attr('src', '/static/pc/global/template/images/img/ko.jpg');
+								}
+							}else{
+								alert('호출에 실패하였습니다.');
+							}
+						}
+					});
+
+					$('#deliveryDetail').css('display', 'block');
+				}else{
+					$('#deliveryDetail').css('display', 'none');
+				}
+
+				$('#notResult').css('display', 'none');
+
+				//PC URL
+			
+			
+// 						var cashbackUrl = "http://webcheck37.logii.com/interface/delvprom/delv_click.asp?prom_code=LA01&comp_code=korex&login_yn=N&login_name=&inv_no=" + paramInvcNo;
+				var cashbackUrl = ' https://www.logii.com/interface/delvprom/delv_click.asp?prom_code=LA01&comp_code=korex&inv_no=' + paramInvcNo + '&login_yn=N&login_name=';
+
+				$("#iptCashback").attr("href", cashbackUrl);
+				$('#isResult').css('display', 'block');
+
+			}
+		}else{
+			alert('서비스가 원활하지 않습니다.');
+		}
+	}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+
+
+
+
+
+<form method="post" id="frmPageCommon" name="frmPageCommon" >
+<input type="hidden" title="SNS Title" id="snsTitle" name="snsTitle" value="&#91; 배송조회 | CJ대한통운 &#93;" />
+<input type="hidden" title="SNS Summary" id="snsSummary" name="snsSummary" value="CJ대한통운 택배조회 페이지입니다." />
+<input type="hidden" title="SNS URL" id="snsUrl" name="snsUrl" value="http://www.cjlogistics.com/ko/tool/parcel/tracking" />
+<input type="hidden" title="SNS Image" id="snsImage" name="snsImage" value="/static/pc/global/template/images/sns/sns_img_ko.jpg" />
+</form>
+<form method="post" id="frmCommonLogin" name="frmCommonLogin">
+<input type="hidden" title="인증키" name="_csrf" value="fdc5a885-5358-4072-85df-32192380e032" />
+<input type="hidden" title="Return URL" name="returnUrl" 	value="http://www.cjlogistics.com/ko/tool/parcel/tracking" />
+<input type="hidden" title="HashTag ID" name="inputSearch" value="" />
+</form>
+<script type="text/javascript">
+
+	function fncGlobalTagSearch(hashtagId){
+		if(hashtagId!=""){
+			var frm = document.frmCommonLogin;
+			frm.elements["inputSearch"].value = hashtagId;
+	
+			frm.action = '/ko/now/tag';
+		    frm.target="_self";
+		    frm.method="POST";
+			frm.submit();
+		}
+	}
+
+	/*
+	var origin = location.origin;
+	var pathname = location.pathname;
+	if(origin.indexOf("www.cjlogistics.com")<0){
+		location.href = "https://www.cjlogistics.com"+pathname;
+	}
+	*/
+	
+	var nowUrl = window.location.href;
+	var nowHostname = window.location.hostname;
+	if(nowHostname == "cjlogistics.com"){
+		var callUrl = nowUrl.replace(nowHostname, "www.cjlogistics.com");
+		//if (typeof (history.pushState) != "undefined") { //브라우저가 지원하는 경우
+		//    history.pushState({"method":"active"}, null, callUrl);
+		//}
+		//else {
+		    location.href = callUrl; //브라우저가 지원하지 않는 경우 페이지 이동처리
+		//}
+	}
+</script>
+
+
+<script type="text/javascript">
+
+ 
+
+
+(function(w, d, a){
+	w.__beusablerumclient__ = {
+		load : function(src){
+			var b = d.createElement("script");
+			b.src = src; b.async=true; b.type = "text/javascript";
+			d.getElementsByTagName("head")[0].appendChild(b);
+		}
+	};w.__beusablerumclient__.load(a);
+})(window, document, "//rum.beusable.net/script/b200701e124559u075/477b5aaad9");
+</script>
+</body>
+</html>

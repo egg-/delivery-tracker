@@ -20,7 +20,7 @@ Status reflects an endpoint probe run on **2026-08-05** — see [Courier status]
 | Rincos                   | @egg-           | http://www.rincos.co.kr/                                    | **broken**     |
 | Royal Mail               | @egg-           | http://www.royalmail.com/                                   | **broken**     |
 | USPS                     | @egg-           | https://www.usps.com/                                       | **broken**     |
-| CJ Korea Express (Korea) | @egg-           | http://cjkoreaexpress.co.kr/ (https://www.doortodoor.co.kr) | reachable      |
+| CJ Korea Express (Korea) | @egg-           | http://cjkoreaexpress.co.kr/ (https://www.doortodoor.co.kr) | **verified**   |
 | POS Laju                 | @egg-           | http://www.poslaju.com.my                                   | **broken**     |
 | EFS                      | @egg-           | http://efs.asia/                                            | reachable      |
 | UPS                      | @egg-           | https://www.ups.com                                         | reachable      |
@@ -50,9 +50,11 @@ number — sorted them into:
   the pos.com.my home page, and `royalmail`/`usps` have moved their tracking pages.
 * **needs API key** — `dhl` answered `401` and `sicepat` `403` to a dummy key, which is
   the expected response. Both look correctly wired.
+* **verified** — traced end to end against a real shipment, not just a probe.
+  `cjkoreaexpress` is the only one so far.
 * **reachable** — the first request succeeded. For the multi-step couriers (`pantos`,
-  `ups`, `cjkoreaexpress`, `jnt`, `lbc`) that first request is only a landing page, so
-  this is weak evidence. Confirming any of these needs a real tracking number.
+  `ups`, `jnt`, `lbc`) that first request is only a landing page, so this is weak
+  evidence. Confirming any of these needs a real tracking number.
 
 Five couriers were dropped in 3.0.0 because their hostname no longer resolves at all —
 see the changelog. They remain in git history if anyone needs the parsers back.
