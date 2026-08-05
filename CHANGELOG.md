@@ -10,10 +10,17 @@ Rewritten in TypeScript. This release is **breaking** — see the migration note
     where v2 passed a plain `{ code, message }` object to the callback.
 * **Requires Node.js 20 or later.**
 * `COURIER.DEPPON` removed — it had no implementation and threw on use.
-* **Five couriers removed** because their hostname no longer resolves, so they cannot
+* **Nine couriers removed.** Five have a hostname that no longer resolves, so they cannot
   work regardless of the parser: `ecargo`, `yelloexpress`, `kerrythai`, `xioexpress`,
-  `airbridge`. Their tests passed only because `nock` replayed recordings made in
-  2017–2020. The parsers and fixtures remain in git history.
+  `airbridge`. Four more explicitly refuse automated requests and are dropped rather than
+  worked around: `usps` (Akamai JavaScript challenge on every tracking URL, plus tracking
+  API access limited to a caller's own Mailer IDs since 2026-04-01), `fedex` and `ups`
+  (Akamai `Access Denied`), and `paxel` (Cloudflare challenge). Their tests passed only
+  because `nock` replayed recordings made in 2017–2024. The parsers and fixtures remain in
+  git history.
+* `pantos` no longer merges checkpoints from a US handover, since UPS, USPS and FedEx are
+  gone; those shipments return Pantos's own checkpoints. Australian handovers to Australia
+  Post still work.
 * `tracker.error()` removed; use `TrackerError` / the exported `ERROR` codes.
 * `cjkoreaexpress` checkpoints now carry `message` as a string, matching every other
   courier. It was an array in v2.

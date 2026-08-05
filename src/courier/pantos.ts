@@ -15,21 +15,17 @@ import {
 import dayjs from '../dayjs.js'
 import { createSession, parseJson } from '../http.js'
 import auspost from './auspost.js'
-import fedex from './fedex.js'
-import ups from './ups.js'
-import usps from './usps.js'
 
 const REF = { code: COURIER.PANTOS.CODE, name: COURIER.PANTOS.NAME }
 
-/** Pantos hands parcels over to a local carrier; these are the ones it reports. */
+/**
+ * Pantos hands parcels over to a local carrier for the last leg. It also names UPS, USPS
+ * and FedEx, but those couriers were dropped because they block automated access, so a
+ * handover to them is reported as Pantos's own checkpoints and nothing more.
+ */
 const HANDOVER: Record<string, CourierFactory> = {
-  [COURIER.AUSPOST.CODE]: auspost,
-  [COURIER.UPS.CODE]: ups,
-  [COURIER.USPS.CODE]: usps,
-  [COURIER.FEDEX.CODE]: fedex
+  [COURIER.AUSPOST.CODE]: auspost
 }
-
-const USPS_NUMBER_LENGTH = 22
 
 interface Summary {
   hblNo: string
@@ -107,7 +103,11 @@ function parseCheckpoints(body: CheckpointResponse): Checkpoint[] {
   })
 }
 
-/** Works out which local carrier finished the delivery, if the summary names one. */
+/**
+ * Works out which local carrier finished the delivery, if the summary names one that is
+ * still supported. US handovers go to UPS, USPS or FedEx, none of which can be traced any
+ * more, so they are left alone.
+ */
 function parseHandover(body: SummaryResponse): { code: string; number: string } | null {
   const data = body.OUT_DS1[0]
   const number = data?.refBlNo
@@ -118,17 +118,6 @@ function parseHandover(body: SummaryResponse): { code: string; number: string } 
 
   if (data.podNatnCd === 'AU') {
     return { code: COURIER.AUSPOST.CODE, number }
-  }
-  if (data.podNatnCd === 'US') {
-    if (data.carrTypeCd === 'UPSD') {
-      return { code: COURIER.UPS.CODE, number }
-    }
-    if (number.length === USPS_NUMBER_LENGTH) {
-      return { code: COURIER.USPS.CODE, number }
-    }
-    if (data.linkedAddr?.includes('fedex.com')) {
-      return { code: COURIER.FEDEX.CODE, number }
-    }
   }
   return null
 }

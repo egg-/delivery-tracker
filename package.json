@@ -48,18 +48,15 @@
     "shipment",
     "ems",
     "koreapost",
-    "fedex",
     "australia post",
     "auspost",
     "pantos",
     "rincos",
     "royalmail",
-    "usps",
     "cj",
     "cjkoreaexpress",
     "pos laju",
     "efs",
-    "ups",
     "tnt",
     "cesco",
     "xpost",
@@ -69,8 +66,7 @@
     "j&t",
     "jnt",
     "dhl",
-    "canada post",
-    "paxel"
+    "canada post"
   ],
   "license": "MIT",
   "bugs": {

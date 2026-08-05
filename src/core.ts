@@ -67,16 +67,13 @@ export interface CourierMeta {
 
 export const COURIER = {
   KOREAPOST: { CODE: 'koreapost', NAME: 'Korea Post' },
-  FEDEX: { CODE: 'fedex', NAME: 'FedEx' },
   AUSPOST: { CODE: 'auspost', NAME: 'Australia Post' },
   PANTOS: { CODE: 'pantos', NAME: 'Pantos' },
   RINCOS: { CODE: 'rincos', NAME: 'RINCOS' },
   ROYALMAIL: { CODE: 'royalmail', NAME: 'Royal Mail' },
-  USPS: { CODE: 'usps', NAME: 'USPS' },
   CJKOREAEXPRESS: { CODE: 'cjkoreaexpress', NAME: 'CJ Korea Express' },
   POSLAJU: { CODE: 'poslaju', NAME: 'POS Laju' },
   EFS: { CODE: 'efs', NAME: 'EFS' },
-  UPS: { CODE: 'ups', NAME: 'UPS' },
   TNT: { CODE: 'tnt', NAME: 'TNT' },
   CESCO: { CODE: 'cesco', NAME: 'CESCO' },
   XPOST: { CODE: 'xpost', NAME: 'XPOST' },
@@ -85,8 +82,7 @@ export const COURIER = {
   LBC: { CODE: 'lbc', NAME: 'LBC' },
   JNT: { CODE: 'jnt', NAME: 'J&T' },
   DHL: { CODE: 'dhl', NAME: 'DHL' },
-  CANADAPOST: { CODE: 'canadapost', NAME: 'Canada Post' },
-  PAXEL: { CODE: 'paxel', NAME: 'Paxel' }
+  CANADAPOST: { CODE: 'canadapost', NAME: 'Canada Post' }
 } as const satisfies Record<string, CourierMeta>
 
 export type CourierKey = keyof typeof COURIER
