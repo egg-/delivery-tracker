@@ -27,6 +27,10 @@ Rewritten in TypeScript. This release is **breaking** — see the migration note
 * CLI: `-c/--courier` is now case-insensitive, as the original validation intended.
 
 ## Fixed
+* `cjkoreaexpress` — CJ relabelled its final scan from `배달완료` to `배송완료` at some
+  point after the 2020 recording, so completed deliveries were reported as `InTransit`
+  and then aged into `Exception` after three days. Both spellings are now accepted, and a
+  fixture recorded from the current API was added alongside the old one. Fixes #39.
 * Corrected date formats that v2 got wrong. `moment` accepted them leniently and produced
   plausible but incorrect timestamps; these are now parsed properly.
   * `usps` — the page writes `March 16, 2024,1:55 pm` (no space after the second comma),
