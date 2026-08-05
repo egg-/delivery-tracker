@@ -6,12 +6,13 @@ const pantos = courier(COURIER.PANTOS.CODE)
 
 describe(COURIER.PANTOS.NAME, () => {
   const deliveredNum = 'DELIVEREDN'
-  const deliveredUPSNum = 'DELIVEREDUPS'
+  // A shipment Pantos handed to UPS. UPS is no longer supported, so the handover is
+  // skipped and only Pantos's own checkpoints come back.
+  const handedOverNum = 'DELIVEREDUPS'
 
   before(() => {
     prepare(pantos, deliveredNum)
-    prepare(pantos, deliveredUPSNum)
-    prepare(courier(COURIER.UPS.CODE), deliveredUPSNum)
+    prepare(pantos, handedOverNum)
   })
 
   it('delivered number', async () => {
@@ -22,11 +23,13 @@ describe(COURIER.PANTOS.NAME, () => {
     assert.equal(result.status, STATUS.DELIVERED)
   })
 
-  it('ups number', async () => {
-    const result = await pantos.trace(deliveredUPSNum)
+  it('handed-over number falls back to its own checkpoints', async () => {
+    const result = await pantos.trace(handedOverNum)
 
-    assert.equal(result.number, deliveredUPSNum)
+    assert.equal(result.number, handedOverNum)
     assert.equal(result.courier.code, COURIER.PANTOS.CODE)
-    assert.equal(result.status, STATUS.DELIVERED)
+    assert.notEqual(result.checkpoints.length, 0)
+    // Every checkpoint is Pantos's; none were merged in from the receiving carrier.
+    assert.ok(result.checkpoints.every((c) => c.courier.code === COURIER.PANTOS.CODE))
   })
 })

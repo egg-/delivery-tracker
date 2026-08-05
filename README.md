@@ -14,16 +14,13 @@ Status reflects an endpoint probe run on **2026-08-05** — see [Courier status]
 | Name                     | Contributor     | Link                                                        | Status         |
 | ------------------------ | --------------- | ----------------------------------------------------------- | -------------- |
 | Korea Post               | @egg-           | http://www.koreapost.go.kr/                                 | reachable      |
-| FedEx                    | @egg-           | https://www.fedex.com/                                      | **broken**     |
 | Australia Post           | @egg-           | https://auspost.com.au/                                     | **broken**     |
 | Pantos                   | @egg-           | http://www.epantos.com/                                     | reachable      |
 | Rincos                   | @egg-           | http://www.rincos.co.kr/                                    | **broken**     |
 | Royal Mail               | @egg-           | http://www.royalmail.com/                                   | **broken**     |
-| USPS                     | @egg-           | https://www.usps.com/                                       | **broken**     |
 | CJ Korea Express (Korea) | @egg-           | http://cjkoreaexpress.co.kr/ (https://www.doortodoor.co.kr) | **verified**   |
 | POS Laju                 | @egg-           | http://www.poslaju.com.my                                   | **broken**     |
 | EFS                      | @egg-           | http://efs.asia/                                            | reachable      |
-| UPS                      | @egg-           | https://www.ups.com                                         | reachable      |
 | TNT                      | @egg-           | https://www.tnt.com                                         | reachable      |
 | CESCO                    | @egg-           | https://www.cesco-logistics.com/                            | reachable      |
 | XPOST                    | @egg-           | https://www.xpost.ph/                                       | **broken**     |
@@ -33,7 +30,6 @@ Status reflects an endpoint probe run on **2026-08-05** — see [Courier status]
 | J&T (PH)                 | @egg-           | https://www.jtexpress.ph/                                   | reachable      |
 | DHL                      | @carstenschwede | https://www.dhl.com/                                        | needs API key  |
 | Canada Post              | @egg-           | https://www.canadapost-postescanada.ca/                     | **verified**   |
-| PAXEL                    | @egg-           | https://paxel.co/                                           | **broken**     |
 
 ## Courier status
 
@@ -46,8 +42,8 @@ An endpoint probe on 2026-08-05 — one request per courier, using a dummy track
 number — sorted them into:
 
 * **broken** — the host answers but the endpoint does not: `404` for `auspost`, `rincos`
-  and `xpost`; `403` for `fedex` and `paxel`; `poslaju` now redirects to the pos.com.my
-  home page, and `royalmail`/`usps` have moved their tracking pages.
+  and `xpost`; `poslaju` now redirects to the pos.com.my home page, and `royalmail` has
+  moved its tracking page behind a single-page app.
 * **needs API key** — `dhl` answered `401` and `sicepat` `403` to a dummy key, which is
   the expected response. Both look correctly wired.
 * **verified** — traced end to end against a real shipment, not just a probe:
@@ -56,8 +52,11 @@ number — sorted them into:
   `ups`, `jnt`, `lbc`) that first request is only a landing page, so this is weak
   evidence. Confirming any of these needs a real tracking number.
 
-Five couriers were dropped in 3.0.0 because their hostname no longer resolves at all —
-see the changelog. They remain in git history if anyone needs the parsers back.
+Nine couriers were dropped in 3.0.0. Five had a hostname that no longer resolves, and
+four — `usps`, `fedex`, `ups` and `paxel` — sit behind bot management that explicitly
+refuses automated requests. This library scrapes what a courier serves to an ordinary
+client; where a courier has decided not to serve that, the answer is its official API or
+a tracking aggregator, not a workaround. The parsers remain in git history.
 
 Re-recording a fixture is the way to fix a **broken** courier: capture a live response
 into `test/fixtures/<code>-<number>` and adjust the parser until the test passes.
@@ -169,16 +168,13 @@ All three are named exports: `import { COURIER, STATUS, ERROR } from 'delivery-t
 | NAMESPACE      | CODE           | NAME             |
 | -------------- | -------------- | ---------------- |
 | KOREAPOST      | koreapost      | Korea Post       |
-| FEDEX          | fedex          | FedEx            |
 | AUSPOST        | auspost        | Australia Post   |
 | PANTOS         | pantos         | Pantos           |
 | RINCOS         | rincos         | RINCOS           |
 | ROYALMAIL      | royalmail      | Royal Mail       |
-| USPS           | usps           | USPS             |
 | CJKOREAEXPRESS | cjkoreaexpress | CJ Korea Express |
 | POSLAJU        | poslaju        | POS Laju         |
 | EFS            | efs            | EFS              |
-| UPS            | ups            | UPS              |
 | TNT            | tnt            | TNT              |
 | CESCO          | cesco          | CESCO            |
 | XPOST          | xpost          | XPOST            |
@@ -188,7 +184,6 @@ All three are named exports: `import { COURIER, STATUS, ERROR } from 'delivery-t
 | JNT            | jnt            | J&T              |
 | DHL            | dhl            | DHL              |
 | CANADAPOST     | canadapost     | Canada Post      |
-| PAXEL          | paxel          | Paxel            |
 
 ### STATUS
 
