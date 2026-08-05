@@ -70,7 +70,6 @@ export const COURIER = {
   AUSPOST: { CODE: 'auspost', NAME: 'Australia Post' },
   PANTOS: { CODE: 'pantos', NAME: 'Pantos' },
   RINCOS: { CODE: 'rincos', NAME: 'RINCOS' },
-  ROYALMAIL: { CODE: 'royalmail', NAME: 'Royal Mail' },
   CJKOREAEXPRESS: { CODE: 'cjkoreaexpress', NAME: 'CJ Korea Express' },
   POSLAJU: { CODE: 'poslaju', NAME: 'POS Laju' },
   EFS: { CODE: 'efs', NAME: 'EFS' },

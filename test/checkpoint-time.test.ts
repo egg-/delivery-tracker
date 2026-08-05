@@ -22,7 +22,6 @@ const CASES: Array<[CourierCode, string]> = [
   [COURIER.PANTOS.CODE, 'DELIVEREDN'],
   [COURIER.POSLAJU.CODE, 'DELIVERED'],
   [COURIER.RINCOS.CODE, 'DELIVERED'],
-  [COURIER.ROYALMAIL.CODE, 'LBTRANSIT'],
   [COURIER.SICEPAT.CODE, '123456789012'],
   [COURIER.TNT.CODE, 'DELIVEREDNUM'],
   [COURIER.XPOST.CODE, 'DELIVERED']
@@ -54,16 +53,6 @@ describe('checkpoint timestamps', () => {
       }
     })
   }
-
-  it('parses Royal Mail day-first dates', async () => {
-    const royalmail = courier(COURIER.ROYALMAIL.CODE)
-    prepare(royalmail, 'LBTRANSIT')
-
-    const result = await royalmail.trace('LBTRANSIT')
-
-    // "18/01/17" + "23:53" is 18 January 2017, not 2001.
-    assert.equal(result.checkpoints[1]?.time, '2017-01-18T23:53:00')
-  })
 
   it('parses CESCO Indonesian month names', async () => {
     const cesco = courier(COURIER.CESCO.CODE)

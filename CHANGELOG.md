@@ -10,12 +10,14 @@ Rewritten in TypeScript. This release is **breaking** — see the migration note
     where v2 passed a plain `{ code, message }` object to the callback.
 * **Requires Node.js 20 or later.**
 * `COURIER.DEPPON` removed — it had no implementation and threw on use.
-* **Nine couriers removed.** Five have a hostname that no longer resolves, so they cannot
+* **Ten couriers removed.** Five have a hostname that no longer resolves, so they cannot
   work regardless of the parser: `ecargo`, `yelloexpress`, `kerrythai`, `xioexpress`,
   `airbridge`. Four more explicitly refuse automated requests and are dropped rather than
   worked around: `usps` (Akamai JavaScript challenge on every tracking URL, plus tracking
   API access limited to a caller's own Mailer IDs since 2026-04-01), `fedex` and `ups`
-  (Akamai `Access Denied`), and `paxel` (Cloudflare challenge). Their tests passed only
+  (Akamai `Access Denied`), `paxel` (Cloudflare challenge) and `royalmail` (the tracking
+  page is a shell and the endpoints that carry the data never answer, with reCAPTCHA and
+  an Akamai sensor configured on the page). Their tests passed only
   because `nock` replayed recordings made in 2017–2024. The parsers and fixtures remain in
   git history.
 * `pantos` no longer merges checkpoints from a US handover, since UPS, USPS and FedEx are
