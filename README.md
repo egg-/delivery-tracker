@@ -32,7 +32,7 @@ Status reflects an endpoint probe run on **2026-08-05** — see [Courier status]
 | LBC                      | @egg-           | https://www.lbcexpress.com/                                 | reachable      |
 | J&T (PH)                 | @egg-           | https://www.jtexpress.ph/                                   | reachable      |
 | DHL                      | @carstenschwede | https://www.dhl.com/                                        | needs API key  |
-| Canada Post              | @egg-           | https://www.canadapost-postescanada.ca/                     | **broken**     |
+| Canada Post              | @egg-           | https://www.canadapost-postescanada.ca/                     | **verified**   |
 | PAXEL                    | @egg-           | https://paxel.co/                                           | **broken**     |
 
 ## Courier status
@@ -46,12 +46,12 @@ An endpoint probe on 2026-08-05 — one request per courier, using a dummy track
 number — sorted them into:
 
 * **broken** — the host answers but the endpoint does not: `404` for `auspost`, `rincos`
-  and `xpost`; `403` for `fedex`, `canadapost` and `paxel`; `poslaju` now redirects to
-  the pos.com.my home page, and `royalmail`/`usps` have moved their tracking pages.
+  and `xpost`; `403` for `fedex` and `paxel`; `poslaju` now redirects to the pos.com.my
+  home page, and `royalmail`/`usps` have moved their tracking pages.
 * **needs API key** — `dhl` answered `401` and `sicepat` `403` to a dummy key, which is
   the expected response. Both look correctly wired.
-* **verified** — traced end to end against a real shipment, not just a probe.
-  `cjkoreaexpress` is the only one so far.
+* **verified** — traced end to end against a real shipment, not just a probe:
+  `cjkoreaexpress` and `canadapost`.
 * **reachable** — the first request succeeded. For the multi-step couriers (`pantos`,
   `ups`, `jnt`, `lbc`) that first request is only a landing page, so this is weak
   evidence. Confirming any of these needs a real tracking number.

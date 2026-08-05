@@ -1,0 +1,3 @@
+<!-- Stub for the tracking page request. Canada Post's JSON endpoint only needs the
+     session cookie this page sets; its body is never parsed. -->
+<!DOCTYPE html><html><body><app-root></app-root></body></html>

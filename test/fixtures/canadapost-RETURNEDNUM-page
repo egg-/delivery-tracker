@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <base href="/track-reperage/en" />
+
+    <title>
+      Canada Post - Track a package by tracking number / Postes Canada - Rep�rer
+      un colis au moyen du num�ro de rep�rage
+    </title>
+
+    <!-- Dynamic meta tags -->
+    <meta name="language" content="en" />
+    <meta name="obc_domain" />
+    <meta name="sso-username" />
+    <meta name="sso-groups" />
+    <meta name="sso-token" />
+
+    <!-- Angular scripts -->
+    <script src="runtime.js" type="module"></script>
+    <script src="polyfills.js" type="module"></script>
+    <script src="main.js" type="module"></script>
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+
+    <meta name="theme-color" content="#CA261A" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="tap_postal_rates"
+      content="700,0.82,1.8,1.2,1.19,2.95,2.5,2.42,5.9"
+    />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="category" content="track" />
+    <meta name="phead" content="" />
+    <meta name="cattype" content="" />
+    <meta name="ptype" content="index" />
+    <meta name="subcategory" content="" />
+    <meta name="date.published" content="" />
+    <meta name="category_landing" content="" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="pta" content="" />
+    <meta name="adops" content="0" />
+    <meta name="segment" content="" />
+    <meta name="segmentid" content="" />
+    <meta name="sns" content="" />
+    <meta name="robots" content="index,follow" />
+    <meta name="dcterms.creator" content="Canada Post" />
+    <meta name="service_alerts" content="" />
+    <meta name="language" content="en" />
+    <meta name="obc_domain" />
+    <meta name="sso-username" />
+    <meta name="sso-groups" />
+    <meta name="sso-token" />
+    <meta name="sitekey" content="6LcNuYwaAAAAAJzTWsiwLRN5VuwBL0azUtS3xHFS" />
+    <meta name="eventName" content="trackweb-event" />
+    <meta name="cpwa" content="https://payment.canadapost.ca/payment" />
+    <meta name="referrer" content="origin">
+    <meta name="apple-itunes-app" content="app-id=394391577" />
+    <meta name="google-play-app" content="app-id=com.canadapost.android" />
+
+    <link
+      type="text/css"
+      href="/cpc/assets/cpc/css/lib/normalize.css"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      href="/cpc/assets/cpc/css/lib/foundation.css"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      href="/cpc/assets/cpc/css/cpc-main.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="/cwc/components/assets/styles/cpc-scp.cwc.css"
+    />
+
+    <script
+      type="text/javascript"
+      src="/cpc/assets/cpc/js/lib/modernizr.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/cpc/assets/cpc/js/lib/jquery.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/cpc/assets/cpc/js/lib/foundation.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://assets.adobedtm.com/8555ef77443acd85ab4eb6b187cf7ed7fe0f79eb/satelliteLib-f2fc6f00da802a0747b6ffed3c12e3931bfca496.js"
+    ></script>
+    <script>
+    (function () {
+      if (location.hash && location.hash.startsWith('#/')) {
+        // Remove "#"
+        var newPath = location.hash.substring(1);
+        // Build new clean URL
+        var newUrl = location.origin + location.pathname + newPath;
+        // Preserve query params outside the hash
+        if (location.search) {
+          if (newUrl.includes('?')) {
+            newUrl += '&' + location.search.substring(1);
+          } else {
+            newUrl += location.search;
+          }
+        }
+        location.replace(newUrl);
+      }
+    })();
+  </script>
+    <script>
+      var digitalData = {
+        page: {
+          pageInfo: {
+            audience: "personal" == "business" ? "business" : "common",
+            language: "en",
+            domain: document.location.host,
+            destinationURL: document.location.href,
+            destinationQueryString: document.location.search
+          },
+          category: {},
+          attributes: {
+            channel: {
+              site: document.location.host
+            },
+            externalCampaignID: "",
+            internalCampaignID: "",
+            language: "en",
+            internalSearch: {
+              term: ""
+            }
+          }
+        },
+        event: [
+          {
+            eventInfo: {}
+          }
+        ],
+        product: [
+          {
+            productInfo: {}
+          }
+        ],
+        cart: {},
+        transaction: {
+          item: [
+            {
+              productInfo: {},
+              price: {}
+            }
+          ],
+          profile: {
+            address: {}
+          },
+          total: {},
+          attributes: {}
+        },
+        user: [
+          {
+            profile: [
+              {
+                profileInfo: {},
+                attributes: {
+                  profileFAN: {}
+                }
+              }
+            ]
+          }
+        ]
+      };
+    </script>
+
+    <script type="text/javascript">
+      var _comscore = _comscore || [];
+      _comscore.push({
+        c1: "2",
+        c2: "6035946"
+      });
+      (function() {
+        var s = document.createElement("script"),
+          el = document.getElementsByTagName("script")[0];
+        s.async = true;
+        s.src =
+          (document.location.protocol == "https:" ? "https://sb" : "http://b") +
+          ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+      })();
+    </script>
+    <script type="text/javascript">
+      _bizo_data_partner_id = "9198";
+
+      var metaval = $("meta[name='sns']").attr("content");
+      if (metaval == "business") {
+        (function() {
+          var s = document.getElementsByTagName("script")[0];
+          var b = document.createElement("script");
+          b.type = "text/javascript";
+          b.async = true;
+          b.src =
+            (window.location.protocol === "https:"
+              ? "https://sjs"
+              : "http://js") + ".bizographics.com/insight.min.js";
+          s.parentNode.insertBefore(b, s);
+        })();
+      }
+    </script>
+    <script>
+      // Dependency that responsive-header.js has.
+      function getSearchTypeAheadAjaxPluginURL() {
+        return "/web/en/home/1408860991179.ajax";
+      }
+    </script>
+  
+    <script type="text/javascript">
+      jQuery.browser = {};
+      (function() {
+        jQuery.browser.msie = false;
+        jQuery.browser.version = 0;
+        if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+          jQuery.browser.msie = true;
+          jQuery.browser.version = RegExp.$1;
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div data-offcanvas="data-offcanvas" class="off-canvas-wrap">
+      <div class="inner-wrap">
+        <cpc-header
+          data-app-id="track_web"
+          data-skip-id="main-content"
+          class="cpc-component"
+          data-current-page="tools"
+        ></cpc-header>
+        <section id="main-content" tabindex="-1">
+          <div class="row">
+            <div class="large-12 columns">
+              <app-root>
+                <div id="loadingSpinner">
+                  <p><img src="assets/images/icons/spinner_reg.png" /></p>
+                </div>
+              </app-root>
+            </div>
+          </div>
+        </section>
+        <cpc-footer class="cpc-component"></cpc-footer>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      // This is because angular thinks skip to content anchor tag <a href="#track_package" class="skip-nav" target="_self"> is to a angular route  so we are adding this to prevent default behaviour and focus on the first element
+      $(document).ready(function(e) {
+        var giveUpCounter = 0;
+        var checkSkipNav = setInterval(function() {
+          if ($(".skip-nav").length) {
+            $(".skip-nav").on("click", function(event) {
+              event.preventDefault();
+              if (document.querySelector("#search_result") !== null) {
+                document.querySelector("#search_result").focus();
+              } else if (
+                document.querySelector("#search_result_list") !== null
+              ) {
+                document.querySelector("#search_result_list").focus();
+              } else if (document.querySelector("#search-package") !== null) {
+                document.querySelector("#search-package").focus();
+              }
+            });
+            clearInterval(checkSkipNav);
+          } else if (giveUpCounter > 99) {
+            clearInterval(checkSkipNav);
+          } else {
+            giveUpCounter += 1;
+          }
+        }, 100);
+      });
+    </script>
+    <script type="text/javascript">
+      if (typeof _satellite != "undefined") {
+        //_satellite.pageBottom();
+      }
+    </script>
+
+    <!--
+	<script type="text/javascript" src="/web/assets/js/foundation5/foundation.min.js"></script>
+	-->
+    <!-- TODO: remove if not required -->
+    <script
+      type="text/javascript"
+      src="/web/assets/js/jquery-ui.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/web/assets/js/components/language/toggle.js"
+    ></script>
+    <script type="text/javascript" src="/web/assets/js/function.js"></script>
+    <script
+      type="text/javascript"
+      src="/web/assets/js/components/header/responsive-header.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/web/assets/js/components/register/register.js"
+    ></script>
+    <script type="application/javascript" charset="UTF-8" src="/cwc/components/assets/scripts/cpc-scp.cwc.js"></script>
+    <script type="text/javascript" src="/cpotools/mc/ui/js/track.js"></script>
+  </body>
+</html>
