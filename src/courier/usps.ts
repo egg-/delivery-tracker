@@ -21,9 +21,11 @@ function trackingInfo(number: string): TrackingRequest {
   }
 }
 
-// The date cell comes in three shapes: "March 16, 2024,1:55 pm" (no space after the
-// second comma), "March 7, 2024,9:15 pm" (unpadded day) and "March 13, 2024" (no time).
-const DATE_FORMATS = ['MMMM D, YYYY,h:mm a', 'MMMM D, YYYY']
+// The date cell has appeared in several shapes over the years: "March 16, 2024,1:55 pm"
+// (no space after the second comma), "March 7, 2024,9:15 pm" (unpadded day),
+// "March 13, 2024" (no time) and, per #35, runs of whitespace in the middle of the
+// string. Whitespace is collapsed first, then these formats cover the rest.
+const DATE_FORMATS = ['MMMM D, YYYY, h:mm a', 'MMMM D, YYYY,h:mm a', 'MMMM D, YYYY']
 
 function toStatus(message: string): Checkpoint['status'] {
   if (message.includes('Delivered')) {
@@ -52,14 +54,9 @@ function parse(html: string): TraceResult {
         location: $el.find('.tb-location').text().trim(),
         message,
         status: toStatus(message),
-        time: dayjs(
-          $el
-            .find('.tb-date')
-            .text()
-            .trim()
-            .replace(/[\t\n]/g, ''),
-          DATE_FORMATS
-        ).format('YYYY-MM-DDTHH:mm')
+        time: dayjs($el.find('.tb-date').text().replace(/\s+/g, ' ').trim(), DATE_FORMATS).format(
+          'YYYY-MM-DDTHH:mm'
+        )
       }
     })
 
