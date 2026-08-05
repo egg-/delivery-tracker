@@ -27,6 +27,14 @@ Rewritten in TypeScript. This release is **breaking** — see the migration note
 * CLI: `-c/--courier` is now case-insensitive, as the original validation intended.
 
 ## Fixed
+* `canadapost` — the JSON endpoint now refuses requests that do not look like the tracking
+  page's own XHR, so every lookup came back `403 "you need a business account"`. The
+  courier loads the tracking page first and reuses that session, and sends the browser
+  agent and referer the page sends. Two further problems surfaced once real data came
+  back: events with no `locationAddr` (such as `Signature`) threw, and a parcel returned
+  to the shipper reported `Delivered` because the hand-back is recorded as a delivery —
+  `returnedToSender` is now honoured and maps to `Returned`. `Attempted` events map to
+  `FailAttempt` rather than `InTransit`.
 * `cjkoreaexpress` — CJ relabelled its final scan from `배달완료` to `배송완료` at some
   point after the 2020 recording, so completed deliveries were reported as `InTransit`
   and then aged into `Exception` after three days. Both spellings are now accepted, and a
