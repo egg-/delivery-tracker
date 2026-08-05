@@ -3,7 +3,9 @@
 Rewritten in TypeScript. This release is **breaking** — see the migration notes below.
 
 ## Breaking
-* **ESM only.** `require('delivery-tracker')` no longer works; use `import`.
+* **Published as ESM.** `import` is the supported form. `require()` still works on Node
+  versions that support requiring an ES module (verified on 20.20 and 22.17), but fails
+  with `ERR_REQUIRE_ESM` on older ones such as 20.10.
 * **`trace()` returns a promise** instead of taking a callback.
   * `courier.trace(number, cb)` → `await courier.trace(number)`
   * Failures now **reject** with a `TrackerError` (an `Error` subclass with `.code`),

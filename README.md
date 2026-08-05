@@ -69,8 +69,12 @@ reliable test is a real tracking number.
 
 ## Installation
 
-Requires Node.js 20 or later. The package is written in TypeScript, ships its own type
-declarations, and is **ESM only** — `require()` is not supported.
+Requires Node.js 20 or later. The package is written in TypeScript and ships its own type
+declarations.
+
+It is published as ESM, so `import` is the supported form. `require()` also works on Node
+versions that can require an ES module — confirmed on 20.20 and 22.17, while 20.10 fails
+with `ERR_REQUIRE_ESM`. Use `import` if you want it to work everywhere.
 
 ```sh
 $ npm install delivery-tracker
