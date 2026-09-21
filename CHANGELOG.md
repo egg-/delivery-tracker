@@ -1,3 +1,9 @@
+# 3.0.2
+
+## Fixed
+* `require('delivery-tracker/package.json')` threw `ERR_PACKAGE_PATH_NOT_EXPORTED`. The
+  `exports` map now lists it, as tools that read a dependency's version expect.
+
 # 3.0.1
 
 Courier repairs, found by asking the couriers themselves rather than replaying fixtures.

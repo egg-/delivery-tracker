@@ -1,6 +1,6 @@
 {
   "name": "delivery-tracker",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -11,7 +11,8 @@
     ".": {
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "types": "./dist/index.d.ts",
   "bin": {
