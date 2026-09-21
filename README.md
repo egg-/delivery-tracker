@@ -9,55 +9,63 @@ delivery-tracker is delivery tracking library for Node.js
 
 ## Courier List
 
-Status reflects an endpoint probe run on **2026-08-05** — see [Courier status](#courier-status).
+Status comes from `npm run probe`, last run on **2026-09-21** — see
+[Courier status](#courier-status).
 
-| Name                     | Contributor     | Link                                                        | Status         |
-| ------------------------ | --------------- | ----------------------------------------------------------- | -------------- |
-| Korea Post               | @egg-           | http://www.koreapost.go.kr/                                 | reachable      |
-| Australia Post           | @egg-           | https://auspost.com.au/                                     | **broken**     |
-| Pantos                   | @egg-           | http://www.epantos.com/                                     | reachable      |
-| Rincos                   | @egg-           | http://www.rincos.co.kr/                                    | **broken**     |
-| CJ Korea Express (Korea) | @egg-           | http://cjkoreaexpress.co.kr/ (https://www.doortodoor.co.kr) | **verified**   |
-| POS Laju                 | @egg-           | http://www.poslaju.com.my                                   | **broken**     |
-| EFS                      | @egg-           | http://efs.asia/                                            | reachable      |
-| TNT                      | @egg-           | https://www.tnt.com                                         | reachable      |
-| CESCO                    | @egg-           | https://www.cesco-logistics.com/                            | reachable      |
-| XPOST                    | @egg-           | https://www.xpost.ph/                                       | **broken**     |
-| SICEPAT                  | @egg-           | http://sicepat.com/                                         | needs API key  |
-| eParcel                  | @egg-           | https://eparcel.kr/                                         | reachable      |
-| LBC                      | @egg-           | https://www.lbcexpress.com/                                 | reachable      |
-| J&T (PH)                 | @egg-           | https://www.jtexpress.ph/                                   | reachable      |
-| DHL                      | @carstenschwede | https://www.dhl.com/                                        | needs API key  |
-| Canada Post              | @egg-           | https://www.canadapost-postescanada.ca/                     | **verified**   |
+| Name                     | Contributor     | Link                                                        | Status        |
+| ------------------------ | --------------- | ----------------------------------------------------------- | ------------- |
+| Korea Post               | @egg-           | http://www.koreapost.go.kr/                                 | answers       |
+| Australia Post           | @egg-           | https://auspost.com.au/                                     | **blocked**   |
+| Pantos                   | @egg-           | http://www.epantos.com/                                     | **verified**  |
+| Rincos                   | @egg-           | http://www.rincos.co.kr/                                    | answers       |
+| CJ Korea Express (Korea) | @egg-           | http://cjkoreaexpress.co.kr/ (https://www.doortodoor.co.kr) | **verified**  |
+| POS Laju                 | @egg-           | https://tracking.pos.com.my/                                | answers       |
+| EFS                      | @egg-           | http://efs.asia/                                            | answers       |
+| TNT                      | @egg-           | https://www.tnt.com                                         | answers       |
+| CESCO                    | @egg-           | https://www.cesco-logistics.com/                            | answers       |
+| XPOST                    | @egg-           | https://www.xpost.ph/                                       | answers       |
+| SICEPAT                  | @egg-           | http://sicepat.com/                                         | needs API key |
+| eParcel                  | @egg-           | https://eparcel.kr/                                         | answers       |
+| LBC                      | @egg-           | https://www.lbcexpress.com/                                 | answers       |
+| J&T (PH)                 | @egg-           | https://www.jtexpress.ph/                                   | **blocked**   |
+| DHL                      | @carstenschwede | https://www.dhl.com/                                        | needs API key |
+| Canada Post              | @egg-           | https://www.canadapost-postescanada.ca/                     | **verified**  |
 
 ## Courier status
 
-Most couriers here are HTML scrapers pointed at pages that have since been rewritten.
-The test suite replays responses recorded in `test/fixtures`, so **a green build says the
-parser still handles the recorded page — not that the courier still works.** Seven of the
-recordings date from 2017.
+Most couriers here are HTML scrapers pointed at pages that change without notice. The
+test suite replays responses recorded in `test/fixtures`, so **a green build says the
+parser still handles the recorded response — not that the courier still works.**
+
+`npm run probe` asks every courier about a number that does not exist and prints what
+came back, which is how the table above is filled in. It talks to the couriers, so it
+needs network access and is deliberately not part of `npm test`.
 
 Statuses, most to least trustworthy:
 
-* **verified** — traced end to end against a real shipment: `cjkoreaexpress` and
-  `canadapost`. Both were found broken this way and fixed.
-* **needs API key** — `dhl` answered `401` and `sicepat` `403` to a dummy key, which is
-  what a correctly wired client should get. Neither has been tried with a real key.
-* **reachable** — a probe with a dummy number got a response and no sign of blocking.
-  **This is weak evidence**: for the multi-step couriers (`pantos`, `jnt`, `lbc`) the
-  probe only reaches a landing page, and a page that answers `200` may still be an empty
-  shell that loads its data from somewhere else. Confirming any of these needs a real
-  tracking number.
-* **broken** — the host answers but the endpoint does not: `404` for `auspost`, `rincos`
-  and `xpost`, and `poslaju` now redirects to the pos.com.my home page. These are fixture
-  problems; re-record a live response into `test/fixtures/<code>-<number>` and adjust the
-  parser until the test passes.
+* **verified** — traced end to end against a real shipment: `cjkoreaexpress`,
+  `canadapost` and `pantos`. All three were found broken this way and fixed.
+* **needs API key** — `dhl` and `sicepat` reject a probe key with `REQUIRED_APIKEY`,
+  which is what a correctly wired client should get. Neither has been tried with a real
+  key.
+* **answers** — reachable, and it handles a number that does not exist: `koreapost`,
+  `rincos`, `poslaju`, `efs`, `tnt`, `cesco`, `xpost`, `eparcel` and `lbc`. That proves
+  the request still reaches a live endpoint and the response still parses. It does not
+  prove the populated page parses correctly — confirming that needs a real number.
+* **blocked** — the courier refuses automated clients. `auspost` withdrew the tracking
+  API this library used (every id now answers `404`) and put a bot challenge in front of
+  the one its own site calls; `jnt` moved its query behind a slider captcha. Both reject
+  with `SERVER_ERROR` and say so in the message. This library scrapes what a courier
+  serves to an ordinary client; where a courier has decided not to serve that, the answer
+  is its official API or a tracking aggregator, not a workaround.
 
-Ten couriers were dropped in 3.0.0. Five had a hostname that no longer resolves. Five —
-`usps`, `fedex`, `ups`, `paxel` and `royalmail` — refuse automated requests. This library
-scrapes what a courier serves to an ordinary client; where a courier has decided not to
-serve that, the answer is its official API or a tracking aggregator, not a workaround.
-The parsers remain in git history.
+Some couriers cannot tell an unknown number from a shipment they have not scanned yet —
+`cjkoreaexpress`, `efs`, `eparcel` and `lbc` answer both with `Pending` and an empty
+`checkpoints`. That is the library reporting "the courier has nothing for this number".
+
+Ten couriers were dropped in 3.0.0: five had a hostname that no longer resolves, and
+five — `usps`, `fedex`, `ups`, `paxel` and `royalmail` — refuse automated requests. Their
+parsers remain in git history.
 
 A note on how those were told apart, because it is easy to get wrong in both directions.
 A first request returning `200` proves very little. `ups` served a normal page and then
@@ -249,24 +257,24 @@ All three are named exports: `import { COURIER, STATUS, ERROR } from 'delivery-t
   ]
 }
 
-// FEDEX
+// POS LAJU
 {
   "courier": {
-    "code": "fedex",
-    "name": "FedEx"
+    "code": "poslaju",
+    "name": "POS Laju"
   },
-  "number": "DELIVEREDNUM",
+  "number": "EPXXXXXXXXXMY",
   "status": "Delivered",
   "checkpoints": [
     {
       "courier": {
-        "code": "fedex",
-        "name": "FedEx"
+        "code": "poslaju",
+        "name": "POS Laju"
       },
-      "location": "SOUTH JORDAN, UT",
-      "message": "Package delivered by U.S. Postal Service to addressee",
+      "location": "Pusat POS Laju Kepong",
+      "message": "We have delivered your parcel. Thank you!",
       "status": "Delivered",
-      "time": "2016-12-14T13:17:00-07:00"
+      "time": "2023-08-23T13:40:28"
     },
     // ...
   ]
@@ -278,18 +286,18 @@ All three are named exports: `import { COURIER, STATUS, ERROR } from 'delivery-t
     "code": "pantos",
     "name": "Pantos"
   },
-  "number": "DELIVEREDNUM-AUSPOST",
+  "number": "PKRXXXXXXXXX",
   "status": "Delivered",
   "checkpoints": [
     {
       "courier": {
-        "code": "auspost",
-        "name": "Australia Post"
+        "code": "pantos",
+        "name": "Pantos"
       },
-      "location": "Canning Vale, WA",
-      "message": "Delivered",
+      "location": "JAPAN",
+      "message": "Destination Delivery",
       "status": "Delivered",
-      "time": "2017-01-03T15:24:00+08:00"
+      "time": "2025-04-13T12:09"
     },
     // ...
     {
@@ -297,10 +305,10 @@ All three are named exports: `import { COURIER, STATUS, ERROR } from 'delivery-t
         "code": "pantos",
         "name": "Pantos"
       },
-      "location": "KRICN",
-      "message": "Pick-Up (Pick-Up)",
-      "status": "InfoReceived",
-      "time": "2016-12-20T11:25"
+      "location": "KOREA, REPUBLIC OF",
+      "message": "Label Created",
+      "status": "InTransit",
+      "time": "2025-04-08T11:55"
     }
   ]
 }
@@ -323,6 +331,7 @@ $ npm run typecheck   # tsc --noEmit, covers src and test
 $ npm run test:unit   # mocha only
 $ npm run test:watch
 $ npm run build       # emit dist/ (js + .d.ts)
+$ npm run probe       # ask every courier about a number that does not exist (network)
 ```
 
 Tests run straight off the TypeScript sources via `tsx`, and replay recorded responses

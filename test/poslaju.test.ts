@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict'
-import { COURIER, courier, STATUS } from '../src/index.js'
+import { COURIER, courier, ERROR, STATUS } from '../src/index.js'
 import prepare from './fixtures/prepare.js'
 
 const poslaju = courier(COURIER.POSLAJU.CODE)
@@ -7,12 +7,12 @@ const poslaju = courier(COURIER.POSLAJU.CODE)
 describe(COURIER.POSLAJU.NAME, () => {
   const intransitNumber = 'INTRANSIT'
   const deliveredNumber = 'DELIVERED'
-  const deliveredType2Number = 'DELIVERED-2'
+  const invalidNumber = 'INVALIDNUM'
 
   before(() => {
     prepare(poslaju, intransitNumber)
     prepare(poslaju, deliveredNumber)
-    prepare(poslaju, deliveredType2Number)
+    prepare(poslaju, invalidNumber)
   })
 
   it('intransit number', async () => {
@@ -20,6 +20,7 @@ describe(COURIER.POSLAJU.NAME, () => {
 
     assert.equal(result.number, intransitNumber)
     assert.equal(result.courier.code, COURIER.POSLAJU.CODE)
+    assert.equal(result.status, STATUS.EXCEPTION)
     assert.equal(result.checkpoints[0]?.status, STATUS.IN_TRANSIT)
   })
 
@@ -29,13 +30,13 @@ describe(COURIER.POSLAJU.NAME, () => {
     assert.equal(result.number, deliveredNumber)
     assert.equal(result.courier.code, COURIER.POSLAJU.CODE)
     assert.equal(result.status, STATUS.DELIVERED)
+    assert.equal(result.checkpoints.at(-1)?.status, STATUS.INFO_RECEIVED)
   })
 
-  it('delivered type 2 number', async () => {
-    const result = await poslaju.trace(deliveredType2Number)
-
-    assert.equal(result.number, deliveredType2Number)
-    assert.equal(result.courier.code, COURIER.POSLAJU.CODE)
-    assert.equal(result.status, STATUS.DELIVERED)
+  it('invalid number', async () => {
+    await assert.rejects(poslaju.trace(invalidNumber), {
+      name: 'TrackerError',
+      code: ERROR.INVALID_NUMBER
+    })
   })
 })

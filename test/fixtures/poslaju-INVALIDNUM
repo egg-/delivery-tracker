@@ -1,0 +1,32 @@
+{
+  "code": "S0000",
+  "message": "Success",
+  "data": [
+    {
+      "connote_id": "INVALIDNUM",
+      "sender_data": {
+        "sender_postcode": "",
+        "sender_state": "",
+        "sender_city": "",
+        "sender_country": "",
+        "sender_phone": ""
+      },
+      "recipient_data": {
+        "receipient_postcode": "",
+        "receipient_state": "",
+        "receipient_city": "",
+        "receipient_country": "",
+        "receipient_phone": ""
+      },
+      "process_status": "",
+      "eta_data": {
+        "summary": "",
+        "day": "",
+        "date": "",
+        "upper_eta": "",
+        "lower_eta": ""
+      },
+      "tracking_data": null
+    }
+  ]
+}

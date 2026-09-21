@@ -3,13 +3,15 @@ import {
   COURIER,
   type Courier,
   createCourier,
+  ERROR,
   normalizeStatus,
   STATUS,
   type TraceResult,
-  type TrackingRequest
+  type TrackingRequest,
+  trackerError
 } from '../core.js'
 import dayjs from '../dayjs.js'
-import { parseJson, request } from '../http.js'
+import { ensureOk, parseJson, request } from '../http.js'
 
 const REF = { code: COURIER.XPOST.CODE, name: COURIER.XPOST.NAME }
 
@@ -64,8 +66,15 @@ export default function xpost(): Courier {
   return createCourier(COURIER.XPOST, {
     trackingInfo,
     async trace(number: string): Promise<TraceResult> {
-      const response = await request(trackingInfo(number))
-      return parse(parseJson<Response>(response))
+      // An unknown number answers 404 with a JSON body, which the parser would
+      // otherwise read as a shipment with no number and no events.
+      const response = ensureOk(await request(trackingInfo(number)))
+      const body = parseJson<Response>(response)
+
+      if (!body.tracking_number) {
+        throw trackerError(ERROR.INVALID_NUMBER)
+      }
+      return parse(body)
     }
   })
 }

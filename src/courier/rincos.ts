@@ -16,67 +16,74 @@ import { load } from '../scrape.js'
 
 const REF = { code: COURIER.RINCOS.CODE, name: COURIER.RINCOS.NAME }
 
-const INFO_RECEIVED = /Picked Up/i
+const INFO_RECEIVED = /Picked Up|Order received/i
 const DELIVERED =
   /SUCCEED RECEIVED BY|Delivered|RELEASED TO REPRESENTATIVE|FINAL DELIVERY|DELIVERD/i
+const NOT_FOUND = /No tracking information found/i
 
-/** The checkpoint table starts after three header rows. */
-const HEADER_ROWS = 3
+/** The result page prints one date column; these are the forms seen on it. */
+const TIME_FORMATS = [
+  'YYYY-MM-DD HH:mm:ss',
+  'YYYY-MM-DD HH:mm',
+  'YYYY.MM.DD HH:mm:ss',
+  'YYYY.MM.DD HH:mm'
+]
 
 function trackingInfo(number: string): TrackingRequest {
   return {
     method: 'POST',
-    url: 'http://www.rincos.co.kr/tracking/tracking_web.asp',
+    url: 'http://www.rincos.co.kr/tracking/TrackingInfo?lang=en',
     data: {
-      invoice: number
+      schTrackings: number
     }
   }
 }
 
-function parse(html: string): TraceResult {
+function toStatus(message: string): Checkpoint['status'] {
+  if (DELIVERED.test(message)) {
+    return STATUS.DELIVERED
+  }
+  if (INFO_RECEIVED.test(message)) {
+    return STATUS.INFO_RECEIVED
+  }
+  return STATUS.IN_TRANSIT
+}
+
+function parse(html: string, number: string): TraceResult {
   const $ = load(html)
 
-  const infoTable = $('div.border > table > tr').eq(1).find('> td > table')
-  const summary = infoTable.eq(0).find('tr').eq(1).find('> td')
-  const number = summary.eq(2).text().trim()
-
-  if (!number) {
+  if (NOT_FOUND.test($('table').text())) {
     throw trackerError(ERROR.INVALID_NUMBER)
   }
 
+  // Both the ORIGIN and DESTINATION tables lead with Date, Status and Location; ORIGIN
+  // carries a fourth Remark column.
   const checkpoints: Checkpoint[] = []
-  const rows = infoTable.eq(1).find('> tr').toArray()
-
-  for (let i = HEADER_ROWS; i < rows.length; i++) {
-    const cols = $(rows[i]).find('> td')
-    if (cols.length === 1) {
+  for (const row of $('.black_tbl .list-tbl table tbody tr').toArray()) {
+    const cols = $(row).find('td')
+    if (cols.length < 3) {
       continue
     }
 
-    const message = cols.eq(6).text().trim()
-
-    let status: Checkpoint['status'] = STATUS.IN_TRANSIT
-    if (INFO_RECEIVED.test(message)) {
-      status = STATUS.INFO_RECEIVED
-    } else if (DELIVERED.test(message)) {
-      status = STATUS.DELIVERED
-    }
+    const message = [cols.eq(1).text().trim(), cols.eq(3).text().trim()].filter(Boolean).join(' - ')
 
     checkpoints.push({
       courier: REF,
-      location: cols.eq(4).text().trim(),
+      location: cols.eq(2).text().trim(),
       message,
-      status,
-      time: dayjs(
-        [cols.eq(0).text().trim(), cols.eq(2).text().trim()].join(' '),
-        'YYYY.MM.DD HH:mm'
-      ).format('YYYY-MM-DDTHH:mm')
+      status: toStatus(message),
+      time: dayjs(cols.eq(0).text().trim(), TIME_FORMATS).format('YYYY-MM-DDTHH:mm')
     })
   }
 
   checkpoints.reverse()
 
-  return { courier: REF, number, status: normalizeStatus(checkpoints), checkpoints }
+  return {
+    courier: REF,
+    number: $('td.lef').first().text().trim() || number,
+    status: normalizeStatus(checkpoints),
+    checkpoints
+  }
 }
 
 export default function rincos(): Courier {
@@ -85,7 +92,7 @@ export default function rincos(): Courier {
     async trace(number: string): Promise<TraceResult> {
       const info = trackingInfo(number)
       const response = await request({ ...info, form: info.data })
-      return parse(response.body)
+      return parse(response.body, number)
     }
   })
 }

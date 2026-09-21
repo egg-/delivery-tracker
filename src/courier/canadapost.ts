@@ -3,14 +3,16 @@ import {
   COURIER,
   type Courier,
   createCourier,
+  ERROR,
   normalizeStatus,
   STATUS,
   type TraceResult,
   type TrackingInfo,
-  type TrackingRequest
+  type TrackingRequest,
+  trackerError
 } from '../core.js'
 import dayjs from '../dayjs.js'
-import { createSession, parseJson } from '../http.js'
+import { createSession, ensureOk, parseJson } from '../http.js'
 
 const REF = { code: COURIER.CANADAPOST.CODE, name: COURIER.CANADAPOST.NAME }
 
@@ -109,9 +111,14 @@ export default function canadapost(): Courier {
       if (page) {
         await session(page)
       }
-      const response = await session(tracking.detail as TrackingRequest)
+      // An unknown pin answers 400, which the parser would otherwise walk into.
+      const response = ensureOk(await session(tracking.detail as TrackingRequest))
+      const body = parseJson<Response>(response)
 
-      return parse(parseJson<Response>(response))
+      if (!body.events) {
+        throw trackerError(ERROR.INVALID_NUMBER)
+      }
+      return parse(body)
     }
   })
 }

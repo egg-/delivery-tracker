@@ -13,16 +13,16 @@ export default function prepare(courier: Courier, number: string): void {
   const info = courier.trackingInfo(number)
 
   if (isRequest(info)) {
-    prepareNock(info, `${courier.code}-${number}`)
+    prepareNock(info, `${courier.code}-${number}`, number)
     return
   }
 
   for (const [step, value] of Object.entries(info)) {
     const filename = `${courier.code}-${number}-${step}`
     if (typeof value === 'function') {
-      prepareNock((value as TrackingRequestFactory)(), filename)
+      prepareNock((value as TrackingRequestFactory)(), filename, number)
     } else if (isRequest(value)) {
-      prepareNock(value, filename)
+      prepareNock(value, filename, number)
     }
   }
 }

@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict'
-import { COURIER, courier, STATUS } from '../src/index.js'
+import { COURIER, courier, ERROR, STATUS } from '../src/index.js'
 import prepare from './fixtures/prepare.js'
 
 const pantos = courier(COURIER.PANTOS.CODE)
@@ -9,10 +9,19 @@ describe(COURIER.PANTOS.NAME, () => {
   // A shipment Pantos handed to UPS. UPS is no longer supported, so the handover is
   // skipped and only Pantos's own checkpoints come back.
   const handedOverNum = 'DELIVEREDUPS'
+  const invalidNumber = 'INVALIDNUM'
 
   before(() => {
     prepare(pantos, deliveredNum)
     prepare(pantos, handedOverNum)
+    prepare(pantos, invalidNumber)
+  })
+
+  it('invalid number', async () => {
+    await assert.rejects(pantos.trace(invalidNumber), {
+      name: 'TrackerError',
+      code: ERROR.INVALID_NUMBER
+    })
   })
 
   it('delivered number', async () => {

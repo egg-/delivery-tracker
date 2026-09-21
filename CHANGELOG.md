@@ -1,3 +1,57 @@
+# 3.0.1
+
+Courier repairs, found by asking the couriers themselves rather than replaying fixtures.
+`npm run probe` does that, and fills in the README's status table.
+
+Before this release six of the sixteen couriers failed with an internal error — a
+`TypeError` from the parser, a `JSON.parse` message, or a bare `Unauthorized`. Two more
+reported "invalid number" from an endpoint that had moved, and one returned a result with
+`number: undefined` for a parcel that does not exist. Fourteen now answer; the two that
+do not are blocked by the courier and say so.
+
+## Fixed
+* `pantos` — the `.dev` endpoints it called answer `404`; tracking moved to
+  `/eCommerce/action/portal.TrackingPopup.*`, which takes JSON and wraps its payload in
+  `body`. Verified end to end against a real consignment. A handover to a courier that
+  cannot be traced no longer loses Pantos's own checkpoints.
+* `poslaju` — `poslaju.com.my/track-trace-v2/` is now the Pos Malaysia website; tracking
+  moved to `ttu-svc.pos.com.my/api/trackandtrace/v1/request`. Rewritten against it.
+* `rincos` — `tracking_web.asp` answers `404`; the form now posts `schTrackings` to
+  `/tracking/TrackingInfo`. Rewritten against the current page. Its ORIGIN and
+  DESTINATION tables are parsed by the column headers the page itself prints; only the
+  "no tracking information" path could be verified against the live site.
+* `xpost` — an unknown number answers `404` with a JSON body, which was parsed as a
+  result: callers got `number: undefined` and `Pending` instead of an error.
+* `canadapost` — an unknown pin answers `400`, which threw `TypeError: Cannot read
+  properties of undefined`.
+* `cesco` — "AIRWAYBILL NOT FOUND" was read as a shipment with no checkpoints.
+* `dhl` and `sicepat` — a rejected API key answered `UNKNOWN`/`Unauthorized`, or a JSON
+  syntax error from an HTML error page. Both now reject with `REQUIRED_APIKEY`.
+* `auspost` and `jnt` — both now refuse automated clients (a bot challenge and a slider
+  captcha). They reject with `SERVER_ERROR` naming the reason, instead of failing inside
+  the parser. Nothing here works around either; see the README.
+* Non-2xx responses and non-JSON bodies are turned into a `TrackerError` with a usable
+  code (`ensureOk`, exported), rather than surfacing as a `TypeError` or a `JSON.parse`
+  message. `parseJson` no longer lets a syntax error escape, which its own comment had
+  claimed since 3.0.0.
+* CLI: a failed lookup printed the whole stack trace into `node_modules`. It now prints
+  the message and the error code (`invalid trace number. (code 10)`), and still exits 1.
+* Test fixtures are matched by the tracking number in the request body, not by URL alone.
+  Couriers that post every number to one URL were being handed whichever fixture was
+  registered first, so the order of the `it()` blocks decided which response a test saw.
+
+## Added
+* `npm run probe [code...]` — asks every courier about a number that does not exist and
+  prints what came back. It needs network access and is not part of `npm test`.
+* `CHANGELOG.md` ships in the package; only the README did before.
+
+## Notes
+* Unchanged: `cjkoreaexpress`, `efs`, `eparcel` and `lbc` answer an unknown number with
+  `Pending` and no checkpoints, because their responses do not distinguish it from a
+  shipment that has not been scanned yet.
+* 3.0.0 was published to npm under the `next` tag on 2026-08-05 and is unchanged by this
+  release.
+
 # 3.0.0
 
 Rewritten in TypeScript. This release is **breaking** — see the migration notes below.

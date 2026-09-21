@@ -11,72 +11,94 @@ import {
   trackerError
 } from '../core.js'
 import dayjs from '../dayjs.js'
-import { request } from '../http.js'
-import { load } from '../scrape.js'
+import { parseJson, request } from '../http.js'
 
 const REF = { code: COURIER.POSLAJU.CODE, name: COURIER.POSLAJU.NAME }
 
-// The page echoes the number in a textarea and ships the checkpoint table as a JS string.
-const NUMBER_PATTERN = /id="trackingNo03".*>(.*)<\/textarea>/
-const TABLE_PATTERN = /var strTD =\s+"(.*)";/
+const DELIVERED = /Delivery completed|Delivered/i
+const RETURNED = /Return/i
+const FAIL_ATTEMPT = /Unsuccessful|Failed delivery|Attempted/i
+const INFO_RECEIVED = /Collected|Item posted/i
+
+interface Event {
+  date: string
+  process: string
+  process_summary: string
+  office: string
+}
+
+interface Shipment {
+  connote_id: string
+  process_status?: string
+  tracking_data: Event[] | null
+}
+
+interface Response {
+  code: string
+  message?: string
+  data?: Shipment[]
+}
 
 function trackingInfo(number: string): TrackingRequest {
   return {
     method: 'POST',
-    url: 'http://www.poslaju.com.my/track-trace-v2/',
-    data: {
-      trackingNo03: number
-    }
+    url: 'https://ttu-svc.pos.com.my/api/trackandtrace/v1/request',
+    json: true,
+    body: { connote_ids: [number], culture: 'en' }
   }
 }
 
-function toStatus(message: string): Checkpoint['status'] {
-  if (message.includes('successfully delivered') || message.includes('delivered to')) {
+function toStatus(summary: string): Checkpoint['status'] {
+  if (DELIVERED.test(summary)) {
     return STATUS.DELIVERED
   }
-  if (message.includes('Unsuccessful delivery')) {
-    return STATUS.EXCEPTION
+  if (RETURNED.test(summary)) {
+    return STATUS.RETURNED
   }
-  if (message.includes('Item posted over the counter')) {
+  if (FAIL_ATTEMPT.test(summary)) {
+    return STATUS.FAIL_ATTEMPT
+  }
+  if (INFO_RECEIVED.test(summary)) {
     return STATUS.INFO_RECEIVED
   }
   return STATUS.IN_TRANSIT
 }
 
-function parse(html: string): TraceResult {
-  const number = html.match(NUMBER_PATTERN)?.[1]
-  const table = html.match(TABLE_PATTERN)?.[1]
+function parse(body: Response, number: string): TraceResult {
+  const shipment = body.data?.[0]
 
-  if (number === undefined || table === undefined) {
+  // An unknown or expired number answers with the shipment envelope and no events.
+  if (!shipment?.tracking_data?.length) {
     throw trackerError(ERROR.INVALID_NUMBER)
   }
 
-  const $ = load(table)
-  const checkpoints: Checkpoint[] = $('tbody > tr')
-    .toArray()
-    .map((row) => {
-      const cols = $(row).find('> td')
-      const message = cols.eq(1).text().trim()
+  const checkpoints: Checkpoint[] = shipment.tracking_data.map((event) => ({
+    courier: REF,
+    location: event.office.trim(),
+    message: event.process.trim(),
+    status: toStatus(`${event.process_summary} ${event.process}`),
+    time: dayjs(event.date.trim(), 'DD MMM YYYY, hh:mm:ss A').format('YYYY-MM-DDTHH:mm:ss')
+  }))
 
-      return {
-        courier: REF,
-        location: cols.eq(2).text().trim(),
-        message,
-        status: toStatus(message),
-        time: dayjs(cols.eq(0).text().trim(), 'DD MMM YYYY, HH:mm:ss').format('YYYY-MM-DDTHH:mm:ss')
-      }
-    })
-
-  return { courier: REF, number, status: normalizeStatus(checkpoints), checkpoints }
+  return {
+    courier: REF,
+    number: shipment.connote_id || number,
+    status: normalizeStatus(checkpoints),
+    checkpoints
+  }
 }
 
 export default function poslaju(): Courier {
   return createCourier(COURIER.POSLAJU, {
     trackingInfo,
     async trace(number: string): Promise<TraceResult> {
-      const info = trackingInfo(number)
-      const response = await request({ ...info, form: info.data })
-      return parse(response.body)
+      const response = await request(trackingInfo(number))
+      const body = parseJson<Response>(response)
+
+      if (body.code !== 'S0000') {
+        throw trackerError(ERROR.SERVER_ERROR, body.message ?? body.code)
+      }
+      return parse(body, number)
     }
   })
 }

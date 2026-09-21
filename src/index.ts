@@ -26,7 +26,7 @@ import xpost from './courier/xpost.js'
 
 export * from './core.js'
 export type { HttpResponse } from './http.js'
-export { CookieJar, createSession, parseJson, request } from './http.js'
+export { CookieJar, createSession, ensureOk, parseJson, request } from './http.js'
 
 const FACTORIES = {
   [COURIER.AUSPOST.CODE]: auspost,

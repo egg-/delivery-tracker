@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>	
+	<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache; no-store; no-save">
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<script type="text/javascript">
+	
+
+	var xfn_nvl = function(pVal){ return (pVal == null || pVal == '')?'{}':pVal; }
+
+	var decodeXSS = function(json){
+        for(key in json) {
+            var value = String(json[key]);
+            json[key] = Array(value.replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&#39;/g,"'").replace(/&#40;/g,"(").replace(/&#41;/g,")"));
+        }
+
+        return json;
+    }
+
+    var GFN_PAGE_TITLE = JSON.parse(xfn_nvl(''));
+    var GFN_CONTEXT_INFO = JSON.parse(xfn_nvl(''));
+    var GFN_PARAM_INFO = decodeXSS(JSON.parse(xfn_nvl('{"param":["null"]}')));
+
+</script>
+
+<script type="text/javascript" src="/static/ext/js/sys/libs/jquery/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/jquery-ui/jquery-ui.min-1.13.2.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/jquery.validation/dist/jquery.validate.min-1.19.5.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/moment/moment-with-locales.min-2.30.1.js"></script>
+<!-- <script type="text/javascript" src="/static/ext/js/sys/libs/realgrid/realgridjs-lic.js?version=20230101"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/realgrid/realgridjs.min.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/realgrid/realgridjs-api.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/realgrid/realgridjs-theme.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/realgrid/jszip.min.js"></script>
+ -->
+
+<script type="text/javascript" src="/static/ext/js/sys/libs/jquery.mousewheel/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/jquery.scrollbar/jquery.custom.scrollbar.min.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/jquery.bxslider/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/jquery.print/jQuery.print.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/jquery.base64/jquery.base64.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/inputmask/dist/jquery.inputmask.bundle.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/jquery-cookie/src/jquery.cookie.js"></script>
+
+<script type="text/javascript" src="/static/ext/js/sys/libs/select2/select2.full.min.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/lodash/lodash.min.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/voca/voca.min.js"></script>
+
+<script type="text/javascript" src="/static/ext/js/sys/libs/jquery.syntax/jquery.syntax.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/libs/jquery.syntax/jquery.syntax.cache.js"></script>
+
+<script type="text/javascript" src="/static/ext/js/sys/dist/prd/ec-components-bundle.js"></script>
+<script type="text/javascript" src="/static/ext/js/sys/dist/prd/ec-utils-bundle.js"></script>
+
+<script type="text/javascript" src="/static/ext/js/com/cm-common.js"/></script>
+
+<script type="text/javascript" src="/static/ext/js/ecp/ec-config.js"/></script>
+<script type="text/javascript" src="/static/ext/js/ecp/web/freewall.js"/></script>
+<script type="text/javascript" src="/static/ext/js/ecp/web/ui.common.before.js"/></script>
+<script type="text/javascript" src="/static/ext/js/ecp/ep-mobile.js"/></script>
+<script type="text/javascript" src="/static/ext/js/ecp/ep-common.js"/></script>
+<script type="text/javascript" src="/static/ext/js/ecp/ep-popup.js"/></script>
+<script type="text/javascript" src="/static/ext/js/ecp/session.js"/></script>
+
+<link rel="stylesheet" href="/static/ext/css/ecp/web/before_common.css?version=2025042200001" />
+
+<script type="text/javascript">
+	var languageType = $.cookie('languageType');
+
+    (function($, global) {
+    	var url = window.location.href;
+    	var hostname = window.location.hostname;
+    	if ( url.indexOf("trackingPopup") > -1 || url.indexOf("dlvChaseInqPopup") > -1 ) {
+
+    		if(!hostname.startsWith("localhost")){
+	    		if (window.location.protocol == 'http:') {
+	    	    	location.replace(url.replace("http:", "https:"));
+	    	    }
+    		}
+    	}
+
+    	
+        /* sfnSetSessionInfo(GFN_SESSION_LIST); */
+
+        $(document).ready(function() {
+
+	    	var setMenu = function(lang){
+	           var menuUrl = "/static/ext/json/ecp/web-menu-"+lang+".json";
+	           $.ajax({
+					url: menuUrl,
+					data: {},
+					dataType: 'json',
+					success: function(data) {
+						buildUL(data);
+					},
+					error: function(xhr, status, error) {
+						console.log(error);
+					}
+				});
+	    	}
+	    	var changePath = function(lang){
+	     		var pathname = window.location.pathname; 
+	        	var path = pathname.substr(0, (pathname.lastIndexOf('/') +1) );
+	        	var orgFileName  = pathname.split('/').pop().split('.').shift();
+	        	var fileName =  orgFileName.substr(0, (orgFileName.lastIndexOf('-') ) );
+	        	var langFileName = '';
+
+	        	if ( lang== undefined || lang=='') {			
+	        		lang = "en";
+	        		langFileName = fileName+'-'+lang;		
+	        	}
+
+	        	setMenu(lang);
+
+	        	if(lang=='ko'){											
+	        		if(orgFileName.lastIndexOf('-')!=-1){	
+	        			langFileName = fileName;					
+	        		}else{
+	        			if(lang=='ko'){
+	        				langFileName = orgFileName;		
+	        			}
+	        		}
+	        	}else{															
+	        		if(orgFileName.lastIndexOf('-')!=-1){
+	        			langFileName = fileName+'-'+lang;	
+	        		}else{
+	        			langFileName = orgFileName+'-'+lang;	
+	        		}
+	        	}
+	        	if(pathname.lastIndexOf('system')!=-1){
+		        	if(orgFileName != langFileName && langFileName !=""){
+		        		var langUrl = path + langFileName +'.do';
+		    			window.location.href=langUrl;		
+		        	}
+	    		}
+	     	}
+
+	    	if(_.isUndefined($.cookie('languageType'))){
+	    		languageType = 'en';
+	    	}else{
+	    		languageType = $.cookie('languageType');
+	    	}
+
+	    	
+	    	changeLang = function (lang) {
+	    		if ( languageType != lang ) {
+	    			$.cookie('languageType', lang,  { path : '/' });
+		    		changePath(lang);
+	        		var pathname = window.location.pathname;		
+	        		if( pathname.lastIndexOf('/pr/') > -1 ) {
+	        			location.reload();
+	        		}
+	    		}
+	        };
+
+
+	        changePath(languageType);
+
+	    	var buildUL = function (data) {
+	    		var menu = $("#uiNavGnb > ul");
+	        	menu.empty();
+	        	_.each(data,function(item){
+	        		var li = $("<li><a href="+item.url+">" + item.menuName + "</a></li>");
+	                li.appendTo(menu);
+	                if(_.isObject(item.subMenu)){
+	                	var ul = $("<ul></ul>");
+	                	ul.appendTo(li);
+	                	_.each(item.subMenu,function(sub){
+	                		var sli = $("<li><a href="+sub.url+">" + sub.menuName + "</a></li>");
+	                		sli.appendTo(ul);
+	                	});
+	                }
+	        	});
+	        	ui.navGnb();
+	    	}
+
+	    	
+	    	$('#btnContactUs').click(function(){
+	    		var currUrl = location.href;
+	    		if ( currUrl.indexOf("contactInfo") > -1 ) {
+	    			return;
+	    		}
+	    		var trankingUrl = '/web/cm/system/contactInfo.do';
+	    		if ( languageType != undefined && languageType != '' && languageType != 'ko' ) {
+	    			trankingUrl = '/web/cm/system/contactInfo-'+languageType+'.do';
+	    		}
+	    		location.href = trankingUrl;
+	     	});
+
+		});
+    })(jQuery, window);
+
+
+</script>
+
+<style>
+	#imgOuter { display:table; }
+	#imgLayer {
+		display:table-cell;
+		text-align:center;
+		vertical-align:middle;
+		line-height:0;
+		width:300px;
+		height:300px;
+		border:1px solid #222222;
+		overflow:hidden;
+	}
+	#txtOuter { display:table; }
+	#txtLayer {
+		display:table-cell;
+		text-align:center;
+		vertical-align:middle;
+		line-height:0;
+		width:300px;
+		height:300px;
+		border:1px solid #222222;
+		overflow:hidden;
+	}
+	textarea {
+		text-transform : uppercase;
+	}
+</style>
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+</head>
+<body onLoad="f_OnLoad()">
+	
+<div id="wrapper" class="page-search">
+	<div id="container">
+		<div class="wrap-content">
+			<!-- ## layout : 본문영역 : 주요컨텐츠 ######################################## -->
+			<div id="content">
+				<!-- ## 컨텐츠섹션1  : 검색폼 ## -->
+				<fieldset class="section form-search2">
+					<legend>Tracking</legend>
+					<h1 class="headline">Tracking</h1>
+					<p>Enter up to 30 tracking numbers.<br/>Press ‘Enter’ to seperate. (one per line)</p>
+					
+					<div class="form">
+						<textarea rows="5" cols="70" class="textarea" id="quickNo"></textarea>
+						<button type="button" id="btnChaseSrch">Search</button>
+					</div>
+				</fieldset>
+
+				<!-- ## 컨텐츠섹션2  : 검색결과 ## -->
+				<div class="section" id="uiSectionResult">
+					<!-- # 범례 ################################################################# -->
+					<dl class="info-label">
+						<dt>Legend</dt>
+						<dd>
+							<ul>
+								<li>
+									<span>Delivered</span>
+									<span class="icon-state1 ic7"></span>
+								</li>
+								<li>
+									<span>Exception</span>
+									<span class="icon-state1 ic6"></span>
+								</li>
+								<li>
+									<span>In transit</span>
+									<span class="icon-state1 ic2"></span>
+									<span class="icon-state1 ic3"></span>
+									<span class="icon-state1 ic4"></span>
+									<span class="icon-state1 ic5"></span>
+								</li>
+								
+								<li>
+									<span>Customs</span>
+									<span class="icon-state1 ic8"></span>
+								</li>
+								<li>
+									<span><font color="red" size="3">下のDomestic＃をクリックすると、日本国内配送の追跡サービスをご確認頂けます。※日本での配送が開始されましたら反映可能です。<br>For tracking details, please click below</font></span><!-- [CSR ID:3874545] Tracknig 화면 변경 요청 건-->
+								</li>
+							</ul>
+						</dd>
+					</dl>
+
+					<!-- # 결과목록 case2 : 검색결과 있는경우 ######################################### -->
+					
+					<div class="tbl-data1 data-search" data-tbl-toggle="true">
+						<ul>
+							<li id="chaseBody">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+	
+<script type="text/javascript" src='/static/ext/js/ecp/web/pr/dt/dlvChaseInq.js?version=20260050802206'></script>
+<script type="text/javascript" language="javascript">
+	var chaseCnt = 0;
+	var quickNo;
+	var locale;
+    var LOCALECD = "";
+
+	(function($, global){
+		$(document).ready(function() {
+			//화면 복사 방지
+			//2024.01.08 주석처리된 부분으로 XSS 미적용되어, 주석 삭제
+
+ 			//2019.04.27 EC 모의해킹 관련 방어로직 수정
+ 			quickNo = getParam(GFN_PARAM_INFO.quickNo);
+			locale = getParam(GFN_PARAM_INFO.locale);
+
+			getParam(GFN_PARAM_INFO.quickNo);
+
+			if ( !cfIsNull(locale) ) {
+				LOCALECD = locale;
+			} else {
+				LOCALECD = 'en';
+			}
+
+			$("#btnChaseSrch").click(listeners.onChaseSrchClick);
+			$('#quickNo').keyup( function() {
+				var quickNoLength = $.trim($(this).val()).split("\n").length;
+				var allowedNumberOfLines = 30;
+				if ( quickNoLength > allowedNumberOfLines ) {
+					var modifiedText = $.trim($(this).val()).split("\n").slice(0, allowedNumberOfLines);
+					$(this).val(modifiedText.join("\n"));
+				}
+			/* }).focusin(function() {
+				document.oncontextmenu = null;
+				document.ondragstart = null;
+				document.onselectstart = null;
+			}).focusout(function() {
+				document.oncontextmenu = new Function ('return false');
+				document.ondragstart = new Function ('return false');
+				document.onselectstart = new Function ('return false');
+			}).blur(function() {
+				document.oncontextmenu = new Function ('return false');
+				document.ondragstart = new Function ('return false');
+				document.onselectstart = new Function ('return false'); */
+			});
+			fnInitChase();
+		});
+
+		var listeners = {
+			onChaseSrchClick : function() {
+				fnGetChaseList();
+			}
+		}
+
+	})(jQuery, window);
+
+	function fnInitChase() {
+		if ( !cfIsNull(quickNo) ) {
+			quickNo = quickNo.replace(/\n/g, "");
+			$('#quickNo').val(quickNo);
+			fnGetChaseList();//[CSR ID:3791069] 이판토스 Tracking Search를 누르지 않고 조회 가능 하도록 반영 요청
+		}
+	}
+
+	//배송추적목록조회
+	function fnGetChaseList() {
+		//var dataUrl = '/pr/dt/dlvchaseinq/retreiveDlvChaseList.dev';
+		var dataUrl = '/eCommerce/action/portal.TrackingPopup.retreiveTrackingList';
+		var quickNoArr = new Array();
+
+		
+
+		if ( cfIsNull($.trim($('#quickNo').val())) ) {
+			cfAlert('Required Input : [Inquiry No]');
+			return;
+		}
+		var quickNo = $.trim($('#quickNo').val().toUpperCase());
+		var quickNoList = quickNo.split("\n").join(',');
+
+		var inputData = {
+					quickNo  : quickNoList
+			      , locale : LOCALECD
+				  //, pageToken : $("#pageToken").val()
+			};
+
+		$("#chaseBody").html("");
+        $.ajax({
+			url : dataUrl,
+			data : JSON.stringify(inputData), // inputData,
+            method : 'post',
+            dataType: 'json',
+            contentType: 'application/json; charset=utf-8',
+			async : false,
+			success : function(data) {
+				if( data ){
+// 					if( data.header ){
+					if( data.body ){
+						var rtnData = data.body;
+						if( rtnData['result'] && rtnData['result'].RESULT_CD != "0" ){
+							cfAlert(rtnData['result'].RESULT_MSG);
+							return;
+						}
+						chaseCnt = rtnData["list"].length;
+						if( rtnData["list"].length > 0 ){
+							for ( var i = 0; i < chaseCnt; i++ ) {
+								var chaseInfo = rtnData["list"][i];
+								fnAddChaseList(chaseInfo, i);
+							}
+						} else {
+							cfAlert('If you can not track the delivery, please contact the vendor.');
+							var chaseTr ="";
+							//chaseTr +="<tr>";
+							//chaseTr +="<td colspan=\"7\" class=\"nodata\"><ece:ez>gsi.msg.cm.noDataFound</ece:ez></td>";
+							//chaseTr +="</tr>";
+							$("#chaseBody").html(chaseTr);
+						}
+					}
+				}
+			}
+		});
+	}
+
+	//배송추적상세조회
+	function fnChaseDetail( hblNo, mblNo, expsBizTypeCd, carrSprCd, wmDomCarr, iframeAddrUrl, chaseId1, chaseId3 ) {
+		//var dataUrl = '/pr/dt/dlvchaseinq/retreiveDlvChaseListDtl.dev';
+		console.log("fnChaseDetail( "+hblNo+", "+mblNo+", "+expsBizTypeCd+", "+carrSprCd+", "+wmDomCarr+", "+iframeAddrUrl+", "+chaseId1+", "+chaseId3+")");
+// 		var dataUrl = '/pr/dt/dlvchaseinq/retreiveTrackingListDtl.dev';
+        var dataUrl = '/eCommerce/action/portal.TrackingPopup.retreiveTrackingListDtl';
+		var inputData = {
+			 hblNo : hblNo
+	       , mblNo : mblNo
+	       , locale : LOCALECD
+	       , expsBizTypeCd : expsBizTypeCd
+	       , carrSprCd : carrSprCd
+	       , wmDomCarr : wmDomCarr
+		   //, pageToken : $("#pageToken").val()
+		};
+		var chaseTr1 = document.getElementById('chaseBody').getElementsByClassName('active')[0];
+		var chaseDtlTr3 = document.getElementById(chaseId3);
+
+		if ( ( !cfIsNull(chaseTr1) && chaseId1 == chaseTr1.id ) || chaseDtlTr3.hasChildNodes() ) {
+			var curOpenYn = false;
+			if ( "active" == document.getElementById(chaseId1).className ) {
+				curOpenYn = true;
+			}
+			for ( var i = 0; i < chaseCnt; i++ ) {
+				document.getElementById("chase4_"+i).removeAttribute("class");
+			}
+			if (!curOpenYn) {
+				document.getElementById(chaseId1).setAttribute("class", "active");
+			}
+			return;
+		}
+
+		
+
+        $.ajax({
+			url : dataUrl,
+            data : JSON.stringify(inputData), // inputData,
+            method : 'post',
+            dataType: 'json',
+            contentType: 'application/json; charset=utf-8',
+			async : false,
+			success : function(data) {
+				if( data ){
+// 					if( data.header ){
+                    if( data.body ){
+                        var rtnData = data.body;
+						if( rtnData['result'] && rtnData['result'].RESULT_CD != "0" ){
+							cfAlert(rtnData['result'].RESULT_MSG);
+							return;
+						}
+						if( rtnData.length <= 0 ){
+							cfAlert('If you can not track the delivery, please contact the vendor.');
+						}
+						console.log("/배송추적상세 처리");
+						//배송추적상세 처리
+						fnOpenChaseDtl(rtnData, iframeAddrUrl, chaseId1, chaseId3);
+
+					}
+				}
+			}
+		});
+	}
+	//배송추적상세조회
+	function fnChaseDetailSub( oId ,oMbl, oHbl, oEvnt) {
+		//var dataUrl = '/pr/dt/dlvchaseinq/retreiveDlvChaseListDtl.dev';
+		//fnChaseDetail( 193794030, 1ZV57R840421583411, CX, UPS, null, , chase1_0, chase3_0)
+		console.log("oId==>"+oId)
+		var chDiv = document.getElementById("div"+oId);
+		if(oId.indexOf("DTL")<0) return;
+		if(!cfIsNull(chDiv)) {
+			fnShowEvntDtl("", oId);
+			return;
+		}
+// 		var dataUrl = '/pr/dt/dlvchaseinq/retreiveTrackingListDtlSub.dev';
+        var dataUrl = '/eCommerce/action/portal.TrackingPopup.retreiveTrackingListDtlSub';
+		var inputData = {
+			  hblNo : oHbl
+            , mblNo : oMbl
+            , evntCd : oEvnt
+		};
+		//하위질의 가져왔을경우 재조회하지 않고 객채가져오지 않도록 하는 로직
+		/*
+		var chaseTr1 = document.getElementById('chaseBody').getElementsByClassName('active')[0];
+		var chaseDtlTr3 = document.getElementById(chaseId3);
+
+		if ( ( !cfIsNull(chaseTr1) && chaseId1 == chaseTr1.id ) || chaseDtlTr3.hasChildNodes() ) {
+			var curOpenYn = false;
+			if ( "active" == document.getElementById(chaseId1).className ) {
+				curOpenYn = true;
+			}
+			for ( var i = 0; i < chaseCnt; i++ ) {
+				document.getElementById("chase1_"+i).removeAttribute("class");
+			}
+			if (!curOpenYn) {
+				document.getElementById(chaseId1).setAttribute("class", "active");
+			}
+			return;
+		}
+		*/
+		//하위질의... 여기까지.
+
+		
+
+        $.ajax({
+			url : dataUrl,
+            data : JSON.stringify(inputData), // inputData,
+            method : 'post',
+            dataType: 'json',
+            contentType: 'application/json; charset=utf-8',
+			async : false,
+			success : function(data) {
+				if( data ){
+// 					if( data.header ){
+                    if( data.body ){
+                        var rtnData = data.body;
+						if( rtnData['result'] && rtnData['result'].RESULT_CD != "0" ){
+							cfAlert(rtnData['result'].RESULT_MSG);
+							return;
+						}
+						if( rtnData.length <= 0 ){
+							cfAlert('If you can not track the delivery, please contact the vendor.');
+						}
+						console.log("/배송추적상세 처리Sub");
+						//배송추적상세 처리
+						fnShowEvntDtl(rtnData, oId);
+
+					}
+				}
+			}
+		});
+	}
+	//반품배송조회
+	function fnRtnTrckgNo(hblNo) {
+		var dataUrl = '/eCommerce/action/portal.TrackingPopup.getTrackingRtnInfo';
+		var inputData = {
+			hblNo : hblNo
+		};
+		var returnData;
+		$.ajax({
+			url : dataUrl,
+			data : JSON.stringify(inputData),
+			method : 'post',
+			dataType: 'json',
+			contentType: 'application/json; charset=utf-8',
+			async : false,
+			success : function(data) {
+				console.log("fnRtnTrckgNo : ", data);
+				returnData = {
+					rtnTrckgNo : data.body.wexTrckgNo,
+					carrTypeCd : data.body.carrTypeCd,
+					rtnCargoYn : data.body.rtnCargoYn
+				}
+			}
+		});
+		return returnData;
+	}
+	// 20250306 무신사 YMT 반품 개발 박경택 - 손두희 (야마토 반품인지 확인조회)
+	function fnYmtRtnTrckgNo(hblNo) {
+		var dataUrl = '/eCommerce/action/portal.TrackingPopup.getYmtTrackingRtnInfo';
+		var inputData = {
+			hblNo : hblNo
+		};
+		var returnData;
+		$.ajax({
+			url : dataUrl,
+			data : JSON.stringify(inputData),
+			method : 'post',
+			dataType: 'json',
+			contentType: 'application/json; charset=utf-8',
+			async : false,
+			success : function(data) {
+				console.log("fnYmtRtnTrckgNo : ", data);
+				returnData = {
+					expsSvcGrpCd : data.body.expsSvcGrpCd
+				}
+			}
+		});
+		return returnData;
+	}
+
+	//2019.04.27 EC 모의해킹 관련 방어로직 추가
+	function getParam(obj){
+		if( obj ){
+			if( obj.length ){
+				return obj[0];
+			} else {
+				return obj;
+			}
+		} else {
+			return "";
+		}
+	}
+
+</script>
+</html>

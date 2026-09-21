@@ -93,6 +93,18 @@ export default function auspost(): Courier {
     trackingInfo,
     async trace(number: string): Promise<TraceResult> {
       const response = await request(trackingInfo(number))
+
+      // The search API this courier was built on now answers 404 for every id, and the
+      // API the tracking site itself calls is behind a bot challenge. Say that, rather
+      // than let the error page fall through the parser as "invalid number".
+      if (response.status !== 200) {
+        throw trackerError(
+          ERROR.SERVER_ERROR,
+          `australia post answered ${response.status}: its tracking api was withdrawn and ` +
+            'the one its own site uses refuses automated clients'
+        )
+      }
+
       const body = parseJson<Response>(response)
 
       if (!body.QueryTrackEventsResponse) {

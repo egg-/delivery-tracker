@@ -12,7 +12,7 @@ import {
   trackerError
 } from '../core.js'
 import dayjs from '../dayjs.js'
-import { parseJson, request } from '../http.js'
+import { ensureOk, parseJson, request } from '../http.js'
 
 const REF = { code: COURIER.DHL.CODE, name: COURIER.DHL.NAME }
 
@@ -77,11 +77,8 @@ export default function dhl(opts?: CourierOptions): Courier {
         throw trackerError(ERROR.REQUIRED_APIKEY)
       }
 
-      const response = await request(trackingInfo(number))
-      if (response.status !== 200) {
-        throw trackerError(response.statusText)
-      }
-
+      // A rejected key answers 401, an unknown number 404.
+      const response = ensureOk(await request(trackingInfo(number)))
       const shipment = parseJson<Response>(response).shipments[0]
       if (!shipment) {
         throw trackerError(ERROR.INVALID_NUMBER)

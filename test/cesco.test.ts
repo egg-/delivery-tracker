@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict'
-import { COURIER, courier, STATUS } from '../src/index.js'
+import { COURIER, courier, ERROR, STATUS } from '../src/index.js'
 import prepare from './fixtures/prepare.js'
 
 const cesco = courier(COURIER.CESCO.CODE)
@@ -8,11 +8,20 @@ describe(COURIER.CESCO.NAME, () => {
   const pendingNum = 'PENDINGNUM'
   const intransitNum = 'INTRANSITNUM'
   const deliveredNum = 'DELIVEREDNUM'
+  const invalidNum = 'INVALIDNUM'
 
   before(() => {
     prepare(cesco, pendingNum)
     prepare(cesco, intransitNum)
     prepare(cesco, deliveredNum)
+    prepare(cesco, invalidNum)
+  })
+
+  it('invalid number', async () => {
+    await assert.rejects(cesco.trace(invalidNum), {
+      name: 'TrackerError',
+      code: ERROR.INVALID_NUMBER
+    })
   })
 
   it('pending number', async () => {

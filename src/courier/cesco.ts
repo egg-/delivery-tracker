@@ -3,11 +3,13 @@ import {
   COURIER,
   type Courier,
   createCourier,
+  ERROR,
   normalizeStatus,
   STATUS,
   type Status,
   type TraceResult,
-  type TrackingRequest
+  type TrackingRequest,
+  trackerError
 } from '../core.js'
 import dayjs from '../dayjs.js'
 import { request } from '../http.js'
@@ -40,6 +42,8 @@ const STATUS_MAP: Record<string, Status> = {
 
 const DATE_PATTERN = /date:\s+(\w+). (\d+), (\d+)/m
 
+const NOT_FOUND = /AIRWAYBILL NOT FOUND/i
+
 function trackingInfo(number: string): TrackingRequest {
   return {
     method: 'POST',
@@ -61,6 +65,10 @@ function parseTime(text: string): string | null {
 }
 
 function parse(html: string, number: string): TraceResult {
+  if (NOT_FOUND.test(html)) {
+    throw trackerError(ERROR.INVALID_NUMBER)
+  }
+
   const $ = load(html)
   const checkpoints: Checkpoint[] = []
 

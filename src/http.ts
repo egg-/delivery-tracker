@@ -1,4 +1,4 @@
-import type { TrackingRequest } from './core.js'
+import { ERROR, type TrackingRequest, trackerError } from './core.js'
 
 export interface HttpResponse {
   status: number
@@ -93,9 +93,34 @@ export async function request(opts: TrackingRequest, cookies?: CookieJar): Promi
   }
 }
 
+/**
+ * Fails on a response the courier did not mean as an answer. A scraper that skips this
+ * reads an error page as if it were tracking data, and reports whatever the parser makes
+ * of the missing fields — usually an empty result, or a `TypeError` from deep inside.
+ */
+export function ensureOk(response: HttpResponse): HttpResponse {
+  if (response.status >= 200 && response.status < 300) {
+    return response
+  }
+  if (response.status === 400 || response.status === 404) {
+    throw trackerError(ERROR.INVALID_NUMBER)
+  }
+  if (response.status === 401 || response.status === 403) {
+    throw trackerError(ERROR.REQUIRED_APIKEY)
+  }
+  throw trackerError(ERROR.SERVER_ERROR, `${response.status} ${response.statusText}`.trim())
+}
+
 /** Parses a JSON response, turning malformed bodies into a caller-friendly failure. */
 export function parseJson<T>(response: HttpResponse): T {
-  return JSON.parse(response.body) as T
+  try {
+    return JSON.parse(response.body) as T
+  } catch {
+    throw trackerError(
+      ERROR.SERVER_ERROR,
+      `expected JSON, got ${response.status} ${response.statusText}`.trim()
+    )
+  }
 }
 
 /**

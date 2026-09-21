@@ -12,7 +12,7 @@ import {
   trackerError
 } from '../core.js'
 import dayjs from '../dayjs.js'
-import { parseJson, request } from '../http.js'
+import { ensureOk, parseJson, request } from '../http.js'
 
 const REF = { code: COURIER.SICEPAT.CODE, name: COURIER.SICEPAT.NAME }
 
@@ -83,10 +83,13 @@ export default function sicepat(opts?: CourierOptions): Courier {
   return createCourier(COURIER.SICEPAT, {
     trackingInfo,
     async trace(number: string): Promise<TraceResult> {
-      const response = await request({
-        ...trackingInfo(number),
-        headers: { 'api-key': apikey }
-      })
+      // A rejected key answers 403 with an HTML page, not the JSON envelope below.
+      const response = ensureOk(
+        await request({
+          ...trackingInfo(number),
+          headers: { 'api-key': apikey }
+        })
+      )
       const body = parseJson<Response>(response)
 
       if (!body.sicepat) {

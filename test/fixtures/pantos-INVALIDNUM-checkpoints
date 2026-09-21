@@ -1,0 +1,8 @@
+{
+  "header": {
+    "type": "SUCCESS",
+    "message": "SUCCESS",
+    "action": "portal.process.TrackingPopup.retreiveTrackingListDtl"
+  },
+  "body": []
+}

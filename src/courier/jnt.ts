@@ -3,6 +3,7 @@ import {
   COURIER,
   type Courier,
   createCourier,
+  ERROR,
   normalizeStatus,
   STATUS,
   type TraceResult,
@@ -93,7 +94,11 @@ export default function jnt(): Courier {
       const response = await session(tracking.track)
 
       if (response.status !== 200) {
-        throw trackerError(response.statusText)
+        throw trackerError(
+          ERROR.SERVER_ERROR,
+          `j&t answered ${response.status} ${response.statusText}: the endpoint moved to ` +
+            'ylofficialjw.jtexpress.ph/website/track/query, which requires a slider captcha'
+        )
       }
 
       const envelope = parseJson<Envelope>(response)

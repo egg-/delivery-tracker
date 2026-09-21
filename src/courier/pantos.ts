@@ -27,13 +27,16 @@ const HANDOVER: Record<string, CourierFactory> = {
   [COURIER.AUSPOST.CODE]: auspost
 }
 
+const BASE = 'https://www.epantos.com/eCommerce/action'
+
 interface Summary {
   hblNo: string
+  mblNo?: string
   refBlNo?: string
   expsBizTypeCd?: string
   podNatnCd?: string
   carrTypeCd?: string
-  linkedAddr?: string
+  wmDomCarr?: string
 }
 
 interface Event {
@@ -43,49 +46,46 @@ interface Event {
   eventDt: string
 }
 
-interface SummaryResponse {
-  OUT_DS1: Summary[]
-  result?: { RESULT_CD?: string }
+interface Envelope<T> {
+  body?: T
 }
 
-interface CheckpointResponse {
-  OUT_DS1: Event[]
-}
-
-function payload(params: Record<string, unknown>): Record<string, string> {
-  return { _dataset_: JSON.stringify({ IN_PARAM: params }) }
+interface SummaryBody {
+  list?: Summary[]
+  result?: { RESULT_CD?: string; RESULT_MSG?: string }
 }
 
 function trackingInfo(number: string): TrackingInfo {
   return {
     index: {
-      url: 'http://www.epantos.com/ecp/web/pr/dt/popup/dlvChaseInqPopup.do',
+      url: 'https://www.epantos.com/ecp/web/pr/dt/popup/dlvChaseInqPopup.do',
       method: 'GET'
     } satisfies TrackingRequest,
     summary: {
-      url: 'http://www.epantos.com/ecp/pr/dt/dlvchaseinq/retreiveTrackingList.dev',
+      url: `${BASE}/portal.TrackingPopup.retreiveTrackingList`,
       method: 'POST',
       json: true,
-      formData: payload({ quickNo: [number], locale: 'en' })
+      body: { quickNo: number, locale: 'en' }
     } satisfies TrackingRequest,
-    checkpoints: {
-      url: 'http://www.epantos.com/ecp/pr/dt/dlvchaseinq/retreiveTrackingListDtl.dev',
-      method: 'POST',
-      json: true,
-      formData: payload({
-        hblNo: number,
-        mblNo: '',
-        locale: 'en',
-        expsBizTypeCd: '',
-        carrSprCd: null,
-        wmDomCarr: null
-      })
-    } satisfies TrackingRequest
+    checkpoints: (hblNo?: string, mblNo?: string, expsBizTypeCd?: string, wmDomCarr?: string) =>
+      ({
+        url: `${BASE}/portal.TrackingPopup.retreiveTrackingListDtl`,
+        method: 'POST',
+        json: true,
+        body: {
+          hblNo: hblNo ?? number,
+          mblNo: mblNo ?? '',
+          locale: 'en',
+          expsBizTypeCd: expsBizTypeCd ?? '',
+          carrSprCd: null,
+          wmDomCarr: wmDomCarr ?? null
+        }
+      }) satisfies TrackingRequest
   }
 }
 
-function parseCheckpoints(body: CheckpointResponse): Checkpoint[] {
-  return body.OUT_DS1.map((item) => {
+function parseCheckpoints(events: Event[]): Checkpoint[] {
+  return events.map((item) => {
     let status: Checkpoint['status'] = STATUS.IN_TRANSIT
     if (item.evntCd === 'DLI') {
       status = STATUS.DELIVERED
@@ -108,15 +108,14 @@ function parseCheckpoints(body: CheckpointResponse): Checkpoint[] {
  * still supported. US handovers go to UPS, USPS or FedEx, none of which can be traced any
  * more, so they are left alone.
  */
-function parseHandover(body: SummaryResponse): { code: string; number: string } | null {
-  const data = body.OUT_DS1[0]
-  const number = data?.refBlNo
+function parseHandover(summary: Summary): { code: string; number: string } | null {
+  const number = summary.refBlNo
 
-  if (!data || !number || data.expsBizTypeCd !== 'PX') {
+  if (!number || summary.expsBizTypeCd !== 'PX') {
     return null
   }
 
-  if (data.podNatnCd === 'AU') {
+  if (summary.podNatnCd === 'AU') {
     return { code: COURIER.AUSPOST.CODE, number }
   }
   return null
@@ -126,41 +125,50 @@ export default function pantos(): Courier {
   return createCourier(COURIER.PANTOS, {
     trackingInfo,
     async trace(number: string): Promise<TraceResult> {
-      const tracking = trackingInfo(number) as Record<string, TrackingRequest>
+      const tracking = trackingInfo(number) as {
+        index: TrackingRequest
+        summary: TrackingRequest
+        checkpoints: (...args: (string | undefined)[]) => TrackingRequest
+      }
       const session = createSession()
 
       // The endpoints only answer to a session that has opened the popup page first.
-      const index = tracking.index
-      if (index) {
-        await session(index)
-      }
+      await session(tracking.index)
 
-      const [summaryResponse, checkpointResponse] = await Promise.all([
-        session(tracking.summary as TrackingRequest),
-        session(tracking.checkpoints as TrackingRequest)
-      ])
-
-      const summary = parseJson<SummaryResponse>(summaryResponse)
-      if (summary.result?.RESULT_CD === '-1') {
+      const summaryBody = parseJson<Envelope<SummaryBody>>(await session(tracking.summary)).body
+      const resultCode = summaryBody?.result?.RESULT_CD
+      if (resultCode !== undefined && resultCode !== '0') {
         throw trackerError(ERROR.SEARCH_AGAIN)
       }
 
-      let checkpoints = parseCheckpoints(parseJson<CheckpointResponse>(checkpointResponse))
+      // An unknown number comes back as an empty list rather than an error.
+      const summary = summaryBody?.list?.[0]
+      if (!summary) {
+        throw trackerError(ERROR.INVALID_NUMBER)
+      }
+
+      const detail = await session(
+        tracking.checkpoints(summary.hblNo, summary.mblNo, summary.expsBizTypeCd, summary.wmDomCarr)
+      )
+      let checkpoints = parseCheckpoints(parseJson<Envelope<Event[]>>(detail).body ?? [])
 
       const handover = parseHandover(summary)
-      if (handover) {
-        const factory = HANDOVER[handover.code]
-        if (factory) {
+      const factory = handover ? HANDOVER[handover.code] : undefined
+      if (handover && factory) {
+        try {
           const handoverResult = await factory().trace(handover.number)
           checkpoints = checkpoints
             .concat(handoverResult.checkpoints)
             .sort((a, b) => new Date(b.time).getTime() - new Date(a.time).getTime())
+        } catch {
+          // The receiving carrier is a bonus: a failure there must not lose the
+          // checkpoints Pantos itself reported.
         }
       }
 
       return {
         courier: REF,
-        number: summary.OUT_DS1[0]?.hblNo ?? number,
+        number: summary.hblNo || number,
         status: normalizeStatus(checkpoints),
         checkpoints
       }

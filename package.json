@@ -1,6 +1,6 @@
 {
   "name": "delivery-tracker",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -18,7 +18,8 @@
     "delivery-tracker": "./dist/bin.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "CHANGELOG.md"
   ],
   "engines": {
     "node": ">=20"
@@ -32,6 +33,7 @@
     "typecheck": "tsc --noEmit",
     "test": "npm run lint && npm run typecheck && npm run test:unit",
     "test:unit": "mocha",
+    "probe": "tsx scripts/probe.ts",
     "test:watch": "mocha --watch"
   },
   "repository": {

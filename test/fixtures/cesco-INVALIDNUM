@@ -1,0 +1,24 @@
+
+	<div class="col-sm-12">
+		<center><b>AIRWAYBILL NOT FOUND0</b></center>
+	</div>
+<script>
+        $(document).ready(function() {
+            var r = 0;
+            $(document).on('click', '.putar', function() {
+                var tipe = $(this).attr('data-tipe');
+                if (tipe == 'kanan') {
+                    r = r + 90;
+                    if (r > 360) {
+                        r = 90;
+                    }
+                } else {
+                    r = r - 90;
+                    if (r < 0) {
+                        r = 270;
+                    }
+                }
+                $('#image1').css('transform', 'rotate(' + r + 'deg)');
+            });
+        });
+</script>
